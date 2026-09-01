@@ -65,6 +65,24 @@
     "verifyStats": true
   },
 
+  "userProvidedScreenshots": {
+    "note": "Real rare items the user supplied as concrete anchors. Both carry the classic random rare-name flavor. Use these exact rolls if we build cards around them.",
+    "items": [
+      {
+        "name": "Carrion Song",
+        "base": "Gothic Bow",
+        "quality": "rare",
+        "stats": ["Two-Hand Damage: 30 to 163", "Required Dexterity: 95", "Required Strength: 76", "Required Level: 26", "Bow Class - Very Fast Attack Speed", "Requirements -20%", "+1 to Amazon Skill Levels", "+% Enhanced Damage (value obscured in screenshot)", "+132 to Attack Rating", "+18 to Maximum Damage", "Increased Attack Speed"]
+      },
+      {
+        "name": "Armageddon Fletch",
+        "base": "Amulet",
+        "quality": "rare",
+        "stats": ["Required Level: 41", "+2 to Sorceress Skill Levels", "+20% Faster Cast Rate", "+18 to Strength", "+55 to Life", "+59 to Mana", "All Resistances +23"]
+      }
+    ]
+  },
+
   "consideredAndRejected": [
     { "name": "Windforce", "reason": "Famous iconic bow, common knowledge. Fails the surprise bar." },
     { "name": "Secret Cow Level / Cow King", "reason": "Great history but not an item. Wirt's Leg (the key) already rejected as too obvious." },

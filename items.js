@@ -140,6 +140,107 @@ const ITEMS = [
     why: "The poison necromancer's endgame wand, and the reason the build works at the top level. Minus enemy poison resistance is the whole point, and this rolls to minus fifty. Add two skills and two to poison and bone on top. There is no substitute. If you play poison necro seriously, you own one or you are working toward it.",
     history: null,
     ifYouFind: "The poison resistance roll is the item. Minus fifty is perfect. Anything in the forties still sells."
+  },
+  {
+    slug: "armageddon-fletch",
+    name: "Armageddon Fletch",
+    alias: "2/20 caster amulet",
+    quality: "rare",
+    type: "Amulet",
+    sprite: "img/rare-amulet.png",
+    tooltip: [
+      { t: "Required Level: 41", c: "white" },
+      "+2 to Sorceress Skill Levels",
+      "+20% Faster Cast Rate",
+      "+18 to Strength",
+      "+55 to Life",
+      "+59 to Mana",
+      "All Resistances +23"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A rare amulet that quietly beats the famous unique ones. Two sorceress skills and twenty faster cast rate, then life, strength and all resistances piled on top. Mara's gets the attention. An amulet like this does more for a caster, and it comes with no gold name to tip you off. The random title is doing a lot of work to hide how good it is.",
+    history: null,
+    ifYouFind: "Two class skills and twenty cast rate on one amulet is the jackpot. Everything after that is a bonus most uniques cannot match."
+  },
+  {
+    slug: "carrion-song",
+    name: "Carrion Song",
+    alias: "classic rare bow",
+    quality: "rare",
+    type: "Gothic Bow",
+    sprite: "img/rare-bow.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 30 to 163", c: "white" },
+      { t: "Required Dexterity: 95", c: "white" },
+      { t: "Required Strength: 76", c: "white" },
+      { t: "Required Level: 26", c: "white" },
+      { t: "Bow Class - Very Fast Attack Speed", c: "white" },
+      "Requirements -20%",
+      "+1 to Amazon Skill Levels",
+      "+132 to Attack Rating",
+      "+18 to Maximum Damage",
+      "Increased Attack Speed"
+    ],
+    valueTier: "C",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A yellow bow with a random name, and in classic Diablo 2 that was the dream. Before runewords, before Windforce, a rolled rare like this was the bowazon endgame. A class skill on a bow you can hold at level 26, very fast attack speed, a stack of attack rating and max damage. The name means nothing. The game bolts two words together at random. The rolls are everything, and rolls like these almost never landed.",
+    history: null,
+    ifYouFind: "This is what people mean when they say do not vendor yellows. Read every line first."
+  },
+  {
+    slug: "imp-shank",
+    name: "Imp Shank",
+    alias: "tri-res rare boots",
+    quality: "rare",
+    type: "Mesh Boots",
+    sprite: "img/rare-boots.png",
+    tooltip: [
+      { t: "Defense: 39", c: "white" },
+      { t: "Durability: 16 of 16", c: "white" },
+      { t: "Required Strength: 65", c: "white" },
+      { t: "Required Level: 26", c: "white" },
+      "+30% Faster Run/Walk",
+      "Cold Resist +12%",
+      "Lightning Resist +36%",
+      "Fire Resist +46%",
+      "Half Freeze Duration",
+      "34% Better Chance of Getting Magic Items"
+    ],
+    valueTier: "B",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "Boots are a slot most people fill with a unique and forget. This rare beats most of them. Thirty faster run and walk, three resistances at once, half freeze duration, and a slice of magic find. A single rare covering that many needs almost never happens. The game has to roll every one of those lines together, and it rarely does.",
+    history: null,
+    ifYouFind: "Tri-res on boots is the hard part. Everything else here is a bonus."
+  },
+  {
+    slug: "arkaines-valor",
+    name: "Arkaine's Valor",
+    alias: "legacy Arkaine's",
+    quality: "unique",
+    type: "Balrog Skin",
+    sprite: "img/arkaines-valor.png",
+    tooltip: [
+      { t: "Defense: 1664", c: "white" },
+      { t: "Required Strength: 165", c: "white" },
+      { t: "Required Level: 85", c: "white" },
+      "Indestructible",
+      "+2 to All Skill Levels",
+      "30% Faster Hit Recovery",
+      "+200% Enhanced Defense",
+      "+247 to Vitality (Based on Character Level)",
+      "+198 to Life (Based on Character Level)",
+      "Fire Resist +50%"
+    ],
+    valueTier: "B",
+    rarityTier: "Mythic",
+    obscurity: 4,
+    why: "This is not the Arkaine's Valor that drops today. This is the old one. Before the nerf it gave two and a half vitality and two life for every character level, plus two to all skills, indestructible, and fire resist, all on one body armor. At level ninety-nine that is hundreds of free vitality and life. The current version was cut down hard, so a copy like this can no longer drop.",
+    history: "Arkaine's Valor was so strong before the 1.10 patch that it became one of the most duped armors in the game. Blizzard gutted the life and vitality bonus and left the weaker version dropping in its place. The old copies were never deleted, only frozen out of the loot table. The ones still around are relics from a version of Diablo 2 that no longer exists, and they thin out every year as old accounts expire.",
+    ifYouFind: "It does not drop anymore. Anyone offering one is trading a survivor from an old patch, not a fresh find."
   }
 ];
 
