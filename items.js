@@ -26,10 +26,13 @@
    under the header; use it when the in-game tooltip name would mislead
    (the Occy Ring displays in game as a Stone of Jordan). It defaults to
    `name`. The `alias` renders as a small subtitle beneath the title.
-   Optional `fill` is an array of socketable sprite paths (img/socketables/*)
-   the length of the socket count; when present the sprite gets an empty/
-   filled toggle that overlays them, showing the item socketed (e.g. a white
-   Monarch filled with the Spirit runes). `fillLabel` sets the toggle text.
+   Socketed items: `sockets` (a count) draws that many empty socket holes over
+   the sprite by default. Optional `fill` is an array of socketable sprite
+   paths (img/socketables/*); when present, a button fills the holes with them,
+   and any `fillTip` lines (the stats those socketables add) appear in the
+   tooltip. `fillLabel` sets the button text. If `fill` is set its length is
+   the socket count, so `sockets` is only needed when an item has sockets but
+   no defined fill.
    Optional `era` (e.g. "Classic") renders a tag beside the tiers marking
    the game the item mattered in; leave it off for current Expansion items
    so the tag stays meaningful. Optional `lastPatch` (e.g. "1.09") marks an item
@@ -67,7 +70,8 @@ const ITEMS = [
     type: "",
     sprite: "img/monarch.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "fill with facets",
+    fillLabel: "socket 4 lightning facets",
+    fillTip: ["-20% to Enemy Lightning Resistance", "+20% to Lightning Skill Damage"],
     tooltip: [
       { t: "Defense: 134", c: "white" },
       { t: "Chance to Block: 67%", c: "white" },
@@ -807,7 +811,7 @@ const ITEMS = [
     type: "",
     sprite: "img/sacred-targe.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "fill with facets",
+    fillLabel: "socket it",
     tooltip: [
       { t: "Defense: 141", c: "white" },
       { t: "Chance to Block: 76%", c: "white" },
@@ -933,6 +937,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/archon-plate.png",
+    sockets: 4,
     tooltip: [
       { t: "Defense: 512", c: "white" },
       { t: "Durability: 60 of 60", c: "white" },
@@ -956,7 +961,7 @@ const ITEMS = [
     type: "",
     sprite: "img/diadem.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "fill with facets",
+    fillLabel: "socket it",
     tooltip: [
       { t: "Defense: 52", c: "white" },
       { t: "Durability: 11 of 20", c: "white" },
@@ -1031,7 +1036,7 @@ const ITEMS = [
     type: "",
     sprite: "img/eldritch-orb.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "fill with facets",
+    fillLabel: "socket it",
     tooltip: [
       { t: "One-Hand Damage: 18 to 42", c: "white" },
       { t: "Required Level: 60", c: "white" },
@@ -1057,7 +1062,7 @@ const ITEMS = [
     type: "",
     sprite: "img/falcon-mask.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "fill with facets",
+    fillLabel: "socket it",
     tooltip: [
       { t: "Defense: 12", c: "white" },
       { t: "Durability: 20 of 20", c: "white" },
@@ -1087,7 +1092,7 @@ const ITEMS = [
     type: "",
     sprite: "img/diadem.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "fill with facets",
+    fillLabel: "socket it",
     tooltip: [
       { t: "Defense: 53", c: "white" },
       { t: "Durability: 20 of 20", c: "white" },

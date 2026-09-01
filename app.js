@@ -68,10 +68,10 @@
   if (app) app.addEventListener("click", function (e) {
     var btn = e.target && e.target.closest ? e.target.closest(".sprite-toggle") : null;
     if (!btn) return;
-    var s = btn.closest(".sprite");
-    if (!s) return;
-    var on = s.classList.toggle("show-fill");
-    btn.textContent = on ? "show empty" : (btn.getAttribute("data-label") || "show socketed");
+    var col = btn.closest(".tip-col");
+    if (!col) return;
+    var on = col.classList.toggle("show-fill");
+    btn.textContent = on ? "show empty" : (btn.getAttribute("data-label") || "socket it");
   });
 
   var state = { item: null, pinned: false, lang: DEFAULT_LANG };
@@ -204,13 +204,21 @@
       return tooltipLineHtml(l, lang);
     }).join("");
 
+    // Stats the socketables add, shown only in the filled state.
+    var fillLines = "";
+    if (Array.isArray(item.fillTip) && item.fillTip.length) {
+      fillLines = item.fillTip.map(function (l) {
+        return tooltipLineHtml(l, lang).replace('class="t-line', 'class="t-line t-fill');
+      }).join("");
+    }
+
     var typeVal = t(item.type, lang);
 
     return '' +
       '<div class="tooltip q-' + esc(item.quality || "normal") + '">' +
         '<div class="t-name">' + esc(t(item.name, lang)) + "</div>" +
         (typeVal ? '<div class="t-type">' + esc(typeVal) + "</div>" : "") +
-        (lines ? '<div class="t-lines">' + lines + "</div>" : "") +
+        ((lines || fillLines) ? '<div class="t-lines">' + lines + fillLines + "</div>" : "") +
       "</div>";
   }
 
@@ -232,17 +240,27 @@
   function spriteHtml(item, lang) {
     if (!item.sprite) return "";
     var fill = Array.isArray(item.fill) ? item.fill : null;
-    var label = t(item.fillLabel, lang) || "show socketed";
-    var fillImgs = fill ? fill.map(function (src) {
-      return '<img src="' + esc(src) + '" alt="">';
-    }).join("") : "";
+    var count = item.sockets || (fill ? fill.length : 0);
+
+    var socketsOverlay = "";
+    if (count > 0) {
+      var cells = "";
+      for (var i = 0; i < count; i++) {
+        var gem = fill && fill[i] ? '<img class="socket-gem" src="' + esc(fill[i]) + '" alt="">' : "";
+        cells += '<span class="socket">' + gem + "</span>";
+      }
+      var cols = count <= 3 ? count : Math.ceil(count / 2);
+      socketsOverlay = '<div class="sockets" style="grid-template-columns:repeat(' + cols + ',auto)" aria-hidden="true">' + cells + "</div>";
+    }
+
+    var label = t(item.fillLabel, lang) || "socket it";
     return '<div class="sprite">' +
       '<div class="sprite-stage">' +
         '<img class="sprite-base" src="' + esc(item.sprite) + '" alt="' + esc(t(item.name, lang)) + ' sprite" ' +
         'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
-        (fill ? '<div class="sprite-fill" aria-hidden="true">' + fillImgs + "</div>" : "") +
+        socketsOverlay +
       "</div>" +
-      (fill ? '<button type="button" class="sprite-toggle" data-label="' + esc(label) + '">' + esc(label) + "</button>" : "") +
+      (fill && fill.length ? '<button type="button" class="sprite-toggle" data-label="' + esc(label) + '">' + esc(label) + "</button>" : "") +
       "</div>";
   }
 
