@@ -149,6 +149,37 @@ const ITEMS = [
     ifYouFind: null
   },
   {
+    slug: "wraith-crack",
+    name: "Wraith Crack",
+    alias: "the six-figure rare",
+    quality: "rare",
+    type: "Legendary Mallet",
+    sprite: "img/legendary-mallet.png",
+    tooltip: [
+      { t: "One-Hand Damage: 293 to 404", c: "white" },
+      { t: "Durability: 65 of 65", c: "white" },
+      { t: "Required Strength: 179", c: "white" },
+      { t: "Required Level: 73", c: "white" },
+      { t: "Mace Class - Very Fast Attack Speed", c: "white" },
+      "+40% Increased Attack Speed",
+      "+291% Enhanced Damage",
+      "+49 to Maximum Damage (Based on Character Level)",
+      "+1633 to Attack Rating (Based on Character Level)",
+      "+1 Cold Damage",
+      "+40% Deadly Strike",
+      "Repairs 1 Durability in 20 Seconds",
+      "+50% Damage to Undead",
+      "Ethereal (Cannot be Repaired)",
+      "Socketed (2)"
+    ],
+    valueTier: "S",
+    rarityTier: "Mythic",
+    obscurity: 4,
+    why: "Every line here is legitimate, and that is the point. A rare that rolled near the ceiling on everything at once: two hundred ninety one enhanced damage just under the cap, forty attack speed, forty deadly strike from the two Lo runes, all on an ethereal fast mace. Nothing unique or runeword beats it for a straight melee build. The odds of the game rolling one item this well are almost none, which is why it became the most famous rare in the game.",
+    history: "Wraith Crack is the item people mean when they say a Diablo 2 drop sold for a house payment. It reportedly changed hands for around a hundred and twenty thousand US dollars, one of the largest sums ever paid for a single game item. Not because it was hacked or bugged, but because it was a perfect legitimate roll on the best melee base, and there was only one. The price was scarcity in its purest form.",
+    ifYouFind: "You will not roll a second one. The value is that every affix landed near max on the same legitimate item, and that has essentially never happened twice."
+  },
+  {
     slug: "deaths-web",
     name: "Death's Web",
     alias: "Web",
