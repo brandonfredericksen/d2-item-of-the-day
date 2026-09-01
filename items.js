@@ -26,7 +26,9 @@
    under the header; use it when the in-game tooltip name would mislead
    (the Occy Ring displays in game as a Stone of Jordan). It defaults to
    `name`. The `alias` renders as a small subtitle beneath the title.
-   Optional `lastPatch` (e.g. "1.09") marks an item
+   Optional `era` (e.g. "Classic") renders a tag beside the tiers marking
+   the game the item mattered in; leave it off for current Expansion items
+   so the tag stays meaningful. Optional `lastPatch` (e.g. "1.09") marks an item
    whose shown version no longer drops; it renders as a "Last seen" tag
    beside the tiers. Use it for legacy / pre-nerf entries.
    To turn a language on, add it to AVAILABLE_LANGS
@@ -177,6 +179,7 @@ const ITEMS = [
     alias: "classic rare bow",
     quality: "rare",
     type: "Gothic Bow",
+    era: "Classic",
     sprite: "img/rare-bow.png",
     tooltip: [
       { t: "Two-Hand Damage: 30 to 163", c: "white" },

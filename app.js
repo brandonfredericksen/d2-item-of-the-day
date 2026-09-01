@@ -42,6 +42,8 @@
       rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
       lastPatchLabel: "Last seen",
       lastPatchMeaning: "This version no longer drops. It last existed in this patch, before a later patch changed or removed it.",
+      eraLabel: "Era",
+      eraMeaning: "The game this item mattered in. Classic is Diablo II before the Lord of Destruction expansion. Shown only when it is not the current game.",
       aliasPrefix: "traders call it: ",
       archiveSummary: "Every item so far",
       bannerText: "You are looking at a specific item, not today's.",
@@ -235,6 +237,11 @@
         '<span class="tag rarity" title="' + esc(ui("rarityMeaning", lang)) + '">' +
           esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +
         "</span>" +
+        (item.era
+          ? '<span class="tag era" title="' + esc(ui("eraMeaning", lang)) + '">' +
+              esc(ui("eraLabel", lang)) + " <b>" + esc(t(item.era, lang)) + "</b>" +
+            "</span>"
+          : "") +
         (item.lastPatch
           ? '<span class="tag legacy" title="' + esc(ui("lastPatchMeaning", lang)) + '">' +
               esc(ui("lastPatchLabel", lang)) + " <b>" + esc(t(item.lastPatch, lang)) + "</b>" +
