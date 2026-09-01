@@ -686,6 +686,8 @@ const ITEMS = [
     quality: "normal",
     type: "",
     sprite: "img/berserker-axe.png",
+    fill: ["img/socketables/rune-vex.png", "img/socketables/rune-hel.png", "img/socketables/rune-el.png", "img/socketables/rune-eld.png", "img/socketables/rune-zod.png", "img/socketables/rune-eth.png"],
+    fillLabel: "fill for Breath of the Dying",
     tooltip: [
       { t: "One-Hand Damage: 24 to 71", c: "white" },
       { t: "Required Level: 64", c: "white" },
@@ -708,6 +710,8 @@ const ITEMS = [
     quality: "normal",
     type: "",
     sprite: "img/giant-thresher.png",
+    fill: ["img/socketables/rune-ber.png", "img/socketables/rune-mal.png", "img/socketables/rune-ber.png", "img/socketables/rune-ist.png"],
+    fillLabel: "fill for Infinity",
     tooltip: [
       { t: "Two-Hand Damage: 40 to 114", c: "white" },
       { t: "Required Level: 66", c: "white" },
@@ -751,6 +755,8 @@ const ITEMS = [
     quality: "normal",
     type: "",
     sprite: "img/grand-matron-bow.png",
+    fill: ["img/socketables/rune-ohm.png", "img/socketables/rune-jah.png", "img/socketables/rune-lem.png", "img/socketables/rune-eld.png"],
+    fillLabel: "fill for Faith",
     tooltip: [
       { t: "Two-Hand Damage: 14 to 72", c: "white" },
       { t: "Required Level: 58", c: "white" },
