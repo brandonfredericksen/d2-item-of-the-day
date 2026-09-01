@@ -13,3 +13,6 @@ PROGRESS.md
 # OS
 Thumbs.db
 .DS_Store
+
+# Terminal Paste Image folder
+.cp-images/

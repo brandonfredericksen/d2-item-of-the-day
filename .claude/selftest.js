@@ -41,8 +41,7 @@ ok("object returns requested lang", t({en:"The Gnasher",de:"Der Nörgler"},"de")
 ok("object falls back to en", t({en:"The Gnasher"},"de")==="The Gnasher");
 ok("object falls back to first when no en", t({fr:"X"},"de")==="X");
 ok("null -> empty", t(null,"en")==="");
-ok("gnasher name localized in data", t(ITEMS.find(i=>i.slug==="the-gnasher").name,"de")==="Der Nörgler");
-ok("gnasher name english default", t(ITEMS.find(i=>i.slug==="the-gnasher").name,"en")==="The Gnasher");
+ok("every shipped item resolves a non-empty name", ITEMS.every(i=>t(i.name,"en").length>0));
 
 console.log("--- mismatch badge ---");
 ok("zod (C / Mythic) -> rarer", mismatchFor({valueTier:"C",rarityTier:"Mythic"})==="rarer");

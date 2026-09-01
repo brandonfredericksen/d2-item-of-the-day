@@ -273,10 +273,14 @@
       flavorHtml(t(item.why, lang), "reveal r2") +
       flavorHtml(t(item.history, lang), "reveal r3") +
 
-      '<section class="reveal r4"><h2>' + esc(ui("findTitle", lang)) + "</h2>" +
-        '<div class="find"><p>' + esc(t(item.ifYouFind, lang)) + "</p></div>" +
-        (t(item.uncertain, lang) ? '<p class="uncertain">' + esc(t(item.uncertain, lang)) + "</p>" : "") +
-      "</section>";
+      (t(item.ifYouFind, lang)
+        ? '<section class="reveal r4"><h2>' + esc(ui("findTitle", lang)) + "</h2>" +
+            '<div class="find"><p>' + esc(t(item.ifYouFind, lang)) + "</p></div>" +
+          "</section>"
+        : "") +
+      (t(item.uncertain, lang)
+        ? '<section class="reveal r4"><p class="uncertain">' + esc(t(item.uncertain, lang)) + "</p></section>"
+        : "");
 
     renderFooter(lang);
     updateRollover();
