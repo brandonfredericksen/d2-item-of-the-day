@@ -849,7 +849,8 @@ const ITEMS = [
     type: "",
     sprite: "img/sacred-targe.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "socket it",
+    fillLabel: "socket 4 lightning facets",
+    fillTip: ["-20% to Enemy Lightning Resistance", "+20% to Lightning Skill Damage"],
     tooltip: [
       { t: "Defense: 141", c: "white" },
       { t: "Chance to Block: 76%", c: "white" },
@@ -999,7 +1000,8 @@ const ITEMS = [
     type: "",
     sprite: "img/diadem.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "socket it",
+    fillLabel: "socket 3 lightning facets",
+    fillTip: ["-15% to Enemy Lightning Resistance", "+15% to Lightning Skill Damage"],
     tooltip: [
       { t: "Defense: 52", c: "white" },
       { t: "Durability: 11 of 20", c: "white" },
@@ -1074,7 +1076,8 @@ const ITEMS = [
     type: "",
     sprite: "img/eldritch-orb.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "socket it",
+    fillLabel: "socket 2 fire facets",
+    fillTip: ["-10% to Enemy Fire Resistance", "+10% to Fire Skill Damage"],
     tooltip: [
       { t: "One-Hand Damage: 18 to 42", c: "white" },
       { t: "Required Level: 60", c: "white" },
@@ -1100,7 +1103,8 @@ const ITEMS = [
     type: "",
     sprite: "img/falcon-mask.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "socket it",
+    fillLabel: "socket 2 cold facets",
+    fillTip: ["-10% to Enemy Cold Resistance", "+10% to Cold Skill Damage"],
     tooltip: [
       { t: "Defense: 12", c: "white" },
       { t: "Durability: 20 of 20", c: "white" },
@@ -1130,7 +1134,8 @@ const ITEMS = [
     type: "",
     sprite: "img/diadem.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
-    fillLabel: "socket it",
+    fillLabel: "socket 3 lightning facets",
+    fillTip: ["-15% to Enemy Lightning Resistance", "+15% to Lightning Skill Damage"],
     tooltip: [
       { t: "Defense: 53", c: "white" },
       { t: "Durability: 20 of 20", c: "white" },
