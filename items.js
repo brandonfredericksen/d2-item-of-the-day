@@ -69,28 +69,6 @@ const ITEMS = [
     ifYouFind: "Count the sockets before you do anything else. Four is a real find. Three is not the same item."
   },
   {
-    slug: "griffons-eye",
-    name: "Griffon's Eye",
-    alias: "Griff",
-    quality: "unique",
-    type: "Diadem",
-    sprite: "img/griffons-eye.png",
-    tooltip: [
-      { t: "Defense: 260", c: "white" },
-      { t: "Required Level: 76", c: "white" },
-      "+1 to All Skills",
-      "+25% Faster Cast Rate",
-      "-20% to Enemy Lightning Resistance",
-      "+15% to Lightning Skill Damage"
-    ],
-    valueTier: "S",
-    rarityTier: "Very Rare",
-    obscurity: 2,
-    why: "The lightning sorceress and javazon endgame helm. Two rolls set its worth: minus enemy lightning resistance, and plus lightning skill damage. Perfect is minus twenty and plus fifteen. A low roll is the same helm at a fraction of the price. Nothing else stacks skills, cast rate and resistance reduction into one slot.",
-    history: null,
-    ifYouFind: "Read the two lightning lines. That is where the value lives, not in the plus skills you notice first."
-  },
-  {
     slug: "tyraels-might",
     name: "Tyrael's Might",
     alias: "TM",
@@ -116,29 +94,6 @@ const ITEMS = [
     why: "The rarest item in the game. Not one of the rarest. By the drop numbers, the single hardest thing to see. It is a good armor too, with no strength requirement and a wall of resistances, but it is not Enigma and never was. People want it because almost nobody has one.",
     history: "For years Tyrael's Might was the item you heard about and never saw. Its drop rate is the lowest in the game, low enough that plenty of thousand-hour players have never held one. The stats are good. They are not the best in the slot. The price is the rarity, and nothing else.",
     ifYouFind: "Almost nobody does. If you somehow do, it is a trophy first and gear second."
-  },
-  {
-    slug: "deaths-fathom",
-    name: "Death's Fathom",
-    alias: "Fathom",
-    quality: "unique",
-    type: "Dimensional Shard",
-    sprite: "img/deaths-fathom.png",
-    tooltip: [
-      { t: "One-Hand Damage: 30 to 53", c: "white" },
-      { t: "Required Level: 73", c: "white" },
-      "+3 to Sorceress Skill Levels",
-      "+20% Faster Cast Rate",
-      "+30% to Cold Skill Damage",
-      "Lightning Resist +40%",
-      "Fire Resist +40%"
-    ],
-    valueTier: "S",
-    rarityTier: "Very Rare",
-    obscurity: 2,
-    why: "The only sorceress orb that boosts cold skill damage, which makes it the cold sorceress weapon, full stop. The roll runs 15 to 30 percent. A 30 is a chase item. A 15 is a leveling orb with a good name. Same drop, very different price.",
-    history: null,
-    ifYouFind: "Read the cold skill damage line. Thirty is the number everyone wants."
   },
   {
     slug: "stone-of-jordan",
