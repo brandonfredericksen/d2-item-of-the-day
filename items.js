@@ -22,7 +22,11 @@
      { en: "...", de: "..." }         per-language, English is the fallback
    A missing language falls back to English, so partial translations are
    safe. Universal fields stay plain: slug, quality, sprite, valueTier,
-   rarityTier, obscurity. Optional `lastPatch` (e.g. "1.09") marks an item
+   rarityTier, obscurity. Optional `title` overrides the on-page H1 shown
+   under the header; use it when the in-game tooltip name would mislead
+   (the Occy Ring displays in game as a Stone of Jordan). It defaults to
+   `name`. The `alias` renders as a small subtitle beneath the title.
+   Optional `lastPatch` (e.g. "1.09") marks an item
    whose shown version no longer drops; it renders as a "Last seen" tag
    beside the tiers. Use it for legacy / pre-nerf entries.
    To turn a language on, add it to AVAILABLE_LANGS
@@ -824,7 +828,8 @@ const ITEMS = [
   {
     slug: "oculus-soj",
     name: "Stone of Jordan",
-    alias: "Occy Ring",
+    title: "Occy Ring",
+    alias: "bugged Stone of Jordan",
     quality: "unique",
     type: "Ring",
     sprite: "img/oculus-soj.png",
@@ -848,6 +853,7 @@ const ITEMS = [
   {
     slug: "bugged-tals",
     name: "Tal Rasha's Guardianship",
+    title: "Bugged Tal Rasha's Guardianship",
     alias: "Btal",
     quality: "set",
     type: "Lacquered Plate",

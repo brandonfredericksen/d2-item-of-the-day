@@ -202,11 +202,17 @@
       "</div>";
   }
 
-  /* Trader nickname, shown as a caption OUTSIDE the tooltip so the tooltip
-     stays true to the game. */
-  function akaHtml(item, lang) {
-    var a = t(item.alias, lang);
-    return a ? '<div class="aka">' + esc(a) + "</div>" : "";
+  /* Item title under the header: the plain-language identity of the day's
+     item, so there is never confusion about what you are looking at.
+     `title` overrides when the in-game name in the tooltip would mislead
+     (the Occy Ring displays in game as a Stone of Jordan, for instance).
+     `alias`, the trader nickname, becomes a small subtitle. */
+  function titleHtml(item, lang) {
+    var title = t(item.title, lang) || t(item.name, lang);
+    var sub = t(item.alias, lang);
+    return '<div class="item-title reveal r1"><h1>' + esc(title) + "</h1>" +
+      (sub ? '<div class="item-sub">' + esc(sub) + "</div>" : "") +
+      "</div>";
   }
 
   /* Small secondary detail, not the hero. Collapses entirely when there is
@@ -267,26 +273,26 @@
 
     app.innerHTML =
       bannerHtml(state.pinned, lang) +
-      '<div class="item-head reveal r1">' +
+      titleHtml(item, lang) +
+      '<div class="item-head reveal r2">' +
         '<div class="tip-col">' +
           tooltipHtml(item, lang) +
-          akaHtml(item, lang) +
           spriteHtml(item, lang) +
           tagsHtml(item, lang) +
           (mismatchText ? '<div class="mismatch-note">' + esc(mismatchText) + "</div>" : "") +
         "</div>" +
       "</div>" +
 
-      flavorHtml(t(item.why, lang), "reveal r2") +
-      flavorHtml(t(item.history, lang), "reveal r3") +
+      flavorHtml(t(item.why, lang), "reveal r3") +
+      flavorHtml(t(item.history, lang), "reveal r4") +
 
       (t(item.ifYouFind, lang)
-        ? '<section class="reveal r4"><h2>' + esc(ui("findTitle", lang)) + "</h2>" +
+        ? '<section class="reveal r5"><h2>' + esc(ui("findTitle", lang)) + "</h2>" +
             '<div class="find"><p>' + esc(t(item.ifYouFind, lang)) + "</p></div>" +
           "</section>"
         : "") +
       (t(item.uncertain, lang)
-        ? '<section class="reveal r4"><p class="uncertain">' + esc(t(item.uncertain, lang)) + "</p></section>"
+        ? '<section class="reveal r5"><p class="uncertain">' + esc(t(item.uncertain, lang)) + "</p></section>"
         : "");
 
     renderFooter(lang);
