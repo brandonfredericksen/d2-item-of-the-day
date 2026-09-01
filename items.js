@@ -158,6 +158,9 @@ const ITEMS = [
     quality: "rare",
     type: "Legendary Mallet",
     sprite: "img/legendary-mallet.png",
+    grid: [2, 3],
+    fill: ["img/socketables/rune-lo.png", "img/socketables/rune-lo.png"],
+    filled: true,
     tooltip: [
       { t: "One-Hand Damage: 293 to 404", c: "white" },
       { t: "Durability: 65 of 65", c: "white" },
@@ -179,8 +182,8 @@ const ITEMS = [
     rarityTier: "Mythic",
     obscurity: 4,
     why: "Every line here is legitimate, and that is the point. A rare that rolled near the ceiling on everything at once: two hundred ninety one enhanced damage just under the cap, forty attack speed, forty deadly strike from the two Lo runes, all on an ethereal fast mace. Nothing unique or runeword beats it for a straight melee build. The odds of the game rolling one item this well are almost none, which is why it became the most famous rare in the game.",
-    history: "Wraith Crack is the item people mean when they say a Diablo 2 drop sold for a house payment. It reportedly changed hands for around a hundred and twenty thousand US dollars, one of the largest sums ever paid for a single game item. Not because it was hacked or bugged, but because it was a perfect legitimate roll on the best melee base, and there was only one. The price was scarcity in its purest form.",
-    ifYouFind: "You will not roll a second one. The value is that every affix landed near max on the same legitimate item, and that has essentially never happened twice."
+    history: "Wraith Crack is the rare people tell stories about. The legend has it selling for a six-figure sum, somewhere near a hundred and twenty thousand dollars, though no record of the sale survives and the figure has the ring of folklore. What is real is why the story stuck. A perfect legitimate roll on the best melee base, one of one, is exactly the kind of item a community turns into a myth.",
+    ifYouFind: "There is no second one to roll. Every affix landed near its ceiling on the same legitimate item, which is a coincidence the game has essentially never repeated."
   },
   {
     slug: "deaths-web",
