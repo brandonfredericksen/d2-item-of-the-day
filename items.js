@@ -253,15 +253,15 @@ const ITEMS = [
       "+15 to Strength",
       "Replenish Life +13",
       "+30 to Mana",
-      "Lightning Resist +90%",
+      "Lightning Resist +40%",
       "Socketed (2)"
     ],
     valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
-    why: "A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, ninety lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.",
+    why: "A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, maxed lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.",
     history: null,
-    ifYouFind: "Count the skills. Two to all, plus three each to three separate assassin skills on one claw, is the jackpot. Add the two sockets and the ninety resist and it is a top trapsin weapon."
+    ifYouFind: "Count the skills. Two to all, plus three each to three separate assassin skills on one claw, is the jackpot. Add the two sockets and the resistance and it is a top trapsin weapon."
   },
   {
     slug: "white-ring",
@@ -627,20 +627,20 @@ const ITEMS = [
   {
     slug: "brimstone-barb",
     name: "Brimstone Barb",
-    alias: "460 ED eth thrower",
+    alias: "300 ED eth thrower",
     quality: "rare",
     type: "Stygian Pilum",
     sprite: "img/stygian-pilum.png",
     tooltip: [
-      { t: "Throw Damage: 190 to 616", c: "white" },
-      { t: "One-Hand Damage: 136 to 528", c: "white" },
+      { t: "Throw Damage: 136 to 440", c: "white" },
+      { t: "One-Hand Damage: 97 to 377", c: "white" },
       { t: "Quantity: 90", c: "white" },
       { t: "Required Dexterity: 102", c: "white" },
       { t: "Required Strength: 108", c: "white" },
       { t: "Required Level: 68", c: "white" },
       { t: "Javelin Class - Very Fast Attack Speed", c: "white" },
       "+40% Increased Attack Speed",
-      "+460% Enhanced Damage",
+      "+300% Enhanced Damage",
       "+20 to Minimum Damage",
       "+206 to Attack Rating",
       "Adds 112-133 Fire Damage",
@@ -650,9 +650,9 @@ const ITEMS = [
     valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
-    why: "Throwing builds live and die on their weapon, and this rare beats the uniques. Four hundred and sixty enhanced damage on a javelin is a number the named throwers never reach. It is ethereal, so the damage climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.",
+    why: "Throwing builds live and die on their weapon, and this rare beats the uniques. Three hundred enhanced damage is the most a rolled weapon can reach, and on a javelin that is more raw damage than the named throwers carry. It is ethereal, so the base climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.",
     history: null,
-    ifYouFind: "Throw it, never melee it. Ethereal cannot be repaired, and only the thrown stack refills. The four hundred sixty enhanced damage is the roll that makes it."
+    ifYouFind: "Throw it, never melee it. Ethereal cannot be repaired, and only the thrown stack refills. The maxed three hundred enhanced damage is the roll that makes it."
   },
   {
     slug: "pain-hood",
@@ -1359,33 +1359,6 @@ const ITEMS = [
     why: "The normal Tal Rasha's armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal's is the armor to beat.",
     history: "Bugged items are real items that ended up better than the game ever intended, born in the same 1.08 to 1.10 window as the Occy Ring. The Btal is the most useful of them, which is why it still trades briskly on non-ladder. It cannot be made now. Every one in circulation is an old survivor, quietly duped along the way.",
     ifYouFind: "A Tal's armor with two skills and a socket is bugged. The normal one has neither. Non-ladder only."
-  },
-  {
-    slug: "cruel-colossus-sword",
-    name: "Cruel Colossus Sword of Quickness",
-    alias: "godly magic sword",
-    quality: "magic",
-    type: "",
-    sprite: "img/colossus-sword.png",
-    tooltip: [
-      { t: "One-Hand Damage: 111 to 301", c: "white" },
-      { t: "Two-Hand Damage: 262 to 620", c: "white" },
-      { t: "Durability: 50 of 50", c: "white" },
-      { t: "Required Dexterity: 95", c: "white" },
-      { t: "Required Strength: 182", c: "white" },
-      { t: "Required Level: 60", c: "white" },
-      { t: "Sword Class - Very Fast Attack Speed", c: "white" },
-      "+65% Increased Attack Speed",
-      "+330% Enhanced Damage",
-      "40% Deadly Strike",
-      "Socketed (3)"
-    ],
-    valueTier: "A",
-    rarityTier: "Very Rare",
-    obscurity: 4,
-    why: "A blue sword that hits harder than most runewords. Cruel is the highest damage prefix a weapon can roll, of Quickness adds the attack speed, and this one landed three sockets on top. Fill them with Lo runes for deadly strike or jewels for more damage and you have a two-hander that competes with the famous gold weapons for a fraction of the attention. Most players never learn a magic weapon can roll this high.",
-    history: null,
-    ifYouFind: "Cruel, a high enhanced damage roll, and sockets together is the jackpot. A blue weapon can be worth more than the gold ones. Read the rolls before you sell."
   },
   {
     slug: "jewelers-archon-plate",

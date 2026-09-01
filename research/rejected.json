@@ -87,6 +87,7 @@
     { "name": "Ethereal Berserker Axe (plain, BotD base)", "reason": "user-flagged", "note": "User: 'basic bases like the Berserker Axe' do not make the cut. A plain white runeword base is too obvious; it would need superior mods (e.g. +15% ED) to earn a slot. Was live, cut in review." },
     { "name": "Ethereal Giant Thresher (plain, Infinity base)", "reason": "user-flagged", "note": "Same call as the Berserker Axe. Plain white merc base, not enough on its own without a superior roll." },
     { "name": "Ethereal Thunder Maul (plain)", "reason": "user-flagged", "note": "Same call. Plain white base, no surprise for a seasoned player." },
-    { "name": "Grand Matron Bow (plain, Faith base)", "reason": "user-flagged", "note": "Same call. Plain white runeword base, cut unless it carries superior mods." }
+    { "name": "Grand Matron Bow (plain, Faith base)", "reason": "user-flagged", "note": "Same call. Plain white runeword base, cut unless it carries superior mods." },
+    { "name": "Cruel Colossus Sword of Quickness (330% ED)", "reason": "user-flagged", "note": "Removed in the accuracy audit. 330% ED is above the 300% Cruel cap, so it read as over-legit, and the clean legit Cruel Mythical Sword (300%) already carries the 'godly magic sword beats runewords' lesson." }
   ]
 }
