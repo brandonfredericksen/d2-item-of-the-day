@@ -38,7 +38,10 @@
    and any `fillTip` lines (the stats those socketables add) appear in the
    tooltip. `fillLabel` sets the button text. If `fill` is set its length is
    the socket count, so `sockets` is only needed when an item has sockets but
-   no defined fill.
+   no defined fill. Set `filled: true` for a COMPLETE item that came with its
+   runes/gems already in (e.g. a rare with Lo Lo socketed): the socketables show
+   by default and there is no fill button. The socketables' stats are part of the
+   base tooltip in that case, so do NOT also add `fillTip` (it would double up).
    Optional `era` (e.g. "Classic") renders a tag beside the tiers marking
    the game the item mattered in; leave it off for current Expansion items
    so the tag stays meaningful. Optional `lastPatch` (e.g. "1.09") marks an item

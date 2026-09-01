@@ -269,7 +269,7 @@
         'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
         socketsOverlay +
       "</div>" +
-      (fill && fill.length ? '<button type="button" class="sprite-toggle" data-label="' + esc(label) + '">' + esc(label) + "</button>" : "") +
+      (fill && fill.length && !item.filled ? '<button type="button" class="sprite-toggle" data-label="' + esc(label) + '">' + esc(label) + "</button>" : "") +
       "</div>";
   }
 
@@ -324,7 +324,7 @@
     app.innerHTML =
       titleHtml(item, lang) +
       '<div class="item-head reveal r2">' +
-        '<div class="tip-col">' +
+        '<div class="tip-col' + (item.filled ? " show-fill" : "") + '">' +
           tooltipHtml(item, lang) +
           spriteHtml(item, lang) +
           tagsHtml(item, lang) +
@@ -336,7 +336,7 @@
       flavorHtml(t(item.history, lang), "reveal r4") +
 
       (t(item.ifYouFind, lang)
-        ? '<section class="reveal r5"><h2>' + esc(ui("findTitle", lang)) + "</h2>" +
+        ? '<section class="reveal r5">' +
             '<div class="find"><p>' + esc(t(item.ifYouFind, lang)) + "</p></div>" +
           "</section>"
         : "") +
