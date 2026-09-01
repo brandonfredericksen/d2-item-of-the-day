@@ -19,3 +19,6 @@ Thumbs.db
 
 # local safety-net backup of all pasted images (curated real items live in research/reference-screenshots)
 .cp-backup/
+
+# playwright-mcp scratch output (browser snapshots, console logs)
+.playwright-mcp/

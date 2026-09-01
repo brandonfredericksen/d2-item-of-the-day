@@ -248,7 +248,11 @@
         var gem = fill && fill[i] ? '<img class="socket-gem" src="' + esc(fill[i]) + '" alt="">' : "";
         cells += '<span class="socket">' + gem + "</span>";
       }
-      var cols = count <= 3 ? count : Math.ceil(count / 2);
+      // Columns follow the item's real inventory width. A single-column base
+      // (an orb, a wand) stacks its sockets vertically; a two-wide base fills
+      // row by row, which matches how the game lays sockets into the grid.
+      var invW = (item.grid && item.grid[0]) ? item.grid[0] : Math.min(count, 2);
+      var cols = Math.min(invW, count);
       socketsOverlay = '<div class="sockets" style="grid-template-columns:repeat(' + cols + ',auto)" aria-hidden="true">' + cells + "</div>";
     }
 

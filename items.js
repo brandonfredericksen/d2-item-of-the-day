@@ -27,7 +27,12 @@
    (the Occy Ring displays in game as a Stone of Jordan). It defaults to
    `name`. The `alias` renders as a small subtitle beneath the title.
    Socketed items: `sockets` (a count) draws that many empty socket holes over
-   the sprite by default. Optional `fill` is an array of socketable sprite
+   the sprite by default. Optional `grid` is the item's inventory size in cells,
+   [columns, rows]. The socket holes are laid out in that many columns and fill
+   row by row, matching the game: a single-column base (an orb, a wand) stacks
+   its sockets vertically, a two-wide base fills two per row. Only the column
+   count changes the layout; the row value is recorded for reference. Omit `grid`
+   and the layout falls back to two columns. Optional `fill` is an array of socketable sprite
    paths (img/socketables/*); when present, a button fills the holes with them,
    and any `fillTip` lines (the stats those socketables add) appear in the
    tooltip. `fillLabel` sets the button text. If `fill` is set its length is
@@ -64,6 +69,7 @@
 const ITEMS = [
   {
     slug: "jmod",
+    grid: [2, 3],
     name: "Jeweler's Monarch of Deflecting",
     alias: "JMOD",
     quality: "magic",
@@ -122,7 +128,7 @@ const ITEMS = [
     alias: "SOJ",
     quality: "unique",
     type: "Ring",
-    sprite: "img/stone-of-jordan.png",
+    sprite: "img/uniques/stone-of-jordan.webp",
     tooltip: [
       { t: "Required Level: 29", c: "white" },
       "+1 to All Skills",
@@ -143,7 +149,7 @@ const ITEMS = [
     alias: "Web",
     quality: "unique",
     type: "Unearthed Wand",
-    sprite: "img/deaths-web.png",
+    sprite: "img/uniques/deaths-web.webp",
     tooltip: [
       { t: "One-Hand Damage: 22 to 28", c: "white" },
       { t: "Required Level: 66", c: "white" },
@@ -239,6 +245,31 @@ const ITEMS = [
     ifYouFind: "Tri-res on boots is the hard part. Everything else here is a bonus."
   },
   {
+    slug: "iceblink",
+    name: "Iceblink",
+    alias: "the freeze-lock armor",
+    quality: "unique",
+    type: "Splint Mail",
+    sprite: "img/uniques/iceblink.webp",
+    tooltip: [
+      { t: "Defense: 172", c: "white" },
+      { t: "Durability: 30 of 30", c: "white" },
+      { t: "Required Strength: 51", c: "white" },
+      { t: "Required Level: 22", c: "white" },
+      "Freezes target",
+      "+80% Enhanced Defense",
+      "Cold Resist +30%",
+      "Magic Damage Reduced by 1",
+      "+4 to Light Radius"
+    ],
+    valueTier: "D",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "A level twenty-two unique nobody stops for, and one of the only body armors in the game that freezes what you hit. A frozen enemy cannot attack, so a melee twink or an Act 2 merc wearing this walks through Normal untouched. Anything killed while frozen shatters and leaves no corpse, which quietly denies the other side every corpse it wanted. It costs a chipped gem and does something almost nothing else can.",
+    history: null,
+    ifYouFind: "The roll does not matter here. Keep it for a leveling character or a merc, and cube it up to a bigger base later if you want the defense."
+  },
+  {
     slug: "arkaines-valor",
     name: "Arkaine's Valor",
     alias: "legacy Arkaine's",
@@ -271,7 +302,7 @@ const ITEMS = [
     alias: "legacy Torch (25% Firestorm)",
     quality: "unique",
     type: "Large Charm",
-    sprite: "img/hellfire-torch.png",
+    sprite: "img/uniques/legacy-hellfire-torch.webp",
     tooltip: [
       { t: "Required Level: 75", c: "white" },
       "25% Chance to Cast Level 10 Firestorm on Striking",
@@ -321,7 +352,7 @@ const ITEMS = [
     alias: "perfect CoA",
     quality: "unique",
     type: "Corona",
-    sprite: "img/crown-of-ages.png",
+    sprite: "img/uniques/crown-of-ages.webp",
     tooltip: [
       { t: "Defense: 399", c: "white" },
       { t: "Required Level: 82", c: "white" },
@@ -455,7 +486,7 @@ const ITEMS = [
     alias: "1.08 Vamp Gaze",
     quality: "unique",
     type: "Grim Helm",
-    sprite: "img/vampire-gaze-08.png",
+    sprite: "img/uniques/vampire-gaze-08.webp",
     tooltip: [
       { t: "Defense: 252", c: "white" },
       { t: "Required Level: 41", c: "white" },
@@ -596,7 +627,7 @@ const ITEMS = [
     alias: "perfect Bloodfist",
     quality: "unique",
     type: "Heavy Gloves",
-    sprite: "img/bloodfist.png",
+    sprite: "img/uniques/bloodfist.webp",
     tooltip: [
       { t: "Defense: 18", c: "white" },
       { t: "Required Level: 9", c: "white" },
@@ -619,7 +650,7 @@ const ITEMS = [
     alias: "Twitch",
     quality: "unique",
     type: "Studded Leather",
-    sprite: "img/twitchthroe.png",
+    sprite: "img/uniques/twitchthroe.webp",
     tooltip: [
       { t: "Defense: 60", c: "white" },
       { t: "Required Level: 16", c: "white" },
@@ -643,7 +674,7 @@ const ITEMS = [
     alias: "Spec Shard",
     quality: "unique",
     type: "Blade",
-    sprite: "img/spectral-shard.png",
+    sprite: "img/uniques/spectral-shard.webp",
     tooltip: [
       { t: "One-Hand Damage: 4 to 15", c: "white" },
       { t: "Required Level: 25", c: "white" },
@@ -685,6 +716,7 @@ const ITEMS = [
   },
   {
     slug: "eth-berserker-axe",
+    grid: [2, 3],
     name: "Berserker Axe",
     alias: "eth BotD base",
     quality: "normal",
@@ -722,6 +754,7 @@ const ITEMS = [
   },
   {
     slug: "eth-giant-thresher",
+    grid: [2, 4],
     name: "Giant Thresher",
     alias: "eth Infinity base",
     quality: "normal",
@@ -779,6 +812,7 @@ const ITEMS = [
   },
   {
     slug: "grand-matron-bow",
+    grid: [2, 4],
     name: "Grand Matron Bow",
     alias: "Faith base",
     quality: "normal",
@@ -843,6 +877,7 @@ const ITEMS = [
   },
   {
     slug: "sacred-targe",
+    grid: [2, 3],
     name: "Jeweler's Sacred Targe of Deflecting",
     alias: "paladin JMOD",
     quality: "magic",
@@ -898,7 +933,7 @@ const ITEMS = [
     alias: "bugged Stone of Jordan",
     quality: "unique",
     type: "Ring",
-    sprite: "img/oculus-soj.png",
+    sprite: "img/uniques/stone-of-jordan.webp",
     tooltip: [
       { t: "Required Level: 42", c: "white" },
       "+3 to Sorceress Skill Levels",
@@ -971,6 +1006,7 @@ const ITEMS = [
   },
   {
     slug: "jewelers-archon-plate",
+    grid: [2, 3],
     name: "Jeweler's Archon Plate of the Whale",
     alias: "4os Archon Plate",
     quality: "magic",
@@ -994,6 +1030,7 @@ const ITEMS = [
   },
   {
     slug: "artisans-diadem",
+    grid: [2, 2],
     name: "Artisan's Diadem of Speed",
     alias: "3os caster Diadem",
     quality: "magic",
@@ -1070,6 +1107,7 @@ const ITEMS = [
   },
   {
     slug: "volcanic-eldritch-orb",
+    grid: [1, 3],
     name: "Volcanic Eldritch Orb",
     alias: "fire sorc caster orb",
     quality: "magic",
@@ -1097,6 +1135,7 @@ const ITEMS = [
   },
   {
     slug: "gaean-falcon-mask",
+    grid: [2, 2],
     name: "Gaean Falcon Mask of the Sun",
     alias: "wind druid pelt",
     quality: "magic",
@@ -1128,6 +1167,7 @@ const ITEMS = [
   },
   {
     slug: "artisans-diadem-dr",
+    grid: [2, 2],
     name: "Artisan's Diadem of Life Everlasting",
     alias: "26 DR caster Diadem",
     quality: "magic",
