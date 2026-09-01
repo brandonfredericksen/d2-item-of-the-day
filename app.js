@@ -2,7 +2,7 @@
    app.js  -  day selection, rendering, archive, permalinks, i18n
 
    URL parameters:
-     ?item=<slug>   pin one item and show the archived-view banner
+     ?item=<slug>   pin one item (permalink), for sharing and the gallery
      ?lang=<code>   force a language (must be in AVAILABLE_LANGS)
      ?day=<n>       debug. step directly to rotation index n
 
@@ -46,8 +46,6 @@
       eraMeaning: "The game this item mattered in. Classic is Diablo II before the Lord of Destruction expansion. Shown only when it is not the current game.",
       aliasPrefix: "traders call it: ",
       archiveSummary: "Every item so far",
-      bannerText: "You are looking at a specific item, not today's.",
-      bannerBack: "Back to today",
       nextItem: "Next item in {h}h {m}m {s}s",
       noSprite: "no sprite",
       mismatchMore: "More valuable than it is rare.",
@@ -301,14 +299,6 @@
     return '<p class="flavor ' + cls + '">' + esc(body) + "</p>";
   }
 
-  function bannerHtml(pinned, lang) {
-    if (!pinned) return "";
-    return '<div class="banner">' +
-      "<span>" + esc(ui("bannerText", lang)) + "</span>" +
-      '<a href="./">' + esc(ui("bannerBack", lang)) + "</a>" +
-      "</div>";
-  }
-
   function render() {
     var item = state.item;
     var lang = state.lang;
@@ -317,7 +307,6 @@
       : mismatchKey === "rarer" ? ui("mismatchRarer", lang) : "";
 
     app.innerHTML =
-      bannerHtml(state.pinned, lang) +
       titleHtml(item, lang) +
       '<div class="item-head reveal r2">' +
         '<div class="tip-col">' +
