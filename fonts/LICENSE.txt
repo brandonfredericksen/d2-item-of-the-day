@@ -1,0 +1,6 @@
+Exocet
+Copyright (C) 1992 Emigre Graphics. Designed by Jonathan Barnbrook.
+Downloaded from wfonts.com. Used here for a non-commercial Diablo 2 fan
+site. This is a commercial Emigre typeface and is not licensed for
+redistribution. If Emigre objects, replace these files with a licensed
+copy or a substitute and update the @font-face src in index.html.

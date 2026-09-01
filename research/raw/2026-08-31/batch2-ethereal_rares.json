@@ -1,0 +1,881 @@
+{
+  "batch": [
+    "ethereal",
+    "rares"
+  ],
+  "results": [
+    {
+      "domain": "ethereal",
+      "found": {
+        "domain": "Diablo 2 Resurrected ethereal items (mature ladder economy)",
+        "items": [
+          {
+            "name": "Ethereal Sandstorm Trek",
+            "alias": "Eth SS Trek, eth Treks",
+            "category": "Unique boots (Scarabshell Boots) - Pillar 1 hidden value / self-repair",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon perfect roll",
+            "whyValuable": "This is the textbook case of ethereal being a pure upside with no downside. Sandstorm Trek has the self-repair mod Repairs 1 Durability in 20 Seconds, so the ethereal version quietly heals its own durability and never breaks, while gaining the ethereal +50% defense on top of its already high +140-170% enhanced defense. A player wearing them (not just a merc) gets a permanent, unbreakable boot with insane defense plus big strength and vitality. Casual players think all eth armor eventually dies. These do not.",
+            "teachingPoint": "Self-repair mod plus ethereal equals a free permanent defense boost. The 20-second repair timer outpaces normal durability loss, so the boots effectively never break even on your own character, not just a mercenary.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect eth roll wants 15 str / 15 vita / high ED / 70 poison res",
+            "factClaims": [
+              "Sandstorm Trek is a unique Scarabshell Boots",
+              "It has the mod Repairs 1 Durability In 20 Seconds (self-repair)",
+              "Base stats include +20% Faster Run/Walk, +20% Faster Hit Recovery, +140-170% Enhanced Defense when ethereal, +10-15 Strength, +10-15 Vitality, 50% Slower Stamina Drain, +40-70% Poison Resist",
+              "Ethereal grants roughly +50% defense over the non-ethereal version",
+              "Because of self-repair, the ethereal version is strictly superior to non-ethereal even when worn by the player character"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/sandstorm-trek-t898.html",
+              "https://diablo.fandom.com/wiki/Sandstorm_Trek",
+              "https://www.gamerguides.com/diablo-ii-resurrected/guide/equipment/boots/sandstorm-trek"
+            ]
+          },
+          {
+            "name": "Ethereal Superior Thresher / Giant Thresher (for Infinity or Insight)",
+            "alias": "eth thresher, eth GT, 4os/5os/6os eth thresher",
+            "category": "White/superior polearm base - Pillar 1 hidden value (base, not item)",
+            "obscurity": 2,
+            "valueTierGuess": "A",
+            "rarityTier": "Perfect superior eth with max sockets is rare",
+            "whyValuable": "A plain white polearm can be worth a fortune. The value is entirely in the base being ethereal, superior (+ enhanced damage on a white item), and hitting max sockets from Larzuk. Threshers have the fastest effective attack speed among high-damage polearms, so an eth superior Thresher becomes the best base for Insight (merc mana/damage) and Infinity (Conviction aura). Mercs never lose durability, so ethereal is free +50% damage with zero downside. A perfect eth superior 4-socket Thresher is one of the most coveted white bases in the game.",
+            "teachingPoint": "For merc polearm runewords the ideal base is ethereal AND superior (a white item that rolled bonus enhanced damage) AND max sockets. Larzuk gives a Thresher 5 sockets and a Giant Thresher 6, but Insight needs exactly 4 and Infinity needs 4, so you want a base that dropped with the right socket count or you cube/Larzuk carefully.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect = ethereal + superior with high % ED + correct socket count",
+            "factClaims": [
+              "Thresher requires level 53, 152 strength, 118 dexterity and can roll up to 5 sockets (Larzuk gives 5)",
+              "Giant Thresher can roll up to 6 sockets (Larzuk gives 6)",
+              "Insight is a 4-socket runeword and Infinity is a 4-socket runeword",
+              "Mercenaries do not lose durability, so an ethereal merc weapon never degrades",
+              "Threshers are favored for Insight/Infinity due to high attack speed relative to damage"
+            ],
+            "sources": [
+              "https://diablo2.io/base/thresher-t1799.html",
+              "https://diablo2.io/base/giant-thresher-t1802.html",
+              "https://lilura1.blogspot.com/2021/02/Diablo-2-Resurrected-Infinity-runeword-ethereal-thresher-level-12-Conviction-aura-40-crushing-blow-325-enhanced-damage.html"
+            ]
+          },
+          {
+            "name": "Ethereal Breath of the Dying Berserker Axe (eBotD)",
+            "alias": "eBotD, eth BotD zerk",
+            "category": "Runeword weapon - Pillar 1 / historic best-in-slot melee",
+            "obscurity": 2,
+            "valueTierGuess": "S",
+            "rarityTier": "Very rare (needs eth base + Zod/Ber... plus Vex/Hel/Eld/Zod/Eth/Ort)",
+            "whyValuable": "Breath of the Dying contains a Zod rune, which grants Indestructible. Indestructible completely cancels the ethereal durability problem, so an ethereal BotD keeps its +50% damage forever and literally cannot break. On a Berserker Axe (highest DPS one-hander) this is the single hardest-hitting one-handed weapon in the game. The eth version is dramatically better than non-eth purely because Zod removes the only downside.",
+            "teachingPoint": "Zod = Indestructible, and Indestructible overrides ethereal degradation. That is why the only ethereal weapons safe to swing on your own character forever are ones with a Zod rune or a naturally indestructible/self-repair source. eBotD is the poster child.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect eBotD wants near-max enhanced damage (roll ~355-415%) on an eth zerker axe",
+            "factClaims": [
+              "Breath of the Dying is the runeword Vex Hel El Eld Zod Eth (6 sockets)",
+              "It requires a Zod rune, which grants the Indestructible property",
+              "Indestructible negates the ethereal durability loss so an eth BotD never breaks",
+              "Berserker Axe is the highest-DPS one-handed weapon base commonly used for BotD",
+              "Ethereal grants approximately +50% weapon damage over non-ethereal"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Breath_of_the_Dying_Rune_Word",
+              "https://www.rpgstash.com/breath-of-the-dying-berserker-axe-ethereal-d2r.html"
+            ]
+          },
+          {
+            "name": "Ethereal Tomb Reaver (3 sockets)",
+            "alias": "eth Tomb Reaver, eth TR 3os",
+            "category": "Unique polearm (Cryptic Axe) - Pillar 1 hidden value (socket + eth combo)",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare (must roll ethereal AND the 3-socket variant)",
+            "whyValuable": "Tomb Reaver rolls a variable socket count (1-3). The 3-socket ethereal version is the jackpot: you socket 3 upgrade runes/jewels onto an already huge ethereal-boosted base, producing one of the best magic-find melee/merc weapons in the game with big damage, +resists, and +magic find. Ethereal roughly matches its damage from ~275-347 average up to ~411-521 average. Most players do not realize Tomb Reaver's socket count is random and that the eth 3-socket combo is the rare grail version.",
+            "teachingPoint": "Tomb Reaver has a VARIABLE socket roll. An ethereal 3-socket Tomb Reaver is enormously more valuable than an ethereal 0- or 1-socket one, because sockets plus the ethereal damage boost compound.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect = ethereal + 3 sockets + high enhanced damage and MF roll",
+            "factClaims": [
+              "Tomb Reaver is a unique Cryptic Axe",
+              "It can roll a variable number of sockets from 1 to 3",
+              "Ethereal average damage (~411-521) is roughly 50% higher than non-ethereal (~274-347)",
+              "It provides bonus magic find and resistances",
+              "Mercs use it without durability loss, making ethereal a free upgrade"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/tomb-reaver-t997.html",
+              "https://diablo.fandom.com/wiki/Tomb_Reaver"
+            ]
+          },
+          {
+            "name": "Ethereal Titan's Revenge",
+            "alias": "eth Titans",
+            "category": "Unique throwing/melee javelin (Ceremonial Javelin) - Pillar 1 hidden value (replenish quantity)",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon-rare perfect eth",
+            "whyValuable": "Throwing weapons normally seem terrible ethereal because you deplete the stack and cannot repair/refill it. Titan's Revenge dodges this entirely because it has Replenishes Quantity: the stack regenerates over time. So an ethereal Titan's gets the +50% damage boost while its ammo just grows back. It is the go-to ethereal throwing weapon and a favorite melee/throw Javazon weapon, adding +2 skills, dex, str, run/walk and life leech.",
+            "teachingPoint": "Replenishes Quantity is the throwing-weapon equivalent of self-repair. It is why an ethereal Titan's Revenge is desirable while most ethereal throwing weapons are junk. The quantity regenerates faster than reasonable use depletes it.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect eth Titan's wants max ED (~150-184%) and high life leech",
+            "factClaims": [
+              "Titan's Revenge is a unique Ceremonial Javelin",
+              "It has the Replenishes Quantity property (roughly 1 in 3 seconds)",
+              "Replenishes Quantity lets an ethereal throwing weapon refill its stock, avoiding the usual ethereal throwing drawback",
+              "Ethereal grants approximately +50% damage",
+              "It grants +2 to Amazon Javelin and Spear skills plus strength, dexterity, and faster run/walk"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/titan-s-revenge-t995.html",
+              "https://diablo.fandom.com/wiki/Titan%27s_Revenge",
+              "https://www.purediablo.com/forums/threads/whats-the-difference-between-titans-revenge-and-eth-titans-revenge.157707/"
+            ]
+          },
+          {
+            "name": "Ethereal The Reaper's Toll",
+            "alias": "eth Reaper's, eth RT",
+            "category": "Unique polearm (Thresher) - Pillar 1 hidden value (merc weapon)",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon perfect eth",
+            "whyValuable": "Best-in-class physical-damage desert mercenary weapon. It is a Thresher base (fast) with Chance to Cast Decrepify on striking, which lowers enemy defense and adds ~50% more damage constantly, plus Deadly Strike and heavy life leech. Ethereal gives +50% damage and, because a merc never loses durability, it is a pure upgrade. Many players default to Infinity/Insight and forget eth Reaper's Toll is the premier physical merc option.",
+            "teachingPoint": "Chance to Cast Decrepify is why Reaper's Toll punches above its raw damage. On an Act 2 merc (no durability loss) the ethereal version is free extra damage with zero downside.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect eth wants high enhanced damage and life leech",
+            "factClaims": [
+              "The Reaper's Toll is a unique Thresher",
+              "It has Chance to Cast Decrepify (a curse that reduces enemy defense and physical resistance)",
+              "It provides Deadly Strike and high life leech",
+              "Ethereal grants approximately +50% damage",
+              "Mercenaries do not lose durability, so ethereal is a pure upgrade for merc use"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/the-reaper-s-toll-t984.html",
+              "https://diablo.fandom.com/wiki/The_Reaper%27s_Toll"
+            ]
+          },
+          {
+            "name": "Ethereal Andariel's Visage",
+            "alias": "eth Andy, eth Andariel's",
+            "category": "Unique helm (Demonhead) - Pillar 1 hidden value (merc BiS)",
+            "obscurity": 2,
+            "valueTierGuess": "A",
+            "rarityTier": "Rare as a clean high-roll eth",
+            "whyValuable": "Widely considered the best mercenary helm in the game, and the ethereal version is best-in-slot because a merc ignores durability. It stacks +2 all skills, 20% IAS, 8-10% life steal, +25-30 strength, and +70 poison resist, and ethereal pushes its already high enhanced defense (100-150%) up another 50%. The catch that trips people up: on your OWN character the eth version WILL eventually break and cannot be repaired, so it is a merc-only grail.",
+            "teachingPoint": "Same item, opposite verdict depending on who wears it. On a mercenary eth Andariel's is best-in-slot forever. On your own character the eth version is a ticking clock because it cannot be repaired. Match ethereal gear to durability-immune slots.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect wants max ED (150%), max str (30), and 2 sockets ideally",
+            "factClaims": [
+              "Andariel's Visage is a unique Demonhead helm",
+              "Base stats include +2 to all skills, 20% increased attack speed, 8-10% life stolen per hit, +25-30 strength, Fire Resist -30%, Poison Resist +70%, and +100-150% enhanced defense",
+              "Ethereal cannot be repaired at a vendor or via cube",
+              "On a mercenary it does not lose durability, making ethereal best-in-slot",
+              "Ethereal grants approximately +50% defense"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/andariel-s-visage-t669.html",
+              "https://diablo.fandom.com/wiki/Andariel%27s_Visage_(Diablo_II)"
+            ]
+          },
+          {
+            "name": "Ethereal Vampire Gaze",
+            "alias": "eth VGaze, eth Gaze",
+            "category": "Unique helm (Grim Helm) - Pillar 1 hidden value (merc armor)",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon perfect eth",
+            "whyValuable": "A top budget-to-mid mercenary helm whose ethereal version is a clean upgrade. It gives 15-20% physical damage reduction, magic damage reduction, and 6-8% dual leech, which keeps an Act 2 merc alive in nearly any content. Ethereal adds +50% defense with no repair worry on a merc. It is easy to overlook because Vampire Gaze is common and cheap, but the eth high-roll is genuinely sought for merc setups.",
+            "teachingPoint": "Percent damage reduction plus dual leech is what makes Vampire Gaze a merc survivability staple. Ethereal on a merc adds defense for free since the merc never degrades it.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect wants max ED, 20% DR, and 2 sockets",
+            "factClaims": [
+              "Vampire Gaze is a unique Grim Helm",
+              "It provides 15-20% physical damage received reduced and a flat magic damage reduction",
+              "It provides 6-8% life and mana leech (dual leech)",
+              "Ethereal items on a mercenary do not lose durability",
+              "Ethereal grants approximately +50% defense"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/vampire-gaze-t1007.html",
+              "https://diablo.fandom.com/wiki/Vampire_Gaze"
+            ]
+          },
+          {
+            "name": "Ethereal Hone Sundan",
+            "alias": "eth Hone, eth Hone Sundan",
+            "category": "Unique spear (Yari) - Pillar 1 hidden value (self-repair merc weapon)",
+            "obscurity": 4,
+            "valueTierGuess": "C",
+            "rarityTier": "Rare as an eth upped/high roll but low trade volume",
+            "whyValuable": "An under-the-radar self-repairing merc weapon. Hone Sundan has Repairs 1 Durability in 10 Seconds plus a guaranteed 3 sockets and 45% Chance of Crushing Blow, which shreds high-HP monsters and bosses. Ethereal boosts its damage and the self-repair means it can be swung by anyone, not just a merc. Players sleep on it because raw damage looks modest, but the crushing blow and 3 open sockets make an eth (often upgraded) Hone Sundan a real budget boss-killer.",
+            "teachingPoint": "Guaranteed 3 sockets plus 45% Crushing Blow plus self-repair is a rare combination. Crushing Blow removes a percentage of current HP, so it scales against tanky targets regardless of the weapon's listed damage.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect wants ethereal, high ED (~200%), often upgraded to elite base",
+            "factClaims": [
+              "Hone Sundan is a unique Yari (spear)",
+              "It always has 3 sockets",
+              "It has +45% Chance of Crushing Blow",
+              "It has Repairs 1 Durability In 10 Seconds (self-repair)",
+              "Ethereal two-hand damage is roughly 133-150 to 270-305 with 91 strength required"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/hone-sundan-t819.html",
+              "https://diablo.fandom.com/wiki/Hone_Sundan",
+              "https://lilura1.blogspot.com/2021/03/Diablo-2-Resurrected-Ethereal-Hone-Sundan-yari-unique-Upped-3-sox-45-Crushing-Blow-max-200-enhanced-damage.html"
+            ]
+          },
+          {
+            "name": "Ethereal Skullder's Ire",
+            "alias": "eth Skullder's",
+            "category": "Unique armor (Russet Armor) - Pillar 1 hidden value (self-repair MF armor)",
+            "obscurity": 4,
+            "valueTierGuess": "C",
+            "rarityTier": "Rare as clean eth high-roll",
+            "whyValuable": "A self-repairing magic-find armor that most people only think of as a leveling piece. It has Repairs 1 Durability in 5 Seconds, so the ethereal version self-heals and gains the big +50% ethereal defense while providing +1 all skills and +81.25% MF at level 99. The self-repair makes eth safe to wear on your own character, which is the part players miss.",
+            "teachingPoint": "Skullder's self-repair (1 durability / 5 sec) is fast enough that the ethereal version is effectively unbreakable, making it a rare case of an eth MF armor you can wear yourself, not just a merc piece.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect wants ethereal + high ED and a socket for a good jewel or Ist",
+            "factClaims": [
+              "Skullder's Ire is a unique Russet Armor",
+              "It has Repairs 1 Durability In 5 Seconds (self-repair)",
+              "It grants +1 to all skills and magic find that scales with character level (1.25% per level)",
+              "Ethereal grants approximately +50% defense",
+              "The self-repair rate outpaces normal durability loss, so the eth version effectively does not break"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/skin-of-the-flayed-one-t908.html",
+              "https://d2r-runetracker.com/database/item/skin-of-the-flayed-one",
+              "https://www.d2rgear.com/products/skullders-ire-ethereal"
+            ]
+          },
+          {
+            "name": "Ethereal Bonehew",
+            "alias": "eth Bonehew",
+            "category": "Unique polearm (Ogre Axe) - Pillar 1 hidden value (merc/necro caster weapon)",
+            "obscurity": 5,
+            "valueTierGuess": "C",
+            "rarityTier": "Rare eth but low trade volume",
+            "whyValuable": "A deep-cut item. Bonehew is an Ogre Axe with Level 14 Corpse Explosion charges and bonus poison damage, and ethereal boosts its high two-hand damage another 50% for a merc. It is obscure enough that even veterans forget it exists, but an eth 2-socket high-roll Bonehew is a legitimate niche merc weapon and a curiosity for Corpse Explosion charge users. Low trade volume means value is soft, but the eth high-roll is genuinely scarce.",
+            "teachingPoint": "Bonehew carries Level 14 Corpse Explosion charges, a rare source of that skill on a weapon. The eth version is a merc-only pick since it has no self-repair and no Zod.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect wants ethereal, high ED, and 2 sockets",
+            "factClaims": [
+              "Bonehew is a unique Ogre Axe",
+              "It has Level 14 Corpse Explosion charges (30 charges)",
+              "It has no self-repair, so eth Bonehew is best used on a mercenary",
+              "Ethereal grants approximately +50% damage",
+              "It has low trade volume, making its value soft/hard to price"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/bonehew-t710.html",
+              "https://diablo.fandom.com/wiki/Bonehew"
+            ]
+          },
+          {
+            "name": "Ethereal Shaftstop (or eth Duress / eth Fortitude base)",
+            "alias": "eth Shaft, eth merc armor",
+            "category": "Unique/runeword armor - Pillar 1 hidden value (merc defense)",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon to rare depending on base",
+            "whyValuable": "Ethereal body armor is a merc-defense powerhouse because the +50% ethereal defense multiplies with the armor's huge enhanced-defense percentages. An ethereal Shaftstop climbs from ~297-320 base defense to ~830-1000+ defense while keeping 30% damage reduction and +60 life. The same logic makes ethereal Sacred Armor the premier base for a Fortitude merc runeword, reaching absurd defense totals. Players underrate how much the ethereal multiplier compounds with %ED runewords.",
+            "teachingPoint": "Ethereal +50% defense multiplies against the runeword/unique %ED, so the higher the base defense and %ED, the more absolute defense ethereal adds. This is why the highest-base armors (Sacred Armor, Archon Plate) are chased for ethereal Fortitude/Duress merc setups.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect = ethereal + superior base + high ED roll",
+            "factClaims": [
+              "Ethereal grants approximately +50% defense, which multiplies with %enhanced defense",
+              "Shaftstop provides Damage Reduced by 30%, +250 Defense vs Missile, and +60 Life",
+              "Ethereal Shaftstop can reach roughly 830-1000+ defense versus ~297-320 base",
+              "Sacred Armor has the highest base defense and is favored for ethereal Fortitude on mercs",
+              "Mercenaries do not lose durability, so ethereal body armor is a pure upgrade for merc use"
+            ],
+            "sources": [
+              "https://lilura1.blogspot.com/2021/11/PERFECT-ETHEREAL-SHAFTSTOP-upped-Diablo-2-Resurrected.html",
+              "https://diablo2.io/base/sacred-armor-t80.html"
+            ]
+          },
+          {
+            "name": "The Ethereal Socketing Bug (eth-bugged armor) - REMOVED in D2R",
+            "alias": "ebug, eth bug, eth-bugged armor",
+            "category": "Historic mechanic - Pillar 2 historic significance",
+            "obscurity": 2,
+            "valueTierGuess": "F",
+            "rarityTier": "N/A (does not exist in D2R)",
+            "whyValuable": "Historically enormous. In classic LoD, using the Cube socket recipe on an ethereal armor applied the +50% ethereal defense bonus a SECOND time, producing double-boosted defense (100 def base could become 150 with sockets, and the effect stacked). Eth-bugged armors were prized trophies. Blizzard removed this in D2R (fixed by early-access beta), so those legendary sky-high defense numbers are no longer obtainable. The item to feature is the myth itself and why D2R defense values look lower than old screenshots.",
+            "teachingPoint": "The eth socket bug is DEAD in D2R. Applying the cube socket recipe to an ethereal armor in D2R gives sockets but NOT a second +50% defense boost. If someone quotes classic-era eth-bugged defense numbers, they do not apply to modern D2R ladder.",
+            "history": "In pre-D2R versions the socketing recipes double-applied the ethereal +50% defense bonus, creating 'eth-bugged' armors with abnormally high defense. Blizzard removed this exploit in D2R, standardizing defense across all socketing methods.",
+            "legitimacy": "CONFIRMED",
+            "quality": "N/A",
+            "factClaims": [
+              "In classic D2/LoD, the cube socket recipe on ethereal armor applied the +50% ethereal defense bonus a second time",
+              "This produced 'eth-bugged' armor with much higher defense than normal",
+              "The bug was fixed/removed in D2R (by early access beta)",
+              "In D2R, socketing an ethereal armor via cube adds sockets but does NOT grant the extra 50% defense",
+              "Ethereal normally grants +50% defense once"
+            ],
+            "sources": [
+              "https://diablo2.io/forums/a-guide-to-ethereal-bugged-armors-t3279.html",
+              "https://us.forums.blizzard.com/en/d2r/t/ethereal-armor-bug-gone/14468",
+              "https://lilura1.blogspot.com/2018/11/Diablo-2-Ethereal-Bugged-Armor-aka-eth-bugged-armor.html"
+            ]
+          },
+          {
+            "name": "The Zod / Ethereal Indestructible Rule (and the old Zod-eth bug)",
+            "alias": "Zod eth, indestructible eth",
+            "category": "Historic mechanic - Pillar 2 historic significance",
+            "obscurity": 2,
+            "valueTierGuess": "N/A",
+            "rarityTier": "N/A (mechanic)",
+            "whyValuable": "This rule is WHY ethereal runewords like eBotD and eth Death exist as top-tier items. Zod grants Indestructible, which cancels ethereal durability loss, so an eth item with Zod keeps +50% damage forever. Historically there was also a Zod-eth BUG in v1.09: socketing Zod into an ethereal item that had BONUS durability would drop it to 0 and ruin it, while Zod in an eth item with NO bonus durability made it correctly indestructible. That bug was fixed in v1.10 and is not present in D2R.",
+            "teachingPoint": "Zod = Indestructible = the clean fix for ethereal degradation. In old versions Zod on certain ethereal bases (ones with +durability, like Messerschmidt's Reaver with +25 dura) could brick the item; this was patched out by v1.10 and does not affect D2R.",
+            "history": "In v1.09 and earlier, inserting Zod into an ethereal item with bonus durability ruined it (dropped to 0 durability), while Zod in an eth item without bonus durability made it indestructible. Fixed in v1.10 onward.",
+            "legitimacy": "CONFIRMED",
+            "quality": "N/A",
+            "factClaims": [
+              "Zod rune grants the Indestructible property",
+              "Indestructible negates ethereal durability loss, letting eth items keep +50% damage/defense permanently",
+              "In v1.09 and earlier, Zod on an ethereal item with bonus durability would ruin the item (drop to 0)",
+              "That Zod-eth bug was fixed in v1.10 and does not exist in D2R",
+              "Ethereal items cannot be repaired by vendors or the Horadric Cube"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Zod_Rune",
+              "https://diablo.fandom.com/wiki/Indestructible",
+              "https://diablo2.diablowiki.net/Ethereal"
+            ]
+          },
+          {
+            "name": "Bases that CANNOT be ethereal (Phase Blade and indestructible bases)",
+            "alias": "no-eth bases, indestructible bases",
+            "category": "Reference / Pillar 2 historic significance (why some grails have no eth version)",
+            "obscurity": 3,
+            "valueTierGuess": "N/A",
+            "rarityTier": "N/A (reference)",
+            "whyValuable": "A crucial gotcha for traders. Phase Blades have no durability and are naturally indestructible, so they cannot spawn ethereal in any quality. That means there is NO such thing as an ethereal Grief Phase Blade or eth Phase Blade CTA, no matter what a listing claims. Same logic for other naturally indestructible bases. Set items also cannot be ethereal. Knowing which grails simply have no ethereal version prevents getting scammed and explains why some best-in-slot weapons never get an eth premium.",
+            "teachingPoint": "Phase Blade cannot be ethereal (it is natively indestructible with no durability). Any 'ethereal Phase Blade' offer is fake. Set items also never spawn ethereal.",
+            "history": "",
+            "legitimacy": "CONFIRMED",
+            "quality": "N/A",
+            "factClaims": [
+              "Phase Blade has no durability and is naturally indestructible",
+              "Phase Blade cannot be ethereal in any quality (magic, rare, unique, or runeword)",
+              "There is no ethereal Grief Phase Blade or ethereal Phase Blade runeword",
+              "Set items cannot spawn ethereal",
+              "An upgraded Ginther's Rift (unique Dimensional Blade base) CAN be ethereal, unlike a Phase Blade"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Phase_Blade",
+              "https://diablo2.io/base/phase-blade-t1689.html"
+            ]
+          }
+        ],
+        "notes": "Economy baseline assumed: mature D2R ladder. No prices given; tiers are openly guesses. Key mechanic facts that gate everything: (1) Ethereal grants ~+50% defense (armor) or ~+50% damage (weapons) but halves durability and cannot be repaired at vendor or cube. (2) Ethereal is a pure upside in three cases only: on a mercenary (mercs never lose durability), on items with self-repair mods (Sandstorm Trek 20s, Skullder's Ire 5s, Hone Sundan 10s, Skin of the Flayed One 10s), or on items with Indestructible/Zod (eBotD, eth Death). (3) Throwing weapons are the exception-to-the-exception: Replenishes Quantity (Titan's Revenge) makes eth throwing viable by regenerating the stack.\n\nVerification caveats worth flagging before publishing any single item:\n- Sandstorm Trek base = Scarabshell Boots, req level 64, self-repair 20s: CONFIRMED across diablo2.io + fandom + gamerguides.\n- Thresher sockets (5 max, Larzuk 5) and Giant Thresher (6 max, Larzuk 6): CONFIRMED diablo2.io base pages. Double-check the exact socket count a given runeword needs vs what the base dropped with; Insight and Infinity are both 4-socket.\n- eth socket bug removed in D2R: CONFIRMED (Blizzard forums + diablo2.io + lilura). Strong Pillar 2 pick.\n- Zod-eth v1.09 bug fixed v1.10: from fandom/diablowiki; solid but consider a second source before making it the headline claim of a post.\n- Phase Blade cannot be eth: CONFIRMED. Good anti-scam teaching item.\n- Skin of the Flayed One repairs 1 dura/10s and Skullder's Ire 1 dura/5s: sourced but I did not independently confirm every second on diablo2.io; verify the exact repair interval per item before printing it as a factClaim, since players will catch a wrong number.\n- I did NOT get exact enhanced-defense ranges verified for every armor from a primary source (some came from vendor/blog pages). Re-verify ED% ranges, str reqs, and req levels on diablo2.io or the Arreat Summit before publishing any specific number. diablo2.io and fandom both returned 403/402 to WebFetch during research, so stats here lean on WebSearch summaries of those same pages plus lilura1 blog and vendor listings; treat exact numeric ranges as needing one more primary-source pass.\n\nDeliberately AVOIDED as too obvious/boring per the selection bar: plain eth Infinity showcase, eth CoH, eth Fortitude as a headline (kept only as a base-value teaching example). The strongest 'wait, THAT?' picks here are eth Sandstorm Trek (self-repair makes eth strictly better on your own char), eth Titan's Revenge (replenish quantity), eth Hone Sundan (self-repair + crushing blow), eth Bonehew (deep cut), and the two historic mechanic entries (eth socket bug removed, Zod rule + old bug)."
+      },
+      "verify": {
+        "checked": [
+          {
+            "name": "Ethereal Sandstorm Trek (Scarabshell Boots)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All base stats verified: unique Scarabshell Boots, +140-170% ED, +20% FRW, +20% FHR, +10-15 Str, +10-15 Vit, 50% slower stamina drain, Poison Resist +40-70%, Repairs 1 Durability In 20 Seconds. Required Level is 64 (finding omitted it, fine). Minor wording nit: the +140-170% ED range is the item's roll and is NOT changed by ethereal; ethereal adds +50% to base defense which then compounds with the ED%. The phrase 'when ethereal' next to the ED range is slightly misleading but not factually wrong. Self-repair claim and 'unbreakable when worn' are accurate; strong Pillar 1 fit (surprising self-repair upside)."
+          },
+          {
+            "name": "Ethereal Superior Thresher / Giant Thresher (base for Insight/Infinity)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Thresher: req level 53, 152 Str, 118 Dex, Larzuk gives 5 sockets max — confirmed. Giant Thresher: req level 66, 188 Str, 140 Dex, Larzuk gives 6 sockets max — confirmed. Insight and Infinity are both 4-socket runewords — confirmed. Mercs do not lose durability — confirmed. Good Pillar 1 white-base fit."
+          },
+          {
+            "name": "Ethereal Breath of the Dying Berserker Axe (eBotD)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Runeword order Vex Hel El Eld Zod Eth in a 6-socket weapon — confirmed exactly. Requires level 69. Zod grants Indestructible, which negates ethereal durability loss — confirmed. Berserker Axe as highest-DPS one-hander for BotD and ~50% eth damage boost — confirmed. Borderline on the surprise bar (BotD itself is famous), but the eth/Zod-durability interaction is a legitimate hidden-value angle, so keep."
+          },
+          {
+            "name": "Ethereal Tomb Reaver (3 sockets)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Cryptic Axe with variable 1-3 sockets — confirmed. +50-80% MF and All Resistances +30-50 — confirmed. Ethereal ~50% damage boost and merc use — confirmed. The specific average-damage figures (~275-347 non-eth to ~411-521 eth) are plausible approximations; the item's raw base damage is (99-125) to (450-570) before/with ED, so the ~50% relationship holds. Strong Pillar 1 fit (random socket count is genuinely little-known)."
+          },
+          {
+            "name": "Ethereal Titan's Revenge (Ceremonial Javelin)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Ceremonial Javelin, Replenishes Quantity [1 in 3 sec], eth ~50% damage — all confirmed. Correction on skills: the item grants BOTH '+2 To Amazon Skill Levels' AND '+2 To Javelin and Spear Skills (Amazon Only)'. The finding lists only '+2 to Amazon Javelin and Spear skills', omitting the separate +2 all-Amazon-skills bonus. Also grants +30% FRW (finding says 'faster run/walk', fine), +20 Str, +20 Dex, 5-9% life steal, +150-200% ED. Fix the skills description to note both +2 bonuses. Good Pillar 1 replenish-quantity fit."
+          },
+          {
+            "name": "Ethereal The Reaper's Toll (Thresher)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Thresher with Chance to Cast Decrepify on striking, Deadly Strike, high life leech — confirmed. Correction/precision: it is '33% Chance To Cast Level 1 Decrepify On Striking' and '+33% Deadly Strike' and '11-15% Life Stolen Per Hit', plus 'Ignore Target's Defense' and '+190-240% ED'. Note Decrepify reduces enemy defense AND slows and adds a physical-damage multiplier; the finding's phrase 'reduces enemy defense and physical resistance' is imprecise — Decrepify reduces physical resistance/increases damage taken and slows, but 'lowers defense' more accurately belongs to Amplify Damage. Recommend describing Decrepify as a curse that slows and increases physical damage taken. Good Pillar 1 merc-weapon fit."
+          },
+          {
+            "name": "Ethereal Andariel's Visage (Demonhead)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Demonhead: +2 all skills, 20% IAS, 8-10% life steal, +25-30 Str, Fire Resist -30%, Poison Resist +70%, +100-150% ED, plus +10% max poison res and 15% CtC Poison Nova when struck (finding omitted those two, but nothing it stated is wrong). Ethereal cannot be repaired and breaks on your own character; merc-only best-in-slot — confirmed. Borderline on surprise (well-known merc helm) but the 'breaks on your own char' gotcha keeps it as hidden-value; keep."
+          },
+          {
+            "name": "Ethereal Vampire Gaze (Grim Helm)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Grim Helm: Damage Reduced by 15-20%, Magic Damage Reduced by 10-15, 6-8% life steal AND 6-8% mana steal (dual leech) — all confirmed. Also adds 6-22 cold damage and 15% slower stamina drain (finding omitted, fine). Merc no-durability-loss and eth +50% defense — confirmed. Cheap-item eth high-roll is a legit Pillar 1 surprise; keep."
+          },
+          {
+            "name": "Ethereal Hone Sundan (Yari)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Yari: always 3 sockets, +45% Chance of Crushing Blow, Repairs 1 Durability In 10 Seconds, +160-200% ED — all confirmed. Base two-hand damage 95-107 to 193-217 at 101 Str; ethereal reduces Str requirement by 10 to 91 and boosts damage ~50%, so the finding's '91 strength' and '133-150 to 270-305' eth damage figures are internally consistent and correct. Solid Pillar 1 deep-cut."
+          },
+          {
+            "name": "Ethereal Skullder's Ire (Russet Armor)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "MAJOR STAT ERROR on magic find. The finding says '+81.25% MF at level 99' and cites 1.25% per level — these are inconsistent and 81.25% is WRONG. Actual mod is '1-123% Better Chance of Getting Magic Items (Based on Character Level)', i.e. ~1.25% per level reaching about 123% at level 99, not 81.25%. Also the repair rate: Skullder's is Repairs 1 Durability In 5 Seconds — the finding states this correctly. Fix the MF-at-99 number to ~123%. Otherwise unique Russet Armor, +1 all skills, +160-200% ED, self-repair-safe-when-worn all confirmed. Keep after correcting MF value."
+          },
+          {
+            "name": "Ethereal Bonehew (Ogre Axe)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "FABRICATED STAT: the finding claims 'bonus poison damage' — Bonehew has NO poison damage. Its actual mods are +270-320% ED, Level 14 Corpse Explosion (30 charges), Prevent Monster Heal, 30% IAS, 50% Chance To Cast Level 16 Bone Spear On Striking, Socketed (2), req level 64. The Corpse Explosion charges (Lvl 14, 30 charges) and 2 sockets and eth-merc use are correct. Remove the poison-damage claim and optionally add the CtC Bone Spear and Prevent Monster Heal. Keep after correction; genuinely obscure Pillar 1 item."
+          },
+          {
+            "name": "Ethereal Shaftstop / eth merc body armor",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Core Shaftstop mods confirmed: Physical Damage Reduced by 30%, +250 Defense vs Missiles, +60 Life (note it is 'Defense vs Missiles' = +250, and finding said +250 — correct). Ethereal +50% base defense compounding with %ED is correct mechanically. However the base-defense figures are OFF: Shaftstop's non-eth total defense is 599-684 (unique Mesh Armor), not '~297-320' as the finding states — 297-320 is not a Shaftstop value. The eth total will be higher than 599-684 (roughly 800-1000+ with the eth base bonus compounding), so the '830-1000+' eth figure is in a plausible ballpark but the '297-320 base' baseline is wrong. Sacred Armor being the highest-base-defense body armor favored for eth Fortitude is correct. Fix the base-defense numbers. Keep."
+          },
+          {
+            "name": "The Ethereal Socketing Bug (eth-bug / ebug) — removed in D2R",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "DOCUMENTED FACT, not folklore. In classic LoD the cube add-sockets recipe erroneously applied the ethereal +50% defense bonus a second time (to total, not base defense), producing 'eth-bugged' armor. Fixed in D2R (as of early-access beta) via 'defense parity' so cube/Larzuk/natural sockets all yield identical defense. Strong Pillar 2 historic fit and genuinely surprising."
+          },
+          {
+            "name": "The Zod / Indestructible Rule and the v1.09 Zod-eth bug",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "DOCUMENTED FACT. Zod grants Indestructible, which cancels ethereal durability loss. In v1.09 and earlier, socketing Zod into an ethereal item that had BONUS durability dropped it to 0 (ruined it), while Zod into an eth item without bonus durability correctly made it indestructible. Fixed in v1.10; not present in D2R. Ethereal items cannot be repaired by vendor or cube — confirmed. Good Pillar 2 fit."
+          },
+          {
+            "name": "Bases that CANNOT be ethereal (Phase Blade, indestructible bases, set items)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Phase Blades have no durability and cannot spawn ethereal in any quality — confirmed (so no eth Grief/CTA Phase Blade). Set items never spawn ethereal — confirmed. Naturally-indestructible / no-durability bases and items with the indestructible affix do not spawn ethereal — confirmed. The Ginther's Rift nuance is correct: it is a unique Dimensional Blade that upgrades to a Phase Blade base; an ethereal Ginther's Rift stays ethereal after the upgrade, so an 'ethereal Phase Blade' exists only via that upgrade path, not as a natural drop. Strong anti-scam Pillar 2 reference."
+          }
+        ],
+        "notes": "Adversarial fact-check complete against Arreat Summit-equivalent sources (diablo2.io, Fandom/diablowiki, PureDiablo, maxroll, d2runewizard, lootcube). Verified runeword recipes rune-by-rune, socket counts, base stats, req levels, variable stat ranges, and both historical bug mechanics.\n\nCONCRETE CORRECTIONS (checkable errors players would catch):\n1. Skullder's Ire (#10): '+81.25% MF at level 99' is WRONG. It is 1.25% per level = ~123% at level 99. The finding's own '1.25 per level' contradicts its 81.25 figure.\n2. Bonehew (#11): 'bonus poison damage' is FABRICATED. Bonehew has no poison damage; it has 50% CtC Bone Spear on striking and Prevent Monster Heal instead.\n3. Shaftstop (#12): base defense '~297-320' is WRONG. Shaftstop non-eth total defense is 599-684. The eth '830-1000+' target is plausible but the stated baseline is not a Shaftstop number.\n4. Titan's Revenge (#5): incomplete — it has BOTH +2 Amazon Skill Levels AND +2 Javelin/Spear Skills; finding lists only the latter.\n5. Reaper's Toll (#6): imprecise — Decrepify slows and increases physical damage taken; describing it as reducing 'defense and physical resistance' conflates it with Amplify Damage. Also precise values are 33% CtC Lvl 1 Decrepify, +33% Deadly Strike, 11-15% life steal, Ignore Target's Defense.\n\nVERIFIED CORRECT (no change): #1 Sandstorm Trek (minor wording nit only), #2 Threshers (all sockets/reqs exact), #3 eBotD (recipe exact), #4 Tomb Reaver, #7 Andariel's, #8 Vampire Gaze, #9 Hone Sundan (91-str eth math is correct), #13 eth-bug (documented), #14 Zod-eth bug (documented), #15 Phase Blade/set/Ginther's (all correct incl. the upgrade nuance).\n\nSELECTION BAR: I recommend keeping all 15. None are the banned obvious items (Enigma/Shako/Ber/Griffon's/Infinity). eBotD (#3) and eth Andariel's (#7) are the closest to common knowledge, but their VALUE-CARRYING angle here is the ethereal/Zod-durability interaction and the merc-only gotcha, which fits the hidden-value pillar, so they clear the bar. All historical items (#13/#14/#15) are documented fact rather than folklore and are strong Pillar 2 fits. No item traced only to forum hearsay; both bug claims are corroborated by multiple sources including Blizzard forums."
+      }
+    },
+    {
+      "domain": "rares",
+      "found": {
+        "domain": "Diablo 2 Resurrected rare items: circlets, jewelry, gloves, boots, jewels hitting exact valuable affix combinations (mature ladder economy)",
+        "items": [
+          {
+            "name": "Rare 2/20 Sorceress Circlet (+2 Sorceress Skills / 20% FCR)",
+            "alias": "\"2/20 sorc circ\", \"Arch-Angel's Circlet of the Magus\"",
+            "category": "Rare Circlet",
+            "obscurity": 3,
+            "valueTierGuess": "S",
+            "rarityTier": "Extremely rare to roll; among the most demanded rare rolls in the game",
+            "whyValuable": "A rare circlet is the ONLY caster helm that can stack +2 to a class's skills AND 20% Faster Cast Rate AND a socket AND life/resist/stats all at once. Shako gives +2 all skills but no FCR and no free suffix slots; a 2/20 circlet lets a sorc hit an FCR breakpoint from the helm slot while a socketed facet or Um still fits. That flexibility is why a top-rolled 2/20 can out-demand a Shako for a min-maxed caster.",
+            "teachingPoint": "The shorthand \"2/20\" means +2 to that class's skills (a class-specific prefix like 'Arch-Angel's' for sorc) and 20% FCR (the suffix 'of the Magus'). It is NOT +2 to all skills. On a rare, +2 skills is a prefix and 20 FCR is a suffix, so a perfect one still has slots left for life, resists, strength and a socket.",
+            "factClaims": [
+              "A rare circlet can roll +2 to a single class's skills (a class-specific magic prefix), not +2 to all skills",
+              "The 20% FCR suffix on circlets is 'of the Magus' and is the maximum single-affix FCR a circlet can roll",
+              "'2/20' shorthand means +2 class skills and 20% Faster Cast Rate",
+              "+2 skills is a prefix and 20 FCR is a suffix, so both can appear on the same rare item alongside other affixes",
+              "Rare items have up to 3 prefixes and 3 suffixes"
+            ],
+            "sources": [
+              "https://diablo2.io/price-check/d2r-2-paladin-skill-20-fcr-circlet-t176040.html",
+              "https://us.forums.blizzard.com/en/d2r/t/220-sorc-circlet-pc/137985",
+              "https://www.purediablo.com/forums/threads/20-fcr-circlet-it-exists.48280/"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect roll adds +2 socket (circlet/coronet max 2 sockets), 20 FCR, life, and all-resist"
+          },
+          {
+            "name": "Circlet vs Coronet vs Tiara vs Diadem (why the base decides the value)",
+            "alias": "the four caster-helm bases",
+            "category": "Base Item mechanics",
+            "obscurity": 3,
+            "valueTierGuess": "N/A (mechanic)",
+            "rarityTier": "Tiara/Diadem bases are the prized rare-circlet bases because of socket count",
+            "whyValuable": "Same affixes, different ceiling. Circlet and Coronet cap at 2 sockets; Tiara and Diadem can roll 3 sockets. A 2/20 caster helm with 3 open sockets (only possible on Tiara/Diadem) is dramatically rarer and lets you slot three facets/jewels. Higher magic level on the elite bases also lets better affixes spawn and lets high rolls appear at lower character level.",
+            "teachingPoint": "Traders say 'circlet' loosely, but the base matters. Circlet is normal, Coronet is exceptional, Tiara and Diadem are elite. Only Tiara and Diadem reach 3 sockets. You can only gamble up to Coronet; Tiara and Diadem come from drops, not the gambling screen.",
+            "factClaims": [
+              "Circlet is the normal base, Coronet is exceptional, Tiara and Diadem are elite bases",
+              "Circlet and Coronet have a maximum of 2 sockets; Tiara and Diadem can have up to 3 sockets",
+              "Coronet required level is 39, quality level 52, magic level 8",
+              "Tiara quality level is 70 and magic level is 13",
+              "Diadem required level is 52, quality level 70, magic level 13, max sockets 3",
+              "Higher magic level lets higher-level affixes spawn and lets strong affixes appear at a lower character level",
+              "The gambling screen only offers Circlet and Coronet, not Tiara or Diadem"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Coronet",
+              "https://diablo2.io/forums/gambling-circlets-vs-coronets-t762501.html",
+              "https://us.forums.blizzard.com/en/d2r/t/circletcoronettiaradiadem-question/115679"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": ""
+          },
+          {
+            "name": "Magic +3 Skill-Tab Circlet of the Magus (\"3/20 caster circlet\")",
+            "alias": "\"3/20\", e.g. \"Volcanic Circlet of the Magus\" (+3 Fire, 20 FCR)",
+            "category": "Magic Circlet",
+            "obscurity": 4,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare; a magic-only roll that a rare item literally cannot produce",
+            "whyValuable": "A magic item can carry exactly one prefix and one suffix, and the +3-to-a-skill-tree prefix (e.g. 'Volcanic' for +3 Fire skills) is a magic-only affix. So a magic circlet can hit +3 to a whole skill tree AND 20 FCR, which is a bigger single-tree skill boost than any rare circlet (+2 class max) or Shako. A fireball sorc or nova necro prizes the +3 to the exact tree over +2 to everything.",
+            "teachingPoint": "This is why 'is it 2/20 or 3/20?' matters. A rare tops out at +2 to the whole class. A magic circlet can hit +3 but only to ONE skill tree, and only as a magic item (no life/resist/socket alongside it beyond the single suffix). '3/20' on a caster circlet almost always means a magic item.",
+            "factClaims": [
+              "+3 to a single skill tree (e.g. +3 Fire Skills) is a magic prefix such as 'Volcanic'",
+              "A magic item can have only one prefix and one suffix",
+              "A magic circlet can therefore carry +3 to a skill tree and 20 FCR ('of the Magus') simultaneously but nothing else",
+              "A rare circlet cannot roll +3 to a skill tree; its skill affix maxes at +2 to a class"
+            ],
+            "sources": [
+              "https://itemforge.com/en/circlet-3tab-20fcr-2soc",
+              "https://itemnow.com/product/3-sorceress-fire-skills20-fcr-diadem/",
+              "https://www.purediablo.com/forums/threads/20-fcr-circlet-it-exists.48280/"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "Best when it also rolls 2 open sockets on the base"
+          },
+          {
+            "name": "Rare Dual-Leech FCR Ring (life leech + mana leech + 10% FCR)",
+            "alias": "\"dual leech caster ring\", \"5-stat ring\"",
+            "category": "Rare Ring",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare to hit all the right affixes together on a ring",
+            "whyValuable": "A ring can only roll 10% FCR (there is no 20 FCR ring affix), so the 'godly' ring stacks that 10 FCR with life leech, mana leech, a resist, life and attack rating. That combination beats a Stone of Jordan or Bul-Kathos for hybrid/attack builds that want leech and cast rate in one slot, something no unique ring offers together.",
+            "teachingPoint": "10% FCR is the hard ceiling for a ring. Anyone advertising a '20 FCR ring' is mistaken or scamming; 20 FCR belongs to circlets, helms and crafted amulets, not rings. The value on a rare ring is how many good affixes stack on top of that 10 FCR.",
+            "factClaims": [
+              "Rings can roll a maximum of 10% Faster Cast Rate",
+              "There is no ring affix that grants 20% FCR",
+              "Life leech and mana leech (dual leech) can both appear on the same rare ring",
+              "'of the Magus' (20 FCR) does not spawn on rings"
+            ],
+            "sources": [
+              "https://diablo2.io/price-check/rare-dual-leech-fcr-ring-t1532394.html",
+              "https://diablo2.io/price-check/dual-leech-fcr-tri-res-ring-t1330531.html",
+              "https://diablo2.io/forums/caster-rings-t1058095.html"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect: 10 FCR, max life/mana leech, tri-res or dual-res, +life"
+          },
+          {
+            "name": "Rare +2 Class-Skill / 10% FCR Amulet",
+            "alias": "\"rare caster ammy\", loosely \"2/10\"",
+            "category": "Rare Amulet",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Rare to hit +2 skills together with FCR and resists",
+            "whyValuable": "Amulets can roll +2 to a class or +1 to all skills, but a RARE amulet's FCR caps at 10%. Stacking +2 class skills, 10 FCR, life, and dual/tri resist gives a caster resists that Mara's has and skills Mara's has, but tuned to the exact tree and with FCR Mara's lacks. It is the poor-man's answer that occasionally beats Mara's when you need that 10 FCR.",
+            "teachingPoint": "The key ceiling: a RARE amulet maxes at 10% FCR. To get 20 FCR on an amulet you must CRAFT a Caster Amulet (10% base FCR affix plus a rolled 'of the Apprentice' 5-10%). This is exactly why crafted caster amulets can beat rare ones.",
+            "factClaims": [
+              "A rare amulet's FCR maxes at 10%",
+              "A crafted Caster Amulet can reach 20% FCR by combining the guaranteed FCR with a rolled bonus",
+              "Amulets can roll +2 to a single class's skills",
+              "Crafted items can have their fixed mods plus up to 4 random affixes, more total mods than a rare"
+            ],
+            "sources": [
+              "https://www.purediablo.com/forums/threads/pc-rare-2-sorceress-skills-amulet-10-fcr-15-resist-all.10470/",
+              "https://diablo2.io/recipes/recipe-caster-amulet-t3883.html",
+              "https://forums.d2jsp.org/topic.php?t=65959504&f=21"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "Perfect: +2 class, 10 FCR, dual/tri res, +life"
+          },
+          {
+            "name": "Crafted Caster Amulet (+2 skills / 20% FCR / life / res)",
+            "alias": "\"godly caster ammy\", the amulet that beats the rare",
+            "category": "Crafted Amulet",
+            "obscurity": 4,
+            "valueTierGuess": "S",
+            "rarityTier": "Astronomically rare to hit the perfect roll; thousands of crafts without a 2/20",
+            "whyValuable": "The Caster Amulet recipe guarantees Regenerate Mana, +Mana and FCR, then rolls up to four more random affixes. That guaranteed FCR can climb to 20% and stack with +2 class skills, life and resists, giving up to seven mods. A perfect one is the single best caster amulet in the game and openly beats Mara's for a min-maxer who wants the FCR breakpoint.",
+            "teachingPoint": "This is the standout case where a crafted item beats both the best rare and a top unique. A crafted amulet can carry its three fixed mods plus four random affixes (seven total), more than a rare's six. Crafters report making thousands and never hitting the +2/20 combination.",
+            "factClaims": [
+              "The Caster Amulet craft guarantees Regenerate Mana, +Mana, and Faster Cast Rate as fixed mods",
+              "A crafted item can carry its fixed mods plus up to 4 random affixes",
+              "A crafted Caster Amulet can reach 20% FCR while a rare amulet cannot",
+              "Caster crafts use magic amulet bases that can carry +2 class skills"
+            ],
+            "sources": [
+              "https://diablo2.io/recipes/recipe-caster-amulet-t3883.html",
+              "https://diablo2.io/forums/crafted-caster-amulet-quick-reference-guide-t1465403.html",
+              "https://www.purediablo.com/forums/threads/crafting-caster-amulet.20038/"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "+2 class, 20 FCR, +life, resists"
+          },
+          {
+            "name": "Rare 2/20 Bowazon Gloves (+2 Bow & Crossbow / 20% IAS)",
+            "alias": "\"2/20 bow gloves\", \"3/20 bow gloves\" (magic)",
+            "category": "Rare Gloves",
+            "obscurity": 4,
+            "valueTierGuess": "B",
+            "rarityTier": "Rare; the least demanded of the 2/20 glove types but strong when stacked",
+            "whyValuable": "Gloves are one of the few slots that can carry +2 to the Amazon Bow & Crossbow skill tree AND 20% IAS. No unique glove gives both a bow-skill bonus and 20 IAS, so a rare or magic pair is genuinely best-in-slot for a bowazon chasing an attack-speed breakpoint, especially with dex, strength and resists added.",
+            "teachingPoint": "Same 2/20 vs 3/20 rule as circlets. A RARE glove tops at +2 to the tree; a MAGIC glove can hit +3 to the bow tree ('3/20 bow gloves') but then only one suffix. The bow variant is the cheapest of the 2/20 gloves because fewer builds use it than caster or melee versions.",
+            "factClaims": [
+              "Gloves can roll +2 to the Amazon Bow and Crossbow skill tree",
+              "Gloves can roll 20% Increased Attack Speed",
+              "A magic glove can reach +3 to a skill tree while a rare glove maxes at +2",
+              "The 2/20 bow glove is considered the least popular of the 2/20 glove types"
+            ],
+            "sources": [
+              "https://diablo2.io/post4376741.html",
+              "https://diablo2.io/price-check/2-20-gloves-for-bowazon-price-check-t1090296.html",
+              "https://itemnow.com/product/amazon-gloves-3-bowcrossbow-skills-20-ias/"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "+2 bow, 20 IAS, +dex, +str, resists"
+          },
+          {
+            "name": "Rare Dual-Leech 20 IAS Gloves (melee)",
+            "alias": "\"20 IAS dual leech CB gloves\"",
+            "category": "Rare Gloves",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Rare to hit 20 IAS plus both leeches plus crushing blow together",
+            "whyValuable": "For a melee build these stack 20% IAS, life leech, mana leech and crushing blow in one slot. That is more than Laying of Hands (which gives 20 IAS and demon damage but no leech) or Dracul's for builds that want raw leech plus speed. Value is polarizing: many argue leech belongs on rings, so these only shine when the whole affix set lands.",
+            "teachingPoint": "Crushing blow on gloves caps at 5% (a small-but-real melee multiplier). The trap here is that leech on gloves is often called low-value because players get leech from rings, so a dual-leech glove only commands a premium when it also carries 20 IAS and crushing blow or resists.",
+            "factClaims": [
+              "Gloves can roll 20% IAS, life leech, mana leech, and crushing blow",
+              "Crushing blow on gloves maxes at 5%",
+              "Laying of Hands provides 20% IAS and bonus damage to demons but no leech"
+            ],
+            "sources": [
+              "https://us.forums.blizzard.com/en/d2r/t/pc-20-ias-dual-leech-cb-gloves/112941",
+              "https://diablo2.io/price-check/ias-dual-leech-gloves-t1453839.html"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "20 IAS, max dual leech, 5 CB, resists"
+          },
+          {
+            "name": "Rare Boots: 30% FRW / 10% FHR / Tri-Res / +Dex",
+            "alias": "\"caster/tank rare boots\", \"tri-res FRW FHR boots\"",
+            "category": "Rare Boots",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare to hit FRW and FHR together with three resists",
+            "whyValuable": "Uniques force a trade-off: Sandstorm Trek gives FHR but not much run speed, War Traveler gives MF and damage, Waterwalk gives life. No unique boot gives 30 FRW + 10 FHR + three resists at once. A rare that hits all of them is best-in-slot for casters and tanks who want mobility, a hit-recovery breakpoint and capped resists from the feet.",
+            "teachingPoint": "The rare combination is FRW and FHR together, since both are suffixes-adjacent competitors for slots and rarely coexist. A pair with three resists, 30 FRW and 10 FHR (plus dex or MF) is the ceiling and commonly commands a high rune. Boots' resists let you free up other slots.",
+            "factClaims": [
+              "Rare boots can roll 30% Faster Run/Walk, 10% Faster Hit Recovery, and three resistances together",
+              "Sandstorm Trek provides Faster Hit Recovery but not high Faster Run/Walk",
+              "War Traveler is favored for magic find and adds melee damage",
+              "The FRW + FHR combination on boots is uncommon, raising value"
+            ],
+            "sources": [
+              "https://us.forums.blizzard.com/en/d2r/t/wts-gg-rare-boots-30frw10fhrtri-resdex/76810",
+              "https://diablo2.io/price-check/30-frw-dual-res-rare-boots-t1094672.html"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "30 FRW, 10 FHR, tri-res, +dex or MF"
+          },
+          {
+            "name": "Rare Jewel: 40% ED / 15% IAS (\"40/15 jewel\")",
+            "alias": "\"15/40\", \"Fervor of Fervor\", \"perfect max jewel\"",
+            "category": "Rare/Magic Jewel",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare at max roll; a benchmark socket-filler",
+            "whyValuable": "A single jewel giving 40% enhanced damage and 15% IAS is the strongest general damage-plus-speed socket filler for physical builds. It competes directly with an Ohm rune: 40/15 adds more if the weapon's base damage is under 75, Ohm adds more above that. Off-weapon it's an easy IAS+damage source for armor and helms. Perfect ones sell for multiple high runes.",
+            "teachingPoint": "'40/15' or '15/40' is a jewel and the numbers are % Enhanced Damage and % IAS. The magic version is a 'Ruby Jewel of Fervor'; a rare can add resists or other stats on top. The 40 ED must be exact to be 'perfect' since the affix rolls a range.",
+            "factClaims": [
+              "A jewel can roll a maximum of 40% Enhanced Damage and 15% IAS",
+              "The magic name for a 40/15 jewel is a 'Ruby Jewel of Fervor'",
+              "A 40/15 jewel adds more damage than an Ohm rune when the weapon base damage is below 75, and less above 75",
+              "Jewels can be socketed into weapons, armor, helms and shields"
+            ],
+            "sources": [
+              "https://diablo2.io/price-check/40-ed-15-ias-jewel-t16619.html",
+              "https://us.forums.blizzard.com/en/d2r/t/wts-15-ias-40ed-jewel/90933",
+              "https://itemforge.com/en/jewel-40ed-15ias"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "Exactly 40 ED / 15 IAS; rare version adds resist"
+          },
+          {
+            "name": "Rare LLD FCR Ring (level-30 bracket: 10 FCR / mana / life / dual res)",
+            "alias": "\"LLD caster ring\", \"vlld ring\"",
+            "category": "Rare Ring (Low Level Dueling)",
+            "obscurity": 4,
+            "valueTierGuess": "B",
+            "rarityTier": "Niche but fiercely demanded inside the LLD bracket",
+            "whyValuable": "In the level-30 dueling bracket, uniques are locked out by level requirements, so a rare ring with 10 FCR, mana, life, FHR-adjacent stats and dual resist at a low required level is best-in-slot. A perfect low-requirement Nagelring or a clean rare with 75 AR is worth more to an LLD player than most endgame unique rings, because the bracket is all about maxing every affix slot under a level cap.",
+            "teachingPoint": "LLD value is inverted from PvM: required level is a stat. A rare ring that rolls its affixes at, say, level 25-30 instead of 40+ is far more valuable, because the whole point is packing max stats under a level cap. Casters at clvl 30 want 20 FCR from gear, and rings supply 10 of it.",
+            "factClaims": [
+              "Rings max at 10% FCR, so LLD casters get 10 FCR per ring toward their breakpoint",
+              "Unique rings are gated by required level, restricting them in low-level brackets",
+              "A perfect Nagelring with 75% attack rating can be worth more to an LLD player than most unique rings",
+              "Lower affix required level increases an item's LLD value"
+            ],
+            "sources": [
+              "https://diablo2.diablowiki.net/Guide:Low_Level_Dueling_Items_v1.10,_by_Jakotaco",
+              "https://diablo2.io/price-check/lld-duel-ring-or-cool-twinker-t1333022.html",
+              "https://diablobytes.com/d2-resurrected/guides/low-level-dueling/"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "Low req level, 10 FCR, +life, +mana, dual res"
+          },
+          {
+            "name": "Rare 2/20 Trap Assassin Circlet (+2 Assassin / 20% FCR / FRW)",
+            "alias": "\"2/20 sin circ\", \"Witch-Hunter's Circlet of the Magus\"",
+            "category": "Rare Circlet",
+            "obscurity": 4,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare; the ideal trapper head roll",
+            "whyValuable": "Trap assassins want a specific FCR breakpoint for laying traps and casting. A rare circlet giving +2 Assassin skills, 20 FCR, faster run/walk, resists and a socket is the acknowledged best-in-slot trapper head, ahead of Griffon's or Nightwing's for trappers because those give no skills-to-class and no FCR tuned to the build.",
+            "teachingPoint": "The +2 Assassin prefix on a circlet is named 'Witch-Hunter's'. Because trappers care about FCR and mobility, the ideal is +2 sin / 20 FCR / +FRW / resist, a combination only a rare (or a class-skill magic + magus) circlet can assemble.",
+            "factClaims": [
+              "A rare circlet can roll +2 to Assassin skills (the 'Witch-Hunter's' prefix)",
+              "The 20% FCR suffix on the circlet is 'of the Magus'",
+              "Trap assassins target FCR breakpoints, making a 2/20 sin circlet best-in-slot for the build",
+              "Circlets can also roll Faster Run/Walk and resistances"
+            ],
+            "sources": [
+              "https://us.forums.blizzard.com/en/d2r/t/2-assassin-20-fcr-magic-circlet/108838",
+              "https://diablo2.io/post4413794.html",
+              "https://diablo2.diablowiki.net/Guide:Lightning_Trapper_v1.10,_by_Kabal"
+            ],
+            "history": "",
+            "legitimacy": "",
+            "quality": "+2 sin, 20 FCR, +FRW, resist, socket"
+          }
+        ],
+        "notes": "Research is READ-ONLY; no files created or modified. Economy framing is mature D2R ladder; tiers are openly guesses, no prices given.\n\nCRITICAL FACT SPINE verified across multiple sources and worth double-checking before publishing each item:\n1. FCR ceilings by slot: RARE amulet = 10 FCR max; RING = 10 FCR max (no 20 FCR ring exists); CIRCLET/HELM = 20 FCR via 'of the Magus' suffix; CRAFTED caster amulet = 20 FCR (10 base + rolled apprentice bonus). This distinction drives most of the 'rare beats unique' logic. Confirmed via purediablo, diablo2.io, d2jsp.\n2. Skill affix ceilings: RARE circlet/glove/amulet = +2 to ONE class (class-specific magic prefix, e.g. Arch-Angel's/Witch-Hunter's). MAGIC item = +3 to ONE skill TREE (e.g. 'Volcanic' +3 fire). Neither rare nor magic circlet can roll +2 ALL skills — that is unique (Shako) only. This is the core of the 2/20 vs 3/20 shorthand. Well-confirmed.\n3. Base tiers: Circlet(normal)/Coronet(exc, rlvl39, mlvl8)/Tiara(elite, qlvl70, mlvl13)/Diadem(elite, rlvl52, qlvl70, mlvl13). Circlet+Coronet cap 2 sockets; Tiara+Diadem cap 3 sockets. Gambling only offers Circlet+Coronet. Source: diablo.fandom Coronet page + diablo2.io forums. RECOMMEND cross-checking exact Coronet rlvl (39) and socket caps against Arreat Summit / diablo2.io base pages before publishing — diablo2.io and diablowiki both returned HTTP 403 to WebFetch, so base-stat numbers come from search-snippet summaries, not the primary page. Treat rlvl/qlvl/mlvl numbers as needing one more primary-source pass.\n4. Jewel 40/15 = max ED 40% + max IAS 15%; magic name 'Ruby Jewel of Fervor'; Ohm-rune comparison threshold is weapon base dmg 75. Confirmed.\n5. Crushing blow on gloves caps at 5%. Stated in trade listings; recommend confirming against affix table.\n\nSources leaned on: diablo2.io price-check threads, blizzard D2R forums, purediablo forums, d2jsp, itemforge/itemnow listings (for confirming which rolls exist as products), diablo2.diablowiki LLD guide. diablo2.io base pages and diablowiki article pages returned 403 to automated fetch — all diablo2.io info here is from search-result summaries. No single fully-authoritative base-stat table (Arreat Summit) was directly fetched; flag the numeric base stats for a human verify pass."
+      },
+      "verify": {
+        "checked": [
+          {
+            "name": "Rare 2/20 Sorceress Circlet (+2 Sorc / 20% FCR)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "None needed. Claims accurate."
+          },
+          {
+            "name": "Circlet vs Coronet vs Tiara vs Diadem base mechanics",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "DIADEM STATS ARE WRONG. Finding claims Diadem 'required level 52, quality level 70, magic level 13, max sockets 3' - that duplicates Tiara's numbers. Correct Diadem (Arreat Summit / diablo2.io): required level 64, quality level 85, magic level 18, max sockets 3. Correct Circlet: req 16, qlvl (normal), mlvl 3, 2 sockets. Coronet req 39, mlvl 8, qlvl 52, 2 sockets - CORRECT as stated. Tiara req 52, qlvl 70, mlvl 13, 3 sockets - CORRECT. Socket ceilings (Circlet/Coronet 2, Tiara/Diadem 3) and magic-level mechanic are correct. The gambling-screen claim (only Circlet and Coronet gamble-able) is correct."
+          },
+          {
+            "name": "Magic +3 Skill-Tab Circlet of the Magus (3/20)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. 'Volcanic' = +3 Fire Skills (Sorceress) is a magic prefix; +3 skill-tab prefixes are magic-only and CANNOT spawn on rares (rare skill affix caps at the +2 class prefix). Magic item = one prefix + one suffix, so +3 tab and 'of the Magus' 20 FCR coexist and fill both slots. All correct."
+          },
+          {
+            "name": "Rare Dual-Leech FCR Ring (LL + ML + 10% FCR)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Rings cap at 10% FCR ('of the Apprentice'); no 20% FCR ring affix exists; 'of the Magus' does not spawn on rings; dual leech + 10 FCR on one rare ring is confirmed possible (real examples found). All correct."
+          },
+          {
+            "name": "Rare +2 Class-Skill / 10% FCR Amulet",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Rare amulet FCR caps at 10%; amulets can roll +2 to a single class; a crafted Caster amulet reaches 20% FCR (5-10% guaranteed base plus a rolled 10% suffix) while a rare cannot; crafted items carry fixed mods plus up to 4 random affixes. All correct."
+          },
+          {
+            "name": "Crafted Caster Amulet (+2 skills / 20 FCR)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified against Arreat Summit / diablo2.io recipe (Magic Amulet + Ral + Perfect Amethyst + Magic Jewel). Fixed mods: Regenerate Mana 4-10%, +10-20 Mana, Faster Cast 5-10%; plus up to 4 random affixes. 20% FCR reachable via 5-10% base + rolled 10% FCR. All correct. Minor nuance: the guaranteed FCR alone caps at 10%; the full 20% requires an additional rolled FCR affix, which the finding does describe correctly."
+          },
+          {
+            "name": "Rare 2/20 Bowazon Gloves (+2 Bow&Xbow / 20 IAS)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Gloves roll +2 (rare) or +3 (magic) to the Amazon Bow & Crossbow tree and 20% IAS. Both rare 2/20 and magic 3/20 exist. The 'least popular of the 2/20 glove types' is a subjective/demand claim, plausible but not strictly verifiable; harmless."
+          },
+          {
+            "name": "Rare Dual-Leech 20 IAS Gloves (melee, w/ crushing blow)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "MAJOR ERROR. Crushing Blow CANNOT roll on RARE (or magic) items - it only appears on crafted, set, or unique gloves. So a RARE glove with 20 IAS + dual leech + crushing blow is IMPOSSIBLE as described. The claim 'Crushing blow on gloves maxes at 5%' is also wrong: crafted Blood Gloves roll 5-10% Crushing Blow (cap 10%). To salvage this item, reframe as a CRAFTED Blood Glove (which can carry 20 IAS, leech, and up to 10% CB), not a rare. Laying of Hands facts are correct: 20% IAS, +350% damage to demons, no leech (also +50 fire res and 10% CtC lvl 3 Holy Bolt). Keep the concept only if rewritten as crafted, not rare."
+          },
+          {
+            "name": "Rare Boots 30 FRW / 10 FHR / Tri-Res / +Dex",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Max FRW on rare boots is 30%, max FHR is 10%; tri-res plus those together is confirmed (real listings). Sandstorm Trek gives FHR but low FRW; War Traveler favored for MF and adds melee damage. All correct."
+          },
+          {
+            "name": "Rare/Magic Jewel 40% ED / 15% IAS (40/15)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Max is 40% ED / 15% IAS. Correct magic name is 'Ruby Jewel of Fervor' (Ruby = 40 ED prefix, of Fervor = 15 IAS suffix) - the CLAIM states this correctly, though the item's aka field garbles it as 'Fervor of Fervor' (cosmetic, not a checkable claim). IMPORTANT: the perfect 40/15 is a MAGIC jewel - 'of Fervor' (15 IAS) does NOT spawn on rare jewels, so labeling it 'Rare/Magic' is loose; it should be described as magic. Ohm comparison (40/15 wins below 75 weapon base damage, Ohm wins above) is confirmed by community math."
+          },
+          {
+            "name": "Rare LLD FCR Ring (level-30 bracket)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Core mechanics correct: rings cap at 10% FCR; unique rings are gated by required level; lower affix required-level raises LLD value. WORDING ERROR: 'a perfect Nagelring with 75% attack rating' - Nagelring's stat is +50-75 to Attack Rating (a FLAT value, max +75), NOT a percentage. Change '75% attack rating' to '+75 Attack Rating'. Also Nagelring req level is 7, well inside a level-30 bracket, so the 'uniques locked out' framing is imprecise for Nagelring specifically (many low-req uniques ARE usable in LLD); the point stands for higher-req unique rings only."
+          },
+          {
+            "name": "Rare 2/20 Trap Assassin Circlet (+2 Sin / 20 FCR / FRW)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. +2 Assassin prefix is 'Witch-Hunter's'; 20% FCR suffix is 'of the Magus'; circlets can also roll FRW and resistances; both prefix and suffix coexist on a rare. All correct. Trappers do chase FCR breakpoints, so best-in-slot framing is reasonable."
+          }
+        ],
+        "notes": "Overall the researcher's affix mechanics are strong and mostly accurate. Two real factual errors to fix before publishing: (1) Finding 2 - Diadem base stats are wrong (listed Tiara's numbers; correct Diadem is req level 64, qlvl 85, mlvl 18). (2) Finding 8 - crushing blow does NOT roll on rare items at all (crafted/set/unique only), and caps at 10% on crafted Blood gloves not 5%, so that item must be reframed as a crafted glove, not rare. Two wording fixes: Finding 10 jewel is properly a MAGIC jewel (of Fervor is magic-only) not rare; Finding 11 '75% attack rating' should be '+75 Attack Rating' (flat, not percent). All 12 clear the selection bar - none are the banned obvious items (no Enigma/Shako/Ber/Griffon's/Infinity); these are exactly the 'wait, THAT is worth something?' hidden-value rares and mechanics the project wants. Verified against Arreat Summit (circlet bases), diablo2.io, PureDiablo forums, Blizzard D2R forums, and community affix references. Could not fetch diablo2.io or diablowiki directly (403), so relied on search-surfaced content and Arreat Summit for base stats."
+      }
+    }
+  ]
+}

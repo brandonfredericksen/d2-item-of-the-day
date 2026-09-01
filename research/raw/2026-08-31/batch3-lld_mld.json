@@ -1,0 +1,563 @@
+{
+  "batch": [
+    "lld",
+    "mld"
+  ],
+  "results": [
+    {
+      "domain": "lld",
+      "found": {
+        "domain": "Diablo 2 Resurrected low level dueling (LLD) items, brackets level 9 / 18 / 30, mature ladder economy",
+        "items": [
+          {
+            "name": "Perfect Bloodfist (Heavy Gloves)",
+            "alias": "Godly Bloodfist",
+            "category": "Low-level unique, hidden value",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Common item, rare when perfect roll",
+            "whyValuable": "A PvM player sees a level 9 unique glove with +40 life and shrugs. In LLD it is a cornerstone. At required level 9 it hands you 30% Faster Hit Recovery, +5 minimum damage, 10% IAS and a flat +40 life on a character whose total life pool might be a few hundred. Nothing else at that level stacks FHR, flat damage, and that much life on one glove slot. The +5 min damage is huge when weapon damage is tiny, and the FHR breakpoint it enables can decide a duel. It is the default melee glove for the level 9 bracket and stays relevant up to 18. It can even be upgraded (up-cubed) to Sharkskin Gloves to raise its stats for level 30 play.",
+            "teachingPoint": "At low levels flat additive damage (+min/+max) matters far more than percent enhanced damage, because your base weapon damage is tiny. A flat +5 min on gloves can nearly double a low-level hit.",
+            "quality": "Perfect roll wanted: max +40 life, max +20% enhanced defense.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Bloodfist is a unique Heavy Gloves with required level 9",
+              "Bloodfist stats: 10-20% Enhanced Defense, +10 Defense, 10% Increased Attack Speed, 30% Faster Hit Recovery, +40 to Life, +5 to Minimum Damage",
+              "Bloodfist can be upgraded to a Sharkskin Gloves base via the Horadric Cube exceptional upgrade recipe"
+            ],
+            "sources": [
+              "https://diablo2.wiki.fextralife.com/Bloodfist",
+              "https://lilura1.blogspot.com/2021/02/Diablo-2-Resurrected-Perfect-Bloodfist-heavy-gloves-unique-best-lld-gloves.html",
+              "https://diablo2.io/uniques/bloodfist-t702.html"
+            ]
+          },
+          {
+            "name": "Angelic Halo (ring) + Angelic Wings (amulet) combo",
+            "alias": "Angelic combo, Angelics",
+            "category": "Set jewelry, hidden value at low level",
+            "obscurity": 2,
+            "valueTierGuess": "A",
+            "rarityTier": "Common items, but demand keeps perfect pairs moving",
+            "whyValuable": "Individually these are junk-tier set pieces a PvM player vendors. Together they grant +12 Attack Rating per character level. In the level 9, 18 and 30 brackets your attack rating from stats is minuscule, so a duelist who cannot hit does nothing. Two Angelic rings plus the amulet turns a melee twink into a near-guaranteed-hit build. Because the bonus scales with clvl and the required level is trivial, this is a mandatory melee-LLD purchase in every bracket. The set piece nobody wants in PvM is the piece that makes low-level melee function.",
+            "teachingPoint": "The Angelic partial-set attack rating is per-character-level, so it is proportionally strongest exactly where AR is scarce: the low brackets. This is why a 'bad' set is a staple.",
+            "quality": "Perfect means high +life roll on the amulet; rings are fixed.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Wearing Angelic Halo (ring) with Angelic Wings (amulet) grants a partial set bonus of +Attack Rating per character level (commonly cited as +12 AR per level)",
+              "Angelic Halo and Angelic Wings are pieces of the Angelic Raiment set",
+              "Melee builds commonly equip two Angelic rings plus the amulet to maximize the attack rating bonus"
+            ],
+            "sources": [
+              "https://diablo2.wiki.fextralife.com/Angelic+Halo",
+              "https://diablo.fandom.com/wiki/Angelic_Halo",
+              "https://lilura1.blogspot.com/2021/02/Diablo-2-Resurrected-Angelic-Halo-ring-Angelic-Wings-amulet-set-pieces-attack-rating-life-replenish-life.html"
+            ]
+          },
+          {
+            "name": "Perfect Jewel of Carnage (40% ED / 15 max)",
+            "alias": "40/15 jewel, Ruby Jewel of Carnage",
+            "category": "Magic jewel, hidden value (the roll is the item)",
+            "obscurity": 3,
+            "valueTierGuess": "S",
+            "rarityTier": "Extremely rare at a perfect low-requirement roll",
+            "whyValuable": "A magic jewel is worthless-looking, but a perfect Jewel of Carnage rolls the maximum +40% Enhanced Damage and +15 to Maximum Damage. Socketed into a low-level weapon or a socketed helm/armor, the flat +15 max damage is a massive swing on a build whose base damage is single digits. LLD players socket these into 3 and 4 socket bases to stack damage. The prize is a copy whose required level lands as low as possible for the bracket. These are among the most expensive drops in the entire twink economy. A single perfect one is described as worth more than most players farm in a very long time.",
+            "teachingPoint": "40% ED is the enhanced-damage cap for a magic jewel (the 'of Carnage' suffix); pairing it with the +15 max damage prefix is the grail combo, and low required level is what makes it LLD-legal.",
+            "quality": "Perfect = 40% ED and 15 max together, at the lowest achievable required level for the target bracket.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "The 'of Carnage' suffix on a magic jewel gives +40% Enhanced Damage at its maximum",
+              "A perfect Jewel of Carnage combines +40% Enhanced Damage with +15 to Maximum Damage",
+              "Enhanced damage on a jewel functions correctly in weapons but has historically been reported as bugged in helm/armor/shield sockets in older patches",
+              "Rare (not magic) jewels cannot roll the very best damage affixes because the strongest jewel mods are magic-only"
+            ],
+            "sources": [
+              "https://us.forums.blizzard.com/en/d2r/t/perfect-ruby-jewel-of-carnage-40-enhanced-damage-15-to-maximum-damage-40ed-15md/46111",
+              "https://itemforge.com/en/jewel-40ed-15max",
+              "https://diablo2.diablowiki.net/Jewel_Affixes"
+            ]
+          },
+          {
+            "name": "Rare circlet with +2 skill tree, sub-31 required level",
+            "alias": "LLD 2-skiller circlet",
+            "category": "Rare helm, hidden value (affix combo + required-level cap)",
+            "obscurity": 4,
+            "valueTierGuess": "S",
+            "rarityTier": "Very rare at the exact affix + low required level",
+            "whyValuable": "A rare circlet with the right rolls can out-value a Shako inside the level 30 bracket. The chase mod is +2 to a class skill tree, ideally with 20% Faster Cast Rate, 2 open sockets, life, resists and strength or dex. The catch is the required-level cap: to be legal at level 30, every affix on the item must keep the required level at 30 or below. A base Circlet (not Coronet, Tiara or Diadem) is used because Coronet already carries required level 39. Finding +2 skills AND FCR AND life AND resist while staying under the required-level ceiling is brutally rare, which is why these command more than famous PvM uniques.",
+            "teachingPoint": "Every affix raises an item's required level; the skill of LLD gearing is packing elite mods while keeping the total required level at or under the bracket cap. That constraint, not power, is what makes these rare.",
+            "quality": "Perfect = +2 tree, 20 FCR, 2 sockets, life, all-res, str/dex, required level 30 or under.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "A base Circlet can roll +2 to a class skill tree as a rare affix",
+              "The Coronet base has required level 39, making it illegal for a level 30 bracket regardless of rolls",
+              "Desirable LLD circlet mods include +2 skill tab, 20% Faster Cast Rate, 2 open sockets, +life/mana, +str/dex, and resistances",
+              "Every affix contributes to an item's required level, and the item's required level is the highest required level among its affixes plus base"
+            ],
+            "sources": [
+              "https://diablo2.io/price-check/rare-circlet-2-cold-skill-20fcr-all-res-18-t1614480.html",
+              "https://diablo2.diablowiki.net/Circlets",
+              "https://diablo-archive.fandom.com/wiki/Circlets_(Diablo_II)"
+            ]
+          },
+          {
+            "name": "Twitchthroe (Studded Leather)",
+            "alias": "Twitch",
+            "category": "Low-level unique, hidden value",
+            "obscurity": 2,
+            "valueTierGuess": "B",
+            "rarityTier": "Common, cheap even, but format-defining",
+            "whyValuable": "PvM players ignore this normal-tier unique the moment they leave act 1. In LLD it is the default body armor for the 18 and 30 brackets. At required level 16 it stacks 20% IAS, 20% Faster Hit Recovery, +10 strength, +10 dexterity and 25% increased chance of blocking on one slot. That IAS plus FHR plus max-block on a low-level build is unmatched by anything at its required level, and the +20 combined stats free up points. It is the piece that makes a level 18 or 30 melee or bow build actually reach breakpoints.",
+            "teachingPoint": "IAS and FHR breakpoints exist at every level; Twitchthroe hits them from a single body slot at required level 16, which is why it survives from twinking into serious dueling.",
+            "quality": "Fixed roll; defense range is the only variable and is near-irrelevant.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Twitchthroe is a unique Studded Leather with required level 16",
+              "Twitchthroe stats: +25 Defense, 20% Increased Attack Speed, 20% Faster Hit Recovery, +10 to Dexterity, +10 to Strength, 25% Increased Chance of Blocking"
+            ],
+            "sources": [
+              "https://diablo2.wiki.fextralife.com/Twitchthroe",
+              "https://diablo2.diablowiki.net/Twitchthroe",
+              "https://www.purediablo.com/d2wiki/Twitchthroe"
+            ]
+          },
+          {
+            "name": "Spectral Shard (Blade)",
+            "alias": "Spec Shard",
+            "category": "Low-level unique caster weapon, hidden value",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Common item, steady LLD demand",
+            "whyValuable": "A dagger with 4-15 damage is a PvM joke. For a low-level caster it is a premier weapon. At required level 25 it gives 50% Faster Cast Rate, +50 mana and All Resistances +10. For a level 30 caster duelist that single item can hit a critical FCR breakpoint while adding resist and a large mana pool, all under the bracket cap. Casters in LLD do not care about weapon damage, they care about FCR and survivability, and Spectral Shard delivers both cheaply. It is a bread-and-butter level 30 caster off-hand or main weapon.",
+            "teachingPoint": "For caster duelists weapon damage is irrelevant; a 'bad' weapon that carries FCR, mana and resist is elite. Spectral Shard's 50 FCR is the draw, not its 4-15 damage.",
+            "quality": "Fixed roll unique.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Spectral Shard is a unique Blade with required level 25",
+              "Spectral Shard stats: 50% Faster Cast Rate, +55 to Attack Rating, All Resistances +10, +50 to Mana",
+              "Spectral Shard base damage is 4 to 15"
+            ],
+            "sources": [
+              "https://rankedboost.com/diablo-2/items/spectral-shard/",
+              "https://diablo2.diablowiki.net/Spectral_Shard"
+            ]
+          },
+          {
+            "name": "Sander's Riprap (Heavy Boots)",
+            "alias": "Sander's boots",
+            "category": "Set boots, hidden value",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Common item, format-mandatory in the 30 bracket",
+            "whyValuable": "A single set boot that PvM players never think about is the earliest source of +40% Faster Run/Walk in the game, at required level 20. For the level 30 bracket that FRW plus +20 dexterity on one slot is enormous: movement wins duels, and the dex feeds attack rating, block and damage. Nothing else at that required level gives 40 FRW. It is a default level 30 boot for many builds specifically because it beats the required-level ceiling while delivering top-tier speed.",
+            "teachingPoint": "Faster Run/Walk sources are level-gated; Sander's Riprap unlocks the 40 FRW tier at required level 20, earlier than almost anything else, which is why it is a level 30 LLD default.",
+            "quality": "Fixed roll set piece.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Sander's Riprap is a set Heavy Boots with required level 20",
+              "Sander's Riprap grants +40% Faster Run/Walk and +20 to Dexterity",
+              "Sander's Riprap is part of the Sander's Folly set"
+            ],
+            "sources": [
+              "https://diablo2.wiki.fextralife.com/Sander's+Riprap",
+              "https://diablo2.io/sets/sander-s-riprap-t1141.html",
+              "https://maxroll.gg/d2/database/set-items/sanders-riprap"
+            ]
+          },
+          {
+            "name": "Death's Guard (sash) + Death's Hand (gloves) 2-piece",
+            "alias": "Death's belt/gloves combo, CBF combo",
+            "category": "Set combo, hidden value (utility mod)",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Common items, universal LLD demand",
+            "whyValuable": "Two normal-tier set pieces a PvM player never equips together become a staple in LLD. Death's Guard is a sash carrying Cannot Be Frozen at required level 6, and pairing it with Death's Hand gloves grants the 2-piece bonus of +15 all resistances. Cold-based cannot-be-frozen protection is otherwise very hard to get at low levels, and being frozen or chilled in a duel is a death sentence. Getting CBF plus a resist block plus the gloves' poison resist and IAS, all at tiny required levels, is why this 2-piece is worn across the 9, 18 and 30 brackets.",
+            "teachingPoint": "Cannot Be Frozen is a binary utility that has no low-level substitute; a set that supplies it at required level 6 is worth far more in PvP than its unimpressive stat lines suggest.",
+            "quality": "Fixed roll set pieces.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Death's Guard is a set Sash with required level 6 that provides Cannot Be Frozen",
+              "Death's Guard and Death's Hand are pieces of the Death's Disguise set",
+              "Wearing 2 pieces of the Death's Disguise set grants a +15 to all resistances partial set bonus"
+            ],
+            "sources": [
+              "https://diablo2.io/sets/death-s-guard-t1074.html",
+              "https://d2runewizard.com/sets/Death's%20Disguise/Death's%20Guard",
+              "https://diablo.fandom.com/wiki/Death%27s_Guard"
+            ]
+          },
+          {
+            "name": "Perfect low-requirement rare dual-leech / attack-rating ring",
+            "alias": "LLD leech ring",
+            "category": "Rare jewelry, hidden value (affix combo + required-level cap)",
+            "obscurity": 4,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare at the exact combo and low required level",
+            "whyValuable": "A rare ring looks like vendor trash to most players. The LLD grail is a ring that stacks a big attack rating roll, life stolen per hit, mana stolen per hit, plus life, mana, a resist and maybe +2 str/dex, while keeping the required level under the bracket cap. Leech and AR are decisive in a duel, and cramming several strong suffixes onto one ring without breaking the required-level ceiling is astronomically unlikely. Vendor-gambling rings for a legal low-required-level copy is a whole LLD sub-hobby. A perfect one is worth more than most named uniques inside the format.",
+            "teachingPoint": "The required-level of a rare ring is driven by its highest-required affix; a leech + AR + dual-resource roll that stays legal at level 30 is rare precisely because each good affix pushes the required level up.",
+            "quality": "Perfect = high AR, life leech and mana leech, +life, +mana, a resist, ideally +2 str/dex, required level within the bracket cap.",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Rare rings can roll life stolen per hit, mana stolen per hit, attack rating, +life, +mana, resistances, and +str/+dex simultaneously",
+              "An item's required level is set by its highest-required-level affix, so stacking strong affixes raises the required level",
+              "Rings can be obtained by gambling from town vendors, which LLD players use to hunt low-required-level rare rings"
+            ],
+            "sources": [
+              "https://diablo2.io/price-check/fcr-dual-leech-attack-rating-rare-ring-t1735254.html",
+              "https://diablo2.io/forums/rare-ring-guide-ladder-t883855.html",
+              "https://diablo2.io/price-check/ar-dual-leech-life-mana-lr-ring-t910109.html"
+            ]
+          }
+        ],
+        "notes": "WHY THE LLD ECONOMY EXISTS AND WHY PRICES LOOK INSANE OUT OF CONTEXT: Low Level Dueling is organized PvP inside hard level caps, classically level 9, 18 and 30 (also 49). Because character level is frozen, players cannot out-level a gear gap. Skill points and stat points are scarce, big endgame items are locked out by required level, and life pools are tiny. That inverts the entire value system. Flat additive damage (+min/+max) beats percent enhanced damage. Attack rating, faster hit recovery, faster cast rate, cannot-be-frozen and leech are decisive because there is no room to brute-force past them. The single most important mechanic is the REQUIRED-LEVEL CAP: an item is legal for a bracket only if its required level is at or below the cap, and an item's required level is driven by the highest-required-level affix it carries (plus the base). So the LLD grail is not just a great roll, it is a great roll that stays under the ceiling. That is why 'perfect' in LLD means two things at once: the affixes are maxed AND the required level is minimized. A jewel or ring or circlet that hits an elite affix combo while staying bracket-legal is astronomically rare, so it commands more than famous PvM uniques. To an outsider this looks insane, because the same item would be worthless in PvM. The economy is real because a dedicated dueling community trades exclusively inside these constraints on a mature ladder.\n\nDEFINING 'PERFECT' HERE: (1) affix values at or near their maximum roll, (2) required level at or below the bracket cap, ideally minimized, (3) for jewels/jewelry, the right combination of format-relevant mods (flat damage, leech, AR, FCR, FHR, resist) rather than PvM-relevant mods.\n\nVERIFICATION NOTES / UNCERTAINTY: All required levels and unique/set stat lines above were confirmed against multiple item databases (fextralife, diablo2.io, diablowiki, maxroll, d2runewizard). The Angelic AR bonus is per-character-level; the commonly cited figure is +12 AR per level for the Halo+Wings pairing, which I flagged as 'commonly cited' rather than absolute. The jewel enhanced-damage cap of 40% (the 'of Carnage' suffix) is the magic-jewel maximum; I could not load the full jewel affix table (diablowiki returned 403), so the exact required level of a specific 40ED roll varies by which prefix is paired and should be double-checked before publishing a hard required-level number for that jewel. The 'rare circlet can out-value a Shako' framing comes from LLD guide sources and is a relative-demand statement, not a price. Several primary guide sources (Jakotaco LLD guide on diablowiki/purediablo, the Mist jewel guide on battleforums, DiabloBytes LLD guide, diablo2.io LLD guide threads) returned HTTP 403 to the fetcher; I worked around them using search snippets plus item databases, so the item-selection reasoning is grounded even though those specific long-form guides could not be fully read.\n\nTITLE/REQUIRED-LEVEL FACTS TO RE-CHECK BEFORE PUBLISH: Bloodfist rlvl 9; Twitchthroe rlvl 16; Spectral Shard rlvl 25 (note: it does NOT grant +skills, only 50 FCR, contrary to some casual claims); Sander's Riprap rlvl 20; Death's Guard rlvl 6; Coronet rlvl 39 (illegal at 30). Wormskull normal Skull Cap version is rlvl 21 per one source but was cited as rlvl 21 vs 30 inconsistently, so confirm the exact base before using it."
+      },
+      "verify": {
+        "checked": [
+          {
+            "name": "Perfect Bloodfist (Heavy Gloves)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All stats verified exact against Arreat Summit and multiple wikis: unique Heavy Gloves, Required Level 9, 10-20% Enhanced Defense, +10 Defense, 10% IAS, 30% Faster Hit Recovery, +40 Life, +5 Minimum Damage. Note: Bloodfist has NO variable roll on its signature stats (FHR, IAS, life, min dmg are all fixed); only the Enhanced Defense (10-20%) and base defense vary, and ED on gloves is cosmetically irrelevant. So 'Perfect Bloodfist / Godly Bloodfist' is a near-meaningless distinction; the defense roll does not affect LLD value. The 'perfect' framing overstates rarity. Upgrade recipe verified: Tal + Shael + Perfect Diamond upgrades it to Sharkskin Gloves, but this raises required level to 30 (fine for the 30 bracket, illegal for 9/18). Good hidden-value pick for a PvM player who would vendor it."
+          },
+          {
+            "name": "Angelic Halo + Angelic Wings combo",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified: Angelic Halo (ring) and Angelic Wings (amulet) are Angelic Raiment set pieces; the 2-piece partial bonus grants +12 Attack Rating per character level (range cited +144 to +1188). Two-Halo stacking to double the AR bonus is real and standard. One correction to the WHY narrative: the ring/amulet required level is 12, not 'trivial' for a level 9 bracket, so this combo is legal in the 18 and 30 brackets but NOT the level 9 bracket. Minor, but the finding implies 'every bracket including 9.' Otherwise solid and genuinely surprising (junk PvM set pieces that are mandatory melee-LLD)."
+          },
+          {
+            "name": "Perfect Jewel of Carnage (40 ED / 15 max)",
+            "verdict": "REJECTED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Multiple factual errors, and the core LLD premise is broken. (1) A perfect 40/15 Ruby Jewel of Carnage has REQUIRED LEVEL 58 (max-damage roll drives the rlvl), so it is ILLEGAL in every LLD bracket (9/18/30). The finding's whole thesis, that the prize is a copy whose required level 'lands as low as possible for the bracket' and that 'LLD players socket these into 3 and 4 socket bases,' is wrong for a PERFECT one. A perfect Jewel of Carnage is a PvM/normal-game item, not an LLD twink item. (2) The claim 'the of Carnage suffix gives +40% Enhanced Damage at its maximum' is FALSE. 'Of Carnage' is the MAXIMUM-DAMAGE suffix (+11-15 max dmg). The +31-40% Enhanced Damage comes from the separate 'Ruby' PREFIX. A 40/15 jewel needs both Ruby prefix AND Carnage suffix. (3) The claim 'rare jewels cannot roll the very best damage affixes because the strongest jewel mods are magic-only' is misleading/false: jewel ED and max-damage affixes are not magic-exclusive in the way stated; rares simply have fewer affix slots and can carry these mods too. The ED-in-non-weapon-socket bug is real and correctly described. But the errors plus the illegal required level for the stated LLD use case sink this item."
+          },
+          {
+            "name": "Rare circlet with +2 skill tree, sub-31 required level",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified against the DiabloBytes LLD guide and base data: at clvl 30 only the base Circlet works because Coronet (exceptional) has Required Level 39 (confirmed) and Tiara/Diadem are higher. +2 to a class skill tree is the non-negotiable chase mod; desirable extras are 20% FCR, life, resists, str/dex, and sockets, all while every affix's required-level contribution stays under the bracket cap. A well-rolled +2 skill circlet can out-value a Shako at clvl 30 (confirmed by the guide). One nuance: '2 open sockets' is not a rare affix; sockets on a rare circlet come from the Larzuk quest reward (max sockets 2 on a circlet) or a socketing recipe, not from a rolled affix, so listing it as a rolled mod is imprecise. Also the required-level mechanic is correctly stated (item rlvl = highest of base and any affix). Strong, surprising pick."
+          },
+          {
+            "name": "Twitchthroe (Studded Leather)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All stats verified exact against Arreat Summit and wikis: unique Studded Leather, Required Level 16, +25 Defense, 20% IAS, 20% Faster Hit Recovery, +10 Dexterity, +10 Strength, 25% Increased Chance of Block. Legal in the 18 and 30 brackets (rlvl 16), not the 9 bracket. Genuinely a piece PvM players discard that is format-defining in LLD. Keep."
+          },
+          {
+            "name": "Spectral Shard (Blade)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All stats verified exact: unique Blade, base damage 4-15, Required Level 25, 50% Faster Cast Rate, +55 to Attack Rating, All Resistances +10, +50 to Mana. Required str 35 / dex 51. Legal for the 30 bracket only (rlvl 25). Solid caster hidden-value pick. Keep."
+          },
+          {
+            "name": "Sander's Riprap (Heavy Boots)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Dexterity value is WRONG. The finding says '+20 to Dexterity.' Verified across diablo2.io, d2runewizard, and Fandom: Sander's Riprap grants +10 to Dexterity (not +20), plus +5 to Strength and +100 to Attack Rating, in addition to the +40% Faster Run/Walk. Required Level 20 and set membership (Sander's Folly) are correct, and the +40% FRW is correct and is the earliest big FRW source. The WHY's claim that '+20 dexterity' is enormous must be halved to +10 dex (and it also omits the +5 str and +100 AR). Fix the dexterity number, then keep."
+          },
+          {
+            "name": "Death's Guard + Death's Hand 2-piece (CBF combo)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified: Death's Guard is a Sash, Required Level 6, provides Cannot Be Frozen; Death's Guard and Death's Hand are pieces of the Death's Disguise set (third piece is Death's Touch, a sword); the 2-piece partial bonus is +15 to all resistances. CBF at rlvl 6 is legal in every bracket. Accurate and genuinely useful/surprising. Keep."
+          },
+          {
+            "name": "Perfect low-requirement rare dual-leech / attack-rating ring",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Mechanics verified: rare rings can simultaneously roll attack rating, life stolen per hit, mana stolen per hit, +life, +mana, resistances, and +str/dex; the item required level is set by the highest-required-level affix; and rings are gambled from town vendors (PureDiablo 'Gamble dual leech rings' thread confirms this is the LLD acquisition method). Real trade examples of AR+dual-leech rings show required levels of 46-74 for strong rolls, which supports the finding's core point that a LEGAL low-required-level copy is astronomically rare. Confidence medium only because '+2 str/dex' as a listed ring affix is minor and the exact 'perfect' definition is fuzzy, but nothing here is false. Keep; it is a legitimate hidden-value grail."
+          }
+        ],
+        "notes": "Verified against Arreat Summit, diablo2.io, d2runewizard, Fandom, diablo2.diablowiki.net, DiabloBytes LLD guide, PureDiablo and Blizzard forums. Two items need action: (1) REJECT Perfect Jewel of Carnage - a perfect 40/15 has required level 58, making it illegal in EVERY LLD bracket, which destroys the LLD premise; plus the finding misattributes 'of Carnage' as the +40% ED suffix when it is actually the +11-15 max-damage suffix (the 40% ED is the 'Ruby' prefix), and its rare-vs-magic-jewel claim is false. (2) CORRECT Sander's Riprap dexterity from +20 to +10 (verified across three sources); it also has +5 str and +100 AR not mentioned. Minor narrative fixes: Angelic combo and Twitchthroe are illegal in the level-9 bracket (rlvl 12 and 16 respectively), and Bloodfist's 'perfect/godly' framing is nearly meaningless since its LLD-relevant stats are all fixed (only cosmetic Enhanced Defense varies). The circlet's '2 open sockets' come from Larzuk/recipe, not a rolled affix. All eight non-rejected items clear the selection bar as genuine LLD hidden-value picks that a PvM player would vendor or ignore; none are common-knowledge items like Enigma/Shako/Ber."
+      }
+    },
+    {
+      "domain": "mld",
+      "found": {
+        "domain": "Diablo 2 Resurrected mid-level dueling (MLD) and niche PvP bracket item economy",
+        "notes": "Research is READ-ONLY, no files created. Economy baseline assumed: mature D2R ladder season, softcore. Value tiers are guesses, letters only, no prices per project rules.\n\nCONTEXT ON MLD AS A BRACKET (important for the site's framing): \"MLD\" = mid-level dueling, community-defined roughly as clvl 30-60, with the two dominant sub-brackets being level 45 and level 49 (and a secondary level 30 crossover with high LLD). The bracket exists because of the \"level requirement ceiling\" mechanic: you build a character to a capped level so you can only equip gear whose required-level is at or below your cap, which lets you fight opponents who are also capped there. This is why an item's REQUIRED LEVEL is itself a stat that creates or destroys value. An item that is mediocre in PvM can be bracket-BiS purely because its rlvl slots perfectly under the ceiling, and an item that is stronger but has a higher rlvl is illegal in the bracket. The classic example of the ceiling flipping value: Death Cleaver (rlvl 70) is a top melee dueling axe but is ILLEGAL in level 45/49 MLD, so it belongs to the level 80s+ \"HLD\" bracket instead, not MLD. That is exactly the kind of counterintuitive fact the site wants.\n\nHOW MLD DIFFERS FROM LLD (for site copy): LLD is usually level 9 (twink), level 18, or level 30. At those caps you have very few skill points and almost no synergies, so duels are decided by raw gear rolls, crushing blow, and one-shot burst. MLD (45/49) unlocks level-30 skills and meaningful synergy investment, so builds become \"real\" - a Charged Strike javazon, a Blessed Hammer paladin, an Energy Shield sorc all come online. That shifts value away from pure LLD twink uniques (Angelic combo, Twitchthroe, Bloodfist) toward mid-rlvl class weapons and runewords (Titan's Revenge rlvl 42, Peace rlvl 29, Kuko rlvl 33). Both brackets still share the Angelic AR engine and rare circlets. Also: \"eth + replenish quantity\" is a big deal in these brackets because you cannot repair with high runes cheaply and want an indestructible weapon; eth Titan's and Thunderstroke replenish their own quantity.\n\nBRACKET-SPECIFIC RUNEWORDS worth a dedicated slot on the site: Peace (Shael Thul Amn, rlvl 29, armor) - only usable body armor runeword that fits under the level 30/45 ceiling and gives a chance-to-cast Valkyrie proc; it is close to build-defining for MLD amazons and is used by other classes just for the free Valkyrie meatshield. Note Peace is amazon-only for the +2 skills line but ANY class can wear it for the Valkyrie/FHR/resist. Honor (rlvl 27) and Strength (rlvl 25) are the melee-weapon runewords that fit the ceiling. Lore (Ort Sol, rlvl 27, +1 skills helm) is a cheap MLD caster staple.\n\nSOURCES BLOCKED: diablo2.io forum pages and diablo2.diablowiki.net returned HTTP 403 to WebFetch, so all diablo2.io/diablowiki data below comes from search-result snippets rather than full-page fetches. Fextralife, diablo.fandom, purediablo, rankedboost, and d2runewizard snippets were accessible and corroborate the core stats. Recommend a human double-check any exact affix RANGE against Arreat Summit / diablo2.io before publishing, especially the Angelic per-level AR figure and Peace's exact stat lines.\n\nCANDIDATE POOL beyond the 8 returned (leads for future days, not fully verified): Thunderstroke (unique Matriarchal Javelin, higher rlvl, the \"duel\" javazon weapon vs Titan's \"PvM\" framing per PureDiablo), Magewrath (rune bow, +3 Guided Arrow), Buriza-Do Kyanon (100% pierce), Gore Rider (rlvl 47 - JUST above the 45 ceiling, illegal in 45 but legal in 49, a great \"ceiling trap\" story), Goblin Toe (rlvl 22, 25% CB, LLD/MLD crushing-blow boot), rare 2-socket circlets with +2 class / 20 FCR (bracket caster BiS, can beat Shako in-bracket).",
+        "items": [
+          {
+            "name": "Titan's Revenge",
+            "category": "Unique Ceremonial Javelin (Amazon)",
+            "alias": "Titan's, eth Titans",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "in-bracket BiS, moderate drop rarity",
+            "whyValuable": "Required level 42 puts it perfectly inside the level 45 and 49 MLD ceilings, and it is the default charged-strike / lightning-fury javazon weapon there. It stacks +2 Amazon skills, 150-200% enhanced damage, +20 strength, +20 dexterity, 30% faster run/walk and 5-9% life leech, so it hands a bracket amazon skills, damage, stat points and mobility in one slot. The ethereal version replenishes its own quantity, making it effectively indestructible without repair, which matters because you cannot cheaply repair in a capped duel character. A perfect (199% ED) eth copy is a chase item.",
+            "teachingPoint": "In MLD an item's required level is a stat. Titan's is bracket-legal at rlvl 42; a stronger javelin one rlvl higher would be illegal at the 45 cap. This is why players hunt a mid-tier unique instead of the absolute best javelin in the game.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "eth + perfect (199-200% ED) is the chase; replenish quantity makes eth the preferred version",
+            "factClaims": [
+              "Titan's Revenge is a unique Ceremonial Javelin with required level 42",
+              "It grants +2 to Amazon Skill Levels",
+              "Enhanced damage rolls 150-200%",
+              "It grants +20 to Strength and +20 to Dexterity",
+              "It grants +30% Faster Run/Walk and 5-9% Life Stolen Per Hit",
+              "The ethereal version replenishes quantity, reducing the need to repair",
+              "It can be upgraded to a Matriarchal Javelin base"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Titan%27s_Revenge",
+              "https://diablo2.io/uniques/titan-s-revenge-t995.html",
+              "https://www.purediablo.com/forums/threads/whats-the-difference-between-titans-revenge-and-eth-titans-revenge.157707/"
+            ]
+          },
+          {
+            "name": "Peace (Shael Thul Amn)",
+            "category": "Runeword, body armor",
+            "alias": "Peace armor",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "cheap runes, but bracket-defining utility",
+            "whyValuable": "Required level 29, so it is the only body-armor runeword that fits under the level 30 and 45 MLD ceilings while giving a real proc. It carries a 4% chance to cast level 15 Valkyrie on striking (some sources list 2%), +2 Amazon skills, +20% faster hit recovery, +2 critical strike and +30% cold resist. The free Valkyrie is a meatshield in a duel, so non-amazon classes wear Peace purely for the summon and FHR even though they get no +skills. That cross-class utility at a low rune cost is why it is an MLD staple rather than a curiosity.",
+            "teachingPoint": "Peace shows the MLD runeword pattern: a low-rune runeword whose value is its required-level fit plus a proc, not raw power. It is one of the few armors you can legally wear at the level 30/45 cap that still does something active.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "roll the Valkyrie chance and FHR; base armor choice matters for strength/block",
+            "factClaims": [
+              "Peace is Shael + Thul + Amn in a 3-socket body armor",
+              "Peace has required level 29",
+              "It grants a chance to cast level 15 Valkyrie on striking",
+              "It grants +2 to Amazon Skill Levels (amazon only)",
+              "It grants +20% Faster Hit Recovery and +2 to Critical Strike",
+              "It grants Cold Resist +30%",
+              "The Valkyrie does not proc when worn by a hireling"
+            ],
+            "sources": [
+              "https://diablo2.diablowiki.net/Peace",
+              "https://d2runewizard.com/runewords/Peace",
+              "https://diablo2.wiki.fextralife.com/Peace"
+            ]
+          },
+          {
+            "name": "Angelic Halo + Angelic Wings (2x ring + amulet)",
+            "category": "Set combo (rings + amulet)",
+            "alias": "Angelics, Angelic combo",
+            "obscurity": 2,
+            "valueTierGuess": "B",
+            "rarityTier": "common items, but the combo is bracket-mandatory for melee",
+            "whyValuable": "This is the attack-rating engine of every melee LLD/MLD build. The partial set bonus grants attack rating that scales +12 per character level, and because the bonus lives on the RING, wearing two Angelic Halos plus the Angelic Wings amulet applies the per-level AR bonus twice. At a capped bracket level this is often more AR than any other ring pairing can provide, which is what lets a melee dueler actually connect against a high-defense or dodging opponent. The amulet also adds life. Individually the pieces are near-worthless vendor trash, which is exactly the 'wait, THAT matters?' angle.",
+            "teachingPoint": "The AR-per-level bonus is on the ring, so two rings double it. New players slot one Angelic ring and Raven Frost; MLD melee players slot two Angelic rings and eat the loss of Raven's cannot-be-frozen because raw AR wins duels in-bracket.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "no roll needed on the AR line; it is fixed per level",
+            "factClaims": [
+              "The Angelic partial set bonus grants attack rating scaling with character level, listed as +12 attack rating per level",
+              "Wearing two Angelic Halo rings applies the per-level attack rating bonus twice",
+              "The combo used in MLD is two Angelic Halo rings plus the Angelic Wings amulet",
+              "Angelic Halo also grants replenish life and +20 life",
+              "Angelic Wings grants +3 to Light Radius and a life bonus as part of the set"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Angelic_Halo",
+              "https://diablo2.io/sets/angelic-halo-t1040.html",
+              "https://diablo2.wiki.fextralife.com/Angelic+Halo"
+            ]
+          },
+          {
+            "name": "Twitchthroe",
+            "category": "Unique Studded Leather (body armor)",
+            "alias": "Twitch",
+            "obscurity": 3,
+            "valueTierGuess": "C",
+            "rarityTier": "common drop, bracket staple",
+            "whyValuable": "Required level 16, so it is legal in essentially every LLD and lower-MLD bracket. It gives +2 attack speed (IAS), +20% faster hit recovery, +25 maximum stamina and +10 dexterity on a light armor with low strength requirement. For melee brackets that cannot fit a full set or a runeword, Twitch is the go-to body: the IAS and FHR help you hit a breakpoint and the +10 dexterity quietly buys block or damage without spending stat points. PvM players vendor it on sight, which is why its bracket demand surprises people.",
+            "teachingPoint": "Twitchthroe is a textbook 'PvM vendors it, duelers hoard it' item. Its value is the IAS+FHR breakpoint help plus free dexterity at a very low required level, not its defense number.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "fixed stats; value is just having it at low rlvl",
+            "factClaims": [
+              "Twitchthroe is a unique Studded Leather with required level 16",
+              "It grants +2 to attack speed (increased attack speed)",
+              "It grants +20% Faster Hit Recovery",
+              "It grants +25 Maximum Stamina",
+              "It grants +10 to Dexterity"
+            ],
+            "sources": [
+              "https://diablo2.diablowiki.net/Twitchthroe",
+              "https://rankedboost.com/diablo-2/items/twitchthroe/"
+            ]
+          },
+          {
+            "name": "Bloodfist",
+            "category": "Unique Heavy Gloves",
+            "alias": "Bloodfist gloves",
+            "obscurity": 3,
+            "valueTierGuess": "C",
+            "rarityTier": "common drop, bracket staple",
+            "whyValuable": "Required level 9, the lowest-rlvl source of +30% faster hit recovery plus +40 life on gloves. In LLD and lower MLD, hitting an FHR breakpoint decides whether you get locked in hit-recovery and stunned to death, and Bloodfist delivers a big FHR chunk plus a large flat life pool that is enormous relative to a capped character's total health. It also adds +10% IAS and +5 min damage. Casters and melee alike run it when they need FHR they cannot get elsewhere at that level.",
+            "teachingPoint": "At a low bracket cap, +40 life from one glove can be 15-25% of your entire life bar, and the +30 FHR often buys a breakpoint no other rlvl-9 item can. That is why a common leveling glove is a dueling keystone.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "fixed stats",
+            "factClaims": [
+              "Bloodfist is a unique Heavy Gloves with required level 9",
+              "It grants +30% Faster Hit Recovery",
+              "It grants +40 to Life",
+              "It grants +10% Increased Attack Speed",
+              "It grants +5 to Minimum Damage"
+            ],
+            "sources": [
+              "https://diablo2.diablowiki.net/Bloodfist",
+              "https://diablo2.wiki.fextralife.com/Bloodfist"
+            ]
+          },
+          {
+            "name": "Kuko Shakaku",
+            "category": "Unique Cedar Bow",
+            "alias": "Kuko",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "in-bracket BiS bow, moderate rarity",
+            "whyValuable": "Required level 33, so it slots under the level 45/49 MLD ceilings and is the go-to bracket bowazon weapon. It grants +3 to Bow and Crossbow Skills, +3 to Immolation Arrow, roughly +180% enhanced damage, big added fire damage and, critically, innate Piercing Attack. Pierce lets a bracket bowazon hit through Valkyries and minions and land multi-target physical/fire shots, and the +3 bow skills is a large relative boost when a capped character has few skill points. PvM players overlook it because at endgame you use a runeword bow, but in-bracket it is close to BiS.",
+            "teachingPoint": "Kuko is another required-level fit story: rlvl 33 keeps it legal at the 45 cap, and its innate Pierce plus +3 bow skills matters far more at a low level cap than it ever does at level 90.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "roll the enhanced damage; the skill and pierce lines are fixed",
+            "factClaims": [
+              "Kuko Shakaku is a unique Cedar Bow with required level 33",
+              "It grants +3 to Bow and Crossbow Skills (Amazon only)",
+              "It grants +3 to Immolation Arrow",
+              "It has innate Piercing Attack",
+              "It grants roughly +180% Enhanced Damage plus added fire damage"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Kuko_Shakaku",
+              "https://diablo2.io/uniques/kuko-shakaku-t837.html",
+              "https://diablo2.diablowiki.net/Unique_Bows"
+            ]
+          },
+          {
+            "name": "Cow King's Hooves",
+            "category": "Set Boots (Cow King's Leathers)",
+            "alias": "Cow boots, CK Hooves",
+            "obscurity": 3,
+            "valueTierGuess": "C",
+            "rarityTier": "common, but bracket-preferred",
+            "whyValuable": "Required level 13 and grants +20 to Dexterity plus 40% faster run/walk and fire resist. In LLD and lower MLD, +20 dexterity from a single boot is a huge free investment: it buys block, attack rating or weapon damage without spending precious stat points that a capped character does not have. That is why they are one of the most preferred boots for mid-LLD/MLD melee and bow builds, over crushing-blow boots that carry a higher required level.",
+            "teachingPoint": "The +20 dexterity is the whole point. On a capped character, stat points are scarce, so a boot that hands you 20 dexterity for free is often worth more than a boot with a flashier offensive mod but a higher required level.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "fixed stats",
+            "factClaims": [
+              "Cow King's Hooves is a set boot (Cow King's Leathers) with required level 13",
+              "It grants +20 to Dexterity",
+              "It grants +40% Faster Run/Walk",
+              "It grants fire resistance",
+              "It does not have Crushing Blow"
+            ],
+            "sources": [
+              "https://diablo2.io/sets/cow-king-s-hooves-t1071.html",
+              "https://maxroll.gg/d2/database/set-items/cow-kings-hooves",
+              "https://diablo2.wiki.fextralife.com/Cow+King's+Hooves"
+            ]
+          },
+          {
+            "name": "Death Cleaver",
+            "category": "Unique Berserker Axe (elite)",
+            "alias": "DC, eth Death Cleaver",
+            "obscurity": 4,
+            "valueTierGuess": "A",
+            "rarityTier": "chase melee dueling weapon (higher bracket)",
+            "whyValuable": "Included as the instructive counter-case: it is a premier melee DUELING axe with 66% Deadly Strike, high enhanced damage, fast attack speed and enemy defense reduction, and eth + Zod copies are chase items. BUT its required level is 70, which puts it ABOVE the 45 and 49 MLD ceilings entirely. So despite being a dedicated dueling weapon, it is illegal in MLD and belongs to the high-level (HLD, level 80s+) bracket where Grief is banned. It is the clearest example of the required-level ceiling deciding an item's bracket regardless of how good the item is.",
+            "teachingPoint": "Death Cleaver is the trap that teaches the rule: 'best dueling axe' does not mean 'MLD legal.' At rlvl 70 it cannot be equipped at a 45 or 49 cap, so it defines a different bracket. Required level is the gatekeeper, not power.",
+            "history": "",
+            "legitimacy": "",
+            "quality": "eth + Zod socket is the chase for HLD melee",
+            "factClaims": [
+              "Death Cleaver is an elite unique Berserker Axe with required level 70",
+              "It grants 66% Deadly Strike",
+              "It is favored in melee PvP where Grief is not allowed, often ethereal with a Zod rune",
+              "Its required level 70 places it above the level 45 and 49 MLD ceilings"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Death_Cleaver",
+              "https://diablo2.io/uniques/death-cleaver-t742.html",
+              "https://diablo2.wiki.fextralife.com/Death+Cleaver"
+            ]
+          }
+        ]
+      },
+      "verify": {
+        "checked": [
+          {
+            "name": "Titan's Revenge (Unique Ceremonial Javelin)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All claims verified against diablo2.io / Fandom / D2Runewizard. Unique Ceremonial Javelin, rlvl 42, +2 Amazon Skills, 150-200% ED, +20 Str, +20 Dex, +30% FRW, 5-9% Life Stolen Per Hit, Replenishes Quantity (1 in 3 sec) so eth copies self-heal quantity. Upgrade to Matriarchal Javelin via Lum + Pul + Perfect Emerald recipe confirmed. Note it also carries +2 Javelin and Spear Skills and Adds 25-50 damage, not listed in the WHY but not contradicted. Strong hidden-value pick: MLD/LLD javazon BiS while endgame players think only of runeword throwers. Keep."
+          },
+          {
+            "name": "Peace runeword (Shael Thul Amn)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "FACT ERROR on the Valkyrie proc. The proc is 2% Chance to cast level 15 Valkyrie ON STRIKING (confirmed d2runewizard, diablo2.io). The separate proc is 4% Chance to cast level 5 Slow Missiles WHEN STRUCK. The finding inverted these: it stated '4% Valkyrie... some sources list 2%'. The correct Valkyrie value is 2%, and the 4% belongs to Slow Missiles. Everything else verified: Shael+Thul+Amn in 3-socket body armor, rlvl 29, +2 Amazon Skills, +20% FHR, +2 Critical Strike, Cold Resist +30% (also Attacker Takes Damage 14, not mentioned). The 'Valkyrie does not proc on a hireling' claim is plausible (mercs generally cannot trigger on-striking CtC procs) but is inference, not a sourced stat; treat as reasoning, not a hard fact. Fix the 2% vs 4% before publishing."
+          },
+          {
+            "name": "Angelic Halo + Angelic Wings combo",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Core mechanic verified: the 2-piece Angelic partial set bonus grants +12 Attack Rating per character level, and because the bonus sits on the RING, equipping two Angelic Halo rings plus the Angelic Wings amulet applies the per-level AR bonus TWICE (confirmed via PureDiablo 'Angelic Halo question' thread and community sources). This is the AR engine for melee LLD/MLD. Angelic Wings amulet adds life and light radius; Angelic Halo adds replenish life and a flat life bonus. I could not re-open diablo2.io (403) to nail the exact +20 life figure on the Halo, so treat the precise life numbers as unverified, but the load-bearing AR-doubling mechanic and the 3-piece build are correct. Keep — genuinely surprising to endgame-minded players."
+          },
+          {
+            "name": "Twitchthroe (Unique Studded Leather)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "MULTIPLE FACT ERRORS. Correct stats (Fextralife, Fandom, diablo-2.net): 20% Increased Attack Speed, 20% Faster Hit Recovery, +10 to Dexterity, +10 to Strength, 25% Increased Chance of Blocking, +25 Defense, rlvl 16. (1) The finding wrote '+2 to attack speed (IAS)' — it is 20% IAS, not +2. (2) The finding lists '+25 Maximum Stamina' — this stat DOES NOT EXIST on Twitchthroe; it is fabricated. Remove it. (3) The finding omits the two stats players actually value: +10 Strength and 25% Chance of Block — the block is a big reason shield melee brackets wear it. Rewrite the stat line to: 20% IAS, 20% FHR, +10 Dex, +10 Str, 25% Chance to Block. Item still qualifies for the site after correction."
+          },
+          {
+            "name": "Bloodfist (Unique Heavy Gloves)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All claims verified (Arreat Summit, Fextralife, diablo2.io): Unique Heavy Gloves, rlvl 9, +30% Faster Hit Recovery, +40 to Life, +10% Increased Attack Speed, +5 to Minimum Damage (also 10-20% enhanced defense / +10 defense, not mentioned but not contradicted). Legitimate low-rlvl FHR+life pick. Keep."
+          },
+          {
+            "name": "Kuko Shakaku (Unique Cedar Bow)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Mostly verified: Unique Cedar Bow, rlvl 33, +3 Bow and Crossbow Skills (Amazon Only), +3 Immolation Arrow (Amazon Only), innate Piercing Attack (50), adds fire damage. TWO nuances: (1) Enhanced damage is +150-180%, so the WHY's 'roughly +180% ED' is only the top of the range — phrase as up-to-180% or ~150-180%, not a flat 180%. (2) The bow's on-hit fire proc is documented as 'Fires Explosive/Magic Arrows or Bolts [Level 7]' in addition to the +3 Immolation Arrow oskill; the WHY conflates the fire component but nothing stated is false. Keep with the ED wording tightened."
+          },
+          {
+            "name": "Cow King's Hooves (Set Boots)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "TWO FACT ERRORS. Verified stats (Fextralife, Fandom, diablo2.io): set boots, rlvl 13, +20 to Dexterity, +30% Faster Run/Walk, Adds 25-35 Fire DAMAGE, 25% Better Chance of Getting Magic Items, +25-35 Defense. (1) The finding says '+40% Faster Run/Walk' — it is 30% FRW, not 40%. (2) The finding says 'grants fire resistance' — WRONG; it adds fire DAMAGE (an offensive proc) and has NO fire resist. The real secondary stat is 25% MF. The load-bearing +20 Dexterity claim is correct and is the actual reason it is a bracket pick. Fix FRW to 30% and replace 'fire resist' with 'adds fire damage / 25% MF'. Keep after correction."
+          },
+          {
+            "name": "Death Cleaver (Unique Berserker Axe)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All claims verified (Fextralife, Fandom): elite Unique Berserker Axe, rlvl 70, +66% Deadly Strike, +230-280% ED, +40% IAS, -33% Target Defense, +6-9 Life After Each Kill (ladder). rlvl 70 does sit above the level 45/49 MLD ceilings, so its role as the instructive counter-case (a dueling weapon that is illegal in MLD and belongs to HLD where Grief is banned) is accurate. Keep as the deliberate contrast item."
+          }
+        ],
+        "notes": "Adversarial pass complete. All 8 items clear the selection bar (obscure LLD/MLD bracket picks, none are the banned common-knowledge endgame items). Three items have real fact errors that MUST be fixed before publishing: PEACE (Valkyrie proc is 2% not 4%; the 4% belongs to the Slow Missiles-when-struck proc — the finding inverted them), TWITCHTHROE ('+25 Maximum Stamina' is fabricated and does not exist; '+2 attack speed' should read 20% IAS; it also omits the real signature stats +10 Strength and 25% Chance to Block), and COW KING'S HOOVES (FRW is 30% not 40%, and it adds fire DAMAGE + 25% MF, NOT fire resistance). Titan's, Bloodfist, Death Cleaver fully confirmed. Kuko is correct but tighten 'roughly +180% ED' to the real 150-180% range. Angelics AR-doubling mechanic confirmed via PureDiablo; exact Halo +20 life figure left unverified only because diablo2.io returned 403 — the load-bearing mechanic is sound. No historical claims were made (all items are hidden-value/Pillar 1), so no folklore-vs-fact disputes to flag."
+      }
+    }
+  ]
+}

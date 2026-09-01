@@ -1,0 +1,322 @@
+[
+  {
+    "domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "items": [
+      {
+        "name": "Shimmering Small Charm of Vita",
+        "alias": "5/20 SC (5 all-res / 20 life)",
+        "category": "Small Charm",
+        "quality": "Magic",
+        "obscurity": 3,
+        "valueTierGuess": "S (perfect roll)",
+        "rarityTier": "Extraordinarily rare at perfect roll",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Real, strong mature-ladder demand. A perfect 5 all-res / 20 life has been quoted around 2 Ber, and buyers openly post WTB threads offering multiple Ber scaled to the life roll. Documented perfect listings on Blizzard forums ('Shimmering Small Charm of Vita (perfect!)'), PureDiablo ('5/20 5/19'), and shops (d2rgear, itemforge). Low/partial rolls (5/12, 4/20) are cheap, so demand concentrates almost entirely on the true 5/20.",
+        "collectorCase": "This is the single most universally useful one-inventory-slot charm in the game. +5 all resist plus +20 life helps nearly every PvE and PvP build, caster or melee, which the melee-only 3/20/20 does not. A true 5/20 requires the 'Shimmering' prefix to hit its small-charm cap of +5 AND 'of Vita' to hit its cap of 20 on the same charm, which is genuinely rare. A verified perfect trades like a high rune, which is museum money for a small charm.",
+        "whyValuable": "Resistance and life are the two stats every build wants, and this packs both maxed into one slot. It frees other gear slots to chase damage instead of patching resists.",
+        "teachingPoint": "Small-charm caps are the story: Shimmering tops out at +5 all-res, 'of Vita' at +20 life. The grail is both maxed together, not one big number.",
+        "veteranBlindspot": "Many veterans instinctively name 3/20/20 as THE grail small charm. For most non-melee builds the 5/20 is more valuable and more wanted, and a true 5/20 is rarer than people assume because both affixes must max on one charm.",
+        "history": "A staple 'perfect small charm' chase since classic D2, carried into D2R where mature-ladder buyers pay high-rune prices for flawless rolls.",
+        "factClaims": [
+          "The 'Shimmering' prefix on a small charm grants +5 to all resistances, which is the small-charm cap.",
+          "The 'of Vita' suffix is the top life tier on a small charm and grants +16 to +20 life.",
+          "A perfect 'Shimmering Small Charm of Vita' is +5 all resist and +20 life, shorthand '5/20'.",
+          "It occupies a single 1x1 inventory slot."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/shimmering-small-charm-of-vita-perfect/74907",
+          "https://www.purediablo.com/forums/threads/shimmering-small-charm-of-vita-5-20-5-19.14981/",
+          "https://www.d2rgear.com/products/shimmering-small-charm-of-vita-20-life-5-all-resistances"
+        ]
+      },
+      {
+        "name": "Fine Small Charm of Vita",
+        "alias": "3/20/20 SC (3 max dmg / 20 AR / 20 life)",
+        "category": "Small Charm",
+        "quality": "Magic",
+        "obscurity": 2,
+        "valueTierGuess": "A (perfect roll)",
+        "rarityTier": "Rare at true all-max roll",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Steady demand from physical melee builds. Near-misses (3/19/20, 3/20/19) are common and priced low; a verified all-max 3/20/20 carries a clear premium and is stocked as a named product by multiple shops (itemforge 'sc-3-20-20', d2rgear, d2stock). Not high-rune tier like the 5/20, but a genuine grail for melee twinks.",
+        "collectorCase": "The melee counterpart to the 5/20 and a recognized grail. A true 3/20/20 needs 'Fine' to max both its stats (3 max damage and 20 AR) and 'of Vita' to hit 20 life on the same charm. Because the near-misses look almost identical, a verified all-three-maxed piece is the actual collector target, and most 'good' ones on the market are not truly perfect.",
+        "whyValuable": "Best-in-slot filler for physical attackers who want life plus a little damage and attack rating per slot without giving up an inventory square.",
+        "teachingPoint": "The +20 attack rating is near-worthless late game. The value is the +3 max damage and +20 life, so a '3/20/20' is really a '3-max, 20-life' charm with a cosmetic AR line.",
+        "veteranBlindspot": "Players quote '3/20/20' as universally elite, but it is a melee-only charm. Casters and hybrid builds should chase the 5/20 instead, and overpaying for the AR line is a rookie tell.",
+        "history": "One of the oldest 'perfect small charm' targets in the game, kept alive in D2R as a melee grail.",
+        "factClaims": [
+          "The 'Fine' prefix on a small charm grants +1 to +3 maximum damage and +10 to +20 attack rating (caps 3 and 20).",
+          "The 'of Vita' suffix grants +16 to +20 life on a small charm.",
+          "A perfect 'Fine Small Charm of Vita' is +3 max damage, +20 AR, +20 life, shorthand '3/20/20', usable at character level 39.",
+          "It benefits physical/melee attackers far more than casters."
+        ],
+        "sources": [
+          "https://itemforge.com/en/sc-3-20-20",
+          "https://www.d2rgear.com/products/fine-small-charm-of-vita-3-maximum-damage-20-ar-20-life",
+          "https://d2stock.com/product/sc-32020"
+        ]
+      },
+      {
+        "name": "Skill Grand Charm of Vita (45-life skiller)",
+        "alias": "45-life skiller (e.g. Lion Branded / Harpoonist's / Sorc)",
+        "category": "Grand Charm",
+        "quality": "Magic",
+        "obscurity": 3,
+        "valueTierGuess": "S (top tree + 40+ life)",
+        "rarityTier": "Very rare (needs ilvl 91 base + perfect two-affix roll)",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "The life roll is a massive multiplier. A plain Lion Branded (Paladin Combat) skiller sits around ~3 Ist; the same skiller with ~40 life has been listed at 15 Jah. Documented real pieces: diablo2.io 'Paladin Combat Skiller +27 Life', d2stock 'Pal Combat Skiller 40-44 Life', d2jsp '40-45 Life Skiller Grand Charm Of Vita', itemforge 'skiller +45 life'. Top trees by demand: Paladin Combat, Amazon Javelin/Spear, Sorceress, then Assassin Traps and Necro Poison & Bone.",
+        "collectorCase": "A +1 skill grand charm that also rolls 45 life is a two-stat perfect on a charm that can only spawn +41 or higher life from an item-level-91 base. In practice that means Hell Baal or Hell Nihlathak drops, or endless perfect-gem rerolls. Pair that with a most-wanted skill tree and you have a grand charm valued in Jah runes, which is museum tier for a charm slot.",
+        "whyValuable": "Combines a permanent +1 to a whole skill tree with the best life-per-slot a grand charm can give. Both PvM and PvP builds fight over max-life skillers of their tree.",
+        "teachingPoint": "Skillers add +1 to a skill TAB (tree), not +1 to all skills. 'of Vita' on a grand charm rolls 36 to 45 life, and +41 or more requires an ilvl-91 charm, so the top drop sources are extremely narrow.",
+        "veteranBlindspot": "Veterans grab any skiller and shrug at the suffix. The life roll is where the money is: a 40 to 45 life skiller of a top tree can be worth many times a plain one, and off-meta trees (Druid summon, Barb masteries) stay cheap while Paladin Combat and Javazon skillers command a premium.",
+        "history": "Skillers have been a trade currency since 1.10. In D2R the perfect-gem reroll recipe on ilvl-91 charms turned the 40+ life skiller into a defined, farmable grail.",
+        "factClaims": [
+          "A skill grand charm gives +1 to one of a class's three skill trees.",
+          "'of Vita' on a grand charm rolls +36 to +45 life, capping at 45.",
+          "Rolling +41 or higher life requires the grand charm to be item level 91, which only Hell Baal and Hell Nihlathak can drop.",
+          "The reroll method is 3 Perfect Gems + a magic grand charm in the Horadric Cube on ilvl-91 bases.",
+          "Paladin Combat skillers use the prefix 'Lion Branded'; Amazon Javelin/Spear skillers use 'Harpoonist's'."
+        ],
+        "sources": [
+          "https://forums.d2jsp.org/topic.php?t=102910502",
+          "https://www.purediablo.com/forums/threads/skiller-charm-ranking.166104/",
+          "https://d2stock.com/product/pal-combat-skiller-40-44life"
+        ]
+      },
+      {
+        "name": "Sunder Charms (Cold Rupture and the set of six)",
+        "alias": "Sunders: Cold Rupture, Flame Rift, Crack of the Heavens, Rotting Fissure, Bone Break, Black Cleft",
+        "category": "Grand Charm (Unique)",
+        "quality": "Unique",
+        "obscurity": 3,
+        "valueTierGuess": "B overall, with a wide spread (Cold Rupture high, Black Cleft low)",
+        "rarityTier": "Farmable but gated; rarity is inverted vs value",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Real, ongoing demand. Cold Rupture is the priciest of the six because cold immunity is otherwise the hardest to break. Yet Cold Rupture and Flame Rift are the MOST common drops (~1 in 170 on a Tier-5 kill), while Bone Break and especially Black Cleft are far rarer but among the CHEAPEST, since physical and magic immunities are niche. Traded openly on d2stock, d2rgear and every trade forum.",
+        "collectorCase": "This is a Pillar-2 historic pick. Sunder Charms (Patch 2.5, October 2022) rewrote the immune-breaking meta: builds that could never touch their own immunes suddenly could, which reshaped Infinity demand, mercenary choices, and which builds were viable on Hell. The collector hook is the rarity/value inversion. Black Cleft is the rarest charm in the set and one of the least valuable. A seasoned player expecting 'rarest = priciest' gets it exactly backward.",
+        "whyValuable": "They unlock entire farming zones for mono-element builds. The demand tracks how useful each broken immunity is, not how rare the charm is.",
+        "teachingPoint": "A Sunder reduces the matching monster immunity to 95%, letting -enemy-resist sources finish the job. The tradeoff is a large penalty to your OWN resistance of that element (legacy rolls -70% to -90% random; newer 'Latent' charms a fixed -90%). Stacking duplicates does nothing but stack the penalty.",
+        "veteranBlindspot": "Two blindspots. First, that the rarest Sunder (Black Cleft, magic) is cheap while the common Cold Rupture is dear. Second, that the charm hurts your own resistances, so slotting one blindly can get a hardcore character killed by the very element it lets you damage.",
+        "history": "Introduced in D2R Patch 2.5 alongside Terror Zones. Drop only from Champion/Unique (boss) packs in Terror Zones on Hell. Later patches added upgrade recipes (Latent/Renewed variants).",
+        "factClaims": [
+          "There are six Sunder grand charms: Bone Break (Physical), Black Cleft (Magic), Cold Rupture (Cold), Crack of the Heavens (Lightning), Flame Rift (Fire), Rotting Fissure (Poison).",
+          "A Sunder reduces a monster's matching immunity to 95% resistance.",
+          "A Sunder imposes a large penalty to the holder's own resistance of that element (legacy -70% to -90% random; Latent -90% fixed).",
+          "They were added in Patch 2.5 and drop only from boss/champion packs in Hell Terror Zones.",
+          "Cold Rupture and Flame Rift are the most common; Black Cleft is the rarest yet among the least valuable."
+        ],
+        "sources": [
+          "https://maxroll.gg/d2/resources/sundered-charms",
+          "https://diablobytes.com/d2-resurrected/guides/sunder-charms/",
+          "https://diablo.fandom.com/wiki/Sunder_(Diablo_II)"
+        ]
+      },
+      {
+        "name": "Rainbow Facet (unique jewel)",
+        "alias": "Facet; e.g. Lightning Level-up 5/5, Cold Die 5/5",
+        "category": "Unique Jewel",
+        "quality": "Unique",
+        "obscurity": 3,
+        "valueTierGuess": "A (perfect 5/5, top element), C-B (poison / die)",
+        "rarityTier": "Rare, and eight distinct variants hide behind one name",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Active per-variant markets on diablo2.io (separate pages for each element and each Level-up/Die form). Value order is roughly Lightning > Cold >= Fire > Poison, and Level-up trades meaningfully higher than Die (Die runs ~30-50% cheaper) even though their passive stats are identical. A perfect 5/5 of a top element is a real chase; a 3/3 poison Die is near-vendor.",
+        "collectorCase": "One item name, eight collectible pieces. The passive (+skill damage / -enemy resist) is what everyone actually buys; the cast-on skill is irrelevant filler. A perfect 5/5 of a used element is a genuine grail, and completing a 'set' across elements and both triggers is a collector pursuit in itself. The Die vs Level-up price gap being pure trigger preference, with no stat difference, is the kind of nuance a museum label is made of.",
+        "whyValuable": "-5% to enemy resistance stacks with Conviction, Lower Resist and other facets, and +5% skill damage is flat added output. In sockets it is often the best damage jewel a caster can slot.",
+        "teachingPoint": "Level-up and Die facets of the same element share identical +/- stats. The trigger (Nova, Frost Nova, Blaze, Venom on level-up; the on-death procs) is cosmetic and useless. Buy on the 5/5 roll, not the flavor.",
+        "veteranBlindspot": "Some players still pay up for a Die facet thinking the on-death Poison Nova or Nova is a feature. It is not. And many undervalue how much rarer a true 5/5 is than a 4/5 or 5/4, which look almost the same in a socket.",
+        "history": "Added in 1.10 as the game's only unique jewels. Carried into D2R unchanged, still the benchmark caster damage jewel.",
+        "factClaims": [
+          "Rainbow Facet exists in eight forms: Fire, Cold, Lightning, Poison, each in a Level-up and a Death (Die) version.",
+          "Required Level 49; quality level 85.",
+          "The passive mods are +3 to +5% to that skill's damage and -3 to -5% to enemy resistance of that element; perfect is 5/5.",
+          "Level-up and Die versions of the same element have identical passive stats; only the cast-on trigger differs.",
+          "Mature-ladder value order is roughly Lightning > Cold >= Fire > Poison, and Level-up trades higher than Die."
+        ],
+        "sources": [
+          "https://diablo2.io/uniques/rainbow-facet-cold-level-up-t3168.html",
+          "https://diablo2.io/forums/rainbow-facet-death-vs-level-up-t861714.html",
+          "https://diablo.fandom.com/wiki/Rainbow_Facet"
+        ]
+      },
+      {
+        "name": "Ruby Jewel of Fervor (40/15 jewel)",
+        "alias": "40/15 or 15/40 (40% ED / 15% IAS)",
+        "category": "Magic Jewel",
+        "quality": "Magic",
+        "obscurity": 2,
+        "valueTierGuess": "S (true perfect)",
+        "rarityTier": "One of the rarest perfect magic rolls in the game",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Elite. A perfect 40/15 has been asked around 10 Jah + 2 Ber in D2R, and classic-D2 lore pegged perfects at 'a dozen Bers'. Documented as its real magic name 'Ruby Jewel of Fervor' on Blizzard forums (WTS threads), diablo2.io price checks, and d2jsp. Sub-perfect rolls (39/15, 40/14, 30/15) drop the price sharply.",
+        "collectorCase": "A plain blue jewel that trades like a high rune. It is not rare, unique, or crafted, yet a true 40/15 is one of the hardest perfect rolls to hit because both the Ruby prefix and the of Fervor suffix must max on the same jewel. It is the workhorse damage jewel for physical builds, sockets into Grief/Fortitude/weapons, and a verified perfect is a bragging-rights collector piece.",
+        "whyValuable": "15% IAS and 40% ED are the two most sought jewel mods for melee. Together in one socket they are close to irreplaceable, and no runeword or unique jewel does it better.",
+        "teachingPoint": "The classic '40/15' is a MAGIC jewel with a real name: Ruby (30-40% ED) Jewel of Fervor (15% IAS), required level 58. Rare jewels can add extra mods on top, but the pure magic 40/15 is the benchmark.",
+        "veteranBlindspot": "Everyone knows 40/15 is great, but few appreciate how vanishingly rare a TRUE 40/15 is versus the 39/15 and 40/14 near-misses that flood trade. The perfect commands a multiple that surprises even long-time traders.",
+        "history": "A grail magic jewel since the original game, where perfect 40/15s were spoken of in Ber runes. D2R revived the exact same chase.",
+        "factClaims": [
+          "The classic 40/15 jewel is a magic jewel named 'Ruby Jewel of Fervor'.",
+          "'Ruby' grants +30 to +40% enhanced damage; 'of Fervor' grants +15% increased attack speed.",
+          "Required level 58.",
+          "A perfect roll is 40% ED and 15% IAS; near-misses are worth a fraction.",
+          "Rare jewels can carry the same ED+IAS plus additional affixes."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/wts-15-ias-40-ed-jewel-ruby-jewel-of-fervor-done/58347",
+          "https://diablo2.io/price-check/ruby-jewel-of-fervor-40-ed-15ias-t164057.html",
+          "https://forums.d2jsp.org/topic.php?t=100196844&f=271"
+        ]
+      },
+      {
+        "name": "40% ED / +15 max damage jewel",
+        "alias": "40/15max (the 'beats an Ohm' jewel)",
+        "category": "Jewel (magic or rare)",
+        "quality": "Magic or Rare",
+        "obscurity": 4,
+        "valueTierGuess": "A (perfect roll)",
+        "rarityTier": "Rare perfect roll",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Real niche demand from physical builds optimizing low-base weapons. Perfect 40-ED / 15-max rolls have been price-checked at roughly a Jah or two (Blizzard forums '40ED/15 max jewel' PC; itemnow lists ED/max and ED/-req jewel products). Cheaper than a 40/15 IAS jewel, but wanted by players who specifically want flat damage over attack speed.",
+        "collectorCase": "A rare jewel that can out-damage a high rune. On a low-base-damage weapon, +40% ED plus +15 maximum damage adds more than an Ohm rune's +50% ED. That inversion, a socket filler beating a Jah-tier rune, is exactly the kind of thing a veteran waves off and gets wrong. A perfect one is a quietly elite collector jewel.",
+        "whyValuable": "For weapons where base damage is modest, flat max damage scales harder than percentage ED, so this jewel is the true best damage socket, ahead of the rune players reflexively reach for.",
+        "teachingPoint": "%ED multiplies the weapon's own base; flat +max adds regardless of base. The crossover is around a ~75 average base: below it the 40/15max jewel beats Ohm (+50% ED), above it Ohm pulls ahead.",
+        "veteranBlindspot": "The assumption that a socketed high rune always beats a jewel. On the right weapon this blue or rare jewel wins outright, which most players never test.",
+        "history": "A long-running theorycraft favorite for min-maxing physical damage, revived in D2R weapon-optimization discussions.",
+        "factClaims": [
+          "The jewel provides +40% enhanced damage and +15 maximum damage at perfect roll.",
+          "An Ohm rune in a weapon grants +50% enhanced damage.",
+          "On low-base-damage weapons (roughly under ~75 average), the ED+max jewel adds more damage than Ohm.",
+          "Flat maximum damage is independent of the weapon's base damage, unlike percentage enhanced damage."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-40ed15-max-jewel/57310",
+          "https://itemnow.com/product/40-ed-15-ias-jewel/",
+          "https://diablo2.io/forums/is-a-15-to-min-15-to-max-jewel-any-good-t768006.html"
+        ]
+      },
+      {
+        "name": "Crafted Caster Amulet (+2 skills / 20% FCR)",
+        "alias": "2/20 caster ammy (Ral + Perfect Amethyst craft)",
+        "category": "Crafted Amulet",
+        "quality": "Crafted",
+        "obscurity": 3,
+        "valueTierGuess": "S/A (dream roll)",
+        "rarityTier": "~1 in 1000 craft for the dream roll",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "High and class-dependent. A clean +2 skills / 20 FCR caster amulet with good secondary mods trades in the multiple-Ber to Jah range; a Barb 2/20 has been valued at least a Jah, and dream-rolled ones are 'super expensive'. Documented real pieces on Blizzard forums ('+2 Sorc, 20 FCR, 13 life' PC; 'Pala +2 skills, 20% FCR, 29% MF') and itemforge. Drives demand for Ral runes and Perfect Amethysts.",
+        "collectorCase": "A crafted, non-unique amulet that beats Mara's Kaleidoscope for casters. Mara has no faster cast rate; a +2 skills / 20% FCR caster amulet lets a caster hit breakpoints Mara cannot, so for pure damage and speed it is the better amulet. The dream roll (+2 skills, 20 FCR, life, all-res, strength) is about a 1-in-1000 craft, so a fully-loaded one is a genuine crafted grail. A crafted item out-valuing a legendary is the surprise.",
+        "whyValuable": "It stacks the two things casters want most, skills and cast rate, plus rollable life and resist. No single unique amulet matches a maxed one for a dedicated caster.",
+        "teachingPoint": "Recipe: magic amulet + Ral rune + Perfect Amethyst + any jewel. The caster mod is fixed (5-10% FCR, mana regen, +10-20 mana). The +2 to a class's skills needs the amulet to reach item level 90+, so you craft on a level 93+ character to have a shot.",
+        "veteranBlindspot": "Many default to Mara's as the endgame caster amulet. For FCR-hungry builds a 2/20 crafted is strictly better, and even 'lesser' +1 skill / 20 FCR crafts with good mods outperform Mara at their breakpoints.",
+        "history": "Caster crafting has been endgame since 1.10; D2R's healthy rune economy made Ral + Perfect Amethyst caster amulets a core chase for every caster.",
+        "factClaims": [
+          "Caster Amulet recipe: magic amulet + Ral rune + Perfect Amethyst + any jewel.",
+          "The fixed caster mods are 5-10% faster cast rate, 4-10% mana regeneration, and +10-20 mana.",
+          "It can roll +2 to a class's skills (requires item level 90+, i.e. craft on a level 93+ character) plus a second 10% FCR to reach 20% total.",
+          "Mara's Kaleidoscope cannot roll faster cast rate.",
+          "The dream +2 skills / 20 FCR / life / resist roll is roughly a 1-in-1000 craft."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-sorc-amulet-2skill-20fcr-amulet/61439",
+          "https://diablo2.io/recipes/recipe-caster-amulet-t3883.html",
+          "https://almarsguides.com/Computer/Games/Diablo2/Crafting/HoradricCube/WeaponsandArmor/CasterRecipes/"
+        ]
+      },
+      {
+        "name": "Crafted Dual-Leech + 10% FCR Ring",
+        "alias": "FCR dual-leech ring (caster/blood craft)",
+        "category": "Crafted Ring",
+        "quality": "Crafted",
+        "obscurity": 4,
+        "valueTierGuess": "A (perfect multi-mod)",
+        "rarityTier": "Very rare (multiple hard affixes on one ring)",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Strong for a fully-loaded roll. A documented real piece '10% FCR, 110 AR, 6% mana leech, 6% life leech' was posted for price check; dual-leech ring WTB threads are common on diablo2.io and Blizzard forums. Plain single-stat crafted rings are cheap, so demand sits on the rings that combine FCR with both leeches plus life or resist.",
+        "collectorCase": "No single unique ring gives faster cast rate, life leech, mana leech, life and resistance together. SOJ gives mana and skills, a Bul-Kathos ring gives life and skills, Ravenfrost gives cannot-be-frozen and cold absorb. A crafted ring can stack 10% FCR (the ring cap) with dual leech and life and resist in one, making a perfect one genuinely best-in-slot for some caster and hybrid builds, and almost nobody rolls one to completion.",
+        "whyValuable": "It solves a problem no unique ring solves: cast rate plus sustain plus survivability on one finger. For FCR-breakpoint casters who also need leech, it is irreplaceable.",
+        "teachingPoint": "10% FCR (the suffix 'of the Apprentice') is the maximum faster cast rate a ring can have. Both the Caster Ring craft (fixed FCR) and the Blood Ring craft (fixed life leech) can end up dual-leech + FCR, since the missing leech and FCR can roll as random magic affixes.",
+        "veteranBlindspot": "Veterans autopilot to SOJ, Ravenfrost or a Bul-Kathos ring and never consider that a crafted ring can out-slot all of them by combining FCR and dual leech, which no unique offers.",
+        "history": "Blood and caster ring crafting date to 1.10; D2R's trade scene revived dual-leech and FCR-leech rings as budget-to-elite alternatives to the classic unique rings.",
+        "factClaims": [
+          "10% faster cast rate (suffix 'of the Apprentice') is the maximum FCR possible on a ring.",
+          "No unique ring provides FCR, life leech, mana leech and resistance simultaneously.",
+          "Blood Ring craft has fixed life leech (1-3%) and life; Caster Ring craft has fixed FCR; either can roll the missing stats as random affixes.",
+          "A documented example rolled 10% FCR, 110 AR, 6% mana leech and 6% life leech together."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/l-sc-pc-crafted-ring-10-fcr-110-ar-6-lm-6-ll/152499",
+          "https://diablo2.io/forums/dual-leech-ring-t1650700.html",
+          "https://diablo2.io/recipes/recipe-blood-ring-t3875.html"
+        ]
+      },
+      {
+        "name": "Crafted Blood Gloves (10% CB / dual leech / 20 IAS)",
+        "alias": "Blood gloves (Nef + Perfect Ruby craft)",
+        "category": "Crafted Gloves",
+        "quality": "Crafted",
+        "obscurity": 3,
+        "valueTierGuess": "B overall, A- at perfect roll",
+        "rarityTier": "Common as bases, rare at fully-maxed roll",
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Base and mediocre crafts are cheap and self-made, which is why most are worthless. The market pays only for the fully-loaded roll: 10% crushing blow, 3% life leech, 20 life, 20% IAS, plus mana leech and resists. Documented real pieces (eBay '20ias/crushing blow/life leech/life gloves'; Blizzard trade threads for dual-leech blood gloves). Zealot and Smiter mainstay.",
+        "collectorCase": "Guaranteed crushing blow makes a perfect blood glove the best physical-melee glove in the game, ahead of Laying of Hands (demon-only bonus) or Draculs for general use. Because bases are trivially crafted, the collector piece is specifically the maxed multi-mod version: 10 CB, dual leech, 20 IAS and resists together, which most players never grind out. That perfect roll, not the recipe, is the museum item.",
+        "whyValuable": "Crushing blow shreds boss and high-health monster life independent of your damage, and stacking IAS plus dual leech on the same gloves is exactly what melee wants. A perfect one has no unique equal for pure physical builds.",
+        "teachingPoint": "Recipe: magic Heavy Gloves / Sharkskin Gloves / Vampirebone Gloves + Nef rune + Perfect Ruby + any jewel. Fixed mods are always 5-10% crushing blow, 1-3% life leech, +10-20 life; the rest (IAS, mana leech, str/dex, resists) is random.",
+        "veteranBlindspot": "Players reach for named unique gloves and forget that a crafted blood glove's guaranteed crushing blow plus a good IAS and dual-leech roll beats them for most physical melee, at a fraction of the cost if you craft it yourself.",
+        "history": "Blood glove crafting is a 1.10-era staple, still the go-to for Zealots, Smiters and other physical melee in D2R.",
+        "factClaims": [
+          "Blood Gloves recipe: magic Heavy Gloves, Sharkskin Gloves or Vampirebone Gloves + Nef rune + Perfect Ruby + any jewel.",
+          "Fixed mods are 5-10% crushing blow, 1-3% life stolen per hit, and +10-20 life.",
+          "The item then rolls 1-4 additional random affixes depending on the base's item level.",
+          "Crushing blow is a percentage of the target's current life and is independent of the character's damage."
+        ],
+        "sources": [
+          "https://classic.battle.net/diablo2exp/items/crafted/blood.shtml",
+          "https://www.ebay.com/itm/265463046600",
+          "https://diablo2.io/recipes/recipe-blood-gloves-t3870.html"
+        ]
+      },
+      {
+        "name": "Corrupted item — high-rarity / +skills corruption (Project Diablo 2)",
+        "alias": "PD2 corruption (Worldstone Shard gamble)",
+        "category": "Corrupted (MOD, not official D2R)",
+        "quality": "Any (corrupted)",
+        "obscurity": 5,
+        "valueTierGuess": "A within the PD2 economy",
+        "rarityTier": "Rare best-case outcome on a 25%-brick gamble",
+        "isSpecificRealItem": false,
+        "legitimacy": "CONFIRMED",
+        "priceSignal": "Real demand, but inside the Project Diablo 2 (mod) economy, not official D2R. A godly base that lands a top corruption (for example +1 all skills, +2 to a class's skills, or Cannot Be Frozen) becomes best-in-slot and chase-priced; a bricked one is near-worthless. Worldstone Shards and Puzzleboxes are themselves traded currency. Documented on the PD2 wiki and mirrored guides.",
+        "collectorCase": "This is the honest answer to the 'corrupted items' request. Item corruption does NOT exist in official Diablo II: Resurrected. It is a mod mechanic, most famously in Project Diablo 2 (and the 'D2R Corruptions' D2RMM/Nexus mod). Its collector story is folklore-grade: a Worldstone Shard gamble can brick your best item or elevate it to best-in-slot. The all-or-nothing risk on an already-perfect base, and the legendary 'insane corruption' clips built around it, are exactly the museum-of-modded-D2 exhibit.",
+        "whyValuable": "The top-tier corruption modifiers are generally stronger than the alternative sockets, so a well-corrupted item is straight best-in-slot in PD2. Because 1 in 4 attempts destroys the item, surviving godly corruptions are prestige pieces.",
+        "teachingPoint": "In PD2 you corrupt by placing a Worldstone Shard with an item in the Horadric Cube. Outcomes: add sockets, add a corruption modifier, or brick (reroll into a random rare) at ~25%. Using a Puzzlebox first raises the modifier chance to 75%, but the 25% brick risk stays.",
+        "veteranBlindspot": "An official-D2R veteran may assume corruption is a base-game feature (it is not) or may not play PD2 at all, so the entire mechanic and its economy are a blind spot. Flag clearly on the site so no one mistakes it for vanilla D2R.",
+        "history": "Popularized by Project Diablo 2's seasonal ladders; the 'corrupt my best items' video genre made specific outcomes (D-Web, Templar's Might, +skill chests) into community legends.",
+        "factClaims": [
+          "Official Diablo II: Resurrected has no item corruption; it is a mod feature (Project Diablo 2, and the D2RMM 'D2R Corruptions' mod).",
+          "In PD2, corruption uses a Worldstone Shard transmuted with the item in the Horadric Cube.",
+          "Corruption outcomes: added sockets, a corruption modifier, or a ~25% chance to brick into a random rare.",
+          "Top corruption modifiers include +1 to all skills, +2 to a class's skills, Cannot Be Frozen, and added elemental damage; these are often best-in-slot over sockets.",
+          "Applying a Puzzlebox before corrupting raises the modifier chance to 75% while the 25% brick chance is unchanged."
+        ],
+        "sources": [
+          "https://wiki.projectdiablo2.com/wiki/Corruptions",
+          "https://projectdiablo2.miraheze.org/wiki/Corruptions",
+          "https://www.nexusmods.com/diablo2resurrected/mods/294"
+        ]
+      }
+    ],
+    "notes": "SCOPE / ACCURACY FLAGS FOR THE EDITOR:\n\n1) CORRUPTION IS MOD-ONLY. The single most important accuracy note: official Diablo II: Resurrected has NO item corruption. Corruption is a mod mechanic (Project Diablo 2 primarily, plus the 'D2R Corruptions' D2RMM/Nexus mod). I included one clearly-flagged corruption entry because the task asked for the category, but the site should label it as mod content so it does not read as vanilla-D2R fact. If the site is strictly official-ladder, consider cutting it or ghettoizing it in a 'modded folklore' section. The other 10 items are all legitimate official-D2R.\n\n2) TOOLING: diablo2.io, purediablo.com, diablobytes.com, and the PD2 wikis all return HTTP 403 to automated fetch, so their data here comes from search-result snippets and cross-checks against fandom, maxroll, Arreat Summit, Blizzard forums, d2jsp and shop listings. Prices are mature-ladder D2R expressed in runes; per the project rule, do not print numbers on the site, only tier letters.\n\n3) DELIBERATE CUTS (too well-known to a veteran, or fail the price/surprise bar): Annihilus, Hellfire Torch, Gheed's Fortune, plain Bul-Kathos/SOJ rings, a bare Ber rune, 4-socket Crystal Sword, generic 20-life small charms. Standard chase skillers without a life roll were folded into the skiller entry rather than listed separately.\n\n4) NUMBERS I AM CONFIDENT IN: small-charm caps (Shimmering +5 all-res, of Vita +20 life, Fine +3/+20); grand-charm of Vita +36-45 with +41 gated to ilvl 91; Rainbow Facet RL49/qlvl85 with identical Level-up vs Die passives; Ruby Jewel of Fervor = Ruby (30-40 ED) + of Fervor (15 IAS), RL58; caster amulet recipe (magic amulet + Ral + Perfect Amethyst + jewel) and fixed caster mods; blood gloves recipe (Heavy/Sharkskin/Vampirebone + Nef + Perfect Ruby + jewel) and fixed 5-10 CB / 1-3 LL / 10-20 life; Sunder set of six with element mapping and the self-resistance penalty (legacy -70 to -90 random, Latent -90 fixed); 10% FCR as the ring cap.\n\n5) SOFTER CLAIMS TO DOUBLE-CHECK BEFORE PUBLISHING: the exact ED-vs-Ohm crossover base value for the 40/15max jewel (I said ~75 average, treat as approximate); exact Sunder drop odds (~1 in 170 on a Tier-5 kill is a community figure); and per-mod corruption values in PD2 (I kept these qualitative because the wiki was unreachable).\n\n6) STRONGEST 'SURPRISE A VETERAN' PICKS: the crafted dual-leech + 10% FCR ring (no unique ring does this), the 40/15max jewel out-damaging an Ohm rune, the Sunder rarity/value inversion (rarest = cheapest), and the crafted caster amulet beating Mara's. Weakest-but-still-valid (kept because the category was requested and the perfect roll is a real chase): the 3/20/20 small charm and blood gloves, both cheap at base rolls and only collector-tier when truly maxed."
+  }
+]

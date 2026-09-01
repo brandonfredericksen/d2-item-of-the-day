@@ -1,0 +1,401 @@
+/* ------------------------------------------------------------------
+   app.js  -  day selection, rendering, archive, permalinks, i18n
+
+   URL parameters:
+     ?item=<slug>   pin one item and show the archived-view banner
+     ?lang=<code>   force a language (must be in AVAILABLE_LANGS)
+     ?day=<n>       debug. step directly to rotation index n
+
+   Localization:
+     Any item prose field may be a plain string (treated as the default
+     language) or an object like { en: "...", es: "..." }. t() resolves
+     the active language and falls back to the default, then to whatever
+     exists. Authoring an English-only entry needs no objects at all.
+------------------------------------------------------------------ */
+
+(function () {
+  "use strict";
+
+  var MS_PER_DAY = 86400000;
+  var ANCHOR = Math.floor(Date.UTC(2026, 0, 1) / MS_PER_DAY);
+
+  var VALUE_SCALE = ["F", "D", "C", "B", "A", "S"];
+  var RARITY_SCALE = ["Common", "Uncommon", "Rare", "Very Rare", "Mythic"];
+  var MISMATCH_THRESHOLD = 2;
+
+  /* ---------- languages ----------
+     Add a language by appending here and adding a UI block below.
+     The switcher only appears when more than one is available, so the
+     site stays clean while it is English-only. */
+  var DEFAULT_LANG = "en";
+  var AVAILABLE_LANGS = [
+    { code: "en", label: "English" }
+  ];
+
+  var UI = {
+    en: {
+      whyTitle: "Why it is worth something",
+      historyTitle: "History",
+      findTitle: "If you find one",
+      valueLabel: "Value",
+      rarityLabel: "Rarity",
+      rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
+      aliasPrefix: "traders call it: ",
+      archiveSummary: "Every item so far",
+      bannerText: "You are looking at a specific item, not today's.",
+      bannerBack: "Back to today",
+      nextItem: "Next item in {h}h {m}m {s}s",
+      noSprite: "no sprite",
+      mismatchMore: "More valuable than it is rare.",
+      mismatchRarer: "Rarer than it is valuable.",
+      footerDisclaimer: "Value and rarity are rough guesses against a mature ladder season, not a price check. Rarity means how often you see one around, not just drop rate.",
+      footerLegal: "Not affiliated with Blizzard Entertainment.",
+      rarity: {
+        "Common": "Common", "Uncommon": "Uncommon", "Rare": "Rare",
+        "Very Rare": "Very Rare", "Mythic": "Mythic"
+      }
+    }
+  };
+
+  var app = document.getElementById("app");
+  var langbarEl = document.getElementById("langbar");
+
+  var state = { item: null, pinned: false, lang: DEFAULT_LANG };
+
+  /* ---------- i18n helpers ---------- */
+
+  function resolveLang() {
+    var params = new URLSearchParams(window.location.search);
+    var candidates = [
+      params.get("lang"),
+      (function () { try { return localStorage.getItem("d2iotd_lang"); } catch (e) { return null; } })(),
+      (navigator.language || "").slice(0, 2)
+    ];
+    for (var i = 0; i < candidates.length; i++) {
+      var c = candidates[i];
+      if (c && hasLang(c)) return c;
+    }
+    return DEFAULT_LANG;
+  }
+
+  function hasLang(code) {
+    for (var i = 0; i < AVAILABLE_LANGS.length; i++) {
+      if (AVAILABLE_LANGS[i].code === code) return true;
+    }
+    return false;
+  }
+
+  /* Resolve a possibly-localized value to a plain string. */
+  function t(val, lang) {
+    if (val == null) return "";
+    if (typeof val === "string") return val;
+    if (typeof val === "object") {
+      if (val[lang] != null) return val[lang];
+      if (val[DEFAULT_LANG] != null) return val[DEFAULT_LANG];
+      for (var k in val) { if (val[k] != null) return val[k]; }
+    }
+    return "";
+  }
+
+  /* Look up a UI string for the active language, falling back to default. */
+  function ui(key, lang) {
+    var block = UI[lang] || UI[DEFAULT_LANG];
+    if (block && block[key] != null) return block[key];
+    return UI[DEFAULT_LANG][key] != null ? UI[DEFAULT_LANG][key] : key;
+  }
+
+  function rarityLabel(canonical, lang) {
+    var block = (UI[lang] || UI[DEFAULT_LANG]).rarity || UI[DEFAULT_LANG].rarity;
+    return block && block[canonical] != null ? block[canonical] : canonical;
+  }
+
+  /* ---------- helpers ---------- */
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function todayIndex(len) {
+    var utcDay = Math.floor(Date.now() / MS_PER_DAY);
+    return (((utcDay - ANCHOR) % len) + len) % len;
+  }
+
+  function valueIndex(tier) {
+    return VALUE_SCALE.indexOf(String(tier || "").toUpperCase());
+  }
+
+  function rarityIndex(tier) {
+    var t2 = String(tier || "").toLowerCase();
+    for (var i = 0; i < RARITY_SCALE.length; i++) {
+      if (RARITY_SCALE[i].toLowerCase() === t2) return i;
+    }
+    return -1;
+  }
+
+  /* Rarity has 5 steps, value has 6. Scale rarity onto the value axis
+     before comparing, so "two steps apart" means the same on both.
+     Returns a key so the message can be localized. */
+  function mismatchFor(item) {
+    var v = valueIndex(item.valueTier);
+    var r = rarityIndex(item.rarityTier);
+    if (v < 0 || r < 0) return null;
+
+    var diff = v - r * ((VALUE_SCALE.length - 1) / (RARITY_SCALE.length - 1));
+    if (diff >= MISMATCH_THRESHOLD) return "more";
+    if (diff <= -MISMATCH_THRESHOLD) return "rarer";
+    return null;
+  }
+
+  function tierClass(tier) {
+    var t2 = String(tier || "").toLowerCase();
+    return t2.length === 1 && VALUE_SCALE.join("").toLowerCase().indexOf(t2) >= 0 ? t2 : "f";
+  }
+
+  /* ---------- rendering ---------- */
+
+  /* The tooltip mimics the in-game item display. It must contain ONLY what
+     the game shows: name, base type, properties, required level, sockets.
+     No meta text (the alias lives outside, see akaHtml).
+
+     A tooltip line is either a plain string (default: the blue magic-property
+     color) or an object { t: "...", c: "white" } to set the in-game color.
+     Colors: white (base text, runes, required level), blue (default, magic
+     properties), grey, red (unmet requirement), gold. The text field itself
+     may be localized like any other prose. */
+  function tLineClass(c) {
+    switch (c) {
+      case "white": return "t-white";
+      case "grey": case "gray": return "t-grey";
+      case "red": return "t-red";
+      case "gold": return "t-gold";
+      default: return "";
+    }
+  }
+
+  function tooltipLineHtml(line, lang) {
+    var text, cls = "";
+    if (line && typeof line === "object" && (("t" in line) || ("text" in line))) {
+      text = t("t" in line ? line.t : line.text, lang);
+      cls = tLineClass(line.c || line.color);
+    } else {
+      text = t(line, lang);
+    }
+    return '<div class="t-line ' + cls + '">' + esc(text) + "</div>";
+  }
+
+  function tooltipHtml(item, lang) {
+    var lines = (item.tooltip || []).map(function (l) {
+      return tooltipLineHtml(l, lang);
+    }).join("");
+
+    var typeVal = t(item.type, lang);
+
+    return '' +
+      '<div class="tooltip q-' + esc(item.quality || "normal") + '">' +
+        '<div class="t-name">' + esc(t(item.name, lang)) + "</div>" +
+        (typeVal ? '<div class="t-type">' + esc(typeVal) + "</div>" : "") +
+        (lines ? '<div class="t-lines">' + lines + "</div>" : "") +
+      "</div>";
+  }
+
+  /* Trader nickname, shown as a caption OUTSIDE the tooltip so the tooltip
+     stays true to the game. */
+  function akaHtml(item, lang) {
+    var a = t(item.alias, lang);
+    return a ? '<div class="aka">' + esc(ui("aliasPrefix", lang)) + esc(a) + "</div>" : "";
+  }
+
+  /* Small secondary detail, not the hero. Collapses entirely when there is
+     no sprite or the image fails, so there is never an empty box. */
+  function spriteHtml(item, lang) {
+    if (!item.sprite) return "";
+    return '<div class="sprite">' +
+      '<img src="' + esc(item.sprite) + '" alt="' + esc(t(item.name, lang)) + ' sprite" ' +
+      'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
+      "</div>";
+  }
+
+  function tagsHtml(item, lang) {
+    var vc = tierClass(item.valueTier);
+    return '' +
+      '<div class="tags">' +
+        '<span class="tag tag-' + vc + '">' +
+          esc(ui("valueLabel", lang)) + " <b>" + esc(item.valueTier) + "</b>" +
+        "</span>" +
+        '<span class="tag rarity" title="' + esc(ui("rarityMeaning", lang)) + '">' +
+          esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +
+        "</span>" +
+      "</div>";
+  }
+
+  function sectionHtml(title, body, cls) {
+    if (!body) return "";
+    return "<section" + (cls ? ' class="' + cls + '"' : "") +
+      "><h2>" + esc(title) + "</h2><p>" + esc(body) + "</p></section>";
+  }
+
+  /* Headingless italic flavor text, like an in-game lore tooltip. Used for
+     the "why" and "history" prose so they read as description, not sections. */
+  function flavorHtml(body, cls) {
+    if (!body) return "";
+    return '<p class="flavor ' + cls + '">' + esc(body) + "</p>";
+  }
+
+  function bannerHtml(pinned, lang) {
+    if (!pinned) return "";
+    return '<div class="banner">' +
+      "<span>" + esc(ui("bannerText", lang)) + "</span>" +
+      '<a href="./">' + esc(ui("bannerBack", lang)) + "</a>" +
+      "</div>";
+  }
+
+  function render() {
+    var item = state.item;
+    var lang = state.lang;
+    var mismatchKey = mismatchFor(item);
+    var mismatchText = mismatchKey === "more" ? ui("mismatchMore", lang)
+      : mismatchKey === "rarer" ? ui("mismatchRarer", lang) : "";
+
+    app.innerHTML =
+      bannerHtml(state.pinned, lang) +
+      '<div class="item-head reveal r1">' +
+        '<div class="tip-col">' +
+          tooltipHtml(item, lang) +
+          akaHtml(item, lang) +
+          spriteHtml(item, lang) +
+          tagsHtml(item, lang) +
+          (mismatchText ? '<div class="mismatch-note">' + esc(mismatchText) + "</div>" : "") +
+        "</div>" +
+      "</div>" +
+
+      flavorHtml(t(item.why, lang), "reveal r2") +
+      flavorHtml(t(item.history, lang), "reveal r3") +
+
+      '<section class="reveal r4"><h2>' + esc(ui("findTitle", lang)) + "</h2>" +
+        '<div class="find"><p>' + esc(t(item.ifYouFind, lang)) + "</p></div>" +
+        (t(item.uncertain, lang) ? '<p class="uncertain">' + esc(t(item.uncertain, lang)) + "</p>" : "") +
+      "</section>";
+
+    renderFooter(lang);
+    updateRollover();
+    fitTooltip();
+  }
+
+  function renderFooter(lang) {
+    var d = document.getElementById("footerDisclaimer");
+    var l = document.getElementById("footerLegal");
+    if (d) d.textContent = ui("footerDisclaimer", lang);
+    if (l) l.textContent = ui("footerLegal", lang);
+  }
+
+  /* ---------- language switcher ---------- */
+
+  function renderLangbar() {
+    if (!langbarEl || AVAILABLE_LANGS.length < 2) return;
+    langbarEl.innerHTML = AVAILABLE_LANGS.map(function (l) {
+      var on = l.code === state.lang ? " on" : "";
+      return '<button type="button" class="langbtn' + on + '" data-lang="' + l.code + '">' +
+        esc(l.label) + "</button>";
+    }).join("");
+
+    langbarEl.querySelectorAll(".langbtn").forEach(function (b) {
+      b.addEventListener("click", function () {
+        var code = b.getAttribute("data-lang");
+        if (!hasLang(code) || code === state.lang) return;
+        state.lang = code;
+        try { localStorage.setItem("d2iotd_lang", code); } catch (e) {}
+        document.documentElement.setAttribute("lang", code);
+        renderLangbar();
+        render();
+      });
+    });
+  }
+
+  /* ---------- rollover countdown ---------- */
+
+  /* D2 tooltip rows never wrap; the tooltip sizes to its longest line. On a
+     narrow screen that line can be wider than the viewport, so scale the whole
+     tooltip down to fit, like zooming out on a screenshot. */
+  function fitTooltip() {
+    var tip = app.querySelector(".tooltip");
+    if (!tip) return;
+    tip.style.transform = "none";
+    tip.style.marginBottom = "";
+    var avail = tip.parentNode ? tip.parentNode.clientWidth : 0;
+    var natural = tip.offsetWidth;
+    if (avail && natural > avail) {
+      var scale = avail / natural;
+      tip.style.transformOrigin = "top center";
+      tip.style.transform = "scale(" + scale + ")";
+      tip.style.marginBottom = (-(tip.offsetHeight * (1 - scale))) + "px";
+    }
+  }
+
+  function updateRollover() {
+    var el = document.getElementById("rollover");
+    if (!el) return;
+    var now = Date.now();
+    var nextMidnight = (Math.floor(now / MS_PER_DAY) + 1) * MS_PER_DAY;
+    var left = nextMidnight - now;
+
+    var h = Math.floor(left / 3600000);
+    var m = Math.floor((left % 3600000) / 60000);
+    var s = Math.floor((left % 60000) / 1000);
+
+    el.textContent = ui("nextItem", state.lang)
+      .replace("{h}", h).replace("{m}", m).replace("{s}", s);
+  }
+
+  /* ---------- boot ---------- */
+
+  function init() {
+    if (typeof ITEMS === "undefined" || !ITEMS.length) {
+      app.innerHTML = "<p>No items loaded.</p>";
+      return;
+    }
+
+    state.lang = resolveLang();
+    document.documentElement.setAttribute("lang", state.lang);
+
+    var params = new URLSearchParams(window.location.search);
+    var slug = params.get("item");
+    var dayParam = params.get("day");
+
+    var item = null;
+    var pinned = false;
+
+    if (slug) {
+      for (var i = 0; i < ITEMS.length; i++) {
+        if (ITEMS[i].slug === slug) { item = ITEMS[i]; pinned = true; break; }
+      }
+    }
+
+    if (!item && dayParam !== null && dayParam !== "") {
+      var n = parseInt(dayParam, 10);
+      if (!isNaN(n)) {
+        item = ITEMS[((n % ITEMS.length) + ITEMS.length) % ITEMS.length];
+        pinned = true;
+      }
+    }
+
+    if (!item) item = ITEMS[todayIndex(ITEMS.length)];
+
+    state.item = item;
+    state.pinned = pinned;
+
+    renderLangbar();
+    render();
+    setInterval(updateRollover, 1000);
+    window.addEventListener("resize", fitTooltip);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitTooltip);
+  }
+
+  /* Exposed for the node self-test in research/tools. Harmless in browser. */
+  if (typeof window !== "undefined") {
+    window.__d2 = { t: t, ui: ui, mismatchFor: mismatchFor, todayIndex: todayIndex, tierClass: tierClass };
+  }
+
+  init();
+})();

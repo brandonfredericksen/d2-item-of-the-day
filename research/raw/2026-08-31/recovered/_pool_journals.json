@@ -1,0 +1,1520 @@
+[
+  {
+    "name": "Verdungo's Hearty Cord",
+    "alias": "Verd, quoted as \"15/40\" (DR%/vit)",
+    "category": "Belt (elite unique) — roll-dependent value",
+    "obscurity": 2,
+    "quality": "Perfect = 15% Damage Reduced / +40 Vitality (top form also 13 replenish / 140 ED)",
+    "valueTierGuess": "A (perfect) / D (low-DR)",
+    "rarityTier": "Common drop, genuinely rare perfect roll",
+    "priceSignal": "Real demand exists at the top of the roll: a perfect 15%DR/40vit trades roughly Ist–Vex non-ladder, Vex–Lo ladder per d2jsp price-check threads; one concrete 15DR/32vit/140ED copy went for ~250 FG. Peaked near an Ohm in 2022. A 10%DR/30vit copy is near-vendor and gets waved off — that spread IS the item.",
+    "collectorCase": "The name is common but the double-perfect is the museum piece. Value lives entirely in two rolls; the belt with the lowest DR and lowest vit is trash while the 15/40 is a chase belt. A seasoned player who thinks 'I have a Verdungo, I'm set' is holding a different item than the collector's 15/40.",
+    "whyValuable": "Only belt in the game that pairs a % damage-reduction mod with the largest vitality/life boost of any belt — it is the survivability cap for melee and hardcore. The % DR is a rare belt affix and stacks toward DR breakpoints.",
+    "teachingPoint": "DR% is flat mitigation: going 10%→15% is 50% more damage reduction from the item, not a 5% nudge. Traders quote rolled/max shorthand — '15/40' means 15-of-15 DR, 40-of-40 vit; a fuller quote is '15/40/13/140' (DR / vit / replenish / ED).",
+    "veteranBlindspot": "Veterans treat 'a Verdungo' as a solved slot and under-price the roll gap. The replenish and ED numbers are noise; only DR% and vit move the price, and most dropped copies are mediocre on at least one.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Verdungo's Hearty Cord is a unique Mithril Coil (elite belt).",
+      "Damage Reduced by 10-15% is variable; perfect is 15%.",
+      "+30-40 to Vitality is variable; perfect is 40.",
+      "Replenish Life +10-13 is variable.",
+      "+90-140% Enhanced Defense is variable.",
+      "It also carries Increase Maximum Stamina by 30-40%.",
+      "The two stats traders price on are Damage Reduced % and Vitality."
+    ],
+    "sources": [
+      "https://diablo2.io/uniques/verdungo-s-hearty-cord-t1011.html",
+      "https://forums.d2jsp.org/topic.php?f=271&t=108102575",
+      "https://d2chest.com/belts/verdungo-s-hearty-cord/perfect-verdungo-s-hearty-cord-140401312015_3479",
+      "https://eu.forums.blizzard.com/en/d2r/t/offer-perfect-verdungos-hearty-cord-sold/18501"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Griffon's Eye",
+    "alias": "Griffon's, quoted as \"-20/15\" (res/dmg)",
+    "category": "Circlet/Diadem (elite unique) — roll-dependent, unequal stat weighting",
+    "obscurity": 2,
+    "quality": "Perfect = -20% Enemy Lightning Resist / +15% Lightning Skill Damage",
+    "valueTierGuess": "A (near S for lightning builds)",
+    "rarityTier": "Rare drop; perfect two-stat roll scarce",
+    "priceSignal": "Strong, durable demand — a -20/high copy is quoted around Sur to multiple Ohm on diablo2.io/d2jsp; a -20/12 example was listed at Sur+. The important nuance: traders pay for the -Lightning Resist half and shrug at the +Lightning Skill Damage half (there is a diablo2.io thread literally titled 'Why -LR way more important than +LD').",
+    "collectorCase": "Two variable stats that markets weight very differently. A -20/10 and a -15/15 look similar to a novice but the -20/10 is worth far more, because -Enemy Lightning Resist punches through Hell immunities/resistances multiplicatively. The collector piece is -20 res first, then +15 dmg on top.",
+    "whyValuable": "Best-in-slot helm for lightning Sorc, Javazon, and any lightning build: the only helm granting -% enemy lightning resistance plus +% lightning skill damage, on top of +1 skills and 25% FCR.",
+    "teachingPoint": "When a unique has two variable stats, they are rarely priced equally. Here the single stat that matters is -Enemy Lightning Resistance; one point (-19 vs -20) can move it a tier because enemy resist reduction is a multiplier against Hell targets.",
+    "veteranBlindspot": "Even strong players quote Griffon's as one number. The market doesn't — a -15/15 is a budget piece and a -20/12 is the chase. The +Lightning Skill Damage roll is close to a tiebreaker, not the value.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Griffon's Eye is a unique Diadem, required level 76.",
+      "+1 to All Skills and +25% Faster Cast Rate are fixed.",
+      "-15 to -20% to Enemy Lightning Resistance is variable; perfect is -20.",
+      "+10 to 15% to Lightning Skill Damage is variable; perfect is +15.",
+      "+100-200 Defense is variable.",
+      "Community consensus prices the -Enemy Lightning Resistance roll above the +Lightning Skill Damage roll."
+    ],
+    "sources": [
+      "https://diablo2.wiki.fextralife.com/Griffon's+Eye",
+      "https://diablo2.io/forums/why-lr-way-more-important-than-ld-for-griffon-eye-t693059.html",
+      "https://diablo2.io/pricecheck.php?item=794",
+      "https://us.forums.blizzard.com/en/d2r/t/price-check-griffons-eye-2015194def/86606"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Death's Fathom",
+    "alias": "Fathom, quoted as \"30 Fathom\"",
+    "category": "Sorceress orb (elite unique) — single-stat multiplier roll",
+    "obscurity": 2,
+    "quality": "Perfect = +30% Cold Skill Damage (top form 30/40/40 with both resists maxed)",
+    "valueTierGuess": "A",
+    "rarityTier": "Rare drop; perfect 30% scarce",
+    "priceSignal": "Heavily demanded by cold Sorcs; a 30% copy sits at the top of the price-check charts (diablo2.io item #744) and is stocked as the premium tier by every item shop, distinctly above 20-24% and 25-29% brackets that vendors literally sort into separate SKUs. A 15-20% roll is a budget orb.",
+    "collectorCase": "The name is one item; the roll makes two economies. +% Cold Skill Damage is its own damage multiplier layered on the build, so a 15% and a 30% are not '15% apart' — the 30% is the museum orb and the reason shops bin Fathoms by 5% roll bands.",
+    "whyValuable": "The only Sorceress weapon that grants +% Cold Skill Damage, and it stacks with everything else a Blizzard/Orb sorc runs. Also +3 sorc skills and 20 FCR baseline.",
+    "teachingPoint": "A '+% skill damage' roll is a direct multiplier, which is why 1% is worth real money and vendors price Fathoms in 5% tiers. Bonus edge case: because casting never drains durability, an ethereal Death's Fathom never breaks for a caster — a pure collector flex with a sliver of extra defense and zero downside.",
+    "veteranBlindspot": "Vets know Fathom is BiS but often accept any Fathom; the market treats the 30% as a different item, and the ethereal-caster copy is a connoisseur piece most players never think to chase.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Death's Fathom is a unique Dimensional Shard (elite Sorceress orb), required level 73.",
+      "+3 to Sorceress Skill Levels and +20% Faster Cast Rate are fixed.",
+      "+15-30% to Cold Skill Damage is variable and is the value stat; perfect is 30%.",
+      "Lightning Resist +25-40% and Fire Resist +25-40% are variable.",
+      "It is the only Sorceress weapon granting +% Cold Skill Damage.",
+      "Because spellcasting does not consume durability, an ethereal Death's Fathom does not break for a caster."
+    ],
+    "sources": [
+      "https://diablo2.io/pricecheck.php?item=744",
+      "https://d2runewizard.com/uniques/Death's%20Fathom",
+      "https://us.forums.blizzard.com/en/d2r/t/price-check-on-perfect-death-fathom/111569",
+      "https://www.purediablo.com/forums/threads/ethereal-deaths-fathom.68926/"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Nightwing's Veil",
+    "alias": "Nightwing's",
+    "category": "Helm (elite unique) — overlooked multiplier roll",
+    "obscurity": 3,
+    "quality": "Perfect = +15% Cold Skill Damage / +120% ED / +20 dex / +9 cold absorb",
+    "valueTierGuess": "B (A for a perfect on a cold caster)",
+    "rarityTier": "Rare drop; perfect cold-damage roll scarce",
+    "priceSignal": "Solid demand from cold Sorcs and cold-based casters; diablo2.io tracks it (item #865) and shops split inventory into '15% Cold Dmg' premium vs '10-14% Cold Dmg' budget SKUs, which is the tell that the roll drives price. A near-perfect real copy (117ED/14 cold dmg/20 dex/8 absorb) was posted as a trade highlight.",
+    "collectorCase": "It is the cold-damage counterpart to Griffon's, but veterans buy it for +2 skills and cold absorb and never read the cold-damage line. The perfect 15% is a hidden-value helm: same slot, meaningfully more damage, and the roll is what separates a 4-Ist helm from a chase piece.",
+    "whyValuable": "Rare stacking of +2 all skills, +% cold skill damage, dexterity, and cold absorb on one helm — the best non-circlet caster damage helm for cold builds, and a top merc helm for the ED/absorb.",
+    "teachingPoint": "The value stat (Cold Skill Damage) is buried under flashier fixed stats (+2 skills). Same lesson as Fathom — it's a multiplier, so 8%→15% is a real damage jump, but here even seasoned players skip reading it.",
+    "veteranBlindspot": "Most players evaluate Nightwing's on +2/absorb and treat the cold-damage roll as flavor. It's the opposite — that roll is the price driver on a cold caster.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Nightwing's Veil is a unique Spired Helm (elite), required level 67.",
+      "+90-120% Enhanced Defense is variable.",
+      "+2 to All Skills is fixed.",
+      "+8-15% to Cold Skill Damage is variable and is the value stat; perfect is 15%.",
+      "+10-20 to Dexterity is variable.",
+      "+5-9 Cold Absorb is variable.",
+      "It carries Half Freeze Duration."
+    ],
+    "sources": [
+      "https://diablo.fandom.com/wiki/Nightwing%27s_Veil",
+      "https://diablo2.io/pricecheck.php?item=865",
+      "https://diablo2.io/post4433469.html"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Wisp Projector",
+    "alias": "Wisp",
+    "category": "Ring (elite unique) — absorb roll, extreme drop rarity",
+    "obscurity": 3,
+    "quality": "Perfect = 20% Lightning Absorb (also 20% MF)",
+    "valueTierGuess": "A",
+    "rarityTier": "Extremely rare — regarded as the hardest unique ring to drop",
+    "priceSignal": "Real, roll-sensitive demand: diablo2.io lists it as the rarest unique ring, and a 20% absorb copy is priced well above a 10% one. Not a mass-market item — value comes from scarcity plus the top absorb roll; low-absorb copies still sell on rarity alone but at a fraction.",
+    "collectorCase": "Genuinely a museum ring: the rarest unique ring in the game, and its only reason to exist — % lightning absorb — is a variable 10-20 roll. A 20% copy is a two-way collector piece (rarity + roll). Many veterans have never held one.",
+    "whyValuable": "Lightning absorb turns lightning damage into healing/mitigation; paired with high resist it makes a character nearly immune to lightning (Uber Meph, Burning Souls, Gloams). Also carries MF and Oak Sage/other charges.",
+    "teachingPoint": "Socket count doesn't apply to rings — here the roll and the drop rarity together set price. It's the cleanest case where the entire point of an item is one variable number, and the number ranges 2x (10→20).",
+    "veteranBlindspot": "Dismissed as a niche 'anti-Gloam' toy, but a perfect 20% is both a functional lightning-immunity enabler and a rarity trophy — the kind of thing veterans forget can be worth chasing.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Wisp Projector is a unique Ring, required level 76.",
+      "It is widely regarded as the rarest unique ring to obtain.",
+      "Lightning Absorb 10-20% is variable and is the value stat; perfect is 20%.",
+      "10-20% Better Chance of Getting Magic Items is variable.",
+      "Fixed charges: Level 7 Spirit of Barbs (11 charges), Level 5 Heart of Wolverine (13 charges), Level 2 Oak Sage (15 charges)."
+    ],
+    "sources": [
+      "https://diablo.fandom.com/wiki/Wisp_Projector",
+      "https://diablo2.io/uniques/wisp-projector-t1023.html",
+      "https://d2runewizard.com/uniques/Wisp%20Projector"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Death's Web",
+    "alias": "Web",
+    "category": "Necromancer wand (elite unique) — roll AND socket dependent",
+    "obscurity": 3,
+    "quality": "Perfect = -50% Enemy Poison Resist, +2 Poison & Bone, plus a socket for a poison Rainbow Facet",
+    "valueTierGuess": "A (near S socketed and -50)",
+    "rarityTier": "Very rare drop; socketed + -50 copies scarce",
+    "priceSignal": "Among the highest-demand Necro items — diablo2.io price-check #745 shows a wide spread by roll, and shops sell separate '+1 PnB / 45-49% resist' budget versions vs top '+2 / -50' versions. A socketed copy (holding a poison facet) commands a premium over an identical unsocketed one.",
+    "collectorCase": "Two axes of value on one wand: the -Enemy Poison Resistance roll (-40 to -50) and whether it carries a socket for a poison Rainbow Facet. A -50 socketed Death's Web is a genuinely different item from a -42 unsocketed one, and it is the uncontested BiS for poison Necro with no alternative.",
+    "whyValuable": "-% enemy poison resistance is extremely rare and multiplies poison damage against Hell targets that otherwise resist; plus up to +4 to the key skills. There is no substitute weapon for the build.",
+    "teachingPoint": "Socket count changes a unique's ceiling: Death's Web doesn't drop socketed, so a socket (for -5% enemy poison resist from a facet, plus its poison skill damage) is a value-adder that only some copies have. Quote it as resist roll + socket, e.g. '-50 1-socket'.",
+    "veteranBlindspot": "Players remember the -50 target but forget the socket is a separate, price-moving variable — a socketed -50 is the collector copy, not just any -50.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Death's Web is a unique Unearthed Wand (elite), required level 66.",
+      "+2 to All Skills is fixed.",
+      "+1 to 2 to Poison and Bone Spells (Necromancer only) is variable.",
+      "-40 to -50% to Enemy Poison Resistance is variable and is the value stat; perfect is -50.",
+      "+7-12 Life after each Kill and +7-12 Mana after each Kill are variable.",
+      "It does not drop with a socket; socketed copies (holding a poison Rainbow Facet) trade at a premium over unsocketed."
+    ],
+    "sources": [
+      "https://d2runewizard.com/uniques/Death's%20Web",
+      "https://diablo2.io/pricecheck.php?item=745",
+      "https://diablo2.io/uniques/death-s-web-t745.html"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Tomb Reaver",
+    "alias": "Eth 3os Tomb Reaver",
+    "category": "Polearm (elite unique) — ethereal + socket + ED, merc weapon",
+    "obscurity": 3,
+    "quality": "Chase = ethereal, 3 sockets, high ED (toward +280%)",
+    "valueTierGuess": "S (eth 3os high-ED) / B (non-eth 1os)",
+    "rarityTier": "Very rare in the chase configuration (eth AND 3 sockets AND high ED)",
+    "priceSignal": "One of the most sought merc weapons; a 3-socket ethereal with strong ED is a high-rune/High-end trade on diablo2.io and the Blizzard trade forums, well above a 1-socket non-eth copy. Explicitly stocked by shops as a premium eth/3os SKU.",
+    "collectorCase": "The variable stack (ethereal state × 1-3 sockets × 200-280% ED × MF roll) means the top copy is a genuinely rare intersection of four rolls. An eth 3-socket high-ED Tomb Reaver is the museum version; a 1-socket non-eth is a common merc filler.",
+    "whyValuable": "Top magic-find merc weapon: huge ED and undead damage, all-res, life-after-kill, and 50-80% MF, and three sockets to load with Zod (indestructible) + Ist/facets. Ethereal adds 50% damage.",
+    "teachingPoint": "Ethereal is pure upside on merc weapons because mercenary-equipped items never lose durability — no repair, no Zod required. Combine that with a 1-3 socket range and a wide ED range and you get four independent value multipliers on one name.",
+    "veteranBlindspot": "Vets know eth 3os is 'the good one' but under-appreciate how rare the full intersection is — most Tomb Reavers fail on socket count, ethereal, or ED, which is why the complete piece is a trophy.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Tomb Reaver is a unique Cryptic Axe (elite polearm).",
+      "+200-280% Enhanced Damage is variable.",
+      "It spawns with 1 to 3 sockets (variable).",
+      "All Resistances +30-50, 50-80% Better Chance of Getting Magic Items, and +10-14 Life after each Kill are variable.",
+      "Mercenary-equipped items never lose durability, so an ethereal Tomb Reaver is pure upside for a merc."
+    ],
+    "sources": [
+      "https://diablo2.io/uniques/tomb-reaver-t997.html",
+      "https://diablo2.io/price-check/ethereal-tomb-reaver-with-3-sockets-and-excellent-stats-t706128.html",
+      "https://www.aoeah.com/news/1002--d2r-24-best-ethereal-items-weapons--armors--best-ethereal-runeword-bases--uniques-to-keep-in-diablo-2-resurrected-24-ladder"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Crown of Ages",
+    "alias": "CoA, quoted \"15/30/2os\"",
+    "category": "Helm (elite unique) — socket-count value cliff",
+    "obscurity": 2,
+    "quality": "Perfect = 15% DR / +30 all res / 2 sockets",
+    "valueTierGuess": "A (2os/15/30) / C (1os low rolls)",
+    "rarityTier": "Rare drop; two-socket perfect scarce",
+    "priceSignal": "Consistently high demand; shops maintain distinct SKUs — '2 sockets 15% DR', '2 sockets', '1 socket 15% DR' — which proves the socket count and DR roll set the price. A 2-socket 15DR/30res copy is a high trade; a 1-socket low-res copy is a fraction of it.",
+    "collectorCase": "The classic socket-count value cliff. A 1-socket Crown of Ages and a 2-socket copy are priced worlds apart because the second socket is a whole extra Ber (or facet). Add the DR% and res rolls and the perfect 15/30/2os is the museum helm.",
+    "whyValuable": "Elite defensive helm: +1 skills, base DR%, big resists, indestructible, and up to two sockets. Two Bers reach ~31% total DR from the helm — a survivability piece for PvP and hardcore.",
+    "teachingPoint": "This is the textbook 'socket count changes everything' unique. The DR and res rolls matter, but the 1→2 socket jump alone can double the price. Quote as DR/res/sockets, e.g. '15/30/2os'.",
+    "veteranBlindspot": "Everyone knows 2os is better, but under-rates how sharply value falls off a 1-socket copy — a beautiful 15/30 with one socket still isn't the chase item.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Crown of Ages is a unique Corona (elite helm), required level 82, introduced in patch 1.10, and is indestructible.",
+      "+50% Enhanced Defense and +100-150 Defense.",
+      "+1 to All Skills and 30% Faster Hit Recovery are fixed.",
+      "Damage Reduced by 10-15% is variable.",
+      "All Resistances +20-30 is variable.",
+      "It spawns with 1 to 2 sockets (variable); the second socket is the primary value driver.",
+      "Perfect is 15% Damage Reduced / +30 All Resistances / 2 sockets."
+    ],
+    "sources": [
+      "https://rankedboost.com/diablo-2/items/crown-of-ages/",
+      "https://diablo2.io/uniques/crown-of-ages-t734.html",
+      "https://d2stock.com/product/coa-2soc-1530"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Titan's Revenge",
+    "alias": "Eth Titan's",
+    "category": "Amazon javelin (exceptional unique) — ethereal self-sustaining",
+    "obscurity": 3,
+    "quality": "Chase = ethereal, high ED (toward +200%); often upgraded to Matriarchal Javelin",
+    "valueTierGuess": "A (ethereal) / B (non-eth)",
+    "rarityTier": "Ethereal copies notably rarer and premium",
+    "priceSignal": "The defining Javazon weapon; ethereal copies carry a clear premium on diablo2.io and shops (e.g., 'Titan's Revenge Ethereal 150-184% ED' as its own product) over the plentiful non-eth version. Non-eth is affordable; eth high-ED is the sought copy.",
+    "collectorCase": "A rare case where ethereal is desirable on a MAIN character's own weapon, not just a merc's. Because it replenishes its own quantity, an ethereal Titan's gives the full +50% ethereal damage while the javelin stack refills itself — the downside that kills most ethereal weapons is designed away.",
+    "whyValuable": "BiS thrower for Lightning Fury Javazons; +2 amazon + javelin/spear skills, ED, leech, FRW, and a self-refilling stack. Ethereal is 50% more damage.",
+    "teachingPoint": "Ethereal-only value: normally ethereal means it breaks and can't be repaired, so it's a merc-only trait. Replenish Quantity refills the thrown stack, so the eth version is self-sustaining — one of the few ethereal weapons practical for the player, not just the hireling.",
+    "veteranBlindspot": "Some vets reflexively pass on ethereal thrown weapons ('it'll break'); Titan's is the exception where ethereal is strictly better, and that's exactly the kind of counter-intuitive value the item is prized for.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Titan's Revenge is a unique Ceremonial Javelin (exceptional), required level 42.",
+      "+150-200% Enhanced Damage is variable.",
+      "+2 to Amazon Skills and +2 to Javelin and Spear Skills are fixed.",
+      "It has Replenishes Quantity [1 in 3 sec] and Increased Stack Size [60].",
+      "5-9% Life Stolen per Hit is variable; it also gives +30% FRW, +20 Strength, +20 Dexterity.",
+      "It can be upgraded to a Matriarchal Javelin (elite) via Lum + Pul + Perfect Emerald + the item.",
+      "Because it replenishes its own quantity, an ethereal copy stays usable on a main character despite ethereal's normal breakage downside."
+    ],
+    "sources": [
+      "https://www.purediablo.com/forums/threads/whats-the-difference-between-titans-revenge-and-eth-titans-revenge.157707/",
+      "https://diablo2.io/uniques/titan-s-revenge-t995.html",
+      "https://www.d2rgear.com/products/titan-s-revenge-ethereal-150-184-ed"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Andariel's Visage",
+    "alias": "Eth Andy",
+    "category": "Helm (elite unique) — ethereal merc piece, roll + hidden penalty",
+    "obscurity": 3,
+    "quality": "Chase = ethereal, high ED/str/leech; -30 fire res offset with a socket",
+    "valueTierGuess": "A (ethereal) / B (non-eth)",
+    "rarityTier": "Ethereal high-roll copies scarce",
+    "priceSignal": "Best merc helm and a top melee helm; ethereal copies are a distinct premium product on diablo2.io and every shop. Non-eth is common and cheap-ish; eth with good ED/str is the sought copy.",
+    "collectorCase": "Ethereal + high ED + high strength + max leech is a rare stack, and the item hides a trap: a fixed -30% fire resist. The connoisseur copy is an ethereal high-roll that has already solved the penalty with a Ral or fire-res jewel — a considered piece, not a raw drop.",
+    "whyValuable": "+2 skills, 20 IAS, life leech, big strength and defense on a merc = huge survivability and damage. Ethereal adds 50% defense, and merc gear never breaks.",
+    "teachingPoint": "Ethereal-only value again (merc durability is free), but with a lesson in fixed downsides: the -30 fire resist is not a roll — it's always there, and a collector-grade copy is socketed to cancel it. Value = ethereal + ED/str/leech rolls minus how well the penalty is handled.",
+    "veteranBlindspot": "Vets grab 'eth Andy' for the merc and forget the -30 fire res quietly tanks the merc's Hell survivability until it's socketed off — the finished, offset copy is the real collector item.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Andariel's Visage is a unique Demonhead (elite helm), required level 83.",
+      "+100-150% Enhanced Defense is variable.",
+      "+2 to All Skills and 20% Increased Attack Speed are fixed.",
+      "8-10% Life Stolen per Hit is variable; +25-30 to Strength is variable.",
+      "Fire Resist -30% is a fixed penalty; Poison Resist +70% is fixed.",
+      "Ethereal copies are prized because mercenary-equipped items never lose durability; the -30 fire resist is usually offset with a Ral rune or fire-resist jewel in a socket."
+    ],
+    "sources": [
+      "https://diablo2.io/uniques/andariel-s-visage-t669.html",
+      "https://d2runewizard.com/uniques/Andariel's%20Visage",
+      "https://d2stock.com/product/andariels-visage-eth"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Herald of Zakarum",
+    "alias": "Eth HoZ, quoted \"200 eth\"",
+    "category": "Paladin shield (exceptional unique) — ethereal ED roll",
+    "obscurity": 3,
+    "quality": "Perfect ethereal = +200% Enhanced Defense (ethereal adds 50% on top)",
+    "valueTierGuess": "A (perfect eth) / C (non-eth low ED)",
+    "rarityTier": "Rare in perfect ethereal form",
+    "priceSignal": "In demand for Smiter/blocker Paladins; shops list 'Ethereal 200% ED Perfect' as a top SKU distinct from '150-184% ED', confirming the ED roll plus ethereal set the price. A perfect eth is a real trade; a non-eth 150% is budget.",
+    "collectorCase": "The whole premium sits in the ED roll amplified by ethereal — a perfect eth 200% produces an enormous shield defense number that a 150% non-eth can't approach. The +2/+2 skills, 30 ICB, all-res +50 are fixed, so the collector variable is purely ED × ethereal.",
+    "whyValuable": "One of the best Paladin shields: +2 pal + combat skills, big block, all-res +50, strength/vit. The ethereal high-ED copy maximizes the defense wall for Smite ubers and PvP.",
+    "teachingPoint": "On defense-based gear, a % Enhanced Defense roll multiplied by ethereal's +50% defense compounds — the same reason eth armor bases are chased. Quote it as ED + ethereal, e.g. '200 eth'.",
+    "veteranBlindspot": "Once the iconic Hammerdin/Smiter shield and famously duped, many treat any HoZ as interchangeable; the market pays specifically for the perfect ethereal ED, which is a small slice of drops.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Herald of Zakarum is a unique Gilded Shield (exceptional Paladin shield), required level 42.",
+      "+150-200% Enhanced Defense is variable and is the key roll on an ethereal copy.",
+      "+2 to Paladin Skills and +2 to Combat Skills are fixed.",
+      "30% Increased Chance of Blocking, 30% Faster Block Rate, +20 Attack Rating, +20 Strength, +20 Vitality, and All Resistances +50 are fixed.",
+      "Ethereal adds 50% more defense on top of the Enhanced Defense roll."
+    ],
+    "sources": [
+      "https://diablo2.io/uniques/herald-of-zakarum-t815.html",
+      "https://itemnow.com/product/herald-of-zakarum-ethereal-200-ed-perfect/",
+      "https://d2stock.com/product/zaka-150-184ed"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Mara's Kaleidoscope",
+    "alias": "Mara, quoted \"30 Mara\"",
+    "category": "Amulet (unique) — single resist roll",
+    "obscurity": 2,
+    "quality": "Perfect = All Resistances +30",
+    "valueTierGuess": "A (perfect 30) / C (low res)",
+    "rarityTier": "Common-ish drop, scarce perfect 30",
+    "priceSignal": "The perfect 30 is one of the most demanded unique amulets — quoted around Lo/Sur (or Sur + a couple Ist) on diablo2.io/d2jsp, distinctly above a 20-res copy which trades for mid runes. Shops sell '30 All Res' as the premium SKU.",
+    "collectorCase": "Included as the canonical proof of the mechanic: one variable stat (all-res 20-30) swings the price from mid-runes to Lo/Sur. The +2 skills and +5 attributes are fixed, so a 30 and a 21 Mara are the same item to a novice and very different to a market.",
+    "whyValuable": "+2 all skills plus universal resistances on the amulet slot — a stat every build wants, and the 30 version is the resist-capping BiS for many setups.",
+    "teachingPoint": "Sometimes the whole price is a single number with a 10-point range. 'Perfect' here is trivially defined (30 res) yet multiplies value several-fold — a clean illustration of roll-driven pricing.",
+    "veteranBlindspot": "This one veterans DO know — flagged honestly. Its value here is as the reference example, not a surprise; still worth cataloguing because it anchors the whole roll-dependence concept.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Mara's Kaleidoscope is a unique amulet, required level 67.",
+      "+2 to All Skills and +5 to All Attributes are fixed.",
+      "All Resistances +20-30 is variable and is the value stat; perfect is 30.",
+      "A perfect 30-res copy is among the most valuable unique amulets in D2R."
+    ],
+    "sources": [
+      "https://diablo.fandom.com/wiki/Mara's_Kaleidoscope_(Diablo_II)",
+      "https://diablo2.io/pricecheck.php?item=855",
+      "https://d2stock.com/product/maras-perfect"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Steelrend",
+    "alias": "Steelrend",
+    "category": "Gloves (elite unique) — ignored ED roll, extreme drop rarity",
+    "obscurity": 4,
+    "quality": "Perfect = +60% Enhanced Damage / +20 Strength",
+    "valueTierGuess": "C (rare but niche) / B for a perfect on a str-stacking melee build",
+    "rarityTier": "One of the rarer unique glove drops",
+    "priceSignal": "Thin but real: shops bin it by ED band ('30-49% ED' vs '50-59% ED'), so the roll is priced, but overall demand is modest because most melee builds run Dracul's or Laying of Hands. This is a rarity/roll collector piece more than a high-liquidity trade — honest call.",
+    "collectorCase": "A rarity-and-roll piece rather than a money piece. Steelrend gives the highest strength bonus of any gloves (up to +20) and a big +30-60% ED that players ignore because they equip it for the strength alone. The perfect 60/20 is a rarely-seen, rarely-perfect drop — a cabinet item for a collector, with the honest caveat that raw demand is niche.",
+    "whyValuable": "Highest str of any glove plus crushing blow and a real ED roll — a strength-stacking/crushing-blow option for melee that also helps meet other gear's strength requirements.",
+    "teachingPoint": "Another 'value stat hidden behind the reason you equip it': people take Steelrend for +20 str and never read the +30-60% ED, which is the roll that actually varies the item's ceiling.",
+    "veteranBlindspot": "Many veterans have barely seen one drop and think of it purely as a strength glove; the ED roll and the sheer drop rarity are the collector angle, even though it isn't a chase-price item.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Steelrend is a unique Ogre Gauntlets (elite gloves), required level 70, required strength 185.",
+      "+170-210 Defense is variable.",
+      "+30-60% Enhanced Damage is variable and is the value/roll stat; perfect is 60%.",
+      "10% Chance of Crushing Blow is fixed.",
+      "+15-20 to Strength is variable — the highest strength bonus of any gloves in the game."
+    ],
+    "sources": [
+      "https://diablo.fandom.com/wiki/Steelrend",
+      "https://diablo2.io/uniques/steelrend-t936.html",
+      "https://d2stock.com/product/steelrend-50-59ed"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Dracul's Grasp",
+    "alias": "Drac's",
+    "category": "Gloves (elite unique) — leech roll + unique proc mechanic",
+    "obscurity": 3,
+    "quality": "Perfect = 10% Life Stolen per Hit / +15 Strength",
+    "valueTierGuess": "B (perfect) / C (low leech)",
+    "rarityTier": "Uncommon drop; perfect leech scarce",
+    "priceSignal": "Steady mid-tier demand — trades roughly Mal–Ist range on diablo2.io/forums, with a perfect 10% leech / 15 str commanding the premium end and low rolls sitting cheaper. Not a top-rune item, but liquid and consistently wanted by melee.",
+    "collectorCase": "The only item in the game with 5% Chance to Cast Life Tap on Striking — a mechanic-collector piece by itself — layered on a 7-10% leech roll. The perfect-leech copy is the survivability chase for physical melee, and the unique proc is the reason it never fully goes out of style.",
+    "whyValuable": "Stacks life leech, open wounds, and the Life Tap proc (enemies return 50% of damage as life) — enormous sustain for Zealers, Barbs, and other melee; also +str for gear thresholds.",
+    "teachingPoint": "Value can hinge on a roll (7→10% leech) sitting next to a one-of-a-kind fixed mechanic (Life Tap proc). Traders quote the leech and strength; the proc is why the floor price stays up even on mediocre rolls.",
+    "veteranBlindspot": "Vets know Dracul's for Life Tap and forget the leech is a 7-10 roll that moves price; the perfect 10/15 is the copy worth holding, not any Dracul's.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Dracul's Grasp is a unique Vampirebone Gloves (elite), required level 76.",
+      "7-10% Life Stolen per Hit is variable and is a key roll; perfect is 10%.",
+      "+10-15 to Strength is variable; +90-120% Enhanced Defense is variable; +5-10 Life after each Kill is variable.",
+      "25% Chance of Open Wounds is fixed.",
+      "5% Chance to Cast Level 10 Life Tap on Striking — the only item in the game with this modifier."
+    ],
+    "sources": [
+      "https://diablo.fandom.com/wiki/Dracul's_Grasp",
+      "https://diablo2.io/uniques/dracul-s-grasp-t755.html",
+      "https://diablo2.io/pricecheck.php?item=755"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Arkaine's Valor",
+    "alias": "Arkaine's",
+    "category": "Body armor (elite unique) — HISTORIC: value collapsed when a patch rewrote its ranges",
+    "obscurity": 4,
+    "quality": "Once a 1.08 god-armor; ranges gutted in 1.09/1.10",
+    "valueTierGuess": "C now (functional) / historic S",
+    "rarityTier": "Common drop today; historically a duped chase item",
+    "priceSignal": "Today it trades cheap — outclassed by Enigma/CoH/Fortitude and stocked as a budget armor. Its interest is historical, not current price. This is the collapse case, included for the pillar of patch history rather than live demand.",
+    "collectorCase": "The definitive 'a patch changed the ranges and the value evaporated' story. In 1.08 Arkaine's Valor was one of the strongest, most-duped armors in the game; the 1.09/1.10 rewrite cut its defining stats to a fraction and it never recovered. A veteran who only knows post-1.10 D2 has no idea it was once a god item — that gap is the collector angle.",
+    "history": "In patch 1.08 Arkaine's Valor carried +200% Enhanced Defense, +2.5 Vitality per Character Level, +2 Life per Character Level, +2 to All Skills, 30% Faster Hit Recovery, Indestructible, and 50% Fire Resist — absurd life/vitality scaling that made it a top-tier, heavily duped armor. Patch 1.09 (August 2001, which introduced runewords) began the nerf wave, and by 1.10 it was rewritten to +150-180% Enhanced Defense, +1-2 to All Skills, +0.5 Vitality per Character Level, 30% Faster Hit Recovery, and Damage Reduced by 10-15 — the per-level Life removed and per-level Vitality cut fivefold. The same 1.09 wave hit other 'god' uniques including Harlequin Crest (Shako) and Wizardspike.",
+    "legitimacy": "CONFIRMED",
+    "whyValuable": "Historically valuable for its per-level Life and Vitality (a life pool no other armor matched at the time); today valuable mainly as a piece of economic/patch history.",
+    "teachingPoint": "A 'perfect' roll is patch-relative. When Blizzard rewrites a unique's variable ranges, the old chase item can become a vendor drop overnight — the mirror image of D2R's 2.4 buffs, which resurrected dozens of dead uniques. Value tracks the current stat file, not the name.",
+    "veteranBlindspot": "Younger D2R veterans dismiss Arkaine's as a leveling armor and don't know it was once a duped, top-of-the-economy item — the collapse is invisible unless you played 1.07-1.08.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Arkaine's Valor is a unique Balrog Skin (elite armor).",
+      "In patch 1.08 it had +200% Enhanced Defense, +2.5 Vitality per Character Level, +2 Life per Character Level, +2 to All Skills, 30% Faster Hit Recovery, Indestructible, and 50% Fire Resist.",
+      "By patch 1.10 it was +150-180% Enhanced Defense, +1-2 to All Skills, +0.5 Vitality per Character Level, 30% Faster Hit Recovery, and Damage Reduced by 10-15.",
+      "The 1.09 patch (August 2001) that introduced the first runewords also nerfed several top uniques including Arkaine's Valor, Harlequin Crest, and Wizardspike."
+    ],
+    "sources": [
+      "https://diablo2.diablowiki.net/Arkaine's_Valor_(Diablo_II)",
+      "https://diablo.fandom.com/wiki/Arkaine%27s_Valor_(Diablo_II)",
+      "https://diablo2.io/forums/uniques-that-were-nerfed-t1451168.html"
+    ],
+    "_domain": "Diablo 2 Resurrected — edge-case roll-dependent unique items (mature ladder economy). Uniques whose value comes almost entirely from the variable roll, socket count, or ethereal state, not the item name.",
+    "_wf": "batch1redo(magic-bases,roll-dependent)"
+  },
+  {
+    "name": "Shimmering Small Charm of Vita",
+    "alias": "5/20 SC (5 all-res / 20 life)",
+    "category": "Small Charm",
+    "quality": "Magic",
+    "obscurity": 3,
+    "valueTierGuess": "S (perfect roll)",
+    "rarityTier": "Extraordinarily rare at perfect roll",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Real, strong mature-ladder demand. A perfect 5 all-res / 20 life has been quoted around 2 Ber, and buyers openly post WTB threads offering multiple Ber scaled to the life roll. Documented perfect listings on Blizzard forums ('Shimmering Small Charm of Vita (perfect!)'), PureDiablo ('5/20 5/19'), and shops (d2rgear, itemforge). Low/partial rolls (5/12, 4/20) are cheap, so demand concentrates almost entirely on the true 5/20.",
+    "collectorCase": "This is the single most universally useful one-inventory-slot charm in the game. +5 all resist plus +20 life helps nearly every PvE and PvP build, caster or melee, which the melee-only 3/20/20 does not. A true 5/20 requires the 'Shimmering' prefix to hit its small-charm cap of +5 AND 'of Vita' to hit its cap of 20 on the same charm, which is genuinely rare. A verified perfect trades like a high rune, which is museum money for a small charm.",
+    "whyValuable": "Resistance and life are the two stats every build wants, and this packs both maxed into one slot. It frees other gear slots to chase damage instead of patching resists.",
+    "teachingPoint": "Small-charm caps are the story: Shimmering tops out at +5 all-res, 'of Vita' at +20 life. The grail is both maxed together, not one big number.",
+    "veteranBlindspot": "Many veterans instinctively name 3/20/20 as THE grail small charm. For most non-melee builds the 5/20 is more valuable and more wanted, and a true 5/20 is rarer than people assume because both affixes must max on one charm.",
+    "history": "A staple 'perfect small charm' chase since classic D2, carried into D2R where mature-ladder buyers pay high-rune prices for flawless rolls.",
+    "factClaims": [
+      "The 'Shimmering' prefix on a small charm grants +5 to all resistances, which is the small-charm cap.",
+      "The 'of Vita' suffix is the top life tier on a small charm and grants +16 to +20 life.",
+      "A perfect 'Shimmering Small Charm of Vita' is +5 all resist and +20 life, shorthand '5/20'.",
+      "It occupies a single 1x1 inventory slot."
+    ],
+    "sources": [
+      "https://us.forums.blizzard.com/en/d2r/t/shimmering-small-charm-of-vita-perfect/74907",
+      "https://www.purediablo.com/forums/threads/shimmering-small-charm-of-vita-5-20-5-19.14981/",
+      "https://www.d2rgear.com/products/shimmering-small-charm-of-vita-20-life-5-all-resistances"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Fine Small Charm of Vita",
+    "alias": "3/20/20 SC (3 max dmg / 20 AR / 20 life)",
+    "category": "Small Charm",
+    "quality": "Magic",
+    "obscurity": 2,
+    "valueTierGuess": "A (perfect roll)",
+    "rarityTier": "Rare at true all-max roll",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Steady demand from physical melee builds. Near-misses (3/19/20, 3/20/19) are common and priced low; a verified all-max 3/20/20 carries a clear premium and is stocked as a named product by multiple shops (itemforge 'sc-3-20-20', d2rgear, d2stock). Not high-rune tier like the 5/20, but a genuine grail for melee twinks.",
+    "collectorCase": "The melee counterpart to the 5/20 and a recognized grail. A true 3/20/20 needs 'Fine' to max both its stats (3 max damage and 20 AR) and 'of Vita' to hit 20 life on the same charm. Because the near-misses look almost identical, a verified all-three-maxed piece is the actual collector target, and most 'good' ones on the market are not truly perfect.",
+    "whyValuable": "Best-in-slot filler for physical attackers who want life plus a little damage and attack rating per slot without giving up an inventory square.",
+    "teachingPoint": "The +20 attack rating is near-worthless late game. The value is the +3 max damage and +20 life, so a '3/20/20' is really a '3-max, 20-life' charm with a cosmetic AR line.",
+    "veteranBlindspot": "Players quote '3/20/20' as universally elite, but it is a melee-only charm. Casters and hybrid builds should chase the 5/20 instead, and overpaying for the AR line is a rookie tell.",
+    "history": "One of the oldest 'perfect small charm' targets in the game, kept alive in D2R as a melee grail.",
+    "factClaims": [
+      "The 'Fine' prefix on a small charm grants +1 to +3 maximum damage and +10 to +20 attack rating (caps 3 and 20).",
+      "The 'of Vita' suffix grants +16 to +20 life on a small charm.",
+      "A perfect 'Fine Small Charm of Vita' is +3 max damage, +20 AR, +20 life, shorthand '3/20/20', usable at character level 39.",
+      "It benefits physical/melee attackers far more than casters."
+    ],
+    "sources": [
+      "https://itemforge.com/en/sc-3-20-20",
+      "https://www.d2rgear.com/products/fine-small-charm-of-vita-3-maximum-damage-20-ar-20-life",
+      "https://d2stock.com/product/sc-32020"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Skill Grand Charm of Vita (45-life skiller)",
+    "alias": "45-life skiller (e.g. Lion Branded / Harpoonist's / Sorc)",
+    "category": "Grand Charm",
+    "quality": "Magic",
+    "obscurity": 3,
+    "valueTierGuess": "S (top tree + 40+ life)",
+    "rarityTier": "Very rare (needs ilvl 91 base + perfect two-affix roll)",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "The life roll is a massive multiplier. A plain Lion Branded (Paladin Combat) skiller sits around ~3 Ist; the same skiller with ~40 life has been listed at 15 Jah. Documented real pieces: diablo2.io 'Paladin Combat Skiller +27 Life', d2stock 'Pal Combat Skiller 40-44 Life', d2jsp '40-45 Life Skiller Grand Charm Of Vita', itemforge 'skiller +45 life'. Top trees by demand: Paladin Combat, Amazon Javelin/Spear, Sorceress, then Assassin Traps and Necro Poison & Bone.",
+    "collectorCase": "A +1 skill grand charm that also rolls 45 life is a two-stat perfect on a charm that can only spawn +41 or higher life from an item-level-91 base. In practice that means Hell Baal or Hell Nihlathak drops, or endless perfect-gem rerolls. Pair that with a most-wanted skill tree and you have a grand charm valued in Jah runes, which is museum tier for a charm slot.",
+    "whyValuable": "Combines a permanent +1 to a whole skill tree with the best life-per-slot a grand charm can give. Both PvM and PvP builds fight over max-life skillers of their tree.",
+    "teachingPoint": "Skillers add +1 to a skill TAB (tree), not +1 to all skills. 'of Vita' on a grand charm rolls 36 to 45 life, and +41 or more requires an ilvl-91 charm, so the top drop sources are extremely narrow.",
+    "veteranBlindspot": "Veterans grab any skiller and shrug at the suffix. The life roll is where the money is: a 40 to 45 life skiller of a top tree can be worth many times a plain one, and off-meta trees (Druid summon, Barb masteries) stay cheap while Paladin Combat and Javazon skillers command a premium.",
+    "history": "Skillers have been a trade currency since 1.10. In D2R the perfect-gem reroll recipe on ilvl-91 charms turned the 40+ life skiller into a defined, farmable grail.",
+    "factClaims": [
+      "A skill grand charm gives +1 to one of a class's three skill trees.",
+      "'of Vita' on a grand charm rolls +36 to +45 life, capping at 45.",
+      "Rolling +41 or higher life requires the grand charm to be item level 91, which only Hell Baal and Hell Nihlathak can drop.",
+      "The reroll method is 3 Perfect Gems + a magic grand charm in the Horadric Cube on ilvl-91 bases.",
+      "Paladin Combat skillers use the prefix 'Lion Branded'; Amazon Javelin/Spear skillers use 'Harpoonist's'."
+    ],
+    "sources": [
+      "https://forums.d2jsp.org/topic.php?t=102910502",
+      "https://www.purediablo.com/forums/threads/skiller-charm-ranking.166104/",
+      "https://d2stock.com/product/pal-combat-skiller-40-44life"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Sunder Charms (Cold Rupture and the set of six)",
+    "alias": "Sunders: Cold Rupture, Flame Rift, Crack of the Heavens, Rotting Fissure, Bone Break, Black Cleft",
+    "category": "Grand Charm (Unique)",
+    "quality": "Unique",
+    "obscurity": 3,
+    "valueTierGuess": "B overall, with a wide spread (Cold Rupture high, Black Cleft low)",
+    "rarityTier": "Farmable but gated; rarity is inverted vs value",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Real, ongoing demand. Cold Rupture is the priciest of the six because cold immunity is otherwise the hardest to break. Yet Cold Rupture and Flame Rift are the MOST common drops (~1 in 170 on a Tier-5 kill), while Bone Break and especially Black Cleft are far rarer but among the CHEAPEST, since physical and magic immunities are niche. Traded openly on d2stock, d2rgear and every trade forum.",
+    "collectorCase": "This is a Pillar-2 historic pick. Sunder Charms (Patch 2.5, October 2022) rewrote the immune-breaking meta: builds that could never touch their own immunes suddenly could, which reshaped Infinity demand, mercenary choices, and which builds were viable on Hell. The collector hook is the rarity/value inversion. Black Cleft is the rarest charm in the set and one of the least valuable. A seasoned player expecting 'rarest = priciest' gets it exactly backward.",
+    "whyValuable": "They unlock entire farming zones for mono-element builds. The demand tracks how useful each broken immunity is, not how rare the charm is.",
+    "teachingPoint": "A Sunder reduces the matching monster immunity to 95%, letting -enemy-resist sources finish the job. The tradeoff is a large penalty to your OWN resistance of that element (legacy rolls -70% to -90% random; newer 'Latent' charms a fixed -90%). Stacking duplicates does nothing but stack the penalty.",
+    "veteranBlindspot": "Two blindspots. First, that the rarest Sunder (Black Cleft, magic) is cheap while the common Cold Rupture is dear. Second, that the charm hurts your own resistances, so slotting one blindly can get a hardcore character killed by the very element it lets you damage.",
+    "history": "Introduced in D2R Patch 2.5 alongside Terror Zones. Drop only from Champion/Unique (boss) packs in Terror Zones on Hell. Later patches added upgrade recipes (Latent/Renewed variants).",
+    "factClaims": [
+      "There are six Sunder grand charms: Bone Break (Physical), Black Cleft (Magic), Cold Rupture (Cold), Crack of the Heavens (Lightning), Flame Rift (Fire), Rotting Fissure (Poison).",
+      "A Sunder reduces a monster's matching immunity to 95% resistance.",
+      "A Sunder imposes a large penalty to the holder's own resistance of that element (legacy -70% to -90% random; Latent -90% fixed).",
+      "They were added in Patch 2.5 and drop only from boss/champion packs in Hell Terror Zones.",
+      "Cold Rupture and Flame Rift are the most common; Black Cleft is the rarest yet among the least valuable."
+    ],
+    "sources": [
+      "https://maxroll.gg/d2/resources/sundered-charms",
+      "https://diablobytes.com/d2-resurrected/guides/sunder-charms/",
+      "https://diablo.fandom.com/wiki/Sunder_(Diablo_II)"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Rainbow Facet (unique jewel)",
+    "alias": "Facet; e.g. Lightning Level-up 5/5, Cold Die 5/5",
+    "category": "Unique Jewel",
+    "quality": "Unique",
+    "obscurity": 3,
+    "valueTierGuess": "A (perfect 5/5, top element), C-B (poison / die)",
+    "rarityTier": "Rare, and eight distinct variants hide behind one name",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Active per-variant markets on diablo2.io (separate pages for each element and each Level-up/Die form). Value order is roughly Lightning > Cold >= Fire > Poison, and Level-up trades meaningfully higher than Die (Die runs ~30-50% cheaper) even though their passive stats are identical. A perfect 5/5 of a top element is a real chase; a 3/3 poison Die is near-vendor.",
+    "collectorCase": "One item name, eight collectible pieces. The passive (+skill damage / -enemy resist) is what everyone actually buys; the cast-on skill is irrelevant filler. A perfect 5/5 of a used element is a genuine grail, and completing a 'set' across elements and both triggers is a collector pursuit in itself. The Die vs Level-up price gap being pure trigger preference, with no stat difference, is the kind of nuance a museum label is made of.",
+    "whyValuable": "-5% to enemy resistance stacks with Conviction, Lower Resist and other facets, and +5% skill damage is flat added output. In sockets it is often the best damage jewel a caster can slot.",
+    "teachingPoint": "Level-up and Die facets of the same element share identical +/- stats. The trigger (Nova, Frost Nova, Blaze, Venom on level-up; the on-death procs) is cosmetic and useless. Buy on the 5/5 roll, not the flavor.",
+    "veteranBlindspot": "Some players still pay up for a Die facet thinking the on-death Poison Nova or Nova is a feature. It is not. And many undervalue how much rarer a true 5/5 is than a 4/5 or 5/4, which look almost the same in a socket.",
+    "history": "Added in 1.10 as the game's only unique jewels. Carried into D2R unchanged, still the benchmark caster damage jewel.",
+    "factClaims": [
+      "Rainbow Facet exists in eight forms: Fire, Cold, Lightning, Poison, each in a Level-up and a Death (Die) version.",
+      "Required Level 49; quality level 85.",
+      "The passive mods are +3 to +5% to that skill's damage and -3 to -5% to enemy resistance of that element; perfect is 5/5.",
+      "Level-up and Die versions of the same element have identical passive stats; only the cast-on trigger differs.",
+      "Mature-ladder value order is roughly Lightning > Cold >= Fire > Poison, and Level-up trades higher than Die."
+    ],
+    "sources": [
+      "https://diablo2.io/uniques/rainbow-facet-cold-level-up-t3168.html",
+      "https://diablo2.io/forums/rainbow-facet-death-vs-level-up-t861714.html",
+      "https://diablo.fandom.com/wiki/Rainbow_Facet"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Ruby Jewel of Fervor (40/15 jewel)",
+    "alias": "40/15 or 15/40 (40% ED / 15% IAS)",
+    "category": "Magic Jewel",
+    "quality": "Magic",
+    "obscurity": 2,
+    "valueTierGuess": "S (true perfect)",
+    "rarityTier": "One of the rarest perfect magic rolls in the game",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Elite. A perfect 40/15 has been asked around 10 Jah + 2 Ber in D2R, and classic-D2 lore pegged perfects at 'a dozen Bers'. Documented as its real magic name 'Ruby Jewel of Fervor' on Blizzard forums (WTS threads), diablo2.io price checks, and d2jsp. Sub-perfect rolls (39/15, 40/14, 30/15) drop the price sharply.",
+    "collectorCase": "A plain blue jewel that trades like a high rune. It is not rare, unique, or crafted, yet a true 40/15 is one of the hardest perfect rolls to hit because both the Ruby prefix and the of Fervor suffix must max on the same jewel. It is the workhorse damage jewel for physical builds, sockets into Grief/Fortitude/weapons, and a verified perfect is a bragging-rights collector piece.",
+    "whyValuable": "15% IAS and 40% ED are the two most sought jewel mods for melee. Together in one socket they are close to irreplaceable, and no runeword or unique jewel does it better.",
+    "teachingPoint": "The classic '40/15' is a MAGIC jewel with a real name: Ruby (30-40% ED) Jewel of Fervor (15% IAS), required level 58. Rare jewels can add extra mods on top, but the pure magic 40/15 is the benchmark.",
+    "veteranBlindspot": "Everyone knows 40/15 is great, but few appreciate how vanishingly rare a TRUE 40/15 is versus the 39/15 and 40/14 near-misses that flood trade. The perfect commands a multiple that surprises even long-time traders.",
+    "history": "A grail magic jewel since the original game, where perfect 40/15s were spoken of in Ber runes. D2R revived the exact same chase.",
+    "factClaims": [
+      "The classic 40/15 jewel is a magic jewel named 'Ruby Jewel of Fervor'.",
+      "'Ruby' grants +30 to +40% enhanced damage; 'of Fervor' grants +15% increased attack speed.",
+      "Required level 58.",
+      "A perfect roll is 40% ED and 15% IAS; near-misses are worth a fraction.",
+      "Rare jewels can carry the same ED+IAS plus additional affixes."
+    ],
+    "sources": [
+      "https://us.forums.blizzard.com/en/d2r/t/wts-15-ias-40-ed-jewel-ruby-jewel-of-fervor-done/58347",
+      "https://diablo2.io/price-check/ruby-jewel-of-fervor-40-ed-15ias-t164057.html",
+      "https://forums.d2jsp.org/topic.php?t=100196844&f=271"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "40% ED / +15 max damage jewel",
+    "alias": "40/15max (the 'beats an Ohm' jewel)",
+    "category": "Jewel (magic or rare)",
+    "quality": "Magic or Rare",
+    "obscurity": 4,
+    "valueTierGuess": "A (perfect roll)",
+    "rarityTier": "Rare perfect roll",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Real niche demand from physical builds optimizing low-base weapons. Perfect 40-ED / 15-max rolls have been price-checked at roughly a Jah or two (Blizzard forums '40ED/15 max jewel' PC; itemnow lists ED/max and ED/-req jewel products). Cheaper than a 40/15 IAS jewel, but wanted by players who specifically want flat damage over attack speed.",
+    "collectorCase": "A rare jewel that can out-damage a high rune. On a low-base-damage weapon, +40% ED plus +15 maximum damage adds more than an Ohm rune's +50% ED. That inversion, a socket filler beating a Jah-tier rune, is exactly the kind of thing a veteran waves off and gets wrong. A perfect one is a quietly elite collector jewel.",
+    "whyValuable": "For weapons where base damage is modest, flat max damage scales harder than percentage ED, so this jewel is the true best damage socket, ahead of the rune players reflexively reach for.",
+    "teachingPoint": "%ED multiplies the weapon's own base; flat +max adds regardless of base. The crossover is around a ~75 average base: below it the 40/15max jewel beats Ohm (+50% ED), above it Ohm pulls ahead.",
+    "veteranBlindspot": "The assumption that a socketed high rune always beats a jewel. On the right weapon this blue or rare jewel wins outright, which most players never test.",
+    "history": "A long-running theorycraft favorite for min-maxing physical damage, revived in D2R weapon-optimization discussions.",
+    "factClaims": [
+      "The jewel provides +40% enhanced damage and +15 maximum damage at perfect roll.",
+      "An Ohm rune in a weapon grants +50% enhanced damage.",
+      "On low-base-damage weapons (roughly under ~75 average), the ED+max jewel adds more damage than Ohm.",
+      "Flat maximum damage is independent of the weapon's base damage, unlike percentage enhanced damage."
+    ],
+    "sources": [
+      "https://us.forums.blizzard.com/en/d2r/t/price-check-40ed15-max-jewel/57310",
+      "https://itemnow.com/product/40-ed-15-ias-jewel/",
+      "https://diablo2.io/forums/is-a-15-to-min-15-to-max-jewel-any-good-t768006.html"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Crafted Caster Amulet (+2 skills / 20% FCR)",
+    "alias": "2/20 caster ammy (Ral + Perfect Amethyst craft)",
+    "category": "Crafted Amulet",
+    "quality": "Crafted",
+    "obscurity": 3,
+    "valueTierGuess": "S/A (dream roll)",
+    "rarityTier": "~1 in 1000 craft for the dream roll",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "High and class-dependent. A clean +2 skills / 20 FCR caster amulet with good secondary mods trades in the multiple-Ber to Jah range; a Barb 2/20 has been valued at least a Jah, and dream-rolled ones are 'super expensive'. Documented real pieces on Blizzard forums ('+2 Sorc, 20 FCR, 13 life' PC; 'Pala +2 skills, 20% FCR, 29% MF') and itemforge. Drives demand for Ral runes and Perfect Amethysts.",
+    "collectorCase": "A crafted, non-unique amulet that beats Mara's Kaleidoscope for casters. Mara has no faster cast rate; a +2 skills / 20% FCR caster amulet lets a caster hit breakpoints Mara cannot, so for pure damage and speed it is the better amulet. The dream roll (+2 skills, 20 FCR, life, all-res, strength) is about a 1-in-1000 craft, so a fully-loaded one is a genuine crafted grail. A crafted item out-valuing a legendary is the surprise.",
+    "whyValuable": "It stacks the two things casters want most, skills and cast rate, plus rollable life and resist. No single unique amulet matches a maxed one for a dedicated caster.",
+    "teachingPoint": "Recipe: magic amulet + Ral rune + Perfect Amethyst + any jewel. The caster mod is fixed (5-10% FCR, mana regen, +10-20 mana). The +2 to a class's skills needs the amulet to reach item level 90+, so you craft on a level 93+ character to have a shot.",
+    "veteranBlindspot": "Many default to Mara's as the endgame caster amulet. For FCR-hungry builds a 2/20 crafted is strictly better, and even 'lesser' +1 skill / 20 FCR crafts with good mods outperform Mara at their breakpoints.",
+    "history": "Caster crafting has been endgame since 1.10; D2R's healthy rune economy made Ral + Perfect Amethyst caster amulets a core chase for every caster.",
+    "factClaims": [
+      "Caster Amulet recipe: magic amulet + Ral rune + Perfect Amethyst + any jewel.",
+      "The fixed caster mods are 5-10% faster cast rate, 4-10% mana regeneration, and +10-20 mana.",
+      "It can roll +2 to a class's skills (requires item level 90+, i.e. craft on a level 93+ character) plus a second 10% FCR to reach 20% total.",
+      "Mara's Kaleidoscope cannot roll faster cast rate.",
+      "The dream +2 skills / 20 FCR / life / resist roll is roughly a 1-in-1000 craft."
+    ],
+    "sources": [
+      "https://us.forums.blizzard.com/en/d2r/t/price-check-sorc-amulet-2skill-20fcr-amulet/61439",
+      "https://diablo2.io/recipes/recipe-caster-amulet-t3883.html",
+      "https://almarsguides.com/Computer/Games/Diablo2/Crafting/HoradricCube/WeaponsandArmor/CasterRecipes/"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Crafted Dual-Leech + 10% FCR Ring",
+    "alias": "FCR dual-leech ring (caster/blood craft)",
+    "category": "Crafted Ring",
+    "quality": "Crafted",
+    "obscurity": 4,
+    "valueTierGuess": "A (perfect multi-mod)",
+    "rarityTier": "Very rare (multiple hard affixes on one ring)",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Strong for a fully-loaded roll. A documented real piece '10% FCR, 110 AR, 6% mana leech, 6% life leech' was posted for price check; dual-leech ring WTB threads are common on diablo2.io and Blizzard forums. Plain single-stat crafted rings are cheap, so demand sits on the rings that combine FCR with both leeches plus life or resist.",
+    "collectorCase": "No single unique ring gives faster cast rate, life leech, mana leech, life and resistance together. SOJ gives mana and skills, a Bul-Kathos ring gives life and skills, Ravenfrost gives cannot-be-frozen and cold absorb. A crafted ring can stack 10% FCR (the ring cap) with dual leech and life and resist in one, making a perfect one genuinely best-in-slot for some caster and hybrid builds, and almost nobody rolls one to completion.",
+    "whyValuable": "It solves a problem no unique ring solves: cast rate plus sustain plus survivability on one finger. For FCR-breakpoint casters who also need leech, it is irreplaceable.",
+    "teachingPoint": "10% FCR (the suffix 'of the Apprentice') is the maximum faster cast rate a ring can have. Both the Caster Ring craft (fixed FCR) and the Blood Ring craft (fixed life leech) can end up dual-leech + FCR, since the missing leech and FCR can roll as random magic affixes.",
+    "veteranBlindspot": "Veterans autopilot to SOJ, Ravenfrost or a Bul-Kathos ring and never consider that a crafted ring can out-slot all of them by combining FCR and dual leech, which no unique offers.",
+    "history": "Blood and caster ring crafting date to 1.10; D2R's trade scene revived dual-leech and FCR-leech rings as budget-to-elite alternatives to the classic unique rings.",
+    "factClaims": [
+      "10% faster cast rate (suffix 'of the Apprentice') is the maximum FCR possible on a ring.",
+      "No unique ring provides FCR, life leech, mana leech and resistance simultaneously.",
+      "Blood Ring craft has fixed life leech (1-3%) and life; Caster Ring craft has fixed FCR; either can roll the missing stats as random affixes.",
+      "A documented example rolled 10% FCR, 110 AR, 6% mana leech and 6% life leech together."
+    ],
+    "sources": [
+      "https://us.forums.blizzard.com/en/d2r/t/l-sc-pc-crafted-ring-10-fcr-110-ar-6-lm-6-ll/152499",
+      "https://diablo2.io/forums/dual-leech-ring-t1650700.html",
+      "https://diablo2.io/recipes/recipe-blood-ring-t3875.html"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Crafted Blood Gloves (10% CB / dual leech / 20 IAS)",
+    "alias": "Blood gloves (Nef + Perfect Ruby craft)",
+    "category": "Crafted Gloves",
+    "quality": "Crafted",
+    "obscurity": 3,
+    "valueTierGuess": "B overall, A- at perfect roll",
+    "rarityTier": "Common as bases, rare at fully-maxed roll",
+    "isSpecificRealItem": true,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Base and mediocre crafts are cheap and self-made, which is why most are worthless. The market pays only for the fully-loaded roll: 10% crushing blow, 3% life leech, 20 life, 20% IAS, plus mana leech and resists. Documented real pieces (eBay '20ias/crushing blow/life leech/life gloves'; Blizzard trade threads for dual-leech blood gloves). Zealot and Smiter mainstay.",
+    "collectorCase": "Guaranteed crushing blow makes a perfect blood glove the best physical-melee glove in the game, ahead of Laying of Hands (demon-only bonus) or Draculs for general use. Because bases are trivially crafted, the collector piece is specifically the maxed multi-mod version: 10 CB, dual leech, 20 IAS and resists together, which most players never grind out. That perfect roll, not the recipe, is the museum item.",
+    "whyValuable": "Crushing blow shreds boss and high-health monster life independent of your damage, and stacking IAS plus dual leech on the same gloves is exactly what melee wants. A perfect one has no unique equal for pure physical builds.",
+    "teachingPoint": "Recipe: magic Heavy Gloves / Sharkskin Gloves / Vampirebone Gloves + Nef rune + Perfect Ruby + any jewel. Fixed mods are always 5-10% crushing blow, 1-3% life leech, +10-20 life; the rest (IAS, mana leech, str/dex, resists) is random.",
+    "veteranBlindspot": "Players reach for named unique gloves and forget that a crafted blood glove's guaranteed crushing blow plus a good IAS and dual-leech roll beats them for most physical melee, at a fraction of the cost if you craft it yourself.",
+    "history": "Blood glove crafting is a 1.10-era staple, still the go-to for Zealots, Smiters and other physical melee in D2R.",
+    "factClaims": [
+      "Blood Gloves recipe: magic Heavy Gloves, Sharkskin Gloves or Vampirebone Gloves + Nef rune + Perfect Ruby + any jewel.",
+      "Fixed mods are 5-10% crushing blow, 1-3% life stolen per hit, and +10-20 life.",
+      "The item then rolls 1-4 additional random affixes depending on the base's item level.",
+      "Crushing blow is a percentage of the target's current life and is independent of the character's damage."
+    ],
+    "sources": [
+      "https://classic.battle.net/diablo2exp/items/crafted/blood.shtml",
+      "https://www.ebay.com/itm/265463046600",
+      "https://diablo2.io/recipes/recipe-blood-gloves-t3870.html"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "Corrupted item — high-rarity / +skills corruption (Project Diablo 2)",
+    "alias": "PD2 corruption (Worldstone Shard gamble)",
+    "category": "Corrupted (MOD, not official D2R)",
+    "quality": "Any (corrupted)",
+    "obscurity": 5,
+    "valueTierGuess": "A within the PD2 economy",
+    "rarityTier": "Rare best-case outcome on a 25%-brick gamble",
+    "isSpecificRealItem": false,
+    "legitimacy": "CONFIRMED",
+    "priceSignal": "Real demand, but inside the Project Diablo 2 (mod) economy, not official D2R. A godly base that lands a top corruption (for example +1 all skills, +2 to a class's skills, or Cannot Be Frozen) becomes best-in-slot and chase-priced; a bricked one is near-worthless. Worldstone Shards and Puzzleboxes are themselves traded currency. Documented on the PD2 wiki and mirrored guides.",
+    "collectorCase": "This is the honest answer to the 'corrupted items' request. Item corruption does NOT exist in official Diablo II: Resurrected. It is a mod mechanic, most famously in Project Diablo 2 (and the 'D2R Corruptions' D2RMM/Nexus mod). Its collector story is folklore-grade: a Worldstone Shard gamble can brick your best item or elevate it to best-in-slot. The all-or-nothing risk on an already-perfect base, and the legendary 'insane corruption' clips built around it, are exactly the museum-of-modded-D2 exhibit.",
+    "whyValuable": "The top-tier corruption modifiers are generally stronger than the alternative sockets, so a well-corrupted item is straight best-in-slot in PD2. Because 1 in 4 attempts destroys the item, surviving godly corruptions are prestige pieces.",
+    "teachingPoint": "In PD2 you corrupt by placing a Worldstone Shard with an item in the Horadric Cube. Outcomes: add sockets, add a corruption modifier, or brick (reroll into a random rare) at ~25%. Using a Puzzlebox first raises the modifier chance to 75%, but the 25% brick risk stays.",
+    "veteranBlindspot": "An official-D2R veteran may assume corruption is a base-game feature (it is not) or may not play PD2 at all, so the entire mechanic and its economy are a blind spot. Flag clearly on the site so no one mistakes it for vanilla D2R.",
+    "history": "Popularized by Project Diablo 2's seasonal ladders; the 'corrupt my best items' video genre made specific outcomes (D-Web, Templar's Might, +skill chests) into community legends.",
+    "factClaims": [
+      "Official Diablo II: Resurrected has no item corruption; it is a mod feature (Project Diablo 2, and the D2RMM 'D2R Corruptions' mod).",
+      "In PD2, corruption uses a Worldstone Shard transmuted with the item in the Horadric Cube.",
+      "Corruption outcomes: added sockets, a corruption modifier, or a ~25% chance to brick into a random rare.",
+      "Top corruption modifiers include +1 to all skills, +2 to a class's skills, Cannot Be Frozen, and added elemental damage; these are often best-in-slot over sockets.",
+      "Applying a Puzzlebox before corrupting raises the modifier chance to 75% while the 25% brick chance is unchanged."
+    ],
+    "sources": [
+      "https://wiki.projectdiablo2.com/wiki/Corruptions",
+      "https://projectdiablo2.miraheze.org/wiki/Corruptions",
+      "https://www.nexusmods.com/diablo2resurrected/mods/294"
+    ],
+    "_domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "_wf": "batch4(jsp,small-items)"
+  },
+  {
+    "name": "The White Ring",
+    "alias": "White Ring",
+    "category": "hacked-item",
+    "obscurity": 4,
+    "valueTierGuess": "S (folklore tier, un-obtainable today)",
+    "rarityTier": "Extinct / legacy closed Battle.net only",
+    "isSpecificRealItem": true,
+    "quality": "Normal (white) ring, no level requirement",
+    "legitimacy": "CONFIRMED it existed and was illegitimate. Exact stat list is DISPUTED only in the sense that it survives through community documentation, not a Blizzard source.",
+    "priceSignal": "No live D2R market. It does not exist on modern Resurrected and did not survive to v1.14D on legacy. Demand is purely historic and nostalgic. While it circulated on closed Battle.net it was, in the words of old-timers, one of the most sought hacked items in the game. Today it is a story, not a tradeable. Documented on RPGStash's bugged-items catalog and remembered across d2jsp, DiabloFans and TikTok/YouTube retrospectives.",
+    "collectorCase": "This is the single most legendary illegitimate item in D2 history and the exact piece the client asked to prioritize. It is a plain white Ring with no name and no requirements that carried 95% absorb to fire, cold AND lightning at the same time, on top of 100% faster run/walk, 100% increased attack speed, 63-127 added damage and 20% life leech. Nothing in the legitimate game can stack triple 95 absorb on one ring slot. It is the museum centerpiece of the 'impossible item' cabinet.",
+    "whyValuable": "It was effectively a god-mode ring. Triple 95% elemental absorb means most elemental damage heals you instead of hurting you. Paired with 100 FRW and 100 IAS it made a character close to unkillable by casters. It came from Open Battle.net, where item generation was unpoliced, and was smuggled onto Closed realms.",
+    "veteranBlindspot": "Many veterans have heard the name but assume the White Ring was just a strong rare or a myth. The blindspot is that it was a literal white/normal-quality Ring base, not a rare, and that its power came from absorb, the most broken defensive stat in the game, tripled. A seasoned player who never played 1.09-era closed Bnet often does not realize it was a real, documented, tradeable object rather than a campfire tale.",
+    "teachingPoint": "White or normal quality does not mean weak when an item is hacked or imported. The item's color tells you the affix framework it was born under, not the numbers a cheater forced onto it. Absorb above ~60-70% is the tell that no legit item reaches on one slot.",
+    "history": "Imported from Open Battle.net (which had no item validation) onto Closed Battle.net during the 1.08-1.09 window, then duped. It was named simply for being a white ring. It was purged and is listed as no longer in existence as of v1.14D.",
+    "factClaims": [
+      "The White Ring was a normal/white quality Ring base with no level requirement.",
+      "Documented stats: 100% Faster Run/Walk, 100% Increased Attack Speed, Adds 63-127 Damage, 20% Life Stolen Per Hit, Fire Absorb 95%, Lightning Absorb 95%, Cold Absorb 95%.",
+      "It originated on Open Battle.net and was transferred to Closed Battle.net, where such stats are impossible to generate.",
+      "It circulated on USEast and USWest.",
+      "No legitimate D2 or D2R item can roll 95% absorb to three elements simultaneously.",
+      "It is documented as no longer existing as of patch v1.14D."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items",
+      "https://www.diablofans.com/forums/diablo-iii-misc-forums/diablo-legacy-forums/diablo-ii/71469-some-pics-of-items-you-may-remember",
+      "https://forums.d2jsp.org/topic.php?f=21&t=103450064"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Oculus Stone of Jordan (Occy Ring)",
+    "alias": "Occy Ring, Occy SoJ, Oculus Ring",
+    "category": "imported-item",
+    "obscurity": 4,
+    "valueTierGuess": "A (folklore tier, un-obtainable today)",
+    "rarityTier": "Extinct / legacy closed Battle.net only",
+    "isSpecificRealItem": true,
+    "quality": "Unique ring base (Stone of Jordan) carrying The Oculus's stats",
+    "legitimacy": "CONFIRMED it existed and was illegitimate. Origin CONFIRMED as an Open Bnet import by the East/West stat split; the popular 'Mephisto fusion' origin is a MYTH for this item.",
+    "priceSignal": "No live market. Gone by v1.14D, absent from D2R. Historic demand was very high because it gave sorceress skills and teleport-on-struck in a ring slot. Value today is as a collector story. Catalogued by RPGStash and discussed on DiabloFans legacy threads.",
+    "collectorCase": "It is a Stone of Jordan that wears the stats of The Oculus, a caster orb, in a ring slot: +3 Sorceress skills, 25% chance to cast Teleport when struck, +20 all resist and 50% magic find. The detective-story detail is the museum hook. The USWest copies had Faster Cast Rate and +20 Strength while the USEast copies had Faster Block Rate and +20 Energy. That East/West divergence is the fingerprint of an Open Bnet import, and it debunks the widely repeated claim that these were made by the Mephisto item-fusion bug.",
+    "whyValuable": "A ring with +3 to a class's skills plus a teleport proc and 50% MF is far beyond any legitimate ring. On a caster it was build-defining.",
+    "veteranBlindspot": "Seasoned players who know the item usually repeat that it came from the 'Mephisto fusion bug.' The blindspot is that the East vs West stat difference proves it was imported from Open Battle.net, not fused. A veteran confidently gives the wrong origin.",
+    "teachingPoint": "When two copies of the 'same' illegit item differ by realm in a patterned way, that patterning is evidence of where it was generated. Fusion bugs copy stats exactly. Open Bnet generation rolled realm-flavored variants.",
+    "history": "Appeared on USEast and USWest during the import era, then duped. Purged; not present as of v1.14D.",
+    "factClaims": [
+      "The Occy Ring was a Stone of Jordan base displaying The Oculus (Swirling Crystal) unique's stats.",
+      "Shared stats: Required Level 29, 25% Chance To Cast Level 1 Teleport When Struck, +3 To Sorceress Skill Levels, +20% Enhanced Defense, +20 Vitality, All Resistances +20, +3 Mana After Each Kill, 50% Magic Find.",
+      "USWest version added 30% Faster Cast Rate and +20 Strength; USEast version added 30% Faster Block Rate and +20 Energy.",
+      "The East/West stat split indicates an Open Battle.net import, not the Mephisto fusion bug.",
+      "It is documented as no longer existing as of v1.14D."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items",
+      "https://www.diablofans.com/forums/diablo-iii-misc-forums/diablo-legacy-forums/diablo-ii/71469-some-pics-of-items-you-may-remember"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Constricting Ring",
+    "alias": "The Ring That Never Dropped",
+    "category": "removed-content",
+    "obscurity": 5,
+    "valueTierGuess": "S (unobtainable curio)",
+    "rarityTier": "Exists only in game data, never legitimately droppable",
+    "isSpecificRealItem": true,
+    "quality": "Unique ring, present in uniqueitems.txt with enabled=0",
+    "legitimacy": "CONFIRMED. It is a real unique in the game files that was never made obtainable on any retail realm. Not a hack, a piece of cut/disabled content.",
+    "priceSignal": "Zero trade market by definition, it cannot legitimately exist in a game. Its only 'value' is curiosity and lore. You can enable it in single-player by editing the files, so a modded copy is trivial to make, but a real dropped one has never existed. Documented on The Cutting Room Floor, d2db and D2Runewizard.",
+    "collectorCase": "This is the ghost in the machine: a fully statted unique ring that shipped inside the game data and was switched off. Required Level 95, and it raises your maximum resistances by 15% to all four elements at once, plus +100 all resist, +100% magic find, with a small Drain Life -30 downside. Raising the resistance cap is something almost nothing in D2 does. A veteran can pull up its stats but has never held one, because Blizzard set its enabled flag to 0 and never turned it back on.",
+    "whyValuable": "Value here is historical, not economic. It is the most famous piece of disabled content in the game, and its +15% maximum resistance mod is a design idea Blizzard built and then shelved.",
+    "veteranBlindspot": "Even long-time players often do not know the Constricting Ring is literally sitting in uniqueitems.txt. Some assume it was a hacked item like the White Ring. The truth is stranger: it is official content that was never enabled, so it is a curio rather than a cheat.",
+    "teachingPoint": "Cut content is not the same as hacked content. The Constricting Ring is legitimate Blizzard data that was disabled, which is why it can be turned on in single-player mods but has never dropped on a realm.",
+    "history": "Present since early D2 in the item data, flagged disabled, never enabled on any retail patch. Frequently cited alongside other unused objects.",
+    "factClaims": [
+      "Constricting Ring is a Unique ring defined in the game files but flagged not enabled, so it never drops on retail realms.",
+      "Stats (per d2db): Required Level 95, Drain Life -30, +15% to Maximum Fire/Cold/Lightning/Poison Resist (each), All Resistances +100, +100% Better Chance of Getting Magic Items.",
+      "It can be enabled in single-player/mods by changing its enabled flag from 0 to 1.",
+      "It is not a hacked item; it is disabled official content.",
+      "Raising maximum resistance (the resist cap) is a mod almost no legitimate D2 item provides."
+    ],
+    "sources": [
+      "https://d2db.net/?type=unique&id=262",
+      "https://tcrf.net/Diablo_II/Unused_Objects",
+      "https://d2runewizard.com/uniques/Constricting%20Ring"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Ith Items (Matrix Hack broken runewords)",
+    "alias": "Iths, ex-runewords, matrix'ed items",
+    "category": "hacked-item",
+    "obscurity": 3,
+    "valueTierGuess": "A (folklore tier)",
+    "rarityTier": "Legacy closed Battle.net; some dupes lingered for years",
+    "isSpecificRealItem": true,
+    "quality": "Broken runeword bases, e.g. an Ith Colossus Blade with all runeword mods and empty sockets",
+    "legitimacy": "CONFIRMED hack. Created by the Matrix Hack, an actual code exploit, in early 2002.",
+    "priceSignal": "No modern market. On legacy they sold on eBay for real money before the exploit was closed, and dupes circulated for years after. Today they are a documented chapter, not a tradeable. Covered by PureDiablo's Matrix Hack and Blizzard vs Hacked Items wiki pages and multiple DiabloFans legacy threads.",
+    "collectorCase": "The Ith item is the archetype of the hacked weapon. Players used the Matrix Hack to unsocket a completed runeword while keeping every runeword bonus on the base, then refilled the now-empty sockets with high runes or duped 40/15 jewels. The result was, for example, a Colossus Blade with a full runeword's stats plus open sockets stuffed with Ohms. The name 'Ith' stuck because the Ith rune's name often remained on the broken item even when Ith was never in the word. Old-timers also read it as 'Item That's Hacked.'",
+    "whyValuable": "These stacked a runeword and extra socket fillers on one weapon, roughly doubling its potential. They were among the strongest melee weapons ever seen online and directly funded the early item-selling scene.",
+    "veteranBlindspot": "Veterans remember 'Ith swords' as vaguely cheated, but often cannot explain the mechanism. The blindspot is that they were not random stat hacks. They were legitimate runewords with the runes surgically removed and the bonuses left behind, which is why they looked almost plausible at a glance.",
+    "teachingPoint": "An item that shows a runeword's stats but has empty sockets is impossible in legitimate play. That specific combination, runeword mods plus open sockets, is the signature of an Ith/Matrix item.",
+    "history": "The Matrix Hack was in common use in early 2002 and enabled character corruption, duping and item theft. Its most visible product was Ith items. It was fixed by Blizzard around February 2002 after some discoverers showed Blizzard how it worked. Matrix'ed items and their dupes persisted on realms for years.",
+    "factClaims": [
+      "Ith items were made by the Matrix Hack, a code exploit in common use in early 2002.",
+      "The hack unsocketed a completed runeword while keeping the runeword's attributes on the base and leaving the sockets empty to refill.",
+      "The name came from the Ith rune, whose name often remained on the broken item; it was also read as 'Item That's Hacked.'",
+      "Common bases included Colossus Blades and other high-end weapons.",
+      "Blizzard fixed the Matrix Hack around February 2002 with help from some of its discoverers.",
+      "Hacked ex-runewords were sold on eBay before the fix."
+    ],
+    "sources": [
+      "https://www.purediablo.com/d2wiki/The_Matrix_Hack",
+      "https://www.diablofans.com/forums/read-only-diablo-forums/diablo-legacy-forums/diablo-ii/71899-how-were-the-ith-weapons-created",
+      "https://www.purediablo.com/d2wiki/Blizzard_vs._Hacked_Items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Hex Charm (Hexing Small Charm of Immolating Arrow)",
+    "alias": "Hexes, Hexing Charms",
+    "category": "hacked-item",
+    "obscurity": 4,
+    "valueTierGuess": "A (folklore tier, was a currency)",
+    "rarityTier": "Extinct / legacy USWest and Europe",
+    "isSpecificRealItem": true,
+    "quality": "Magic small charm with impossible affixes",
+    "legitimacy": "CONFIRMED illegitimate. A small charm cannot legitimately carry these prefixes/suffixes at these values.",
+    "priceSignal": "No live market. Gone by v1.14D. On legacy USWest and Europe it became a trade currency and sold for real money, to the point players complained you could not trade anything unless you had Hexes. Value today is historic. Catalogued by RPGStash and named in DiabloFans and BattleForums threads.",
+    "collectorCase": "A single small charm that gave +90 Strength, +90 Dexterity and +90 Vitality. That is roughly 90 skill points of raw stats in one inventory square. It got so entrenched on USWest and Europe that it displaced Stones of Jordan and high runes as the going currency for a stretch. A charm becoming the money supply is a museum-worthy economic event.",
+    "whyValuable": "Ninety to three attributes on one charm is impossible legitimately, and it freed enormous stat investment for other uses. Its scarcity plus its raw power made it money.",
+    "veteranBlindspot": "A veteran hears 'stat charm' and shrugs, because legit small charms give tiny bonuses. The blindspot is the scale. This was not +3 stats, it was +90/+90/+90, which is why it functioned as currency rather than as gear.",
+    "teachingPoint": "Small charms have hard affix caps. Any small charm showing tens of points to multiple attributes, or skills, is hacked. The Hex Charm is the textbook example.",
+    "history": "Circulated on USWest and Europe in the 1.08-1.09 era, became a trade currency, then was purged. Not present as of v1.14D.",
+    "factClaims": [
+      "Real name: Hexing Small Charm of Immolating Arrow.",
+      "Documented stats: Required Level 42, +90 Strength, +90 Dexterity, +90 Vitality.",
+      "It circulated on USWest and Europe.",
+      "It became a trade currency, at times displacing Stones of Jordan and high runes.",
+      "It is documented as no longer existing as of v1.14D.",
+      "A legitimate small charm cannot roll +90 to multiple attributes."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items",
+      "https://www.diablofans.com/forums/diablo-forums/diablo-legacy-forums/diablo-ii/71127-old-d2-hacks"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Stone of Jordan (the duping collapse and the DClone answer)",
+    "alias": "SoJ",
+    "category": "duping-history",
+    "obscurity": 2,
+    "valueTierGuess": "S (historic impact)",
+    "rarityTier": "Common unique today; historically the reserve currency",
+    "isSpecificRealItem": true,
+    "quality": "Unique ring",
+    "legitimacy": "CONFIRMED. The ring is legitimate. The duping era and Blizzard's response are documented history.",
+    "priceSignal": "On mature D2R ladder a plain SoJ is cheap and easily farmed, worth a small fraction of a high rune. That cheapness is the point of the story. Its worth today is almost entirely as the trigger item for the Diablo Clone walk, where sold SoJs advance a server counter. Demand spikes only during organized DClone selling. Covered by Maxroll's DClone guide and the Diablo wiki.",
+    "collectorCase": "The SoJ is the reason duping matters in D2 at all. It was the reserve currency of the game because it was rare, portable and stackable in trade. Then dupers flooded the realms with copies and the currency collapsed. Blizzard's answer became one of the most famous mechanics in ARPG history: sell Stones of Jordan to town vendors, advance a hidden per-realm counter to between 75 and 125, and Uber Diablo (Diablo Clone) spawns and drops the Annihilus. The most valuable item in the game was turned into the fuel for an event.",
+    "whyValuable": "Historic significance, not raw power. The SoJ shows a full arc: item becomes money, cheating destroys the money, and the developer converts the ruined currency into a live-service event still running in D2R today.",
+    "veteranBlindspot": "Veterans know DClone. The under-appreciated part is that the SoJ-to-vendor mechanic was a direct anti-duping design move, a way to give a devalued, over-duped currency a reason to be consumed. It is economic policy expressed as a boss fight.",
+    "teachingPoint": "1.10 stamped every dropped item with a hidden unique ID. When two copies with the same ID meet on a realm, the server keeps the younger one and deletes the other, which is why a duped SoJ can suddenly vanish. The DClone counter then gave players a reason to sink SoJs on purpose.",
+    "history": "Pre-1.10 the SoJ was the standard currency and heavily duped, collapsing its value. Patch 1.10 (October 28, 2003) added unique item IDs and the Uber Diablo/DClone event, spawned by selling SoJs to vendors. High runes later replaced the SoJ as currency.",
+    "factClaims": [
+      "Before 1.10 the Stone of Jordan was D2's main trade currency and was heavily duped, collapsing its value.",
+      "Patch 1.10 released October 28, 2003 and added hidden unique item IDs to every dropped item.",
+      "When duplicate-ID items meet on a realm, the server keeps the younger copy and deletes the other.",
+      "Selling Stones of Jordan to NPC vendors advances a per-realm counter; between 75 and 125 sold spawns Uber Diablo (Diablo Clone).",
+      "Diablo Clone drops the Annihilus charm.",
+      "High runes (Ber, Jah, Sur, Lo) later replaced the SoJ as the primary trade currency."
+    ],
+    "sources": [
+      "https://maxroll.gg/d2/meta/diablo-clone",
+      "https://diablo-archive.fandom.com/wiki/The_Stone_of_Jordan",
+      "https://www.purediablo.com/d2wiki/Blizzard_vs._Hacked_Items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Bugged Tal Rasha's Armor (Btals)",
+    "alias": "Btals, Bug Tals, Bugged Tal's",
+    "category": "hacked-item",
+    "obscurity": 4,
+    "valueTierGuess": "A (folklore tier)",
+    "rarityTier": "Legacy closed Battle.net; still catalogued as surviving to v1.14D",
+    "isSpecificRealItem": true,
+    "quality": "Unique body armor (Tal Rasha's Lacquered Plate appearance) with impossible stats",
+    "legitimacy": "CONFIRMED illegitimate. Carries the name and look of Tal Rasha's armor but stats it never had.",
+    "priceSignal": "No live D2R market. On legacy non-ladder it was a prized bugged trophy and, per RPGStash's catalog, is listed as still existing as of v1.14D, which made surviving perm copies genuinely valuable among legacy collectors. Not obtainable on Resurrected.",
+    "collectorCase": "It wears Tal Rasha's Lacquered Plate on the outside and something impossible on the inside: 919 defense, +2 all skills, +25% faster run/walk, +400 defense, +40 all resist, 25% damage reduction, magic damage reduced 15, and a staggering -60% requirements. Legit Tal's armor has none of that skill and movement package. It is one of the cleanest examples of a bugged body armor because it looks like a set piece and hits like a hacked one.",
+    "whyValuable": "+2 skills and +25 FRW on a body armor is a runeword-tier bonus that Tal's simply does not have, layered on top of top-tier defense and resist. It was a best-in-slot cheat for casters.",
+    "veteranBlindspot": "A veteran glancing at the tooltip sees a familiar Tal Rasha's armor. The blindspot is that the skill and movement lines are the giveaway. Recognizing a bugged item often means knowing what a legit version's stat list is NOT allowed to contain.",
+    "teachingPoint": "Set and unique items have fixed possible mods. When a known item shows lines outside its real mod list, +2 skills on Tal's armor here, it is corrupted or imported, no matter how normal the base looks.",
+    "history": "Created on closed Battle.net in the bugged-item era, then duped. Catalogued as still in existence as of v1.14D on legacy realms.",
+    "factClaims": [
+      "Btals uses the name and appearance of Tal Rasha's Lacquered Plate but with stats the item never legitimately had.",
+      "Documented stats: Defense 919, +2 All Skills, +25% Faster Run/Walk, +400 Defense, All Resistances +40, Damage Reduced by 25%, Magic Damage Reduced by 15, Requirements -60%, Required Level 71.",
+      "Legitimate Tal Rasha's Lacquered Plate does not grant +all skills or +faster run/walk.",
+      "It circulated on USEast, USWest and Europe and is catalogued as surviving to v1.14D."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "1.08 Vampire Gaze (pre-nerf 08 unique)",
+    "alias": "08 Gaze, 08 Vamp Gaze",
+    "category": "duping-history",
+    "obscurity": 4,
+    "valueTierGuess": "A (legacy collector market)",
+    "rarityTier": "Legacy only; exists today essentially as dupes across a patch boundary",
+    "isSpecificRealItem": true,
+    "quality": "Unique Grim Helm with its stronger patch 1.08 stat roll",
+    "legitimacy": "DISPUTED / nuanced. The stats were legitimately obtainable in patch 1.08. Every copy that exists after the 1.09 nerf survived only through duping, so surviving 'perm' copies are legit-origin but carried illegally across the change.",
+    "priceSignal": "No D2R market; cannot be produced on Resurrected. On the legacy collector scene, gray-market catalogs price a perm 08 Vampire Gaze and 08 Windforce around real-money highs (RPGStash lists roughly 500 USD if perm), which is serious money for a helm. Demand comes from collectors who want the pre-nerf roll, and from the perm-versus-unperm gamble.",
+    "collectorCase": "This is the connoisseur's corner of D2 duping. In patch 1.08 Vampire Gaze had 25% damage reduction. Patch 1.09 cut that to the 15-20% range, but already-dropped copies kept the 25%. The only way a 25% DR Gaze exists now is that someone duped one across the patch line. That created a two-tier market: 'perm' copies (a hidden ID from before mass-dupe detection, harder to poof) and 'unperm' copies that can vanish. Collectors pay real money for the stronger, older roll.",
+    "whyValuable": "The 08 roll is strictly better than anything obtainable after 1.09, and it cannot be re-created, so supply is fixed and shrinking. That is textbook collectible scarcity.",
+    "veteranBlindspot": "A veteran knows Vampire Gaze and waves it off as a cheap helm. The blindspot is that a specific version, the 1.08 25% DR copy, is a distinct and expensive collector item. Same name, same art, very different value. The '08' prefix is the whole story.",
+    "teachingPoint": "Nerfs in D2 did not retroactively change items already dropped. That is why pre-nerf '08' uniques exist as their own collector class, and why a tooltip number, 25% DR here, can date an item to a specific patch.",
+    "history": "Vampire Gaze had 25% damage reduction in 1.08; 1.09 reduced it. Surviving 25% copies persist only via duping. Other famous 08 items include 08 Windforce, 08 Arreat's Face, 08 Gore Rider, 08 Highlord's Wrath and the Bug Belt (Nosferatu's Coil, renamed Siggard's Stealth in 1.10).",
+    "factClaims": [
+      "In patch 1.08 Vampire Gaze granted Damage Reduced by 25%; patch 1.09 reduced this to roughly 15-20%.",
+      "Nerfs did not alter items already dropped, so pre-nerf copies keep the stronger stat.",
+      "Surviving 08 copies exist only through duping across the patch boundary.",
+      "Legacy gray-market catalogs value a perm 08 Vampire Gaze and 08 Windforce very highly (around 500 USD if perm per RPGStash).",
+      "The 1.08 belt Nosferatu's Coil was renamed Siggard's Stealth on closed realms in patch 1.10, with a weaker new Nosferatu's Coil dropping thereafter.",
+      "These items cannot be created on Diablo II: Resurrected."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "King's Jewel of Blazing",
+    "alias": "Bugged skill jewel",
+    "category": "hacked-item",
+    "obscurity": 5,
+    "valueTierGuess": "B (obscure impossible item)",
+    "rarityTier": "Extinct / legacy USEast",
+    "isSpecificRealItem": true,
+    "quality": "Magic jewel with an impossible affix combination",
+    "legitimacy": "CONFIRMED illegitimate. Jewels cannot roll +skills.",
+    "priceSignal": "No live market; gone by v1.14D. Historically desirable because a socketable +1 all skills is absurd, but it is obscure enough that even many legacy players never saw one. Catalogued by RPGStash among Open Bnet imports.",
+    "collectorCase": "A jewel you socket into any item that grants +1 to all skills, +25 all resistance and 22% magic find at once. Jewels in legitimate D2 can give resistances or MF, but they physically cannot roll +skills. This one did, which makes it a compact, easy-to-miss impossible item. Socket it into a shield or weapon and you have a portable +1 skills that no legit jewel can match.",
+    "whyValuable": "A socket-anywhere +1 all skills is a mod players chase on rings and amulets. On a jewel it is unheard of, and it stacks with resist and MF on the same tiny item.",
+    "veteranBlindspot": "Even hardcore players forget jewels are barred from skill affixes, because they rarely think about it. A King's Jewel of Blazing looks like an ordinary crafting jewel until you notice the +1 all skills line that cannot exist.",
+    "teachingPoint": "Item class determines which affixes are even possible. Jewels are locked out of +skills. Any jewel showing skills is corrupted or imported, no exceptions.",
+    "history": "An Open Battle.net import that reached USEast, then was purged. Not present as of v1.14D.",
+    "factClaims": [
+      "Real name: King's Jewel of Blazing.",
+      "Documented stats: Item Level 48, Required Level 48, +1 To All Skills, All Resistances +25, 22% Better Chance of Getting Magic Items.",
+      "Legitimate jewels cannot roll +to skills.",
+      "It circulated on USEast and is documented as no longer existing as of v1.14D."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Mephisto-Fused Uniques (Wizzy Ring / Wizzy Gloves)",
+    "alias": "Wiz Ring, Wiz Gloves, fused uniques",
+    "category": "game-bug",
+    "obscurity": 4,
+    "valueTierGuess": "B (folklore tier)",
+    "rarityTier": "Legacy closed Battle.net; some catalogued as surviving, some gone",
+    "isSpecificRealItem": true,
+    "quality": "Uniques wearing another unique's stats via a loot-table fusion bug",
+    "legitimacy": "CONFIRMED bug. Produced by a Mephisto loot-table fusion, distinct from Open Bnet imports.",
+    "priceSignal": "No live market. Historically prized because they put Wizardspike's huge faster-cast-rate and mana package onto a ring or gloves. Catalogued by RPGStash; the Wizzy Gloves are listed as gone by v1.14D while some fused pieces reportedly survived. Collector interest only.",
+    "collectorCase": "A documented Mephisto bug: when two uniques dropped at the same instant, they could fuse, so the result carried one unique's stats and name but the other's equipment slot. The famous products are the Wizzy items, Light Gauntlets or a ring wearing Wizardspike the dagger's stats, which meant a glove or ring slot handing you Wizardspike's faster cast rate and mana. Others include an Undead Crown Ring (the helm's stats on a ring) and Atma's Wail boots. It is item generation gone sideways through a real server bug rather than a client hack.",
+    "whyValuable": "Wizardspike's stat block on a ring or gloves gave casters faster cast rate and mana in a slot that normally cannot provide them, freeing the weapon and shield for other choices.",
+    "veteranBlindspot": "Players lump all illegit items together as 'hacks.' The blindspot is that fused uniques were caused by a legitimate in-game bug on Mephisto's drops, not by editing tools, which is a different failure mode. It also explains why the stats are always an exact copy of a real unique, never random.",
+    "teachingPoint": "A fusion bug copies an existing unique's stats exactly onto the wrong slot. If an illegit item's stats match a known unique perfectly but the item type is wrong, suspect fusion rather than a stat hack.",
+    "history": "The Mephisto loot table could fuse two simultaneous unique drops. Documented products include Wizzy Ring, Wizzy Gloves, Wizzy Armor, Undead Crown Ring and Atma's Wail Boots, mostly on US realms.",
+    "factClaims": [
+      "A Mephisto loot-table bug could fuse two uniques dropping at the same time into one item with one's stats/name and the other's equipment slot.",
+      "Wizzy Gloves were Light Gauntlets carrying The Wizardspike dagger's stats; a Wizzy Ring carried Wizardspike's stats on a ring.",
+      "Other documented fused items include an Undead Crown Ring and Atma's Wail boots.",
+      "Fused items always copy an existing unique's stat block exactly, because the mechanism is a copy, not a random roll.",
+      "This mechanism is distinct from Open Battle.net imports."
+    ],
+    "sources": [
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "The 2.5 Duping Era (Diablo II: Resurrected, 2022)",
+    "alias": "D2R dupe, modern dupe",
+    "category": "duping-history",
+    "obscurity": 3,
+    "valueTierGuess": "C (recent event, not a collectible)",
+    "rarityTier": "Modern D2R online; patched",
+    "isSpecificRealItem": false,
+    "quality": "A duplication exploit, not a single item",
+    "legitimacy": "CONFIRMED. Duping recurred on modern Battle.net and was patched.",
+    "priceSignal": "No collectible here. The relevance is that duped high runes and gear briefly circulated on live D2R and could vanish, which suppressed trust and prices during the window. Reported by PCGamesN, Game Rant and community threads; discussed heavily on the D2R forums during Season 2.",
+    "collectorCase": "Included as the modern bookend to the folklore. Blizzard's lead producer said moving to modern Battle.net would bring security the 2001 game lacked, yet dupers found a duplication method during the 2021 alpha and again around patch 2.5 in 2022. Because D2R inherited the 1.10 hidden-ID system, the server keeps the younger duplicate and deletes the other, so a duped rune socketed into your gear can leave you logging in to an empty socket. It proves the twenty-year cat-and-mouse never fully ended.",
+    "whyValuable": "Not valuable as an item. Valuable as proof that the duping problem is structural to D2's trade model, and that the same 1.10-era detection logic (younger copy wins) still governs modern Resurrected.",
+    "veteranBlindspot": "Some assume D2R's modern backend made duping impossible. The blindspot is that dupes returned anyway, and that the anti-dupe mechanic can bite an innocent trader when a duped item they received poofs and empties their sockets.",
+    "teachingPoint": "D2R did not import legacy closed Battle.net characters or their hacked items; online D2R began fresh. But it kept the unique-ID model, so modern dupes are detected the same way, by deleting the younger copy when two share an ID.",
+    "history": "A duplication glitch was found in the 2021 D2R alpha, and duping resurfaced around patch 2.5 in 2022 during Season 2, prompting community warnings and Blizzard fixes.",
+    "factClaims": [
+      "Diablo II: Resurrected online did not import legacy closed Battle.net characters or their items; it started fresh.",
+      "A duplication glitch was found during the 2021 D2R alpha.",
+      "Duping resurfaced around patch 2.5 in 2022 (Season 2).",
+      "D2R uses the unique-item-ID system from 1.10, so when two copies share an ID the server keeps the younger and deletes the other.",
+      "As a result, a duped item or rune can vanish later, including one already socketed into gear.",
+      "Blizzard's lead producer Chris Lena cited modern Battle.net security as an advantage over the original game."
+    ],
+    "sources": [
+      "https://www.pcgamesn.com/diablo-2-resurrected/item-duping-bug",
+      "https://gamerant.com/diablo-2-resurrected-alpha-duplication-glitch/",
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items"
+    ],
+    "_domain": "Hacked, Duped and Illegal D2 Items (Battle.net Folklore)",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "The Stone of Jordan",
+    "alias": "SOJ",
+    "category": "Unique ring / former currency",
+    "obscurity": 1,
+    "valueTierGuess": "C",
+    "quality": "Any. The plain unique is what matters historically, not a perfect roll.",
+    "rarityTier": "Common unique, but the single most historically important item in the game",
+    "priceSignal": "In a mature D2R ladder a plain SOJ is cheap and readily traded. Casters still want a +1 skills / +mana ring, so it never goes to zero, but supply is high and it changes hands for low-mid rune value (diablo2.io price check and d2jsp PC threads put it far below any high rune). Its historic weight vastly exceeds its current price. Do not price it like the artifact it was.",
+    "collectorCase": "This is the museum centerpiece of D2 economics. No other item both WAS the currency and had a live game mechanic bolted on specifically to fight its own duped oversupply. A veteran who dismisses a plain SOJ as vendor trash is holding the closest thing D2 has to a historical banknote.",
+    "whyValuable": "Universally useful stats (+1 all skills and +25% max mana benefit nearly every build, especially casters), which is exactly why it became the base unit of trade. Value today is modest because supply is enormous.",
+    "history": "In Classic Diablo 2 (pre-LoD) and into early LoD the SOJ was the de facto currency. Top items were priced in SOJs. Rampant duplication flooded realms with them and collapsed their scarcity. Patch 1.10 (Oct 2003) answered with the World Event: selling SOJs to any NPC vendor increments a hidden per-realm counter, and at a threshold Uber Diablo (Diablo Clone) spawns in every game on that realm and drops the Annihilus. That both rewarded and sank SOJs. Separately, when 1.10 runewords spiked demand for high runes, the high-rune bracket displaced the SOJ as currency for good.",
+    "legitimacy": "CONFIRMED",
+    "veteranBlindspot": "Most veterans state the anti-dupe / currency-sink INTENT as established fact. The mechanic is confirmed, but Blizzard never published a detailed design rationale for the World Event. The economy-sink reading is strong community consensus and inference, not a quoted Blizzard mission statement. Worth flagging honestly.",
+    "teachingPoint": "The SOJ is the textbook case of an item so central to the economy that the developers built a game system around its inflation. Currency status is about liquidity and universal demand, not raw power.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "The Stone of Jordan is a unique ring: +1 to All Skills, +25% to Maximum Mana, +20 to Mana, Adds 1-12 Lightning Damage. Required Level 29, item level 39.",
+      "It served as the de facto trade currency of Diablo 2 in Classic and early LoD before high runes displaced it.",
+      "Widespread duplication collapsed SOJ scarcity, which is the backdrop to the 1.10 World Event.",
+      "Patch 1.10 added the World Event: selling SOJs to NPC vendors increments a hidden per-realm counter, and at a threshold Uber Diablo / Diablo Clone spawns in every game on that realm.",
+      "The commonly cited spawn threshold is a randomized number in the range of roughly 75 to 125 SOJs sold per realm in online multiplayer.",
+      "In single-player / offline, selling a single SOJ on Hell difficulty triggers the 'Diablo Walks the Earth' message and lets you fight Uber Diablo.",
+      "Uber Diablo drops the Annihilus 100% of the time.",
+      "D2R (patch 2.4) kept the SOJ-sale trigger but made spawns region-wide with separate counters for every combination of Ladder/Non-Ladder, Softcore/Hardcore, Expansion/Non-Expansion and region, plus a /uberdiablo chat command to report progress.",
+      "Blizzard's explicit intent as an anti-dupe sink is community inference, not a documented Blizzard statement."
+    ],
+    "sources": [
+      "https://diablo2.diablowiki.net/Stone_of_Jordan",
+      "https://diablo2.io/uniques/the-stone-of-jordan-t938.html",
+      "https://www.icy-veins.com/forums/topic/61297-the-first-uber-diablo-in-diablo-2-resurrected-killed-first-annihilus-after-120-sojs-sold/",
+      "https://diablo2.io/forums/new-diablo-clone-mechanics-revealed-for-resurrected-2-4-t852811.html"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Annihilus",
+    "alias": "Anni",
+    "category": "Unique small charm (server-event drop)",
+    "obscurity": 1,
+    "valueTierGuess": "A",
+    "quality": "Roll-dependent. 10/10/5 is a low roll, 20/20/10 is perfect and the value jump is large.",
+    "rarityTier": "Only unique small charm in the game; single-source drop",
+    "priceSignal": "Steady high demand in D2R ladder. Per diablo2.io trade guides, low rolls (about 10/10/5) trade around Lo to Sur, mid rolls (14/14/7) around Sur to Ber, high rolls (18/18/9) around Ber to Jah, and near-perfect 20/20/10 for Jah and up. The perfect-roll premium is steep, which is the surprising part.",
+    "collectorCase": "It is the prize the entire SOJ-sink mechanic exists to produce, and the only unique small charm ever made. A near-perfect 20/20/10 Anni is a genuine collector piece because the roll is rare and the demand is permanent. It ties the game's most famous economic event to a single tradeable object.",
+    "whyValuable": "A small charm that gives +1 all skills, +10-20 to every attribute, +10-20 all resistances and bonus experience is pure profit for any build, using only one inventory square. That universal value is why it anchors so much of the endgame trade.",
+    "history": "Introduced with the 1.10 World Event as Uber Diablo's guaranteed drop. It is the reward half of the SOJ sink: the thing that made players want the event to fire. It also introduced the idea of a permanent character-power charm gated behind a server-wide, community-driven event.",
+    "veteranBlindspot": "Veterans know Anni is great, but many underweight how sharp the roll curve is. A 20/20/10 is worth multiples of a 15/15/7, and players routinely undervalue a near-perfect one when trading fast.",
+    "teachingPoint": "The Annihilus is the economic mirror of the SOJ. One item was the inflation problem, the other is the deflationary carrot the developers attached to the fix.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Annihilus is the only unique small charm in Diablo 2.",
+      "Stats: +1 to All Skills, +10-20 to All Attributes, All Resistances +10-20, +5-10% to Experience Gained. Required Level 70.",
+      "It is dropped only by Uber Diablo / Diablo Clone, and drops unidentified 100% of the time.",
+      "A player may only carry one Annihilus at a time.",
+      "It is one of only two items that grant bonus experience, the other being Ondal's Wisdom.",
+      "It was added with patch 1.10 as part of the World Event."
+    ],
+    "sources": [
+      "https://diablo2.wiki.fextralife.com/Annihilus",
+      "https://diablo.fandom.com/wiki/Annihilus",
+      "https://diablo2.io/uniques/annihilus-t670.html"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Ber Rune",
+    "alias": "High Rune currency, the modern SOJ",
+    "category": "Rune / currency standard",
+    "obscurity": 2,
+    "valueTierGuess": "A",
+    "quality": "N/A. A rune is a rune.",
+    "rarityTier": "High rune (Mal-to-Zod bracket); common benchmark trade unit",
+    "priceSignal": "Consistently one of the most-quoted currency units in D2R. Big-ticket uniques and runewords are routinely priced 'in Bers' on d2jsp and diablo2.io. Demand is structural because three of the best runewords need it. It holds value across a season better than almost anything.",
+    "collectorCase": "Ber is the artifact of D2's currency succession. The SOJ story only closes when you show what replaced it. Ber earns its slot because it explains WHY the high-rune standard exists: damage-reduction stacking and the runeword demand curve, not raw rune rarity alone.",
+    "whyValuable": "8% Damage Reduced in armor is a coveted defensive mod, and Ber is a required rune in Enigma, Infinity (twice) and Chains of Honor. That built-in consumption keeps demand high and gives it currency-grade liquidity.",
+    "history": "When patch 1.10 turned runewords into the endgame, demand for high runes exploded and the Mal-to-Zod bracket displaced the SOJ as the currency of Battle.net. In mature D2R ladder, the high-rune standard is the norm, and Ber is one of the common quoted units, the same liquidity role the SOJ once held.",
+    "veteranBlindspot": "Everyone knows Ber is currency. Fewer articulate why Ber specifically became a pricing anchor rather than a rarer rune like Zod: it is the one high rune that is both defensively best-in-class (DR stacking to the cap) and burned by the most-wanted runewords, so it is always in motion.",
+    "teachingPoint": "Currency in D2 is whatever is simultaneously liquid, universally demanded, and constantly consumed. The SOJ had it, then runewords handed that role to high runes.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Ber is a high rune, part of the Mal-to-Zod high-rune bracket.",
+      "Socketed in body armor, helm or shield, Ber grants Damage Reduced by 8%.",
+      "Ber is required by Enigma (Jah Ith Ber), Infinity (Ber Mal Ber Ist, which uses two Bers), and Chains of Honor (Dol Um Ber Ist).",
+      "High runes replaced the Stone of Jordan as Diablo 2's trade currency after patch 1.10 made runewords the endgame.",
+      "In D2R's mature economy, high-value items are routinely priced in high runes, with Ber a common benchmark unit."
+    ],
+    "sources": [
+      "https://diablo2.io/runewords/enigma-t42.html",
+      "https://diablo2.io/runewords/infinity-t1236.html",
+      "https://diablo2.diablowiki.net/Stone_of_Jordan"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Enigma",
+    "alias": "Jah Ith Ber body armor",
+    "category": "Body armor runeword",
+    "obscurity": 1,
+    "valueTierGuess": "A",
+    "quality": "Best on a low-strength-requirement base like Mage Plate or Archon Plate; roll matters little.",
+    "rarityTier": "High-cost runeword (needs Jah and Ber)",
+    "priceSignal": "Among the most expensive and most demanded runewords in the game across every D2R ladder. Jah plus Ber makes it a high-rune purchase on any trade site. Demand is universal because every class wants one.",
+    "collectorCase": "Listed here for IMPACT, not to explain what it does. Enigma is the single most economy-shaping runeword ever added. It universalized teleport, a skill that had been Sorceress-only, and in doing so it reset how every class moves, farms and fights. Its Jah and Ber cost also set a permanent price floor under two high runes and became a documented driver of rune duping.",
+    "whyValuable": "Teleport on any class collapses travel time and farming speed for every build, and the strength-per-level bonus frees huge stat investment into vitality. That is why it is a near-mandatory chase piece.",
+    "history": "Released in 1.10. Before Enigma, teleport belonged to the Sorceress. After it, any class with the runes moved like one. This reshaped PvP, boss rushing and MF farming simultaneously and permanently bent high-rune demand upward.",
+    "veteranBlindspot": "The obvious pick, and veterans wave it off as 'just the teleport armor.' The under-appreciated part is economic: Enigma, more than any single item, is why Jah and Ber have the value they do and why rune duping was so lucrative.",
+    "teachingPoint": "A single item can rewrite class design boundaries. Teleport stopped being a class identity and became a gear check the moment Enigma shipped.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Enigma is the runeword Jah + Ith + Ber in a 3-socket body armor, available from patch 1.10.",
+      "It grants +2 to All Skills and +1 to Teleport to any class, +45% Faster Run/Walk, large defense scaling with level, +0.75 defense per level, +0-74 to Strength based on character level, and Damage Reduced by 8%.",
+      "Teleport was a Sorceress-only skill before Enigma made it available to every class via gear.",
+      "It is one of the most expensive runewords because it requires both Jah and Ber."
+    ],
+    "sources": [
+      "https://diablo2.wiki.fextralife.com/Enigma",
+      "https://diablo2.io/runewords/enigma-t42.html",
+      "https://diablo.fandom.com/wiki/Enigma_Rune_Word"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Hellfire Torch",
+    "alias": "Torch",
+    "category": "Unique large charm (event drop)",
+    "obscurity": 2,
+    "valueTierGuess": "A",
+    "quality": "Class + roll dependent. Fixed +3 to a random class, plus 10-20 stats / 10-20 resist. A 20/20 of a wanted class is the trophy.",
+    "rarityTier": "Only unique large charm; drops only from the Pandemonium Event",
+    "priceSignal": "High demand in D2R ladder. Per diablo2.io guides, low rolls trade around a low high-rune, and a perfect 20/20 of a desirable class trades for Jah or higher in ladder. A perfect 20/20 Paladin torch has roughly a 1-in-847 chance to roll, which is why the right class at max roll is a genuine chase.",
+    "collectorCase": "The Torch is the object that created an entire endgame economy from nothing. It is the only unique large charm, it comes only from a multi-step event, and its class-plus-roll matrix makes a perfect one of the right class a real collector target. The keys and organs feeding it became tradeable commodities in their own right.",
+    "whyValuable": "+3 to a class's whole skill tree on a charm, plus up to +20 stats and +20 all resistances, is power no other charm approaches. The event gate keeps supply constrained.",
+    "history": "Added in patch 1.11 with the Pandemonium Event (Uber Tristram). To earn a Torch you farm three each of the Key of Terror (Countess), Key of Hate (Summoner) and Key of Destruction (Nihlathak) on Hell, open three mini-uber portals for three organs, combine the organs to open Uber Tristram, then kill Uber Mephisto, Uber Baal and Pandemonium Diablo. This spawned a durable market in keys, organ sets and torch-rolling.",
+    "veteranBlindspot": "Veterans track Anni closely but often sleep on Torch class-rolls. A 20/20 Torch of a meta class is rarer and can be worth more than a comparable Anni, and off-class torches are dramatically cheaper than on-class ones.",
+    "teachingPoint": "The Pandemonium Event shows how a single reward item can bootstrap a whole sub-economy of intermediate goods (keys and organs) that trade independently of the final prize.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Hellfire Torch is the only unique large charm in Diablo 2.",
+      "It grants +3 to a random character class's skills (the +3 is fixed), +10-20 to All Attributes, All Resistances +10-20, +8 Light Radius, a 5% chance to cast Level 10 Firestorm on striking, and Level 30 Hydra as charges.",
+      "It is obtained only from the Pandemonium Event / Uber Tristram, added in patch 1.11.",
+      "The event requires three Key of Terror (Countess), three Key of Hate (Summoner), and three Key of Destruction (Nihlathak), all farmed on Hell.",
+      "Three keys open each mini-uber portal; the three bosses drop organs (Horn, Eye, Brain) that combine to open Uber Tristram.",
+      "The last of Uber Mephisto, Uber Baal and Pandemonium Diablo to die drops the Torch.",
+      "Only one Hellfire Torch may be carried at a time."
+    ],
+    "sources": [
+      "https://diablo2.wiki.fextralife.com/Hellfire+Torch",
+      "https://maxroll.gg/d2/meta/ubers-explained",
+      "https://diablo.fandom.com/wiki/Pandemonium_Event"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Grief",
+    "alias": "Eth Tir Lo Mal Ral (Phase Blade)",
+    "category": "Weapon runeword",
+    "obscurity": 1,
+    "valueTierGuess": "A",
+    "quality": "Base-dependent. A perfect-roll Grief in an eth Phase Blade or eth Berserker Axe carries a real premium over a plain one.",
+    "rarityTier": "Mid-high cost runeword; the defining melee weapon since 1.10",
+    "priceSignal": "Permanent staple demand in D2R. A rolled Grief Phase Blade is a standard purchase, and a high-damage roll (near +400) on a top base commands a premium on d2jsp and diablo2.io. It never falls out of demand because it is best-in-slot for most physical melee.",
+    "collectorCase": "Grief is the item that ended a debate. From 1.10 on it is so far ahead of every other melee weapon that it defines the entire physical-melee meta, and its +340-400 flat damage mod behaves unlike any other stat in the game. A perfect-roll Grief on a perfect base is a collector piece precisely because the ceiling is so sought after.",
+    "whyValuable": "The flat +340-400 damage acts like raw weapon damage, so it scales hardest on the fastest, lowest-base-damage weapons. On a naturally indestructible Phase Blade with the game's fastest base speed, the result is absurd single-hit output plus ignore-defense and prevent-monster-heal utility.",
+    "history": "Released in 1.10. It reshaped melee build theory overnight and made most unique and set melee weapons obsolete for serious play. It is routinely called the best melee weapon in the game, sometimes 'so good it is broken.'",
+    "veteranBlindspot": "Even veterans misremember the damage as a percentage boost. It is a flat add, which is exactly why it wrecks fast low-damage weapons and why Phase Blade, not a big two-hander, is the iconic base.",
+    "teachingPoint": "Grief teaches how a single non-standard damage mechanic (flat added damage that reads like base weapon damage) can invert normal weapon-balance logic and pick winners among bases the designers never intended.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Grief is the runeword Eth + Tir + Lo + Mal + Ral in a 5-socket Sword or Axe, available from patch 1.10.",
+      "Its signature mod is +340-400 Damage, a flat damage add that functions like added weapon damage.",
+      "Other mods include 35% chance to cast Level 15 Venom on striking, +30-40% Increased Attack Speed, Ignore Target's Defense, -25% Target Defense, 20% Deadly Strike, Prevent Monster Heal, damage to demons per level, +2 Mana after each kill, and +10-15 Life after each kill.",
+      "The Phase Blade is a favored base because it has the fastest base attack speed in the game and is naturally indestructible.",
+      "It is widely regarded as the best melee weapon in Diablo 2."
+    ],
+    "sources": [
+      "https://diablo2.wiki.fextralife.com/Grief",
+      "https://diablo.fandom.com/wiki/Grief_Rune_Word",
+      "https://diablo2.io/runewords/grief-t1233.html"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Infinity",
+    "alias": "Ber Mal Ber Ist (merc polearm)",
+    "category": "Weapon runeword",
+    "obscurity": 2,
+    "valueTierGuess": "A",
+    "quality": "Best on an ethereal Giant Thresher or Great Poleaxe for the mercenary. Conviction rolls to level 12.",
+    "rarityTier": "High-cost runeword (two Ber runes)",
+    "priceSignal": "Expensive and in constant demand in D2R because it needs two Ber runes. An eth-base Infinity is a major purchase on any trade site. Demand is propped up by how many farming builds it enables.",
+    "collectorCase": "Infinity is here for what it unlocked, not its raw damage. Its Level 12 Conviction aura on a mercenary broke the immunity wall that had capped lightning builds for years. It turned Lightning Sorceress, Javazon and Lightning Trapsin from immunity-blocked novelties into premier farmers and redefined what a mercenary weapon is for.",
+    "whyValuable": "The aura lowers enemy resistances and defense in a wide radius, breaking most single elemental immunities and multiplying elemental damage. On an Act 2 merc it benefits the whole party passively, which is why it is best-in-slot support gear.",
+    "history": "Released in 1.10. Before Infinity, lightning builds were throttled by lightning-immune monsters they could not break. Putting Conviction on a merc weapon changed which builds were viable in the farming meta and shifted the mercenary from a bodyguard into an aura battery.",
+    "veteranBlindspot": "Many treat it as 'the lightning sorc merc weapon' and stop there. The broader point is that it retroactively rescued several entire build archetypes from immunity-lockout, which is a meta shift, not just a gear upgrade.",
+    "teachingPoint": "Infinity shows that support items can be more meta-defining than damage items. Enabling a build to exist at all is a bigger economic event than making an existing build hit harder.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Infinity is the runeword Ber + Mal + Ber + Ist in a 4-socket polearm or spear, available from patch 1.10.",
+      "It provides a Level 12 Conviction aura when equipped.",
+      "It carries -(45-55)% to Enemy Lightning Resistance, plus chance to cast Chain Lightning and Crushing Blow.",
+      "It requires two Ber runes, making it one of the costlier runewords.",
+      "It is the standard mercenary weapon for enabling lightning-based builds against immunities."
+    ],
+    "sources": [
+      "https://d2runewizard.com/runewords/Infinity",
+      "https://diablo.fandom.com/wiki/Infinity_Rune_Word",
+      "https://diablo2.io/runewords/infinity-t1236.html"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Wirt's Leg",
+    "alias": "The Cow Level key",
+    "category": "Quest item / secret trigger",
+    "obscurity": 2,
+    "valueTierGuess": "F",
+    "quality": "All copies are identical. There is no good or bad roll.",
+    "rarityTier": "Trivially obtained; historically priceless, monetarily worthless",
+    "priceSignal": "No trade value. Every character can grab one for free in Tristram. This is the deliberate F-tier inclusion: it has essentially zero market demand, and it earns its slot purely on historic significance, which is exactly the kind of split the site should teach.",
+    "collectorCase": "It is the physical key to Diablo 2's most famous secret, and a direct callback to a Diablo 1 community myth that Blizzard made real. As a museum object it represents the studio turning a fan rumor into canon. You cannot own a 'better' one, so the value is entirely story.",
+    "whyValuable": "Its only function is combat-irrelevant: combine it with a Tome of Town Portal in the Cube to open the Secret Cow Level, one of the game's core farming and leveling runs.",
+    "history": "In Diablo 1 a persistent rumor claimed clicking a cow enough times opened a secret cow level. It was a myth. Diablo: Hellfire winked at it with the Jersey's Jersey quest, and Diablo 2 finally made the Secret Cow Level real, opened with Wirt's Leg plus a Tome of Town Portal. In original D2/LoD, being present when the Cow King died locked you out of opening the portal yourself on that difficulty. D2R removed that restriction.",
+    "legitimacy": "CONFIRMED",
+    "veteranBlindspot": "Veterans know the recipe cold, but many have forgotten that the whole level is a monument to a Diablo 1 hoax, and that the old Cow King lockout rule (which shaped how groups ran cows for years) is gone in D2R.",
+    "teachingPoint": "Not every historically significant item has market value. Wirt's Leg is the clean example of significance driven purely by folklore and design history.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Wirt's Leg is obtained by clicking Wirt's corpse in Tristram in Act 1.",
+      "Combining Wirt's Leg with a Tome of Town Portal in the Horadric Cube, while in the Rogue Encampment and after completing the current difficulty, opens the portal to the Secret Cow Level.",
+      "In original Diablo 2 / LoD, a character present when the Cow King was killed could no longer open the Cow portal on that difficulty; D2R removed this restriction.",
+      "The Secret Cow Level was Blizzard's realization of a Diablo 1 fan rumor that had been a myth in that game."
+    ],
+    "sources": [
+      "https://diablo2.diablowiki.net/Secret_Cow_Level",
+      "https://maxroll.gg/d2/resources/the-secret-cow-level",
+      "https://en.wikipedia.org/wiki/Cow_level"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "The Gull",
+    "alias": "Gull Dagger, the duper's safety tool",
+    "category": "Unique dagger (with dupe-era folklore)",
+    "obscurity": 5,
+    "valueTierGuess": "F",
+    "quality": "Fixed unique. Any copy is the same.",
+    "rarityTier": "Cheap unique; the folklore is what is rare knowledge",
+    "priceSignal": "Nearly worthless as an item in D2R. It is farmed as an early magic-find dagger and trades for pennies. It is on this list for a genuinely obscure historic reason, not for demand. If anything, its cheapness is the point.",
+    "collectorCase": "This is the surprise pick for a veteran. A junk +100% magic-find dagger had a documented second life as a safety tool in Battle.net duplication methods. In the 'Staff in Orifice' dupe, one step incremented the character's mana and risked character corruption, and the Gull's -5 to Mana was equipped specifically to counteract that and keep the character from breaking. A throwaway treasure-hunting dagger became duper's equipment.",
+    "whyValuable": "As a legitimate item, only its early-game magic find matters. Its historic interest is entirely the dupe-era folklore, which almost no seasoned player knows.",
+    "history": "The Gull is a low-damage unique dagger prized early for magic find. Separately, community writeups of D2 dupe exploits document that its negative-mana property was used to prevent mana-overflow character corruption during specific duplication steps, making it a niche tool of the illegit economy.",
+    "legitimacy": "CONFIRMED",
+    "veteranBlindspot": "Ask a veteran about the Gull and you get 'early MF dagger, who cares.' Almost none know it was equipped as a corruption safeguard inside actual dupe procedures. That is the whole reason it belongs in a significance list.",
+    "teachingPoint": "Item significance is not only about intended use. The Gull is proof that a stat the designers meant as a downside (-5 mana) became load-bearing in the game's underground economy.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "The Gull is a unique dagger with +100% Better Chance of Getting Magic Items and -5 to Mana, low damage, used early game for magic find.",
+      "Documented Diablo 2 duplication walkthroughs describe using the Gull's -5 mana to counteract a mana-increment step that risked character corruption during the exploit.",
+      "The Blade of Ali Baba only surpasses the Gull's magic find when socketed with Ist runes at higher character level."
+    ],
+    "sources": [
+      "https://gist.github.com/amtal/bf941bde443eefc7d4626fd439d7f480",
+      "https://diablo.fandom.com/wiki/Gull"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "The White Ring",
+    "alias": "White Ring (hacked)",
+    "category": "Hacked / illegit ring (collector folklore)",
+    "obscurity": 4,
+    "valueTierGuess": "F",
+    "quality": "Illegit; stats were impossible combinations.",
+    "rarityTier": "Removed hacked item; does not exist in D2R",
+    "priceSignal": "No legitimate market and not obtainable in D2R at all. On old Battle.net it was traded as a hacked collectible among a small circle who knew of it. Its value is pure folklore, and it must be framed as illegit, never as something a player can chase.",
+    "collectorCase": "The White Ring is the emblem of D2's hacked-item era. It came out of open Battle.net where items could be built with no requirements and impossible stat combinations, then circulated on closed Battle.net as a legend most players had never even seen. It represents the whole category of illegit items (08s, Iths, Whites, bugged eth Zods) that pushed Blizzard toward dupe and impossible-item detection.",
+    "whyValuable": "It has no legitimate value. Its worth is entirely as collector folklore and as a marker of the exploit era that shaped Blizzard's anti-dupe response.",
+    "history": "Hacked and bugged items proliferated on closed Battle.net roughly between the 1.08 and 1.10 patches. The White Ring, an impossible-stat ring originating from open Battle.net, was popular in that window and is cited as no longer existing by v1.14d. The broader wave of illegit items is credited with prompting dupe and impossible-item scanners.",
+    "legitimacy": "MYTH",
+    "veteranBlindspot": "Plenty of long-time players have literally never heard of the White Ring, which is unusual for something so storied. That obscurity is the point: it lived in a small hacked-item subculture, not the mainstream economy.",
+    "teachingPoint": "Illegit items are part of the historical record. The White Ring shows how the exploit economy forced real design responses (detection and removal), the same way SOJ duping forced the World Event.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "The White Ring is a hacked/illegit ring, not a legitimately dropable item.",
+      "It originated from open Battle.net, where items could be created with no requirements and impossible stat combinations, and circulated on closed Battle.net.",
+      "It is described as no longer existing as of patch 1.14d and is not present in D2R.",
+      "It belongs to the same illegit-item era as 08 uniques, Ith-bugged items and bugged ethereal Zod items."
+    ],
+    "sources": [
+      "https://www.diablofans.com/forums/read-only-diablo-forums/diablo-legacy-forums/diablo-ii/71469-some-pics-of-items-you-may-remember",
+      "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "The Grandfather (pre-1.10, one-handed)",
+    "alias": "1.09 Grandfather",
+    "category": "Legacy unique sword (patch-reworked)",
+    "obscurity": 4,
+    "valueTierGuess": "S",
+    "quality": "Legacy version. The value is in the old classification and old stat set, which cannot roll today.",
+    "rarityTier": "Legacy / non-ladder collector; cannot exist in D2R",
+    "priceSignal": "On original Diablo 2 legacy non-ladder realms, pre-1.10 items are prized collector goods that survive only through trade, since they can no longer drop. In D2R this version does not exist at all, so it is a pure collector artifact, not a live-economy item. Frame the demand as museum-tier among legacy collectors, not as a D2R purchase.",
+    "collectorCase": "The Grandfather is the clean example of a patch reclassification creating a collector market. In Diablo 1 it was a lusted-after one-handed great sword, and that carried into D2 through patch 1.09, where it was a premier Barbarian weapon. Patch 1.10 made it two-handed and reworked its stats, so the old one-handed version froze in time. Surviving pre-1.10 copies are legacy trophies.",
+    "whyValuable": "Historically the appeal was a top-tier sword you could use one-handed (with a shield or in a dual setup), plus an older stat block including percentage max life and mana and bonus strength and dexterity that the modern version lost. Today the value is collector scarcity, not build power.",
+    "history": "Diablo 1 treated the Grandfather as a coveted one-handed great sword. In D2 through 1.09 it kept a one-handed profile and a stronger legacy stat set (in 1.08 it carried +20 Strength, +20 Dexterity, +25% max mana, +25% max life, +175 Life, +150% enhanced damage, +2.5 max damage per level, Indestructible). Patch 1.10 changed it to two-handed and reworked it, which killed its Barbarian appeal and created the legacy collectible.",
+    "legitimacy": "CONFIRMED",
+    "veteranBlindspot": "Younger D2R players know the Grandfather only as a heavy two-hander and are surprised it was once a prized one-handed weapon. Veterans who remember it often forget how different the 1.08/1.09 stat block was from today's.",
+    "teachingPoint": "Nerfs and reclassifications create collector value by freezing a superseded version in place. The pre-1.10 Grandfather is the archetype of the legacy item that a patch, not rarity, made precious.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "In patches through 1.09 the Grandfather functioned as a one-handed sword and was a favored Barbarian weapon; patch 1.10 made it two-handed.",
+      "In patch 1.08 the Grandfather carried +20 Strength, +20 Dexterity, +25% to Maximum Mana, +25% to Maximum Life, +150% Attack Rating, +175 to Life, +2.5 max damage per character level, +150% Enhanced Damage, and Indestructible.",
+      "Pre-1.10 versions can no longer drop and survive only as legacy trade items on original Diablo 2 non-ladder realms.",
+      "The pre-1.10 one-handed version does not exist in Diablo 2 Resurrected, which uses the modern two-handed stats."
+    ],
+    "sources": [
+      "https://diablo2.diablowiki.net/The_Grandfather",
+      "https://diablo2.io/uniques/the-grandfather-t973.html",
+      "https://itemforge.com/en/diablo-2/bugged-or-from-old-patch"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Zod Rune",
+    "alias": "The indestructible rune",
+    "category": "Rune (rarest) / bug folklore",
+    "obscurity": 2,
+    "valueTierGuess": "A",
+    "quality": "N/A.",
+    "rarityTier": "Rarest rune in the game; commonly ranked the second-rarest item after Tyrael's Might",
+    "priceSignal": "High value in D2R but with niche demand. It is the rarest rune, yet most builds rarely need one, so it trades as a premium collectible and a specialist tool for making ethereal gear permanent rather than as a bulk currency. Strong asking prices on d2jsp and diablo2.io, but thinner turnover than mid high runes.",
+    "collectorCase": "Zod carries two museum hooks at once. It is the rarest naturally dropping rune and the only source of true Indestructible, and it sits at the center of a famous 1.09 ethereal bug. The eth-Zod story is real D2 lore: whether a Zod fixed or ruined an ethereal item depended on hidden durability rules, and that quirk fed the bugged-item collector scene.",
+    "whyValuable": "Indestructible lets a character use an ethereal item forever, keeping the ethereal damage or defense bonus and lower requirements with no durability loss. That is the endgame use, and it is why an eth base plus Zod is a deliberate build choice.",
+    "history": "Zod is the rarest rune and, by common community ranking, the second-rarest item after Tyrael's Might. In v1.09 an ethereal-Zod bug existed: a Zod placed in an ethereal item that had bonus durability could drop it to zero and ruin it, while a Zod in an ethereal item without bonus durability made it permanently indestructible. The bug was fixed in 1.10. The era's bugged eth-Zod items became collector oddities.",
+    "legitimacy": "CONFIRMED",
+    "veteranBlindspot": "Veterans know Zod is rare, but many misremember the old eth-Zod interaction and assume Zod always simply made eth items permanent. In 1.09 it could destroy the wrong ethereal item, which is why the bug is remembered at all.",
+    "teachingPoint": "Rarity plus a signature bug is a strong significance combination. Zod is both the scarcest rune and a piece of patch-history folklore about how ethereal durability used to work.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Zod is the rarest rune in Diablo 2 and is commonly ranked the second-rarest item overall, behind Tyrael's Might.",
+      "Socketing a Zod grants Indestructible and sets the item's required level to 69 if not already higher.",
+      "Its primary use is making ethereal items indestructible so their boosted stats and lower requirements can be used permanently.",
+      "In v1.09 an ethereal-Zod bug existed and was fixed in 1.10: a Zod in an ethereal item with bonus durability could ruin it, while a Zod in an ethereal item without bonus durability made it indestructible.",
+      "A Zod can be made in the Horadric Cube from 2 Cham runes plus a Flawless Emerald."
+    ],
+    "sources": [
+      "https://diablo.fandom.com/wiki/Zod_Rune",
+      "https://diablo2.diablowiki.net/Ethereal",
+      "https://d2runewizard.com/runes/zod"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  },
+  {
+    "name": "Tyrael's Might",
+    "alias": "The rarest unique",
+    "category": "Unique body armor (Sacred Armor)",
+    "obscurity": 2,
+    "valueTierGuess": "S",
+    "quality": "Roll matters for collectors (30/30 strength and resist is the top), but rarity dominates value.",
+    "rarityTier": "Rarest item in the game",
+    "priceSignal": "The classic 'rarest item' price paradox. On diablo2.io and d2jsp, high-roll copies are quoted around two Jah runes as a baseline, but interest is inconsistent because the armor has no +skills, so demand does not match its rarity. It is a trophy market: extreme scarcity, capped by mediocre build utility. That gap is the interesting part.",
+    "collectorCase": "This is the grail. Tyrael's Might is the rarest item in Diablo 2, drops from an extremely limited pool of high-level monsters, and cannot spawn ethereal because it is Indestructible. It is prized almost purely as a trophy, which makes it the definitive museum piece: maximum rarity, deliberately modest build value.",
+    "whyValuable": "It offers strong defense, damage to demons, faster run/walk, all resistances, cannot be frozen, and the useful 'Slain Monsters Rest in Peace' (which stops corpse-based enemy skills). But with no +skills, its price is driven by rarity and prestige, not power.",
+    "history": "Because its base sits in treasure class 87, only very high-level monsters can drop the base at all, and even then it is roughly a 1-in-9 chance to be Tyrael's rather than another possible unique. Its Indestructible mod means a unique ethereal Sacred Armor is always Templar's Might, never Tyrael's. In D2R its Indestructible is noted as Ladder Only.",
+    "veteranBlindspot": "Veterans assume the rarest item must be the most valuable. Tyrael's flips that: it is rarer than any high rune yet often trades for less than build-defining gear because it grants no skills. Rarity and price are not the same axis.",
+    "teachingPoint": "Rarity does not equal demand. Tyrael's Might is the cleanest lesson on the wall: the scarcest object in the game is a trophy, priced by prestige rather than by how much it improves a character.",
+    "isSpecificRealItem": true,
+    "factClaims": [
+      "Tyrael's Might is the rarest item in Diablo 2, a unique Sacred Armor.",
+      "Its base sits in treasure class 87, so only very high-level monsters can drop it, with roughly a 1-in-9 chance to be Tyrael's when a qualifying unique Sacred Armor drops.",
+      "Stats: 120-150% Enhanced Defense, +50-100% Damage to Demons, +20% Faster Run/Walk, +20-30 Strength, All Resistances +20-30, Requirements -100%, Cannot Be Frozen, Slain Monsters Rest in Peace, Indestructible. Required Level 84.",
+      "It cannot spawn ethereal because of its Indestructible mod, so a unique ethereal Sacred Armor is Templar's Might instead.",
+      "It has no +skills, which is why it is valued mainly as a collector trophy.",
+      "In Diablo 2 Resurrected its Indestructible property is listed as Ladder Only."
+    ],
+    "sources": [
+      "https://diablo2.io/uniques/tyrael-s-might-t1002.html",
+      "https://diablo2.wiki.fextralife.com/Tyrael's+Might",
+      "https://diablo.fandom.com/wiki/Tyrael's_Might_(Diablo_II)"
+    ],
+    "_domain": "Diablo 2 / Diablo 2 Resurrected items with genuine historic significance (items that changed how the game was played or how its economy worked). Economy baseline: mature D2R ladder season. Audience: seasoned players.",
+    "_wf": "batch5(history)"
+  }
+]

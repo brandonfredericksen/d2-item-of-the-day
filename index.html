@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>D2 Item of the Day</title>
+<meta name="description" content="One rare Diablo 2 collector's item every day. Museum pieces, hidden value, and the stories behind them.">
+<meta property="og:title" content="D2 Item of the Day">
+<meta property="og:description" content="One rare Diablo 2 collector's item every day.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Exocet, the classic Diablo display face (Emigre, 1992). Self-hosted.
+   Used only for the item name, to keep the tooltip authentically D2. */
+@font-face{
+  font-family:"Exocet";
+  src:url("fonts/exocet-heavy.woff") format("woff");
+  font-weight:700;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Exocet Light";
+  src:url("fonts/exocet-light.woff") format("woff");
+  font-weight:400;
+  font-display:swap;
+}
+
+:root{
+  /* modern dark shell, Spotify-like, with Diablo gold where Spotify is green */
+  --bg:#0b0b0d;
+  --bg-elev:#161619;
+  --bg-elev-2:#1f1f25;
+  --bg-stage:#050506;
+  --text:#ececf1;
+  --text-dim:#a2a2ad;
+  --text-faint:#6d6d78;
+  --accent:#c7b377;
+  --accent-bright:#e6cd83;
+  --danger:#e0463f;
+  --border:#26262d;
+  --border-lit:#37373f;
+  --radius:14px;
+  --radius-sm:9px;
+
+  /* D2 item quality colors, exact */
+  --q-unique:#c7b377;
+  --q-set:#00ff00;
+  --q-rare:#ffff64;
+  --q-magic:#6969ff;
+  --q-crafted:#ffa800;
+  --q-rune:#ffa800;
+  --q-normal:#ffffff;
+  --q-prop:#6969ff;
+  --q-meta:#808080;
+
+  /* value tier ramp */
+  --t-s:#e0463f;
+  --t-a:#e8842c;
+  --t-b:#d4b13c;
+  --t-c:#57a55a;
+  --t-d:#4a8fd0;
+  --t-f:#6b6b74;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:100%;
+}
+
+.wrap{max-width:680px;margin:0 auto;padding:0 16px 72px}
+
+/* ---------- entrance animations ---------- */
+@keyframes reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes revealHero{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+.reveal{animation:reveal .6s cubic-bezier(.2,.7,.2,1) both}
+.item-head.reveal{animation-name:revealHero;animation-duration:.72s}
+.r0{animation-delay:0s}
+.r1{animation-delay:.09s}
+.r2{animation-delay:.18s}
+.r3{animation-delay:.3s}
+.r4{animation-delay:.42s}
+.r5{animation-delay:.54s}
+@media (prefers-reduced-motion:reduce){
+  .reveal{animation:none!important}
+}
+
+/* ---------- header: minimal, centered ---------- */
+header{padding:34px 2px 4px;text-align:center}
+.brand{
+  display:inline-block;
+  font-size:.76rem;font-weight:800;letter-spacing:.26em;text-transform:uppercase;
+  color:var(--text-dim);
+}
+.brand-mark{color:var(--accent)}
+.langbar{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:16px}
+.langbar:empty{display:none}
+.langbtn{
+  font-family:inherit;font-size:.72rem;
+  background:var(--bg-elev);color:var(--text-dim);
+  border:1px solid var(--border);border-radius:999px;
+  padding:6px 12px;cursor:pointer;transition:color .18s,border-color .18s,background .18s;
+}
+.langbtn:hover{color:var(--accent);border-color:var(--border-lit)}
+.langbtn.on{color:var(--bg);background:var(--accent);border-color:var(--accent);font-weight:700}
+
+/* ---------- flavor text: headingless italic lore, D3/D4 tooltip feel ---------- */
+.flavor{
+  font-style:italic;
+  color:#cabf9f;
+  font-size:1.06rem;
+  line-height:1.72;
+  margin:0 auto 16px;
+  max-width:56ch;
+  text-align:center;
+}
+.flavor:first-of-type{margin-top:24px}
+
+/* ---------- banner ---------- */
+.banner{
+  display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;
+  background:var(--bg-elev);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:11px 15px;margin-bottom:18px;font-size:.84rem;color:var(--text-dim);
+}
+.banner a{color:var(--accent);font-weight:600;text-decoration:none}
+.banner a:hover{text-decoration:underline}
+
+/* ---------- hero: the item, alone on its row ---------- */
+/* no outer card: the D2 tooltip sits directly on the page, like a screenshot */
+.item-head{margin:14px 0 2px}
+.tip-col{display:flex;flex-direction:column;align-items:center;gap:16px}
+
+/* the "in-game stage": dark vignette the item sits on, like a screenshot */
+.sprite{display:flex;align-items:center;justify-content:center;margin-top:2px}
+.sprite img{
+  max-width:72px;max-height:72px;display:block;image-rendering:pixelated;
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,.55));
+}
+
+/* the D2 tooltip, kept sharp and pixel-accurate */
+.tooltip{
+  background:rgba(2,2,4,.92);
+  border:1px solid #2c2c33;
+  border-radius:2px;
+  padding:16px 20px;
+  text-align:center;
+  font-family:"Exocet Light",Montserrat,Georgia,serif;  /* body in the lighter D2 weight */
+  font-size:1.02rem;
+  letter-spacing:.03em;
+  line-height:1.45;
+  text-transform:uppercase;                         /* D2 tooltips read as all caps */
+  white-space:nowrap;                               /* a D2 row never wraps */
+  width:max-content;                                /* size to the longest line */
+  box-shadow:0 0 0 1px rgba(0,0,0,.5), 0 8px 26px rgba(0,0,0,.55);
+}
+.tooltip .t-name{
+  font-family:"Exocet",Montserrat,serif;
+  font-weight:700;font-size:1.7rem;letter-spacing:.02em;line-height:1.12;
+  margin-bottom:3px;
+}
+.tooltip{--qc:var(--q-normal)}
+.tooltip .t-type{color:var(--qc);opacity:.95;font-size:.9rem}
+.tooltip .t-lines{margin-top:9px}
+.tooltip .t-line{color:var(--q-prop)}           /* default: magic-property blue */
+.tooltip .t-line.t-white{color:#dedee4}          /* base stats, runes, required level */
+.tooltip .t-line.t-grey{color:#8a8a93}
+.tooltip .t-line.t-red{color:#e0463f}            /* unmet requirement */
+.tooltip .t-line.t-gold{color:var(--q-rune)}
+
+/* trader nickname caption, deliberately outside and unlike the tooltip */
+.aka{
+  font-size:.74rem;font-style:italic;color:var(--text-faint);
+  text-align:center;margin-top:-4px;
+}
+
+/* name and base type both take the item's quality color, like in-game */
+.q-unique{--qc:var(--q-unique)}
+.q-set{--qc:var(--q-set)}
+.q-rare{--qc:var(--q-rare)}
+.q-magic{--qc:var(--q-magic)}
+.q-crafted{--qc:var(--q-crafted)}
+.q-rune{--qc:var(--q-rune)}
+.q-normal{--qc:var(--q-normal)}
+.q-runeword{--qc:var(--q-unique)}                 /* runeword name is gold... */
+.q-runeword .t-type{color:#8a8a93}                /* ...but its base type is grey */
+.tooltip .t-name{color:var(--qc)}
+.q-unique .t-name{text-shadow:0 0 26px rgba(199,179,119,.35)}
+.q-set .t-name{text-shadow:0 0 26px rgba(0,255,0,.28)}
+.q-rare .t-name{text-shadow:0 0 26px rgba(255,255,100,.28)}
+.q-magic .t-name{text-shadow:0 0 26px rgba(105,105,255,.38)}
+.q-crafted .t-name{text-shadow:0 0 26px rgba(255,168,0,.3)}
+.q-rune .t-name{text-shadow:0 0 26px rgba(255,168,0,.3)}
+.q-normal .t-name{text-shadow:0 0 22px rgba(255,255,255,.18)}
+
+/* ---------- tier tags: understated supporting metadata ---------- */
+.tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.tag{
+  display:inline-flex;align-items:baseline;gap:7px;
+  font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);
+  background:var(--bg-elev-2);border:1px solid var(--border);border-radius:999px;
+  padding:5px 12px;cursor:default;
+}
+.tag b{font-weight:800;font-size:.8rem;letter-spacing:.01em;text-transform:none;color:var(--text)}
+.tag-s b{color:var(--t-s)}
+.tag-a b{color:var(--t-a)}
+.tag-b b{color:var(--t-b)}
+.tag-c b{color:var(--t-c)}
+.tag-d b{color:var(--t-d)}
+.tag-f b{color:var(--t-f)}
+
+.mismatch-note{
+  font-size:.78rem;font-style:italic;color:var(--accent);opacity:.85;
+  text-align:center;margin-top:4px;
+}
+
+/* ---------- prose ---------- */
+section{margin-bottom:24px}
+h2{
+  font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--text-faint);margin:0 0 10px;
+}
+section p{margin:0 0 12px;font-size:1.02rem;color:#dcdce2}
+section p:last-child{margin-bottom:0}
+
+.find{
+  background:linear-gradient(180deg,var(--bg-elev),var(--bg));
+  border:1px solid var(--border);border-left:3px solid var(--accent);
+  border-radius:var(--radius-sm);padding:15px 17px;
+}
+.find p{margin:0;font-size:1.02rem}
+.uncertain{font-size:.82rem;color:var(--text-faint);font-style:italic;margin-top:12px}
+
+/* ---------- archive: Spotify-style list ---------- */
+details{border-top:1px solid var(--border);margin-top:8px}
+summary{
+  cursor:pointer;padding:16px 2px;list-style:none;
+  font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--text-dim);display:flex;align-items:center;gap:8px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"▾";color:var(--text-faint);font-size:.8rem}
+details[open] summary::after{content:"▴"}
+summary:hover{color:var(--accent)}
+.archive-list{list-style:none;margin:0;padding:0 0 8px}
+.archive-list li{border-radius:var(--radius-sm)}
+.archive-list a{
+  display:flex;align-items:center;gap:12px;
+  padding:9px 10px;text-decoration:none;color:var(--text);font-size:.9rem;border-radius:8px;
+}
+.archive-list a:hover{background:var(--bg-elev)}
+.archive-list .pip{
+  font-weight:800;font-size:.82rem;width:20px;text-align:center;flex:none;
+}
+.pip-s{color:var(--t-s)} .pip-a{color:var(--t-a)} .pip-b{color:var(--t-b)}
+.pip-c{color:var(--t-c)} .pip-d{color:var(--t-d)} .pip-f{color:var(--t-f)}
+.archive-list .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+footer{
+  margin-top:40px;padding-top:20px;border-top:1px solid var(--border);
+  color:var(--text-faint);font-size:.74rem;
+}
+footer p{margin:0 0 6px}
+.foot-timer{
+  color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;
+  font-size:.72rem;margin:0 0 12px;
+}
+
+@media (min-width:640px){
+  .wrap{padding:0 24px 88px}
+  .item-head{margin:22px 0 2px}
+  .tooltip .t-name{font-size:2.05rem}
+  .sprite img{max-width:84px;max-height:84px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="reveal r0">
+  <div class="brand"><span class="brand-mark">D2</span>&nbsp;Item of the Day</div>
+  <div class="langbar" id="langbar"></div>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <p class="foot-timer" id="rollover"></p>
+  <p id="footerDisclaimer">Value and rarity are rough guesses against a mature ladder season, not a price check. Rarity means how often you see one around, not just drop rate.</p>
+  <p id="footerLegal">Not affiliated with Blizzard Entertainment.</p>
+</footer>
+
+</div>
+
+<script src="items.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

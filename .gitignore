@@ -1,0 +1,15 @@
+# Claude working files (screenshots, dev server, generated test pages)
+.claude/*.png
+.claude/ttest.html
+
+# dependencies / tooling
+node_modules/
+playwright-report/
+test-results/
+
+# internal working log, not for the public repo
+PROGRESS.md
+
+# OS
+Thumbs.db
+.DS_Store

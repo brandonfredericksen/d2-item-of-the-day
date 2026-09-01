@@ -1,0 +1,1066 @@
+{
+  "batch": [
+    "magic-bases",
+    "roll-dependent"
+  ],
+  "results": [
+    {
+      "domain": "magic-bases",
+      "found": {
+        "domain": "Hidden-value magic, white/grey, and superior base items whose worth is the affix roll or socket count rather than the item itself. Economy baseline: mature D2R ladder season.",
+        "items": [
+          {
+            "name": "Jeweler's Monarch of Deflecting (4-socket)",
+            "alias": "JMOD, Jmod",
+            "category": "Magic base — shield",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare (perfect roll)",
+            "quality": "Magic (blue)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "The Monarch is the ONLY non-Paladin, non-necro shield in the game that can roll 4 sockets, and 4 sockets is exactly what Spirit needs. A magic Monarch that already has 4 sockets AND rolls the Jeweler's prefix plus the 'of Deflecting' suffix stacks the sought stats: guaranteed max sockets, 30% Faster Block Rate, and +20% Increased Chance to Block on top. That combination lets a caster hit block breakpoints that a plain Spirit Monarch cannot. It is the textbook 'that blue is worth a fortune?' item.",
+            "teachingPoint": "Sockets on a Monarch are a coin flip even at high ilvl (it can roll 1-4), so a pre-socketed 4os Monarch is already a trade good before any prefix. The Jeweler's + of Deflecting combo is the premium version, not the baseline.",
+            "factClaims": [
+              "Monarch is the only non-Paladin shield base that can roll 4 sockets, which is why it is the standard Spirit shield base.",
+              "Jeweler's is the socket-granting magic prefix; on a Monarch it can grant up to 4 sockets.",
+              "The 'of Deflecting' suffix grants +30% Faster Block Rate and +20% Increased Chance to Block.",
+              "Monarch base: strength requirement 156, required level 54.",
+              "Spirit runeword is Tal + Thul + Ort + Amn and requires a 4-socket base."
+            ],
+            "sources": [
+              "https://diablo2.io/base/monarch-t1438.html",
+              "https://lilura1.blogspot.com/2021/03/Diablo-2-Resurrected-Best-Magic-Shield-Jewelers-Monarch-of-Deflecting-4sox-30-FBR-20-ICB.html",
+              "https://www.rpgstash.com/blog/4-socket-monarch-farming-for-spirit-in-d2r"
+            ]
+          },
+          {
+            "name": "4-socket Crystal Sword (or Broad Sword)",
+            "alias": "Spirit sword base",
+            "category": "White/grey base — sword",
+            "obscurity": 2,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon (4os roll is the gate)",
+            "quality": "White or superior",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "A plain white Crystal Sword is vendor trash, but a 4-socket one is the base for a Spirit weapon, the single most-made caster runeword in the game. Crystal Sword's low dexterity requirement and Broad Sword's low stats make them the go-to. The value is entirely in the socket count; a 4os roll is not guaranteed and low-level players farm specifically for it. The catch that catches even veterans: Larzuk only guarantees max sockets, and a Crystal Sword's max can exceed 4, so you often must use the Cube socket recipe or gamble drops to land exactly 4.",
+            "teachingPoint": "You want exactly 4 sockets on the Spirit sword, and the Spirit FCR stat rolls a variable 25-35%. Players remake Spirit repeatedly chasing the 35% roll for the next FCR breakpoint. A 4os sword that then rolls 35% FCR is worth more than a 25% one.",
+            "factClaims": [
+              "Spirit runeword is Tal + Thul + Ort + Amn in a 4-socket sword or 4-socket shield.",
+              "Spirit grants +2 to All Skills, +25-35% Faster Cast Rate (variable), +22 Vitality, and +89-112 Mana.",
+              "The FCR on Spirit is a variable roll between 25% and 35%.",
+              "Crystal Sword and Broad Sword are favored Spirit bases due to low stat requirements.",
+              "Larzuk guarantees maximum sockets, not a specific number, so a 4os target on a higher-max base often needs the Cube recipe or a lucky drop."
+            ],
+            "sources": [
+              "https://d2runewizard.com/runewords/Spirit",
+              "https://www.gamerguides.com/diablo-ii-resurrected/guide/runewords/runes/how-to-find-four-socket-swords"
+            ]
+          },
+          {
+            "name": "Ethereal Great Poleaxe (4-socket) for Insight",
+            "alias": "Eth Insight base, budget merc base",
+            "category": "White/grey base — polearm (ethereal)",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon",
+            "quality": "White ethereal (superior eth is premium)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Insight on an Act 2 mercenary provides the Meditation aura that keeps a whole party in mana, and its damage scales with the base weapon. An ethereal base gives +50% enhanced defense and, crucially, mercenaries barely deplete ethereal durability, so an eth Insight is effectively indestructible on a merc. The Great Poleaxe is the budget pick because it hits 4 sockets easily at the right ilvl while still swinging fast. A 4os eth (ideally superior) Great Poleaxe is a hidden trade good.",
+            "teachingPoint": "Insight is a merc-focused runeword. Ethereal is not a downside here; merc self-repair mechanics mean the item never breaks. The 'dream' base is an eth Thresher, but eth Great Poleaxe is the value-per-cost sweet spot.",
+            "factClaims": [
+              "Insight runeword is Ral + Tir + Tal + Sol in a 4-socket polearm, staff, or missile weapon.",
+              "Insight provides a Meditation aura.",
+              "Ethereal bases give roughly +50% enhanced defense compared to their non-ethereal version.",
+              "Mercenary-held ethereal items do not deplete durability the way player-held ones do, so eth merc weapons are effectively indestructible.",
+              "Eth Thresher is considered the top-tier Insight/merc polearm base; Great Poleaxe is the budget alternative."
+            ],
+            "sources": [
+              "https://diablobytes.com/tools/runewords/insight/",
+              "https://www.rpgstash.com/insight-great-poleaxe-ethereal-d2r.html"
+            ]
+          },
+          {
+            "name": "Ethereal Giant Thresher (4-socket) for Infinity",
+            "alias": "Eth Infinity base, eth CV alternative",
+            "category": "White/grey base — polearm (ethereal)",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Rare (4os eth)",
+            "quality": "White ethereal",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Infinity's Conviction aura breaks physical/lightning immunities and is the single biggest damage multiplier for lightning builds and many merc setups. The runeword itself is expensive (Ber Mal Ber Ist), so people want the perfect base to put it in. An ethereal Giant Thresher (or Thresher/Cryptic Axe) gives the enhanced-defense bonus, effective indestructibility on a merc, and fast attack speed. A pre-socketed 4os ethereal polearm of the right type is a serious hidden asset because the runes are wasted on a bad base.",
+            "teachingPoint": "For Infinity the base choice hinges on attack speed and strength requirement. Thresher family is preferred over Colossus Voulge because CV has a punishing strength requirement, even though CV has higher raw damage.",
+            "factClaims": [
+              "Infinity runeword is Ber + Mal + Ber + Ist in a 4-socket polearm.",
+              "Infinity provides a Conviction aura that lowers enemy defense and resistances and can break some immunities.",
+              "Preferred ethereal Infinity bases include Giant Thresher, Thresher, Great Poleaxe, and Cryptic Axe.",
+              "Colossus Voulge has higher damage but a much higher strength requirement than the Thresher family."
+            ],
+            "sources": [
+              "https://d2runewizard.com/runewords/Infinity",
+              "https://diablo2.io/runewords/infinity-t1236.html"
+            ]
+          },
+          {
+            "name": "5-socket Phase Blade for Grief",
+            "alias": "5os PB, Grief base",
+            "category": "White/grey base — sword",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Rare (exactly-5 gate)",
+            "quality": "White (indestructible base type)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Phase Blades are already special: they are inherently indestructible and swing extremely fast, making them the premier Grief base for casters and speed builds who don't want a physical-damage weapon breaking. The trap is the socket count. Grief needs 5 sockets, but Larzuk on a Phase Blade gives 6, and the Cube recipe result is random. So a Phase Blade that has rolled EXACTLY 5 sockets is genuinely hard to get and worth far more than a plain white Phase Blade. Even seasoned players forget you cannot Larzuk your way to a 5os PB.",
+            "teachingPoint": "The value is the exact socket number, not the item. 5os Phase Blade = Grief/Fortitude-tier weapon; 6os is for Death/Breath of the Dying. You must gamble the socket count for the 5.",
+            "factClaims": [
+              "Grief (sword version) is Eth + Tir + Lo + Mal + Ral and requires a 5-socket weapon.",
+              "Phase Blades are inherently indestructible and cannot be socketed to a specific 5 via Larzuk because Larzuk grants 6 sockets on a Phase Blade.",
+              "Phase Blade's maximum sockets is 6.",
+              "Phase Blade and Berserker Axe are the two preferred Grief bases."
+            ],
+            "sources": [
+              "https://diablobytes.com/d2-resurrected/guides/socket-guide/",
+              "https://www.rpgstash.com/blog/d2r-grief-runeword-guide-best-bases-stats-which-builds-use-it"
+            ]
+          },
+          {
+            "name": "Ethereal Berserker Axe (5- or 6-socket)",
+            "alias": "Eth zerk, BA base",
+            "category": "White/grey base — axe (ethereal)",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Rare (eth + right sockets)",
+            "quality": "White ethereal (superior eth is best)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "The Berserker Axe has one of the highest one-handed physical DPS profiles in the game and a long attack range. Ethereal adds the enhanced-damage bonus, and because runewords like Death and Breath of the Dying carry the Indestructible mod, an ethereal base keeps its bonus without ever breaking. A 5os eth zerk is the melee Grief base; a 6os eth zerk is a Death/BOTD monster. Superior (extra enhanced damage) on top pushes it higher. This is a case where ethereal + superior + exact socket count all compound.",
+            "teachingPoint": "Ethereal is a plus, not a minus, specifically for runewords that grant Indestructible. That is why an eth Berserker Axe outruns a non-eth one in value even though eth normally means fragile.",
+            "factClaims": [
+              "Berserker Axe is a one-handed axe with very high physical damage and 3 range in D2R.",
+              "Ethereal Berserker Axes are favored for runewords with the Indestructible mod such as Death and Breath of the Dying.",
+              "Grief needs 5 sockets; Death and Breath of the Dying need 6 sockets.",
+              "Phase Blade and Berserker Axe are the two standard Grief weapon bases."
+            ],
+            "sources": [
+              "https://diablo2.io/base/berserker-axe-t1599.html",
+              "https://www.rpgstash.com/blog/d2r-grief-runeword-guide-best-bases-stats-which-builds-use-it"
+            ]
+          },
+          {
+            "name": "Superior Archon Plate (15% Enhanced Defense, 4-socket)",
+            "alias": "15ED AP, perfect Enigma base",
+            "category": "Superior white base — body armor",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Very rare (perfect base + perfect superior + 4os)",
+            "quality": "Superior (grey)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Archon Plate is the lightest elite body armor with a low strength requirement, making it THE Enigma base. Superior quality can add up to +15% Enhanced Defense, and because Enigma's own defense is a percentage on top of base, a superior 15% Archon Plate with a high base-defense roll produces the highest-defense Enigma possible. A perfect 15ED superior Archon Plate that also carries or can take 3 sockets is a premium base sold specifically for high-end Enigma, Fortitude, or Chains of Honor. The base looks like a grey nothing but is a genuine trade good.",
+            "teachingPoint": "Two hidden rolls stack: the base defense roll (Archon Plate has a defense range) and the superior enhanced-defense roll (up to 15%). Both must be near-max for the base to be premium. Enigma needs 3 sockets, not 4.",
+            "factClaims": [
+              "Archon Plate is the most popular Enigma base due to light weight, low strength requirement, and high defense.",
+              "Superior body armor can roll up to +15% Enhanced Defense.",
+              "Enigma runeword requires a 3-socket body armor.",
+              "Enigma grants +2 to All Skills, +45% Faster Run/Walk, and +1 to Teleport.",
+              "A perfect Archon Plate Enigma can reach roughly 775 defense with a max base and 15% superior roll."
+            ],
+            "sources": [
+              "https://lilura1.blogspot.com/2021/02/Diablo-2-Resurrected-Perfect-Superior-Archon-Plate-15-Enhanced-Defense-603.html",
+              "https://diablo2.io/base/archon-plate-t1405.html"
+            ]
+          },
+          {
+            "name": "Magic Circlet '+2 (class) Skills / 20% FCR' (2-socket)",
+            "alias": "Caster circlet, +2/20 circ",
+            "category": "Magic base — circlet/tiara/diadem",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Rare (exact affix combo)",
+            "quality": "Magic (blue)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "A blue circlet that rolls the class-skill prefix (+2 to one class's skills) together with the 20% Faster Cast Rate suffix is a coveted caster helm slot. On a Circlet/Coronet the item can also natively carry sockets, and Larzuk can add up to 2, letting you slot two facets or perfects. The value is entirely in hitting the exact prefix+suffix pair; a blue circlet with the wrong affixes is worthless. This is a hidden-value item because most players auto-salvage blue circlets.",
+            "teachingPoint": "Circlet bases (Circlet, Coronet, Tiara, Diadem) can natively spawn with sockets and roll class-skill and FCR affixes that no other helm slot can, which is why a perfect blue or rare circlet competes with unique helms for casters.",
+            "factClaims": [
+              "Circlet-type items come as Circlet, Coronet, Tiara, and Diadem bases.",
+              "Circlets can roll a prefix granting +2 (later +3 on higher bases) to a single class's skill tree and a suffix such as 20% Faster Cast Rate.",
+              "Magic items are limited to one prefix and one suffix; rare items allow up to three of each.",
+              "Circlet bases can natively spawn with sockets, and Larzuk can add up to 2 sockets to a circlet."
+            ],
+            "sources": [
+              "https://itemforge.com/en/rare-diadem-2sk-20fcr-2soc",
+              "https://d2runewizard.com/suffix"
+            ]
+          },
+          {
+            "name": "Rare Circlet '+2 Skills / 20% FCR / dual-stat / 2os'",
+            "alias": "God circlet, rare caster circ",
+            "category": "Rare base — circlet/diadem",
+            "obscurity": 4,
+            "valueTierGuess": "S",
+            "rarityTier": "Extremely rare (multi-affix)",
+            "quality": "Rare (yellow)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "The rare version stacks what magic cannot: +2 to a class's skills AND 20% FCR AND extra useful affixes (resists, life, strength/dex, or faster hit recovery) AND up to 2 sockets. Because rares allow three prefixes and three suffixes, a circlet can carry the skill prefix, the FCR suffix, and still fit resistances and a life or stat roll. Landing all the right affixes at once on a Diadem is astronomically rare, which is why a clean +2/20FCR/dual-res rare circlet with 2 open sockets sits at the very top of caster gear and trades accordingly.",
+            "teachingPoint": "The rare ceiling is the appeal: it can beat unique circlets by combining skills, FCR, resists, and sockets on one item. The catch is the affix budget; every good roll competes for the same six slots, so a 'perfect' one is a lottery win.",
+            "factClaims": [
+              "Rare items can carry up to three prefixes and three suffixes.",
+              "A rare circlet can simultaneously roll +2 class skills, 20% FCR, and additional affixes such as resistances, life, or stats.",
+              "Larzuk can add up to 2 sockets to a circlet base.",
+              "Because the +2 skills prefix and 20% FCR suffix each consume one affix slot, only limited room remains for the remaining desirable rolls."
+            ],
+            "sources": [
+              "https://itemforge.com/en/rare-diadem-2sk-20fcr-2soc",
+              "https://d2runewizard.com/prefix"
+            ]
+          },
+          {
+            "name": "4-socket Colossus Voulge for Pride / Infinity",
+            "alias": "4os CV",
+            "category": "White/grey base — polearm",
+            "obscurity": 3,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon (Larzuk-guaranteed 4os)",
+            "quality": "White (ethereal is premium)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "The Colossus Voulge has the second-highest average damage of the elite polearms and Larzuk guarantees it 4 sockets, which makes it a clean base for Pride (Conviction merc aura, huge damage) or Infinity when raw damage is prioritized over speed. Its downside is a brutal strength requirement, so a str-stacked build or a high-str merc uses it. Value lives in the guaranteed 4os plus ethereal; an eth 4os CV is a strong merc weapon base most players overlook in favor of the Thresher family.",
+            "teachingPoint": "Larzuk guarantees exactly 4 sockets on a Colossus Voulge, unlike Phase Blades or higher-max bases, so it is one of the few polearms you can reliably socket for a 4-rune runeword without gambling.",
+            "factClaims": [
+              "Colossus Voulge receives a guaranteed 4 sockets from Larzuk.",
+              "Colossus Voulge has among the highest average damage of the elite polearms but a very high strength requirement.",
+              "Pride runeword is Cham + Sur + Io + Lo in a 4-socket polearm and provides a Concentration aura.",
+              "Infinity is a 4-socket polearm runeword; the Thresher family is usually preferred over Colossus Voulge due to CV's strength cost."
+            ],
+            "sources": [
+              "https://diablo2.io/base/colossus-voulge-t1798.html",
+              "https://maxroll.gg/d2/database/items/colossus-voulge"
+            ]
+          },
+          {
+            "name": "6-socket Colossus Blade for Breath of the Dying",
+            "alias": "6os CB, BOTD base",
+            "category": "White/grey base — two-handed sword",
+            "obscurity": 3,
+            "valueTierGuess": "A",
+            "rarityTier": "Rare (eth + exactly 6)",
+            "quality": "White (ethereal superior is best)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Colossus Blade is a top two-handed sword base with high damage and good speed, and it can reach 6 sockets, exactly what Breath of the Dying needs. BOTD carries Indestructible, so an ethereal Colossus Blade keeps its enhanced-damage bonus while never breaking, producing one of the highest-damage melee weapons attainable. A 6os ethereal (and ideally superior) Colossus Blade is a premium base because the runes that go in it (Vex Hel El Eld Zod Eth) are enormously expensive and no one wastes them on a poor base.",
+            "teachingPoint": "The Zod rune in BOTD already grants Indestructible, so ethereal is pure upside here. The gate is landing exactly 6 sockets on the base before committing the rune set.",
+            "factClaims": [
+              "Breath of the Dying runeword is Vex + Hel + El + Eld + Zod + Eth in a 6-socket weapon.",
+              "Colossus Blade is a two-handed sword base with a maximum of 6 sockets.",
+              "Breath of the Dying includes the Indestructible modifier via the Zod rune, so ethereal bases do not degrade.",
+              "Ethereal bases add enhanced damage, making eth Colossus Blade a top BOTD choice."
+            ],
+            "sources": [
+              "https://diablo2.io/forums/base-for-death-rune-word-t1107801.html",
+              "https://diablobytes.com/d2-resurrected/guides/socket-guide/"
+            ]
+          },
+          {
+            "name": "Cruel elite weapon (magic, LLD/showcase base)",
+            "alias": "Cruel <weapon>",
+            "category": "Magic base — weapon prefix",
+            "obscurity": 4,
+            "valueTierGuess": "C",
+            "rarityTier": "Uncommon to rare (perfect roll)",
+            "quality": "Magic (blue)",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Cruel is the top-tier enhanced-maximum-damage weapon prefix (up to +300% enhanced damage). On a blue weapon it can pair with a suffix like 'of Quickness' (IAS) or a leech suffix to make a cheap, high-damage magic weapon that outperforms many uniques for the price, and it is a staple in low-level dueling brackets where set/unique levels are capped out. The value is the Cruel roll near its max plus a matching suffix; a low Cruel roll is ordinary. It is a genuine 'that blue?' item in the LLD niche.",
+            "teachingPoint": "Cruel is the strongest %ED weapon prefix and defines many magic-weapon builds, especially in level-restricted dueling where you cannot use high-level uniques. The roll range is wide, so a near-max Cruel is the valuable one.",
+            "factClaims": [
+              "Cruel is a magic weapon prefix that grants a high range of enhanced maximum damage, up to +300% enhanced damage at the top of its range.",
+              "Cruel is a weapon-only prefix (it appears before the item name).",
+              "Magic weapons can pair Cruel with one suffix such as an IAS or leech suffix.",
+              "LLD (low-level dueling) brackets favor magic Cruel bases because level requirements restrict many uniques and sets."
+            ],
+            "sources": [
+              "https://www.purediablo.com/diablo-2/prefixes",
+              "https://d2runewizard.com/prefix"
+            ]
+          },
+          {
+            "name": "3-socket Great Poleaxe / Thresher for Insight (non-eth)",
+            "alias": "wait, it needs 4",
+            "category": "White/grey base — polearm",
+            "obscurity": 3,
+            "valueTierGuess": "C",
+            "rarityTier": "Common-uncommon",
+            "quality": "White",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "A non-ethereal 4-socket Thresher is a hidden budget staple: it makes an Insight that a player can actually equip and repair themselves (unlike an eth one), and it is far cheaper than the eth version while still granting the Meditation aura. New players hunt an ilvl in the 26-40 range where Great Poleaxe rolls 4 sockets readily. The item is mundane on its own; the socket count is the whole story.",
+            "teachingPoint": "Non-ethereal Insight exists for a reason: a player-wielded Insight (some builds self-cast with it) or a hardcore player who does not want to risk an eth weapon breaking wants the repairable version. Same runeword, different base logic.",
+            "factClaims": [
+              "Insight is a 4-socket polearm/staff/missile-weapon runeword: Ral + Tir + Tal + Sol.",
+              "Great Poleaxe commonly rolls 4 sockets in the roughly ilvl 26-40 range.",
+              "Non-ethereal bases can be repaired and do not degrade, unlike ethereal ones on non-merc holders.",
+              "Insight grants a Meditation aura regardless of base."
+            ],
+            "sources": [
+              "https://diablobytes.com/tools/runewords/insight/",
+              "https://www.rpgstash.com/insight-great-poleaxe-ethereal-d2r.html"
+            ]
+          },
+          {
+            "name": "4-socket Crystal Sword / Flail for Spirit (weapon) vs Monarch (shield)",
+            "alias": "Spirit base pair",
+            "category": "White/grey base — sword or shield",
+            "obscurity": 2,
+            "valueTierGuess": "B",
+            "rarityTier": "Uncommon",
+            "quality": "White",
+            "history": "",
+            "legitimacy": "",
+            "whyValuable": "Spirit is the only runeword that goes in BOTH a 4-socket sword and a 4-socket shield, and both bases carry hidden value because both need exactly 4 sockets. The Monarch shield gates on being the only 4-socket-capable common shield; the sword gates on rolling 4 (not 5+) sockets. A new player who finds a 4os Broad Sword or a 4os Monarch has found a trade good even before runes. Together they let a caster wear two Spirits for +4 skills and up to 70% FCR base.",
+            "teachingPoint": "One runeword, two totally different base-hunting problems: on the shield the constraint is which base can even reach 4 sockets, on the sword the constraint is not overshooting 4 sockets.",
+            "factClaims": [
+              "Spirit can be made in either a 4-socket sword or a 4-socket shield with Tal + Thul + Ort + Amn.",
+              "Monarch is the standard Spirit shield because it is the only non-Paladin shield that reaches 4 sockets.",
+              "Two Spirits (sword + shield) provide +4 to all skills combined.",
+              "Each Spirit's FCR rolls variably from 25% to 35%."
+            ],
+            "sources": [
+              "https://d2runewizard.com/runewords/Spirit",
+              "https://diablo2.io/base/monarch-t1438.html"
+            ]
+          }
+        ],
+        "notes": "All socket counts, runeword rune orders, and base facts were cross-checked against d2runewizard, diablo2.io, diablobytes, and the rpgstash guides during this session. High-confidence items: JMOD, Spirit sword/Monarch, Insight/Infinity polearms, Grief Phase Blade, superior Archon Plate, caster circlets. Note for the editor: exact Cruel %ED top-end (commonly cited as +300%) and the precise Monarch defense range should be re-verified against the Arreat Summit affix tables before publishing, since those are the kind of numbers players will catch. 'Of Fortune' (magic find suffix) and 'of the Whale/of Life' style rare-craft suffixes were surfaced but not deep-verified here; they belong in the circlet/charm-adjacent coverage if you want more items. No prices given anywhere; tier letters are explicit guesses. The 13th and 14th entries slightly overlap the Spirit theme intentionally to show the two-base-problem framing, which is the strongest 'wait, that white is worth something?' teaching hook in this domain."
+      },
+      "verify": {
+        "checked": [
+          {
+            "name": "Jeweler's Monarch of Deflecting (4-socket) (JMOD)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Two errors in the CLAIMS. (1) FALSE: 'Monarch is the ONLY non-Paladin shield that can roll 4 sockets.' Aegis and Ward (both elite shields) can also spawn 4 sockets. Monarch is preferred only because it has the lowest strength requirement (156) of the three, not because it is unique. Necromancer shrunken heads and Paladin auric shields also reach 4. Fix the wording to 'the lowest-strength common 4-socket-capable shield.' (2) Misleading: 'Jeweler's on a Monarch can grant up to 4 sockets.' The valuable JMOD must be FOUND with 4 sockets naturally (ilvl 77+ for the Jeweler's prefix); you cannot Larzuk a magic Monarch to 4 (Larzuk gives magic items only 1-2 sockets). The Jeweler's prefix is the socket auto-mod but the 4-socket roll happens at drop, not via the quest. CONFIRMED: 'of Deflecting' = 30% Faster Block Rate + 20% Increased Chance to Block; Monarch str 156, req level 54; Spirit = Tal Thul Ort Amn in a 4-socket base. Strong hidden-value item, keep it, but fix the 'only shield' overstatement players will catch."
+          },
+          {
+            "name": "4-socket Crystal Sword (or Broad Sword) (Spirit sword base)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All CLAIMS verified. Spirit = Tal Thul Ort Amn in 4os sword or shield; +2 all skills, 25-35% variable FCR, +22 Vitality, +89-112 Mana all correct. Crystal Sword max sockets is 6, so Larzuk can overshoot 4 (confirmed) meaning the 4os gate is real. Good Pillar 1 item. Note the finding omits Spirit's +55% FHR and elemental damage, but nothing stated is wrong."
+          },
+          {
+            "name": "Ethereal Great Poleaxe (4-socket) for Insight",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Recipe/mechanics correct: Insight = Ral Tir Tal Sol in 4os polearm/staff/missile weapon; Meditation aura; eth on merc does not degrade. Two soft issues. (1) The 'eth Thresher is top-tier, Great Poleaxe is budget' framing is disputed: for Insight specifically many guides rate Great Poleaxe equal or better (higher damage), with Thresher favored only for faster attack speed to hit breakpoints. Present them as tradeoffs, not tier-above/budget. (2) 'Ethereal bases give roughly +50% enhanced defense' is stated for a weapon; on a weapon ethereal grants ~+50% enhanced DAMAGE, not defense. Fix terminology."
+          },
+          {
+            "name": "Ethereal Giant Thresher (4-socket) for Infinity",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Infinity = Ber Mal Ber Ist in 4os polearm (also works in spears, minor omission), confirmed. Conviction aura lowers enemy defense and resistances and breaks some immunities, confirmed. Giant Thresher / Thresher / Cryptic Axe / Great Poleaxe are recognized eth bases; Colossus Voulge higher damage but higher str. All accurate. The obscure-base angle fits Pillar 1."
+          },
+          {
+            "name": "5-socket Phase Blade for Grief",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Fully verified. Grief (sword) = Eth Tir Lo Mal Ral, needs 5 sockets. Phase Blade is inherently indestructible, fastest base attack speed (WSM -30), max 6 sockets, and Larzuk gives 6 - so you cannot Larzuk a 5os Phase Blade; you must find a natural 5os or gamble the cube recipe. Exactly-5 gate is genuine. Excellent 'that white?' item."
+          },
+          {
+            "name": "Ethereal Berserker Axe (5- or 6-socket)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "FACTUAL ERROR players will catch: the finding says Berserker Axe has '3 range in D2R' and 'a long attack range.' Base range of the Berserker Axe is 2, not 3. Remove the range=3 claim and drop the 'long attack range' characterization (range 2 is average for one-handers). CONFIRMED: highest one-handed physical damage for non-Barbarians; eth favored for Indestructible runewords (Death, BOTD); Grief needs 5, Death and BOTD need 6; Phase Blade and Berserker Axe are the two standard Grief bases."
+          },
+          {
+            "name": "Superior Archon Plate (15% ED, 4-socket) Enigma base",
+            "verdict": "REJECTED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Facts are correct (Archon Plate str 103, superior up to +15% ED, Enigma needs 3os body armor, +2 skills/+45% FRW/+1 Teleport, ~775 max defense on a perfect base all verified). But the item is framed around ENIGMA, which the selection bar explicitly names as common-knowledge and BORING. A superior Archon Plate is not a surprising 'wait, THAT?' item to any player who knows Enigma - and everyone knows Enigma. Fails the surprise bar. Also note Enigma needs 3 sockets, not 3-or-4, so 'can take 3 sockets' is the right target; the finding's stray mention of '4-socket' in the title is misleading since Enigma uses 3."
+          },
+          {
+            "name": "Magic Circlet +2 class skills / 20% FCR (2-socket)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Circlet types = Circlet, Coronet, Tiara, Diadem. Skill prefix and 20% FCR suffix roll on magic circlets; magic = 1 prefix + 1 suffix. Larzuk max sockets: Circlet/Coronet cap at 2 (so 'up to 2' is correct for the base named), while Tiara/Diadem can reach 3 - worth a footnote so it is not read as a universal 2-cap. Strong hidden-value item; most players do salvage blue circlets."
+          },
+          {
+            "name": "Rare Circlet +2 skills / 20% FCR / dual-stat / 2os (God circlet)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Rares carry up to 3 prefixes + 3 suffixes; +3 skill prefixes can spawn on rare circlets/tiaras/diadems; 20% FCR suffix and resist/life/stat affixes can co-exist; Larzuk up to 2 sockets on Circlet/Coronet (3 on Tiara/Diadem). The multi-affix rarity framing is accurate. Top-tier caster item, good Pillar 1 S-tier example."
+          },
+          {
+            "name": "4-socket Colossus Voulge for Pride / Infinity",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. Colossus Voulge gets a guaranteed 4 sockets from Larzuk (highest-DPS polearm with that guarantee); very high strength requirement; Pride = Cham Sur Io Lo in 4os polearm with Concentration aura; Infinity is a 4os polearm word usually put in the faster Thresher family. All accurate."
+          },
+          {
+            "name": "6-socket Colossus Blade for Breath of the Dying",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Verified. BOTD = Vex Hel El Eld Zod Eth in a 6os weapon; Colossus Blade max 6 sockets; Zod grants Indestructible so eth does not degrade; eth adds enhanced damage. The exact-6 + eth gate is a real hidden-value angle. Rune order correct."
+          },
+          {
+            "name": "Cruel elite weapon (magic, LLD/showcase base)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "The +300% figure is right: Cruel's range is +201-300%. But it is +Enhanced Damage (boosts both min and max), not specifically 'enhanced-maximum-damage' - the finding twice calls it a 'maximum-damage' prefix, which is inaccurate terminology players in the LLD scene will flag. Fix to 'enhanced damage.' The LLD-niche framing and Cruel-as-top-damage-prefix are fine. Keep, correct the wording."
+          },
+          {
+            "name": "3-socket Great Poleaxe / Thresher for Insight (non-eth)",
+            "verdict": "CORRECTED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "The item's own title says '3-socket' but Insight needs 4 sockets, and the WHY/CLAIMS correctly say 4os and reference a '4-socket Thresher.' The '3-socket' in the title is a typo/error - it must be 4. Fix the title to 4-socket. Otherwise correct: Insight = Ral Tir Tal Sol 4os polearm/staff/missile, Meditation aura, Great Poleaxe rolls 4 readily in the ilvl 26-40 band, non-eth is player-repairable. Borderline on surprise (it is a well-known budget staple) but the non-eth angle is a fair Pillar 1 note."
+          },
+          {
+            "name": "4-socket Crystal Sword / Flail for Spirit (weapon) vs Monarch (shield)",
+            "verdict": "CORRECTED",
+            "keepForSite": false,
+            "confidence": "medium",
+            "corrections": "Facts mostly fine: Spirit in 4os sword or shield; Monarch is the low-str 4os shield; two Spirits = +4 skills; each Spirit FCR rolls 25-35%. But 'up to 70% FCR base' from two Spirits assumes both roll a perfect 35% (35+35=70) - state it as 'up to 70% only with two perfect rolls,' not a flat base. Bigger issue: this is a near-duplicate of items #2 and #1 combined (Spirit sword base + Monarch shield base) and 'Monarch is the ONLY non-Paladin 4os shield' repeats the same overstatement flagged in #1 (Aegis/Ward also reach 4). Recommend dropping as redundant; if kept, dedupe against #1 and #2 and fix the 'only shield' claim."
+          }
+        ],
+        "notes": "Verified against Arreat Summit, diablo2.io, Diablo Fandom wiki, d2runewizard, PureDiablo, and Blizzard forums. Recipes and rune ORDER checked item by item; all runeword recipes (Spirit, Grief, Insight, Infinity, Breath of the Dying, Pride, Enigma) are correct including order. Socket-count gates (Phase Blade 6/Grief 5, Colossus Voulge 4 Larzuk, Colossus Blade 6, Crystal Sword 6) all verified. HARD FACTUAL ERRORS found: (1) #6 Berserker Axe base range is 2, NOT 3 - remove. (2) #1 and #14 both claim Monarch is the ONLY non-Paladin 4os shield - FALSE, Aegis and Ward also spawn 4os; Monarch is just the lowest-str option. (3) #13 title says 3-socket but Insight needs 4 (title typo). (4) #7 Enigma base rejected on selection-bar grounds (common knowledge), not facts. SOFT/TERMINOLOGY issues: #12 Cruel is enhanced damage not 'maximum damage'; #3 eth on a weapon gives enhanced damage not defense, and the 'Thresher top / Great Poleaxe budget' tiering is disputed; #8 Larzuk 2-socket cap is Circlet/Coronet-only (Tiara/Diadem reach 3). #14 is largely redundant with #1+#2. No historical claims were present (all n/a), so no folklore verification was needed. All facts sourced to current D2R (mature ladder) mechanics."
+      }
+    },
+    {
+      "domain": "roll-dependent",
+      "found": {
+        "domain": "Diablo 2 Resurrected edge-case unique items where value comes from the variable stat roll, socket count, or ethereal form rather than the item itself",
+        "items": [
+          {
+            "name": "Verdungo's Hearty Cord",
+            "alias": "Verd, Verdungo's",
+            "category": "Hidden Value - roll-dependent unique belt (Mithril Coil)",
+            "obscurity": 3,
+            "valueTierGuess": "A for a perfect 15DR/40vit, C for an average roll",
+            "rarityTier": "Common item, rare roll",
+            "whyValuable": "The whole point of Verdungo's is Damage Reduced By 10-15%. Damage reduction is a multiplicative survivability stat and 15% vs 10% is a 5-point gap that traders treat as two different items. The other prized roll is +30-40 Vitality. A '15/40' (15 DR, 40 vit) is the trophy; a '10/30' is vendor-adjacent by comparison. Replenish Life +10-13 and +90-140% ED are afterthoughts. Because DR is capped and hard to stack, that last 5% is disproportionately valued.",
+            "teachingPoint": "On Verdungo's you quote it as DR/vitality, e.g. '15/40'. The item name tells you almost nothing. The two numbers are the item. Enhanced Defense on a belt is nearly irrelevant because belt defense is a tiny slice of total defense.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Verdungo's Hearty Cord is a unique Mithril Coil belt",
+              "Damage Reduced By 10-15% (variable), 15% is perfect",
+              "+30-40 To Vitality (variable), 40 is perfect",
+              "Replenish Life +10-13 (variable)",
+              "+90-140% Enhanced Defense (variable)",
+              "10% Faster Hit Recovery (fixed)",
+              "+100-120 Maximum Stamina (variable)",
+              "Perfect is shorthanded as 15/40"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/verdungo-s-hearty-cord-t1011.html",
+              "https://www.purediablo.com/items/verdungos-hearty-cord",
+              "https://diablo.fandom.com/wiki/Verdungo%27s_Hearty_Cord"
+            ]
+          },
+          {
+            "name": "Griffon's Eye",
+            "alias": "Griffon's, Griff",
+            "category": "Hidden Value - roll-dependent unique diadem",
+            "obscurity": 2,
+            "valueTierGuess": "S for -20/15, A for -15/10",
+            "rarityTier": "Chase item, roll multiplies value",
+            "whyValuable": "Two variable stats matter: -15 to -20% To Enemy Lightning Resistance and +10-15% To Lightning Skill Damage. The pierce roll (-%ELR) is the more valued of the two because monster resistances in Hell make piercing more valuable than raw skill damage. Quoted as pierce/damage, e.g. '20/15' perfect vs '15/10' base. A perfect 20/15 is economically a different item from a 15/10 despite identical names. Note the +% Lightning Skill Damage line is ladder-only.",
+            "teachingPoint": "The item is famous but the roll gap is what non-experts miss. Shorthand is '20/15'. First number is enemy lightning resist reduction (want -20), second is lightning skill damage (want 15). Pierce is weighted more heavily than damage.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Griffon's Eye is a unique Diadem, required level 76",
+              "-15 to -20% To Enemy Lightning Resistance (variable), -20 is perfect",
+              "+10-15% To Lightning Skill Damage (variable, ladder-only), 15 is perfect",
+              "+1 To All Skills and +25% Faster Cast Rate (fixed)",
+              "+100-200 Defense (variable), up to ~260 total",
+              "Perfect shorthanded as 20/15"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Griffon's_Eye",
+              "https://diablo2.io/forums/finally-got-a-griffon-s-eye-t1434048.html"
+            ]
+          },
+          {
+            "name": "Death's Fathom",
+            "alias": "Fathom, DF",
+            "category": "Hidden Value - roll-dependent unique weapon (Dimensional Shard)",
+            "obscurity": 2,
+            "valueTierGuess": "S for 30%, A for 25-29%, B for low",
+            "rarityTier": "Chase item, roll defines value",
+            "whyValuable": "The single stat that matters is +15-30% To Cold Skill Damage. A 30 is the trophy; 25-29 is the common 'good' bracket sold as one tier; below 25 collapses. Because it multiplies a cold sorceress's entire damage output, one percent near the top is worth a lot. Traders literally list them as 'Death's Fathom [30% Cold Skill Damage]' vs '[25-29%]'.",
+            "teachingPoint": "Quoted purely by its cold skill damage number. A '30 Fathom' is a distinct market good. The +3 Sorceress Skills and +20 FCR are fixed baseline, so no one mentions them.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Death's Fathom is a unique Dimensional Shard",
+              "+15-30% To Cold Skill Damage (variable), 30 is perfect",
+              "+3 To Sorceress Skill Levels (fixed)",
+              "+20% Faster Cast Rate (fixed)",
+              "Common trade brackets are 30, 25-29, and below-25"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Death's_Fathom",
+              "https://diablo2.io/uniques/death-s-fathom-t744.html"
+            ]
+          },
+          {
+            "name": "Death's Web",
+            "alias": "DWeb, Web",
+            "category": "Hidden Value + ethereal case - roll-dependent unique wand (Unearthed Wand)",
+            "obscurity": 3,
+            "valueTierGuess": "S for eth -50/+2, A for -50 non-eth",
+            "rarityTier": "One of the rarest uniques, roll and eth both matter",
+            "whyValuable": "The stat that decides everything is -40-50% To Enemy Poison Resistance. -50 is the trophy. Second variable is +1-2 to Poison and Bone Skills; +2 is best. So a perfect is '-50/+2'. On top of the roll, ethereal Death's Web is separately prized: it is a caster weapon so it never loses durability from use, meaning the un-repairable eth downside barely applies while you get higher base. This is a classic case where BOTH the roll and the eth tag compound.",
+            "teachingPoint": "Quoted as EPR/skills, e.g. '-50/+2'. The -%EPR is multiplicative against monster poison resist so it is worth far more than the skill line. Ethereal is a genuine upside here because casters don't drain durability.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Death's Web is a unique Unearthed Wand, elite, required level 66",
+              "-40-50% To Enemy Poison Resistance (variable), -50 is perfect",
+              "+1-2 To Poison and Bone Skills, Necromancer only (variable), +2 is perfect",
+              "+2 To All Skills (fixed)",
+              "Ethereal versions are valued higher because it is a caster weapon that does not lose durability",
+              "Quoted as -50/+2"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Death's_Web",
+              "https://diablo2.io/uniques/death-s-web-t745.html"
+            ]
+          },
+          {
+            "name": "Nightwing's Veil",
+            "alias": "Nightwing's, NW",
+            "category": "Hidden Value - roll-dependent unique helm (Spired Helm)",
+            "obscurity": 3,
+            "valueTierGuess": "A for 15% cold, C for low roll",
+            "rarityTier": "Common chase for cold builds, roll multiplies value",
+            "whyValuable": "The only helm in the game with +% Cold Skill Damage. The stat that matters is +8-15% To Cold Skill Damage; 15 is the trophy. Secondary variables are +10-20 Dexterity, +5-9 Cold Absorb, +90-120% ED. A perfect is quoted '15/20/9/120'. For a cold sorc it stacks multiplicatively with Death's Fathom, so the top roll is chased hard.",
+            "teachingPoint": "Lead number is cold skill damage (want 15). The range is 8-15, not the 5-15 people sometimes misquote. Since it is the only cold-skill-damage helm, it has no substitute and the top roll commands a premium.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Nightwing's Veil is a unique Spired Helm, required level 67",
+              "+8-15% To Cold Skill Damage (variable), 15 is perfect",
+              "+2 To All Skills (fixed)",
+              "+10-20 To Dexterity (variable)",
+              "+5-9 Cold Absorb (variable)",
+              "+90-120% Enhanced Defense (variable)",
+              "Half Freeze Duration and -50% Requirements (fixed)",
+              "Perfect shorthanded as 15/20/9/120"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/nightwing-s-veil-t865.html",
+              "https://diablo.fandom.com/wiki/Nightwing%27s_Veil"
+            ]
+          },
+          {
+            "name": "Eschuta's Temper",
+            "alias": "Eschuta's, Esc",
+            "category": "Hidden Value - roll-dependent unique orb (Eldritch Orb)",
+            "obscurity": 3,
+            "valueTierGuess": "A for 3/20 light, B otherwise",
+            "rarityTier": "Common item, roll and skill line define value",
+            "whyValuable": "Two independent variables stack: +1-3 Sorceress Skills AND either +10-20% Fire OR +10-20% Lightning Skill Damage (it rolls both lines separately). The trophy is '3/20 light' (+3 skills, +20% lightning skill damage) for a lightning sorc, or '3/20 fire'. A 3-skill 20-damage roll is a completely different item from a 1-skill 10-damage one. Quoted as skills/element+damage.",
+            "teachingPoint": "Shorthand '3/20 light' means +3 sorc skills and +20% lightning skill damage. Because two separate variables both swing wide, the odds of a double-perfect are low, which is why they command far more than an average copy.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Eschuta's Temper is a unique Eldritch Orb",
+              "+1-3 To Sorceress Skill Levels (variable)",
+              "+10-20% To Fire Skill Damage (variable)",
+              "+10-20% To Lightning Skill Damage (variable)",
+              "+20-30 To Energy (variable)",
+              "Perfect quoted as 3/20 fire or 3/20 light"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Eschuta%27s_Temper",
+              "https://diablo2.io/uniques/eschuta-s-temper-t764.html"
+            ]
+          },
+          {
+            "name": "The Grandfather",
+            "alias": "GF, Grandpa",
+            "category": "Hidden Value - roll-dependent unique sword (Colossus Blade)",
+            "obscurity": 2,
+            "valueTierGuess": "A for 250 ED, C for low roll",
+            "rarityTier": "Iconic item, perfect roll is the rare part",
+            "whyValuable": "+150-250% Enhanced Damage is an enormous 100-point spread, so a 250 GF is a genuinely different weapon from a 150 one. Because it is elite and drops rarely, then also has to roll near 250, a perfect is exponentially rarer than any drop. Collectors and melee-purists chase the 250. Also carries +80 Life fixed.",
+            "teachingPoint": "Quoted by its ED, e.g. 'GF 250'. Even though Grief out-damages it, the perfect-roll Grandfather is a collector and status item, so the roll drives price more than the meta does.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "The Grandfather is a unique Colossus Blade, required level 81",
+              "+150-250% Enhanced Damage (variable), 250 is perfect",
+              "+80 To Life (fixed)",
+              "+20 To All Attributes (fixed)",
+              "Indestructible",
+              "Quoted by ED value, e.g. GF 250"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/The_Grandfather_(Diablo_II)",
+              "https://diablo2.io/post4503697.html"
+            ]
+          },
+          {
+            "name": "War Traveler",
+            "alias": "Travs, WT",
+            "category": "Hidden Value - roll-dependent unique boots (Battle Boots)",
+            "obscurity": 2,
+            "valueTierGuess": "B for 50 MF, C-D for low roll",
+            "rarityTier": "Common item, MF roll drives price",
+            "whyValuable": "The 30-50% Magic Find is the whole item; it is the highest MF on any boots. A 50 Trav is a distinct trade good, 40-45 is mid, 30-34 is the floor. MF hunters want the max because boots are one of the few MF slots that also give FRW. One roll number determines the entire value ladder.",
+            "teachingPoint": "Always quoted by MF number, e.g. '50 Travs'. Fun trivia: the Adds 15-25 Damage line hits enemies as a per-hit spike, which is why walking over things can proc odd damage numbers, but nobody trades on it. MF is everything.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "War Traveler is a unique Battle Boots",
+              "30-50% Better Chance of Getting Magic Items (variable), 50 is perfect",
+              "25% Faster Run/Walk (fixed)",
+              "+10 Strength and +10 Vitality (fixed)",
+              "Adds 15-25 Damage (fixed)",
+              "Quoted by MF, e.g. 50 Travs"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/war-traveler-t1015.html",
+              "https://d2runes.io/uniques/war-traveler/"
+            ]
+          },
+          {
+            "name": "Titan's Revenge (ethereal)",
+            "alias": "Eth Titan's, Titans",
+            "category": "Ethereal-only value case - unique throwing javelin (Ceremonial Javelin)",
+            "obscurity": 3,
+            "valueTierGuess": "A for eth high-ED, B for non-eth",
+            "rarityTier": "Common item, ethereal form is the rare valuable version",
+            "whyValuable": "Titan's has Replenishes Quantity, so an ethereal Titan's is nearly pure upside: eth gives roughly 50% more damage, and the replenish-quantity mod means the un-repairable eth throwing weapon refills its own stack instead of running out. It is the textbook example of a unique that is valuable specifically in ethereal form because a normally-crippling eth downside (no repair) is negated by an inherent mod. Also carries +150-200% ED variable.",
+            "teachingPoint": "Ethereal usually ruins a throwing/degrading weapon because you can't repair it. Titan's flips that: Replenishes Quantity refills the stack, so eth is a straight damage upgrade. This is the cleanest 'eth-only premium' teaching example in the game.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Titan's Revenge is a unique Ceremonial Javelin",
+              "Replenishes Quantity [1 in 3 sec.] (fixed)",
+              "+150-200% Enhanced Damage (variable)",
+              "+30% Faster Run/Walk, +20 Strength, +20 Dexterity (fixed)",
+              "Ethereal grants roughly 50% more damage and the replenish mod offsets the no-repair downside"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Titan%27s_Revenge",
+              "https://diablo2.io/post4369893.html"
+            ]
+          },
+          {
+            "name": "Sandstorm Trek (ethereal)",
+            "alias": "Eth Trek, Sandstorm",
+            "category": "Ethereal-only value case + roll-dependent - unique boots (Scarabshell Boots)",
+            "obscurity": 3,
+            "valueTierGuess": "A for eth 15/15, B for non-eth perfect",
+            "rarityTier": "Common item, eth + roll combine",
+            "whyValuable": "Sandstorm Trek has self-repair (replenishes durability), so an ethereal pair keeps its higher base defense without ever breaking. On top of eth, the trophy roll is +10-15 Strength and +10-15 Vitality, plus Poison Resist +40-70 and +140-170% ED. A perfect eth is quoted '15/15/70/170'. Both the ethereal tag and the stat roll independently multiply value.",
+            "teachingPoint": "Quoted as str/vit/pres/ED, e.g. '15/15/70/170'. Eth matters because self-repair makes an un-repairable eth item safe to wear forever. The strength and vitality rolls are what let it hit gear breakpoints, so 15/15 is the chase.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Sandstorm Trek is a unique Scarabshell Boots",
+              "+10-15 To Strength (variable), 15 is perfect",
+              "+10-15 To Vitality (variable), 15 is perfect",
+              "Poison Resist +40-70% (variable)",
+              "+140-170% Enhanced Defense (variable)",
+              "20% Faster Hit Recovery and 20% Faster Run/Walk (fixed)",
+              "Has self-repair, making ethereal viable and valuable",
+              "Perfect eth quoted as 15/15/70/170"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/sandstorm-trek-t898.html",
+              "https://diablo.fandom.com/wiki/Sandstorm_Trek"
+            ]
+          },
+          {
+            "name": "Wisp Projector",
+            "alias": "Wisp, Wisps",
+            "category": "Hidden Value - roll-dependent unique ring",
+            "obscurity": 4,
+            "valueTierGuess": "A for 20 light absorb, C for low roll",
+            "rarityTier": "Rarest unique ring, roll defines value",
+            "whyValuable": "The rarest unique ring, and the only stat anyone cares about is +10-20 Lightning Absorb. A 20 is the trophy; a 10 is nearly worthless by comparison. Lightning absorb is a niche but hard-capped defensive stat (huge for PvP and Infinity-era lightning immunity), and absorb stacks across two rings, so people chase two 20-absorb Wisps. The +10-20% MF and the charged spirits are ignored.",
+            "teachingPoint": "Quoted purely by absorb, e.g. '20 Wisp'. This is a case where even veterans undervalue a low roll: a 10-absorb Wisp is a curiosity, a 20-absorb is a chase item. Absorb from two rings stacks, doubling the demand for perfect copies.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Wisp Projector is a unique ring, required level 76, the rarest unique ring",
+              "+10-20 Lightning Absorb (variable), 20 is perfect",
+              "10-20% Better Chance of Getting Magic Items (variable)",
+              "10% Chance To Cast Level 16 Lightning On Striking (fixed)",
+              "Carries charges of Oak Sage, Heart of Wolverine, Spirit of Barbs",
+              "Lightning absorb stacks across two rings"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/wisp-projector-t1023.html",
+              "https://diablo.fandom.com/wiki/Wisp_Projector"
+            ]
+          },
+          {
+            "name": "Mara's Kaleidoscope",
+            "alias": "Mara's",
+            "category": "Hidden Value - roll-dependent unique amulet",
+            "obscurity": 2,
+            "valueTierGuess": "B for 30 all res, C for low roll",
+            "rarityTier": "Common chase, resist roll tiers it",
+            "whyValuable": "A staple +2 skills caster amulet, but the trade tier is set by All Resistances +20-30. A '30 Mara' clears resist caps with room to spare; a low roll leaves gaps you must patch elsewhere. The +2 All Skills and +5 all attributes are fixed, so the single resist number is the only lever and it splits the market into a 30 bracket and everything below.",
+            "teachingPoint": "Quoted by resist, e.g. '30 Mara'. Because +2 skills is fixed, two Maras can look identical on the skill line but be a full tier apart in price purely on the 20-vs-30 resist roll.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Mara's Kaleidoscope is a unique amulet, required level 67",
+              "+2 To All Skills (fixed)",
+              "All Resistances +20-30 (variable), 30 is perfect",
+              "+5 To All Attributes (fixed)",
+              "Quoted by resist value, e.g. 30 Mara"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Mara's_Kaleidoscope_(Diablo_II)",
+              "https://lootcube.net/en/uniques/maras-kaleidoscope"
+            ]
+          },
+          {
+            "name": "Andariel's Visage",
+            "alias": "Andy's, Anni Visage, Andy",
+            "category": "Hidden Value - roll-dependent unique helm (Demonhead) + socket nuance",
+            "obscurity": 3,
+            "valueTierGuess": "A for high ED + good socket, B otherwise",
+            "rarityTier": "Common item, roll and socket combine",
+            "whyValuable": "Variable +100-150% ED and 8-10% Life Steal and +25-30 Strength. But the deeper edge case is the -30% Fire Resist penalty: a perfect Andariel's is one where you socket it to fully cancel that penalty. Traders distinguish copies that can take a Ral rune or a 15IAS/resist jewel to offset the fire hit. Socket count and what's socketed materially change the item's value here, unlike most helms.",
+            "teachingPoint": "This is the socket-matters case. Andariel's carries a built-in -30 fire resist, so a socketed Andy with a 15IAS/28-31 resist jewel is worth more than a raw one, because the socket is doing double duty (speed + cancelling the penalty). Also quoted by ED and life-steal roll.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Andariel's Visage is a unique Demonhead helm",
+              "+100-150% Enhanced Defense (variable)",
+              "8-10% Life Stolen Per Hit (variable)",
+              "+25-30 To Strength (variable)",
+              "+2 To All Skills and 20% Increased Attack Speed (fixed)",
+              "Fire Resist -30% penalty (fixed), commonly offset with a socketed jewel",
+              "+70% Poison Resist and +10% Max Poison Resist (fixed)"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/andariel-s-visage-t669.html",
+              "https://diablo.fandom.com/wiki/Andariel%27s_Visage_(Diablo_II)"
+            ]
+          },
+          {
+            "name": "Metalgrid",
+            "alias": "Metal, MG",
+            "category": "Hidden Value - roll-dependent unique amulet",
+            "obscurity": 4,
+            "valueTierGuess": "B for 35 all res, C for low roll",
+            "rarityTier": "Ladder-only chase, resist roll tiers it",
+            "whyValuable": "Best resist-and-defense amulet in the game, gated by All Resistances +25-35. The 35 roll is the trophy for a melee or hybrid who wants max resist without a skill amulet. Secondary variable is +400-450 Attack Rating and +300-350 Defense. It is a non-obvious pick because most people reach for Mara's or a rare; a 35 Metalgrid is a specialist chase.",
+            "teachingPoint": "Quoted by resist, e.g. '35 Metalgrid'. A sleeper: it out-resists Mara's (35 vs 30) and adds big AR and defense, but has no skills, so its value is entirely in hitting that 35 roll for a build that doesn't need +skills.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Metalgrid is a unique amulet, required level 81, ladder-only origin (1.10+)",
+              "All Resistances +25-35 (variable), 35 is perfect",
+              "+400-450 To Attack Rating (variable)",
+              "+300-350 Defense (variable)",
+              "Level 22 Iron Golem and Level 12 Iron Maiden charges (fixed)"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Metalgrid",
+              "https://d2r-runetracker.com/database/item/metalgrid"
+            ]
+          },
+          {
+            "name": "Bul-Kathos' Wedding Band",
+            "alias": "BK, BKWB, BK ring",
+            "category": "Hidden Value - roll-dependent unique ring",
+            "obscurity": 3,
+            "valueTierGuess": "B for 5% LL, C for 3-4%",
+            "rarityTier": "Common item, life-leech roll tiers it",
+            "whyValuable": "A +1 skills ring where the trade lever is 3-5% Life Stolen Per Hit. A 5% LL BK is the standard; 3% is a downgrade physical builds avoid. Also carries a level-scaling life bonus (0-49 based on level). The name is common but a max-leech copy is the one people actually pay up for, since +1 skills rings are scarce and 5% leech is the survivability difference.",
+            "teachingPoint": "Quoted by leech, e.g. '5 LL BK'. One of the few +skills rings in the game, so it competes with SoJ; the leech roll is the tiebreaker between a keeper and a mule.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Bul-Kathos' Wedding Band is a unique ring, required level 58",
+              "+1 To All Skills (fixed)",
+              "3-5% Life Stolen Per Hit (variable), 5 is perfect",
+              "0-49 To Life based on character level",
+              "+50 Maximum Stamina (fixed)",
+              "Quoted by leech, e.g. 5 LL BK"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/bul-kathos-wedding-band-t715.html",
+              "https://diablo.fandom.com/wiki/Bul-Kathos'_Wedding_Band"
+            ]
+          },
+          {
+            "name": "Herald of Zakarum",
+            "alias": "HoZ",
+            "category": "Hidden Value - socket-count-dependent unique paladin shield (Gilded Shield)",
+            "obscurity": 3,
+            "valueTierGuess": "A for 4-socket high-ED, B for 0-socket",
+            "rarityTier": "Common item, socket count is the rare valuable part",
+            "whyValuable": "This is the socket-count case. HoZ can roll up to 4 sockets, and a 4-socket HoZ (for 4 resist jewels or 4x 15IAS) is worth dramatically more than a 0- or 1-socket copy. The +150-200% ED variable also matters, but socket count is the headline. A '4os 200ed HoZ' is a different economic item from a bare one. Sockets on this unique are rolled at drop, not added, so you can't fix a bad one with Larzuk reliably to the max.",
+            "teachingPoint": "Quoted by sockets and ED, e.g. '4os/200 HoZ'. Perfect teaching example that on some uniques the socket COUNT is the rare stat: a 4-socket HoZ lets you stack four jewels, quadrupling the customization, which is why it outvalues an identical-stat 0-socket.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Herald of Zakarum is a unique Gilded Shield, Paladin, required level 42",
+              "+150-200% Enhanced Defense (variable)",
+              "Can roll up to 4 sockets, and socket count strongly affects value",
+              "All Resistances +50 (fixed)",
+              "+2 To Paladin Skills and +2 Combat Skills (fixed)",
+              "Quoted by sockets and ED, e.g. 4os/200"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/herald-of-zakarum-t815.html",
+              "https://diablo.fandom.com/wiki/Herald_of_Zakarum"
+            ]
+          },
+          {
+            "name": "Highlord's Wrath",
+            "alias": "Highlord's, HLW",
+            "category": "Hidden Value edge - level-scaling stat unique amulet (no wide random roll)",
+            "obscurity": 3,
+            "valueTierGuess": "B baseline (roll is fixed, not variable)",
+            "rarityTier": "Common item, NOT roll-dependent",
+            "whyValuable": "Included as the contrast case: people assume Highlord's has a 'deadly strike roll' to chase, but the deadly strike is +0.375% per character level (about 37% at 99), which is DETERMINISTIC by level, not a random roll. There is nothing to chase on the trade side; every Highlord's is identical. Useful teaching foil against the truly roll-dependent items.",
+            "teachingPoint": "The trap. Highlord's Deadly Strike scales with your level, it does not roll. A level-99 character always gets ~37%. Do not quote or pay for a 'good roll' Highlord's, there is no such thing. Contrast this with Bul-Kathos, whose leech genuinely varies.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Highlord's Wrath is a unique amulet, required level 65",
+              "Deadly Strike is 0.375% per character level (level-based, not a random roll)",
+              "About 37% Deadly Strike at level 99",
+              "+1 To All Skills, +20% Increased Attack Speed, Lightning Resist +35% (fixed)",
+              "No wide variable stat, so all copies are equivalent"
+            ],
+            "sources": [
+              "https://diablo.fandom.com/wiki/Highlord%27s_Wrath",
+              "https://d2runes.io/uniques/highlords-wrath/"
+            ]
+          },
+          {
+            "name": "Skin of the Vipermagi",
+            "alias": "Viper, Vipermagi, Skin",
+            "category": "Hidden Value - roll-dependent unique armor (Serpentskin Armor)",
+            "obscurity": 2,
+            "valueTierGuess": "C for 35 res, D for low roll",
+            "rarityTier": "Very common item, resist roll gives it any value",
+            "whyValuable": "A budget caster armor whose only trade lever is All Resistances +20-35. A 35-res Viper is worth a real premium over the pile of 20-24 copies precisely because it's otherwise a cheap common item, so the resist roll is nearly the entire value. Perfect example that even on a low-tier unique, the roll can multiply value several times.",
+            "teachingPoint": "Quoted by resist, e.g. '35 Viper'. Because the item floods the economy, an average one is near-worthless and a 35 is the only version worth listing. The roll is doing all the work.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Skin of the Vipermagi is a unique Serpentskin Armor",
+              "All Resistances +20-35 (variable), 35 is perfect",
+              "+1 To All Skills and +30% Faster Cast Rate (fixed)",
+              "+120% Enhanced Defense (fixed)",
+              "Magic Damage Reduced by 9-13 (variable)",
+              "Quoted by resist, e.g. 35 Viper"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/skin-of-the-vipermagi-t909.html",
+              "https://diablo.fandom.com/wiki/Skin_of_the_Vipermagi"
+            ]
+          },
+          {
+            "name": "Raven Frost",
+            "alias": "Raven, RF",
+            "category": "Hidden Value - roll-dependent unique ring",
+            "obscurity": 2,
+            "valueTierGuess": "B for 20 dex, C for 15 dex",
+            "rarityTier": "Common item, dex roll tiers it",
+            "whyValuable": "The only ring with Cannot Be Frozen, so it is worn on nearly every build; the trade lever is +15-20 To Dexterity. A 20-dex Raven hits dex-based block and attack-rating breakpoints that a 15 misses, so it commands a premium. Secondary variable is +150-250 Attack Rating. The Cannot Be Frozen and 20% cold absorb are fixed.",
+            "teachingPoint": "Quoted by dex, e.g. '20 dex Raven'. Since it is near-mandatory gear, the 20-dex copies are always in demand for hitting max-block dex requirements; a 15 is the budget version.",
+            "quality": "unique",
+            "history": "",
+            "legitimacy": "",
+            "factClaims": [
+              "Raven Frost is a unique ring, required level 45",
+              "+15-20 To Dexterity (variable), 20 is perfect",
+              "+150-250 To Attack Rating (variable)",
+              "Adds 15-45 Cold Damage (variable)",
+              "Cold Absorb 20% and Cannot Be Frozen (fixed)",
+              "+40 To Mana (fixed)",
+              "Quoted by dex, e.g. 20 dex Raven"
+            ],
+            "sources": [
+              "https://diablo2.io/uniques/raven-frost-t884.html",
+              "https://diablo.fandom.com/wiki/Raven_Frost"
+            ]
+          }
+        ],
+        "notes": "Coverage delivered: 20 items, exceeding the 12 minimum. Verdungo's covered in detail with exact ranges (DR 10-15, vit 30-40, replenish 10-13). All variable ranges verified against diablo2.io and the Diablo Fandom wiki via web search.\n\nKey cross-cutting findings for the site:\n- SHORTHAND CONVENTIONS confirmed: items are quoted by their load-bearing roll(s) only, in a slash-separated order, e.g. Verdungo's '15/40' (DR/vit), Griffon's '20/15' (pierce/damage), Nightwing's '15/20/9/120', Sandstorm '15/15/70/170', Fathom by single number '30', Raven by dex '20 dex'.\n- WHY 1% MULTIPLIES VALUE: on multiplicative stats (cold/lightning skill damage, -%enemy resist, damage reduction) the top few points are disproportionately valued because they compound against the whole build and near hard caps.\n- SOCKET-COUNT CASE: Herald of Zakarum is the cleanest example (up to 4 sockets, 4os copy is a different item). Andariel's Visage is a secondary socket case where the socket is used to cancel its built-in -30 fire resist.\n- ETHEREAL-ONLY VALUE: Titan's Revenge (Replenishes Quantity negates no-repair), Sandstorm Trek (self-repair), Death's Web (caster weapon, no durability loss). These are the three strongest eth-premium teaching cases.\n- CONTRAST / TRAP CASE: Highlord's Wrath is included specifically because players wrongly think its Deadly Strike is a chaseable roll; it is deterministic per level. Gore Rider and Arachnid Mesh were checked and confirmed to have essentially no chase roll (all key stats fixed), so they were excluded as non-examples.\n\nPATCH-COLLAPSE caveat: I did NOT find a well-sourced, specific case of a unique whose value collapsed because an OFFICIAL D2R patch narrowed its variable range. The 'Bloodlord Skull 2->4 socket' change I found was from D2R Reimagined, a third-party mod, NOT official Blizzard D2R, so I excluded it to avoid a false fact claim. If the site wants a genuine range-change story, the strongest historically-accurate angle is the classic-era 1.10 rebalance where many uniques had ranges/mods changed, but I could not verify a clean single-item 'value collapsed' narrative to the accuracy bar in this session and recommend a dedicated follow-up search before publishing that specific claim.\n\nObscurity ratings are relative to a seasoned ladder player: Wisp Projector and Metalgrid (4) are the most likely to make a veteran say 'wait, that roll matters?', while Grandfather and Griffon's (2) are widely known but still have a roll gap casual players miss."
+      },
+      "verify": {
+        "checked": [
+          {
+            "name": "Verdungo's Hearty Cord",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "All stats verified against Fandom/diablo2.io. Unique Mithril Coil, RL 63. Damage Reduced By 10-15% (the actual mod is 'Physical Damage Received Reduced By 10-15%' but displays similarly), +30-40 Vitality, Replenish Life +10-13, +90-140% ED, 10% FHR, +100-120 Max Stamina. The '15/40' shorthand is legitimate. Good roll-dependent pick with real surprise value on the DR line."
+          },
+          {
+            "name": "Griffon's Eye",
+            "verdict": "CONFIRMED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Facts correct: unique Diadem RL 76, -15 to -20% Enemy Lightning Res, +10-15% Lightning Skill Damage, +1 all skills, +25% FCR, +100-200 Defense. The whole item is historically ladder-only (not just the skill damage line as the finding implies); the +% Light Skill Damage mod is flagged ladder-only in data but appears on traded non-ladder copies too. FAILS selection bar: Griffon's is explicitly named as common knowledge and is boring here."
+          },
+          {
+            "name": "Death's Fathom",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Dimensional Shard, RL 73. +15-30% Cold Skill Damage, +3 Sorc skills, +20% FCR confirmed. Finding omits the +25-40% Fire/Lightning Resist lines but those are not load-bearing. 30/25-29/below-25 trade brackets are an accurate description of the market. Strong roll-dependent pick."
+          },
+          {
+            "name": "Death's Web",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Elite unique Unearthed Wand, RL 66. -40-50% Enemy Poison Res, +1-2 Poison and Bone Skills (Necro only), +2 all skills confirmed. Ethereal CAN spawn and is prized because a caster does not swing it, so no-repair barely matters. '-50/+2' perfect is correct. Excellent obscure roll+eth compound pick."
+          },
+          {
+            "name": "Nightwing's Veil",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Spired Helm RL 67. +8-15% Cold Skill Damage, +2 all skills, +10-20 Dex, +5-9 Cold Absorb, +90-120% ED, Half Freeze Duration, -50% Requirements confirmed. Only cold-skill-damage helm. '15/20/9/120' perfect is correct. Strong pick."
+          },
+          {
+            "name": "Eschuta's Temper",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Eldritch Orb RL 72. +1-3 Sorc skills, +40% FCR (finding did not need to list FCR), +10-20% Fire Skill Damage, +10-20% Lightning Skill Damage, +20-30 Energy confirmed. Both element lines roll separately as claimed. '3/20 fire' or '3/20 light' shorthand accurate."
+          },
+          {
+            "name": "The Grandfather",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Unique Colossus Blade RL 81, +150-250% ED, +80 Life, +20 All Attributes, Indestructible confirmed. Also carries +2.5 max damage per level and 50% AR bonus (not listed, not load-bearing). Iconic name but the near-250 perfect roll being the genuinely rare part is a fair 'hidden value' angle. Borderline on the bar; keep for the roll story."
+          },
+          {
+            "name": "War Traveler",
+            "verdict": "CONFIRMED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Unique Battle Boots RL 42, 30-50% MF, 25% FRW, +10 Str, +10 Vit, Adds 15-25 Damage confirmed. Facts correct. FAILS bar: War Travs and 'higher MF roll = more value' is common knowledge among any player who has MF-farmed; not a 'wait THAT is worth something' moment."
+          },
+          {
+            "name": "Titan's Revenge (ethereal)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Ceremonial Javelin RL 42. Replenishes Quantity [1 in 3 sec], +150-200% ED, +30% FRW, +20 Str, +20 Dex confirmed (also +2 Amazon skills, +2 Javelin/Spear, 5-9% LL not listed). Ethereal gives ~50% more damage and Replenish Quantity negates the no-repair downside, so eth is nearly pure upside. Good eth-only value case."
+          },
+          {
+            "name": "Sandstorm Trek (ethereal)",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Scarabshell Boots RL 64. +10-15 Str, +10-15 Vit, Poison Resist +40-70%, +140-170% ED, 20% FHR, 20% FRW confirmed. Self-repair (Repairs 1 Dur in 20 sec) makes eth viable and valuable. '15/15/70/170' perfect is correct. Strong eth+roll compound pick."
+          },
+          {
+            "name": "Wisp Projector",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique ring RL 76, rarest unique ring confirmed. +10-20 Lightning Absorb, 10-20% MF, 10% chance to cast Lvl 16 Lightning on Striking, charges of Oak Sage/Heart of Wolverine/Spirit of Barbs confirmed. Absorb stacks across two rings. Excellent obscure roll-dependent pick."
+          },
+          {
+            "name": "Mara's Kaleidoscope",
+            "verdict": "CONFIRMED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Unique amulet RL 67, +2 all skills, All Res +20-30, +5 all attributes confirmed. Facts correct. FAILS bar: Mara's is a staple every caster knows, and the resist-roll tiering is common knowledge. Not surprising."
+          },
+          {
+            "name": "Andariel's Visage",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique Demonhead RL 83 (not stated in finding). +100-150% ED, 8-10% Life Steal, +25-30 Str, +2 all skills, 20% IAS, Fire Res -30%, +70% Poison Res, +10% Max Poison Res confirmed (also 15% chance to cast Poison Nova when struck, not listed). The socket-to-cancel-fire-penalty angle is a genuine and non-obvious edge. Keep."
+          },
+          {
+            "name": "Metalgrid",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique amulet RL 81. All Res +25-35, +400-450 AR, +300-350 Defense, Lvl 22 Iron Golem and Lvl 12 Iron Maiden charges confirmed. 1.10+ item, ladder-only DROP in D2R (obtainable non-ladder only via reset conversion). Obscure specialist pick, clears the bar."
+          },
+          {
+            "name": "Bul-Kathos' Wedding Band",
+            "verdict": "CONFIRMED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Unique ring RL 58, +1 all skills (fixed), 3-5% Life Steal, 0-49 Life based on level, +50 Max Stamina confirmed. Note: the '+0.5 per level' some sources show applies to the LIFE line, not skills; finding correctly treats +1 skills as fixed. Facts correct but FAILS bar: BK and 'max leech is better' is common knowledge."
+          },
+          {
+            "name": "Herald of Zakarum",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "medium",
+            "corrections": "Unique Gilded Shield RL 42, +150-200% ED, up to 4 max sockets, All Res +50, +2 Paladin +2 Combat skills confirmed. IMPORTANT nuance on the finding's Larzuk claim: Larzuk gives exactly 1 socket to any unique, so a 0-socket HoZ can never be brought to 4 via Larzuk. The finding's point (4os cannot be manufactured, must drop that way) is CORRECT, though the 'rolled at drop, not added' wording is loose. The socket-count value case is genuinely non-obvious for a shield. Keep."
+          },
+          {
+            "name": "Highlord's Wrath",
+            "verdict": "CONFIRMED",
+            "keepForSite": true,
+            "confidence": "high",
+            "corrections": "Unique amulet RL 65. Deadly Strike is +0.375% per character level (0-37% at 99), level-based not a random roll; +1 all skills, +20% IAS, +35% Lightning Res confirmed (also adds 1-30 lightning damage and attacker-takes-lightning, not listed). The finding is correct that all copies are equivalent. Keep as the deliberate CONTRAST/teaching-foil case that debunks the widespread 'Highlord's has a deadly-strike roll to chase' myth. That myth-busting angle clears the bar despite the item being common."
+          },
+          {
+            "name": "Skin of the Vipermagi",
+            "verdict": "CONFIRMED",
+            "keepForSite": false,
+            "confidence": "high",
+            "corrections": "Unique Serpentskin Armor RL 29, All Res +20-35, +1 all skills, 30% FCR, +120% ED (fixed), Magic Damage Reduced 9-13 confirmed. Facts correct. FAILS bar: Vipermagi is one of the most common caster armors and 'high-res Viper worth more' is entry-level knowledge, not surprising."
+          }
+        ],
+        "notes": "Adversarial fact-check complete. Every stat range, socket count, and required level was cross-checked against Fandom, Arreat Summit references, and diablo2.io/trade listings. All 19 items are factually CONFIRMED; no runeword recipes were involved (all uniques). No REJECTED or CORRECTED-for-error verdicts were warranted on facts. Two items carry factual caveats worth surfacing to the writer: (1) Griffon's Eye is historically a whole-item ladder-only unique, and its +Lightning Skill Damage 'ladder only' tag is a data flag that in practice appears on traded non-ladder copies, so do not overstate that the mod is absent non-ladder. (2) Herald of Zakarum's Larzuk claim needs precise wording: Larzuk always adds exactly 1 socket to a unique, so a 4-socket HoZ must drop that way and cannot be manufactured; the finding's conclusion is right but its 'rolled at drop, not added' phrasing is loose. Minor omissions (unlisted resist/skill lines on Death's Fathom, Titan's, Andariel's, Highlord's, Raven Frost) are not errors since the findings focus on the value-driving stats. SELECTION BAR culls (keepForSite=false): Griffon's Eye (named common-knowledge reject), War Traveler, Mara's Kaleidoscope, Bul-Kathos' Wedding Band, Skin of the Vipermagi. These are all factually correct but their roll-tiering is entry-level knowledge and produces no 'wait, THAT is worth something?' reaction. Highlord's Wrath is kept specifically as a myth-busting contrast case (debunks the false 'deadly strike roll' belief), and The Grandfather is kept on the strength of the near-250 perfect-roll rarity story rather than the famous name. Raven Frost is borderline and I did not receive it as a separate keep/cull ask beyond facts, but note it is also common-knowledge tier; if the writer wants a tighter list, Raven Frost is the next cull after the five above."
+      }
+    }
+  ]
+}
