@@ -40,6 +40,8 @@
       valueLabel: "Value",
       rarityLabel: "Rarity",
       rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
+      lastPatchLabel: "Last seen",
+      lastPatchMeaning: "This version no longer drops. It last existed in this patch, before a later patch changed or removed it.",
       aliasPrefix: "traders call it: ",
       archiveSummary: "Every item so far",
       bannerText: "You are looking at a specific item, not today's.",
@@ -227,6 +229,11 @@
         '<span class="tag rarity" title="' + esc(ui("rarityMeaning", lang)) + '">' +
           esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +
         "</span>" +
+        (item.lastPatch
+          ? '<span class="tag legacy" title="' + esc(ui("lastPatchMeaning", lang)) + '">' +
+              esc(ui("lastPatchLabel", lang)) + " <b>" + esc(t(item.lastPatch, lang)) + "</b>" +
+            "</span>"
+          : "") +
       "</div>";
   }
 

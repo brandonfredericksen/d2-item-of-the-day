@@ -22,7 +22,10 @@
      { en: "...", de: "..." }         per-language, English is the fallback
    A missing language falls back to English, so partial translations are
    safe. Universal fields stay plain: slug, quality, sprite, valueTier,
-   rarityTier, obscurity. To turn a language on, add it to AVAILABLE_LANGS
+   rarityTier, obscurity. Optional `lastPatch` (e.g. "1.09") marks an item
+   whose shown version no longer drops; it renders as a "Last seen" tag
+   beside the tiers. Use it for legacy / pre-nerf entries.
+   To turn a language on, add it to AVAILABLE_LANGS
    and its UI block in app.js. The switcher appears automatically.
    Translations are native rewrites only, never machine translation.
 
@@ -237,6 +240,7 @@ const ITEMS = [
     ],
     valueTier: "B",
     rarityTier: "Mythic",
+    lastPatch: "1.09",
     obscurity: 4,
     why: "This is not the Arkaine's Valor that drops today. This is the old one. Before the nerf it gave two and a half vitality and two life for every character level, plus two to all skills, indestructible, and fire resist, all on one body armor. At level ninety-nine that is hundreds of free vitality and life. The current version was cut down hard, so a copy like this can no longer drop.",
     history: "Arkaine's Valor was so strong before the 1.10 patch that it became one of the most duped armors in the game. Blizzard gutted the life and vitality bonus and left the weaker version dropping in its place. The old copies were never deleted, only frozen out of the loot table. The ones still around are relics from a version of Diablo 2 that no longer exists, and they thin out every year as old accounts expire.",
