@@ -550,6 +550,119 @@ const ITEMS = [
     why: "A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.",
     history: null,
     ifYouFind: "Match the element to your build, want the level-up trigger, and check for the five and five. Off-element or death-trigger is a different market."
+  },
+  {
+    slug: "angelic-combo",
+    name: "Angelic Halo + Wings",
+    alias: "Angelics",
+    quality: "set",
+    type: "Ring + Amulet",
+    sprite: "img/angelic-combo.png",
+    tooltip: [
+      { t: "Required Level: 12", c: "white" },
+      "+12 to Attack Rating per Character Level",
+      "+20 to Life",
+      "Replenish Life +6"
+    ],
+    valueTier: "A",
+    rarityTier: "Uncommon",
+    obscurity: 2,
+    why: "A seasoned player sees a set ring and amulet and moves on. That is the mistake. Worn together, the ring grants twelve attack rating for every character level. At level thirty that is hundreds of attack rating, more than a low-level character could ever get another way, and it makes a twink hit things it has no business hitting. The pieces are cheap. Knowing to pair them is the whole value.",
+    history: null,
+    ifYouFind: "Only worth it as the pair, ring and amulet together. One without the other is just a set piece."
+  },
+  {
+    slug: "bloodfist",
+    name: "Bloodfist",
+    alias: "perfect Bloodfist",
+    quality: "unique",
+    type: "Heavy Gloves",
+    sprite: "img/bloodfist.png",
+    tooltip: [
+      { t: "Defense: 18", c: "white" },
+      { t: "Required Level: 9", c: "white" },
+      "+20% Enhanced Defense",
+      "+10% Increased Attack Speed",
+      "+30% Faster Hit Recovery",
+      "+40 to Life",
+      "+5 to Minimum Damage"
+    ],
+    valueTier: "A",
+    rarityTier: "Rare",
+    obscurity: 3,
+    why: "Level nine gloves. A player rushing to endgame vendors them without a glance. In the low-level dueling bracket they are a staple, because forty life, ten attack speed and thirty faster hit recovery at that level requirement is enormous. A perfect pair with max enhanced defense trades for real currency inside that market.",
+    history: null,
+    ifYouFind: "The forty life and the speed are fixed. It is the market that makes them valuable, not the roll, so do not vendor a clean pair."
+  },
+  {
+    slug: "twitchthroe",
+    name: "Twitchthroe",
+    alias: "Twitch",
+    quality: "unique",
+    type: "Studded Leather",
+    sprite: "img/twitchthroe.png",
+    tooltip: [
+      { t: "Defense: 60", c: "white" },
+      { t: "Required Level: 16", c: "white" },
+      { t: "Required Strength: 27", c: "white" },
+      "20% Increased Attack Speed",
+      "20% Faster Hit Recovery",
+      "25% Increased Chance of Blocking",
+      "+10 to Strength",
+      "+10 to Dexterity"
+    ],
+    valueTier: "B",
+    rarityTier: "Uncommon",
+    obscurity: 2,
+    why: "Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.",
+    history: null,
+    ifYouFind: "Worthless to a rusher, a building block to a twink. Know which one you are before you sell it."
+  },
+  {
+    slug: "spectral-shard",
+    name: "Spectral Shard",
+    alias: "Spec Shard",
+    quality: "unique",
+    type: "Blade",
+    sprite: "img/spectral-shard.png",
+    tooltip: [
+      { t: "One-Hand Damage: 4 to 15", c: "white" },
+      { t: "Required Level: 25", c: "white" },
+      { t: "Required Strength: 35", c: "white" },
+      { t: "Required Dexterity: 51", c: "white" },
+      "50% Faster Cast Rate",
+      "+55 to Attack Rating",
+      "All Resistances +10",
+      "+50 to Mana"
+    ],
+    valueTier: "B",
+    rarityTier: "Uncommon",
+    obscurity: 3,
+    why: "The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.",
+    history: null,
+    ifYouFind: "Ignore the weapon damage. The fifty cast rate at a low level is the point."
+  },
+  {
+    slug: "deaths-combo",
+    name: "Death's Guard + Death's Hand",
+    alias: "cannot-be-frozen combo",
+    quality: "set",
+    type: "Sash + Leather Gloves",
+    sprite: "img/deaths-combo.png",
+    tooltip: [
+      { t: "Required Level: 6", c: "white" },
+      "Cannot Be Frozen",
+      "30% Increased Attack Speed",
+      "8% Life Stolen per Hit",
+      "All Resistances +15",
+      "Poison Resist +50%"
+    ],
+    valueTier: "B",
+    rarityTier: "Uncommon",
+    obscurity: 3,
+    why: "Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.",
+    history: null,
+    ifYouFind: "Only the pair matters. Together they hand a low-level character stats that normally cost a whole gear slot."
   }
 ];
 
