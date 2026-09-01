@@ -5,7 +5,7 @@
     "bar": "Collector/museum level for seasoned players. Target reaction: 'wait, THAT is worth something?'",
     "pillars": "hidden-value (~70%) + historic-significance (~30%)",
     "note": "Tiers are eyeballed guesses vs a mature D2R ladder season, never a price check. Items flagged needsConcreteRoll are real categories that still need one documented specific roll before they can be written as a card. Duplicates across research files were merged.",
-    "count": 47
+    "count": 52
   },
 
   "hiddenValue_rollDependentUniques": [
@@ -74,5 +74,13 @@
     { "slug": "mephisto-fused-uniques", "name": "Mephisto-Fused Uniques (Wizardspike / Wizendraw folklore)", "alias": "Wizzy fused", "quality": "unique", "type": "various", "valueTier": "folklore", "rarityTier": "Mythic", "obscurity": 5, "pillar": "history", "keep": "Fused items born from a specific bug, deep-cut folklore even most veterans have never seen.", "verify": "Confirm the exact items and the bug before writing. Highest folklore risk of the set." },
     { "slug": "kings-jewel-of-blazing", "name": "King's Jewel of Blazing", "alias": "the bugged skill jewel", "quality": "magic", "type": "Jewel", "valueTier": "curio", "rarityTier": "Mythic", "obscurity": 5, "pillar": "history", "keep": "A jewel with an affix combination that should not be able to exist. A pure impossible-item curio." },
     { "slug": "the-gull", "name": "The Gull", "alias": "Gull Dagger", "quality": "unique", "type": "Dagger", "valueTier": "folklore", "rarityTier": "Common", "obscurity": 4, "pillar": "history", "keep": "A near-worthless MF dagger that became infamous for its role in trade-window safety folklore. Historic notoriety, not power. History framing only." }
+  ],
+
+  "history_legacyPreNerf": [
+    { "slug": "legacy-hellfire-torch", "name": "Legacy Hellfire Torch (25% Firestorm)", "alias": "legacy Torch", "quality": "unique", "type": "Large Charm", "valueTier": "folklore", "rarityTier": "Mythic", "obscurity": 4, "pillar": "history", "keep": "The old Torch procced Firestorm at 25% instead of about 5%. A pre-nerf survivor that can no longer drop. The 'old version before the nerf' theme, and everyone knows the current Torch so the legacy one lands.", "needsConcreteRoll": true, "verify": "Exact proc rate and the patch that cut it." },
+    { "slug": "legacy-wizardspike", "name": "Legacy Wizardspike (+95 all resist)", "alias": "95 Wizzy", "quality": "unique", "type": "Bone Knife", "valueTier": "folklore", "rarityTier": "Very Rare", "obscurity": 4, "pillar": "history", "keep": "Pre-1.08 Wizardspike gave +95% all resistance, cut to 75%. A clean, documented pre-nerf caster dagger. Likely replaces the shakier Mephisto-fused Wizzy folklore entry.", "verify": "Confirm the 95 to 75 change and patch." },
+    { "slug": "siggards-stealth-rename", "name": "Siggard's Stealth (the renamed Nosferatu's Coil)", "alias": "the belt that changed its name", "quality": "unique", "type": "Mesh Belt", "valueTier": "curio", "rarityTier": "Very Rare", "obscurity": 5, "pillar": "history", "keep": "In 1.10 every existing Nosferatu's Coil was renamed to Siggard's Stealth, and a different Nosferatu's Coil started dropping. The rename swap is the story.", "verify": "Old stats vary across sources. Confirm before writing." },
+    { "slug": "legacy-charms-impossible-affixes", "name": "Legacy Charms (impossible pre-1.10 affixes)", "alias": "legacy charms", "quality": "magic", "type": "Charm", "valueTier": "curio", "rarityTier": "Mythic", "obscurity": 5, "pillar": "history", "keep": "Charms with affixes the game no longer generates: small charms with +5% run/walk, or Pestilent plus Anthrax poison charms. Impossible now, so surviving ones are pure collector pieces.", "needsConcreteRoll": true, "verify": "Pin one concrete example roll and its removed affix." },
+    { "slug": "classic-rare-bows", "name": "Classic rare bows (the Ghoul Stinger era)", "alias": "Ghoul Stinger, Carrion Bow", "quality": "rare", "type": "Bow", "valueTier": "B-historic", "rarityTier": "Very Rare", "obscurity": 4, "pillar": "history", "keep": "Before Lord of Destruction and runewords, a top-rolled rare bow was the bowazon endgame. The random names (Ghoul Stinger, Carrion Bow) became folklore. Not one item, a class of legendary one-off rares.", "note": "No fixed stats exist, they were random rares. Write about the era and reconstruct a representative chase roll." }
   ]
 }

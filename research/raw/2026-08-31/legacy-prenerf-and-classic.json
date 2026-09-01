@@ -1,0 +1,73 @@
+{
+  "_meta": {
+    "pass": "legacy / pre-nerf / classic-history research pass",
+    "date": "2026-08-31",
+    "prompt": "User wants old pre-nerf versions of items, 'cool to see' grail pieces, and real history. Sources include the ogd2barb YouTube channel and community forums. Stats here are research notes and NEED a verification pass before any card is written.",
+    "sources": [
+      "https://diablo2.io/forums/uniques-that-were-nerfed-t1451168.html",
+      "https://itemforge.com/en/diablo-2/bugged-or-from-old-patch",
+      "https://diablo.fandom.com/wiki/Patch_1.09_(Diablo_II)",
+      "https://diablo2.diablowiki.net/Nosferatu's_Coil",
+      "https://www.purediablo.com/d2wiki/Hellfire_Torch",
+      "https://diablo2.wiki.fextralife.com/Wizardspike",
+      "https://diablo2.diablowiki.net/Titan's_Revenge",
+      "https://diablo.fandom.com/wiki/Prefix_(Diablo_II)",
+      "https://diablo2.diablowiki.net/V1.09_Item_Generation",
+      "youtube: 'Pre-Patch Time Travel - Barb Shows Forgotten Items [Diablo 2 History]' (ogd2barb)"
+    ]
+  },
+
+  "theme_legacyPreNerf": {
+    "definition": "Legacy items come from patch 1.09 or earlier. They are the pre-nerf versions of items whose stats were reduced in 1.10 (or another patch). They can no longer drop. They exist only on Non-Ladder, one pool per realm, and expired accounts have deleted most since 2001-2003, so survivors are extremely scarce. This is the 'old version before the nerf' collector category.",
+    "items": [
+      {
+        "name": "Legacy Hellfire Torch (25% Firestorm)",
+        "old": "25% chance to cast Firestorm on striking",
+        "new": "roughly 5% chance",
+        "note": "Iconic pre-nerf proc rate. Verify exact proc level and the patch that cut it. The current Torch is common knowledge, the legacy 25% version is a collector curio.",
+        "verifyStats": true
+      },
+      {
+        "name": "Legacy Wizardspike (+95 all resistance)",
+        "old": "+95% to All Resistances",
+        "new": "+75% to All Resistances (changed in 1.08)",
+        "base": "Bone Knife (caster dagger), 50% FCR, indestructible",
+        "note": "Clean, well-documented pre-nerf unique. Strong candidate. Distinct from the shakier 'Mephisto-fused Wizzy' folklore entry already in the pool, consider replacing that one with this.",
+        "verifyStats": true
+      },
+      {
+        "name": "Siggard's Stealth (the renamed Nosferatu's Coil)",
+        "story": "Pre-1.10 the good belt was called Nosferatu's Coil. On patching to 1.10, every existing copy was RENAMED to Siggard's Stealth, and a new, different Nosferatu's Coil started dropping in its place. The rename swap itself is the story.",
+        "note": "Great curio. Sources disagree on exact old stats (life steal %, IAS). Verify before writing.",
+        "verifyStats": true
+      },
+      {
+        "name": "Legacy pre-1.10 charms (impossible affixes)",
+        "examples": "Small charms with the inertia suffix (+5% Faster Run/Walk, removed from small charms in 1.10). Charms with Pestilent + Anthrax rolling ~451 poison damage over 12 seconds. Affix combinations the current game will not generate.",
+        "note": "A collector category: charms whose affixes can no longer exist. Could be one entry covering the idea, anchored on one concrete example.",
+        "verifyStats": true
+      },
+      {
+        "name": "Pre-1.07 no-level-requirement uniques",
+        "story": "No uniques had a character-level requirement before v1.07. A pre-1.07 Bul-Kathos' Wedding Band, Shako, etc. would carry no level requirement at all, usable from level 1.",
+        "note": "More of a mechanic/history note than a single item. Could anchor a card, or fold into another legacy entry.",
+        "verifyStats": true
+      }
+    ]
+  },
+
+  "classicRareBows": {
+    "name": "Classic rare bows (the Ghoul Stinger era)",
+    "finding": "Carrion Bow, Ghoul Bow, Ghoul Stinger and the like are NOT specific items. They are rare (yellow) bows whose two-word name is randomly generated from a fixed pool (first-names include Ghoul, Carrion, Corpse, Bone, Death; missile second-names include Bow, Stinger, Song). The name has no bearing on the affixes. Each was a one-off random roll, which is why no canonical stat sheet or screenshot exists.",
+    "whyItMatters": "In classic D2, before Lord of Destruction and runewords, a top-rolled rare bow was the bowazon endgame. There was no Windforce to chase. Great rares became personal legends and their random names became folklore.",
+    "representativeChaseRoll": "What made a classic rare bow legendary: high +% Enhanced Damage, +max damage, Increased Attack Speed, large +to Attack Rating, and often Knockback. No +skills on classic rares.",
+    "note": "Frame as a history / hidden-value hybrid about rare bows as the classic-era grail, not as one item with fixed stats.",
+    "verifyStats": true
+  },
+
+  "consideredAndRejected": [
+    { "name": "Windforce", "reason": "Famous iconic bow, common knowledge. Fails the surprise bar." },
+    { "name": "Secret Cow Level / Cow King", "reason": "Great history but not an item. Wirt's Leg (the key) already rejected as too obvious." },
+    { "name": "Buriza-Do Kyanon", "reason": "Well-known budget bow, not collector-tier." }
+  ]
+}
