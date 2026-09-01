@@ -238,7 +238,7 @@
           esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +
         "</span>" +
         (item.era
-          ? '<span class="tag era" title="' + esc(ui("eraMeaning", lang)) + '">' +
+          ? '<span class="tag era era-' + esc(String(t(item.era, lang)).toLowerCase().replace(/[^a-z0-9]+/g, "-")) + '" title="' + esc(ui("eraMeaning", lang)) + '">' +
               esc(ui("eraLabel", lang)) + " <b>" + esc(t(item.era, lang)) + "</b>" +
             "</span>"
           : "") +
