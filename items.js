@@ -528,6 +528,34 @@ const ITEMS = [
     ifYouFind: "An indestructible ethereal unique with defense above its own cap is a relic of the old patches. A collector's antique, not something you drop or build today."
   },
   {
+    slug: "windforce-08",
+    name: "Windforce",
+    alias: "1.08 Windforce",
+    quality: "unique",
+    type: "Hydra Bow",
+    sprite: "img/hydra-bow.png",
+    lastPatch: "1.08",
+    tooltip: [
+      { t: "Two-Hand Damage: 35 to 547", c: "white" },
+      { t: "Required Level: 73", c: "white" },
+      { t: "Required Strength: 134", c: "white" },
+      { t: "Required Dexterity: 167", c: "white" },
+      "+250% Enhanced Damage",
+      "+309 to Maximum Damage (Based on Character Level)",
+      "20% Increased Attack Speed",
+      "7% Mana Stolen per Hit",
+      "Heal Stamina Plus 30%",
+      "+35 to Dexterity",
+      "Knockback"
+    ],
+    valueTier: "B",
+    rarityTier: "Mythic",
+    obscurity: 4,
+    why: "Windforce is the bow every bowazon wanted, the two-hander with the highest maximum damage in the game and a knockback that kept everything off you. This is the version that stopped dropping in 2001. Today's Windforce rolls five dexterity. This one rolls thirty five. Thirty extra dexterity is free attack rating and block that no modern copy can reach, on the best bow base there is.",
+    history: "For years the Windforce was the endgame bowazon weapon, the drop that made the build. In its first year it carried plus thirty five dexterity. Patch 1.09 cut that to plus five and handed it strength instead. Because an item's stats freeze the moment it is created, every Windforce made before the patch kept its thirty five, and none made since can match it. Collectors trade these as their own tier and call them 08 Windforces.",
+    ifYouFind: "The dexterity line is the whole tell. Thirty five means it was born before patch 1.09; five means it dropped any time in the two decades since."
+  },
+  {
     slug: "arkaines-valor",
     name: "Arkaine's Valor",
     alias: "legacy Arkaine's",
@@ -852,6 +880,35 @@ const ITEMS = [
     ifYouFind: "Four separate thirty percent speed mods is the tell. That is the 1.08 helm, not the amazon one that drops now."
   },
   {
+    slug: "grandfather-08",
+    name: "The Grandfather",
+    alias: "1.08 Grandfather",
+    quality: "unique",
+    type: "Colossus Blade",
+    sprite: "img/colossus-blade.png",
+    lastPatch: "1.08",
+    tooltip: [
+      { t: "Two-Hand Damage: 145 to 287", c: "white" },
+      { t: "Required Level: 81", c: "white" },
+      { t: "Required Strength: 189", c: "white" },
+      { t: "Required Dexterity: 110", c: "white" },
+      "+150% Enhanced Damage",
+      "+150% Bonus to Attack Rating",
+      "+175 to Life",
+      "Increase Maximum Life 25%",
+      "Increase Maximum Mana 25%",
+      "+20 to Strength",
+      "+20 to Dexterity",
+      "Indestructible"
+    ],
+    valueTier: "B",
+    rarityTier: "Mythic",
+    obscurity: 4,
+    why: "The Grandfather is a pure damage sword today. This one, from patch 1.08, was a fortress. It carried a hundred and seventy five flat life and raised your maximum life and mana by a quarter each, on top of the damage. No Grandfather made after 2001 has the maximum-life or maximum-mana lines at all. Same gold name, a completely different weapon underneath.",
+    history: "Before the 1.09 rebalance the Grandfather stacked flat life, twenty five percent maximum life, and twenty five percent maximum mana. The patch stripped all three and replaced them with the per-level scaling the sword uses now. The old copies kept the survivability block, and because item stats never change after creation, that version cannot be made again. It is one of the most prized relics of the early game.",
+    ifYouFind: "Look for the maximum-life and maximum-mana lines. The modern Grandfather has neither, so their presence dates the sword to before patch 1.09."
+  },
+  {
     slug: "vampire-gaze-08",
     name: "Vampire Gaze",
     alias: "1.08 Vamp Gaze",
@@ -1163,6 +1220,31 @@ const ITEMS = [
     ifYouFind: "Compare the defense to the enhanced defense. If it is far higher than the math allows, it was ebugged before the fix, and it cannot be made now."
   },
   {
+    slug: "bonesnap",
+    name: "Bonesnap",
+    alias: "classic melee chase",
+    quality: "unique",
+    type: "Maul",
+    era: "Classic",
+    sprite: "img/maul.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 120 to 172", c: "white" },
+      { t: "Required Strength: 69", c: "white" },
+      { t: "Required Level: 24", c: "white" },
+      "+300% Enhanced Damage",
+      "+100% Damage to Undead",
+      "+40% Chance of Crushing Blow",
+      "Cold Resist +30%",
+      "Fire Resist +30%"
+    ],
+    valueTier: "D",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "In classic Diablo 2 there were no runewords and no elite uniques, so the top of the melee ladder was a normal-tier unique like this. Bonesnap swings for up to three hundred percent enhanced damage with forty percent crushing blow, which tears a chunk off any target's current life no matter how much it has. At a level twenty four requirement, cubed up for more base damage, it was the weapon a classic barbarian actually wanted.",
+    history: "Bonesnap was a classic melee staple, one of the hardest-hitting things a pre-expansion character could hold. Crushing blow made it a boss killer back when everyone's damage was small, and the low requirement let you swing it early. Lord of Destruction buried it under exceptional bases, elite uniques and runeword weapons, and a whole generation of players never learned it was once a chase item.",
+    ifYouFind: "A classic answer to a problem the expansion later solved a dozen better ways. The crushing blow is why it mattered, not the raw number."
+  },
+  {
     slug: "twitchthroe",
     name: "Twitchthroe",
     alias: "Twitch",
@@ -1185,6 +1267,30 @@ const ITEMS = [
     why: "Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.",
     history: null,
     ifYouFind: "Worthless to a rusher, a building block to a twink. Know which one you are before you sell it."
+  },
+  {
+    slug: "silks-of-the-victor",
+    name: "Silks of the Victor",
+    alias: "classic caster armor",
+    quality: "unique",
+    type: "Ancient Armor",
+    era: "Classic",
+    sprite: "img/ancient-armor.png",
+    tooltip: [
+      { t: "Defense: 513", c: "white" },
+      { t: "Required Strength: 100", c: "white" },
+      { t: "Required Level: 28", c: "white" },
+      "+120% Enhanced Defense",
+      "+1 to All Skills",
+      "5% Mana Stolen per Hit",
+      "+2 to Light Radius"
+    ],
+    valueTier: "D",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "Plus one to all skills on a body armor sounds ordinary now. In classic Diablo 2 it was a grail. There was no Enigma, no Vipermagi, no Spirit Shroud, and almost nothing gave skills. A caster who wanted a skill level on the chest slot had this and little else, which is exactly why a plain unique Ancient Armor was the best caster body in the game for a stretch.",
+    history: "Before the expansion, sources of plus skills barely existed. Silks of the Victor put a skill level on the chest when that was nearly impossible, and it sat in most serious classic casters' setups for that one reason. Lord of Destruction added skill armors and runewords that made it irrelevant almost overnight, and it faded into a curiosity.",
+    ifYouFind: "The lesson is scarcity, not power. One skill level was worth a whole armor slot when the game had almost no other way to hand you one."
   },
   {
     slug: "spectral-shard",
@@ -1211,6 +1317,31 @@ const ITEMS = [
     ifYouFind: "Ignore the weapon damage. The fifty cast rate at a low level is the point."
   },
   {
+    slug: "goldskin",
+    name: "Goldskin",
+    alias: "classic resist armor",
+    quality: "unique",
+    type: "Full Plate Mail",
+    era: "Classic",
+    sprite: "img/full-plate-mail.png",
+    tooltip: [
+      { t: "Defense: 402", c: "white" },
+      { t: "Required Strength: 80", c: "white" },
+      { t: "Required Level: 28", c: "white" },
+      "+150% Enhanced Defense",
+      "All Resistances +35",
+      "100% Extra Gold from Monsters",
+      "+2 to Light Radius",
+      "Attacker Takes Damage of 10"
+    ],
+    valueTier: "D",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "Everyone remembers Goldskin as the joke armor that doubles your gold. Read the other line. In classic Diablo 2, before resistance gear was everywhere, a fixed thirty five to all resistances on the chest slot was a real answer to Hell's resistance penalties. The gold even mattered when it funded your gambling and repairs. A novelty today, a tank's staple then.",
+    history: "Classic players had few ways to patch resistances, so a guaranteed plus thirty five all on a body armor carried real weight, and the extra gold was a genuine perk in an economy that ran on it. The expansion flooded the game with resist charms, runewords and better uniques, and Goldskin became the punchline it is now.",
+    ifYouFind: "The resistances were the point, not the gold. A clean case of a stat's worth swinging entirely with the patch around it."
+  },
+  {
     slug: "deaths-combo",
     name: "Death's Guard + Death's Hand",
     alias: "cannot-be-frozen combo",
@@ -1231,6 +1362,25 @@ const ITEMS = [
     why: "Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.",
     history: null,
     ifYouFind: "Only the pair matters. Together they hand a low-level character stats that normally cost a whole gear slot."
+  },
+  {
+    slug: "wirts-leg",
+    name: "Wirt's Leg",
+    alias: "the cow-portal key",
+    quality: "normal",
+    type: "Club",
+    sprite: "img/wirts-leg.png",
+    tooltip: [
+      { t: "One-Hand Damage: 2 to 8", c: "white" },
+      { t: "Durability: 8 of 8", c: "white" },
+      { t: "Required Level: 0", c: "white" }
+    ],
+    valueTier: "D",
+    rarityTier: "Common",
+    obscurity: 3,
+    why: "A broken wooden leg that does almost no damage, and one of the most important items a farmer owns. Cube it with a Tome of Town Portal and it opens the Secret Cow Level. But a rule rides along that plenty of people still learn the hard way. If the Cow King dies in a game you created, that character can never open the cow portal again on that difficulty. No reset, no fix.",
+    history: "The cow level was a premier experience and item farm, and the game gated it with a quiet, permanent punishment. Kill the King in your own game and the door shuts for good on that character and difficulty, which is why careful players herded the cows and left him standing. The lockout keys off the game's creator, not the killer, so you could still farm in a friend's game freely. Diablo 2 Resurrected removed it, which is itself a change to a twenty-year-old rule.",
+    ifYouFind: "The trap is that it is per creator and per character, with no undo. Plenty of veterans have bricked a character's cow access without ever knowing the rule was there."
   },
   {
     slug: "tomb-reaver",
@@ -1367,6 +1517,24 @@ const ITEMS = [
     ifYouFind: "A Tal's armor with two skills and a socket is bugged. The normal one has neither. Non-ladder only."
   },
   {
+    slug: "token-of-absolution",
+    name: "Token of Absolution",
+    alias: "the respec that took a decade",
+    quality: "normal",
+    type: "",
+    sprite: "img/token-of-absolution.png",
+    tooltip: [
+      { t: "Cube four Essences to create", c: "grey" },
+      "Resets all Skill and Stat points"
+    ],
+    valueTier: "C",
+    rarityTier: "Uncommon",
+    obscurity: 3,
+    why: "For most of Diablo 2's life a misplaced skill point was permanent. There was no respec, and after the 1.10 synergy overhaul a single wrong point could quietly ruin a build. Then this arrived. Cube four Essences dropped by the act bosses and you get a full reset of skills and stats. One small item ended a decade of build anxiety.",
+    history: "Original Diablo 2 committed you to every point you spent, which made theorycrafting a high-stakes gamble and delete-and-reroll the only real fix. Patch 1.13 added a free Akara respec once per difficulty and the Token of Absolution for unlimited ones. Behavior changed overnight: builds became experiments instead of commitments, and the reroll culture faded.",
+    ifYouFind: "It is easy to forget the game ever worked the other way. For ten years this is the item players wished existed every time they misclicked a skill tree."
+  },
+  {
     slug: "jewelers-archon-plate",
     grid: [2, 3],
     name: "Jeweler's Archon Plate of the Whale",
@@ -1389,6 +1557,27 @@ const ITEMS = [
     why: "The Archon Plate is the lightest elite body armor, the lowest strength of the top tier. This one is magic, with four sockets and a hundred life on it. You cannot put Enigma in it, that needs a plain three-socket armor, but you can fill four sockets with resist runes or jewels and build a caster armor tuned to stats Enigma cannot give. Most players see a blue armor and move on. This one is a project piece worth real trade.",
     history: null,
     ifYouFind: "Four sockets and a big life roll on a low-strength magic Archon. That is a build-your-own armor, not vendor fodder."
+  },
+  {
+    slug: "kano-zod",
+    name: "Zod Rune",
+    alias: "the rune Kano vendored",
+    quality: "rune",
+    type: "",
+    sprite: "img/zod-rune.png",
+    tooltip: [
+      { t: "Required Level: 69", c: "white" },
+      "Weapons: Indestructible",
+      "Armor: Indestructible",
+      "Helms: Indestructible",
+      "Shields: Indestructible"
+    ],
+    valueTier: "S",
+    rarityTier: "Mythic",
+    obscurity: 3,
+    why: "The Zod is the rarest rune in the game and the only thing that saves an ethereal item, because it makes anything indestructible. It is also the punchline to one of the best drop stories Diablo 2 has produced. In 2024 a speedrunner hit a Zod, a one in nearly three million drop, deep into a world-record run, and walked to the nearest vendor to sell it for pocket change on purpose.",
+    history: "Kano was hours into a start-to-Ubers record attempt when the Zod fell, the kind of drop most players never see in twenty years. Stopping to use it would have cost time, so he vendored it for thirty five thousand gold, live, entirely for the bit. Gaming press covered it. The moment stuck because it took the single luckiest thing that can happen in Diablo 2 and threw it away for a laugh.",
+    ifYouFind: "Its real use is unglamorous. Socket it into an ethereal weapon or armor and the item never breaks, the only way to keep an ethereal piece's boosted stats forever."
   },
   {
     slug: "artisans-diadem",
