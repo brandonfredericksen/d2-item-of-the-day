@@ -216,6 +216,7 @@
 
     return '' +
       '<div class="tooltip q-' + esc(item.quality || "normal") + '">' +
+        (t(item.fillName, lang) ? '<div class="t-name t-name-fill">' + esc(t(item.fillName, lang)) + "</div>" : "") +
         '<div class="t-name">' + esc(t(item.name, lang)) + "</div>" +
         (typeVal ? '<div class="t-type">' + esc(typeVal) + "</div>" : "") +
         ((lines || fillLines) ? '<div class="t-lines">' + lines + fillLines + "</div>" : "") +

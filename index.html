@@ -188,6 +188,10 @@ header{padding:34px 2px 4px;text-align:center}
 /* stats the socketables add, revealed only when filled */
 .tooltip .t-fill{display:none}
 .tip-col.show-fill .tooltip .t-fill{display:block}
+/* runeword name swap: gold runeword name on top, base name greys out beneath */
+.tooltip .t-name-fill{display:none}
+.tip-col.show-fill .tooltip .t-name-fill{display:block;color:var(--q-unique)}
+.tip-col.show-fill .tooltip .t-name:not(.t-name-fill){color:#8a8a93;font-weight:400;font-size:.86em}
 
 /* the D2 tooltip, kept sharp and pixel-accurate */
 .tooltip{

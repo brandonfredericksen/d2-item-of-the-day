@@ -692,6 +692,19 @@ const ITEMS = [
     sprite: "img/berserker-axe.png",
     fill: ["img/socketables/rune-vex.png", "img/socketables/rune-hel.png", "img/socketables/rune-el.png", "img/socketables/rune-eld.png", "img/socketables/rune-zod.png", "img/socketables/rune-eth.png"],
     fillLabel: "fill for Breath of the Dying",
+    fillName: "Breath of the Dying",
+    fillTip: [
+      "50% Chance to Cast Level 20 Poison Nova When You Kill an Enemy",
+      "+60% Increased Attack Speed",
+      "+400% Enhanced Damage",
+      "-25% Target Defense",
+      "+50 to Attack Rating",
+      "12% Life Stolen per Hit",
+      "7% Mana Stolen per Hit",
+      "Prevent Monster Heal",
+      "+30 to All Attributes",
+      "Indestructible"
+    ],
     tooltip: [
       { t: "One-Hand Damage: 24 to 71", c: "white" },
       { t: "Required Level: 64", c: "white" },
@@ -716,6 +729,18 @@ const ITEMS = [
     sprite: "img/giant-thresher.png",
     fill: ["img/socketables/rune-ber.png", "img/socketables/rune-mal.png", "img/socketables/rune-ber.png", "img/socketables/rune-ist.png"],
     fillLabel: "fill for Infinity",
+    fillName: "Infinity",
+    fillTip: [
+      "Level 12 Conviction Aura When Equipped",
+      "50% Chance to Cast Level 20 Chain Lightning When You Kill an Enemy",
+      "+35% Faster Run/Walk",
+      "+300% Enhanced Damage",
+      "-55% to Enemy Lightning Resistance",
+      "+40% Chance of Crushing Blow",
+      "Prevent Monster Heal",
+      "+45 to Vitality",
+      "30% Better Chance of Getting Magic Items"
+    ],
     tooltip: [
       { t: "Two-Hand Damage: 40 to 114", c: "white" },
       { t: "Required Level: 66", c: "white" },
@@ -761,6 +786,19 @@ const ITEMS = [
     sprite: "img/grand-matron-bow.png",
     fill: ["img/socketables/rune-ohm.png", "img/socketables/rune-jah.png", "img/socketables/rune-lem.png", "img/socketables/rune-eld.png"],
     fillLabel: "fill for Faith",
+    fillName: "Faith",
+    fillTip: [
+      "Level 15 Fanaticism Aura When Equipped",
+      "+2 to All Skills",
+      "+330% Enhanced Damage",
+      "Ignore Target's Defense",
+      "300% Bonus to Attack Rating",
+      "+75% Damage to Undead",
+      "+120 Fire Damage",
+      "All Resistances +15",
+      "10% Reanimate as: Returned",
+      "75% Extra Gold from Monsters"
+    ],
     tooltip: [
       { t: "Two-Hand Damage: 14 to 72", c: "white" },
       { t: "Required Level: 58", c: "white" },
