@@ -453,6 +453,103 @@ const ITEMS = [
     why: "The Vampire Gaze that drops today cuts physical damage by fifteen to twenty percent. This one, from patch 1.08, does a flat twenty five, with no cold damage cluttering the stat line. Five extra points of reduction does not sound like much until you stack it against everything else. Hardcore players chased these for years. It stopped dropping in this form long ago.",
     history: "Damage reduction was rebalanced after 1.08, and Vampire Gaze lost its fixed twenty five percent. The old copies kept it. Like every legacy item, they live only on non-ladder, and they get scarcer every year.",
     ifYouFind: "Check the damage reduced line. Twenty five percent flat means it is a 1.08 relic, not a modern drop."
+  },
+  {
+    slug: "small-charm-5-20",
+    name: "Shimmering Small Charm of Vita",
+    alias: "5/20 small charm",
+    quality: "magic",
+    type: "",
+    sprite: "img/small-charm.png",
+    tooltip: [
+      { t: "Required Level: 47", c: "white" },
+      "+5 to All Resistances",
+      "+20 to Life"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "A small charm takes one inventory square. This one gives five all resistance and twenty life for that square, both maxed. It is the best defensive small charm in the game, and players hoard whole rows of them. A perfect one costs more than plenty of uniques. Most people who find a near miss never notice how far off max it is.",
+    history: null,
+    ifYouFind: "Five and twenty is perfect. A four and eighteen looks almost identical and is worth a fraction. Read the numbers."
+  },
+  {
+    slug: "small-charm-3-20-20",
+    name: "Fine Small Charm of Vita",
+    alias: "3/20/20 small charm",
+    quality: "magic",
+    type: "",
+    sprite: "img/small-charm.png",
+    tooltip: [
+      { t: "Required Level: 47", c: "white" },
+      "+3 to Maximum Damage",
+      "+20 to Attack Rating",
+      "+20 to Life"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 2,
+    why: "The melee version of the perfect small charm. Three maximum damage, twenty attack rating, twenty life, all maxed, in one square. Physical builds fill their inventory with these. The roll has to hit all three ceilings at once, which almost never happens, and that is what you pay for.",
+    history: null,
+    ifYouFind: "All three lines have to be maxed. Close does not count and is not worth much."
+  },
+  {
+    slug: "grand-charm-skiller",
+    name: "Harpoonist's Grand Charm of Vita",
+    alias: "45-life skiller",
+    quality: "magic",
+    type: "",
+    sprite: "img/grand-charm.png",
+    tooltip: [
+      { t: "Required Level: 48", c: "white" },
+      "+1 to Javelin and Spear Skills (Amazon Only)",
+      "+45 to Life"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "A grand charm that adds a whole skill level to one of your trees is already worth keeping. One that also rolls near-max life is an endgame item. Javazons, casters and warcry barbarians build their whole inventory out of these. The skill is the base value. The life roll on top is what turns a common skiller into an expensive one.",
+    history: null,
+    ifYouFind: "Any plus-skill grand charm is worth holding. One with forty plus life is worth real trade."
+  },
+  {
+    slug: "jewel-40-15",
+    name: "Jewel of Fervor",
+    alias: "40/15 jewel",
+    quality: "magic",
+    type: "",
+    sprite: "img/jewel.png",
+    tooltip: [
+      "+40% Enhanced Damage",
+      "+15% Increased Attack Speed"
+    ],
+    valueTier: "S",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "One jewel. Forty percent enhanced damage and fifteen percent increased attack speed, both maxed. It is the single most valuable jewel in the game, and it trades in the high rune range, Ber to Jah. A whole endgame rune for one socketable. Almost every jewel is filler. This exact roll is a small fortune, and two lines are all that separate them.",
+    history: null,
+    ifYouFind: "Forty and fifteen, both maxed, or it is just another jewel. There is no close second on this one."
+  },
+  {
+    slug: "rainbow-facet",
+    name: "Rainbow Facet",
+    alias: "5/5 Cold Facet",
+    quality: "unique",
+    type: "Jewel",
+    sprite: "img/rainbow-facet.png",
+    tooltip: [
+      { t: "Required Level: 49", c: "white" },
+      "100% Chance to Cast Level 43 Frost Nova when you Level-Up",
+      "Adds 24-38 Cold Damage",
+      "+5% to Cold Skill Damage",
+      "-5% to Enemy Cold Resistance"
+    ],
+    valueTier: "A",
+    rarityTier: "Rare",
+    obscurity: 3,
+    why: "A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.",
+    history: null,
+    ifYouFind: "Match the element to your build, want the level-up trigger, and check for the five and five. Off-element or death-trigger is a different market."
   }
 ];
 
