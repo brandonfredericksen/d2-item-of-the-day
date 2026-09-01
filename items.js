@@ -663,6 +663,142 @@ const ITEMS = [
     why: "Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.",
     history: null,
     ifYouFind: "Only the pair matters. Together they hand a low-level character stats that normally cost a whole gear slot."
+  },
+  {
+    slug: "eth-berserker-axe",
+    name: "Berserker Axe",
+    alias: "eth BotD base",
+    quality: "normal",
+    type: "",
+    sprite: "img/berserker-axe.png",
+    tooltip: [
+      { t: "One-Hand Damage: 24 to 71", c: "white" },
+      { t: "Required Level: 64", c: "white" },
+      { t: "Required Strength: 138", c: "white" },
+      { t: "Required Dexterity: 59", c: "white" },
+      "Ethereal (Cannot be Repaired)",
+      "Socketed (6)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "A plain white axe that looks like a vendor sale. It is the base for an ethereal Breath of the Dying, one of the highest damage weapons in the game. The runeword needs six sockets, and ethereal adds a free damage boost that never wears off inside the word. A normal Berserker Axe is worthless. An ethereal one with six sockets is a small fortune, and the only difference is those two lines.",
+    history: null,
+    ifYouFind: "Ethereal and six sockets. Miss either and it is just an axe."
+  },
+  {
+    slug: "eth-giant-thresher",
+    name: "Giant Thresher",
+    alias: "eth Infinity base",
+    quality: "normal",
+    type: "",
+    sprite: "img/giant-thresher.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 40 to 114", c: "white" },
+      { t: "Required Level: 66", c: "white" },
+      { t: "Required Strength: 188", c: "white" },
+      { t: "Required Dexterity: 140", c: "white" },
+      "Ethereal (Cannot be Repaired)",
+      "Socketed (4)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "The mercenary's dream polearm base. Fast, long reach, and the preferred home for Infinity, the runeword that strips lightning immunity for the whole party. Ethereal with four sockets is what people hunt, because a merc weapon never loses durability in their hands, so ethereal is free damage with no downside. It carries the highest total stat requirement of any base in the game, which is part of the mystique.",
+    history: null,
+    ifYouFind: "Ethereal, four sockets. That is the Infinity base, and it is worth far more than the polearm looks."
+  },
+  {
+    slug: "eth-thunder-maul",
+    name: "Thunder Maul",
+    alias: "eth Thunder Maul",
+    quality: "normal",
+    type: "",
+    sprite: "img/thunder-maul.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 33 to 180", c: "white" },
+      { t: "Required Level: 65", c: "white" },
+      { t: "Required Strength: 253", c: "white" },
+      "Ethereal (Cannot be Repaired)",
+      "Socketed (4)"
+    ],
+    valueTier: "B",
+    rarityTier: "Rare",
+    obscurity: 3,
+    why: "The highest average base damage of any weapon in the game, and almost nobody uses it. The strength requirement is a wall, two hundred and fifty three, so it never fits a normal build. That is exactly why an ethereal one is a niche prize, for crushing blow smiters and the kind of dueler who builds around raw hit. Slow, brutal, and mostly forgotten.",
+    history: null,
+    ifYouFind: "Only worth it ethereal, and only to someone who can carry the strength. A specific buyer, but a real one."
+  },
+  {
+    slug: "grand-matron-bow",
+    name: "Grand Matron Bow",
+    alias: "Faith base",
+    quality: "normal",
+    type: "",
+    sprite: "img/grand-matron-bow.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 14 to 72", c: "white" },
+      { t: "Required Level: 58", c: "white" },
+      { t: "Required Strength: 108", c: "white" },
+      { t: "Required Dexterity: 152", c: "white" },
+      "+3 to Bow and Crossbow Skills (Amazon Only)",
+      "Socketed (4)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "Every Grand Matron Bow spawns with a hidden bonus of one to three bow skills. Most roll a one. A three, on a bow that also has four sockets, is the perfect base for Faith, the runeword bowazons build around. The bow itself is common. That plus-three roll paired with max sockets almost never happens, and that is the entire value.",
+    history: null,
+    ifYouFind: "Read the bow skills line. Plus three and four sockets is the Faith base. Plus one is a leveling bow."
+  },
+  {
+    slug: "tomb-reaver",
+    name: "Tomb Reaver",
+    alias: "3os Tomb Reaver",
+    quality: "unique",
+    type: "Cryptic Axe",
+    sprite: "img/tomb-reaver.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 125 to 570", c: "white" },
+      { t: "Required Level: 84", c: "white" },
+      { t: "Required Strength: 165", c: "white" },
+      { t: "Required Dexterity: 103", c: "white" },
+      "+280% Enhanced Damage",
+      "+230% Damage to Undead",
+      "+60% Increased Attack Speed",
+      "All Resistances +50",
+      "+80% Better Chance of Getting Magic Items",
+      "+14 Life after each Kill",
+      "Socketed (3)"
+    ],
+    valueTier: "S",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "Two Tomb Reavers can be worlds apart. It rolls one to three sockets and an enhanced damage range that swings by eighty percent. Only a three-socket copy at the top of the range is the one people chase. Then it hands you sixty attack speed, fifty all resist, and eighty magic find on top of monster damage. The name is the same on all of them. The roll is everything.",
+    history: null,
+    ifYouFind: "Count sockets, then read the enhanced damage. Three sockets and a high roll is the grail. One socket and a low roll is a different, cheaper axe."
+  },
+  {
+    slug: "sacred-targe",
+    name: "Sacred Targe",
+    alias: "45/4 Sacred Targe",
+    quality: "normal",
+    type: "",
+    sprite: "img/sacred-targe.png",
+    tooltip: [
+      { t: "Defense: 158", c: "white" },
+      { t: "Chance to Block: 60%", c: "white" },
+      { t: "Required Level: 47", c: "white" },
+      { t: "Required Strength: 86", c: "white" },
+      "All Resistances +45",
+      "Socketed (4)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "The lowest strength and highest block of any elite paladin shield, which already makes it the runeword base of choice. On top of that, paladin shields spawn with a hidden all-resistance bonus, up to forty five. A Sacred Targe that rolled the max resist and four sockets is the premier base for Spirit and every paladin runeword. The shield is common. That exact roll is not.",
+    history: null,
+    ifYouFind: "Forty five all resist and four sockets is the one. A low resist roll is an ordinary shield."
   }
 ];
 
