@@ -38,6 +38,7 @@
       historyTitle: "History",
       findTitle: "If you find one",
       valueLabel: "Value",
+      valueMeaning: "A rough worth on a mature ladder season, one gold coin (low) to four (endgame chase). A guess, not a price check.",
       rarityLabel: "Rarity",
       rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
       lastPatchLabel: "Last seen",
@@ -273,12 +274,21 @@
       "</div>";
   }
 
+  // Value shown as 1-4 gold coins (4 = most valuable). Letter tiers map on:
+  // S=4, A=3, B=2, C=2, D=1, F=1.
+  function valueCoins(tier) {
+    return { S: 4, A: 3, B: 2, C: 2, D: 1, F: 1 }[tier] || 1;
+  }
+
   function tagsHtml(item, lang) {
     var vc = tierClass(item.valueTier);
+    var n = valueCoins(item.valueTier);
+    var coins = "";
+    for (var ci = 0; ci < n; ci++) coins += '<i class="coin"></i>';
     return '' +
       '<div class="tags">' +
-        '<span class="tag tag-' + vc + '">' +
-          esc(ui("valueLabel", lang)) + " <b>" + esc(item.valueTier) + "</b>" +
+        '<span class="tag value" title="' + esc(ui("valueMeaning", lang)) + '">' +
+          esc(ui("valueLabel", lang)) + ' <span class="coins" aria-label="' + n + ' of 4">' + coins + "</span>" +
         "</span>" +
         '<span class="tag rarity" title="' + esc(ui("rarityMeaning", lang)) + '">' +
           esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +

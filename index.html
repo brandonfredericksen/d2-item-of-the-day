@@ -251,6 +251,14 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
   padding:5px 12px;cursor:default;
 }
 .tag b{font-weight:800;font-size:.8rem;letter-spacing:.01em;text-transform:none;color:var(--text)}
+/* value shown as 1-4 gold coins (D2 gold), not a letter grade */
+.tag.value{align-items:center}
+.coins{display:inline-flex;gap:4px;align-items:center}
+.coin{
+  width:12px;height:12px;border-radius:50%;display:inline-block;
+  background:radial-gradient(circle at 36% 30%, #ffeaa6 0%, #f2c552 42%, #b7801f 78%, #7d520f 100%);
+  box-shadow:inset 0 -1px 1px rgba(70,40,0,.55), inset 0 1px 1px rgba(255,245,200,.6), 0 1px 1px rgba(0,0,0,.4);
+}
 .tag-s b{color:var(--t-s)}
 .tag-a b{color:var(--t-a)}
 .tag-b b{color:var(--t-b)}
