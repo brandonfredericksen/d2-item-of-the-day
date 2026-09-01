@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "generated": "2026-08-31",
+    "purpose": "Items ruled out, with the reason. Feed this list as an exclusion set on future research runs so agents dig past ground already covered.",
+    "reasonCodes": {
+      "too-obvious": "Common knowledge chase item. Fails the 'wait, THAT is worth something' test.",
+      "fixed-value-known": "Well-known unique with a fixed roll, no surprise, seasoned players price it in their sleep.",
+      "cheap-base": "Base item that is common or cheap to obtain. User asked to minimize bases to only the super rare.",
+      "not-surprising-perfect": "A perfect roll exists but nobody is surprised by its value.",
+      "archetype-not-item": "A generalization, not a specific documented item.",
+      "mechanic-not-item": "A game rule or interaction, useful as a teaching note but not a card on its own.",
+      "off-scope": "Not base-game D2R economy.",
+      "removed": "Bug or item no longer in the current game.",
+      "niche-low": "Real and somewhat obscure but not collector-tier value.",
+      "user-flagged": "User explicitly rejected this in review."
+    }
+  },
+
+  "rejected": [
+    { "name": "4-socket Crystal Sword / Broad Sword (Spirit base)", "reason": "user-flagged", "note": "User: 'while useful it is far far from valuable.' Spirit bases are cheap and everywhere." },
+    { "name": "Ethereal Great Poleaxe (4os, Insight base)", "reason": "user-flagged", "note": "User: an eth Colossus Voulge is better, and Insight merc bases are cheap. Kept eth Giant Thresher as the one merc base instead." },
+    { "name": "Superior Archon Plate (15% ED, 4os)", "reason": "user-flagged", "note": "User flagged it directly. Enigma bases are chased but this does not clear the surprise bar for a card." },
+    { "name": "Bul-Kathos' Wedding Band (perfect)", "reason": "not-surprising-perfect", "note": "User: 'a perfect BK ring, no one would be surprised.'" },
+    { "name": "Mara's Kaleidoscope (perfect 30)", "reason": "not-surprising-perfect" },
+    { "name": "Verdungo's Hearty Cord (perfect)", "reason": "not-surprising-perfect", "note": "User named it originally, then said not to keep it just for that. Cut on merit: Verdungo's is well-known, so a veteran is not surprised a perfect one is valuable. The roll-dependent lesson is carried by items whose base gets dismissed (Crown of Ages, Wisp Projector, Death's Web)." },
+    { "name": "War Traveler", "reason": "fixed-value-known" },
+    { "name": "Raven Frost", "reason": "fixed-value-known" },
+    { "name": "Highlord's Wrath", "reason": "fixed-value-known" },
+    { "name": "Skin of the Vipermagi", "reason": "too-obvious" },
+    { "name": "Metalgrid", "reason": "niche-low" },
+    { "name": "Dracul's Grasp", "reason": "fixed-value-known" },
+    { "name": "Steelrend", "reason": "niche-low" },
+    { "name": "Death Cleaver", "reason": "niche-low" },
+    { "name": "Cow King's Hooves", "reason": "niche-low" },
+
+    { "name": "Enigma", "reason": "too-obvious" },
+    { "name": "Grief", "reason": "too-obvious" },
+    { "name": "Infinity", "reason": "too-obvious" },
+    { "name": "Annihilus", "reason": "too-obvious" },
+    { "name": "Hellfire Torch", "reason": "too-obvious" },
+    { "name": "Ber Rune", "reason": "too-obvious", "note": "The high-rune-as-currency angle is folded into the Stone of Jordan history entry instead." },
+    { "name": "Zod Rune", "reason": "too-obvious", "note": "Borderline. The rarer-than-valuable mismatch is a decent lesson, but Zod is common knowledge. Was the old placeholder. Reconsider only if the mismatch angle is wanted." },
+    { "name": "Wirt's Leg", "reason": "too-obvious", "note": "Everyone knows the cow-level key. Not valuable, not surprising." },
+
+    { "name": "5-socket Phase Blade (Grief base)", "reason": "cheap-base" },
+    { "name": "6-socket Phase Blade (Last Wish base)", "reason": "cheap-base" },
+    { "name": "4-socket Colossus Voulge (Pride/Infinity base)", "reason": "cheap-base" },
+    { "name": "6-socket Colossus Blade (BotD base)", "reason": "cheap-base", "note": "Kept eth Berserker Axe as the one BotD base." },
+    { "name": "Ethereal Colossus Blade (Grief/Death base)", "reason": "cheap-base" },
+    { "name": "Ethereal 4-socket Cryptic Axe", "reason": "cheap-base", "note": "Kept eth Tomb Reaver (same base class) as the collector version." },
+    { "name": "+3 Bow Skills 5-socket Matriarchal Bow (Mist base)", "reason": "cheap-base" },
+    { "name": "Cruel elite weapon (magic)", "reason": "archetype-not-item" },
+    { "name": "3-socket Great Poleaxe / Thresher", "reason": "cheap-base", "note": "Research entry itself flagged it needs 4 sockets. Confused entry." },
+
+    { "name": "Peace (Shael Thul Amn)", "reason": "too-obvious", "note": "Common budget runeword." },
+    { "name": "Sander's Riprap", "reason": "niche-low" },
+    { "name": "Kuko Shakaku", "reason": "niche-low", "note": "Reconsider for an LLD-bow entry if the pool needs it." },
+
+    { "name": "Ethereal The Reaper's Toll", "reason": "niche-low" },
+    { "name": "Ethereal Vampire Gaze", "reason": "niche-low" },
+    { "name": "Ethereal Shaftstop / Duress / Fortitude base", "reason": "cheap-base" },
+    { "name": "Ethereal Hone Sundan", "reason": "niche-low" },
+    { "name": "Ethereal Skullder's Ire", "reason": "niche-low" },
+    { "name": "Ethereal Bonehew", "reason": "niche-low" },
+
+    { "name": "Rare +2 Class-Skill / 10% FCR Amulet", "reason": "archetype-not-item", "note": "Superseded by the concrete crafted caster amulet entry." },
+    { "name": "Rare Dual-Leech 20 IAS melee gloves", "reason": "archetype-not-item", "note": "Superseded by crafted blood gloves." },
+    { "name": "Magic +3 Skill-Tab Circlet of the Magus", "reason": "archetype-not-item", "note": "Folded into the one caster-circlet entry." },
+    { "name": "Rare 2/20 Trap Assassin Circlet", "reason": "archetype-not-item", "note": "Same lesson as the kept caster circlet." },
+    { "name": "Rare 2/20 Sorceress Circlet", "reason": "archetype-not-item", "note": "Same. Kept a single circlet entry to carry the lesson." },
+    { "name": "Magic +2 Skills / 20 FCR Circlet (2os)", "reason": "archetype-not-item" },
+    { "name": "Rare LLD FCR Ring (level-30)", "reason": "archetype-not-item", "note": "Folded into the kept LLD dual-leech ring." },
+    { "name": "40% ED / 15% IAS magic (blue) jewel", "reason": "not-surprising-perfect", "note": "The rare Fervor and Carnage 40/15 jewels are kept; the magic version is a lesser copy." },
+
+    { "name": "Project Diablo 2 corruption (Worldstone Shard)", "reason": "off-scope", "note": "PD2 is a mod, not base-game D2R." },
+    { "name": "The 2.5 D2R Duping Era", "reason": "mechanic-not-item", "note": "An event, folded into the SOJ history entry." },
+    { "name": "The Ethereal Socketing Bug (ebug)", "reason": "removed", "note": "Removed in D2R." },
+    { "name": "Zod / Ethereal Indestructible Rule", "reason": "mechanic-not-item", "note": "Good teaching note for the eth entries." },
+    { "name": "Bases that cannot be ethereal", "reason": "mechanic-not-item" },
+    { "name": "Circlet vs Coronet vs Tiara vs Diadem", "reason": "mechanic-not-item", "note": "Fold into the caster-circlet entry as the 'base decides the value' point." }
+  ]
+}

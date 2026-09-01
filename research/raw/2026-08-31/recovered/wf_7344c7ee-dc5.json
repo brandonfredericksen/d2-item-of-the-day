@@ -1,0 +1,642 @@
+[
+  {
+    "domain": "Diablo II: Resurrced (D2R) trading economy, mature ladder season. Non-obvious high-value and collector/museum items for seasoned players.",
+    "items": [
+      {
+        "name": "Death's Fathom (perfect 30% Cold Skill Damage)",
+        "alias": "P Fathom, 30 Fathom",
+        "category": "Unique Dimensional Shard (Sorceress orb)",
+        "obscurity": 3,
+        "isSpecificRealItem": true,
+        "quality": "Unique, roll-dependent",
+        "valueTierGuess": "S",
+        "rarityTier": "Chase item, perfect-roll ceiling",
+        "priceSignal": "Perfect 30% copies were offered around 15 Ber, with a counter-offer of 6 Jah, on the Blizzard D2R trade forum, and owners are repeatedly told to keep it as a collection piece rather than sell. A 25-29% copy is a small fraction of that. The item itself is a known chase, but the last few percent of cold is the surprise: the jump from ~25% to 30% is worth several high runes on its own.",
+        "collectorCase": "This is the textbook perfect-roll premium the brief asks for. Two Fathoms that look identical in the tooltip except 25 vs 30 cold are separated by many high runes, and traders literally advise hoarding the 30 rather than trading it. That hoarding behavior is what makes a real collector piece, not just a strong item.",
+        "whyValuable": "Cold sorc endgame weapon. +3 sorc skills and up to +30% cold skill damage is a massive multiplier to Blizzard/Frozen Orb, and 30% is the hard ceiling, so a perfect one cannot be beaten, only matched.",
+        "teachingPoint": "On roll-dependent uniques, the value curve is not linear. It hockey-sticks at the max roll because a perfect copy is the best that can ever exist. Veterans respect Fathom but underestimate how steep that last-5% premium is.",
+        "veteranBlindspot": "A seasoned player knows Fathom is great, but will often quote it as one price and forget that a true 30 is a different market entirely from a 27, trading more like a trophy than a usable drop.",
+        "history": "Introduced with the Lord of Destruction ladder-era orbs; remains the defining cold-sorc chase in D2R.",
+        "factClaims": [
+          "Death's Fathom is a unique Dimensional Shard (sorceress orb), required level 73.",
+          "Its variable stat is +15-30% to Cold Skill Damage; 30% is the perfect roll.",
+          "Fixed mods: +3 to Sorceress Skill Levels, +20% Faster Cast Rate, +25-40% Lightning Resist, +25-40% Fire Resist.",
+          "On the Blizzard D2R trade forum a perfect 30% copy drew a best offer of 15 Ber and a counter of 6 Jah, and multiple posters advised keeping it for collection."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-on-perfect-death-fathom/111569",
+          "https://diablo2.wiki.fextralife.com/Death's+Fathom",
+          "https://diablo.fandom.com/wiki/Death's_Fathom"
+        ]
+      },
+      {
+        "name": "Harpoonist's Grand Charm with near-max life (Javazon skiller)",
+        "alias": "Java skiller, 40-life java GC, harpoonist's GC of Life",
+        "category": "Grand Charm (Amazon skiller)",
+        "obscurity": 3,
+        "isSpecificRealItem": true,
+        "quality": "Magic, suffix-dependent",
+        "valueTierGuess": "B",
+        "rarityTier": "Common charm, rare perfect suffix",
+        "priceSignal": "Documented Blizzard-forum sales: a plain +1 skiller trades around a Mal rune, +21 life sold for Gul + Um, +30 life sold for 3 Ist + Mal, and +40 life is treated as perfect and worth more still. So the same charm swings from a Mal (cheap) to well over a Gul purely on the life suffix. A plain skiller is genuinely cheap and should not be featured; the near-max-life copy is the collector piece.",
+        "collectorCase": "The gap between the trash version and the museum version lives entirely in a suffix a casual player would read past. A '+1 Javelin and Spear Skills' charm looks like vendor fodder, yet the 40-life roll is a multi-high-rune item. That look-versus-worth gap is exactly the hidden-collector-value pillar.",
+        "whyValuable": "Javazons stack these. +1 to Lightning Fury/Charged Strike per charm plus up to ~40 life each means a full inventory adds skills and a huge life pool. Life is the scarce, expensive half.",
+        "teachingPoint": "On skillers, price the suffix before the skill. The +1 is the cheap part everyone sees; the life (or max damage) roll is where the money is. This generalizes to sorc, necro (poison and bone), and paladin skillers.",
+        "veteranBlindspot": "Even experienced players quote 'a skiller' as one price and forget that a max-life java skiller is a different animal from a plain one, often by an order of magnitude.",
+        "factClaims": [
+          "A Harpoonist's Grand Charm gives +1 to Javelin and Spear Skills (Amazon).",
+          "Plain +1 skillers trade around a Mal rune per contemporary Blizzard-forum price checks.",
+          "Documented sales: +21 life for Gul + Um; +30 life for 3 Ist + Mal; +40 life treated as the perfect ceiling and worth more.",
+          "The life suffix, not the +1 skill, is the primary price driver."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-on-plain-java-skillers/85326",
+          "https://diablo2.io/pricecheck.php?item=harpoonist+grand+charm&other=1"
+        ]
+      },
+      {
+        "name": "40% ED / 15% IAS magic (blue) jewel",
+        "alias": "40/15 jewel, perfect blue jewel",
+        "category": "Jewel (magic)",
+        "obscurity": 4,
+        "isSpecificRealItem": true,
+        "quality": "Magic (blue), perfect prefix + suffix",
+        "valueTierGuess": "B",
+        "rarityTier": "Ultra-rare, magic-only affix ceiling",
+        "priceSignal": "On the Blizzard D2R forum a perfect 40 ED / 15 max jewel was pegged at roughly Gul to 2x Ist, and the 40 ED / 15 IAS variant is considered slightly more desirable because IAS can push breakpoints. A random jewel is worthless, so only the perfect roll qualifies. Search-surfaced diablo2.io listings echo Ist-plus asking prices for top ED jewels.",
+        "collectorCase": "The single most overlooked slot in the game. A jewel is a throwaway to most players, yet the 40/15 is a magic-only ceiling that cannot be crafted, rerolled, or improved. You either find the blue drop or you do not, which is what makes a perfect one a quiet collector grail.",
+        "whyValuable": "40% ED plus 15% IAS in one socket is the strongest single-socket damage-and-speed jewel for a weapon. It goes in Phase Blade Grief, eth weapons, bowazon setups, anything socketed.",
+        "teachingPoint": "Two facts collide here. First, 40% ED is a magic-only affix, so a RARE jewel can never reach it; the god jewel is blue, not rare. Second, %ED on a socketable only boosts the item it sits in, so in body armor or a helm it adds defense, not weapon damage; the ED is only live in a weapon.",
+        "veteranBlindspot": "Many veterans assume the best jewels are rare (multi-stat) and are surprised the true chase jewel is a plain two-line blue, and that you cannot cube your way to one.",
+        "factClaims": [
+          "A jewel can roll up to 40% Enhanced Damage, but 40% ED is a magic-only affix that cannot appear on rare jewels.",
+          "The perfect damage jewel is therefore a magic (blue) jewel: 40% ED prefix plus a 15% IAS suffix (or 15 max damage).",
+          "%Enhanced Damage on a socketable only affects the item it is socketed in; in armor it adds defense, so the ED is only useful in a weapon.",
+          "Perfect 40 ED / 15 jewels were valued around Gul to 2x Ist on the Blizzard D2R trade forum."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-40ed15-max-jewel/57310",
+          "https://www.purediablo.com/diablo-2/jewel-affixes"
+        ]
+      },
+      {
+        "name": "Wisp Projector (perfect 20 Lightning Absorb / 20 MF)",
+        "alias": "20/20 Wisp, perfect Wisp",
+        "category": "Unique Ring",
+        "obscurity": 3,
+        "isSpecificRealItem": true,
+        "quality": "Unique, roll-dependent",
+        "valueTierGuess": "B",
+        "rarityTier": "Rarest unique ring",
+        "priceSignal": "A near-perfect 20 absorb / 17 MF copy drew offers of Ohm and Vex+Gul on the Blizzard trade forum, and dedicated d2jsp threads exist purely for selling perfect 20/20 copies. Demand is niche but the supply is tiny, which holds the floor up. Not a mass-market item, which is the point.",
+        "collectorCase": "It is the rarest of all unique rings, and most players never build around it, so a perfect 20/20 is both scarce and rarely seen in the wild. It is a connoisseur ring: the people who want it really want it, for max-block hardcore characters and PvP lightning-absorb tech.",
+        "whyValuable": "20% lightning absorb is a real defensive breakpoint against lightning enchanted packs, Mephisto, and PvP lightning. Stack two and you can heal off lightning. The 20 MF is a bonus.",
+        "teachingPoint": "Rarity and demand are different axes. Wisp is the rarest ring but low-demand, so it is not top-price. Value equals rarity times demand, and collector items can be the rarity-heavy corner of that curve.",
+        "veteranBlindspot": "Seasoned players wave it off as a gimmick charge ring and forget it is the rarest ring in the game, so they undervalue a perfect one and are surprised anyone chases it.",
+        "factClaims": [
+          "Wisp Projector is widely cited as the rarest of the unique rings; required level 76.",
+          "Stats: 10% chance to cast level 16 Lightning on striking, +10-20 Lightning Absorb, 10-20% Better Chance of Getting Magic Items, plus charges of Oak Sage, Heart of Wolverine, and Spirit of Barbs.",
+          "Perfect roll is 20 Lightning Absorb / 20 MF.",
+          "A ~20/17 copy drew offers of Ohm and Vex+Gul on the Blizzard D2R trade forum."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-wisp-projector-ring/89561",
+          "https://eu.forums.blizzard.com/en/d2r/t/price-check-perfect-wisp-projector-2020-solved/12652"
+        ]
+      },
+      {
+        "name": "Crafted Caster Amulet: +2 class skills / 20% FCR / all-res",
+        "alias": "god craft ammy, 2/20 caster craft",
+        "category": "Crafted Amulet",
+        "obscurity": 3,
+        "isSpecificRealItem": true,
+        "quality": "Crafted, best-in-slot roll",
+        "valueTierGuess": "B",
+        "rarityTier": "Effectively one-of-a-kind craft",
+        "priceSignal": "A +2 sorc / 20 FCR craft with a low life roll was valued around an Ohm rune as a starting ask on the Blizzard forum, with the clear note that a copy carrying all-resist plus stats jumps well beyond that. Traders treat these case-by-case because each is unique. A plain +1 caster craft is cheap; only the +2/20/res copy is museum-grade.",
+        "collectorCase": "This is the classic dismissed-but-strong craft. It looks like random junk out of the cube, yet a +2/20FCR/all-res amulet is a piece no unique or rare can equal, which makes each perfect one genuinely singular. Traders hunt them; casuals vendor them.",
+        "whyValuable": "For a caster it beats Mara's Kaleidoscope. Mara's gives +2 all skills but 0 FCR; a rare amulet caps at 10 FCR. Only the craft delivers +2 to your class AND 20 FCR AND resists on one amulet, hitting cast breakpoints Mara's cannot.",
+        "teachingPoint": "Crafted items have a reserved affix pool on top of the normal magic affixes, which lets them exceed the caps that bind rares. That is why the true best-in-slot caster amulet is a craft, not a unique or a rare.",
+        "veteranBlindspot": "Even veterans default to Mara's as the caster amulet and forget that a fully rolled caster craft is strictly better for FCR-hungry builds, so they undervalue the good crafts they cube and toss.",
+        "factClaims": [
+          "Crafted Caster amulet recipe: magic amulet + Ral rune + Perfect Amethyst + any jewel.",
+          "Rare amulets cap at 10% Faster Cast Rate; the caster craft can reach 20% FCR via its reserved mods.",
+          "The +2 to [class] Skills affix is a prefix that requires a high item level (roughly ilvl 90) to spawn.",
+          "No unique matches +2 single-class skills with 20 FCR (Mara's gives +2 all skills but 0 FCR), so the craft is unique in slot.",
+          "A +2 sorc / 20 FCR copy was quoted around an Ohm rune as a floor, more with all-res and stats."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-sorc-amulet-2skill-20fcr-amulet/61439",
+          "https://diablo2.io/recipes/recipe-caster-amulet-t3883.html",
+          "https://us.forums.blizzard.com/en/d2r/t/2-sorc20-fcr-amulet/116962"
+        ]
+      },
+      {
+        "name": "Griffon's Eye rolled -20 res over +15 damage",
+        "alias": "20/xx Griffon, -20 Griffon",
+        "category": "Unique Diadem",
+        "obscurity": 3,
+        "isSpecificRealItem": true,
+        "quality": "Unique, roll-dependent",
+        "valueTierGuess": "A",
+        "rarityTier": "High-tier chase, roll-sensitive",
+        "priceSignal": "A -20/+15 with high defense sold for 7 Ber after holding out, with 5.5 Ber called an easy sale, on the Blizzard trade forum. The key detail from that thread: buyers stressed the -20 enemy resistance matters far more than the +15 skill damage. So a -20/+10 outvalues a -15/+15 that looks better on paper.",
+        "collectorCase": "Griffon's itself is known, but which roll to chase is the veteran-level nuance. The market prices the -20 resist half more than the +15 damage half, which inverts what the tooltip visually emphasizes. Knowing that separates a trader from a tourist.",
+        "whyValuable": "Best-in-slot helm for lightning sorc and javazon. Minus enemy lightning resistance is a rarer, stronger multiplier than personal skill damage because it also enables breaking immunities alongside Infinity.",
+        "teachingPoint": "When two variable stats sit on one item, they are rarely valued equally. Here -res is scarcer and more impactful than +skill damage, so a numerically 'worse looking' -20/+10 beats a -15/+15. Price the rare half.",
+        "veteranBlindspot": "Players fixate on the +15% light damage line and will pay up for it, when the -20% enemy resist is the roll that actually sets the price.",
+        "factClaims": [
+          "Griffon's Eye is a unique Diadem, required level 76; +1 to All Skills, +25% Faster Cast Rate, +100-200 Defense.",
+          "Variable mods: -15 to -20% to Enemy Lightning Resistance and +10-15% to Lightning Skill Damage.",
+          "Community consensus prices the -20% enemy resistance above the +15% skill damage.",
+          "A near-perfect -20/+15/194def copy sold for 7 Ber, with 5.5 Ber described as an easy sale."
+        ],
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-griffons-eye-2015194def/86606",
+          "https://diablo.fandom.com/wiki/Griffon's_Eye"
+        ]
+      },
+      {
+        "name": "Ethereal Titan's Revenge",
+        "alias": "eth Titan's, eth Titans",
+        "category": "Unique Ceremonial Javelin (Amazon)",
+        "obscurity": 4,
+        "isSpecificRealItem": true,
+        "quality": "Unique, ethereal",
+        "valueTierGuess": "C",
+        "rarityTier": "Uncommon roll (ethereal), meta-niche",
+        "priceSignal": "Actively sold as a distinct SKU by item shops split into ethereal 150-184% and ethereal 185-199% ED tiers, at a clear premium over non-eth Titan's. Demand is javazon-specific, so it is mid-tier in raw value, but the eth version is the one build-aware buyers seek. Non-eth Titan's is cheap and common.",
+        "collectorCase": "A weapon where ethereal, normally a defect that makes gear break, is pure free damage, and most players never realize it. That inversion, plus the fact that it is the true endgame throwing weapon for a classic build, makes a clean eth copy a knowledgeable player's pickup rather than a shopkeeper's.",
+        "whyValuable": "It is the ethereal endgame javazon melee/throw weapon: about 50% more damage than non-eth, with Replenishes Quantity so it never runs dry and, being a thrown weapon, never actually breaks from throwing.",
+        "teachingPoint": "Ethereal is only a downside on gear that loses durability in use. Thrown weapons do not lose durability from throwing, they lose quantity, which Replenishes Quantity refills, so an eth thrower is all upside. The 'eth will break' instinct is simply wrong here.",
+        "veteranBlindspot": "Plenty of experienced players still flinch at eth on a weapon that they think will shatter, and pass on eth Titan's, not realizing thrown weapons do not degrade from being thrown.",
+        "factClaims": [
+          "Titan's Revenge is a unique Ceremonial Javelin with Replenishes Quantity (about 1 per 3 seconds) and an increased stack size.",
+          "Thrown weapons do not lose durability from throwing, so an ethereal Titan's does not break and keeps replenishing javelins.",
+          "The ethereal version carries roughly 50% more damage than non-ethereal (about 185-199% ED at the top versus ~150% base).",
+          "Item shops list ethereal Titan's Revenge as a separate, higher-priced SKU from the non-ethereal version."
+        ],
+        "sources": [
+          "https://diablo2.io/uniques/titan-s-revenge-t995.html",
+          "https://www.d2rgear.com/products/titan-s-revenge-ethereal-185-199-ed",
+          "https://maxroll.gg/d2/guides/lightning-fury-amazon-guide"
+        ]
+      },
+      {
+        "name": "Stone of Jordan",
+        "alias": "SOJ, SoJ",
+        "category": "Unique Ring (historic significance)",
+        "obscurity": 2,
+        "isSpecificRealItem": true,
+        "quality": "Unique",
+        "valueTierGuess": "C",
+        "rarityTier": "Historic, once the currency, cheap today",
+        "priceSignal": "As a usable ring today the SOJ is cheap, an ordinary +1 skills / mana ring outclassed by better options, and trades low. Its slot on the site is bought entirely by history, not by current demand. This is a deliberate Pillar-2 historic entry, not a hidden-value one.",
+        "collectorCase": "This is the most historically important item in the franchise. It was the literal currency of online D2, a duplication exploit destroyed its value, and Blizzard's fix, tying SOJ sales to spawning Diablo Clone, is still live in D2R. No serious D2 museum omits it, even though the ring itself is now a commodity.",
+        "whyValuable": "Historic impact, not power. It set trade prices for years ('how many SOJs?'), and its dupe crisis directly shaped Blizzard's anti-dupe and event design.",
+        "teachingPoint": "The Diablo Clone mechanic is a designer turning an economy problem into content: selling SOJs to a vendor on Hell ladder ticks a hidden per-region counter, and after roughly 75-125 sales 'Diablo Walks the Earth' and Uber Diablo spawns server-wide, dropping the Annihilus.",
+        "veteranBlindspot": "Everyone knows SOJ. What even veterans blur is the exact counter mechanic: the sale must be on Hell, the counter is per region and per game mode, the threshold is a hidden 75-125, and it resets after each spawn.",
+        "history": "Became the de facto currency of classic online D2. A massive duplication exploit flooded servers with SOJs and collapsed the price. Patch 1.10 (2003) tied selling SOJs to NPC vendors to the Diablo Clone spawn event as the response.",
+        "legitimacy": "CONFIRMED",
+        "factClaims": [
+          "Stone of Jordan stats: +1 to All Skills, Increase Maximum Mana 25%, +20 to Mana, Adds 1-12 Lightning Damage; required level 29.",
+          "It became the de facto currency unit of classic online D2 trading.",
+          "A duplication exploit flooded servers with duped SOJs and collapsed its value.",
+          "Patch 1.10 (2003) made selling SOJs to a vendor on Hell tick a hidden per-region counter; after roughly 75-125 sales Uber Diablo (Diablo Clone) spawns in every active game on that server.",
+          "Killing Diablo Clone drops the Annihilus, the game's only unique small charm."
+        ],
+        "sources": [
+          "https://diablo-archive.fandom.com/wiki/Uber_Diablo_(Diablo_II)",
+          "https://maxroll.gg/d2/meta/diablo-clone",
+          "https://diablo.fandom.com/wiki/Stone_of_Jordan_(Diablo_II)"
+        ]
+      },
+      {
+        "name": "Tyrael's Might",
+        "alias": "Tyrael's, TM",
+        "category": "Unique Sacred Armor",
+        "obscurity": 2,
+        "isSpecificRealItem": true,
+        "quality": "Unique",
+        "valueTierGuess": "A",
+        "rarityTier": "Rarest unique item in the game",
+        "priceSignal": "Priced as a grail trophy rather than by usefulness. It commands a high, collector-driven price because of pure scarcity, but the demand is from grail hunters and collectors, not from min-maxers, so its price is oddly soft relative to how rare it is. Sold as a premium one-off by grail-focused sellers.",
+        "collectorCase": "The literal rarest unique in D2/D2R, and the museum-piece twist is that its rarity outstrips its usefulness. It is a trophy, not a build-enabler, which is exactly why it belongs in a collector exhibit and not a gear guide. Owning one is a flex, not an upgrade.",
+        "whyValuable": "Scarcity and prestige. All-resist, cannot be frozen, requirements removed, and a clean look, but its stat line is beaten by cheaper options for almost every build.",
+        "teachingPoint": "Because uniques cannot hold runewords, Tyrael's can never become Enigma, so most builds get more from a Ber+other Enigma body than from the rarest armor in the game. Rarity does not equal build value, and here they openly diverge.",
+        "veteranBlindspot": "Veterans know it is rare and assume that means best-in-slot. In practice it is a collector trophy that loses to an Enigma runeword for the teleport almost everyone actually wants.",
+        "history": "Long regarded across D2 communities as the single hardest legitimate unique to drop, a grail capstone.",
+        "legitimacy": "CONFIRMED",
+        "factClaims": [
+          "Tyrael's Might is a unique Sacred Armor, widely regarded as the rarest unique item in D2/D2R.",
+          "Stats: +120-150% Enhanced Defense, +50-100% Damage to Demons, All Resistances +20-30, +20-30 Strength, +20% Faster Run/Walk, Indestructible, Cannot Be Frozen, Slain Monsters Rest in Peace, Requirements -100%; level requirement 84.",
+          "As a unique it cannot hold a runeword, so it cannot be made into Enigma.",
+          "It is a Sacred Armor base, one of the highest item-level armor bases, which is part of why it drops so rarely."
+        ],
+        "sources": [
+          "https://www.myholygrind.com/item/tyraels-might",
+          "https://diablo.fandom.com/wiki/Tyrael's_Might_(Diablo_II)",
+          "https://diablo2.io/uniques/tyrael-s-might-t1002.html"
+        ]
+      },
+      {
+        "name": "The White Ring",
+        "alias": "White Ring",
+        "category": "Illegit / hacked item (collector folklore)",
+        "obscurity": 4,
+        "isSpecificRealItem": true,
+        "quality": "Normal quality (white text), hacked stats",
+        "valueTierGuess": "F",
+        "rarityTier": "Does not legitimately exist",
+        "priceSignal": "No legitimate market. It cannot be dropped, traded on ladder, or verified, and it was patched out. Its only 'value' is folklore and screenshots. This is a Pillar-2 folklore entry by design, flagged clearly as illegit, never presented as an obtainable item.",
+        "collectorCase": "Pure collector folklore, the hacked-legend category the brief calls out. Its whole mystique is that it looked like nothing: a plain white 'Ring' with no name, hiding god-tier impossible stats. It is remembered precisely because it should not have existed, which is museum-of-oddities material.",
+        "whyValuable": "Historic and cultural, not mechanical. It is an artifact of the open-Battle.net hacking era that veterans trade stories about, not runes.",
+        "teachingPoint": "Item color equals quality, and normal (white) items should be the weakest. The White Ring weaponized that: a white label made the strongest ring in existence look like trash, which is why the legend stuck.",
+        "veteranBlindspot": "Many seasoned players never actually saw one and are not sure it was real. It was real as a hacked item, not as a legitimate drop, and that ambiguity is the point of including it as folklore.",
+        "history": "Circulated on early open Battle.net where item modding was possible, then filtered onto closed Battle.net as an illegit item. Its true item name was simply a normal-quality 'Ring', shown in white. Removed by later patches; cited as gone by v1.14d.",
+        "legitimacy": "MYTH",
+        "factClaims": [
+          "The White Ring was an illegit / hacked item, not a legitimate drop.",
+          "Its actual item name was a normal-quality 'Ring', which displays in white text, hence the nickname.",
+          "It carried impossible stats and no level or stat requirements, originating on open Battle.net.",
+          "It is documented as no longer existing as of patch 1.14d.",
+          "It is folklore for collectors, not obtainable or tradeable in a legitimate D2R ladder."
+        ],
+        "sources": [
+          "https://www.diablofans.com/forums/read-only-diablo-forums/diablo-legacy-forums/diablo-ii/71469-some-pics-of-items-you-may-remember",
+          "https://www.rpgstash.com/blog/bugged-and-hacked-d2-items",
+          "https://gamefaqs.gamespot.com/boards/370600-diablo-ii-lord-of-destruction/44966426"
+        ]
+      },
+      {
+        "name": "Zod rune",
+        "alias": "Zod",
+        "category": "Rune (economic curiosity)",
+        "obscurity": 3,
+        "isSpecificRealItem": true,
+        "quality": "Rune, highest tier",
+        "valueTierGuess": "B",
+        "rarityTier": "Rarest rune, low relative price",
+        "priceSignal": "Trades below Ber and Jah despite being rarer. Search-surfaced price data puts Zod roughly on par with or under a Gul/Ohm in practice, with Ber around 3-3.5x and Jah around 2x a Zod. A veteran often already knows this, so it earns its slot as a museum-economics exhibit, not as a gotcha.",
+        "collectorCase": "It is the counterexample that teaches the whole D2 economy: the single rarest rune in the game is not the most valuable. That inversion is a museum plaque in item form. Included as an economy-history piece rather than a hidden-value flip.",
+        "whyValuable": "As currency, modest. As a lesson, priceless: it demonstrates that rune prices track runeword demand, not drop rarity.",
+        "teachingPoint": "Rune value equals the demand of the runewords it enables. Ber and Jah build Enigma, Lo builds Grief, so they are expensive. Zod only grants Indestructible, which almost no meta runeword needs, so the rarest rune is worth a fraction of runes below it.",
+        "veteranBlindspot": "This is the honest caveat: most seasoned players do know Zod is cheap. Its surprise value is for the many who assume rarest equals priciest, and as a clean illustration of demand-driven pricing.",
+        "legitimacy": "CONFIRMED",
+        "factClaims": [
+          "Zod is the highest and rarest rune in Diablo II.",
+          "Its only intrinsic property when used is making an item Indestructible.",
+          "Almost no meta runeword requires Zod, so demand is low.",
+          "Zod trades below Ber and Jah despite being rarer, with rough ratios cited near Zod 1.0, Jah ~2.0, Ber ~3-3.5."
+        ],
+        "sources": [
+          "https://diablo2.io/pricecheck.php?item=1331",
+          "https://us.forums.blizzard.com/en/d2r/t/zod-for-jahber-rune/114076"
+        ]
+      }
+    ],
+    "notes": "SOURCES REACHED vs BLOCKED. Fully fetchable and used for hard numbers: Blizzard D2R trade forums (us.forums.blizzard.com and eu.forums.blizzard.com) price-check threads, and myholygrind.com. BLOCKED to direct fetch (402/403/522, Cloudflare or paywall): d2jsp.org (403 on every thread), diablo2.io (403/522), d2trader.net (522), purediablo.com (403), rpgstash.com (403), several fandom.com pages (402). I worked around every block by pulling those sites' data through WebSearch result snippets, which surfaced diablo2.io price aggregates, purediablo affix tables, and fandom stat lines. Where a value came only from a snippet or an older thread, I flagged it in priceSignal.\n\nPRICE CAVEAT: rune values are directional, gathered across threads of varying dates in a mature-ladder context. Several key threads (Death's Fathom, Wisp) are 2021-2022 vintage, so treat exact rune counts as relative-demand signals, not live quotes. This matches the brief: research prices to decide inclusion, print only tier letters on the site.\n\nINCLUSION LOGIC: Pillar 1 hidden value = Death's Fathom perfect, Harpoonist's/java skiller with life, 40/15 magic jewel, crafted caster amulet, Griffon's roll nuance, eth Titan's. Pillar 2 historic/folklore = Stone of Jordan, Tyrael's Might, White Ring, and Zod as an economy-curiosity. Deliberately CUT as too cheap or too obvious for a veteran audience: 4os Crystal Sword and 4os Monarch (trivially socketed via Larzuk), perfect Bul-Kathos ring and Ber runes (brief names these as veteran-known), plain skillers and random rare jewels, and generic eth Thresher/CB runeword bases (the brief says minimize bases; none cleared the museum bar).\n\nFACT-ACCURACY FLAGS to double-check before publishing: (1) Grand-charm life ceiling is treated by traders as ~40; I did not find an authoritative exact max suffix name, so I wrote 'near-max ~40 life' rather than pin a cap. (2) Crafted caster amulet FCR: rare cap 10% is confirmed; the craft reaching 20% via reserved mods is well established but the exact reserved-vs-rolled split (5-10% reserved plus affix) varied between sources, so I stated the achievable 20% total and avoided the breakdown. (3) SOJ Diablo Clone threshold is a hidden, randomized 75-125 per region; treat as a range, not a fixed number. (4) White Ring specifics are folklore; I limited claims to what multiple community sources agree on (normal-quality 'Ring', open-bnet hacked origin, gone by 1.14d) and marked legitimacy MYTH. (5) Death's Fathom is +3 sorc skills (not +2) and +20% FCR (not 25); Griffon's is +1 all skills / +25% FCR; both verified against stat pages.\n\nDEPTH-BENCH (verified, available if you want more than these 10): perfect Crown of Ages (2 sockets + 15% DR + 30 all-res, large premium over a base COA); a max-life poison-and-bone or lightning skiller (same suffix-premium logic as the java skiller); and the Annihilus itself as the SOJ/Diablo Clone payoff. Say the word and I can price-check and write these up to the same standard."
+  },
+  {
+    "domain": "Magic and White/Grey Base Items - value from affix roll or socket count (runeword bases, socket counts, superior bases, premium magic affixes)",
+    "items": [
+      {
+        "name": "Jeweler's Monarch of Deflecting",
+        "alias": "JMOD",
+        "category": "Magic shield base (used as-is, not a runeword base)",
+        "obscurity": 4,
+        "valueTierGuess": "S",
+        "rarityTier": "Extremely rare. Needs the Jeweler's prefix rolling 4 sockets AND the of Deflecting suffix on the same natural Monarch drop at item level 55+.",
+        "priceSignal": "Genuinely S-tier. High-defense copies (146-148 def, 4os) were price-checked at 13-15 Ber on d2jsp trade/PC threads; some sellers asked Jah+Ber. Perfect ones described as 'a dozen Bers' since D2R launch. This is one of the very few MAGIC (blue) items that outvalues most finished runewords. Listed on diablo2.io PC, d2jsp, and RMT shops (ItemForge, d2stock).",
+        "collectorCase": "This is the canonical example of a magic base whose value is the affix roll, and it deserves the marquee slot. Runewords cannot be placed in magic items, so a JMOD is the rare case where a blue item IS the endgame piece rather than a base for something else. You socket it yourself with 4 jewels: 4 Rainbow Facets for a max-block, high-elemental-damage caster shield, or 4x 15/15 Vermilion jewels for a max-block attack shield. It is the best general-purpose magic shield in the game and a true trophy because the two needed affixes almost never co-roll.",
+        "whyValuable": "Jeweler's grants the full 4 sockets (top socket-prefix tier). Of Deflecting is the top blocking suffix, giving +30% Faster Block Rate and +20% Increased Chance of Blocking ('30/20'). On a Monarch (62% base block, the earliest good 4-socket shield) that reaches max block while leaving 4 open sockets for jewels. No runeword offers 4 free jewel slots plus 30/20 block.",
+        "teachingPoint": "Socket-granting prefixes are tiered: Mechanist's = 1-2, Artificer's = 3, Jeweler's = 4 (capped by the base's max sockets). Magic items get only 1-2 sockets from Larzuk and cannot be cubed for sockets, so a 4-socket magic item must drop that way naturally with the Jeweler's prefix. That is why a 4os magic Monarch with a second good affix is a lottery.",
+        "veteranBlindspot": "A veteran sees 'magic 4os Monarch' and assumes it is worse than a white one for Spirit. Wrong. A white Monarch makes Spirit; a JMOD is a finished max-block facet shield worth more than most Spirits. The magic tag is the point, not a downgrade.",
+        "factClaims": [
+          "Jeweler's is a magic prefix that grants sockets; it is the top tier at 4 sockets, affix level 55, required level 47, capped by the base item's max sockets.",
+          "Monarch max sockets is 4, so Jeweler's rolls the full 4 on it.",
+          "Of Deflecting is the top blocking suffix: +30% Faster Block Rate and +20% Increased Chance of Blocking (shorthand '30/20').",
+          "Monarch base: 156 Strength, required level 54, defense 133-148, ~62% base chance to block, 86 durability.",
+          "Runewords cannot be made in magic (blue) items; a JMOD is used as-is and socketed by the owner.",
+          "Magic items receive only 1-2 sockets from Larzuk and cannot be socketed by the cube recipe, so a 4-socket JMOD must be a natural drop at item level 55 or higher."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Magic (blue); higher base defense roll (up to ~148) drives value",
+        "history": "A long-running D2 community trophy and meme, showcased since the original game as the best magic shield; carried into D2R as a launch-era chase piece.",
+        "sources": [
+          "https://lilura1.blogspot.com/2021/03/Diablo-2-Resurrected-Best-Magic-Shield-Jewelers-Monarch-of-Deflecting-4sox-30-FBR-20-ICB.html",
+          "https://d2runewizard.com/prefix/Jeweler's",
+          "https://forums.d2jsp.org/topic.php?t=92920572&f=268",
+          "https://www.purediablo.com/forums/threads/jewelers-monarch-of-deflecting.156696/",
+          "https://diablo2.io/pricecheck.php?item=jeweler%27s+monarch&other=1"
+        ]
+      },
+      {
+        "name": "45-all-resist 4-socket Sacred Targe",
+        "alias": "45/4os Sacred Targe (or '45/30/20' auric)",
+        "category": "White/superior Paladin auric shield base",
+        "obscurity": 3,
+        "valueTierGuess": "A",
+        "rarityTier": "Rare. Needs the inherent all-resist automod to roll near its 45 max AND 4 sockets on the lowest-strength elite paladin shield.",
+        "priceSignal": "High-rune demand. d2jsp has dedicated 45-all-res 4os Sacred Targe buy/sell threads and it is openly called 'GG for Exile'; RMT shops list it around the price of a mid-high rune. The value comes from the baked-in resist, not the socket count alone.",
+        "collectorCase": "A paladin's white shield base can carry up to +45% all resistance before any runeword is applied. Put Spirit into a 45-res Sacred Targe and you get Spirit's stats PLUS +45 all resist that a Monarch can never give. The same base makes a self-repairing 45-res Exile if ethereal, or a 45-res Dream, Dragon, or Phoenix. It is the paladin endgame shield base and the resist roll is a separate rarity axis stacked on top of the socket roll.",
+        "whyValuable": "Sacred Targe is the lowest-strength elite paladin shield (86 str) with high paladin block and a 4-socket max. The inherent All Resistances +5-45% automod means a 45 roll is worth far more than a low roll. Resist carries onto the finished runeword, so '45/30/20' (45 res, plus of Deflecting block if magic, or just 45-res white for a runeword) is the dream.",
+        "teachingPoint": "Class-specific paladin shields (Targe, Rondache, Heraldic, Aegis, Vortex, Ward and the sacred tier) roll a hidden All Resistances +5-45% bonus that a non-paladin base like Monarch does not have. Always read a paladin shield's resist line before judging it.",
+        "veteranBlindspot": "Non-paladin players default to Monarch for every Spirit and never learn that a paladin's white shield base has free resist that survives into the runeword. A 45-res Sacred Targe Spirit quietly beats a Monarch Spirit on a hammerdin.",
+        "factClaims": [
+          "Paladin (auric) shields roll an inherent All Resistances +5-45% automod; +45 is the perfect roll and requires high item level.",
+          "Sacred Targe: 86 Strength, required level 47, max 4 sockets, high paladin block chance.",
+          "Spirit is Tal Thul Ort Amn in a 4-socket shield or sword; the base's resist adds on top of Spirit's own resists.",
+          "Exile is Vex Ohm Ist Dol in a 4-socket paladin shield only, required level 57, and self-repairs, so an ethereal 45-res auric shield is the ideal Exile base.",
+          "The same base serves Dream (Io Jah Pul, 3 sockets), Phoenix (Vex Vex Lo Jah, 4 sockets) and Dragon."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "White or superior; 45 resist roll and 4 sockets are the value drivers; ethereal preferred only for Exile",
+        "sources": [
+          "https://diablo.fandom.com/wiki/Paladin_Shields",
+          "https://forums.d2jsp.org/topic.php?t=106546870",
+          "https://maxroll.gg/d2/guides/blessed-hammer-paladin",
+          "https://d2runewizard.com/runewords/Exile"
+        ]
+      },
+      {
+        "name": "Superior (+15% Enhanced Defense) Archon Plate",
+        "alias": "Superior AP, 15ed AP",
+        "category": "Superior (grey) body armor base",
+        "obscurity": 3,
+        "valueTierGuess": "A",
+        "rarityTier": "Uncommon base, but the exact combo (superior 15% ED, right socket count, low weight) is sought and priced up.",
+        "priceSignal": "Real premium over white. Blizzard forum and d2jsp price checks put superior 15%ED Archon Plates in high-rune territory; shops list a superior 3os 15%ED around $40 and a superior 4os 15/15 around $77 (D2Stock, mid-2026). The superior tag, which most players vendor, is exactly what drives the price.",
+        "collectorCase": "This is the classic dismissed-but-valuable base. Superior armor rolls +1-15% Enhanced Defense and that bonus survives into the runeword. Archon Plate is the lightest elite body armor with high defense, so it is THE Enigma base and a top Fortitude and Chains of Honor base. A superior 15% ED copy with the right sockets is the min-max version most people throw away without reading.",
+        "whyValuable": "Fortitude grants ~300% Enhanced Defense. The superior's +15% ED stacks additively onto the base defense before the runeword multiplies it, so the final defense jump is real and non-trivial specifically on Fortitude. Archon Plate's low strength requirement (103) and light weight also make it the caster-friendly Enigma choice.",
+        "teachingPoint": "Superior (grey) is not junk on a runeword base. Read the superior line: +% Enhanced Defense, +% Enhanced Damage, +max damage, or +durability all persist after you make the runeword. On defense runewords, 15% ED superior armor is worth hunting.",
+        "veteranBlindspot": "Veterans reflexively vendor 'superior' whites as worthless. On a Fortitude or Chains of Honor base the superior 15% ED is a measurable defense gain and sells for high runes. Also missed: ethereal body armor degrades in your own hands but never on a mercenary, so an ethereal superior Archon Plate is a premium merc-Fortitude base.",
+        "factClaims": [
+          "Superior (grey) armor rolls +1-15% Enhanced Defense (and can instead roll other superior bonuses); the bonus persists after a runeword is made.",
+          "Archon Plate: 103 Strength, required level 63, the lightest elite body armor with high defense (a superior 15% ED copy is about 603 defense).",
+          "Enigma is Jah Ith Ber in 3 sockets; Fortitude is El Sol Dol Lo in 4 sockets; Chains of Honor is Dol Um Ber Ist in 4 sockets; all are body armor.",
+          "Fortitude provides about 300% Enhanced Defense, so the superior base's ED matters most there.",
+          "Ethereal body armor gives +50% defense and loses no durability when worn by a mercenary."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Superior (grey), 15% ED; socket count matched to the target runeword; ethereal for merc use",
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-superior-archon-plate-15ed-sold/75711",
+          "https://d2stock.com/product/ap-4soc-15-15",
+          "https://diablo2.io/base/archon-plate-t1405.html"
+        ]
+      },
+      {
+        "name": "Ethereal 4-socket Giant Thresher / Thresher",
+        "alias": "eth 4os GT",
+        "category": "Ethereal polearm base (Insight / Infinity / Pride)",
+        "obscurity": 3,
+        "valueTierGuess": "A",
+        "rarityTier": "Annoyingly rare in the exact 4-socket count because Larzuk over-sockets these bases. Ethereal on top narrows it further.",
+        "priceSignal": "Solid demand at Lo to Sur for an ethereal 4-socket base (diablo2.io/Traderie non-ladder), higher early in a fresh ladder. Blizzard PC threads and RMT shops carry it as a staple merc-weapon base. The premium is the exact 4-socket count, not the item.",
+        "collectorCase": "The Act 2 mercenary's best polearms all need EXACTLY 4 sockets, and that is the trap. Giant Thresher and Thresher are the fastest high-DPS polearms, so an ethereal 4-socket copy is the shared base for Insight (caster's mana engine), Infinity (breaks immunities), and Pride (party Concentration aura). Getting 4 and not 5 or 6 is the whole game.",
+        "whyValuable": "Ethereal gives +50% enhanced damage and a mercenary never drains ethereal durability, so eth is strictly better on a merc. Insight, Infinity and Pride are all 4-socket polearm runewords, and Giant Thresher/Thresher have the attack speed the merc wants.",
+        "teachingPoint": "Larzuk gives a white/grey item its MAXIMUM sockets, and a Thresher maxes at 6, so the quest hands you 5 or 6 and ruins it for a 4-socket runeword. The cube recipe (Ral + Amn + Perfect Amethyst + weapon) adds a RANDOM 1-6 sockets capped at the base max, so exactly 4 is a gamble. That is why natural or cubed 4-socket ethereal polearms carry a premium.",
+        "veteranBlindspot": "Plenty of players still say 'just Larzuk it.' On these bases Larzuk over-sockets to 5 or 6 and wastes the item. The 4-socket requirement is the reason the base is worth runes at all.",
+        "factClaims": [
+          "Insight is Ral Tir Tal Sol in 4 sockets (polearm, staff, or since 2.4 missile weapon) and grants a level 12-17 Meditation aura.",
+          "Infinity is Ber Mal Ber Ist in a 4-socket polearm or spear and grants a level 12 Conviction aura.",
+          "Pride is Cham Sur Io Lo in a 4-socket polearm or spear and grants a level 16-20 Concentration aura (level 20 is +345% enhanced damage to the party).",
+          "Larzuk gives a normal/superior item its maximum sockets; the cube recipe adds a random 1-6 sockets (equal chance, capped at the base's max).",
+          "Ethereal weapons give +50% enhanced damage and lose no durability when wielded by a mercenary."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Ethereal, exactly 4 sockets; superior +ED is a bonus",
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/price-check-eth-giant-thresher-various-sockets/80753",
+          "https://d2runewizard.com/runewords/Insight",
+          "https://d2runewizard.com/runewords/Infinity",
+          "https://maxroll.gg/d2/items/sockets"
+        ]
+      },
+      {
+        "name": "Ethereal superior 6-socket Berserker Axe",
+        "alias": "eth zerker (BotD base)",
+        "category": "Ethereal one-handed axe base (Breath of the Dying / Last Wish / Oath)",
+        "obscurity": 3,
+        "valueTierGuess": "B",
+        "rarityTier": "The base is uncommon; the value gate is ethereal plus 6 sockets plus ideally superior. Plain white is worthless.",
+        "priceSignal": "The BASE itself trades around Mal to Ist (Blizzard forum PC, d2jsp), climbing when superior with high ED. Note the finished Breath of the Dying is S-tier, but that value is the Zod and Vex runes, not the base. Buyers still pay a real premium for eth vs non-eth here.",
+        "collectorCase": "Breath of the Dying needs 6 sockets and the Zod rune makes it Indestructible. That is what makes an ethereal base a trophy: eth gives +50% damage, and Zod locks that in forever with no durability loss. An ethereal superior 6-socket Berserker Axe is the platform for the most powerful non-ladder melee weapon in the game, and the base-choice debate (Zerker for a dual-wield barb vs Colossus Blade for raw damage vs a low-strength Cryptic Sword) runs deeper than most expect.",
+        "whyValuable": "Berserker Axe is the top one-handed DPS melee base and maxes at 6 sockets. Ethereal plus the Zod-driven indestructibility means the +50% damage is permanent. The same eth axe base also serves Last Wish (6 sockets, Might aura) and Oath (4 sockets, indestructible so eth is free).",
+        "teachingPoint": "Indestructible runewords (Breath of the Dying via Zod, Oath, Last Wish) turn ethereal from a liability into free permanent stats. That is the opposite of an eth Grief or eth Death, which have no indestructibility and will degrade. Match ethereal to whether the runeword is indestructible.",
+        "veteranBlindspot": "A plain 6-socket Berserker Axe is literally vendor food, and even the eth base is only mal-ish because Breath of the Dying is mostly a barb weapon. The base is not where the money is. The trap is paying HR prices for a base whose worth is really the Zod rune you still have to add.",
+        "factClaims": [
+          "Breath of the Dying is Vex Hel El Eld Zod Eth in a 6-socket melee weapon; the Zod rune makes it Indestructible.",
+          "Berserker Axe is one-handed with a maximum of 6 sockets and is the most common Breath of the Dying base.",
+          "Last Wish is Jah Mal Jah Sur Jah Ber in a 6-socket sword, axe, or mace and grants a level 17 Might aura.",
+          "Oath is Shael Pul Mal Lum in a 4-socket sword, axe, or mace and is Indestructible, so ethereal is ideal.",
+          "A non-ethereal 6-socket Berserker Axe has little to no trade value; ethereal (ideally superior) is required for a premium."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Ethereal, 6 sockets, superior +ED preferred",
+        "sources": [
+          "https://us.forums.blizzard.com/en/d2r/t/eth-6-socket-berserker-axe-value/57348",
+          "https://diablo.fandom.com/wiki/Breath_of_the_Dying_Rune_Word",
+          "https://d2runewizard.com/runewords/Last%20Wish"
+        ]
+      },
+      {
+        "name": "+3 Bow Skills 4-socket Grand Matron Bow",
+        "alias": "+3/4os GMB (Faith base)",
+        "category": "White/superior Amazon bow base (Faith)",
+        "obscurity": 3,
+        "valueTierGuess": "A",
+        "rarityTier": "Two stacked rarities: the inherent bow-skill automod hitting +3 AND the exact 4-socket count on a base Larzuk over-sockets.",
+        "priceSignal": "High demand. A +3 bow skills, 4-socket Grand Matron Bow base trades around Ohm to Jah on d2jsp and diablo2.io; the +3 roll is what pushes it to a high rune. Sought by both bowazons and, since 2.4, mercenary users.",
+        "collectorCase": "Amazon bows carry a hidden inherent +1 to +3 to Bow and Crossbow Skills. A +3 roll stacks on top of Faith's skills, and since patch 2.4 an Act 1 mercenary can wield the Grand Matron Bow, so the +3 helps the merc too. A +3 skills, 4-socket Grand Matron Bow is the single best Faith base in the game and the skill roll is a separate lottery from the sockets.",
+        "whyValuable": "Faith grants a Fanaticism aura, one of only two item sources of that aura. Grand Matron Bow has top bowazon damage, and the inherent +3 bow skills makes the finished Faith hit harder than a lower-roll base. The base's skill roll compounds with the runeword.",
+        "teachingPoint": "Bows and crossbows CANNOT be ethereal. Anyone asking for an 'ethereal Faith bow' is chasing something that does not exist. On Amazon bows the value axes are the inherent +bow skills roll and the socket count, not ethereal.",
+        "veteranBlindspot": "Players fixate on Faith's variable Fanaticism aura roll and forget the base itself has a +1/+2/+3 skill roll that is just as rare. A +3 base with a mediocre aura can beat a +1 base with a max aura for many builds.",
+        "factClaims": [
+          "Faith is Ohm Jah Lem Eld in a 4-socket missile weapon and grants a level 12-15 Fanaticism aura plus level-based +all skills.",
+          "Amazon bows (Grand Matron Bow, Matriarchal Bow) have an inherent automod of +1, +2, or +3 to Bow and Crossbow Skills, rolled randomly on drop.",
+          "Since patch 2.4, Act 1 Rogue mercenaries can equip Amazon bows, so the +bow skills automod also benefits a merc.",
+          "Bows and crossbows cannot spawn ethereal, so an ethereal Faith bow is impossible.",
+          "Larzuk gives a normal bow its max sockets, so an exact 4-socket Grand Matron Bow generally comes from a natural drop or the cube gamble."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "White or superior; +3 bow skills automod and 4 sockets are the value; never ethereal",
+        "sources": [
+          "https://www.purediablo.com/strategy/faith-runeword-base-guide",
+          "https://diablo.fandom.com/wiki/Grand_Matron_Bow",
+          "https://diablo2.io/forums/best-base-for-merc-faith-bow-t793357.html"
+        ]
+      },
+      {
+        "name": "Magic +2 Skills / 20 FCR Circlet ('Circlet of the Magus')",
+        "alias": "2/20 magic circlet",
+        "category": "Magic circlet base (used as-is)",
+        "obscurity": 3,
+        "valueTierGuess": "B",
+        "rarityTier": "The magic version is far more common than a loaded rare, but a clean +2/20 with 2 Larzuk sockets is still a targeted find.",
+        "priceSignal": "Mid demand and a real budget staple. Magic +2 class skills / 20 FCR / 2-socket circlets are stocked by RMT shops (ItemForge) and price-checked regularly on diablo2.io; they sit well below the loaded rare 2/20s (which reach high runes) but above vendor trash. Cheap enough to be an honest 'known quantity,' collectible when the class prefix is a demanded one.",
+        "collectorCase": "A magic circlet's entire value is its two affixes. The grail combo is +2 to a class's skills (prefix) and the of the Magus suffix (+20% Faster Cast Rate), then Larzuk adds 1-2 sockets for facets. It is the caster helm floor: a magic blue that competes with rare circlets for a fraction of the price, and it is included here as the textbook 'value is entirely the affix' magic base alongside the JMOD.",
+        "whyValuable": "It hits the two things casters need most, +skills and the 20% FCR breakpoint help, in one helm slot, while leaving 1-2 sockets for a Rainbow Facet or resist/skill jewel. A specific class prefix (for example +2 Sorceress) targets a build directly.",
+        "teachingPoint": "A magic item has one prefix and one suffix. +2 class skills is the prefix, of the Magus (+20% FCR) is the suffix, and the 1-2 sockets come from Larzuk (magic items get 1-2), NOT from a socket affix. That is how a magic 2/20/2soc circlet is even possible.",
+        "veteranBlindspot": "Veterans assume only rare circlets matter and ignore blues. A magic +2/20 with the right class prefix and 2 Larzuk sockets is a legitimate endgame caster helm and a fraction of a rare's price.",
+        "factClaims": [
+          "A circlet can roll a magic prefix of +2 to a single class's skills (the prefix name varies by class); diadems/tiaras can reach +3 on some rolls.",
+          "The of the Magus suffix grants +20% Faster Cast Rate, the top single-suffix FCR on this item type.",
+          "Larzuk gives a magic item 1-2 sockets, which is how a magic circlet gets its 2 sockets.",
+          "Magic items cannot hold a runeword, so a 2/20 circlet is used as-is and socketed by the owner."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Magic (blue); demanded when the +2 prefix matches a real build and 2 sockets are present",
+        "sources": [
+          "https://itemforge.com/en/circlet-2sk-20fcr-2soc",
+          "https://diablo2.io/price-check/are-these-circlets-worth-anything-t1094585.html"
+        ]
+      },
+      {
+        "name": "6-socket Phase Blade",
+        "alias": "6os PB (Last Wish base); 5os = Grief",
+        "category": "White sword base (indestructible, never ethereal)",
+        "obscurity": 3,
+        "valueTierGuess": "B",
+        "rarityTier": "6-socket rolls are the top of the Phase Blade socket range; superior 5os for Grief is the common demand, 6os is scarcer.",
+        "priceSignal": "Steady demand. Superior 5-socket Phase Blades (Grief) are a perennial d2jsp/diablo2.io want at mid runes; 6-socket copies for Last Wish are scarcer and priced up. Shops (d2stock) stock both 5os and 6os Phase Blades as distinct SKUs.",
+        "collectorCase": "The Phase Blade is the indestructible sword base, and its quirk is that it maxes at 6 sockets while never being able to spawn ethereal. That makes a 6-socket Phase Blade the no-durability-worry base for Last Wish (Might aura, 60-70% crushing blow), and a 5-socket for the ubiquitous Grief. It is the base that quietly defeats durability entirely.",
+        "whyValuable": "Grief adds flat damage, so it wants a fast base, and Phase Blade is fast, has range, and cannot break. For Last Wish, the 6-socket Phase Blade gives an indestructible Might-aura weapon. No durability management, ever.",
+        "teachingPoint": "Phase Blades are indestructible and cannot be ethereal (the only exception is upgrading an already-ethereal unique/rare Dimensional Blade, an edge case). So any eth Grief, eth Death, or eth Last Wish must use a Berserker Axe, Colossus Blade, or Thunder Maul instead, never a Phase Blade.",
+        "veteranBlindspot": "Many veterans still believe Phase Blade caps at 5 sockets. It caps at 6, which is exactly why it can host Last Wish. And because it can never be ethereal, it is the wrong base the moment you want the ethereal damage bonus.",
+        "factClaims": [
+          "Phase Blade maximum sockets is 6; 5 sockets is used for Grief, 6 for Last Wish.",
+          "Grief is Eth Tir Lo Mal Ral in a 5-socket sword or axe.",
+          "Last Wish is Jah Mal Jah Sur Jah Ber in a 6-socket sword, axe, or mace.",
+          "Phase Blade is indestructible and cannot spawn ethereal; required level 54, low strength and high dexterity requirement.",
+          "Grief adds flat damage rather than percent enhanced damage, so base weapon speed matters more than base damage."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "White or superior; 5 sockets for Grief, 6 for Last Wish; never ethereal",
+        "sources": [
+          "https://d2stock.com/product/pb-6soc",
+          "https://www.vintageisthenewold.com/faq/how-many-sockets-will-phase-blade-get",
+          "https://d2runewizard.com/runewords/Last%20Wish"
+        ]
+      },
+      {
+        "name": "Ethereal Thunder Maul",
+        "alias": "eth TM",
+        "category": "Ethereal two-handed mace base (Oath / Death / Breath of the Dying)",
+        "obscurity": 3,
+        "valueTierGuess": "A/B",
+        "rarityTier": "Ethereal plus the right high socket count on the highest-damage, highest-strength two-hander is a genuine hunt.",
+        "priceSignal": "Strong for the good rolls. A superior ethereal 6-socket Thunder Maul was listed at ~4 Jah on d2jsp; ethereal 4-socket copies draw high-rune offers. The enormous base damage plus ethereal is the draw. diablo2.io and d2jsp carry active threads.",
+        "collectorCase": "Thunder Maul has one of the highest base damages and one of the highest strength requirements in the game. Ethereal doubles down on that damage, and Oath is indestructible so ethereal is free. An ethereal superior high-socket Thunder Maul is the sleeper base for Oath and Death smiters, a two-handed Crescent Moon, and even a 6-socket Breath of the Dying for a raw-damage barb.",
+        "whyValuable": "Ethereal adds +50% to an already huge damage range. On Oath (indestructible) the ethereal never degrades; on a mercenary it never drains. The strength wall keeps casual players out, which thins supply.",
+        "teachingPoint": "The heaviest two-handers reward ethereal the most because +50% of a big number is a big number. The strength requirement (about 253) means only strength-stacked builds or mercenaries can wield it, so demand is narrow but the good bases are genuinely scarce.",
+        "veteranBlindspot": "Thunder Maul gets dismissed as slow barb junk. An ethereal superior high-socket copy is a multi-Jah base because Oath and Death turn its damage into a wrecking ball, and Oath's indestructibility removes the eth downside entirely.",
+        "factClaims": [
+          "Oath is Shael Pul Mal Lum in a 4-socket sword, axe, or mace and is Indestructible, so ethereal is ideal.",
+          "Death is Hel El Vex Ort Gul in a 5-socket sword or axe (not maces), so a Thunder Maul cannot make Death; Thunder Maul serves Oath, Crescent Moon, and 6-socket Breath of the Dying.",
+          "Thunder Maul is a two-handed mace with a maximum of 6 sockets and one of the highest strength requirements in the game (about 253).",
+          "Ethereal gives +50% enhanced damage and loses no durability on a mercenary."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Ethereal, superior +ED, high socket count (4 for Oath, 6 for BotD)",
+        "sources": [
+          "https://forums.d2jsp.org/topic.php?t=102865186&f=271",
+          "https://diablo2.io/base/thunder-maul-t1734.html",
+          "https://d2runewizard.com/runewords/Oath"
+        ]
+      },
+      {
+        "name": "+3 Bow Skills 5-socket Matriarchal Bow",
+        "alias": "Mist base",
+        "category": "White/superior Amazon bow base (Mist)",
+        "obscurity": 4,
+        "valueTierGuess": "C",
+        "rarityTier": "The base is affordable; the +3 bow-skill roll is the only real rarity, and Larzuk conveniently gives the needed 5 sockets.",
+        "priceSignal": "Low to mid, and that is the surprise: a criminally underused runeword sits on a cheap base. diablo2.io and d2jsp treat the Matriarchal Bow Mist base as budget; a +3 skills roll nudges it up. Included as an under-owned collector-of-knowledge piece rather than a big-money item.",
+        "collectorCase": "Mist gives a level 8 Concentration aura and +3 to all skills, and it goes on a bow. Put it on an Act 1 mercenary's Matriarchal Bow and the merc radiates a party-wide Concentration aura while the +3 inherent bow skills stack on Mist's +3. It is one of the most overlooked party-buff setups in the game and the base is cheap, which is the veteran-surprise.",
+        "whyValuable": "A bow-based party aura is unusual, and Mist stacks its +3 all skills with the bow's inherent +3 bow skills. The Matriarchal Bow is the faster Amazon bow, and Larzuk gives it exactly the 5 sockets Mist needs.",
+        "teachingPoint": "Larzuk gives a Matriarchal Bow 5 sockets, which happens to be exactly Mist's requirement, so this is the rare case where the socket quest is perfect rather than a trap. Like all bows, it can never be ethereal.",
+        "veteranBlindspot": "Most veterans have never built Mist and do not realize an Act 1 merc can carry a Concentration-aura bow that buffs the whole party for almost no rune cost.",
+        "factClaims": [
+          "Mist is Cham Shael Gul Thul Ith in a 5-socket missile weapon and grants +3 to all skills and a level 8 Concentration aura.",
+          "Larzuk gives a Matriarchal Bow 5 sockets, matching Mist's requirement.",
+          "Matriarchal Bow has the inherent +1/+2/+3 Bow and Crossbow Skills automod, which stacks with Mist and works on an Act 1 merc since patch 2.4.",
+          "Bows cannot be ethereal, so an ethereal Mist bow is impossible."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "White or superior; +3 bow skills roll; 5 sockets via Larzuk; never ethereal",
+        "sources": [
+          "https://www.icy-veins.com/d2/rune-word-mist",
+          "https://diablo2.io/base/matriarchal-bow-t1655.html",
+          "https://d2runewizard.com/runewords/Mist"
+        ]
+      },
+      {
+        "name": "Ethereal Colossus Blade (Grief / Death base)",
+        "alias": "eth CB",
+        "category": "Ethereal two-handed sword base (Grief / Death)",
+        "obscurity": 3,
+        "valueTierGuess": "B",
+        "rarityTier": "Ethereal plus the exact 5-socket count on the highest-raw-damage sword, with superior a further premium.",
+        "priceSignal": "Real demand. Ethereal 5-socket Colossus Blade bases drew Vex offers on d2jsp; ethereal 4-socket Colossus Swords sat around 2 Ist to Gul; a finished ethereal 375%+ Death on Colossus Blade fetched ~2 Jah. Buyers pay up for the raw damage of the base.",
+        "collectorCase": "Colossus Blade is the highest-raw-damage elite sword and the max-damage choice for Grief and Death. Ethereal adds +50% on top. It is the base for players who want the biggest hits rather than the fastest, and it exposes a nuance most people get wrong: Grief and Death are NOT indestructible, so an ethereal one actually degrades.",
+        "whyValuable": "For a pure-damage Death or a high-ceiling Grief, Colossus Blade's base damage beats Phase Blade's, and ethereal magnifies it. The strength requirement (189) and dexterity (110) keep it off most characters, tightening supply for the good rolls.",
+        "teachingPoint": "Ethereal is a double-edged choice here. Grief and Death have no Zod and no indestructible, so an ethereal copy loses durability with use and needs a repair plan (or acceptance of degradation). Contrast with ethereal Oath or Breath of the Dying, which are indestructible and keep ethereal forever. Match ethereal to the runeword's durability behavior.",
+        "veteranBlindspot": "Some assume ethereal is always better. Ethereal Grief and Death degrade, so many players deliberately choose non-ethereal Phase Blade for a set-and-forget weapon. The ethereal Colossus Blade is a raw-damage collector, not a free upgrade.",
+        "factClaims": [
+          "Colossus Blade: 189 Strength, 110 Dexterity, 58-115 two-handed base damage, maximum 6 sockets, slower base speed.",
+          "Grief is Eth Tir Lo Mal Ral in 5 sockets; Death is Hel El Vex Ort Gul in 5 sockets; both are sword or axe.",
+          "Neither Grief nor Death is indestructible, so an ethereal copy loses durability during use.",
+          "Ethereal gives +50% enhanced damage; on a two-handed sword that is a large flat-damage gain for Grief and a large percent gain for Death."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Ethereal, 5 sockets, superior +ED preferred; durability trade-off noted",
+        "sources": [
+          "https://diablo2.io/base/colossus-blade-t1710.html",
+          "https://forums.d2jsp.org/topic.php?t=81103893&f=169",
+          "https://forums.d2jsp.org/topic.php?t=85383157&f=87&v=1"
+        ]
+      },
+      {
+        "name": "Ethereal 4-socket Cryptic Axe",
+        "alias": "eth CA",
+        "category": "Ethereal polearm base (low-strength Insight / Infinity)",
+        "obscurity": 4,
+        "valueTierGuess": "B",
+        "rarityTier": "The 4-socket count is a specific pain on this base because Larzuk always over-sockets it to 5 at Hell item levels.",
+        "priceSignal": "Real premium for the exact roll. Ethereal 4-socket Cryptic Axes trade at high runes on d2jsp and diablo2.io as an Infinity/Insight base, valued when merc strength is tight. diablo2.io's Cryptic Axe base page and Infinity base threads confirm the demand.",
+        "collectorCase": "Cryptic Axe is the low-strength elite polearm, so a low-level or strength-starved mercenary can wield it without piling on strength gear, unlike a Colossus Voulge or Great Poleaxe. But it hides a specific trap that makes the 4-socket version a genuine collector's annoyance to produce.",
+        "whyValuable": "For Infinity and Insight on a merc that is short on strength, Cryptic Axe is the base that fits. Ethereal adds +50% damage with no merc durability drain. The strength break makes it the practical choice for many early-to-mid mercs.",
+        "teachingPoint": "A Cryptic Axe dropped at Hell item level (41+) always gets 5 sockets from Larzuk, one too many for the 4-socket Insight and Infinity. So you cannot quest a 4-socket Cryptic Axe from a Hell drop; you need a lower item-level drop with a natural 4, or the cube gamble. That specific Larzuk behavior is why a clean eth 4-socket Cryptic Axe is worth runes.",
+        "veteranBlindspot": "Even experienced players get burned handing Larzuk a nice ethereal Cryptic Axe and receiving a useless 5-socket back. The base's low strength is a real advantage, but only if you solve the 4-socket problem first.",
+        "factClaims": [
+          "Cryptic Axe is the lowest-strength elite polearm, letting a lower-level or lower-strength mercenary equip it.",
+          "A Cryptic Axe of Hell item level (41 or higher) receives 5 sockets from Larzuk, too many for Insight or Infinity.",
+          "Insight (4 sockets) and Infinity (4 sockets) both need exactly 4, so a 4-socket Cryptic Axe comes from a lower item-level natural drop or the random cube recipe.",
+          "Ethereal gives +50% enhanced damage and loses no durability on a mercenary."
+        ],
+        "isSpecificRealItem": true,
+        "legitimacy": "CONFIRMED",
+        "quality": "Ethereal, exactly 4 sockets; prized when merc strength is limited",
+        "sources": [
+          "https://diablo2.io/base/cryptic-axe-t1800.html",
+          "https://diablo2.io/forums/top-3-best-infinity-base-for-merc-in-2-4-t901967.html",
+          "https://d2runewizard.com/runewords/Infinity"
+        ]
+      }
+    ],
+    "notes": "RESEARCH CONFIDENCE: All runeword rune orders, socket counts, and auras were verified against d2runewizard, diablo.fandom, and diablo2.io. All base stats (Monarch 156 str / 133-148 def / 62% block, Sacred Targe 86 str, Archon Plate 103 str, Colossus Blade 189 str / 6 sockets, Phase Blade max 6 / never ethereal) confirmed. Prices are from d2jsp PC threads, diablo2.io, Blizzard trade forums, and RMT shops (as demand signals only), reflecting a mature D2R ladder/non-ladder economy. NO prices belong on the site per project rules; tiers are openly a guess.\n\nPREMIUM MAGIC AFFIXES COVERED (the requested 'which prefixes/suffixes make a magic base premium'):\n- SOCKETS (prefixes, tiered, capped by base max): Mechanist's = 1-2 (alvl 10), Artificer's = 3 (alvl 33), Jeweler's = 4 (alvl 55, rlvl 47). To get 4 sockets on a magic item you specifically need the Jeweler's prefix on a natural drop; Larzuk gives magic items only 1-2 and the cube cannot socket magic items.\n- BLOCK (suffixes, tiered): of Blocking is the lower tier; of Deflecting is the top tier at +30% Faster Block Rate and +20% Increased Chance of Blocking. Community shorthand for a block roll is 'FBR/ICB', e.g. '30/20'. A paladin shield can read '45/30/20' (45 all-res inherent + 30/20 block).\n- FCR (caster suffix): of the Magus = +20% Faster Cast Rate, the top single-suffix FCR; pairs with a +2 class-skill prefix for the '2/20' magic circlet.\n- DAMAGE (top weapon prefix): Cruel = +201-300% Enhanced Damage (alvl 79, rlvl ~59; a weaker alvl-56 version exists). Cruel is the prefix that defines godly RARE weapons (Cruel + a max-damage/AR/IAS suffix). As a pure MAGIC weapon it is niche today because runewords dominate, so I did not give it a standalone collector slot, but a Cruel ethereal elite base with an IAS suffix (e.g. of Quickness) is a legitimate budget/curio weapon. This is the honest read of filter #1.\n- MAGIC FIND (suffix): of Fortune = +16-25% Magic Find (alvl 42); on an amulet a Fortuitous ... of Fortune can reach ~40% MF. MF magic items are cheap and easily obtained, so per the hard filters this is teaching material, not a collector slot. Mentioned here for completeness as requested.\n- SUPERIOR (grey) bases: roll +1-15% Enhanced Defense (armor/shield) or +1-15% Enhanced Damage / +max damage (weapons). These persist into the finished runeword. Most players vendor superiors; on Fortitude (300% ED) a superior 15% ED base is a real defense gain, and superior 15% ED weapons help any percent-ED runeword (Death, Beast, Fury). This is the single most under-appreciated 'veteran dismisses it' category.\n\nKEY MECHANICS THAT DRIVE THESE PREMIUMS:\n- Larzuk gives a NORMAL/superior item its MAXIMUM sockets, and a magic/rare/set/unique item only 1-2 (magic) or 1 (rare+). This over-sockets high-max bases (Thresher/Giant Thresher/Great Poleaxe = 6, Cryptic Axe = 5 at Hell ilvl) and ruins them for 4-socket runewords like Insight/Infinity/Pride.\n- The cube socket recipe (weapon: Ral+Amn+Perfect Amethyst; armor: Tal+Thul+PTopaz; shield: Tal+Amn+PRuby; helm: Ral+Thul+PSapphire) adds a RANDOM 1-6 sockets, equal chance, capped at the base max, and only works on normal (white/grey) items. Exact 4-socket polearms are therefore a gamble, which is the whole premium behind eth 4os merc weapons.\n- ETHEREAL rules: +50% damage/defense but degrades in your own hands; a MERCENARY never drains ethereal durability, so eth is strictly better on merc weapons/armor. Indestructible runewords (Breath of the Dying via Zod, Oath, Last Wish) make ethereal PERMANENT and free; non-indestructible ones (Grief, Death, Fortitude, Chains of Honor) degrade when ethereal. BOWS AND CROSSBOWS CAN NEVER BE ETHEREAL (so 'eth Faith' and 'eth Mist' do not exist). PHASE BLADES can never be ethereal either and are inherently indestructible.\n\nITEMS CONSIDERED AND CUT (to respect the 'museum, not shopping guide' bar):\n- Plain white 4-socket Monarch (Spirit) and superior 15% ED Monarch: too well-known and the superior ED adds trivial defense to a Spirit, so no surprising value jump. Cut.\n- 4-socket Crystal Sword (Spirit sword) and generic 4os Broad/Long swords: trivially farmed, low value. Cut (matches the example cut in the brief).\n- Cheap MF/gold magic items (of Fortune, of Wealth): easily obtained, cut to notes.\n- Beast base (eth Berserker Axe, Fanaticism aura for non-paladins): a fun sleeper, but the BASE itself is not expensive, so it fails the collector-base test; the value is the runeword, not the base.\n\nThe 12 returned items are all concrete, price-checked, veteran-surprising, and span shields (magic and paladin), superior body armor, ethereal polearms, one/two-handed melee bases, bows, and a caster circlet, so the domain is covered broadly, not just melee."
+  }
+]
