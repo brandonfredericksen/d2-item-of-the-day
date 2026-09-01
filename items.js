@@ -217,7 +217,7 @@ const ITEMS = [
       "+20% Faster Cast Rate",
       "+18 to Strength",
       "+55 to Life",
-      "+59 to Mana",
+      "+69 to Mana",
       "All Resistances +23"
     ],
     valueTier: "A",
