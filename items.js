@@ -26,6 +26,10 @@
    under the header; use it when the in-game tooltip name would mislead
    (the Occy Ring displays in game as a Stone of Jordan). It defaults to
    `name`. The `alias` renders as a small subtitle beneath the title.
+   Optional `fill` is an array of socketable sprite paths (img/socketables/*)
+   the length of the socket count; when present the sprite gets an empty/
+   filled toggle that overlays them, showing the item socketed (e.g. a white
+   Monarch filled with the Spirit runes). `fillLabel` sets the toggle text.
    Optional `era` (e.g. "Classic") renders a tag beside the tiers marking
    the game the item mattered in; leave it off for current Expansion items
    so the tag stays meaningful. Optional `lastPatch` (e.g. "1.09") marks an item
@@ -57,25 +61,26 @@
 const ITEMS = [
   {
     slug: "jmod",
-    name: "Jeweler's Monarch of Deflecting",
-    alias: "4os Monarch, JMOD",
-    quality: "magic",
+    name: "Monarch",
+    alias: "4os Monarch, Spirit base",
+    quality: "normal",
     type: "",
     sprite: "img/monarch.png",
+    fill: ["img/socketables/rune-tal.png", "img/socketables/rune-thul.png", "img/socketables/rune-ort.png", "img/socketables/rune-amn.png"],
+    fillLabel: "fill for Spirit",
     tooltip: [
       { t: "Defense: 148", c: "white" },
       { t: "Chance to Block: 67%", c: "white" },
       { t: "Required Strength: 156", c: "white" },
       { t: "Required Level: 54", c: "white" },
-      "+20% Increased Chance to Block",
       "Socketed (4)"
     ],
     valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 3,
-    why: "A blue shield with four sockets. Most players read that as vendor fodder. It is not. The Monarch is the only shield outside paladins and necromancers that can roll four sockets, and four sockets is what a Spirit runeword needs. A clean four-socket Monarch is the cheapest large jump in casting power a caster can buy. The base drops all the time. The socket count is the whole value, and a pre-rolled one saves you the socket gamble.",
+    why: "A plain white shield with four sockets. Most players vendor it. The Monarch is the only shield outside paladins and necromancers that can roll four sockets, and a white four-socket one is the base for Spirit, the cheapest large jump in casting power a caster can get. It has to be white. Runewords only work in plain items, so a magic four-socket Monarch looks the same and is worthless for this. The empty sockets and the blank slate together are the value.",
     history: null,
-    ifYouFind: "Count the sockets before you do anything else. Four is a real find. Three is not the same item."
+    ifYouFind: "Four sockets and no magic prefix. A blue four-socket Monarch cannot hold Spirit. Only the plain white one is the base."
   },
   {
     slug: "tyraels-might",

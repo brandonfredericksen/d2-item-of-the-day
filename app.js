@@ -64,6 +64,16 @@
   var app = document.getElementById("app");
   var langbarEl = document.getElementById("langbar");
 
+  /* Toggle a socketed item between empty and filled (bound once). */
+  if (app) app.addEventListener("click", function (e) {
+    var btn = e.target && e.target.closest ? e.target.closest(".sprite-toggle") : null;
+    if (!btn) return;
+    var s = btn.closest(".sprite");
+    if (!s) return;
+    var on = s.classList.toggle("show-fill");
+    btn.textContent = on ? "show empty" : (btn.getAttribute("data-label") || "show socketed");
+  });
+
   var state = { item: null, pinned: false, lang: DEFAULT_LANG };
 
   /* ---------- i18n helpers ---------- */
@@ -221,9 +231,18 @@
      no sprite or the image fails, so there is never an empty box. */
   function spriteHtml(item, lang) {
     if (!item.sprite) return "";
+    var fill = Array.isArray(item.fill) ? item.fill : null;
+    var label = t(item.fillLabel, lang) || "show socketed";
+    var fillImgs = fill ? fill.map(function (src) {
+      return '<img src="' + esc(src) + '" alt="">';
+    }).join("") : "";
     return '<div class="sprite">' +
-      '<img src="' + esc(item.sprite) + '" alt="' + esc(t(item.name, lang)) + ' sprite" ' +
-      'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
+      '<div class="sprite-stage">' +
+        '<img class="sprite-base" src="' + esc(item.sprite) + '" alt="' + esc(t(item.name, lang)) + ' sprite" ' +
+        'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
+        (fill ? '<div class="sprite-fill" aria-hidden="true">' + fillImgs + "</div>" : "") +
+      "</div>" +
+      (fill ? '<button type="button" class="sprite-toggle" data-label="' + esc(label) + '">' + esc(label) + "</button>" : "") +
       "</div>";
   }
 

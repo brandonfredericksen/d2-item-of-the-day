@@ -151,11 +151,28 @@ header{padding:34px 2px 4px;text-align:center}
 .tip-col{display:flex;flex-direction:column;align-items:center;gap:16px}
 
 /* the "in-game stage": dark vignette the item sits on, like a screenshot */
-.sprite{display:flex;align-items:center;justify-content:center;margin-top:2px}
-.sprite img{
+.sprite{display:flex;flex-direction:column;align-items:center;gap:9px;margin-top:2px}
+.sprite-stage{position:relative;display:inline-flex;align-items:center;justify-content:center}
+.sprite-base{
   max-width:72px;max-height:72px;display:block;image-rendering:pixelated;
-  filter:drop-shadow(0 2px 6px rgba(0,0,0,.55));
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,.55));transition:opacity .2s ease;
 }
+.sprite-fill{
+  position:absolute;inset:0;display:none;align-items:center;justify-content:center;
+  flex-wrap:wrap;gap:1px;padding:4px;
+}
+.sprite-fill img{
+  width:22px;height:22px;image-rendering:pixelated;
+  filter:drop-shadow(0 1px 3px rgba(0,0,0,.8));
+}
+.sprite.show-fill .sprite-fill{display:flex}
+.sprite.show-fill .sprite-base{opacity:.32}
+.sprite-toggle{
+  font-family:inherit;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--text-dim);background:var(--bg-elev-2);border:1px solid var(--border);
+  border-radius:999px;padding:5px 12px;cursor:pointer;
+}
+.sprite-toggle:hover{color:var(--text);border-color:var(--accent)}
 
 /* the D2 tooltip, kept sharp and pixel-accurate */
 .tooltip{
@@ -293,7 +310,7 @@ footer p{margin:0 0 6px}
 @media (min-width:640px){
   .wrap{padding:0 24px 88px}
   .item-head{margin:22px 0 2px}
-  .sprite img{max-width:84px;max-height:84px}
+  .sprite-base{max-width:84px;max-height:84px}
 }
 </style>
 </head>
