@@ -204,7 +204,7 @@
      stays true to the game. */
   function akaHtml(item, lang) {
     var a = t(item.alias, lang);
-    return a ? '<div class="aka">' + esc(ui("aliasPrefix", lang)) + esc(a) + "</div>" : "";
+    return a ? '<div class="aka">' + esc(a) + "</div>" : "";
   }
 
   /* Small secondary detail, not the hero. Collapses entirely when there is
