@@ -61,26 +61,29 @@
 const ITEMS = [
   {
     slug: "jmod",
-    name: "Monarch",
-    alias: "4os Monarch, Spirit base",
-    quality: "normal",
+    name: "Jeweler's Monarch of Deflecting",
+    alias: "JMOD",
+    quality: "magic",
     type: "",
     sprite: "img/monarch.png",
-    fill: ["img/socketables/rune-tal.png", "img/socketables/rune-thul.png", "img/socketables/rune-ort.png", "img/socketables/rune-amn.png"],
-    fillLabel: "fill for Spirit",
+    fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
+    fillLabel: "fill with facets",
     tooltip: [
-      { t: "Defense: 148", c: "white" },
+      { t: "Defense: 134", c: "white" },
       { t: "Chance to Block: 67%", c: "white" },
+      { t: "Durability: 77 of 86", c: "white" },
       { t: "Required Strength: 156", c: "white" },
       { t: "Required Level: 54", c: "white" },
+      "+30% Faster Block Rate",
+      "20% Increased Chance of Blocking",
       "Socketed (4)"
     ],
-    valueTier: "A",
+    valueTier: "S",
     rarityTier: "Very Rare",
     obscurity: 3,
-    why: "A plain white shield with four sockets. Most players vendor it. The Monarch is the only shield outside paladins and necromancers that can roll four sockets, and a white four-socket one is the base for Spirit, the cheapest large jump in casting power a caster can get. It has to be white. Runewords only work in plain items, so a magic four-socket Monarch looks the same and is worthless for this. The empty sockets and the blank slate together are the value.",
+    why: "A blue shield that trades for a dozen high runes. It is not a runeword base, it is better than one. Four sockets, thirty faster block, twenty increased block, all on a light shield anyone can carry. You fill the sockets yourself, usually with Rainbow Facets, and get a max-block shield tuned to your build that no plain runeword can match. Lightning javazons in particular hunt these. It looks like vendor trash and gambles for a fortune.",
     history: null,
-    ifYouFind: "Four sockets and no magic prefix. A blue four-socket Monarch cannot hold Spirit. Only the plain white one is the base."
+    ifYouFind: "Four sockets on a magic Monarch with the block rolls. That is it. You socket it yourself, so the empty shell is the prize."
   },
   {
     slug: "tyraels-might",
@@ -808,7 +811,7 @@ const ITEMS = [
     valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 3,
-    why: "The lowest strength and highest block of any elite paladin shield, which already makes it the runeword base of choice. On top of that, paladin shields spawn with a hidden all-resistance bonus, up to forty five. A Sacred Targe that rolled the max resist and four sockets is the premier base for Spirit and every paladin runeword. The shield is common. That exact roll is not.",
+    why: "The lowest strength and highest block of any elite paladin shield, which already makes it the base of choice for the good paladin runewords like Exile and Phoenix. On top of that, paladin shields spawn with a hidden all-resistance bonus, up to forty five. A Sacred Targe that rolled the max resist and four sockets is the one people hunt. The shield is common. That exact roll is not.",
     history: null,
     ifYouFind: "Forty five all resist and four sockets is the one. A low resist roll is an ordinary shield."
   },
