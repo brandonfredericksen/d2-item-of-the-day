@@ -1201,7 +1201,7 @@ const ITEMS = [
     rarityTier: "Uncommon",
     obscurity: 3,
     why: "The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.",
-    history: null,
+    history: "For years the Spectral Shard was the caster weapon. Fifty faster cast at a level twenty five requirement was a breakpoint nothing cheaper could touch, so nearly every budget sorceress and every low-level caster dueler carried one. In that bracket it was so standard that seeing any other weapon was the surprise. Better cast weapons eventually arrived and pushed it down to a starter pick, but for a long stretch this flimsy little blade was the first thing a caster reached for.",
     ifYouFind: "Ignore the weapon damage. The fifty cast rate at a low level is the point."
   },
   {
