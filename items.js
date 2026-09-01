@@ -245,6 +245,56 @@ const ITEMS = [
     why: "This is not the Arkaine's Valor that drops today. This is the old one. Before the nerf it gave two and a half vitality and two life for every character level, plus two to all skills, indestructible, and fire resist, all on one body armor. At level ninety-nine that is hundreds of free vitality and life. The current version was cut down hard, so a copy like this can no longer drop.",
     history: "Arkaine's Valor was so strong before the 1.10 patch that it became one of the most duped armors in the game. Blizzard gutted the life and vitality bonus and left the weaker version dropping in its place. The old copies were never deleted, only frozen out of the loot table. The ones still around are relics from a version of Diablo 2 that no longer exists, and they thin out every year as old accounts expire.",
     ifYouFind: "It does not drop anymore. Anyone offering one is trading a survivor from an old patch, not a fresh find."
+  },
+  {
+    slug: "legacy-hellfire-torch",
+    name: "Hellfire Torch",
+    alias: "legacy Torch (25% Firestorm)",
+    quality: "unique",
+    type: "Large Charm",
+    sprite: "img/hellfire-torch.png",
+    tooltip: [
+      { t: "Required Level: 75", c: "white" },
+      "25% Chance to Cast Level 10 Firestorm on Striking",
+      "+3 to Sorceress Skills",
+      "+20 to All Attributes",
+      "All Resistances +20",
+      "+8 to Light Radius",
+      "Level 30 Hydra (10 Charges)"
+    ],
+    valueTier: "A",
+    rarityTier: "Mythic",
+    lastPatch: "1.12",
+    obscurity: 4,
+    why: "Everyone knows the Hellfire Torch. Almost nobody has seen this one. The current Torch casts Firestorm five percent of the time. The old one cast it twenty-five. Five times the fire, on a charm that was already an endgame staple. It stopped dropping in this form, so every 25 percent Torch is a survivor from before the nerf.",
+    history: "The Torch came from the Pandemonium Event added in patch 1.11, and for its first years it cast Firestorm on a quarter of your hits. That was a wall of free fire on a charm people fought the Ubers to earn. Patch 1.13 cut it to five percent. The old copies kept their twenty-five, so the legacy Torch became a collector's version of an item almost everyone already owns.",
+    ifYouFind: "Check the Firestorm line. Twenty-five percent means it is pre-1.13, and worth far more than the Torch in your stash."
+  },
+  {
+    slug: "siggards-stealth",
+    name: "Siggard's Stealth",
+    alias: "the renamed Nosferatu's Coil",
+    quality: "unique",
+    type: "Vampirefang Belt",
+    sprite: "img/siggards-stealth.png",
+    tooltip: [
+      { t: "Defense: 63", c: "white" },
+      { t: "Required Level: 51", c: "white" },
+      { t: "Required Strength: 50", c: "white" },
+      "+10% Increased Attack Speed",
+      "7% Life Stolen per Hit",
+      "Slows Target by 10%",
+      "+2 to Mana after each Kill",
+      "+15 to Strength",
+      "-3 to Light Radius"
+    ],
+    valueTier: "C",
+    rarityTier: "Very Rare",
+    lastPatch: "1.09",
+    obscurity: 5,
+    why: "Look at the name. That belt does not exist anymore. The stats are an ordinary Nosferatu's Coil, attack speed and life steal, nothing a current player would chase. What makes it a collector piece is the name itself. Nothing has dropped with it in over twenty years.",
+    history: "In the 1.10 patch Blizzard reshuffled the unique item files. The belt that had been Nosferatu's Coil was renamed Siggard's Stealth, and a new Nosferatu's Coil started dropping in its place with the same stats. Every existing copy changed its name on the spot. So a Siggard's Stealth is proof of age. It is a Nosferatu's Coil from before the patch, wearing a name the game no longer hands out.",
+    ifYouFind: "You cannot find one, only inherit one. The name is the whole story. The stats are beside the point."
   }
 ];
 
