@@ -801,25 +801,31 @@ const ITEMS = [
   },
   {
     slug: "sacred-targe",
-    name: "Sacred Targe",
-    alias: "45/4 Sacred Targe",
-    quality: "normal",
+    name: "Jeweler's Sacred Targe of Deflecting",
+    alias: "paladin JMOD",
+    quality: "magic",
     type: "",
     sprite: "img/sacred-targe.png",
+    fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
+    fillLabel: "fill with facets",
     tooltip: [
-      { t: "Defense: 158", c: "white" },
-      { t: "Chance to Block: 60%", c: "white" },
-      { t: "Required Level: 47", c: "white" },
+      { t: "Defense: 141", c: "white" },
+      { t: "Chance to Block: 76%", c: "white" },
+      { t: "Durability: 27 of 46", c: "white" },
+      { t: "(Paladin Only)", c: "red" },
       { t: "Required Strength: 86", c: "white" },
+      { t: "Required Level: 47", c: "white" },
+      "+30% Faster Block Rate",
+      "20% Increased Chance of Blocking",
       "All Resistances +45",
       "Socketed (4)"
     ],
     valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 3,
-    why: "The lowest strength and highest block of any elite paladin shield, which already makes it the base of choice for the good paladin runewords like Exile and Phoenix. On top of that, paladin shields spawn with a hidden all-resistance bonus, up to forty five. A Sacred Targe that rolled the max resist and four sockets is the one people hunt. The shield is common. That exact roll is not.",
+    why: "The paladin's answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.",
     history: null,
-    ifYouFind: "Forty five all resist and four sockets is the one. A low resist roll is an ordinary shield."
+    ifYouFind: "Four sockets, the block rolls, and forty five resist on a magic Sacred Targe. That is the paladin grail. You socket it yourself."
   },
   {
     slug: "constricting-ring",
@@ -892,6 +898,33 @@ const ITEMS = [
     why: "The normal Tal Rasha's armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal's is the armor to beat.",
     history: "Bugged items are real items that ended up better than the game ever intended, born in the same 1.08 to 1.10 window as the Occy Ring. The Btal is the most useful of them, which is why it still trades briskly on non-ladder. It cannot be made now. Every one in circulation is an old survivor, quietly duped along the way.",
     ifYouFind: "A Tal's armor with two skills and a socket is bugged. The normal one has neither. Non-ladder only."
+  },
+  {
+    slug: "cruel-colossus-sword",
+    name: "Cruel Colossus Sword of Quickness",
+    alias: "godly magic sword",
+    quality: "magic",
+    type: "",
+    sprite: "img/colossus-sword.png",
+    tooltip: [
+      { t: "One-Hand Damage: 111 to 301", c: "white" },
+      { t: "Two-Hand Damage: 262 to 620", c: "white" },
+      { t: "Durability: 50 of 50", c: "white" },
+      { t: "Required Dexterity: 95", c: "white" },
+      { t: "Required Strength: 182", c: "white" },
+      { t: "Required Level: 60", c: "white" },
+      { t: "Sword Class - Very Fast Attack Speed", c: "white" },
+      "+65% Increased Attack Speed",
+      "+330% Enhanced Damage",
+      "40% Deadly Strike",
+      "Socketed (3)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A blue sword that hits harder than most runewords. Cruel is the highest damage prefix a weapon can roll, of Quickness adds the attack speed, and this one landed three sockets on top. Fill them with Lo runes for deadly strike or jewels for more damage and you have a two-hander that competes with the famous gold weapons for a fraction of the attention. Most players never learn a magic weapon can roll this high.",
+    history: null,
+    ifYouFind: "Cruel, a high enhanced damage roll, and sockets together is the jackpot. A blue weapon can be worth more than the gold ones. Read the rolls before you sell."
   }
 ];
 
