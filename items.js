@@ -799,6 +799,76 @@ const ITEMS = [
     why: "The lowest strength and highest block of any elite paladin shield, which already makes it the runeword base of choice. On top of that, paladin shields spawn with a hidden all-resistance bonus, up to forty five. A Sacred Targe that rolled the max resist and four sockets is the premier base for Spirit and every paladin runeword. The shield is common. That exact roll is not.",
     history: null,
     ifYouFind: "Forty five all resist and four sockets is the one. A low resist roll is an ordinary shield."
+  },
+  {
+    slug: "constricting-ring",
+    name: "Constricting Ring",
+    alias: "the ring that never dropped",
+    quality: "unique",
+    type: "Ring",
+    sprite: "img/constricting-ring.png",
+    tooltip: [
+      { t: "Required Level: 95", c: "white" },
+      "+15% to Maximum Fire Resist",
+      "+15% to Maximum Cold Resist",
+      "+15% to Maximum Lightning Resist",
+      "+15% to Maximum Poison Resist"
+    ],
+    valueTier: "B",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "A ring that raises every one of your resistance caps. Not your resistance, the cap itself, from seventy five to ninety across all four elements. Nothing else in the game does it, and nothing was ever supposed to. It sits in the files complete with stats and a level ninety five requirement, switched off so it can never drop.",
+    history: "The Constricting Ring exists in uniqueitems.txt, the file that defines every unique, with its enable flag set to off. The developers built it, decided it was too strong to release, and left it disabled. The only copies that ever reached Battle.net came through an import bug from open and single-player realms. It is the purest case of an item that exists and does not exist at the same time.",
+    ifYouFind: "You will not. It cannot drop. Any that exist slipped in through a bug two decades ago."
+  },
+  {
+    slug: "oculus-soj",
+    name: "Stone of Jordan",
+    alias: "Occy Ring",
+    quality: "unique",
+    type: "Ring",
+    sprite: "img/oculus-soj.png",
+    tooltip: [
+      { t: "Required Level: 42", c: "white" },
+      "+3 to Sorceress Skill Levels",
+      "+30% Faster Cast Rate",
+      "25% Chance to Cast Level 1 Teleport when Struck",
+      "All Resistances +20",
+      "+20 to Vitality",
+      "+20 to Energy",
+      "50% Better Chance of Getting Magic Items"
+    ],
+    valueTier: "B",
+    rarityTier: "Mythic",
+    obscurity: 4,
+    why: "Read the stats, then read the item type. Those are The Oculus's stats, a sorceress orb, sitting on a ring. Three sorceress skills, thirty faster cast, teleport when struck, all in a slot that should never hold them. A sorceress wearing one carried an extra orb's worth of power for free.",
+    history: "The Occy Ring came out of the great bugged-item era, roughly 1.08 to 1.10, when a fusing glitch and open-realm imports put item properties onto the wrong bases. It was duped for years. Copies even split by region, the west and east versions carrying slightly different stats. Later purges wiped it out, and it no longer exists in the modern game.",
+    ifYouFind: "It cannot exist legitimately. A Stone of Jordan with orb stats is a bugged relic, not a lucky drop."
+  },
+  {
+    slug: "bugged-tals",
+    name: "Tal Rasha's Guardianship",
+    alias: "Btal",
+    quality: "set",
+    type: "Lacquered Plate",
+    sprite: "img/bugged-tals.png",
+    tooltip: [
+      { t: "Defense: 743", c: "white" },
+      { t: "Required Level: 71", c: "white" },
+      "+2 to All Skills",
+      "+25% Faster Run/Walk",
+      "Damage Reduced by 25%",
+      "Magic Damage Reduced by 15",
+      "All Resistances +40",
+      "Requirements -60%",
+      "Socketed (1)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The normal Tal Rasha's armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal's is the armor to beat.",
+    history: "Bugged items are real items that ended up better than the game ever intended, born in the same 1.08 to 1.10 window as the Occy Ring. The Btal is the most useful of them, which is why it still trades briskly on non-ladder. It cannot be made now. Every one in circulation is an old survivor, quietly duped along the way.",
+    ifYouFind: "A Tal's armor with two skills and a socket is bugged. The normal one has neither. Non-ladder only."
   }
 ];
 
