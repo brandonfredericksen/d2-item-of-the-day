@@ -1,0 +1,12 @@
+{
+  "name": "D2 Item of the Day",
+  "short_name": "D2 Item",
+  "description": "One rare Diablo 2 collector's item every day.",
+  "icons": [
+    { "src": "img/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#120c0b",
+  "background_color": "#120c0b",
+  "display": "standalone"
+}
