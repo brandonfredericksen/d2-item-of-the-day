@@ -30,8 +30,9 @@
    the sprite by default. Optional `grid` is the item's inventory size in cells,
    [columns, rows]. The socket holes are laid out in that many columns and fill
    row by row, matching the game: a single-column base (an orb, a wand) stacks
-   its sockets vertically, a two-wide base fills two per row. Only the column
-   count changes the layout; the row value is recorded for reference. Omit `grid`
+   its sockets vertically, a two-wide base fills two per row. A leftover socket
+   on its own row is centered, not pushed to one side. Only the column count
+   changes the layout; the row value is recorded for reference. Omit `grid`
    and the layout falls back to two columns. Optional `fill` is an array of socketable sprite
    paths (img/socketables/*); when present, a button fills the holes with them,
    and any `fillTip` lines (the stats those socketables add) appear in the
@@ -43,6 +44,10 @@
    so the tag stays meaningful. Optional `lastPatch` (e.g. "1.09") marks an item
    whose shown version no longer drops; it renders as a "Last seen" tag
    beside the tiers. Use it for legacy / pre-nerf entries.
+   Optional `illicit` marks contraband that cannot legitimately exist. Set it to
+   "Hacked" (an external item-editing hack, renders a red tag) or "Bugged" (an
+   in-game glitch like the ethereal-socket defense bug, renders an amber tag).
+   The why/history carry the story; the tag flags that it is not a real drop.
    To turn a language on, add it to AVAILABLE_LANGS
    and its UI block in app.js. The switcher appears automatically.
    Translations are native rewrites only, never machine translation.
@@ -192,6 +197,124 @@ const ITEMS = [
     ifYouFind: "Two class skills and twenty cast rate on one amulet is the jackpot. Everything after that is a bonus most uniques cannot match."
   },
   {
+    slug: "shadow-claw",
+    grid: [1, 3],
+    sockets: 2,
+    name: "Shadow Claw",
+    alias: "godly rare trapsin claw",
+    quality: "rare",
+    type: "Greater Talons",
+    sprite: "img/greater-talons.png",
+    tooltip: [
+      { t: "One-Hand Damage: 21 to 36", c: "white" },
+      { t: "Durability: 60 of 69", c: "white" },
+      { t: "(Assassin Only)", c: "red" },
+      { t: "Required Dexterity: 79", c: "white" },
+      { t: "Required Strength: 79", c: "white" },
+      { t: "Required Level: 52", c: "white" },
+      { t: "Claw Class - Very Fast Attack Speed", c: "white" },
+      "+2 to Assassin Skills",
+      "+40% Increased Attack Speed",
+      "+14% Faster Hit Recovery",
+      "+3 to Mind Blast (Assassin Only)",
+      "+3 to Lightning Sentry (Assassin Only)",
+      "+3 to Weapon Block (Assassin Only)",
+      "+15 to Strength",
+      "Replenish Life +13",
+      "+30 to Mana",
+      "Lightning Resist +90%",
+      "Socketed (2)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, ninety lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.",
+    history: null,
+    ifYouFind: "Count the skills. Two to all, plus three each to three separate assassin skills on one claw, is the jackpot. Add the two sockets and the ninety resist and it is a top trapsin weapon."
+  },
+  {
+    slug: "white-ring",
+    name: "Ring",
+    title: "White Ring",
+    alias: "hacked absorb ring",
+    quality: "normal",
+    type: "",
+    sprite: "img/ring.png",
+    illicit: "Hacked",
+    tooltip: [
+      "100% Faster Run/Walk",
+      "100% Increased Attack Speed",
+      "Adds 63-127 Damage",
+      "20% Life Stolen per Hit",
+      "Fire Absorb 96%",
+      "Lightning Absorb 96%",
+      "Cold Absorb 96%"
+    ],
+    valueTier: "S",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "A plain white ring with no name and no requirements, carrying the best absorb in the game three times over. Ninety six percent taken off fire, lightning and cold at once, with a hundred faster run and a hundred attack speed alongside. No legitimate ring rolls any of this. On the old realms a White Ring made a dueler nearly immune to elements, which is exactly why it was contraband gold.",
+    history: "The White Ring came off open Battle.net, where the client could build items with impossible stats. Import and dupe bugs carried it onto the closed realms where real trading happened, and for years it was one of the most coveted duel items nobody could legally own. Later patches purged it. It has no place in the loot table and never did.",
+    ifYouFind: "You cannot, not honestly. A no-requirement ring with triple absorb is a hacked item. Using one now gets an account banned, not rich."
+  },
+  {
+    slug: "ith",
+    grid: [2, 4],
+    sockets: 6,
+    name: "Ith",
+    alias: "the item hack's signature",
+    quality: "normal",
+    type: "Colossus Blade",
+    sprite: "img/colossus-blade.png",
+    illicit: "Hacked",
+    tooltip: [
+      { t: "One-Hand Damage: 220 to 668", c: "white" },
+      { t: "Two-Hand Damage: 610 to 1001", c: "white" },
+      { t: "Required Strength: 179", c: "white" },
+      { t: "Required Level: 63", c: "white" },
+      { t: "Sword Class - Very Fast Attack Speed", c: "white" },
+      "Indestructible",
+      "+2 to All Skill Levels",
+      "60% Increased Attack Speed",
+      "200% Faster Hit Recovery",
+      "+400% Enhanced Damage",
+      "4% Mana Stolen per Hit",
+      "Hit Blinds Target +33",
+      "All Resistances +76",
+      "Ethereal (Cannot be Repaired)",
+      "Socketed (6)"
+    ],
+    valueTier: "S",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "Count how many of these lines are impossible. Two to all skills, two hundred percent faster hit recovery, seventy six all resistance, four hundred enhanced damage, six sockets, ethereal and indestructible, on one weapon named after a rune. No legitimate item carries half of it. Ith is the fingerprint of the old item hack, the same stat block stamped onto swords, bows and more.",
+    history: "In the early years, open Battle.net let the client edit items freely, and import bugs ferried those edited items onto the closed realms where they traded as real. A whole wave of them shared one giveaway name, Ith, and one impossible stat block. They were the loudest proof that part of the closed-realm economy was never legitimate. Purges removed them, and they cannot exist in the modern game.",
+    ifYouFind: "You will only see one in an old screenshot. Ith is a hacked item, not a drop, and it is the same template on every base it was stamped onto."
+  },
+  {
+    slug: "hex-charm",
+    name: "Hexing Small Charm of Immolating Arrow",
+    title: "Hex Charm",
+    alias: "hacked +90 stat charm",
+    quality: "magic",
+    type: "",
+    sprite: "img/small-charm.png",
+    illicit: "Hacked",
+    tooltip: [
+      { t: "Keep in Inventory to Gain Bonus", c: "grey" },
+      { t: "Required Level: 42", c: "white" },
+      "+90 to Strength",
+      "+90 to Dexterity",
+      "+90 to Vitality"
+    ],
+    valueTier: "A",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "A small charm gives one small bonus. This one gives ninety strength, ninety dexterity and ninety vitality out of a single inventory square. The name is a real magic charm's, with numbers no charm can roll bolted underneath. A row of these turned any character into something the game was never built to allow.",
+    history: "Hex charms came from the same item-editing era as the White Ring and the Ith weapons. On open Battle.net the client could write any value into an item, and bugs ferried them onto the closed realms. A charm was the perfect smuggler: tiny, stackable, and easy to hide in an inventory full of legitimate ones. They were purged, and no charm rolls like this.",
+    ifYouFind: "Ninety to a stat on a small charm is a hacked value, full stop. It is contraband, not a lucky roll."
+  },
+  {
     slug: "carrion-song",
     name: "Carrion Song",
     alias: "classic rare bow",
@@ -268,6 +391,31 @@ const ITEMS = [
     why: "A level twenty-two unique nobody stops for, and one of the only body armors in the game that freezes what you hit. A frozen enemy cannot attack, so a melee twink or an Act 2 merc wearing this walks through Normal untouched. Anything killed while frozen shatters and leaves no corpse, which quietly denies the other side every corpse it wanted. It costs a chipped gem and does something almost nothing else can.",
     history: null,
     ifYouFind: "The roll does not matter here. Keep it for a leveling character or a merc, and cube it up to a bigger base later if you want the defense."
+  },
+  {
+    slug: "grim-fist",
+    name: "Grim Fist",
+    alias: "+2 skill javazon gloves",
+    quality: "rare",
+    type: "Light Gauntlets",
+    sprite: "img/light-gauntlets.png",
+    tooltip: [
+      { t: "Defense: 13", c: "white" },
+      { t: "Durability: 16 of 18", c: "white" },
+      { t: "Required Strength: 45", c: "white" },
+      { t: "Required Level: 36", c: "white" },
+      "+2 to Javelin and Spear Skills (Amazon Only)",
+      "+20% Increased Attack Speed",
+      "3% Mana Stolen per Hit",
+      "3% Life Stolen per Hit",
+      "+13% Enhanced Defense"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "Gloves are an afterthought slot, which is exactly why this pair hides. Two to the whole javelin and spear tree, then twenty attack speed and a maxed three and three life and mana leech on top. A javazon gets a skill level here that no unique glove can offer, the leech to stay alive, and the speed to throw faster. It reads as a junk yellow. It is a build-defining glove for the right amazon.",
+    history: null,
+    ifYouFind: "The plus two skills is the prize, and it only comes on gloves as a rare roll. Three life and three mana leech, both maxed, on the same pair is what turns a good glove into a keeper."
   },
   {
     slug: "arkaines-valor",
@@ -373,6 +521,63 @@ const ITEMS = [
     ifYouFind: "Two sockets and fifteen damage reduction is the jackpot. One socket and ten reduction is a cheaper helm wearing the same name."
   },
   {
+    slug: "brimstone-barb",
+    name: "Brimstone Barb",
+    alias: "460 ED eth thrower",
+    quality: "rare",
+    type: "Stygian Pilum",
+    sprite: "img/stygian-pilum.png",
+    tooltip: [
+      { t: "Throw Damage: 190 to 616", c: "white" },
+      { t: "One-Hand Damage: 136 to 528", c: "white" },
+      { t: "Quantity: 90", c: "white" },
+      { t: "Required Dexterity: 102", c: "white" },
+      { t: "Required Strength: 108", c: "white" },
+      { t: "Required Level: 68", c: "white" },
+      { t: "Javelin Class - Very Fast Attack Speed", c: "white" },
+      "+40% Increased Attack Speed",
+      "+460% Enhanced Damage",
+      "+20 to Minimum Damage",
+      "+206 to Attack Rating",
+      "Adds 112-133 Fire Damage",
+      "Replenishes Quantity",
+      "Ethereal (Cannot be Repaired)"
+    ],
+    valueTier: "B",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "Throwing builds live and die on their weapon, and this rare beats the uniques. Four hundred and sixty enhanced damage on a javelin is a number the named throwers never reach. It is ethereal, so the damage climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.",
+    history: null,
+    ifYouFind: "Throw it, never melee it. Ethereal cannot be repaired, and only the thrown stack refills. The four hundred sixty enhanced damage is the roll that makes it."
+  },
+  {
+    slug: "pain-hood",
+    name: "Pain Hood",
+    alias: "2/20 druid circlet",
+    quality: "rare",
+    type: "Tiara",
+    sprite: "img/tiara.png",
+    tooltip: [
+      { t: "Defense: 49", c: "white" },
+      { t: "Durability: 25 of 25", c: "white" },
+      { t: "Required Level: 67", c: "white" },
+      "+2 to Druid Skill Levels",
+      "+20% Faster Run/Walk",
+      "+20% Faster Cast Rate",
+      "+16 to Dexterity",
+      "Cold Resist +17%",
+      "Lightning Resist +55%",
+      "Fire Resist +17%",
+      "Poison Resist +17%"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The best caster helm for a druid is often not a unique but a rare circlet like this. Two to all druid skills and twenty faster cast are the two lines every caster hunts, and here they arrive with run speed, dexterity and all four resistances on one Tiara. No unique druid helm matches the spread. A random yellow name hiding one of the best helms a storm or fire druid can wear.",
+    history: null,
+    ifYouFind: "Two class skills and twenty cast rate on a circlet is the jackpot. The resists and the speed on top are what push it past the uniques."
+  },
+  {
     slug: "wisp-projector",
     name: "Wisp Projector",
     alias: "20/20 Wisp",
@@ -394,6 +599,33 @@ const ITEMS = [
     why: "Nobody looks twice at Wisp Projector. It reads like a novelty ring with a pile of charges. Then you notice the two lines that matter: lightning absorb up to twenty percent, and magic find up to twenty percent. Lightning is the deadliest damage in the game at the high end, so that absorb is worth real money, and the magic find rides along for free. The charges are a footnote. The two rolls are the item.",
     history: null,
     ifYouFind: "Read the absorb and the magic find. Twenty and twenty is the one people pay for."
+  },
+  {
+    slug: "doom-stalker",
+    name: "Doom Stalker",
+    alias: "rare leech boots",
+    quality: "rare",
+    type: "Battle Boots",
+    sprite: "img/battle-boots.png",
+    tooltip: [
+      { t: "Defense: 46", c: "white" },
+      { t: "Durability: 11 of 18", c: "white" },
+      { t: "Required Strength: 95", c: "white" },
+      { t: "Required Level: 51", c: "white" },
+      "+30% Faster Run/Walk",
+      "+10% Faster Hit Recovery",
+      "1% Life Stolen per Hit",
+      "+20 to Life",
+      "Replenish Life +10",
+      "Lightning Resist +40%",
+      "Fire Resist +40%"
+    ],
+    valueTier: "B",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The slot most players fill with a unique and forget. This rare does more. Thirty faster run and walk, forty lightning and forty fire, twenty life with a little replenish, and the part people forget boots can even roll: life steal. Speed, two big resists, life and leech in one slot almost never land together. The leech here is one percent. A perfect roll pushes it higher.",
+    history: null,
+    ifYouFind: "Boots that leech are the tell most people miss. The run speed and the two resists are the base value. The life steal is the rare bonus, and this one is short of a maxed roll."
   },
   {
     slug: "herald-of-zakarum",
@@ -479,6 +711,35 @@ const ITEMS = [
     why: "A throwing javelin most people never think about twice. The trick is what happens when it is ethereal. Ethereal boosts the damage, and for a throwing weapon that depletes that would normally be a death sentence. Titan's Revenge replenishes its own stack, so an ethereal pair throws forever at boosted damage. Two amazon skills and thirty faster run ride along. It is the javazon's quiet grail, hiding as a common gold javelin.",
     history: null,
     ifYouFind: "Ethereal is the whole game here. An ethereal Titan's that replenishes is worth far more than the plain one you throw away."
+  },
+  {
+    slug: "valkyrie-wing-08",
+    grid: [2, 2],
+    sockets: 1,
+    name: "Valkyrie Wing",
+    alias: "1.08 Valk Wing",
+    quality: "unique",
+    type: "Winged Helm",
+    sprite: "img/winged-helm.png",
+    lastPatch: "1.08",
+    tooltip: [
+      { t: "Defense: 127", c: "white" },
+      { t: "Durability: 34 of 40", c: "white" },
+      { t: "Required Strength: 118", c: "white" },
+      { t: "Required Level: 44", c: "white" },
+      "+30% Faster Run/Walk",
+      "+30% Increased Attack Speed",
+      "+30% Faster Cast Rate",
+      "+30% Faster Hit Recovery",
+      "+36 Defense",
+      "Socketed (1)"
+    ],
+    valueTier: "B",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The Valkyrie Wing that drops today gives run speed and amazon skills. This one, from patch 1.08, gave every speed bonus in the game at once. Thirty faster run, thirty attack speed, thirty faster cast, thirty faster hit recovery, all on one helm any class could wear. Nothing since has stacked four speed mods on a single item. It was too good, so it was rewritten.",
+    history: "Patch 1.09 reworked Valkyrie Wing into the amazon helm it is now, trading the universal speed for class skills. The old 1.08 copies kept the four thirties. Like every legacy piece they live only on non-ladder, and they thin out every year. A speed stacker's relic from a version of the game that no longer exists.",
+    ifYouFind: "Four separate thirty percent speed mods is the tell. That is the 1.08 helm, not the amazon one that drops now."
   },
   {
     slug: "vampire-gaze-08",
@@ -645,6 +906,122 @@ const ITEMS = [
     ifYouFind: "The forty life and the speed are fixed. It is the market that makes them valuable, not the roll, so do not vendor a clean pair."
   },
   {
+    slug: "cruel-matriarchal-bow",
+    grid: [2, 4],
+    sockets: 2,
+    name: "Cruel Matriarchal Bow of Amplify Damage",
+    alias: "hacked amp bow",
+    quality: "magic",
+    type: "",
+    sprite: "img/matriarchal-bow.png",
+    illicit: "Hacked",
+    tooltip: [
+      { t: "Two-Hand Damage: 95 to 223", c: "white" },
+      { t: "(Amazon Only)", c: "red" },
+      { t: "Required Dexterity: 187", c: "white" },
+      { t: "Required Strength: 87", c: "white" },
+      { t: "Required Level: 68", c: "white" },
+      { t: "Bow Class - Very Fast Attack Speed", c: "white" },
+      "5% Chance to Cast Level 1 Amplify Damage on Striking",
+      "+1 to Bow and Crossbow Skills (Amazon Only)",
+      "+30% Increased Attack Speed",
+      "+376% Enhanced Damage",
+      "Socketed (2)"
+    ],
+    valueTier: "A",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "It calls itself a magic bow, but a magic item gets one prefix and one suffix, two lines at most. This has a curse on striking, a class skill, thirty attack speed and three hundred seventy six enhanced damage all at once. That is several affixes too many. It is a hacked bow wearing a legal-looking blue name, which is what made this kind so hard to catch in a trade window.",
+    history: "The dangerous hacks were not the loud ones. A bow like this reads almost like a real magic drop, so it passed through trades a triple-absorb ring never would. It came from the same open-realm editing that produced the White Ring and Ith, tuned to look plausible. The tell is the affix count: no legitimate magic item can carry this many lines.",
+    ifYouFind: "Count the blue lines. More than two on a magic item means it was edited, not dropped. This one has twice that."
+  },
+  {
+    slug: "storm-circlet",
+    name: "Storm Circlet",
+    alias: "two-class hacked amulet",
+    quality: "rare",
+    type: "Amulet",
+    sprite: "img/rare-amulet.png",
+    illicit: "Hacked",
+    tooltip: [
+      { t: "Required Level: 34", c: "white" },
+      "+2 to Necromancer Skill Levels",
+      "+2 to Sorceress Skill Levels",
+      "+20% Faster Cast Rate",
+      "+18 to Strength",
+      "+56 to Life",
+      "+69 to Mana",
+      "Cold Resist +23%",
+      "Lightning Resist +23%",
+      "Fire Resist +23%"
+    ],
+    valueTier: "A",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "An amulet can grant skills to one class. This one grants two, plus two necromancer and plus two sorceress on the same neck, with cast rate and resists piled on. No random roll produces class bonuses for two classes at once. It reads as an ordinary godly rare until you notice it is helping two characters who could never both wear it.",
+    history: "A subtle hack: a rare amulet edited to hold a second class's skills. Like the fake magic weapons of the era, it was built to survive a trade by looking almost right. It came from open-realm editing and the import bugs that leaked those items onto the ladder realms before the purges cleared them.",
+    ifYouFind: "Two different class-skill lines on one amulet is the giveaway. The game only ever grants one."
+  },
+  {
+    slug: "storm-needle",
+    name: "Storm Needle",
+    alias: "hacked 435 ED bow",
+    quality: "rare",
+    type: "Gothic Bow",
+    sprite: "img/rare-bow.png",
+    illicit: "Hacked",
+    tooltip: [
+      { t: "Two-Hand Damage: 58 to 267", c: "white" },
+      { t: "Required Dexterity: 118", c: "white" },
+      { t: "Required Strength: 95", c: "white" },
+      { t: "Required Level: 48", c: "white" },
+      { t: "Bow Class - Very Fast Attack Speed", c: "white" },
+      "+20% Increased Attack Speed",
+      "+435% Enhanced Damage",
+      "+5 to Minimum Damage",
+      "5% Bonus to Attack Rating",
+      "+203 to Attack Rating",
+      "Adds 48-75 Fire Damage",
+      "+5 to Light Radius"
+    ],
+    valueTier: "B",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "Four hundred thirty five percent enhanced damage on a bow that calls itself rare. The highest a single legitimate roll reaches is three hundred, and it cannot pair that with this many other lines. The numbers sit just past what the game allows, which is the signature of an item edited to look like a lucky drop instead of an obvious fake.",
+    history: "Bows like this were built to slip past traders who knew the obvious hacks. Push the enhanced damage a little beyond the legal ceiling, add a few plausible lines, and it looks like the rare of a lifetime. It traces to the same open-realm editing era, and the same purges that cleared the White Ring took it too.",
+    ifYouFind: "Know the ceilings. One enhanced-damage roll tops out near three hundred, and a rare holds six affixes at most. This clears both. Edited, not dropped."
+  },
+  {
+    slug: "bugged-shaftstop",
+    grid: [2, 3],
+    sockets: 1,
+    name: "Shaftstop",
+    title: "Bugged Shaftstop",
+    alias: "the ebug 2400 defense armor",
+    quality: "unique",
+    type: "Boneweave",
+    sprite: "img/shaftstop.png",
+    illicit: "Bugged",
+    tooltip: [
+      { t: "Defense: 2422", c: "white" },
+      { t: "Durability: 33 of 46", c: "white" },
+      { t: "Required Strength: 148", c: "white" },
+      { t: "Required Level: 64", c: "white" },
+      "+220% Enhanced Defense",
+      "+250 Defense vs. Missile",
+      "+60 to Life",
+      "Damage Reduced by 30%",
+      "Ethereal (Cannot be Repaired)",
+      "Socketed (1)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "Shaftstop is a beginner's armor. This one shows two thousand four hundred defense, roughly triple what the item can legitimately reach. It is the ethereal socketing bug: cube a socket into an ethereal armor and the game applies the ethereal defense bonus a second time, stacking a number the math never allows. Same gold name, an armor from a different reality.",
+    history: "For a stretch of the game's life, adding a socket to an ethereal armor in the Horadric Cube doubled the ethereal defense bonus instead of applying it once. Players ran good bases through it on purpose, and ebugged armors became a quiet class of their own, worth far more than the clean version for the raw defense. Later patches fixed the recipe. The armors made before the fix kept their impossible numbers.",
+    ifYouFind: "Compare the defense to the enhanced defense. If it is far higher than the math allows, it was ebugged before the fix, and it cannot be made now."
+  },
+  {
     slug: "twitchthroe",
     name: "Twitchthroe",
     alias: "Twitch",
@@ -715,140 +1092,6 @@ const ITEMS = [
     ifYouFind: "Only the pair matters. Together they hand a low-level character stats that normally cost a whole gear slot."
   },
   {
-    slug: "eth-berserker-axe",
-    grid: [2, 3],
-    name: "Berserker Axe",
-    alias: "eth BotD base",
-    quality: "normal",
-    type: "",
-    sprite: "img/berserker-axe.png",
-    fill: ["img/socketables/rune-vex.png", "img/socketables/rune-hel.png", "img/socketables/rune-el.png", "img/socketables/rune-eld.png", "img/socketables/rune-zod.png", "img/socketables/rune-eth.png"],
-    fillLabel: "fill for Breath of the Dying",
-    fillName: "Breath of the Dying",
-    fillTip: [
-      "50% Chance to Cast Level 20 Poison Nova When You Kill an Enemy",
-      "+60% Increased Attack Speed",
-      "+400% Enhanced Damage",
-      "-25% Target Defense",
-      "+50 to Attack Rating",
-      "12% Life Stolen per Hit",
-      "7% Mana Stolen per Hit",
-      "Prevent Monster Heal",
-      "+30 to All Attributes",
-      "Indestructible"
-    ],
-    tooltip: [
-      { t: "One-Hand Damage: 24 to 71", c: "white" },
-      { t: "Required Level: 64", c: "white" },
-      { t: "Required Strength: 138", c: "white" },
-      { t: "Required Dexterity: 59", c: "white" },
-      "Ethereal (Cannot be Repaired)",
-      "Socketed (6)"
-    ],
-    valueTier: "A",
-    rarityTier: "Very Rare",
-    obscurity: 3,
-    why: "A plain white axe that looks like a vendor sale. It is the base for an ethereal Breath of the Dying, one of the highest damage weapons in the game. The runeword needs six sockets, and ethereal adds a free damage boost that never wears off inside the word. A normal Berserker Axe is worthless. An ethereal one with six sockets is a small fortune, and the only difference is those two lines.",
-    history: null,
-    ifYouFind: "Ethereal and six sockets. Miss either and it is just an axe."
-  },
-  {
-    slug: "eth-giant-thresher",
-    grid: [2, 4],
-    name: "Giant Thresher",
-    alias: "eth Infinity base",
-    quality: "normal",
-    type: "",
-    sprite: "img/giant-thresher.png",
-    fill: ["img/socketables/rune-ber.png", "img/socketables/rune-mal.png", "img/socketables/rune-ber.png", "img/socketables/rune-ist.png"],
-    fillLabel: "fill for Infinity",
-    fillName: "Infinity",
-    fillTip: [
-      "Level 12 Conviction Aura When Equipped",
-      "50% Chance to Cast Level 20 Chain Lightning When You Kill an Enemy",
-      "+35% Faster Run/Walk",
-      "+300% Enhanced Damage",
-      "-55% to Enemy Lightning Resistance",
-      "+40% Chance of Crushing Blow",
-      "Prevent Monster Heal",
-      "+45 to Vitality",
-      "30% Better Chance of Getting Magic Items"
-    ],
-    tooltip: [
-      { t: "Two-Hand Damage: 40 to 114", c: "white" },
-      { t: "Required Level: 66", c: "white" },
-      { t: "Required Strength: 188", c: "white" },
-      { t: "Required Dexterity: 140", c: "white" },
-      "Ethereal (Cannot be Repaired)",
-      "Socketed (4)"
-    ],
-    valueTier: "A",
-    rarityTier: "Very Rare",
-    obscurity: 3,
-    why: "The mercenary's dream polearm base. Fast, long reach, and the preferred home for Infinity, the runeword that strips lightning immunity for the whole party. Ethereal with four sockets is what people hunt, because a merc weapon never loses durability in their hands, so ethereal is free damage with no downside. It carries the highest total stat requirement of any base in the game, which is part of the mystique.",
-    history: null,
-    ifYouFind: "Ethereal, four sockets. That is the Infinity base, and it is worth far more than the polearm looks."
-  },
-  {
-    slug: "eth-thunder-maul",
-    name: "Thunder Maul",
-    alias: "eth Thunder Maul",
-    quality: "normal",
-    type: "",
-    sprite: "img/thunder-maul.png",
-    tooltip: [
-      { t: "Two-Hand Damage: 33 to 180", c: "white" },
-      { t: "Required Level: 65", c: "white" },
-      { t: "Required Strength: 253", c: "white" },
-      "Ethereal (Cannot be Repaired)",
-      "Socketed (4)"
-    ],
-    valueTier: "B",
-    rarityTier: "Rare",
-    obscurity: 3,
-    why: "The highest average base damage of any weapon in the game, and almost nobody uses it. The strength requirement is a wall, two hundred and fifty three, so it never fits a normal build. That is exactly why an ethereal one is a niche prize, for crushing blow smiters and the kind of dueler who builds around raw hit. Slow, brutal, and mostly forgotten.",
-    history: null,
-    ifYouFind: "Only worth it ethereal, and only to someone who can carry the strength. A specific buyer, but a real one."
-  },
-  {
-    slug: "grand-matron-bow",
-    grid: [2, 4],
-    name: "Grand Matron Bow",
-    alias: "Faith base",
-    quality: "normal",
-    type: "",
-    sprite: "img/grand-matron-bow.png",
-    fill: ["img/socketables/rune-ohm.png", "img/socketables/rune-jah.png", "img/socketables/rune-lem.png", "img/socketables/rune-eld.png"],
-    fillLabel: "fill for Faith",
-    fillName: "Faith",
-    fillTip: [
-      "Level 15 Fanaticism Aura When Equipped",
-      "+2 to All Skills",
-      "+330% Enhanced Damage",
-      "Ignore Target's Defense",
-      "300% Bonus to Attack Rating",
-      "+75% Damage to Undead",
-      "+120 Fire Damage",
-      "All Resistances +15",
-      "10% Reanimate as: Returned",
-      "75% Extra Gold from Monsters"
-    ],
-    tooltip: [
-      { t: "Two-Hand Damage: 14 to 72", c: "white" },
-      { t: "Required Level: 58", c: "white" },
-      { t: "Required Strength: 108", c: "white" },
-      { t: "Required Dexterity: 152", c: "white" },
-      "+3 to Bow and Crossbow Skills (Amazon Only)",
-      "Socketed (4)"
-    ],
-    valueTier: "A",
-    rarityTier: "Very Rare",
-    obscurity: 3,
-    why: "Every Grand Matron Bow spawns with a hidden bonus of one to three bow skills. Most roll a one. A three, on a bow that also has four sockets, is the perfect base for Faith, the runeword bowazons build around. The bow itself is common. That plus-three roll paired with max sockets almost never happens, and that is the entire value.",
-    history: null,
-    ifYouFind: "Read the bow skills line. Plus three and four sockets is the Faith base. Plus one is a leveling bow."
-  },
-  {
     slug: "tomb-reaver",
     name: "Tomb Reaver",
     alias: "3os Tomb Reaver",
@@ -907,6 +1150,7 @@ const ITEMS = [
   },
   {
     slug: "constricting-ring",
+    illicit: "Bugged",
     name: "Constricting Ring",
     alias: "the ring that never dropped",
     quality: "unique",
@@ -932,6 +1176,7 @@ const ITEMS = [
     title: "Occy Ring",
     alias: "bugged Stone of Jordan",
     quality: "unique",
+    illicit: "Bugged",
     type: "Ring",
     sprite: "img/uniques/stone-of-jordan.webp",
     tooltip: [
@@ -953,10 +1198,13 @@ const ITEMS = [
   },
   {
     slug: "bugged-tals",
+    grid: [2, 3],
+    sockets: 1,
     name: "Tal Rasha's Guardianship",
     title: "Bugged Tal Rasha's Guardianship",
     alias: "Btal",
     quality: "set",
+    illicit: "Bugged",
     type: "Lacquered Plate",
     sprite: "img/bugged-tals.png",
     tooltip: [

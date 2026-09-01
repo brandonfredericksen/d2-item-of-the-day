@@ -151,9 +151,10 @@ header{padding:34px 2px 4px;text-align:center}
 }
 /* empty sockets shown over the item as recessed holes; hold gems when filled */
 .sockets{
-  position:absolute;inset:0;display:grid;align-content:center;justify-content:center;
-  gap:4px;pointer-events:none;
+  position:absolute;inset:0;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:4px;pointer-events:none;
 }
+.socket-row{display:flex;justify-content:center;gap:4px}
 .socket{
   width:20px;height:20px;border-radius:50%;opacity:.68;
   background:radial-gradient(circle at 50% 35%, rgba(20,20,26,.5) 0%, rgba(0,0,0,.85) 68%);
@@ -261,6 +262,11 @@ header{padding:34px 2px 4px;text-align:center}
 .tag.era b{color:var(--text)}                     /* default era: neutral */
 .tag.era-classic{border-color:rgba(230,200,79,.4)}
 .tag.era-classic b{color:#e6c84f}                 /* classic: rare-yellow, the golden age of rares */
+/* contraband: items that cannot legitimately exist */
+.tag.illicit{border-color:rgba(214,69,69,.45);background:rgba(120,30,30,.14)}
+.tag.illicit b{color:#ff6b6b;letter-spacing:.09em;text-transform:uppercase;font-size:.9em}
+.tag.illicit-bugged{border-color:rgba(230,165,79,.45);background:rgba(120,80,20,.12)}
+.tag.illicit-bugged b{color:#e6a54f}              /* game-bug, not an external hack */
 
 .mismatch-note{
   font-size:.78rem;font-style:italic;color:var(--accent);opacity:.85;

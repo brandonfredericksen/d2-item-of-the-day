@@ -82,6 +82,11 @@
     { "name": "The Ethereal Socketing Bug (ebug)", "reason": "removed", "note": "Removed in D2R." },
     { "name": "Zod / Ethereal Indestructible Rule", "reason": "mechanic-not-item", "note": "Good teaching note for the eth entries." },
     { "name": "Bases that cannot be ethereal", "reason": "mechanic-not-item" },
-    { "name": "Circlet vs Coronet vs Tiara vs Diadem", "reason": "mechanic-not-item", "note": "Fold into the caster-circlet entry as the 'base decides the value' point." }
+    { "name": "Circlet vs Coronet vs Tiara vs Diadem", "reason": "mechanic-not-item", "note": "Fold into the caster-circlet entry as the 'base decides the value' point." },
+
+    { "name": "Ethereal Berserker Axe (plain, BotD base)", "reason": "user-flagged", "note": "User: 'basic bases like the Berserker Axe' do not make the cut. A plain white runeword base is too obvious; it would need superior mods (e.g. +15% ED) to earn a slot. Was live, cut in review." },
+    { "name": "Ethereal Giant Thresher (plain, Infinity base)", "reason": "user-flagged", "note": "Same call as the Berserker Axe. Plain white merc base, not enough on its own without a superior roll." },
+    { "name": "Ethereal Thunder Maul (plain)", "reason": "user-flagged", "note": "Same call. Plain white base, no surprise for a seasoned player." },
+    { "name": "Grand Matron Bow (plain, Faith base)", "reason": "user-flagged", "note": "Same call. Plain white runeword base, cut unless it carries superior mods." }
   ]
 }

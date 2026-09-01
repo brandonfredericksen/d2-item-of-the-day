@@ -44,6 +44,7 @@
       lastPatchMeaning: "This version no longer drops. It last existed in this patch, before a later patch changed or removed it.",
       eraLabel: "Era",
       eraMeaning: "The game this item mattered in. Classic is Diablo II before the Lord of Destruction expansion. Shown only when it is not the current game.",
+      illicitMeaning: "This item cannot exist legitimately. It was hacked or bugged into being, and circulated on Battle.net as contraband. Shown as history, not a drop you can chase.",
       aliasPrefix: "traders call it: ",
       archiveSummary: "Every item so far",
       nextItem: "Next item in {h}h {m}m {s}s",
@@ -243,17 +244,22 @@
 
     var socketsOverlay = "";
     if (count > 0) {
-      var cells = "";
-      for (var i = 0; i < count; i++) {
-        var gem = fill && fill[i] ? '<img class="socket-gem" src="' + esc(fill[i]) + '" alt="">' : "";
-        cells += '<span class="socket">' + gem + "</span>";
-      }
       // Columns follow the item's real inventory width. A single-column base
       // (an orb, a wand) stacks its sockets vertically; a two-wide base fills
-      // row by row, which matches how the game lays sockets into the grid.
+      // row by row. Each row is centered, so a lone leftover socket sits in the
+      // middle rather than off to one side, matching how the game draws them.
       var invW = (item.grid && item.grid[0]) ? item.grid[0] : Math.min(count, 2);
       var cols = Math.min(invW, count);
-      socketsOverlay = '<div class="sockets" style="grid-template-columns:repeat(' + cols + ',auto)" aria-hidden="true">' + cells + "</div>";
+      var rows = "";
+      for (var i = 0; i < count; i += cols) {
+        var rowCells = "";
+        for (var j = i; j < Math.min(i + cols, count); j++) {
+          var gem = fill && fill[j] ? '<img class="socket-gem" src="' + esc(fill[j]) + '" alt="">' : "";
+          rowCells += '<span class="socket">' + gem + "</span>";
+        }
+        rows += '<div class="socket-row">' + rowCells + "</div>";
+      }
+      socketsOverlay = '<div class="sockets" aria-hidden="true">' + rows + "</div>";
     }
 
     var label = t(item.fillLabel, lang) || "socket it";
@@ -285,6 +291,11 @@
         (item.lastPatch
           ? '<span class="tag legacy" title="' + esc(ui("lastPatchMeaning", lang)) + '">' +
               esc(ui("lastPatchLabel", lang)) + " <b>" + esc(t(item.lastPatch, lang)) + "</b>" +
+            "</span>"
+          : "") +
+        (item.illicit
+          ? '<span class="tag illicit illicit-' + esc(String(t(item.illicit, lang)).toLowerCase().replace(/[^a-z0-9]+/g, "-")) + '" title="' + esc(ui("illicitMeaning", lang)) + '">' +
+              "<b>" + esc(t(item.illicit, lang)) + "</b>" +
             "</span>"
           : "") +
       "</div>";
