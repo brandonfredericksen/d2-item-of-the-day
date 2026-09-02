@@ -48,7 +48,7 @@
   --bg:#0b0b0d;
   --bg-elev:#161619;
   --bg-elev-2:#1f1f25;
-  --bg-stage:#050506;
+  --bg-stage:#000;            /* a few sprites bake in pure black, so the plate matches */
   --text:#ececf1;
   --text-dim:#a2a2ad;
   --text-faint:#6d6d78;
@@ -58,7 +58,20 @@
   --border:#26262d;
   --border-lit:#37373f;
   --radius:14px;
-  --radius-sm:9px;
+  --radius-sm:8px;
+
+  /* spacing scale: every gap on the page is one of these */
+  --sp-1:4px;
+  --sp-2:8px;
+  --sp-3:12px;
+  --sp-4:16px;
+  --sp-5:24px;
+  --sp-6:32px;
+  --sp-7:40px;
+
+  /* one inventory cell. Every sprite is sized in cells, so a ring stays a
+     ring next to an armor. This is the only knob for item scale. */
+  --cell:48px;
 
   /* D2 item quality colors, exact */
   --q-unique:#c7b377;
@@ -93,7 +106,7 @@ body{
   -webkit-text-size-adjust:100%;
 }
 
-.wrap{max-width:680px;margin:0 auto;padding:0 16px 72px}
+.wrap{max-width:680px;margin:0 auto;padding:0 var(--sp-4) 72px}
 
 /* ---------- entrance animations ---------- */
 @keyframes reveal{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
@@ -111,7 +124,10 @@ body{
 }
 
 /* ---------- header: minimal, centered ---------- */
-header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--border);margin-bottom:12px}
+header{
+  padding:var(--sp-4) 2px;text-align:center;
+  border-bottom:1px solid var(--border);margin-bottom:var(--sp-5);
+}
 .brand{
   display:inline-block;
   font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
@@ -120,22 +136,22 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
 .brand-mark{color:#e03a33;font-weight:800}
 
 /* item title under the header: the plain identity of the day's item */
-.item-title{text-align:center;margin:22px 0 4px}
+.item-title{text-align:center;margin:0 0 var(--sp-5)}
 .item-title h1{
   margin:0;font-size:1.5rem;font-weight:800;letter-spacing:.03em;
   line-height:1.15;text-transform:uppercase;color:var(--text);
 }
 .item-sub{
-  margin-top:6px;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
+  margin-top:var(--sp-2);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;
   color:var(--text-faint);
 }
-.langbar{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-top:16px}
+.langbar{display:flex;flex-wrap:wrap;gap:var(--sp-2);justify-content:center;margin-top:var(--sp-4)}
 .langbar:empty{display:none}
 .langbtn{
   font-family:inherit;font-size:.72rem;
   background:var(--bg-elev);color:var(--text-dim);
   border:1px solid var(--border);border-radius:999px;
-  padding:6px 12px;cursor:pointer;transition:color .18s,border-color .18s,background .18s;
+  padding:var(--sp-2) var(--sp-3);cursor:pointer;transition:color .18s,border-color .18s,background .18s;
 }
 .langbtn:hover{color:var(--accent);border-color:var(--border-lit)}
 .langbtn.on{color:var(--bg);background:var(--accent);border-color:var(--accent);font-weight:700}
@@ -146,33 +162,43 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
   color:#cabf9f;
   font-size:1.06rem;
   line-height:1.72;
-  margin:0 auto 16px;
+  margin:0 auto var(--sp-4);
   max-width:56ch;
   text-align:center;
 }
-.flavor:first-of-type{margin-top:24px}
+/* the description group ends here, so step up to 32px before the find box */
+.flavor:last-of-type{margin-bottom:var(--sp-6)}
 
 /* ---------- banner ---------- */
 /* ---------- hero: the item, alone on its row ---------- */
 /* no outer card: the D2 tooltip sits directly on the page, like a screenshot */
-.item-head{margin:14px 0 2px}
-.tip-col{display:flex;flex-direction:column;align-items:center;gap:16px}
+.item-head{margin:0 0 var(--sp-6)}
+.tip-col{display:flex;flex-direction:column;align-items:center;gap:var(--sp-4)}
 
 /* the "in-game stage": dark vignette the item sits on, like a screenshot */
-.sprite{display:flex;flex-direction:column;align-items:center;gap:9px;margin-top:2px}
-.sprite-stage{position:relative;display:inline-flex;align-items:center;justify-content:center}
+.sprite{display:flex;flex-direction:column;align-items:center;gap:var(--sp-2)}
+.sprite-stage{
+  position:relative;display:flex;align-items:center;justify-content:center;
+  box-sizing:content-box;                      /* the size below is the plate content */
+  width:calc(var(--cell) * var(--cw, 2));      /* the plate is the item footprint */
+  height:calc(var(--cell) * var(--ch, 3));
+  padding:var(--sp-2);
+  background:var(--bg-stage);
+  border:1px solid var(--border);border-radius:var(--radius-sm);
+}
 .sprite-base{
-  max-width:72px;max-height:72px;display:block;image-rendering:pixelated;
+  /* fills the footprint the stage sets, aspect kept */
+  width:100%;height:100%;object-fit:contain;display:block;
   filter:drop-shadow(0 2px 6px rgba(0,0,0,.55));transition:opacity .2s ease;
 }
 /* empty sockets shown over the item as recessed holes; hold gems when filled */
 .sockets{
   position:absolute;inset:0;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;gap:4px;pointer-events:none;
+  align-items:center;justify-content:center;gap:var(--sp-1);pointer-events:none;
 }
-.socket-row{display:flex;justify-content:center;gap:4px}
+.socket-row{display:flex;justify-content:center;gap:var(--sp-1)}
 .socket{
-  width:20px;height:20px;border-radius:50%;opacity:.68;
+  width:calc(var(--cell) * .62);height:calc(var(--cell) * .62);border-radius:50%;opacity:.68;
   background:radial-gradient(circle at 50% 35%, rgba(20,20,26,.5) 0%, rgba(0,0,0,.85) 68%);
   box-shadow:
     inset 0 2px 3px rgba(0,0,0,.95),
@@ -181,7 +207,7 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
     0 1px 1px rgba(255,255,255,.07);
   display:flex;align-items:center;justify-content:center;
 }
-.socket-gem{width:20px;height:20px;display:none;image-rendering:pixelated;filter:drop-shadow(0 1px 1px rgba(0,0,0,.85))}
+.socket-gem{width:calc(var(--cell) * .62);height:calc(var(--cell) * .62);display:none;filter:drop-shadow(0 1px 1px rgba(0,0,0,.85))}
 /* filled: gem sits in the socket at full strength, the rim still reads around it */
 .tip-col.show-fill .socket{
   opacity:1;
@@ -192,7 +218,7 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
 .sprite-toggle{
   font-family:inherit;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;
   color:var(--text-dim);background:var(--bg-elev-2);border:1px solid var(--border);
-  border-radius:999px;padding:5px 12px;cursor:pointer;
+  border-radius:999px;padding:var(--sp-2) var(--sp-3);cursor:pointer;
 }
 .sprite-toggle:hover{color:var(--text);border-color:var(--accent)}
 /* stats the socketables add, revealed only when filled */
@@ -226,7 +252,7 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
 }
 .tooltip{--qc:var(--q-normal)}
 .tooltip .t-type{color:var(--qc);opacity:.95}
-.tooltip .t-lines{margin-top:9px}
+.tooltip .t-lines{margin-top:var(--sp-2)}
 .tooltip .t-line{color:var(--q-prop)}           /* default: magic-property blue */
 .tooltip .t-line.t-white{color:#dedee4}          /* base stats, runes, required level */
 .tooltip .t-line.t-grey{color:#8a8a93}
@@ -236,7 +262,7 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
 /* trader nickname caption, deliberately outside and unlike the tooltip */
 .aka{
   font-size:.74rem;font-style:italic;color:var(--text-faint);
-  text-align:center;margin-top:-4px;
+  text-align:center;
 }
 
 /* name and base type both take the item's quality color, like in-game */
@@ -259,12 +285,12 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
 .q-normal .t-name{text-shadow:0 0 9px rgba(255,255,255,.16)}
 
 /* ---------- tier tags: understated supporting metadata ---------- */
-.tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.tags{display:flex;flex-wrap:wrap;gap:var(--sp-2);justify-content:center}
 .tag{
-  display:inline-flex;align-items:baseline;gap:7px;
+  display:inline-flex;align-items:baseline;gap:var(--sp-2);
   font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);
   background:var(--bg-elev-2);border:1px solid var(--border);border-radius:999px;
-  padding:5px 12px;cursor:default;
+  padding:var(--sp-2) var(--sp-3);cursor:default;
 }
 .tag b{font-weight:800;font-size:.8rem;letter-spacing:.01em;text-transform:none;color:var(--text)}
 /* rarity carries the only ramp on the row, so it stays the tag you read first */
@@ -295,31 +321,31 @@ header{padding:14px 2px 12px;text-align:center;border-bottom:1px solid var(--bor
 .tag.label-eth b{color:#b6c2d4;letter-spacing:.09em;text-transform:uppercase;font-size:.72rem}
 
 /* ---------- prose ---------- */
-section{margin-bottom:24px}
+section{margin:0 0 var(--sp-5)}
 h2{
   font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
-  color:var(--text-faint);margin:0 0 10px;
+  color:var(--text-faint);margin:0 0 var(--sp-2);
 }
-section p{margin:0 0 12px;font-size:1.02rem;color:#dcdce2}
+section p{margin:0 0 var(--sp-3);font-size:1.02rem;color:#dcdce2}
 section p:last-child{margin-bottom:0}
 
 .find{
   background:linear-gradient(180deg,var(--bg-elev),var(--bg));
   border:1px solid var(--border);border-left:3px solid var(--accent);
-  border-radius:var(--radius-sm);padding:15px 17px;
+  border-radius:var(--radius-sm);padding:var(--sp-4);
 }
 .find p{margin:0;font-size:1.02rem}
 /* proof: click to see the real in-game screenshot behind the card */
 .proof-link{
-  display:block;width:fit-content;margin:12px auto 0;
+  display:block;width:fit-content;margin:0 auto;
   font-family:inherit;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;
   color:var(--text-dim);background:var(--bg-elev-2);border:1px solid var(--border);
-  border-radius:999px;padding:5px 14px;cursor:pointer;
+  border-radius:999px;padding:var(--sp-2) var(--sp-3);cursor:pointer;
 }
 .proof-link:hover{color:var(--text);border-color:var(--accent)}
 .proof-modal{
   position:fixed;inset:0;z-index:100;display:none;
-  align-items:center;justify-content:center;padding:24px;
+  align-items:center;justify-content:center;padding:var(--sp-5);
   background:rgba(0,0,0,.88);cursor:zoom-out;
 }
 .proof-modal.open{display:flex}
@@ -329,24 +355,24 @@ section p:last-child{margin-bottom:0}
   border:1px solid var(--border);border-radius:8px;image-rendering:auto;
   box-shadow:0 10px 40px rgba(0,0,0,.6);
 }
-.uncertain{font-size:.82rem;color:var(--text-faint);font-style:italic;margin-top:12px}
+.uncertain{font-size:.82rem;color:var(--text-faint);font-style:italic;margin-top:var(--sp-3)}
 
 /* ---------- archive: Spotify-style list ---------- */
-details{border-top:1px solid var(--border);margin-top:8px}
+details{border-top:1px solid var(--border);margin-top:var(--sp-2)}
 summary{
-  cursor:pointer;padding:16px 2px;list-style:none;
+  cursor:pointer;padding:var(--sp-4) 2px;list-style:none;
   font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--text-dim);display:flex;align-items:center;gap:8px;
+  color:var(--text-dim);display:flex;align-items:center;gap:var(--sp-2);
 }
 summary::-webkit-details-marker{display:none}
 summary::after{content:"▾";color:var(--text-faint);font-size:.8rem}
 details[open] summary::after{content:"▴"}
 summary:hover{color:var(--accent)}
-.archive-list{list-style:none;margin:0;padding:0 0 8px}
+.archive-list{list-style:none;margin:0;padding:0 0 var(--sp-2)}
 .archive-list li{border-radius:var(--radius-sm)}
 .archive-list a{
-  display:flex;align-items:center;gap:12px;
-  padding:9px 10px;text-decoration:none;color:var(--text);font-size:.9rem;border-radius:8px;
+  display:flex;align-items:center;gap:var(--sp-3);
+  padding:var(--sp-2) var(--sp-3);text-decoration:none;color:var(--text);font-size:.9rem;border-radius:8px;
 }
 .archive-list a:hover{background:var(--bg-elev)}
 .archive-list .pip{
@@ -357,19 +383,19 @@ summary:hover{color:var(--accent)}
 .archive-list .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 footer{
-  margin-top:40px;padding-top:20px;border-top:1px solid var(--border);
+  margin-top:var(--sp-7);padding-top:var(--sp-5);border-top:1px solid var(--border);
   color:var(--text-faint);font-size:.74rem;
 }
-footer p{margin:0 0 6px}
+footer p{margin:0 0 var(--sp-2)}
 .foot-timer{
   color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;
-  font-size:.72rem;margin:0 0 12px;
+  font-size:.72rem;margin:0 0 var(--sp-3);
 }
 
 @media (min-width:640px){
-  .wrap{padding:0 24px 88px}
-  .item-head{margin:22px 0 2px}
-  .sprite-base{max-width:84px;max-height:84px}
+  .wrap{padding:0 var(--sp-5) 88px}
+  :root{--cell:64px}
+  .sprite-stage{padding:var(--sp-3)}
 }
 </style>
 </head>
