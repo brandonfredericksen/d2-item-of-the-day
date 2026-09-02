@@ -291,7 +291,7 @@ const ITEMS = [
     rarityTier: "Mythic",
     obscurity: 5,
     why: "A plain white ring with no name and no requirements, carrying the best absorb in the game three times over. Ninety six percent taken off fire, lightning and cold at once, with a hundred faster run and a hundred attack speed alongside. No legitimate ring rolls any of this. On the old realms a White Ring made a dueler nearly immune to elements, which is exactly why it was contraband gold.",
-    history: "The White Ring came off open Battle.net, where the client could build items with impossible stats. Import and dupe bugs carried it onto the closed realms where real trading happened, and for years it was one of the most coveted duel items nobody could legally own. Later patches purged it. It has no place in the loot table and never did.",
+    history: "The White Ring came off open Battle.net, where the client could build items with impossible stats. Import and dupe bugs carried it onto the closed realms where real trading happened, and for years it was one of the most coveted duel items nobody could legally own. In 2003 Blizzard's great purge caught up with it, closing tens of thousands of accounts and disabling their CD keys, wiping almost all of the bugged and hacked stock in a single sweep. The few White Rings still shown off are the ones that slipped the net. It has no place in the loot table and never did.",
     ifYouFind: "You cannot, not honestly. A no-requirement ring with triple absorb is a hacked item. Using one now gets an account banned, not rich."
   },
   {
@@ -1076,7 +1076,7 @@ const ITEMS = [
     rarityTier: "Mythic",
     obscurity: 3,
     why: "When duping crashed the Stone of Jordan, the economy needed a unit that was harder to inflate, and it landed on high runes. The Ber became the standard. It is rare, it is needed for the best runewords, and it is small enough to price anything against. For years gear was quoted in Bers and Jahs the way it was once quoted in SoJs.",
-    history: "Diablo 2's money kept dying and reincarnating. Gold was worthless, so players adopted the Stone of Jordan. Duping broke it, so the standard moved to high runes like Ber and Jah, compact and demanded by runewords. When those were duped too, trust in in-game items collapsed and the community moved its unit of account off the game entirely, into forum gold. Each currency fled to wherever the dupers could not reach.",
+    history: "Diablo 2's money kept dying and reincarnating. Gold was worthless, so players adopted the Stone of Jordan. Duping broke it, so the standard moved to high runes like Ber and Jah, compact and demanded by runewords. When those were duped too, trust in in-game items collapsed and the community moved its unit of account off the game entirely, into forum gold. Each currency fled to wherever the dupers could not reach. The pattern outlived the old game. When Diablo 2 Resurrected opened a fresh ladder in 2022, a duplication exploit flooded it with Bers, Jahs and Enigmas within weeks, and players filmed duped gear poofing out of their hands in real time. Twenty years apart, the same lesson: the money is only worth what the dupers have not yet reached.",
     ifYouFind: "The eight percent damage reduction is why it goes in armor, but that was never the point. For a long stretch the Ber was simply money, and the runeword use was the reason it held its worth."
   },
   {
@@ -1647,7 +1647,7 @@ const ITEMS = [
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The normal Tal Rasha's armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal's is the armor to beat.",
-    history: "Bugged items are real items that ended up better than the game ever intended, born in the same 1.08 to 1.10 window as the Occy Ring. The Btal is the most useful of them, which is why it still trades briskly on non-ladder. It cannot be made now. Every one in circulation is an old survivor, quietly duped along the way.",
+    history: "Bugged items are real items that ended up better than the game ever intended, born in the same 1.08 to 1.10 window as the Occy Ring. The Btal is the most useful of them, which is why it still trades briskly on non-ladder. It cannot be made now. Every one in circulation is an old survivor, quietly duped along the way, and that duping leaves a fingerprint. The game stamps every item with a hidden serial and periodically scans the realm for two that match, deleting the older of the pair. Duped copies have a habit of vanishing without warning when the scan catches up, so the one in your stash is only ever borrowed.",
     ifYouFind: "A Tal's armor with two skills and a socket is bugged. The normal one has neither. Non-ladder only."
   },
   {
