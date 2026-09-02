@@ -817,6 +817,52 @@ const ITEMS = [
     ifYouFind: "The twink market is where this lands. At low level the 08 version is a genuinely better ring, the only Bul-Kathos that pays its bonuses in full from the first level."
   },
   {
+    slug: "raven-spiral",
+    name: "Raven Spiral",
+    alias: "LLD twink ring",
+    quality: "rare",
+    type: "Ring",
+    sprite: "img/ring.png",
+    tooltip: [
+      { t: "Required Level: 14", c: "white" },
+      "+148 to Attack Rating",
+      "7% Mana Stolen per Hit",
+      "6% Life Stolen per Hit",
+      "+13 to Dexterity",
+      "All Resistances +16",
+      "+1 to Mana after each Kill"
+    ],
+    valueTier: "B",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A level fourteen ring that stacks what a low-level dueler cannot get anywhere else. Dual leech, a hundred and forty eight attack rating, thirteen dexterity and all resistances, all under a requirement a twink can wear. No unique ring at that level comes close, and the low-level dueling market pays for exactly this spread.",
+    history: null,
+    ifYouFind: "The value is the bracket, not the raw numbers. At level fourteen this covers leech, accuracy and resistance in one slot, a big chunk of a twink's shopping list on a single ring."
+  },
+  {
+    slug: "dread-grip",
+    name: "Dread Grip",
+    alias: "tri-res leech ring",
+    quality: "rare",
+    type: "Ring",
+    sprite: "img/ring.png",
+    tooltip: [
+      { t: "Required Level: 18", c: "white" },
+      "7% Mana Stolen per Hit",
+      "6% Life Stolen per Hit",
+      "Cold Resist +34%",
+      "Lightning Resist +29%",
+      "Fire Resist +32%",
+      "18% Better Chance of Getting Magic Items"
+    ],
+    valueTier: "B",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A rare ring that solves resistances and leech in one slot at a low requirement. Dual leech, thirty-plus in all three big resistances, and a slice of magic find, at level eighteen. Tri-res on a ring is a hard roll by itself, and pairing it with leech and magic find is a combination the game almost never hands out.",
+    history: null,
+    ifYouFind: "Tri-res is the hard part on any ring. Dual leech and magic find riding along at a level eighteen requirement is what pushes it into the dueling and magic-find twink markets."
+  },
+  {
     slug: "wisp-projector",
     name: "Wisp Projector",
     alias: "20/20 Wisp",
