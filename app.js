@@ -245,22 +245,32 @@
 
     var socketsOverlay = "";
     if (count > 0) {
-      // Columns follow the item's real inventory width. A single-column base
-      // (an orb, a wand) stacks its sockets vertically; a two-wide base fills
-      // row by row. Each row is centered, so a lone leftover socket sits in the
-      // middle rather than off to one side, matching how the game draws them.
-      var invW = (item.grid && item.grid[0]) ? item.grid[0] : Math.min(count, 2);
-      var cols = Math.min(invW, count);
-      var rows = "";
-      for (var i = 0; i < count; i += cols) {
+      // Sockets fill column-major, exactly like the game: straight down the
+      // item first, wrapping to a new column only when the height is full, with
+      // the column count capped by the item's inventory width. So a tall item
+      // with a few sockets runs them vertically (a 2-socket weapon is a column),
+      // while a 4-socket Monarch still reads 2x2 and a 3-socket Diadem 2-over-1.
+      var gridW = (item.grid && item.grid[0]) ? item.grid[0] : 2;
+      var gridH = (item.grid && item.grid[1]) ? item.grid[1] : 3;
+      var cols = Math.min(gridW, Math.max(1, Math.ceil(count / gridH)));
+      var rowCount = Math.ceil(count / cols);
+      var grid = [];
+      for (var r = 0; r < rowCount; r++) grid.push([]);
+      for (var i = 0; i < count; i++) {
+        grid[i % rowCount][Math.floor(i / rowCount)] = i; // column-major
+      }
+      var rowsHtml = "";
+      for (var r = 0; r < rowCount; r++) {
         var rowCells = "";
-        for (var j = i; j < Math.min(i + cols, count); j++) {
-          var gem = fill && fill[j] ? '<img class="socket-gem" src="' + esc(fill[j]) + '" alt="">' : "";
+        for (var c = 0; c < cols; c++) {
+          var idx = grid[r][c];
+          if (idx === undefined) continue;
+          var gem = fill && fill[idx] ? '<img class="socket-gem" src="' + esc(fill[idx]) + '" alt="">' : "";
           rowCells += '<span class="socket">' + gem + "</span>";
         }
-        rows += '<div class="socket-row">' + rowCells + "</div>";
+        if (rowCells) rowsHtml += '<div class="socket-row">' + rowCells + "</div>";
       }
-      socketsOverlay = '<div class="sockets" aria-hidden="true">' + rows + "</div>";
+      socketsOverlay = '<div class="sockets" aria-hidden="true">' + rowsHtml + "</div>";
     }
 
     var label = t(item.fillLabel, lang) || "socket it";
