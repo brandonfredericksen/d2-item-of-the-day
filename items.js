@@ -58,7 +58,11 @@
        note: "..." }                    hover text and may be left off.
    Kinds live in LABEL_KINDS in app.js:
      source   where it comes from, when it is not an ordinary drop
-     added    the patch it entered the game, the bookend to `lastPatch`
+     added    the patch the ITEM entered the game. Never put this on an entry
+              that has `lastPatch`. That field is scoped to the version on the
+              card, this one is scoped to the item, and side by side they read
+              as a lifespan. The legacy Torch is the trap: added 1.11, its 25%
+              version last seen 1.12, and the Torch still drops today.
      roll     how close this one is to the best its affixes can roll, for the
               common bases where the numbers are the entire item
      eth      ethereal, flag only. Use it when ethereal is the point of the
@@ -682,8 +686,7 @@ const ITEMS = [
     rarityTier: "Mythic",
     lastPatch: "1.12",
     labels: [
-      { k: "source", v: "Uber quest" },
-      { k: "added", v: "1.11" }
+      { k: "source", v: "Uber quest" }
     ],
     obscurity: 4,
     why: "Everyone knows the Hellfire Torch. Almost nobody has seen this one. The current Torch casts Firestorm five percent of the time. The old one cast it twenty-five. Five times the fire, on a charm that was already an endgame staple. It stopped dropping in this form, so every 25 percent Torch is a survivor from before the nerf.",

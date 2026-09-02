@@ -78,6 +78,11 @@ for(const it of ITEMS){
 }
 ok("every label is a known kind or a complete one-off"+(badLabel?" -> "+badLabel:""), !badLabel);
 ok("no item carries an empty labels array", ITEMS.every(i=>i.labels===undefined||i.labels.length>0));
+
+// `added` is scoped to the item, `lastPatch` to the version on the card.
+// Together they read as a lifespan and imply the item is gone. Never both.
+const scopeClash = ITEMS.filter(i=>i.lastPatch && (i.labels||[]).some(l=>l.k==="added")).map(i=>i.slug);
+ok("no entry pairs an added label with lastPatch"+(scopeClash.length?" -> "+scopeClash.join(", "):""), !scopeClash.length);
 ok("value tier is fully retired", ITEMS.every(i=>i.valueTier===undefined));
 
 console.log(fail? `\n${fail} FAILURE(S)` : "\nall passed");
