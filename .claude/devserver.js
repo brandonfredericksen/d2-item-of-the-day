@@ -6,7 +6,8 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT = path.resolve(__dirname, "..");
-const PORT = 4173;
+/* Honor PORT so two worktrees can preview at once. 4173 is the default. */
+const PORT = Number(process.env.PORT) || 4173;
 
 const TYPES = {
   ".html": "text/html; charset=utf-8",

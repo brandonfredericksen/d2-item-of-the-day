@@ -8,7 +8,9 @@ Live at [d2itemoftheday.com](https://d2itemoftheday.com).
 
 Most value guides cover the obvious chase items. This one does not. It shows the pieces even a seasoned player might not know are valuable: magic bases where the roll is the whole value, edge-case uniques where a perfect roll is a different item entirely, bracket-specific dueling gear, and items that changed the game's history. The bar is museum-level, not shopping-list.
 
-Each item shows a value tier and a rarity tier. Both are eyeballed guesses against a mature ladder season, never a price check. Rarity means how often you actually see one around, not just its drop rate. Some items are rare because nobody keeps them.
+Each item shows a rarity tier, eyeballed against a mature ladder season. Rarity means how often you actually see one around, not just its drop rate. Some items are rare because nobody keeps them. The site does not price anything.
+
+Past that, an item only carries a tag when there is something to say. The era it mattered in, the last patch it existed in, whether it is contraband, where it comes from if it does not simply drop.
 
 Miss a day and it is gone until it comes back around. That is the point.
 

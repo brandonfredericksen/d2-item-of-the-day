@@ -5,7 +5,8 @@
       "name": "d2-iotd",
       "runtimeExecutable": "node",
       "runtimeArgs": [".claude/devserver.js"],
-      "port": 4173
+      "port": 4173,
+      "autoPort": true
     }
   ]
 }

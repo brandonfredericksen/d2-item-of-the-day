@@ -21,8 +21,8 @@
      "a plain string"                 English only, the normal case
      { en: "...", de: "..." }         per-language, English is the fallback
    A missing language falls back to English, so partial translations are
-   safe. Universal fields stay plain: slug, quality, sprite, valueTier,
-   rarityTier, obscurity. Optional `title` overrides the on-page H1 shown
+   safe. Universal fields stay plain: slug, quality, sprite, rarityTier,
+   obscurity. Optional `title` overrides the on-page H1 shown
    under the header; use it when the in-game tooltip name would mislead
    (the Occy Ring displays in game as a Stone of Jordan). It defaults to
    `name`. The `alias` renders as a small subtitle beneath the title.
@@ -47,6 +47,26 @@
    so the tag stays meaningful. Optional `lastPatch` (e.g. "1.09") marks an item
    whose shown version no longer drops; it renders as a "Last seen" tag
    beside the tiers. Use it for legacy / pre-nerf entries.
+   Optional `labels` is the free slot: an array of extra tags for whatever is
+   worth calling out about this one item, rendered after the fixed tags. Two
+   forms, and both `v` and any prose in them localize like everything else:
+     { k: "source", v: "Uber quest" }   a known kind. `k` supplies the label
+                                        text and the hover note.
+     { k: "eth" }                       a flag kind. It is the whole tag, so it
+                                        takes no value at all.
+     { l: "Console", v: "PS2 only",     a one-off. `l` is the label, `note` the
+       note: "..." }                    hover text and may be left off.
+   Kinds live in LABEL_KINDS in app.js:
+     source   where it comes from, when it is not an ordinary drop
+     added    the patch it entered the game, the bookend to `lastPatch`
+     roll     how close this one is to the best its affixes can roll, for the
+              common bases where the numbers are the entire item
+     eth      ethereal, flag only. Use it when ethereal is the point of the
+              entry, not when the item merely happens to be ethereal.
+   A `roll` value should restate what the prose already claims. If the why does
+   not say the item is maxed, do not put "Perfect" on it.
+   Add a kind only when the same call-out keeps recurring; one-offs stay inline.
+   Leave `labels` off entirely when the item has nothing extra to say.
    Optional `illicit` marks contraband that cannot legitimately exist. Set it to
    "Hacked" (an external item-editing hack, renders a red tag) or "Bugged" (an
    in-game glitch like the ethereal-socket defense bug, renders an amber tag).
@@ -97,7 +117,6 @@ const ITEMS = [
       "20% Increased Chance of Blocking",
       "Socketed (4)"
     ],
-    valueTier: "S",
     rarityTier: "Very Rare",
     obscurity: 3,
     why: "A blue shield that trades for a dozen high runes. It is not a runeword base, it is better than one. Four sockets, thirty faster block, twenty increased block, all on a light shield anyone can carry. You fill the sockets yourself, usually with Rainbow Facets, and get a max-block shield tuned to your build that no plain runeword can match. Lightning javazons in particular hunt these. It looks like vendor trash and gambles for a fortune.",
@@ -124,7 +143,6 @@ const ITEMS = [
       "Slain Monsters Rest in Peace",
       "Indestructible"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     obscurity: 2,
     why: "The rarest item in the game. Not one of the rarest. By the drop numbers, the single hardest thing to see. It is a good armor too, with no strength requirement and a wall of resistances, but it is not Enigma and never was. People want it because almost nobody has one.",
@@ -145,7 +163,6 @@ const ITEMS = [
       "+20 to Mana",
       "Increase Maximum Mana 25%"
     ],
-    valueTier: "D",
     rarityTier: "Common",
     obscurity: 2,
     why: "A ring with plus one to all skills and some mana. Common, and cheap on a mature ladder. New characters still run one for the early skill boost.",
@@ -179,7 +196,6 @@ const ITEMS = [
       "Ethereal (Cannot be Repaired)",
       "Socketed (2)"
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 4,
     why: "Every line here is legitimate, and that is the point. A rare that rolled near the ceiling on everything at once: two hundred ninety one enhanced damage just under the cap, forty attack speed, forty deadly strike from the two Lo runes, all on an ethereal fast mace. Nothing unique or runeword beats it for a straight melee build. The odds of the game rolling one item this well are almost none, which is why it became the most famous rare in the game.",
@@ -204,7 +220,6 @@ const ITEMS = [
       "+12 Mana after each Kill",
       "+50% Damage to Undead"
     ],
-    valueTier: "S",
     rarityTier: "Very Rare",
     obscurity: 3,
     why: "The poison necromancer's endgame wand, and the reason the build works at the top level. Minus enemy poison resistance is the whole point, and this rolls to minus fifty. Add two skills and two to poison and bone on top. There is no substitute. If you play poison necro seriously, you own one or you are working toward it.",
@@ -228,7 +243,6 @@ const ITEMS = [
       "+69 to Mana",
       "All Resistances +23"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A rare amulet that quietly beats the famous unique ones. Two sorceress skills and twenty faster cast rate, then life, strength and all resistances piled on top. Mara's gets the attention. An amulet like this does more for a caster, and it comes with no gold name to tip you off. The random title is doing a lot of work to hide how good it is.",
@@ -264,7 +278,6 @@ const ITEMS = [
       "Lightning Resist +40%",
       "Socketed (2)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, maxed lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.",
@@ -290,7 +303,6 @@ const ITEMS = [
       "Lightning Absorb 96%",
       "Cold Absorb 96%"
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "A plain white ring with no name and no requirements, carrying the best absorb in the game three times over. Ninety six percent taken off fire, lightning and cold at once, with a hundred faster run and a hundred attack speed alongside. No legitimate ring rolls any of this. On the old realms a White Ring made a dueler nearly immune to elements, which is exactly why it was contraband gold.",
@@ -329,7 +341,6 @@ const ITEMS = [
       "All Resistances +76",
       { t: "Ethereal (Cannot be Repaired), Socketed (6)", c: "grey" }
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "Count how many of these lines cannot exist. Two to all skills, four hundred eighty enhanced damage, seventy six to all resistance, ethereal and indestructible together, and six sockets carrying four Ohm runes and two rainbow facets, all on a plain axe. No legitimate item rolls half of it. Ith is the fingerprint of the old item hack, one impossible stat block stamped onto whatever base the editor felt like.",
@@ -359,7 +370,6 @@ const ITEMS = [
       "+90 to Vitality",
       "All Resistances +100"
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "A plain white pair of gloves, no name, no prefix, wearing stats the slot cannot hold. A hundred attack speed and a hundred hit recovery, ninety dexterity, ninety vitality, a full hundred to every resistance, and a weapon's damage roll bolted on. Hold each line against what gloves actually roll and every one is over the ceiling. It is the White Ring's edit on a different slot.",
@@ -383,7 +393,6 @@ const ITEMS = [
       "+90 to Dexterity",
       "+90 to Vitality"
     ],
-    valueTier: "A",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "A small charm gives one small bonus. This one gives ninety strength, ninety dexterity and ninety vitality out of a single inventory square. The name is a real magic charm's, with numbers no charm can roll bolted underneath. A row of these turned any character into something the game was never built to allow.",
@@ -414,7 +423,6 @@ const ITEMS = [
       "Requirements -20%",
       "Socketed (2)"
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "The bow people still ask about. A rare Matriarchal Bow, self found and self upped from an Ashwood, socketed with two forty-fifteen jewels, the best jewels in the game. A bow skill, fifty attack speed, and an enhanced-damage number that reads like a typo, all under a yellow name. Its owner sold it to a private buyer off-site years ago and has not seen it since. Faith, the runeword everyone points to, is a newspawn's eyecandy next to it.",
@@ -442,7 +450,6 @@ const ITEMS = [
       "+18 to Maximum Damage",
       "Increased Attack Speed"
     ],
-    valueTier: "C",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A yellow bow with a random name, and in classic Diablo 2 that was the dream. Before runewords, before Windforce, a rolled rare like this was the bowazon endgame. A class skill on a bow you can hold at level 26, very fast attack speed, a stack of attack rating and max damage. The name means nothing. The game bolts two words together at random. The rolls are everything, and rolls like these almost never landed.",
@@ -478,7 +485,6 @@ const ITEMS = [
       "+8 Magic Absorb",
       "Increase Maximum Durability 15%"
     ],
-    valueTier: "A",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "It borrows a real runeword's name and none of its stats. Phoenix is Vex Vex Lo Jah, and a real one carries a Redemption aura, minus enemy fire resistance and a wall of fire damage. This one has two to all skills, thirty five faster cast and sixty five faster hit recovery instead, a blend no runeword produces. It is a hacked item hiding behind a legitimate name, built to pass as the real thing.",
@@ -508,7 +514,6 @@ const ITEMS = [
       "Fire Resist +35%",
       "Poison Resist +22%"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "Boots are a run-speed slot. This pair, off patch 1.06, also carries faster hit recovery, a mod that lives on armor and helms and never rolls on feet today. Stack eighteen strength and three resistances on top and it is doing four jobs at once. The faster hit recovery is the tell. It dates the boots to early Classic, where the affix tables let a roll like this through.",
@@ -534,7 +539,6 @@ const ITEMS = [
       "Magic Damage Reduced by 1",
       "+4 to Light Radius"
     ],
-    valueTier: "D",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "A level twenty-two unique nobody stops for, and one of the only body armors in the game that freezes what you hit. A frozen enemy cannot attack, so a melee twink or an Act 2 merc wearing this walks through Normal untouched. Anything killed while frozen shatters and leaves no corpse, which quietly denies the other side every corpse it wanted. It costs a chipped gem and does something almost nothing else can.",
@@ -560,7 +564,6 @@ const ITEMS = [
       "3% Life Stolen per Hit",
       "+13% Enhanced Defense"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "Gloves are an afterthought slot, which is exactly why this pair hides. Two to the whole javelin and spear tree, then twenty attack speed and a maxed three and three life and mana leech on top. A javazon gets a skill level here that no unique glove can offer, the leech to stay alive, and the speed to throw faster. It reads as a junk yellow. It is a build-defining glove for the right amazon.",
@@ -599,7 +602,6 @@ const ITEMS = [
       "Ethereal (Cannot be Repaired)",
       "Socketed (1)"
     ],
-    valueTier: "A",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "A normal Arreat's Face cannot be indestructible, and cannot show six hundred defense. This one is both. It is an ethereal Arreat's that a Zod rune locked permanently indestructible, keeping the ethereal defense bonus with no durability left to lose, and the defense was doubled again by the old ethereal socketing bug. The current game cannot produce it: eternal, ethereal, and armored past its own ceiling.",
@@ -628,7 +630,6 @@ const ITEMS = [
       "+35 to Dexterity",
       "Knockback"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     obscurity: 4,
     why: "Windforce is the bow every bowazon wanted, the two-hander with the highest maximum damage in the game and a knockback that kept everything off you. This is the version that stopped dropping in 2001. Today's Windforce rolls five dexterity. This one rolls thirty five. Thirty extra dexterity is free attack rating and block that no modern copy can reach, on the best bow base there is.",
@@ -655,7 +656,6 @@ const ITEMS = [
       "+198 to Life (Based on Character Level)",
       "Fire Resist +50%"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     lastPatch: "1.09",
     obscurity: 4,
@@ -679,9 +679,12 @@ const ITEMS = [
       "+8 to Light Radius",
       "Level 30 Hydra (10 Charges)"
     ],
-    valueTier: "A",
     rarityTier: "Mythic",
     lastPatch: "1.12",
+    labels: [
+      { k: "source", v: "Uber quest" },
+      { k: "added", v: "1.11" }
+    ],
     obscurity: 4,
     why: "Everyone knows the Hellfire Torch. Almost nobody has seen this one. The current Torch casts Firestorm five percent of the time. The old one cast it twenty-five. Five times the fire, on a charm that was already an endgame staple. It stopped dropping in this form, so every 25 percent Torch is a survivor from before the nerf.",
     history: "The Torch came from the Pandemonium Event added in patch 1.11, and for its first years it cast Firestorm on a quarter of your hits. That was a wall of free fire on a charm people fought the Ubers to earn. Patch 1.13 cut it to five percent. The old copies kept their twenty-five, so the legacy Torch became a collector's version of an item almost everyone already owns.",
@@ -703,7 +706,6 @@ const ITEMS = [
       "Lightning Resist +35%",
       "Attacker Takes Lightning Damage of 15"
     ],
-    valueTier: "C",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "The Highlord's Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has none of that. In its first year it carried thirty percent faster run and walk and no deadly strike at all, a completely different amulet wearing the same name. It is weaker by every practical measure, which is exactly why the 08 version is a collector's oddity rather than a chase.",
@@ -728,7 +730,6 @@ const ITEMS = [
       "+15 to Strength",
       "-3 to Light Radius"
     ],
-    valueTier: "C",
     rarityTier: "Very Rare",
     lastPatch: "1.09",
     obscurity: 5,
@@ -755,7 +756,6 @@ const ITEMS = [
       "Socketed (2)",
       "Indestructible"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 2,
     why: "Everyone knows the helm. Almost nobody prices the roll. A plain Crown of Ages is a fine helmet. This one has two sockets, fifteen percent physical damage reduction, and thirty all resistance, the top of every line it can roll. That stack is worth many times a low one. Same gold name, a completely different item, and the difference is invisible unless you read the numbers.",
@@ -786,7 +786,6 @@ const ITEMS = [
       "Replenishes Quantity",
       "Ethereal (Cannot be Repaired)"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "Throwing builds live and die on their weapon, and this rare beats the uniques. Three hundred enhanced damage is the most a rolled weapon can reach, and on a javelin that is more raw damage than the named throwers carry. It is ethereal, so the base climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.",
@@ -815,7 +814,6 @@ const ITEMS = [
       "Lightning Resist +32%",
       "Socketed (1)"
     ],
-    valueTier: "C",
     rarityTier: "Very Rare",
     obscurity: 3,
     why: "A rare helm that quietly covers four needs at once. Twenty faster hit recovery, eighty eight life, two resistances, and an open socket, all on a Bone Helm a caster or hybrid can wear. No single line screams, which is why it gets scrolled past, but the sum holds its own against the uniques in the slot, and the socket lets you tune it further.",
@@ -843,7 +841,6 @@ const ITEMS = [
       "Poison Length Reduced by 75%",
       "Socketed (2)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The assassin's dream circlet. Two to all assassin skills, thirty faster run, thirty attack speed, twenty faster cast, and two open sockets, all on the best caster-helm base in the game. A rare circlet is the only helm that stacks a class-skill bonus with three separate kinds of speed and sockets to spare, and no unique assassin helm comes near it.",
@@ -871,7 +868,6 @@ const ITEMS = [
       "Fire Resist +17%",
       "Poison Resist +17%"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The best caster helm for a druid is often not a unique but a rare circlet like this. Two to all druid skills and twenty faster cast are the two lines every caster hunts, and here they arrive with run speed, dexterity and all four resistances on one Tiara. No unique druid helm matches the spread. A random yellow name hiding one of the best helms a storm or fire druid can wear.",
@@ -894,7 +890,6 @@ const ITEMS = [
       "4% Life Stolen per Hit",
       "+50 Maximum Stamina"
     ],
-    valueTier: "C",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "The Bul-Kathos ring is famous for one line, plus one to all skills. The other two are what changed. Today its life and its leech scale with your level, starting near nothing. In patch 1.08 the ring gave a flat twenty life and a fixed four percent leech at any level, which made it a real ring for a low-level character where the modern one gives almost nothing.",
@@ -917,7 +912,6 @@ const ITEMS = [
       "+15 to Dexterity",
       "+59 to Life"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The melee answer to the caster's dream ring. It rolls the exact five lines a physical build wants, attack rating, life steal, strength, dexterity and life, all high, on one ring. The famous unique rings give a skill or an aura. For a pure melee character this stat block does more, and it wears no gold name to tip anyone off.",
@@ -941,7 +935,6 @@ const ITEMS = [
       "Lightning Resist +16%",
       "Fire Resist +30%"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The caster's rare ring. Ten faster cast is the ceiling a ring can roll, and casters build their whole gear around cast breakpoints, so a ring that maxes it while also handing over forty life, sixteen strength and three resistances is a quiet endgame piece. The famous caster rings give a skill. This gives the breakpoint and the survivability a skill ring cannot.",
@@ -965,7 +958,6 @@ const ITEMS = [
       "All Resistances +16",
       "+1 to Mana after each Kill"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A level fourteen ring that stacks what a low-level dueler cannot get anywhere else. Dual leech, a hundred and forty eight attack rating, thirteen dexterity and all resistances, all under a requirement a twink can wear. No unique ring at that level comes close, and the low-level dueling market pays for exactly this spread.",
@@ -989,7 +981,6 @@ const ITEMS = [
       "Fire Resist +32%",
       "18% Better Chance of Getting Magic Items"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A rare ring that solves resistances and leech in one slot at a low requirement. Dual leech, thirty-plus in all three big resistances, and a slice of magic find, at level eighteen. Tri-res on a ring is a hard roll by itself, and pairing it with leech and magic find is a combination the game almost never hands out.",
@@ -1012,7 +1003,6 @@ const ITEMS = [
       "Level 5 Heart of Wolverine (13 Charges)",
       "Level 2 Oak Sage (15 Charges)"
     ],
-    valueTier: "A",
     rarityTier: "Rare",
     obscurity: 4,
     why: "Nobody looks twice at Wisp Projector. It reads like a novelty ring with a pile of charges. Then you notice the two lines that matter: lightning absorb up to twenty percent, and magic find up to twenty percent. Lightning is the deadliest damage in the game at the high end, so that absorb is worth real money, and the magic find rides along for free. The charges are a footnote. The two rolls are the item.",
@@ -1040,7 +1030,6 @@ const ITEMS = [
       "Lightning Resist +40%",
       "Fire Resist +40%"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The slot most players fill with a unique and forget. This rare does more. Thirty faster run and walk, forty lightning and forty fire, twenty life with a little replenish, and the part people forget boots can even roll: life steal. Speed, two big resists, life and leech in one slot almost never land together. The leech here is one percent. A perfect roll pushes it higher.",
@@ -1066,7 +1055,6 @@ const ITEMS = [
       "+Life (Based on Character Level)",
       "Half Freeze Duration"
     ],
-    valueTier: "D",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "Blackoak Shield is a solid block-rate shield, but its claim to fame is a line in a patch note. Its enhanced defense scales with your level, and for a while the game calculated that wrong. A copy from before patch 1.09 did not compute its own defense the way a modern one does, which makes it one of the few items whose bug is documented in Blizzard's own words.",
@@ -1095,7 +1083,6 @@ const ITEMS = [
       "+2 to Paladin Skill Levels",
       "+2 to Combat Skills (Paladin Only)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 3,
     why: "A Herald of Zakarum is a paladin staple, so people assume they are all the same. They are not. The enhanced defense rolls from a hundred and fifty to two hundred percent, and only a two hundred is worth chasing. Punch four sockets into that one and you have one of the best shields a paladin can hold. A low roll is a leveling shield. The gap between the two is enormous, and the tooltip barely hints at it.",
@@ -1122,8 +1109,10 @@ const ITEMS = [
       "50% Slower Stamina Drain",
       "Repairs 1 Durability in 20 Seconds"
     ],
-    valueTier: "B",
     rarityTier: "Rare",
+    labels: [
+      { k: "eth" }
+    ],
     obscurity: 3,
     why: "Treks are cheap. Everyone has a pair, which is exactly why the good ones hide in plain sight. The chase is an ethereal pair with maxed strength and vitality. Ethereal usually means an item wears out and dies, but Sandstorm Trek repairs itself, so the ethereal version keeps its boosted defense forever and never breaks. The same boots most players vendor, except this one is worth a pile of runes.",
     history: null,
@@ -1151,8 +1140,10 @@ const ITEMS = [
       "Replenishes Quantity (1 in 3 Seconds)",
       "+2 to Javelin and Spear Skills (Amazon Only)"
     ],
-    valueTier: "A",
     rarityTier: "Rare",
+    labels: [
+      { k: "eth" }
+    ],
     obscurity: 3,
     why: "A throwing javelin most people never think about twice. The trick is what happens when it is ethereal. Ethereal boosts the damage, and for a throwing weapon that depletes that would normally be a death sentence. Titan's Revenge replenishes its own stack, so an ethereal pair throws forever at boosted damage. Two amazon skills and thirty faster run ride along. It is the javazon's quiet grail, hiding as a common gold javelin.",
     history: null,
@@ -1182,7 +1173,6 @@ const ITEMS = [
       "+36 Defense",
       "Socketed (1)"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The Valkyrie Wing that drops today gives run speed and amazon skills. This one, from patch 1.08, gave every speed bonus in the game at once. Thirty faster run, thirty attack speed, thirty faster cast, thirty faster hit recovery, all on one helm any class could wear. Nothing since has stacked four speed mods on a single item. It was too good, so it was rewritten.",
@@ -1212,7 +1202,6 @@ const ITEMS = [
       "+20 to Dexterity",
       "Indestructible"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     obscurity: 4,
     why: "The Grandfather is a pure damage sword today. This one, from patch 1.08, was a fortress. It carried a hundred and seventy five flat life and raised your maximum life and mana by a quarter each, on top of the damage. No Grandfather made after 2001 has the maximum-life or maximum-mana lines at all. Same gold name, a completely different weapon underneath.",
@@ -1236,7 +1225,6 @@ const ITEMS = [
       "8% Mana Stolen per Hit",
       "15% Slower Stamina Drain"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     lastPatch: "1.08",
     obscurity: 4,
@@ -1256,8 +1244,10 @@ const ITEMS = [
       "+5 to All Resistances",
       "+20 to Life"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
+    labels: [
+      { k: "roll", v: "Perfect" }
+    ],
     obscurity: 3,
     why: "A small charm takes one inventory square. This one gives five all resistance and twenty life for that square, both maxed. It is the best defensive small charm in the game, and players hoard whole rows of them. A perfect one costs more than plenty of uniques. Most people who find a near miss never notice how far off max it is.",
     history: null,
@@ -1277,8 +1267,10 @@ const ITEMS = [
       "+20 to Attack Rating",
       "+20 to Life"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
+    labels: [
+      { k: "roll", v: "Perfect" }
+    ],
     obscurity: 2,
     why: "The melee version of the perfect small charm. Three maximum damage, twenty attack rating, twenty life, all maxed, in one square. Physical builds fill their inventory with these. The roll has to hit all three ceilings at once, which almost never happens, and that is what you pay for.",
     history: null,
@@ -1296,8 +1288,10 @@ const ITEMS = [
       "+1 to Javelin and Spear Skills (Amazon Only)",
       "+45 to Life"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
+    labels: [
+      { k: "roll", v: "Near-perfect" }
+    ],
     obscurity: 3,
     why: "A grand charm that adds a whole skill level to one of your trees is already worth keeping. One that also rolls near-max life is an endgame item. Javazons, casters and warcry barbarians build their whole inventory out of these. The skill is the base value. The life roll on top is what turns a common skiller into an expensive one.",
     history: null,
@@ -1315,7 +1309,6 @@ const ITEMS = [
       "Weapons: 20% Chance of Crushing Blow",
       "Armor, Helms, Shields: Damage Reduced by 8%"
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 3,
     why: "When duping crashed the Stone of Jordan, the economy needed a unit that was harder to inflate, and it landed on high runes. The Ber became the standard. It is rare, it is needed for the best runewords, and it is small enough to price anything against. For years gear was quoted in Bers and Jahs the way it was once quoted in SoJs.",
@@ -1333,8 +1326,10 @@ const ITEMS = [
       "+40% Enhanced Damage",
       "+15% Increased Attack Speed"
     ],
-    valueTier: "S",
     rarityTier: "Very Rare",
+    labels: [
+      { k: "roll", v: "Perfect" }
+    ],
     obscurity: 3,
     why: "One jewel. Forty percent enhanced damage and fifteen percent increased attack speed, both maxed. It is the single most valuable jewel in the game, and it trades in the high rune range, Ber to Jah. A whole endgame rune for one socketable. Almost every jewel is filler. This exact roll is a small fortune, and two lines are all that separate them.",
     history: null,
@@ -1354,7 +1349,6 @@ const ITEMS = [
       "+5% to Cold Skill Damage",
       "-5% to Enemy Cold Resistance"
     ],
-    valueTier: "A",
     rarityTier: "Rare",
     obscurity: 3,
     why: "A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.",
@@ -1378,7 +1372,6 @@ const ITEMS = [
       "Half Freeze Duration",
       "Poison Length Reduced by 75%"
     ],
-    valueTier: "D",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "Four cheap set pieces, a crown, an amulet, a belt and a pair of gloves, all usable at level fifteen. In classic Diablo 2 that combination was a staple, because resistances were scarce and this stacked twenty all resistance, run speed, dexterity and freeze protection onto low-requirement gear anyone could wear. It looks like leveling filler and was a genuine resist answer for a whole era.",
@@ -1398,7 +1391,6 @@ const ITEMS = [
       "+20 to Life",
       "Replenish Life +6"
     ],
-    valueTier: "A",
     rarityTier: "Uncommon",
     obscurity: 2,
     why: "A seasoned player sees a set ring and amulet and moves on. That is the mistake. Worn together, the ring grants twelve attack rating for every character level. At level thirty that is hundreds of attack rating, more than a low-level character could ever get another way, and it makes a twink hit things it has no business hitting. The pieces are cheap. Knowing to pair them is the whole value.",
@@ -1431,7 +1423,6 @@ const ITEMS = [
       "6% Mana Stolen per Hit",
       "Socketed (1)"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The required level thirty is the whole point. This is a level thirty dueling bow, and in that bracket a rare like this is a bowazon's endgame. Two amazon skills, twenty attack speed, a hundred and fifty nine enhanced damage and a socket, all under the level cap that defines the market. PvM players never see this economy. Inside it, a bow like this trades for real currency.",
@@ -1454,7 +1445,6 @@ const ITEMS = [
       "+40 to Life",
       "+5 to Minimum Damage"
     ],
-    valueTier: "A",
     rarityTier: "Rare",
     obscurity: 3,
     why: "Level nine gloves. A player rushing to endgame vendors them without a glance. In the low-level dueling bracket they are a staple, because forty life, ten attack speed and thirty faster hit recovery at that level requirement is enormous. A perfect pair with max enhanced defense trades for real currency inside that market.",
@@ -1485,7 +1475,6 @@ const ITEMS = [
       "+376% Enhanced Damage",
       "Socketed (2)"
     ],
-    valueTier: "A",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "It calls itself a magic bow, but a magic item gets one prefix and one suffix, two lines at most. This has a curse on striking, a class skill, thirty attack speed and three hundred seventy six enhanced damage all at once. That is several affixes too many. It is a hacked bow wearing a legal-looking blue name, which is what made this kind so hard to catch in a trade window.",
@@ -1513,7 +1502,6 @@ const ITEMS = [
       "Lightning Resist +23%",
       "Fire Resist +23%"
     ],
-    valueTier: "A",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "An amulet can grant skills to one class. This one grants two, plus two necromancer and plus two sorceress on the same neck, with cast rate and resists piled on. No random roll produces class bonuses for two classes at once. It reads as an ordinary godly rare until you notice it is helping two characters who could never both wear it.",
@@ -1542,7 +1530,6 @@ const ITEMS = [
       "Adds 48-75 Fire Damage",
       "+5 to Light Radius"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "Four hundred thirty five percent enhanced damage on a bow that calls itself rare. The highest a single legitimate roll reaches is three hundred, and it cannot pair that with this many other lines. The numbers sit just past what the game allows, which is the signature of an item edited to look like a lucky drop instead of an obvious fake.",
@@ -1573,7 +1560,6 @@ const ITEMS = [
       "Ethereal (Cannot be Repaired)",
       "Socketed (1)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "Shaftstop is a beginner's armor. This one shows two thousand four hundred defense, roughly triple what the item can legitimately reach. It is the ethereal socketing bug: cube a socket into an ethereal armor and the game applies the ethereal defense bonus a second time, stacking a number the math never allows. Same gold name, an armor from a different reality.",
@@ -1602,7 +1588,6 @@ const ITEMS = [
       "6% Life Stolen per Hit",
       "+50% Damage to Undead"
     ],
-    valueTier: "D",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A classic rare mace, and in classic Diablo 2 a rolled rare like this was the melee endgame. Nearly two hundred enhanced damage, twenty maximum damage, two hundred attack rating, life steal and bonus undead damage, all on one Martel de Fer with no runeword or elite unique to outclass it. In hardcore classic, where survivability came from the leech line, this was the mace people built around.",
@@ -1627,7 +1612,6 @@ const ITEMS = [
       "Cold Resist +30%",
       "Fire Resist +30%"
     ],
-    valueTier: "D",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "In classic Diablo 2 there were no runewords and no elite uniques, so the top of the melee ladder was a normal-tier unique like this. Bonesnap swings for up to three hundred percent enhanced damage with forty percent crushing blow, which tears a chunk off any target's current life no matter how much it has. At a level twenty four requirement, cubed up for more base damage, it was the weapon a classic barbarian actually wanted.",
@@ -1651,7 +1635,6 @@ const ITEMS = [
       "+10 to Strength",
       "+10 to Dexterity"
     ],
-    valueTier: "B",
     rarityTier: "Uncommon",
     obscurity: 2,
     why: "Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.",
@@ -1681,7 +1664,6 @@ const ITEMS = [
       "Requirements -40%",
       "Socketed (1)"
     ],
-    valueTier: "D",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "In classic Diablo 2, before runewords and before elite armor existed, a rolled rare body like this was the top of the armor ladder. Nearly nine hundred defense, faster hit recovery, life, mana, resistance and a socket, all on one Ornate Plate. Classic rares stacked combinations Lord of Destruction later reined in, and a body armor carrying an attack-rating line is one of them.",
@@ -1705,7 +1687,6 @@ const ITEMS = [
       "5% Mana Stolen per Hit",
       "+2 to Light Radius"
     ],
-    valueTier: "D",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "Plus one to all skills on a body armor sounds ordinary now. In classic Diablo 2 it was a grail. There was no Enigma, no Vipermagi, no Spirit Shroud, and almost nothing gave skills. A caster who wanted a skill level on the chest slot had this and little else, which is exactly why a plain unique Ancient Armor was the best caster body in the game for a stretch.",
@@ -1729,7 +1710,6 @@ const ITEMS = [
       "All Resistances +10",
       "+50 to Mana"
     ],
-    valueTier: "B",
     rarityTier: "Uncommon",
     obscurity: 3,
     why: "The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.",
@@ -1754,7 +1734,6 @@ const ITEMS = [
       "+2 to Light Radius",
       "Attacker Takes Damage of 10"
     ],
-    valueTier: "D",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "Everyone remembers Goldskin as the joke armor that doubles your gold. Read the other line. In classic Diablo 2, before resistance gear was everywhere, a fixed thirty five to all resistances on the chest slot was a real answer to Hell's resistance penalties. The gold even mattered when it funded your gambling and repairs. A novelty today, a tank's staple then.",
@@ -1776,7 +1755,6 @@ const ITEMS = [
       "All Resistances +15",
       "Poison Resist +50%"
     ],
-    valueTier: "B",
     rarityTier: "Uncommon",
     obscurity: 3,
     why: "Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.",
@@ -1795,8 +1773,10 @@ const ITEMS = [
       { t: "Durability: 8 of 8", c: "white" },
       { t: "Required Level: 0", c: "white" }
     ],
-    valueTier: "D",
     rarityTier: "Common",
+    labels: [
+      { k: "source", v: "Wirt's corpse" }
+    ],
     obscurity: 3,
     why: "A broken wooden leg that does almost no damage, and one of the most important items a farmer owns. Cube it with a Tome of Town Portal and it opens the Secret Cow Level. But a rule rides along that plenty of people still learn the hard way. If the Cow King dies in a game you created, that character can never open the cow portal again on that difficulty. No reset, no fix.",
     history: "The cow level was a premier experience and item farm, and the game gated it with a quiet, permanent punishment. Kill the King in your own game and the door shuts for good on that character and difficulty, which is why careful players herded the cows and left him standing. The lockout keys off the game's creator, not the killer, so you could still farm in a friend's game freely. Diablo 2 Resurrected removed it, which is itself a change to a twenty-year-old rule.",
@@ -1822,7 +1802,6 @@ const ITEMS = [
       "+14 Life after each Kill",
       "Socketed (3)"
     ],
-    valueTier: "S",
     rarityTier: "Very Rare",
     obscurity: 3,
     why: "Two Tomb Reavers can be worlds apart. It rolls one to three sockets and an enhanced damage range that swings by eighty percent. Only a three-socket copy at the top of the range is the one people chase. Then it hands you sixty attack speed, fifty all resist, and eighty magic find on top of monster damage. The name is the same on all of them. The roll is everything.",
@@ -1853,7 +1832,6 @@ const ITEMS = [
       "All Resistances +45",
       "Socketed (4)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 3,
     why: "The paladin's answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.",
@@ -1874,7 +1852,6 @@ const ITEMS = [
       "Replenish Life +8",
       "Regenerate Mana 20%"
     ],
-    valueTier: "C",
     rarityTier: "Uncommon",
     obscurity: 4,
     why: "A modest mana-leech ring, and one half of the game's oldest gold trick. A unique ring will not roll if that same unique already exists in the game, and a ring carried in from your stash counts as existing. Classic shipped only three: Nagelring, Manald Heal, and the Stone of Jordan. Bring a Nagelring and a Manald and the game has nothing left to hand you but an SoJ. Players hauled both junk rings around on purpose to fish for the currency of the realm.",
@@ -1897,7 +1874,6 @@ const ITEMS = [
       "+15% to Maximum Lightning Resist",
       "+15% to Maximum Poison Resist"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     obscurity: 5,
     why: "A ring that raises every one of your resistance caps. Not your resistance, the cap itself, from seventy five to ninety across all four elements. Nothing else in the game does it, and nothing was ever supposed to. It sits in the files complete with stats and a level ninety five requirement, switched off so it can never drop.",
@@ -1923,7 +1899,6 @@ const ITEMS = [
       "+20 to Energy",
       "50% Better Chance of Getting Magic Items"
     ],
-    valueTier: "B",
     rarityTier: "Mythic",
     obscurity: 4,
     why: "Read the stats, then read the item type. Those are The Oculus's stats, a sorceress orb, sitting on a ring. Three sorceress skills, thirty faster cast, teleport when struck, all in a slot that should never hold them. A sorceress wearing one carried an extra orb's worth of power for free.",
@@ -1952,7 +1927,6 @@ const ITEMS = [
       "Requirements -60%",
       "Socketed (1)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The normal Tal Rasha's armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal's is the armor to beat.",
@@ -1970,8 +1944,11 @@ const ITEMS = [
       { t: "Cube four Essences to create", c: "grey" },
       "Resets all Skill and Stat points"
     ],
-    valueTier: "C",
     rarityTier: "Uncommon",
+    labels: [
+      { k: "source", v: "Cube recipe" },
+      { k: "added", v: "1.13" }
+    ],
     obscurity: 3,
     why: "For most of Diablo 2's life a misplaced skill point was permanent. There was no respec, and after the 1.10 synergy overhaul a single wrong point could quietly ruin a build. Then this arrived. Cube four Essences dropped by the act bosses and you get a full reset of skills and stats. One small item ended a decade of build anxiety.",
     history: "Original Diablo 2 committed you to every point you spent, which made theorycrafting a high-stakes gamble and delete-and-reroll the only real fix. Patch 1.13 added a free Akara respec once per difficulty and the Token of Absolution for unlimited ones. Behavior changed overnight: builds became experiments instead of commitments, and the reroll culture faded.",
@@ -1995,7 +1972,6 @@ const ITEMS = [
       "+100 to Life",
       "Socketed (4)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The Archon Plate is the lightest elite body armor, the lowest strength of the top tier. This one is magic, with four sockets and a hundred life on it. You cannot put Enigma in it, that needs a plain three-socket armor, but you can fill four sockets with resist runes or jewels and build a caster armor tuned to stats Enigma cannot give. Most players see a blue armor and move on. This one is a project piece worth real trade.",
@@ -2016,7 +1992,6 @@ const ITEMS = [
       "Helms: Indestructible",
       "Shields: Indestructible"
     ],
-    valueTier: "S",
     rarityTier: "Mythic",
     obscurity: 3,
     why: "The Zod is the rarest rune in the game and the only thing that saves an ethereal item, because it makes anything indestructible. It is also the punchline to one of the best drop stories Diablo 2 has produced. In 2024 a speedrunner hit a Zod, a one in nearly three million drop, deep into a world-record run, and walked to the nearest vendor to sell it for pocket change on purpose.",
@@ -2042,7 +2017,6 @@ const ITEMS = [
       "+30% Faster Run/Walk",
       "Socketed (3)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The Diadem is the best caster-helm base in the game. A magic one with three sockets and run speed is a blank canvas: drop in three facets and you have a helm that cuts enemy resistance and boosts your damage, tuned to your element. It reads as a junk blue circlet. It is one of the better caster helms you can build.",
@@ -2067,8 +2041,11 @@ const ITEMS = [
       "+300% Enhanced Damage",
       "Ethereal (Cannot be Repaired)"
     ],
-    valueTier: "B",
     rarityTier: "Very Rare",
+    labels: [
+      { k: "roll", v: "Perfect" },
+      { k: "eth" }
+    ],
     obscurity: 4,
     why: "A blue sword that reads like a vendor sale and hits like an elite runeword. Cruel is the most damage a magic weapon can roll, and a perfect one lands at three hundred percent. Ethereal stacks another fifty on the base. On a Mythical Sword, one of the hardest-hitting one-handers in the game, that is more raw damage than most gold weapons carry, for the price of a blue drop. Nothing on the name warns you.",
     history: null,
@@ -2094,7 +2071,6 @@ const ITEMS = [
       "+40% Increased Attack Speed",
       "+3 to Lightning Sentry (Assassin Only)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A trap assassin's dream claw. Plus three to the whole Traps tree and plus three to Lightning Sentry on top, on one magic claw, with forty attack speed. Dual wield two of these and you are stacking skills a runeword claw cannot touch. A blue weapon most players scroll right past, worth more than the orange ones to the right build.",
@@ -2121,8 +2097,10 @@ const ITEMS = [
       "+6 to Javelin and Spear Skills (Amazon Only)",
       "+40% Increased Attack Speed"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
+    labels: [
+      { k: "roll", v: "Perfect" }
+    ],
     obscurity: 4,
     why: "Six skill levels on a throwing weapon. Plus six to javelin and spear skills is more than any javazon gets from a single item anywhere else, and it comes with forty attack speed on a fast base. A blue javelin that outclasses the famous options for a javazon, and most people never think to read the skills line on a magic throwing weapon.",
     history: null,
@@ -2150,7 +2128,6 @@ const ITEMS = [
       "+3 to Enchant (Sorceress Only)",
       "Socketed (2)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A fire sorceress dream stacked onto one blue orb. Three to the whole fire tree, three more to Fire Mastery, three more to Enchant, and two open sockets on top. Sorceress orbs roll hidden skill bonuses, and hitting three useful ones at once is what separates a fortune from a vendor sale. Drop two facets in and the fire damage climbs again.",
@@ -2183,7 +2160,6 @@ const ITEMS = [
       "+6 to Light Radius",
       "Socketed (2)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "A wind druid's whole shopping list on one blue pelt. Three to the elemental tree and three more straight to Tornado, plus grizzly and hunger, and two open sockets. Druid pelts roll hidden skill bonuses like weapons do, and landing the wind combo on one is rare. It out-skills the unique pelts for a storm druid and looks like nothing.",
@@ -2209,7 +2185,6 @@ const ITEMS = [
       "Damage Reduced by 26",
       "Socketed (3)"
     ],
-    valueTier: "A",
     rarityTier: "Very Rare",
     obscurity: 4,
     why: "The other end of the Diadem chase. This one traded run speed for twenty six flat damage reduction, one of the strongest defensive stats in the game, on the best caster-helm base, with three sockets still open for facets. Flat damage reduction that high on a helm you can also stack facets into is a rare and greedy combination.",

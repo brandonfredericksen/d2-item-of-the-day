@@ -62,15 +62,16 @@
   }
   .row:hover, .row.active{background:var(--bg-elev); border-color:var(--border)}
   .row .idx{color:var(--text-faint); font-size:.7rem; width:22px; text-align:right; flex:none}
-  .row .name{flex:1; font-size:.9rem}
-  .row .name small{display:block; color:var(--text-faint); font-size:.7rem; margin-top:1px}
+  /* the rarity chip is a word now, so the name yields to it instead of wrapping */
+  .row .name{flex:1; min-width:0; font-size:.9rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .row .name small{display:block; color:var(--text-faint); font-size:.7rem; margin-top:1px; overflow:hidden; text-overflow:ellipsis}
   .chip{
-    font-size:.6rem; font-weight:800; letter-spacing:.04em;
-    padding:2px 6px; border-radius:999px; background:var(--bg-elev-2);
-    border:1px solid var(--border); flex:none;
+    font-size:.58rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+    padding:2px 7px; border-radius:999px; background:var(--bg-elev-2);
+    border:1px solid var(--border); flex:none; white-space:nowrap;
   }
-  .v-S{color:var(--t-s)} .v-A{color:var(--t-a)} .v-B{color:var(--t-b)}
-  .v-C{color:var(--t-c)} .v-D{color:var(--t-d)} .v-F{color:var(--t-f)}
+  .r-mythic{color:var(--t-s)} .r-very-rare{color:var(--t-a)} .r-rare{color:var(--t-b)}
+  .r-uncommon{color:var(--t-c)} .r-common{color:var(--t-f)}
   .legacy-dot{color:var(--accent); font-size:.7rem; flex:none}
 
   .preview{flex:1; min-width:0; position:relative; background:#000}
@@ -138,9 +139,10 @@
     var alias = txt(item.alias);
     name.innerHTML = escapeHtml(txt(item.title) || txt(item.name)) + (alias ? "<small>" + escapeHtml(alias) + "</small>" : "");
 
+    var rt = String(item.rarityTier || "");
     var v = document.createElement("span");
-    var vt = String(item.valueTier || "").toUpperCase();
-    v.className = "chip v-" + vt; v.textContent = vt || "?";
+    v.className = "chip r-" + rt.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    v.textContent = rt || "?";
 
     row.appendChild(idx);
     row.appendChild(name);

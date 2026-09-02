@@ -19,9 +19,21 @@
   var MS_PER_DAY = 86400000;
   var ANCHOR = Math.floor(Date.UTC(2026, 0, 1) / MS_PER_DAY);
 
-  var VALUE_SCALE = ["F", "D", "C", "B", "A", "S"];
   var RARITY_SCALE = ["Common", "Uncommon", "Rare", "Very Rare", "Mythic"];
-  var MISMATCH_THRESHOLD = 2;
+
+  /* Label kinds an item may carry. A kind is only here because it comes up
+     often enough to deserve one wording and one hover note everywhere it
+     appears. Anything rarer than that is written inline on the item as a
+     one-off label, so this list stays short on purpose.
+     Each kind needs <kind>Label and <kind>Meaning in every UI block.
+     A `flag` kind is the whole tag by itself and takes no value, the way
+     the illicit tag reads. Everything else is a label and a value. */
+  var LABEL_KINDS = {
+    source: {},
+    added: {},
+    roll: {},
+    eth: { flag: true }
+  };
 
   /* ---------- languages ----------
      Add a language by appending here and adding a UI block below.
@@ -37,11 +49,17 @@
       whyTitle: "Why it is worth something",
       historyTitle: "History",
       findTitle: "If you find one",
-      valueLabel: "Value",
-      valueMeaning: "A rough worth on a mature ladder season, from Trash up to a Chase item. A guess, not a price check.",
       proofLabel: "see the real drop",
       rarityLabel: "Rarity",
       rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
+      sourceLabel: "Source",
+      sourceMeaning: "Where this comes from, when it is not an ordinary monster drop.",
+      addedLabel: "Added",
+      addedMeaning: "The patch this item entered the game.",
+      rollLabel: "Roll",
+      rollMeaning: "How close this one sits to the best its affixes can roll. The base is common. The numbers are not.",
+      ethLabel: "Ethereal",
+      ethMeaning: "Higher base damage or defense, and it cannot be repaired. On most items that ends them. On this one it is the point.",
       lastPatchLabel: "Last seen",
       lastPatchMeaning: "This version no longer drops. It last existed in this patch, before a later patch changed or removed it.",
       eraLabel: "Era",
@@ -51,9 +69,7 @@
       archiveSummary: "Every item so far",
       nextItem: "Next item in {h}h {m}m {s}s",
       noSprite: "no sprite",
-      mismatchMore: "More valuable than it is rare.",
-      mismatchRarer: "Rarer than it is valuable.",
-      footerDisclaimer: "Value and rarity are rough guesses against a mature ladder season, not a price check. Rarity means how often you see one around, not just drop rate.",
+      footerDisclaimer: "Rarity is a rough guess against a mature ladder season. It means how often you see one around, not just drop rate.",
       footerLegal: "Not affiliated with Blizzard Entertainment.",
       rarity: {
         "Common": "Common", "Uncommon": "Uncommon", "Rare": "Rare",
@@ -159,10 +175,6 @@
     return (((utcDay - ANCHOR) % len) + len) % len;
   }
 
-  function valueIndex(tier) {
-    return VALUE_SCALE.indexOf(String(tier || "").toUpperCase());
-  }
-
   function rarityIndex(tier) {
     var t2 = String(tier || "").toLowerCase();
     for (var i = 0; i < RARITY_SCALE.length; i++) {
@@ -171,23 +183,11 @@
     return -1;
   }
 
-  /* Rarity has 5 steps, value has 6. Scale rarity onto the value axis
-     before comparing, so "two steps apart" means the same on both.
-     Returns a key so the message can be localized. */
-  function mismatchFor(item) {
-    var v = valueIndex(item.valueTier);
-    var r = rarityIndex(item.rarityTier);
-    if (v < 0 || r < 0) return null;
-
-    var diff = v - r * ((VALUE_SCALE.length - 1) / (RARITY_SCALE.length - 1));
-    if (diff >= MISMATCH_THRESHOLD) return "more";
-    if (diff <= -MISMATCH_THRESHOLD) return "rarer";
-    return null;
-  }
-
-  function tierClass(tier) {
-    var t2 = String(tier || "").toLowerCase();
-    return t2.length === 1 && VALUE_SCALE.join("").toLowerCase().indexOf(t2) >= 0 ? t2 : "f";
+  /* Rarity carries the only color ramp on the tag row, cold to hot.
+     Everything else stays neutral so one facet reads at a glance. */
+  function rarityClass(tier) {
+    var i = rarityIndex(tier);
+    return i < 0 ? "" : " rar-" + RARITY_SCALE[i].toLowerCase().replace(/ /g, "-");
   }
 
   /* ---------- rendering ---------- */
@@ -307,20 +307,48 @@
       "</div>";
   }
 
-  // Value shown as a descriptive word tier. Letter tiers map on:
-  // S=Chase, A=High, B=Solid, C=Minor, D=Niche, F=Trash.
-  function valueWord(tier) {
-    return { S: "Chase", A: "High", B: "Solid", C: "Minor", D: "Niche", F: "Trash" }[tier] || tier;
+  /* ---------- per-item labels ----------
+     Every item gets Rarity. Everything past that is optional and set on
+     the item itself, so an entry only carries a tag when there is genuinely
+     something to call out. Two forms, both localizable:
+
+       { k: "source", v: "Uber quest" }     a known kind, label and hover
+                                            text come from LABEL_KINDS
+       { l: "Console", v: "PS2 only",       a one-off. `note` is the hover
+         note: "..." }                      text and may be left off
+
+     A known kind still accepts `l` or `note` to override its defaults. */
+  function labelHtml(entry, lang) {
+    if (!entry) return "";
+    var kind = entry.k ? String(entry.k).toLowerCase() : "";
+    var known = LABEL_KINDS[kind];
+    var flag = !!(known && known.flag);
+    var label = t(entry.l, lang) || (known ? ui(kind + "Label", lang) : "");
+
+    // A flag kind is its own value, so authoring it needs nothing but the kind.
+    var value = t(entry.v, lang) || (flag ? label : "");
+    if (!value) return "";
+    if (flag) label = "";
+
+    var note = t(entry.note, lang) || (known ? ui(kind + "Meaning", lang) : "");
+    var cls = "tag label" + (known ? " label-" + kind : " label-other");
+
+    return '<span class="' + cls + '"' + (note ? ' title="' + esc(note) + '"' : "") + ">" +
+      (label ? esc(label) + " " : "") + "<b>" + esc(value) + "</b>" +
+    "</span>";
+  }
+
+  function labelsHtml(item, lang) {
+    if (!Array.isArray(item.labels)) return "";
+    return item.labels.map(function (entry) {
+      return labelHtml(entry, lang);
+    }).join("");
   }
 
   function tagsHtml(item, lang) {
-    var vc = tierClass(item.valueTier);
     return '' +
       '<div class="tags">' +
-        '<span class="tag tag-' + vc + '" title="' + esc(ui("valueMeaning", lang)) + '">' +
-          esc(ui("valueLabel", lang)) + " <b>" + esc(valueWord(item.valueTier)) + "</b>" +
-        "</span>" +
-        '<span class="tag rarity" title="' + esc(ui("rarityMeaning", lang)) + '">' +
+        '<span class="tag rarity' + rarityClass(item.rarityTier) + '" title="' + esc(ui("rarityMeaning", lang)) + '">' +
           esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +
         "</span>" +
         (item.era
@@ -338,6 +366,7 @@
               "<b>" + esc(t(item.illicit, lang)) + "</b>" +
             "</span>"
           : "") +
+        labelsHtml(item, lang) +
       "</div>";
   }
 
@@ -357,10 +386,6 @@
   function render() {
     var item = state.item;
     var lang = state.lang;
-    var mismatchKey = mismatchFor(item);
-    var mismatchText = mismatchKey === "more" ? ui("mismatchMore", lang)
-      : mismatchKey === "rarer" ? ui("mismatchRarer", lang) : "";
-
     app.innerHTML =
       titleHtml(item, lang) +
       '<div class="item-head reveal r2">' +
@@ -371,7 +396,6 @@
           (t(item.proof, lang)
             ? '<button type="button" class="proof-link" data-proof="' + esc(t(item.proof, lang)) + '">' + esc(ui("proofLabel", lang)) + "</button>"
             : "") +
-          (mismatchText ? '<div class="mismatch-note">' + esc(mismatchText) + "</div>" : "") +
         "</div>" +
       "</div>" +
 
@@ -503,7 +527,7 @@
 
   /* Exposed for the node self-test in research/tools. Harmless in browser. */
   if (typeof window !== "undefined") {
-    window.__d2 = { t: t, ui: ui, mismatchFor: mismatchFor, todayIndex: todayIndex, tierClass: tierClass };
+    window.__d2 = { t: t, ui: ui, todayIndex: todayIndex, rarityClass: rarityClass };
   }
 
   init();
