@@ -352,6 +352,36 @@ const ITEMS = [
     ifYouFind: "Ninety to a stat on a small charm is a hacked value, full stop. It is contraband, not a lucky roll."
   },
   {
+    slug: "guid-needle",
+    grid: [2, 4],
+    fill: ["img/jewel.png", "img/jewel.png"],
+    filled: true,
+    name: "Guid Needle",
+    alias: "the bow nobody has seen in years",
+    quality: "rare",
+    type: "Matriarchal Bow",
+    sprite: "img/matriarchal-bow.png",
+    tooltip: [
+      { t: "(Amazon Only)", c: "red" },
+      { t: "Required Strength: 70", c: "white" },
+      { t: "Required Level: 66", c: "white" },
+      { t: "Bow Class - Very Fast Attack Speed", c: "white" },
+      "+1 to Bow and Crossbow Skills (Amazon Only)",
+      "+50% Increased Attack Speed",
+      "+600% Enhanced Damage",
+      "+3 to Maximum Damage",
+      "+172 to Attack Rating",
+      "Requirements -20%",
+      "Socketed (2)"
+    ],
+    valueTier: "S",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "The bow people still ask about. A rare Matriarchal Bow, self found and self upped from an Ashwood, socketed with two forty-fifteen jewels, the best jewels in the game. A bow skill, fifty attack speed, and an enhanced-damage number that reads like a typo, all under a yellow name. Its owner sold it to a private buyer off-site years ago and has not seen it since. Faith, the runeword everyone points to, is a newspawn's eyecandy next to it.",
+    history: "The story comes from the owner. Self found, self upped, which is why the level requirement sits so high for a bow, since it dropped as an Ashwood and was cubed up. The two sockets hold forty-fifteen Jewels of Fervor, so the displayed stats are the bow and the jewels together. It changed hands once, to a private buyer off the trade forums, and dropped out of sight. People still ask who has it, and even the owner only assumes it is the man who bought it.",
+    ifYouFind: "Do the math backward. Strip the two forty-fifteen jewels and what remains is the base rare, which is the part collectors argue over. The legend is the whole package: the roll, the self-found claim, and a bow nobody has laid eyes on in years."
+  },
+  {
     slug: "carrion-song",
     name: "Carrion Song",
     alias: "classic rare bow",

@@ -25,7 +25,15 @@
   header .title{font-weight:800; letter-spacing:.22em; text-transform:uppercase; font-size:.8rem}
   header .title b{color:#e03a33; font-weight:800}
   header .count{color:var(--text-faint); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase}
-  header .hint{margin-left:auto; color:var(--text-faint); font-size:.72rem}
+  header .hint{color:var(--text-faint); font-size:.72rem}
+  header .search{
+    margin-left:auto; width:240px; max-width:44vw;
+    padding:6px 12px; border-radius:999px;
+    background:var(--bg-elev-2); border:1px solid var(--border);
+    color:var(--text); font-family:inherit; font-size:.8rem;
+  }
+  header .search::placeholder{color:var(--text-faint)}
+  header .search:focus{outline:none; border-color:var(--accent)}
 
   .wrap{display:flex; flex:1; min-height:0}
   .list{
@@ -69,6 +77,7 @@
   <span class="title"><b>DIABLO 2</b> Item Gallery</span>
   <span class="count" id="count"></span>
   <span class="hint">hover or tap a name to preview it</span>
+  <input id="search" class="search" type="search" placeholder="Search by name…" autocomplete="off" spellcheck="false">
 </header>
 <div class="wrap">
   <div class="list" id="list"></div>
@@ -126,9 +135,24 @@
     }
     row.appendChild(v);
 
+    row.dataset.search = ((txt(item.title) || txt(item.name)) + " " + txt(item.alias) + " " + txt(item.type)).toLowerCase();
+
     row.addEventListener("mouseenter", function(){ preview(item.slug, row); });
     row.addEventListener("click", function(){ preview(item.slug, row); });
     list.appendChild(row);
+  });
+
+  var searchBox = document.getElementById("search");
+  searchBox.addEventListener("input", function(){
+    var q = searchBox.value.trim().toLowerCase();
+    var shown = 0;
+    [].forEach.call(list.children, function(row){
+      var match = !q || row.dataset.search.indexOf(q) !== -1;
+      row.style.display = match ? "" : "none";
+      if (match) shown++;
+    });
+    document.getElementById("count").textContent =
+      q ? (shown + " / " + ITEMS.length + " items") : (ITEMS.length + " items");
   });
 
   function escapeHtml(s){
