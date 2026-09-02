@@ -217,7 +217,7 @@ const ITEMS = [
     alias: "2/20 caster amulet",
     quality: "rare",
     type: "Amulet",
-    sprite: "img/rare-amulet.png",
+    sprite: "img/amulet-gold.png",
     proof: "research/reference-screenshots/armageddon-fletch.png",
     tooltip: [
       { t: "Required Level: 41", c: "white" },
@@ -1453,7 +1453,7 @@ const ITEMS = [
     alias: "two-class hacked amulet",
     quality: "rare",
     type: "Amulet",
-    sprite: "img/rare-amulet.png",
+    sprite: "img/amulet-pentagram.png",
     proof: "research/reference-screenshots/storm-circlet-amulet.png",
     illicit: "Hacked",
     tooltip: [
