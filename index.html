@@ -69,9 +69,9 @@
   --sp-6:32px;
   --sp-7:40px;
 
-  /* the item plate: one fixed square so every item reads the same size */
-  --stage:176px;
-  --socket:24px;
+  /* one inventory cell. Every sprite is sized in cells, so a ring stays a
+     ring next to an armor. This is the only knob for item scale. */
+  --cell:48px;
 
   /* D2 item quality colors, exact */
   --q-unique:#c7b377;
@@ -179,22 +179,26 @@ header{
 .sprite{display:flex;flex-direction:column;align-items:center;gap:var(--sp-2)}
 .sprite-stage{
   position:relative;display:flex;align-items:center;justify-content:center;
-  width:var(--stage);height:var(--stage);padding:var(--sp-4);
+  box-sizing:content-box;                      /* the size below is the plate content */
+  width:calc(var(--cell) * var(--cw, 2));      /* the plate is the item footprint */
+  height:calc(var(--cell) * var(--ch, 3));
+  padding:var(--sp-2);
   background:var(--bg-stage);
   border:1px solid var(--border);border-radius:var(--radius-sm);
 }
 .sprite-base{
+  /* fills the footprint the stage sets, aspect kept */
   width:100%;height:100%;object-fit:contain;display:block;
   filter:drop-shadow(0 2px 6px rgba(0,0,0,.55));transition:opacity .2s ease;
 }
 /* empty sockets shown over the item as recessed holes; hold gems when filled */
 .sockets{
   position:absolute;inset:0;display:flex;flex-direction:column;
-  align-items:center;justify-content:center;gap:var(--sp-2);pointer-events:none;
+  align-items:center;justify-content:center;gap:var(--sp-1);pointer-events:none;
 }
-.socket-row{display:flex;justify-content:center;gap:var(--sp-2)}
+.socket-row{display:flex;justify-content:center;gap:var(--sp-1)}
 .socket{
-  width:var(--socket);height:var(--socket);border-radius:50%;opacity:.68;
+  width:calc(var(--cell) * .62);height:calc(var(--cell) * .62);border-radius:50%;opacity:.68;
   background:radial-gradient(circle at 50% 35%, rgba(20,20,26,.5) 0%, rgba(0,0,0,.85) 68%);
   box-shadow:
     inset 0 2px 3px rgba(0,0,0,.95),
@@ -203,7 +207,7 @@ header{
     0 1px 1px rgba(255,255,255,.07);
   display:flex;align-items:center;justify-content:center;
 }
-.socket-gem{width:var(--socket);height:var(--socket);display:none;filter:drop-shadow(0 1px 1px rgba(0,0,0,.85))}
+.socket-gem{width:calc(var(--cell) * .62);height:calc(var(--cell) * .62);display:none;filter:drop-shadow(0 1px 1px rgba(0,0,0,.85))}
 /* filled: gem sits in the socket at full strength, the rim still reads around it */
 .tip-col.show-fill .socket{
   opacity:1;
@@ -393,8 +397,8 @@ footer p{margin:0 0 var(--sp-2)}
 
 @media (min-width:640px){
   .wrap{padding:0 var(--sp-5) 88px}
-  :root{--stage:240px;--socket:32px}
-  .sprite-stage{padding:var(--sp-5)}
+  :root{--cell:64px}
+  .sprite-stage{padding:var(--sp-3)}
 }
 </style>
 </head>

@@ -259,6 +259,70 @@
       "</div>";
   }
 
+  /* D2 inventory footprint in cells, keyed by sprite. The art is drawn at the
+     item's real proportions, so the footprint is what sets its size on the
+     page: a ring takes one cell, a Colossus Blade takes eight. Without this
+     every item rendered at the same size, which made a ring look like an
+     armor. item.grid wins when the data carries it. */
+  var GRID_BY_SPRITE = {
+    // 1x1: rings, amulets, jewels, runes, small charms
+    "amulet": [1, 1], "amulet-gold": [1, 1], "amulet-pentagram": [1, 1],
+    "ring": [1, 1], "constricting-ring": [1, 1], "wisp-projector": [1, 1],
+    "uniques/stone-of-jordan": [1, 1],
+    "jewel": [1, 1], "rainbow-facet": [1, 1], "small-charm": [1, 1],
+    "zod-rune": [1, 1], "socketables/rune-ber": [1, 1],
+    "token-of-absolution": [1, 1],
+
+    // 1x2: wands, large charms
+    "uniques/deaths-web": [1, 2], "uniques/legacy-hellfire-torch": [1, 2],
+
+    // 1x3: grand charms, javelins, claws, orbs, one-hand swords and clubs
+    "grand-charm": [1, 3], "stygian-pilum": [1, 3], "matriarchal-javelin": [1, 3],
+    "titans-revenge": [1, 3], "wirts-leg": [1, 3], "mythical-sword": [1, 3],
+    "uniques/spectral-shard": [1, 3],
+    "greater-talons": [1, 3], "eldritch-orb": [1, 3],
+
+    // 2x2: helms, boots, gloves
+    "crown": [2, 2], "tiara": [2, 2], "viper-casque": [2, 2],
+    "uniques/crown-of-ages": [2, 2], "uniques/vampire-gaze-08": [2, 2],
+    "battle-boots": [2, 2], "sandstorm-trek": [2, 2],
+    "light-gauntlets": [2, 2], "uniques/bloodfist": [2, 2],
+    "angelic-combo": [2, 2], "deaths-combo": [2, 2],
+    "arreats-face": [2, 2], "diadem": [2, 2], "falcon-mask": [2, 2],
+    "winged-helm": [2, 2], "rare-boots": [2, 2], "ogre-gauntlets": [2, 2],
+
+    // 2x3: body armor, shields, hammers
+    "ancient-armor": [2, 3], "full-plate-mail": [2, 3], "arkaines-valor": [2, 3],
+    "siggards-stealth": [2, 3], "dire-carapace": [2, 3],
+    "uniques/iceblink": [2, 3], "uniques/twitchthroe": [2, 3],
+    "uniques/tyraels-might": [2, 3],
+    "blackoak-shield": [2, 3], "herald-of-zakarum": [2, 3],
+    "martel-de-fer": [2, 3], "maul": [2, 3],
+    "archon-plate": [2, 3], "bugged-tals": [2, 3], "shaftstop": [2, 3],
+    "berserker-axe": [2, 3], "legendary-mallet": [2, 3],
+    "monarch": [2, 3], "sacred-targe": [2, 3],
+
+    // 2x4: two-handers and bows
+    "colossus-blade": [2, 4], "hydra-bow": [2, 4], "tomb-reaver": [2, 4],
+    "rare-bow": [2, 4], "matriarchal-bow": [2, 4]
+  };
+
+  /* Sprites come in two families: art drawn at 98px per inventory cell, and
+     native game rips at roughly 29px. The first is always shrunk, where
+     smoothing looks right. The second is always grown, where smoothing turns
+     it to mush and nearest-neighbour keeps the game pixels crisp. */
+  window.fitSprite = function (img) {
+    if (!img.naturalWidth) return;
+    var shown = img.getBoundingClientRect().width;
+    img.style.imageRendering = shown > img.naturalWidth ? "pixelated" : "auto";
+  };
+
+  function gridFor(item) {
+    if (item.grid) return item.grid;
+    var key = String(item.sprite || "").replace(/^img\//, "").replace(/\.(png|webp)$/, "");
+    return GRID_BY_SPRITE[key] || [2, 3];
+  }
+
   /* Small secondary detail, not the hero. Collapses entirely when there is
      no sprite or the image fails, so there is never an empty box. */
   function spriteHtml(item, lang) {
@@ -273,8 +337,9 @@
       // the column count capped by the item's inventory width. So a tall item
       // with a few sockets runs them vertically (a 2-socket weapon is a column),
       // while a 4-socket Monarch still reads 2x2 and a 3-socket Diadem 2-over-1.
-      var gridW = (item.grid && item.grid[0]) ? item.grid[0] : 2;
-      var gridH = (item.grid && item.grid[1]) ? item.grid[1] : 3;
+      var g = gridFor(item);
+      var gridW = g[0] || 2;
+      var gridH = g[1] || 3;
       var cols = Math.min(gridW, Math.max(1, Math.ceil(count / gridH)));
       var rowCount = Math.ceil(count / cols);
       var grid = [];
@@ -297,9 +362,11 @@
     }
 
     var label = t(item.fillLabel, lang) || "socket it";
+    var cells = gridFor(item);
     return '<div class="sprite">' +
-      '<div class="sprite-stage">' +
+      '<div class="sprite-stage" style="--cw:' + cells[0] + ';--ch:' + cells[1] + '">' +
         '<img class="sprite-base" src="' + esc(item.sprite) + '" alt="' + esc(t(item.name, lang)) + ' sprite" ' +
+        'onload="fitSprite(this)" ' +
         'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
         socketsOverlay +
       "</div>" +
@@ -503,7 +570,7 @@
 
   /* Exposed for the node self-test in research/tools. Harmless in browser. */
   if (typeof window !== "undefined") {
-    window.__d2 = { t: t, ui: ui, mismatchFor: mismatchFor, todayIndex: todayIndex, tierClass: tierClass };
+    window.__d2 = { t: t, ui: ui, mismatchFor: mismatchFor, todayIndex: todayIndex, tierClass: tierClass, gridFor: gridFor };
   }
 
   init();
