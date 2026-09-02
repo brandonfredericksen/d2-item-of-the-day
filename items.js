@@ -101,7 +101,7 @@ const ITEMS = [
     obscurity: 3,
     why: "A blue shield that trades for a dozen high runes. It is not a runeword base, it is better than one. Four sockets, thirty faster block, twenty increased block, all on a light shield anyone can carry. You fill the sockets yourself, usually with Rainbow Facets, and get a max-block shield tuned to your build that no plain runeword can match. Lightning javazons in particular hunt these. It looks like vendor trash and gambles for a fortune.",
     history: null,
-    ifYouFind: "Four sockets on a magic Monarch with the block rolls. That is it. You socket it yourself, so the empty shell is the prize."
+    ifYouFind: "The empty shell is the item. What a JMOD is worth is the shield you build inside it, never what it dropped with."
   },
   {
     slug: "tyraels-might",
@@ -128,7 +128,7 @@ const ITEMS = [
     obscurity: 2,
     why: "The rarest item in the game. Not one of the rarest. By the drop numbers, the single hardest thing to see. It is a good armor too, with no strength requirement and a wall of resistances, but it is not Enigma and never was. People want it because almost nobody has one.",
     history: "For years Tyrael's Might was the item you heard about and never saw. Its drop rate is the lowest in the game, low enough that plenty of thousand-hour players have never held one. The stats are good. They are not the best in the slot. The price is the rarity, and nothing else.",
-    ifYouFind: "Almost nobody does. If you somehow do, it is a trophy first and gear second."
+    ifYouFind: "The only unique that trades on scarcity alone. Nobody wears a Tyrael's to fight in it. They own it because almost no one else can."
   },
   {
     slug: "stone-of-jordan",
@@ -148,8 +148,8 @@ const ITEMS = [
     rarityTier: "Common",
     obscurity: 2,
     why: "A ring with plus one to all skills and some mana. Common, and cheap on a mature ladder. New characters still run one for the early skill boost.",
-    history: "The Stone of Jordan was the currency of Diablo 2 for years. Not a figure of speech. People priced gear in SOJs the way you would price it in dollars. Then duping flooded the realm with them and the currency collapsed, dragging every other price up with it. Blizzard's fix is still in the game. A hidden counter tracks Stones of Jordan sold to town vendors, and when enough get sold, Diablo Clone spawns and comes looking. One ring created a permanent boss and the sink that eats the ring. Nothing else in the game has a story like it.",
-    ifYouFind: null
+    ifYouFind: "The ring itself is a footnote now, a skill point and some mana on a common drop. Everything worth knowing about a Stone of Jordan is what it did to the game, not what it does on your finger.",
+    history: "The Stone of Jordan was the currency of Diablo 2 for years. Not a figure of speech. People priced gear in SOJs the way you would price it in dollars. Then duping flooded the realm with them and the currency collapsed, dragging every other price up with it. Blizzard's fix is still in the game. A hidden counter tracks Stones of Jordan sold to town vendors, and when enough get sold, Diablo Clone spawns and comes looking. One ring created a permanent boss and the sink that eats the ring. Nothing else in the game has a story like it."
   },
   {
     slug: "wraith-crack",
@@ -208,7 +208,7 @@ const ITEMS = [
     obscurity: 3,
     why: "The poison necromancer's endgame wand, and the reason the build works at the top level. Minus enemy poison resistance is the whole point, and this rolls to minus fifty. Add two skills and two to poison and bone on top. There is no substitute. If you play poison necro seriously, you own one or you are working toward it.",
     history: null,
-    ifYouFind: "The poison resistance roll is the item. Minus fifty is perfect. Anything in the forties still sells."
+    ifYouFind: "The whole build rides one line. Minus fifty enemy poison resistance is what separates a poison necromancer that melts Hell from one that stalls in it."
   },
   {
     slug: "armageddon-fletch",
@@ -231,7 +231,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A rare amulet that quietly beats the famous unique ones. Two sorceress skills and twenty faster cast rate, then life, strength and all resistances piled on top. Mara's gets the attention. An amulet like this does more for a caster, and it comes with no gold name to tip you off. The random title is doing a lot of work to hide how good it is.",
     history: null,
-    ifYouFind: "Two class skills and twenty cast rate on one amulet is the jackpot. Everything after that is a bonus most uniques cannot match."
+    ifYouFind: "Mara's gets the name. A rare like this quietly outdoes it for a caster and costs less, because the market never learned to read a yellow amulet's skill line."
   },
   {
     slug: "shadow-claw",
@@ -376,7 +376,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A yellow bow with a random name, and in classic Diablo 2 that was the dream. Before runewords, before Windforce, a rolled rare like this was the bowazon endgame. A class skill on a bow you can hold at level 26, very fast attack speed, a stack of attack rating and max damage. The name means nothing. The game bolts two words together at random. The rolls are everything, and rolls like these almost never landed.",
     history: null,
-    ifYouFind: "This is what people mean when they say do not vendor yellows. Read every line first."
+    ifYouFind: "Before runewords and before Windforce, a rolled rare like this was the bowazon endgame. The name is two random words. The lines under it are the whole item, and in classic they almost never landed together."
   },
   {
     slug: "phoenix-hybrid",
@@ -437,7 +437,7 @@ const ITEMS = [
     obscurity: 4,
     why: "Boots are a slot most people fill with a unique and forget. This rare beats most of them. Thirty faster run and walk, three resistances at once, half freeze duration, and a slice of magic find. A single rare covering that many needs almost never happens. The game has to roll every one of those lines together, and it rarely does.",
     history: null,
-    ifYouFind: "Tri-res on boots is the hard part. Everything else here is a bonus."
+    ifYouFind: "Three resistances on one pair is the roll the game almost never lands. The speed and the magic find riding along are why people forget it is a rare, not a unique."
   },
   {
     slug: "iceblink",
@@ -462,7 +462,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A level twenty-two unique nobody stops for, and one of the only body armors in the game that freezes what you hit. A frozen enemy cannot attack, so a melee twink or an Act 2 merc wearing this walks through Normal untouched. Anything killed while frozen shatters and leaves no corpse, which quietly denies the other side every corpse it wanted. It costs a chipped gem and does something almost nothing else can.",
     history: null,
-    ifYouFind: "The roll does not matter here. Keep it for a leveling character or a merc, and cube it up to a bigger base later if you want the defense."
+    ifYouFind: "Nobody chases the numbers. It is wanted for a single line that freezes half of Normal in place, and the roll barely matters to that."
   },
   {
     slug: "grim-fist",
@@ -487,7 +487,7 @@ const ITEMS = [
     obscurity: 4,
     why: "Gloves are an afterthought slot, which is exactly why this pair hides. Two to the whole javelin and spear tree, then twenty attack speed and a maxed three and three life and mana leech on top. A javazon gets a skill level here that no unique glove can offer, the leech to stay alive, and the speed to throw faster. It reads as a junk yellow. It is a build-defining glove for the right amazon.",
     history: null,
-    ifYouFind: "The plus two skills is the prize, and it only comes on gloves as a rare roll. Three life and three mana leech, both maxed, on the same pair is what turns a good glove into a keeper."
+    ifYouFind: "Class skills on gloves only ever come from a rare. That one line is how a throwaway slot ends up outranking every orange option a javazon could wear."
   },
   {
     slug: "glitched-arreats",
@@ -580,7 +580,7 @@ const ITEMS = [
     obscurity: 4,
     why: "This is not the Arkaine's Valor that drops today. This is the old one. Before the nerf it gave two and a half vitality and two life for every character level, plus two to all skills, indestructible, and fire resist, all on one body armor. At level ninety-nine that is hundreds of free vitality and life. The current version was cut down hard, so a copy like this can no longer drop.",
     history: "Arkaine's Valor was so strong before the 1.10 patch that it became one of the most duped armors in the game. Blizzard gutted the life and vitality bonus and left the weaker version dropping in its place. The old copies were never deleted, only frozen out of the loot table. The ones still around are relics from a version of Diablo 2 that no longer exists, and they thin out every year as old accounts expire.",
-    ifYouFind: "It does not drop anymore. Anyone offering one is trading a survivor from an old patch, not a fresh find."
+    ifYouFind: "Every copy in the game is older than the 1.10 patch. Nothing has minted a new one in over twenty years, so the supply only shrinks as old accounts die off."
   },
   {
     slug: "legacy-hellfire-torch",
@@ -604,7 +604,7 @@ const ITEMS = [
     obscurity: 4,
     why: "Everyone knows the Hellfire Torch. Almost nobody has seen this one. The current Torch casts Firestorm five percent of the time. The old one cast it twenty-five. Five times the fire, on a charm that was already an endgame staple. It stopped dropping in this form, so every 25 percent Torch is a survivor from before the nerf.",
     history: "The Torch came from the Pandemonium Event added in patch 1.11, and for its first years it cast Firestorm on a quarter of your hits. That was a wall of free fire on a charm people fought the Ubers to earn. Patch 1.13 cut it to five percent. The old copies kept their twenty-five, so the legacy Torch became a collector's version of an item almost everyone already owns.",
-    ifYouFind: "Check the Firestorm line. Twenty-five percent means it is pre-1.13, and worth far more than the Torch in your stash."
+    ifYouFind: "The Firestorm line dates it. Twenty five percent is the pre-1.13 version, sitting in the same stash tab as its five-percent descendant and looking almost identical."
   },
   {
     slug: "siggards-stealth",
@@ -630,7 +630,7 @@ const ITEMS = [
     obscurity: 5,
     why: "Look at the name. That belt does not exist anymore. The stats are an ordinary Nosferatu's Coil, attack speed and life steal, nothing a current player would chase. What makes it a collector piece is the name itself. Nothing has dropped with it in over twenty years.",
     history: "In the 1.10 patch Blizzard reshuffled the unique item files. The belt that had been Nosferatu's Coil was renamed Siggard's Stealth, and a new Nosferatu's Coil started dropping in its place with the same stats. Every existing copy changed its name on the spot. So a Siggard's Stealth is proof of age. It is a Nosferatu's Coil from before the patch, wearing a name the game no longer hands out.",
-    ifYouFind: "You cannot find one, only inherit one. The name is the whole story. The stats are beside the point."
+    ifYouFind: "The stats are an ordinary Nosferatu's Coil. The name is the artifact, a label the game stopped printing the day the 1.10 files shipped."
   },
   {
     slug: "crown-of-ages",
@@ -656,7 +656,7 @@ const ITEMS = [
     obscurity: 2,
     why: "Everyone knows the helm. Almost nobody prices the roll. A plain Crown of Ages is a fine helmet. This one has two sockets, fifteen percent physical damage reduction, and thirty all resistance, the top of every line it can roll. That stack is worth many times a low one. Same gold name, a completely different item, and the difference is invisible unless you read the numbers.",
     history: null,
-    ifYouFind: "Two sockets and fifteen damage reduction is the jackpot. One socket and ten reduction is a cheaper helm wearing the same name."
+    ifYouFind: "Two helms wear one gold name. The distance between a two-socket, fifteen-reduction roll and a plain one is far wider than the shared title lets on."
   },
   {
     slug: "brimstone-barb",
@@ -713,7 +713,7 @@ const ITEMS = [
     obscurity: 4,
     why: "The best caster helm for a druid is often not a unique but a rare circlet like this. Two to all druid skills and twenty faster cast are the two lines every caster hunts, and here they arrive with run speed, dexterity and all four resistances on one Tiara. No unique druid helm matches the spread. A random yellow name hiding one of the best helms a storm or fire druid can wear.",
     history: null,
-    ifYouFind: "Two class skills and twenty cast rate on a circlet is the jackpot. The resists and the speed on top are what push it past the uniques."
+    ifYouFind: "A rare circlet is the only place a druid gets two skills and cast rate on one helm. No unique in the slot competes, and the yellow name is why nobody expects it."
   },
   {
     slug: "wisp-projector",
@@ -736,7 +736,7 @@ const ITEMS = [
     obscurity: 4,
     why: "Nobody looks twice at Wisp Projector. It reads like a novelty ring with a pile of charges. Then you notice the two lines that matter: lightning absorb up to twenty percent, and magic find up to twenty percent. Lightning is the deadliest damage in the game at the high end, so that absorb is worth real money, and the magic find rides along for free. The charges are a footnote. The two rolls are the item.",
     history: null,
-    ifYouFind: "Read the absorb and the magic find. Twenty and twenty is the one people pay for."
+    ifYouFind: "The charges are a decoy. Two lines carry the whole price, lightning absorb and magic find, and lightning is the damage that actually kills you at the high end."
   },
   {
     slug: "doom-stalker",
@@ -763,7 +763,7 @@ const ITEMS = [
     obscurity: 4,
     why: "The slot most players fill with a unique and forget. This rare does more. Thirty faster run and walk, forty lightning and forty fire, twenty life with a little replenish, and the part people forget boots can even roll: life steal. Speed, two big resists, life and leech in one slot almost never land together. The leech here is one percent. A perfect roll pushes it higher.",
     history: null,
-    ifYouFind: "Boots that leech are the tell most people miss. The run speed and the two resists are the base value. The life steal is the rare bonus, and this one is short of a maxed roll."
+    ifYouFind: "Most players do not know boots can leech at all. That line is the surprise, riding on a speed-and-resist roll that would already be worth keeping without it."
   },
   {
     slug: "herald-of-zakarum",
@@ -792,7 +792,7 @@ const ITEMS = [
     obscurity: 3,
     why: "A Herald of Zakarum is a paladin staple, so people assume they are all the same. They are not. The enhanced defense rolls from a hundred and fifty to two hundred percent, and only a two hundred is worth chasing. Punch four sockets into that one and you have one of the best shields a paladin can hold. A low roll is a leveling shield. The gap between the two is enormous, and the tooltip barely hints at it.",
     history: null,
-    ifYouFind: "Two hundred enhanced defense is the number. Anything lower is just a shield. Max roll, socket it and keep it."
+    ifYouFind: "Two identical gold names, wildly different shields. The enhanced defense swings by fifty percent, and only the top of that range is the one paladins fight over."
   },
   {
     slug: "eth-sandstorm-trek",
@@ -819,7 +819,7 @@ const ITEMS = [
     obscurity: 3,
     why: "Treks are cheap. Everyone has a pair, which is exactly why the good ones hide in plain sight. The chase is an ethereal pair with maxed strength and vitality. Ethereal usually means an item wears out and dies, but Sandstorm Trek repairs itself, so the ethereal version keeps its boosted defense forever and never breaks. The same boots most players vendor, except this one is worth a pile of runes.",
     history: null,
-    ifYouFind: "Check for ethereal first, then the strength and vitality. Ethereal and 15/15 is the pair people hunt."
+    ifYouFind: "Ethereal is the twist. It normally dooms an item to break, but Treks repair themselves, so the ethereal pair keeps its boosted defense forever and the boots most players vendor become a chase."
   },
   {
     slug: "eth-titans-revenge",
@@ -848,7 +848,7 @@ const ITEMS = [
     obscurity: 3,
     why: "A throwing javelin most people never think about twice. The trick is what happens when it is ethereal. Ethereal boosts the damage, and for a throwing weapon that depletes that would normally be a death sentence. Titan's Revenge replenishes its own stack, so an ethereal pair throws forever at boosted damage. Two amazon skills and thirty faster run ride along. It is the javazon's quiet grail, hiding as a common gold javelin.",
     history: null,
-    ifYouFind: "Ethereal is the whole game here. An ethereal Titan's that replenishes is worth far more than the plain one you throw away."
+    ifYouFind: "A throwing weapon that improves when ethereal is a contradiction, since ethereal means it depletes and cannot be repaired. This one refills its own stack, so the boost costs nothing and the plain version most people keep is the wrong one."
   },
   {
     slug: "valkyrie-wing-08",
@@ -930,7 +930,7 @@ const ITEMS = [
     obscurity: 4,
     why: "The Vampire Gaze that drops today cuts physical damage by fifteen to twenty percent. This one, from patch 1.08, does a flat twenty five, with no cold damage cluttering the stat line. Five extra points of reduction does not sound like much until you stack it against everything else. Hardcore players chased these for years. It stopped dropping in this form long ago.",
     history: "Damage reduction was rebalanced after 1.08, and Vampire Gaze lost its fixed twenty five percent. The old copies kept it. Like every legacy item, they live only on non-ladder, and they get scarcer every year.",
-    ifYouFind: "Check the damage reduced line. Twenty five percent flat means it is a 1.08 relic, not a modern drop."
+    ifYouFind: "The damage-reduced line dates it. A flat twenty five percent is the 1.08 helm, five points above anything the modern version rolls, on a slot where five points is a lot."
   },
   {
     slug: "small-charm-5-20",
@@ -949,7 +949,7 @@ const ITEMS = [
     obscurity: 3,
     why: "A small charm takes one inventory square. This one gives five all resistance and twenty life for that square, both maxed. It is the best defensive small charm in the game, and players hoard whole rows of them. A perfect one costs more than plenty of uniques. Most people who find a near miss never notice how far off max it is.",
     history: null,
-    ifYouFind: "Five and twenty is perfect. A four and eighteen looks almost identical and is worth a fraction. Read the numbers."
+    ifYouFind: "A four-and-eighteen looks identical at a glance and trades for a fraction. The last point on each line is where nearly all the value hides, which is the cruelty of a perfect charm."
   },
   {
     slug: "small-charm-3-20-20",
@@ -969,7 +969,7 @@ const ITEMS = [
     obscurity: 2,
     why: "The melee version of the perfect small charm. Three maximum damage, twenty attack rating, twenty life, all maxed, in one square. Physical builds fill their inventory with these. The roll has to hit all three ceilings at once, which almost never happens, and that is what you pay for.",
     history: null,
-    ifYouFind: "All three lines have to be maxed. Close does not count and is not worth much."
+    ifYouFind: "Three ceilings on one square, and the game has to hit all three at once. Miss any by a point and it falls from a small fortune to filler, which is why perfect ones get hoarded."
   },
   {
     slug: "grand-charm-skiller",
@@ -988,7 +988,7 @@ const ITEMS = [
     obscurity: 3,
     why: "A grand charm that adds a whole skill level to one of your trees is already worth keeping. One that also rolls near-max life is an endgame item. Javazons, casters and warcry barbarians build their whole inventory out of these. The skill is the base value. The life roll on top is what turns a common skiller into an expensive one.",
     history: null,
-    ifYouFind: "Any plus-skill grand charm is worth holding. One with forty plus life is worth real trade."
+    ifYouFind: "The skill is the floor and the life is the ceiling. A whole inventory of these is how javazons, casters and warcry barbarians are actually built, one square at a time."
   },
   {
     slug: "jewel-40-15",
@@ -1006,7 +1006,7 @@ const ITEMS = [
     obscurity: 3,
     why: "One jewel. Forty percent enhanced damage and fifteen percent increased attack speed, both maxed. It is the single most valuable jewel in the game, and it trades in the high rune range, Ber to Jah. A whole endgame rune for one socketable. Almost every jewel is filler. This exact roll is a small fortune, and two lines are all that separate them.",
     history: null,
-    ifYouFind: "Forty and fifteen, both maxed, or it is just another jewel. There is no close second on this one."
+    ifYouFind: "Two maxed lines separate a small fortune from a vendor jewel. There is no near-miss market here. It is forty and fifteen, or it is filler."
   },
   {
     slug: "rainbow-facet",
@@ -1027,7 +1027,7 @@ const ITEMS = [
     obscurity: 3,
     why: "A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.",
     history: null,
-    ifYouFind: "Match the element to your build, want the level-up trigger, and check for the five and five. Off-element or death-trigger is a different market."
+    ifYouFind: "One gold name, eight very different price tags. Element, trigger and roll all move it, and a perfect cold level-up facet and a poison death facet share nothing but the title."
   },
   {
     slug: "angelic-combo",
@@ -1047,7 +1047,7 @@ const ITEMS = [
     obscurity: 2,
     why: "A seasoned player sees a set ring and amulet and moves on. That is the mistake. Worn together, the ring grants twelve attack rating for every character level. At level thirty that is hundreds of attack rating, more than a low-level character could ever get another way, and it makes a twink hit things it has no business hitting. The pieces are cheap. Knowing to pair them is the whole value.",
     history: null,
-    ifYouFind: "Only worth it as the pair, ring and amulet together. One without the other is just a set piece."
+    ifYouFind: "The value lives entirely in the pairing. Worn together the ring hands a low-level character attack rating nothing else at that level can reach, the twink secret hiding inside a set most people skip."
   },
   {
     slug: "plague-bolt",
@@ -1101,7 +1101,7 @@ const ITEMS = [
     obscurity: 3,
     why: "Level nine gloves. A player rushing to endgame vendors them without a glance. In the low-level dueling bracket they are a staple, because forty life, ten attack speed and thirty faster hit recovery at that level requirement is enormous. A perfect pair with max enhanced defense trades for real currency inside that market.",
     history: null,
-    ifYouFind: "The forty life and the speed are fixed. It is the market that makes them valuable, not the roll, so do not vendor a clean pair."
+    ifYouFind: "The stats never vary, so the roll is not the story. The market is. Level nine gloves with forty life and speed are a cornerstone of a dueling bracket most players never touch."
   },
   {
     slug: "cruel-matriarchal-bow",
@@ -1266,7 +1266,7 @@ const ITEMS = [
     obscurity: 2,
     why: "Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.",
     history: null,
-    ifYouFind: "Worthless to a rusher, a building block to a twink. Know which one you are before you sell it."
+    ifYouFind: "Two players see the same armor and value it a hundred to zero. To a rusher it is nothing. To a low-level dueler it is a breakpoint machine nothing else at that level reaches."
   },
   {
     slug: "silks-of-the-victor",
@@ -1314,7 +1314,7 @@ const ITEMS = [
     obscurity: 3,
     why: "The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.",
     history: "For years the Spectral Shard was the caster weapon. Fifty faster cast at a level twenty five requirement was a breakpoint nothing cheaper could touch, so nearly every budget sorceress and every low-level caster dueler carried one. In that bracket it was so standard that seeing any other weapon was the surprise. Better cast weapons eventually arrived and pushed it down to a starter pick, but for a long stretch this flimsy little blade was the first thing a caster reached for.",
-    ifYouFind: "Ignore the weapon damage. The fifty cast rate at a low level is the point."
+    ifYouFind: "The four-to-fifteen damage is the joke that hides the item. A caster reads one line, fifty cast rate at a level twenty five requirement, and never looks at the rest."
   },
   {
     slug: "goldskin",
@@ -1361,7 +1361,7 @@ const ITEMS = [
     obscurity: 3,
     why: "Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.",
     history: null,
-    ifYouFind: "Only the pair matters. Together they hand a low-level character stats that normally cost a whole gear slot."
+    ifYouFind: "Cannot be frozen at almost no level requirement is the prize, and the pair frees the ring or amulet slot a twink would otherwise spend to get it. Two junk-looking set pieces buying back a whole slot."
   },
   {
     slug: "wirts-leg",
@@ -1407,7 +1407,7 @@ const ITEMS = [
     obscurity: 3,
     why: "Two Tomb Reavers can be worlds apart. It rolls one to three sockets and an enhanced damage range that swings by eighty percent. Only a three-socket copy at the top of the range is the one people chase. Then it hands you sixty attack speed, fifty all resist, and eighty magic find on top of monster damage. The name is the same on all of them. The roll is everything.",
     history: null,
-    ifYouFind: "Count sockets, then read the enhanced damage. Three sockets and a high roll is the grail. One socket and a low roll is a different, cheaper axe."
+    ifYouFind: "Sockets and enhanced damage both roll wide, so two Tomb Reavers can be a fortune apart. The gold name is identical on the grail and the vendor axe, and only the numbers separate them."
   },
   {
     slug: "sacred-targe",
@@ -1437,7 +1437,7 @@ const ITEMS = [
     obscurity: 3,
     why: "The paladin's answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.",
     history: null,
-    ifYouFind: "Four sockets, the block rolls, and forty five resist on a magic Sacred Targe. That is the paladin grail. You socket it yourself."
+    ifYouFind: "It is the JMOD's paladin cousin, a blue shield that outbuilds the runewords for its slot. The all-resistance line the base grants for free is what a plain Monarch cannot match."
   },
   {
     slug: "constricting-ring",
@@ -1556,7 +1556,7 @@ const ITEMS = [
     obscurity: 4,
     why: "The Archon Plate is the lightest elite body armor, the lowest strength of the top tier. This one is magic, with four sockets and a hundred life on it. You cannot put Enigma in it, that needs a plain three-socket armor, but you can fill four sockets with resist runes or jewels and build a caster armor tuned to stats Enigma cannot give. Most players see a blue armor and move on. This one is a project piece worth real trade.",
     history: null,
-    ifYouFind: "Four sockets and a big life roll on a low-strength magic Archon. That is a build-your-own armor, not vendor fodder."
+    ifYouFind: "You cannot put Enigma in it, and that is the point. Four sockets on the lightest elite armor build a caster body tuned to stats Enigma cannot give, on a base most people scroll past for being blue."
   },
   {
     slug: "kano-zod",
@@ -1602,7 +1602,7 @@ const ITEMS = [
     obscurity: 4,
     why: "The Diadem is the best caster-helm base in the game. A magic one with three sockets and run speed is a blank canvas: drop in three facets and you have a helm that cuts enemy resistance and boosts your damage, tuned to your element. It reads as a junk blue circlet. It is one of the better caster helms you can build.",
     history: null,
-    ifYouFind: "Three sockets on a Diadem is the prize. You fill it yourself, so an empty magic one with the sockets is what to grab."
+    ifYouFind: "The Diadem is the best caster-helm base there is, and a three-socket magic one is a blank canvas. The empty sockets are the value, not anything the item came with."
   },
   {
     slug: "cruel-mythical-sword",
@@ -1626,7 +1626,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A blue sword that reads like a vendor sale and hits like an elite runeword. Cruel is the most damage a magic weapon can roll, and a perfect one lands at three hundred percent. Ethereal stacks another fifty on the base. On a Mythical Sword, one of the hardest-hitting one-handers in the game, that is more raw damage than most gold weapons carry, for the price of a blue drop. Nothing on the name warns you.",
     history: null,
-    ifYouFind: "Read the enhanced damage. A Cruel roll near three hundred on an ethereal elite base is a real weapon, not a vendor sale."
+    ifYouFind: "Cruel is the most enhanced damage a magic weapon can carry, and three hundred is its ceiling. On an ethereal elite base that is more raw damage than most gold weapons, under a blue name that warns no one."
   },
   {
     slug: "cunning-greater-talons",
@@ -1652,7 +1652,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A trap assassin's dream claw. Plus three to the whole Traps tree and plus three to Lightning Sentry on top, on one magic claw, with forty attack speed. Dual wield two of these and you are stacking skills a runeword claw cannot touch. A blue weapon most players scroll right past, worth more than the orange ones to the right build.",
     history: null,
-    ifYouFind: "The plus three traps and the plus three sentry together is the jackpot. One or the other is common. Both on one claw is not."
+    ifYouFind: "Either skill line alone is common. Both stacked on one magic claw is the roll a trapsin chases, and dual-wielding two of them piles on skills no runeword claw can reach."
   },
   {
     slug: "lancers-matriarchal-javelin",
@@ -1678,7 +1678,7 @@ const ITEMS = [
     obscurity: 4,
     why: "Six skill levels on a throwing weapon. Plus six to javelin and spear skills is more than any javazon gets from a single item anywhere else, and it comes with forty attack speed on a fast base. A blue javelin that outclasses the famous options for a javazon, and most people never think to read the skills line on a magic throwing weapon.",
     history: null,
-    ifYouFind: "Plus six to javelin and spear on a magic javelin is the grail. Five is good. Six is a small fortune."
+    ifYouFind: "Six skill levels on a thrown weapon is more than a javazon gets from any other single item. The step from five to six is the difference between good and a small fortune, hiding on a blue name."
   },
   {
     slug: "volcanic-eldritch-orb",
@@ -1706,7 +1706,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A fire sorceress dream stacked onto one blue orb. Three to the whole fire tree, three more to Fire Mastery, three more to Enchant, and two open sockets on top. Sorceress orbs roll hidden skill bonuses, and hitting three useful ones at once is what separates a fortune from a vendor sale. Drop two facets in and the fire damage climbs again.",
     history: null,
-    ifYouFind: "Read the skill lines. One plus-three is common, three stacked plus-threes on the same orb is the jackpot."
+    ifYouFind: "Orbs roll hidden skill bonuses, so one plus-three is common and forgettable. Three of them stacked on the same orb is the jackpot the vendor sale is hiding."
   },
   {
     slug: "gaean-falcon-mask",
@@ -1738,7 +1738,7 @@ const ITEMS = [
     obscurity: 4,
     why: "A wind druid's whole shopping list on one blue pelt. Three to the elemental tree and three more straight to Tornado, plus grizzly and hunger, and two open sockets. Druid pelts roll hidden skill bonuses like weapons do, and landing the wind combo on one is rare. It out-skills the unique pelts for a storm druid and looks like nothing.",
     history: null,
-    ifYouFind: "The plus-three elemental and plus-three Tornado together is the win. Fill the sockets and it is a top-tier storm helm."
+    ifYouFind: "Druid pelts roll hidden skill bonuses like weapons do, and the wind combo landing on one is rare. It out-skills the unique pelts a storm druid could wear, disguised as nothing."
   },
   {
     slug: "artisans-diadem-dr",
@@ -1763,7 +1763,7 @@ const ITEMS = [
     obscurity: 4,
     why: "The other end of the Diadem chase. This one traded run speed for twenty six flat damage reduction, one of the strongest defensive stats in the game, on the best caster-helm base, with three sockets still open for facets. Flat damage reduction that high on a helm you can also stack facets into is a rare and greedy combination.",
     history: null,
-    ifYouFind: "Twenty six damage reduced and three sockets on a Diadem is the defensive grail. The suffix is the value, the sockets are the bonus."
+    ifYouFind: "Flat damage reduction that high on the best caster-helm base is a greedy combination. The suffix carries the value, and three open sockets for facets are an unreasonable amount to ask on top."
   }
 ];
 
