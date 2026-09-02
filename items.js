@@ -1508,6 +1508,34 @@ const ITEMS = [
     ifYouFind: "Compare the defense to the enhanced defense. If it is far higher than the math allows, it was ebugged before the fix, and it cannot be made now."
   },
   {
+    slug: "soul-spawn",
+    name: "Soul Spawn",
+    alias: "classic rare mace",
+    quality: "rare",
+    type: "Martel de Fer",
+    era: "Classic",
+    sprite: "img/martel-de-fer.png",
+    tooltip: [
+      { t: "Two-Hand Damage: 181 to 314", c: "white" },
+      { t: "Durability: 34 of 60", c: "white" },
+      { t: "Required Strength: 169", c: "white" },
+      { t: "Required Level: 48", c: "white" },
+      { t: "Mace Class - Normal Attack Speed", c: "white" },
+      "+197% Enhanced Damage",
+      "+20 to Maximum Damage",
+      "+203 to Attack Rating",
+      "Adds 3-14 Cold Damage",
+      "6% Life Stolen per Hit",
+      "+50% Damage to Undead"
+    ],
+    valueTier: "D",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "A classic rare mace, and in classic Diablo 2 a rolled rare like this was the melee endgame. Nearly two hundred enhanced damage, twenty maximum damage, two hundred attack rating, life steal and bonus undead damage, all on one Martel de Fer with no runeword or elite unique to outclass it. In hardcore classic, where survivability came from the leech line, this was the mace people built around.",
+    history: null,
+    ifYouFind: "The best of its base in a bracket the expansion erased. Life steal and the attack rating are what made it a hardcore classic weapon, not the raw damage alone."
+  },
+  {
     slug: "bonesnap",
     name: "Bonesnap",
     alias: "classic melee chase",
