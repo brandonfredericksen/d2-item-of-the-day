@@ -39,6 +39,7 @@
       findTitle: "If you find one",
       valueLabel: "Value",
       valueMeaning: "A rough worth on a mature ladder season, from Trash up to a Chase item. A guess, not a price check.",
+      proofLabel: "see the real drop",
       rarityLabel: "Rarity",
       rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
       lastPatchLabel: "Last seen",
@@ -64,15 +65,37 @@
   var app = document.getElementById("app");
   var langbarEl = document.getElementById("langbar");
 
-  /* Toggle a socketed item between empty and filled (bound once). */
+  /* Sprite-fill toggle and the proof modal, delegated (bound once). */
   if (app) app.addEventListener("click", function (e) {
-    var btn = e.target && e.target.closest ? e.target.closest(".sprite-toggle") : null;
+    var t = e.target;
+    var proofBtn = t && t.closest ? t.closest(".proof-link") : null;
+    if (proofBtn) { openProof(proofBtn.getAttribute("data-proof")); return; }
+    var btn = t && t.closest ? t.closest(".sprite-toggle") : null;
     if (!btn) return;
     var col = btn.closest(".tip-col");
     if (!col) return;
     var on = col.classList.toggle("show-fill");
     btn.textContent = on ? "show empty" : (btn.getAttribute("data-label") || "socket it");
   });
+
+  /* Proof modal: the real in-game screenshot behind an item's claims. */
+  function openProof(src) {
+    if (!src) return;
+    var m = document.getElementById("proofModal");
+    var img = document.getElementById("proofImg");
+    if (!m || !img) return;
+    img.src = src;
+    m.classList.add("open");
+  }
+  function closeProof() {
+    var m = document.getElementById("proofModal");
+    if (m) { m.classList.remove("open"); }
+  }
+  document.addEventListener("click", function (e) {
+    var m = document.getElementById("proofModal");
+    if (m && m.classList.contains("open") && m.contains(e.target)) closeProof();
+  });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeProof(); });
 
   var state = { item: null, pinned: false, lang: DEFAULT_LANG };
 
@@ -345,6 +368,9 @@
           tooltipHtml(item, lang) +
           spriteHtml(item, lang) +
           tagsHtml(item, lang) +
+          (t(item.proof, lang)
+            ? '<button type="button" class="proof-link" data-proof="' + esc(t(item.proof, lang)) + '">' + esc(ui("proofLabel", lang)) + "</button>"
+            : "") +
           (mismatchText ? '<div class="mismatch-note">' + esc(mismatchText) + "</div>" : "") +
         "</div>" +
       "</div>" +

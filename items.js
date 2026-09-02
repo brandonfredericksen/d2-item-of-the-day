@@ -83,6 +83,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/monarch.png",
+    proof: "research/reference-screenshots/jewelers-monarch-of-deflecting.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
     fillLabel: "socket 4 lightning facets",
     fillTip: ["-20% to Enemy Lightning Resistance", "+20% to Lightning Skill Damage"],
@@ -217,6 +218,7 @@ const ITEMS = [
     quality: "rare",
     type: "Amulet",
     sprite: "img/rare-amulet.png",
+    proof: "research/reference-screenshots/armageddon-fletch.png",
     tooltip: [
       { t: "Required Level: 41", c: "white" },
       "+2 to Sorceress Skill Levels",
@@ -277,6 +279,7 @@ const ITEMS = [
     quality: "normal",
     type: "",
     sprite: "img/ring.png",
+    proof: "research/reference-screenshots/white-ring.png",
     illicit: "Hacked",
     tooltip: [
       "100% Faster Run/Walk",
@@ -303,6 +306,7 @@ const ITEMS = [
     quality: "normal",
     type: "Colossus Blade",
     sprite: "img/colossus-blade.png",
+    proof: "research/reference-screenshots/ith-colossus-blade.png",
     illicit: "Hacked",
     tooltip: [
       { t: "One-Hand Damage: 220 to 668", c: "white" },
@@ -336,6 +340,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/small-charm.png",
+    proof: "research/reference-screenshots/hex-charm.png",
     illicit: "Hacked",
     tooltip: [
       { t: "Keep in Inventory to Gain Bonus", c: "grey" },
@@ -361,6 +366,7 @@ const ITEMS = [
     quality: "rare",
     type: "Matriarchal Bow",
     sprite: "img/matriarchal-bow.png",
+    proof: "research/reference-screenshots/guid-needle-bow.png",
     tooltip: [
       { t: "(Amazon Only)", c: "red" },
       { t: "Required Strength: 70", c: "white" },
@@ -389,6 +395,7 @@ const ITEMS = [
     type: "Gothic Bow",
     era: "Classic",
     sprite: "img/rare-bow.png",
+    proof: "research/reference-screenshots/carrion-song.png",
     tooltip: [
       { t: "Two-Hand Damage: 30 to 163", c: "white" },
       { t: "Required Dexterity: 95", c: "white" },
@@ -415,6 +422,7 @@ const ITEMS = [
     quality: "runeword",
     type: "Monarch",
     sprite: "img/monarch.png",
+    proof: "research/reference-screenshots/phoenix-hybrid-hacked.png",
     illicit: "Hacked",
     tooltip: [
       { t: "Defense: 171", c: "white" },
@@ -450,6 +458,7 @@ const ITEMS = [
     quality: "rare",
     type: "Mesh Boots",
     sprite: "img/rare-boots.png",
+    proof: "research/reference-screenshots/imp-shank.png",
     tooltip: [
       { t: "Defense: 39", c: "white" },
       { t: "Durability: 16 of 16", c: "white" },
@@ -476,6 +485,7 @@ const ITEMS = [
     quality: "unique",
     type: "Splint Mail",
     sprite: "img/uniques/iceblink.webp",
+    proof: "research/reference-screenshots/iceblink.png",
     tooltip: [
       { t: "Defense: 172", c: "white" },
       { t: "Durability: 30 of 30", c: "white" },
@@ -501,6 +511,7 @@ const ITEMS = [
     quality: "rare",
     type: "Light Gauntlets",
     sprite: "img/light-gauntlets.png",
+    proof: "research/reference-screenshots/grim-fist.png",
     tooltip: [
       { t: "Defense: 13", c: "white" },
       { t: "Durability: 16 of 18", c: "white" },
@@ -529,6 +540,7 @@ const ITEMS = [
     quality: "unique",
     type: "Slayer Guard",
     sprite: "img/arreats-face.png",
+    proof: "research/reference-screenshots/glitched-arreats-face.png",
     illicit: "Bugged",
     tooltip: [
       { t: "Defense: 641", c: "white" },
@@ -592,6 +604,7 @@ const ITEMS = [
     quality: "unique",
     type: "Balrog Skin",
     sprite: "img/arkaines-valor.png",
+    proof: "research/reference-screenshots/arkaines-valor.png",
     tooltip: [
       { t: "Defense: 1664", c: "white" },
       { t: "Required Strength: 165", c: "white" },
@@ -717,6 +730,7 @@ const ITEMS = [
     quality: "rare",
     type: "Stygian Pilum",
     sprite: "img/stygian-pilum.png",
+    proof: "research/reference-screenshots/brimstone-barb.png",
     tooltip: [
       { t: "Throw Damage: 136 to 440", c: "white" },
       { t: "One-Hand Damage: 97 to 377", c: "white" },
@@ -747,6 +761,7 @@ const ITEMS = [
     quality: "rare",
     type: "Bone Helm",
     sprite: "img/viper-casque.png",
+    proof: "research/reference-screenshots/viper-casque-bone-helm.png",
     tooltip: [
       { t: "Defense: 34", c: "white" },
       { t: "Durability: 40 of 40", c: "white" },
@@ -776,6 +791,7 @@ const ITEMS = [
     quality: "rare",
     type: "Diadem",
     sprite: "img/diadem.png",
+    proof: "research/reference-screenshots/fiend-casque-diadem.png",
     tooltip: [
       { t: "Defense: 51", c: "white" },
       { t: "Durability: 20 of 20", c: "white" },
@@ -801,6 +817,7 @@ const ITEMS = [
     quality: "rare",
     type: "Tiara",
     sprite: "img/tiara.png",
+    proof: "research/reference-screenshots/pain-hood-tiara.png",
     tooltip: [
       { t: "Defense: 49", c: "white" },
       { t: "Durability: 25 of 25", c: "white" },
@@ -850,6 +867,7 @@ const ITEMS = [
     quality: "rare",
     type: "Ring",
     sprite: "img/ring.png",
+    proof: "research/reference-screenshots/eagle-loop-ring.png",
     tooltip: [
       { t: "Required Level: 88", c: "white" },
       "+115 to Attack Rating",
@@ -872,6 +890,7 @@ const ITEMS = [
     quality: "rare",
     type: "Ring",
     sprite: "img/ring.png",
+    proof: "research/reference-screenshots/havoc-circle-ring.png",
     tooltip: [
       { t: "Required Level: 66", c: "white" },
       "+10% Faster Cast Rate",
@@ -895,6 +914,7 @@ const ITEMS = [
     quality: "rare",
     type: "Ring",
     sprite: "img/ring.png",
+    proof: "research/reference-screenshots/raven-spiral-ring.png",
     tooltip: [
       { t: "Required Level: 14", c: "white" },
       "+148 to Attack Rating",
@@ -918,6 +938,7 @@ const ITEMS = [
     quality: "rare",
     type: "Ring",
     sprite: "img/ring.png",
+    proof: "research/reference-screenshots/dread-grip-ring.png",
     tooltip: [
       { t: "Required Level: 18", c: "white" },
       "7% Mana Stolen per Hit",
@@ -964,6 +985,7 @@ const ITEMS = [
     quality: "rare",
     type: "Battle Boots",
     sprite: "img/battle-boots.png",
+    proof: "research/reference-screenshots/doom-stalker.png",
     tooltip: [
       { t: "Defense: 46", c: "white" },
       { t: "Durability: 11 of 18", c: "white" },
@@ -1104,6 +1126,7 @@ const ITEMS = [
     quality: "unique",
     type: "Winged Helm",
     sprite: "img/winged-helm.png",
+    proof: "research/reference-screenshots/valkyrie-wing-108.png",
     lastPatch: "1.08",
     tooltip: [
       { t: "Defense: 127", c: "white" },
@@ -1203,6 +1226,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/small-charm.png",
+    proof: "research/reference-screenshots/fine-small-charm-of-vita.png",
     tooltip: [
       { t: "Required Level: 39", c: "white" },
       "+3 to Maximum Damage",
@@ -1346,6 +1370,7 @@ const ITEMS = [
     quality: "rare",
     type: "Gothic Bow",
     sprite: "img/rare-bow.png",
+    proof: "research/reference-screenshots/plague-bolt-bow.png",
     tooltip: [
       { t: "Two-Hand Damage: 25 to 148", c: "white" },
       { t: "Required Dexterity: 118", c: "white" },
@@ -1400,6 +1425,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/matriarchal-bow.png",
+    proof: "research/reference-screenshots/cruel-matriarchal-bow-amp.png",
     illicit: "Hacked",
     tooltip: [
       { t: "Two-Hand Damage: 95 to 223", c: "white" },
@@ -1428,6 +1454,7 @@ const ITEMS = [
     quality: "rare",
     type: "Amulet",
     sprite: "img/rare-amulet.png",
+    proof: "research/reference-screenshots/storm-circlet-amulet.png",
     illicit: "Hacked",
     tooltip: [
       { t: "Required Level: 34", c: "white" },
@@ -1487,6 +1514,7 @@ const ITEMS = [
     quality: "unique",
     type: "Boneweave",
     sprite: "img/shaftstop.png",
+    proof: "research/reference-screenshots/bugged-shaftstop.png",
     illicit: "Bugged",
     tooltip: [
       { t: "Defense: 2422", c: "white" },
@@ -1515,6 +1543,7 @@ const ITEMS = [
     type: "Martel de Fer",
     era: "Classic",
     sprite: "img/martel-de-fer.png",
+    proof: "research/reference-screenshots/soul-spawn-mace.png",
     tooltip: [
       { t: "Two-Hand Damage: 181 to 314", c: "white" },
       { t: "Durability: 34 of 60", c: "white" },
@@ -1592,6 +1621,7 @@ const ITEMS = [
     type: "Ornate Plate",
     era: "Classic",
     sprite: "img/dire-carapace.png",
+    proof: "research/reference-screenshots/dire-carapace-ornate-plate.png",
     tooltip: [
       { t: "Defense: 897", c: "white" },
       { t: "Durability: 59 of 60", c: "white" },
@@ -1762,6 +1792,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/sacred-targe.png",
+    proof: "research/reference-screenshots/jewelers-sacred-targe-of-deflecting.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
     fillLabel: "socket 4 lightning facets",
     fillTip: ["-20% to Enemy Lightning Resistance", "+20% to Lightning Skill Damage"],
@@ -1813,6 +1844,7 @@ const ITEMS = [
     quality: "unique",
     type: "Ring",
     sprite: "img/constricting-ring.png",
+    proof: "research/reference-screenshots/constricting-ring.png",
     tooltip: [
       { t: "Required Level: 95", c: "white" },
       "+15% to Maximum Fire Resist",
@@ -1908,6 +1940,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/archon-plate.png",
+    proof: "research/reference-screenshots/jewelers-archon-plate-of-the-whale.png",
     sockets: 4,
     tooltip: [
       { t: "Defense: 512", c: "white" },
@@ -1953,6 +1986,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/diadem.png",
+    proof: "research/reference-screenshots/artisans-diadem-of-speed.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
     fillLabel: "socket 3 lightning facets",
     fillTip: ["-15% to Enemy Lightning Resistance", "+15% to Lightning Skill Damage"],
@@ -1977,6 +2011,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/mythical-sword.png",
+    proof: "research/reference-screenshots/cruel-mythical-sword.png",
     tooltip: [
       { t: "One-Hand Damage: 240 to 300", c: "white" },
       { t: "Durability: 23 of 23", c: "white" },
@@ -2001,6 +2036,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/greater-talons.png",
+    proof: "research/reference-screenshots/cunning-greater-talons-of-quickness.png",
     tooltip: [
       { t: "One-Hand Damage: 21 to 36", c: "white" },
       { t: "Durability: 65 of 69", c: "white" },
@@ -2027,6 +2063,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/matriarchal-javelin.png",
+    proof: "research/reference-screenshots/lancers-matriarchal-javelin-of-quickness.png",
     tooltip: [
       { t: "Throw Damage: 35 to 66", c: "white" },
       { t: "One-Hand Damage: 30 to 54", c: "white" },
@@ -2054,6 +2091,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/eldritch-orb.png",
+    proof: "research/reference-screenshots/volcanic-eldritch-orb.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png"],
     fillLabel: "socket 2 fire facets",
     fillTip: ["-10% to Enemy Fire Resistance", "+10% to Fire Skill Damage"],
@@ -2082,6 +2120,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/falcon-mask.png",
+    proof: "research/reference-screenshots/gaean-falcon-mask-of-the-sun.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png"],
     fillLabel: "socket 2 cold facets",
     fillTip: ["-10% to Enemy Cold Resistance", "+10% to Cold Skill Damage"],
@@ -2114,6 +2153,7 @@ const ITEMS = [
     quality: "magic",
     type: "",
     sprite: "img/diadem.png",
+    proof: "research/reference-screenshots/artisans-diadem-of-life-everlasting.png",
     fill: ["img/rainbow-facet.png", "img/rainbow-facet.png", "img/rainbow-facet.png"],
     fillLabel: "socket 3 lightning facets",
     fillTip: ["-15% to Enemy Lightning Resistance", "+15% to Lightning Skill Damage"],

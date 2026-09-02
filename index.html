@@ -303,6 +303,26 @@ section p:last-child{margin-bottom:0}
   border-radius:var(--radius-sm);padding:15px 17px;
 }
 .find p{margin:0;font-size:1.02rem}
+/* proof: click to see the real in-game screenshot behind the card */
+.proof-link{
+  display:block;width:fit-content;margin:12px auto 0;
+  font-family:inherit;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--text-dim);background:var(--bg-elev-2);border:1px solid var(--border);
+  border-radius:999px;padding:5px 14px;cursor:pointer;
+}
+.proof-link:hover{color:var(--text);border-color:var(--accent)}
+.proof-modal{
+  position:fixed;inset:0;z-index:100;display:none;
+  align-items:center;justify-content:center;padding:24px;
+  background:rgba(0,0,0,.88);cursor:zoom-out;
+}
+.proof-modal.open{display:flex}
+.proof-modal img{
+  width:auto;height:auto;max-width:92vw;max-height:88vh;
+  min-width:min(90vw,440px);
+  border:1px solid var(--border);border-radius:8px;image-rendering:auto;
+  box-shadow:0 10px 40px rgba(0,0,0,.6);
+}
 .uncertain{font-size:.82rem;color:var(--text-faint);font-style:italic;margin-top:12px}
 
 /* ---------- archive: Spotify-style list ---------- */
@@ -356,6 +376,10 @@ footer p{margin:0 0 6px}
 </header>
 
 <main id="app"></main>
+
+<div class="proof-modal" id="proofModal">
+  <img id="proofImg" src="" alt="in-game screenshot of the item">
+</div>
 
 <footer>
   <p class="foot-timer" id="rollover"></p>
