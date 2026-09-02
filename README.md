@@ -18,7 +18,9 @@ Miss a day and it is gone until it comes back around. That is the point.
 
 No backend, no build step. Three files do the work:
 
-- `index.html` markup and all styling
+- `index.html` markup and all styling. Bump the `?v=` on the two script tags
+  whenever `app.js` or `items.js` changes, or returning visitors run the new
+  page against a stale cached script.
 - `items.js` the content, one object per item
 - `app.js` daily rotation, rendering, permalinks
 
