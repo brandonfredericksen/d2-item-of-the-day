@@ -817,6 +817,29 @@ const ITEMS = [
     ifYouFind: "The twink market is where this lands. At low level the 08 version is a genuinely better ring, the only Bul-Kathos that pays its bonuses in full from the first level."
   },
   {
+    slug: "havoc-circle",
+    name: "Havoc Circle",
+    alias: "10 FCR caster ring",
+    quality: "rare",
+    type: "Ring",
+    sprite: "img/ring.png",
+    tooltip: [
+      { t: "Required Level: 66", c: "white" },
+      "+10% Faster Cast Rate",
+      "+16 to Strength",
+      "+40 to Life",
+      "Cold Resist +26%",
+      "Lightning Resist +16%",
+      "Fire Resist +30%"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The caster's rare ring. Ten faster cast is the ceiling a ring can roll, and casters build their whole gear around cast breakpoints, so a ring that maxes it while also handing over forty life, sixteen strength and three resistances is a quiet endgame piece. The famous caster rings give a skill. This gives the breakpoint and the survivability a skill ring cannot.",
+    history: null,
+    ifYouFind: "Ten faster cast is the cap on a ring, so that line is as good as it gets. The tri-res and the life are what separate a chase caster ring from a plain one that only hits the breakpoint."
+  },
+  {
     slug: "raven-spiral",
     name: "Raven Spiral",
     alias: "LLD twink ring",
