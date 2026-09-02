@@ -844,6 +844,28 @@ const ITEMS = [
     ifYouFind: "The twink market is where this lands. At low level the 08 version is a genuinely better ring, the only Bul-Kathos that pays its bonuses in full from the first level."
   },
   {
+    slug: "eagle-loop",
+    name: "Eagle Loop",
+    alias: "the best melee ring",
+    quality: "rare",
+    type: "Ring",
+    sprite: "img/ring.png",
+    tooltip: [
+      { t: "Required Level: 88", c: "white" },
+      "+115 to Attack Rating",
+      "3% Life Stolen per Hit",
+      "+23 to Strength",
+      "+15 to Dexterity",
+      "+59 to Life"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The melee answer to the caster's dream ring. It rolls the exact five lines a physical build wants, attack rating, life steal, strength, dexterity and life, all high, on one ring. The famous unique rings give a skill or an aura. For a pure melee character this stat block does more, and it wears no gold name to tip anyone off.",
+    history: null,
+    ifYouFind: "This is what people mean by the best melee ring in the game. Every line feeds a physical build, and the game has to land all five high at once, which is why a clean one is a genuine chase."
+  },
+  {
     slug: "havoc-circle",
     name: "Havoc Circle",
     alias: "10 FCR caster ring",
