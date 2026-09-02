@@ -711,6 +711,33 @@ const ITEMS = [
     ifYouFind: "Throw it, never melee it. Ethereal cannot be repaired, and only the thrown stack refills. The maxed three hundred enhanced damage is the roll that makes it."
   },
   {
+    slug: "viper-casque",
+    name: "Viper Casque",
+    alias: "socketed rare helm",
+    quality: "rare",
+    type: "Bone Helm",
+    sprite: "img/viper-casque.png",
+    tooltip: [
+      { t: "Defense: 34", c: "white" },
+      { t: "Durability: 40 of 40", c: "white" },
+      { t: "Required Strength: 25", c: "white" },
+      { t: "Required Level: 46", c: "white" },
+      "+20% Faster Hit Recovery",
+      "+12 to Dexterity",
+      "+88 to Life",
+      "+38 to Mana",
+      "Cold Resist +28%",
+      "Lightning Resist +32%",
+      "Socketed (1)"
+    ],
+    valueTier: "C",
+    rarityTier: "Very Rare",
+    obscurity: 3,
+    why: "A rare helm that quietly covers four needs at once. Twenty faster hit recovery, eighty eight life, two resistances, and an open socket, all on a Bone Helm a caster or hybrid can wear. No single line screams, which is why it gets scrolled past, but the sum holds its own against the uniques in the slot, and the socket lets you tune it further.",
+    history: null,
+    ifYouFind: "The socket is doing the extra work here, a perfect ruby dropped in for the life. A modest yellow helm plus one gem becomes a build piece the tooltip never advertised."
+  },
+  {
     slug: "pain-hood",
     name: "Pain Hood",
     alias: "2/20 druid circlet",
@@ -1380,6 +1407,35 @@ const ITEMS = [
     why: "Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.",
     history: null,
     ifYouFind: "Two players see the same armor and value it a hundred to zero. To a rusher it is nothing. To a low-level dueler it is a breakpoint machine nothing else at that level reaches."
+  },
+  {
+    slug: "dire-carapace",
+    name: "Dire Carapace",
+    alias: "classic rare armor",
+    quality: "rare",
+    type: "Ornate Plate",
+    era: "Classic",
+    sprite: "img/dire-carapace.png",
+    tooltip: [
+      { t: "Defense: 897", c: "white" },
+      { t: "Durability: 59 of 60", c: "white" },
+      { t: "Required Strength: 102", c: "white" },
+      { t: "Required Level: 39", c: "white" },
+      "+20% Faster Hit Recovery",
+      "+100 to Attack Rating",
+      "+99% Enhanced Defense",
+      "+49 to Life",
+      "+37 to Mana",
+      "Lightning Resist +47%",
+      "Requirements -40%",
+      "Socketed (1)"
+    ],
+    valueTier: "D",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "In classic Diablo 2, before runewords and before elite armor existed, a rolled rare body like this was the top of the armor ladder. Nearly nine hundred defense, faster hit recovery, life, mana, resistance and a socket, all on one Ornate Plate. Classic rares stacked combinations Lord of Destruction later reined in, and a body armor carrying an attack-rating line is one of them.",
+    history: "Classic's affix rules were looser than the game people know now, so classic rares could roll mixes that read as impossible under Lord of Destruction. That is the whole appeal of a piece like this to a collector: it is a snapshot of a ruleset the game left behind. Runewords and elite uniques buried it, and the classic rare armor market faded with them.",
+    ifYouFind: "The attack-rating line is the fingerprint. A body armor should not carry it, which is exactly what marks this as a relic of the classic ruleset rather than a modern drop."
   },
   {
     slug: "silks-of-the-victor",
