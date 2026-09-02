@@ -1,4 +1,68 @@
+# Search engines are welcome.
 User-agent: *
 Allow: /
+
+# AI crawlers are not. These are opt-out by convention only.
+# Nothing here blocks Google, Bing, or DuckDuckGo search.
+
+# OpenAI
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+Disallow: /
+
+# Google Gemini training. Googlebot and Search are untouched.
+User-agent: Google-Extended
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+Disallow: /
+
+# Apple Intelligence training. Applebot and Siri are untouched.
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: FacebookBot
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Disallow: /
+
+# Common Crawl, the scrape most training sets are built from
+User-agent: CCBot
+Disallow: /
+
+# Everyone else
+User-agent: Amazonbot
+User-agent: Bytespider
+User-agent: TikTokSpider
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: YouBot
+User-agent: Timpibot
+User-agent: PanguBot
+User-agent: Kangaroo Bot
+User-agent: Webzio-Extended
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: SemrushBot-OCOB
+User-agent: Scrapy
+Disallow: /
 
 Sitemap: https://d2itemoftheday.com/sitemap.xml
