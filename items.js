@@ -768,6 +768,33 @@ const ITEMS = [
     ifYouFind: "The socket is doing the extra work here, a perfect ruby dropped in for the life. A modest yellow helm plus one gem becomes a build piece the tooltip never advertised."
   },
   {
+    slug: "fiend-casque",
+    grid: [2, 2],
+    sockets: 2,
+    name: "Fiend Casque",
+    alias: "godly assassin circlet",
+    quality: "rare",
+    type: "Diadem",
+    sprite: "img/diadem.png",
+    tooltip: [
+      { t: "Defense: 51", c: "white" },
+      { t: "Durability: 20 of 20", c: "white" },
+      { t: "Required Level: 79", c: "white" },
+      "+2 to Assassin Skill Levels",
+      "+30% Faster Run/Walk",
+      "+30% Increased Attack Speed",
+      "+20% Faster Cast Rate",
+      "Poison Length Reduced by 75%",
+      "Socketed (2)"
+    ],
+    valueTier: "A",
+    rarityTier: "Very Rare",
+    obscurity: 4,
+    why: "The assassin's dream circlet. Two to all assassin skills, thirty faster run, thirty attack speed, twenty faster cast, and two open sockets, all on the best caster-helm base in the game. A rare circlet is the only helm that stacks a class-skill bonus with three separate kinds of speed and sockets to spare, and no unique assassin helm comes near it.",
+    history: null,
+    ifYouFind: "Count the speed lines. Run, attack and cast all maxed on one circlet, plus two class skills and two sockets, is a spread the game almost never rolls together on a helm."
+  },
+  {
     slug: "pain-hood",
     name: "Pain Hood",
     alias: "2/20 druid circlet",
