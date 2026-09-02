@@ -26,14 +26,18 @@
   header .title b{color:#e03a33; font-weight:800}
   header .count{color:var(--text-faint); font-size:.72rem; letter-spacing:.12em; text-transform:uppercase}
   header .hint{color:var(--text-faint); font-size:.72rem}
-  header .search{
-    margin-left:auto; width:240px; max-width:44vw;
-    padding:6px 12px; border-radius:999px;
-    background:var(--bg-elev-2); border:1px solid var(--border);
-    color:var(--text); font-family:inherit; font-size:.8rem;
+  .list-search{
+    position:sticky; top:0; z-index:2;
+    margin:-8px -8px 8px; padding:8px;
+    background:var(--bg); border-bottom:1px solid var(--border);
   }
-  header .search::placeholder{color:var(--text-faint)}
-  header .search:focus{outline:none; border-color:var(--accent)}
+  .list-search input{
+    width:100%; padding:7px 12px; border-radius:999px;
+    background:var(--bg-elev-2); border:1px solid var(--border);
+    color:var(--text); font-family:inherit; font-size:.82rem;
+  }
+  .list-search input::placeholder{color:var(--text-faint)}
+  .list-search input:focus{outline:none; border-color:var(--accent)}
 
   .wrap{display:flex; flex:1; min-height:0}
   .list{
@@ -77,10 +81,11 @@
   <span class="title"><b>DIABLO 2</b> Item Gallery</span>
   <span class="count" id="count"></span>
   <span class="hint">hover or tap a name to preview it</span>
-  <input id="search" class="search" type="search" placeholder="Search by name…" autocomplete="off" spellcheck="false">
 </header>
 <div class="wrap">
-  <div class="list" id="list"></div>
+  <div class="list" id="list">
+    <div class="list-search"><input id="search" type="search" placeholder="Search by name…" autocomplete="off" spellcheck="false"></div>
+  </div>
   <div class="preview">
     <div class="empty" id="empty">Hover an item to see it as the home page renders it.</div>
     <iframe id="frame" title="preview"></iframe>
@@ -146,7 +151,7 @@
   searchBox.addEventListener("input", function(){
     var q = searchBox.value.trim().toLowerCase();
     var shown = 0;
-    [].forEach.call(list.children, function(row){
+    [].forEach.call(list.querySelectorAll(".row"), function(row){
       var match = !q || row.dataset.search.indexOf(q) !== -1;
       row.style.display = match ? "" : "none";
       if (match) shown++;
