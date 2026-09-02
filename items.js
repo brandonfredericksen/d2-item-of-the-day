@@ -109,7 +109,7 @@ const ITEMS = [
     alias: "TM",
     quality: "unique",
     type: "Sacred Armor",
-    sprite: "img/tyraels-might.png",
+    sprite: "img/uniques/tyraels-might.png",
     tooltip: [
       { t: "Defense: 1502", c: "white" },
       { t: "Required Level: 84", c: "white" },
