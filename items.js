@@ -607,6 +607,28 @@ const ITEMS = [
     ifYouFind: "The Firestorm line dates it. Twenty five percent is the pre-1.13 version, sitting in the same stash tab as its five-percent descendant and looking almost identical."
   },
   {
+    slug: "highlords-08",
+    name: "Highlord's Wrath",
+    alias: "1.08 Highlord's",
+    quality: "unique",
+    type: "Amulet",
+    sprite: "img/amulet.png",
+    lastPatch: "1.08",
+    tooltip: [
+      { t: "Required Level: 65", c: "white" },
+      "+30% Faster Run/Walk",
+      "Adds 5-20 Lightning Damage",
+      "Lightning Resist +35%",
+      "Attacker Takes Lightning Damage of 15"
+    ],
+    valueTier: "C",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "The Highlord's Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has none of that. In its first year it carried thirty percent faster run and walk and no deadly strike at all, a completely different amulet wearing the same name. It is weaker by every practical measure, which is exactly why the 08 version is a collector's oddity rather than a chase.",
+    history: "Patch 1.09 rebuilt Highlord's Wrath into the amulet it is now, stripping the faster run and adding the skill, the attack speed and the signature deadly strike. The pre-patch copies kept the run speed and never gained the rest. It is the only Highlord's in the game with faster run and walk, and the absence of deadly strike dates it on sight.",
+    ifYouFind: "A rare case where the old version is worse, and collectors want it anyway. The value is the fingerprint, a Highlord's from before the mods that made it famous."
+  },
+  {
     slug: "siggards-stealth",
     name: "Siggard's Stealth",
     alias: "the renamed Nosferatu's Coil",
@@ -716,6 +738,28 @@ const ITEMS = [
     ifYouFind: "A rare circlet is the only place a druid gets two skills and cast rate on one helm. No unique in the slot competes, and the yellow name is why nobody expects it."
   },
   {
+    slug: "bul-kathos-08",
+    name: "Bul-Kathos' Wedding Band",
+    alias: "1.08 BK ring",
+    quality: "unique",
+    type: "Ring",
+    sprite: "img/ring.png",
+    lastPatch: "1.08",
+    tooltip: [
+      { t: "Required Level: 58", c: "white" },
+      "+1 to All Skills",
+      "+20 to Life",
+      "4% Life Stolen per Hit",
+      "+50 Maximum Stamina"
+    ],
+    valueTier: "C",
+    rarityTier: "Mythic",
+    obscurity: 5,
+    why: "The Bul-Kathos ring is famous for one line, plus one to all skills. The other two are what changed. Today its life and its leech scale with your level, starting near nothing. In patch 1.08 the ring gave a flat twenty life and a fixed four percent leech at any level, which made it a real ring for a low-level character where the modern one gives almost nothing.",
+    history: "Patch 1.09 swapped Bul-Kathos' flat bonuses for level-scaling ones. A 1.08 copy hands a level-one twink the full twenty life and four percent leech that a modern ring will not reach until much later, if ever. The plus one skills is identical on both, so the whole difference hides in the two lines nobody reads.",
+    ifYouFind: "The twink market is where this lands. At low level the 08 version is a genuinely better ring, the only Bul-Kathos that pays its bonuses in full from the first level."
+  },
+  {
     slug: "wisp-projector",
     name: "Wisp Projector",
     alias: "20/20 Wisp",
@@ -764,6 +808,32 @@ const ITEMS = [
     why: "The slot most players fill with a unique and forget. This rare does more. Thirty faster run and walk, forty lightning and forty fire, twenty life with a little replenish, and the part people forget boots can even roll: life steal. Speed, two big resists, life and leech in one slot almost never land together. The leech here is one percent. A perfect roll pushes it higher.",
     history: null,
     ifYouFind: "Most players do not know boots can leech at all. That line is the surprise, riding on a speed-and-resist roll that would already be worth keeping without it."
+  },
+  {
+    slug: "blackoak-shield",
+    name: "Blackoak Shield",
+    alias: "the patch-notes bug",
+    quality: "unique",
+    type: "Luna",
+    sprite: "img/blackoak-shield.png",
+    tooltip: [
+      { t: "Defense: 372", c: "white" },
+      { t: "Chance to Block: 45%", c: "white" },
+      { t: "Required Strength: 100", c: "white" },
+      { t: "Required Level: 61", c: "white" },
+      "+200% Enhanced Defense (Based on Character Level)",
+      "+50% Faster Block Rate",
+      "4% Chance to Cast Level 5 Weaken when Struck",
+      "Cold Absorb (Based on Character Level)",
+      "+Life (Based on Character Level)",
+      "Half Freeze Duration"
+    ],
+    valueTier: "D",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "Blackoak Shield is a solid block-rate shield, but its claim to fame is a line in a patch note. Its enhanced defense scales with your level, and for a while the game calculated that wrong. A copy from before patch 1.09 did not compute its own defense the way a modern one does, which makes it one of the few items whose bug is documented in Blizzard's own words.",
+    history: "The official 1.09 notes read: fixed a bug where the enhanced defense for items that gained it on a per level basis was improperly calculated, such as Blackoak Shield. The same note names Hellslayer and Magewrath for their own miscalculations. It is a rare thing, an item quirk you can trace straight to a primary source instead of forum memory.",
+    ifYouFind: "Most old-item stories live on hearsay. This one is printed in the patch notes, which is what makes a plain block shield worth a second look."
   },
   {
     slug: "herald-of-zakarum",
@@ -991,6 +1061,25 @@ const ITEMS = [
     ifYouFind: "The skill is the floor and the life is the ceiling. A whole inventory of these is how javazons, casters and warcry barbarians are actually built, one square at a time."
   },
   {
+    slug: "ber-rune",
+    name: "Ber Rune",
+    alias: "the currency after SoJ",
+    quality: "rune",
+    type: "",
+    sprite: "img/socketables/rune-ber.png",
+    tooltip: [
+      { t: "Required Level: 63", c: "white" },
+      "Weapons: 20% Chance of Crushing Blow",
+      "Armor, Helms, Shields: Damage Reduced by 8%"
+    ],
+    valueTier: "S",
+    rarityTier: "Mythic",
+    obscurity: 3,
+    why: "When duping crashed the Stone of Jordan, the economy needed a unit that was harder to inflate, and it landed on high runes. The Ber became the standard. It is rare, it is needed for the best runewords, and it is small enough to price anything against. For years gear was quoted in Bers and Jahs the way it was once quoted in SoJs.",
+    history: "Diablo 2's money kept dying and reincarnating. Gold was worthless, so players adopted the Stone of Jordan. Duping broke it, so the standard moved to high runes like Ber and Jah, compact and demanded by runewords. When those were duped too, trust in in-game items collapsed and the community moved its unit of account off the game entirely, into forum gold. Each currency fled to wherever the dupers could not reach.",
+    ifYouFind: "The eight percent damage reduction is why it goes in armor, but that was never the point. For a long stretch the Ber was simply money, and the runeword use was the reason it held its worth."
+  },
+  {
     slug: "jewel-40-15",
     name: "Jewel of Fervor",
     alias: "40/15 jewel",
@@ -1028,6 +1117,30 @@ const ITEMS = [
     why: "A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.",
     history: null,
     ifYouFind: "One gold name, eight very different price tags. Element, trigger and roll all move it, and a perfect cold level-up facet and a poison death facet share nothing but the title."
+  },
+  {
+    slug: "iratha-finery",
+    name: "Iratha's Finery",
+    alias: "classic resist set",
+    quality: "set",
+    type: "4-Piece Set",
+    era: "Classic",
+    sprite: "img/crown.png",
+    tooltip: [
+      { t: "Required Level: 15", c: "white" },
+      "+15 to Dexterity",
+      "+50 Defense",
+      "All Resistances +20",
+      "+20% Faster Run/Walk",
+      "Half Freeze Duration",
+      "Poison Length Reduced by 75%"
+    ],
+    valueTier: "D",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "Four cheap set pieces, a crown, an amulet, a belt and a pair of gloves, all usable at level fifteen. In classic Diablo 2 that combination was a staple, because resistances were scarce and this stacked twenty all resistance, run speed, dexterity and freeze protection onto low-requirement gear anyone could wear. It looks like leveling filler and was a genuine resist answer for a whole era.",
+    history: "Before the expansion there were almost no charms and few resist items, so a full Iratha's carried real weight in Hell, where resistance penalties bite hardest. It was common on classic characters patching resistances on a budget. Lord of Destruction buried it under runewords, charms and better uniques, and it became the leveling set people blow through without a thought.",
+    ifYouFind: "The green set that mattered when the game had no better way to stack resistances. A clean marker of how far the expansion moved what even counts as filler."
   },
   {
     slug: "angelic-combo",
@@ -1438,6 +1551,27 @@ const ITEMS = [
     why: "The paladin's answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.",
     history: null,
     ifYouFind: "It is the JMOD's paladin cousin, a blue shield that outbuilds the runewords for its slot. The all-resistance line the base grants for free is what a plain Monarch cannot match."
+  },
+  {
+    slug: "manald-heal",
+    name: "Manald Heal",
+    alias: "the SoJ-fishing ring",
+    quality: "unique",
+    type: "Ring",
+    sprite: "img/ring.png",
+    tooltip: [
+      { t: "Required Level: 15", c: "white" },
+      "4% Mana Stolen per Hit",
+      "+20 to Life",
+      "Replenish Life +8",
+      "Regenerate Mana 20%"
+    ],
+    valueTier: "C",
+    rarityTier: "Uncommon",
+    obscurity: 4,
+    why: "A modest mana-leech ring, and the key to one of the game's oldest tricks. Unique rings generate in a fixed order: Nagelring first, then Manald Heal, then the Stone of Jordan. If a Nagelring and a Manald already exist in your game, the next unique ring the game rolls is forced to be an SoJ. Players carried both junk rings on purpose to fish for the currency of the realm.",
+    history: "In the SoJ economy this was real strategy. Keep a Nagelring and a Manald Heal in your stash and any unique ring drop skips straight to a Stone of Jordan. Better still, low-level monsters can only roll the first three rings, so low areas were mathematically better hunting grounds than Hell. A generation of gold farming ran on a quirk of the ring-generation table that almost nobody remembers now.",
+    ifYouFind: "The ring itself is forgettable. Its place in the generation order is what made it worth carrying, back when a Stone of Jordan was money."
   },
   {
     slug: "constricting-ring",
