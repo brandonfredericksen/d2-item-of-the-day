@@ -80,14 +80,6 @@
   --q-normal:#ffffff;
   --q-prop:#6969ff;
   --q-meta:#808080;
-
-  /* rarity ramp, cold to hot */
-  --t-s:#e0463f;
-  --t-a:#e8842c;
-  --t-b:#d4b13c;
-  --t-c:#57a55a;
-  --t-d:#4a8fd0;
-  --t-f:#6b6b74;
 }
 
 *{box-sizing:border-box}
@@ -290,13 +282,6 @@ header{
   padding:var(--sp-2) var(--sp-3);cursor:default;
 }
 .tag b{font-weight:800;font-size:.8rem;letter-spacing:.01em;text-transform:none;color:var(--text)}
-/* rarity carries the only ramp on the row, so it stays the tag you read first */
-.rar-common b{color:var(--t-f)}
-.rar-uncommon b{color:var(--t-c)}
-.rar-rare b{color:var(--t-b)}
-.rar-very-rare b{color:var(--t-a)}
-.rar-mythic b{color:var(--t-s)}
-.tag.rar-mythic{border-color:rgba(224,70,63,.32)}
 .tag.legacy{border-color:rgba(199,179,119,.35)}
 .tag.legacy b{color:var(--accent)}
 .tag.era b{color:var(--text)}                     /* default era: neutral */
@@ -372,11 +357,6 @@ summary:hover{color:var(--accent)}
   padding:var(--sp-2) var(--sp-3);text-decoration:none;color:var(--text);font-size:.9rem;border-radius:8px;
 }
 .archive-list a:hover{background:var(--bg-elev)}
-.archive-list .pip{
-  font-weight:800;font-size:.82rem;width:20px;text-align:center;flex:none;
-}
-.pip-s{color:var(--t-s)} .pip-a{color:var(--t-a)} .pip-b{color:var(--t-b)}
-.pip-c{color:var(--t-c)} .pip-d{color:var(--t-d)} .pip-f{color:var(--t-f)}
 .archive-list .nm{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 footer{
@@ -443,7 +423,6 @@ footer p{margin:0 0 var(--sp-2)}
 
 <footer>
   <p class="foot-timer" id="rollover"></p>
-  <p id="footerDisclaimer">Rarity is a rough guess against a mature ladder season. It means how often you see one around, not just drop rate.</p>
   <p id="footerLegal">Not affiliated with Blizzard Entertainment.</p>
 </footer>
 

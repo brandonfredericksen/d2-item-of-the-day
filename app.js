@@ -19,8 +19,6 @@
   var MS_PER_DAY = 86400000;
   var ANCHOR = Math.floor(Date.UTC(2026, 0, 1) / MS_PER_DAY);
 
-  var RARITY_SCALE = ["Common", "Uncommon", "Rare", "Very Rare", "Mythic"];
-
   /* Label kinds an item may carry. A kind is only here because it comes up
      often enough to deserve one wording and one hover note everywhere it
      appears. Anything rarer than that is written inline on the item as a
@@ -50,8 +48,6 @@
       historyTitle: "History",
       findTitle: "If you find one",
       proofLabel: "see the real drop",
-      rarityLabel: "Rarity",
-      rarityMeaning: "How often you actually see one available, not just its drop rate. Some items are rare because nobody keeps them.",
       sourceLabel: "Source",
       sourceMeaning: "Where this comes from, when it is not an ordinary monster drop.",
       addedLabel: "Added",
@@ -69,12 +65,7 @@
       archiveSummary: "Every item so far",
       nextItem: "Next item in {h}h {m}m {s}s",
       noSprite: "no sprite",
-      footerDisclaimer: "Rarity is a rough guess against a mature ladder season. It means how often you see one around, not just drop rate.",
-      footerLegal: "Not affiliated with Blizzard Entertainment.",
-      rarity: {
-        "Common": "Common", "Uncommon": "Uncommon", "Rare": "Rare",
-        "Very Rare": "Very Rare", "Mythic": "Mythic"
-      }
+      footerLegal: "Not affiliated with Blizzard Entertainment."
     }
   };
 
@@ -157,11 +148,6 @@
     return UI[DEFAULT_LANG][key] != null ? UI[DEFAULT_LANG][key] : key;
   }
 
-  function rarityLabel(canonical, lang) {
-    var block = (UI[lang] || UI[DEFAULT_LANG]).rarity || UI[DEFAULT_LANG].rarity;
-    return block && block[canonical] != null ? block[canonical] : canonical;
-  }
-
   /* ---------- helpers ---------- */
 
   function esc(s) {
@@ -173,21 +159,6 @@
   function todayIndex(len) {
     var utcDay = Math.floor(Date.now() / MS_PER_DAY);
     return (((utcDay - ANCHOR) % len) + len) % len;
-  }
-
-  function rarityIndex(tier) {
-    var t2 = String(tier || "").toLowerCase();
-    for (var i = 0; i < RARITY_SCALE.length; i++) {
-      if (RARITY_SCALE[i].toLowerCase() === t2) return i;
-    }
-    return -1;
-  }
-
-  /* Rarity carries the only color ramp on the tag row, cold to hot.
-     Everything else stays neutral so one facet reads at a glance. */
-  function rarityClass(tier) {
-    var i = rarityIndex(tier);
-    return i < 0 ? "" : " rar-" + RARITY_SCALE[i].toLowerCase().replace(/ /g, "-");
   }
 
   /* ---------- rendering ---------- */
@@ -375,9 +346,9 @@
   }
 
   /* ---------- per-item labels ----------
-     Every item gets Rarity. Everything past that is optional and set on
-     the item itself, so an entry only carries a tag when there is genuinely
-     something to call out. Two forms, both localizable:
+     Every tag past this point is optional and set on the item itself, so
+     an entry only carries a tag when there is genuinely something to call
+     out. Two forms, both localizable:
 
        { k: "source", v: "Uber quest" }     a known kind, label and hover
                                             text come from LABEL_KINDS
@@ -415,9 +386,6 @@
   function tagsHtml(item, lang) {
     return '' +
       '<div class="tags">' +
-        '<span class="tag rarity' + rarityClass(item.rarityTier) + '" title="' + esc(ui("rarityMeaning", lang)) + '">' +
-          esc(ui("rarityLabel", lang)) + " <b>" + esc(rarityLabel(item.rarityTier, lang)) + "</b>" +
-        "</span>" +
         (item.era
           ? '<span class="tag era era-' + esc(String(t(item.era, lang)).toLowerCase().replace(/[^a-z0-9]+/g, "-")) + '" title="' + esc(ui("eraMeaning", lang)) + '">' +
               esc(ui("eraLabel", lang)) + " <b>" + esc(t(item.era, lang)) + "</b>" +
@@ -484,9 +452,7 @@
   }
 
   function renderFooter(lang) {
-    var d = document.getElementById("footerDisclaimer");
     var l = document.getElementById("footerLegal");
-    if (d) d.textContent = ui("footerDisclaimer", lang);
     if (l) l.textContent = ui("footerLegal", lang);
   }
 
@@ -594,7 +560,7 @@
 
   /* Exposed for the node self-test in research/tools. Harmless in browser. */
   if (typeof window !== "undefined") {
-    window.__d2 = { t: t, ui: ui, todayIndex: todayIndex, rarityClass: rarityClass, gridFor: gridFor };
+    window.__d2 = { t: t, ui: ui, todayIndex: todayIndex, gridFor: gridFor };
   }
 
   init();
