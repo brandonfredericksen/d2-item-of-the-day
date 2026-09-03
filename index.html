@@ -394,6 +394,26 @@ footer p{margin:0 0 var(--sp-2)}
   :root{--cell:64px}
   .sprite-stage{padding:var(--sp-3)}
 }
+
+/* ---------- skeleton: static placeholder painted before app.js runs ----------
+   render() overwrites #app's innerHTML wholesale, so this just vanishes the
+   moment the real item lands. No JS needed to remove it. */
+.skeleton{display:flex;flex-direction:column;align-items:center;gap:var(--sp-4);margin-bottom:var(--sp-6)}
+.skel-bar,.skel-tip,.skel-stage,.skel-tag{
+  background:var(--bg-elev-2);border-radius:var(--radius-sm);
+  animation:skelPulse 1.4s ease-in-out infinite;
+}
+.skel-title-row{display:flex;flex-direction:column;align-items:center;gap:var(--sp-2);margin-bottom:var(--sp-2)}
+.skel-bar.skel-h1{width:200px;height:22px;border-radius:4px}
+.skel-bar.skel-sub{width:110px;height:11px;border-radius:4px}
+.skel-tip{width:240px;height:92px;border-radius:2px}
+.skel-stage{width:calc(var(--cell) * 2);height:calc(var(--cell) * 3)}
+.skel-tags{display:flex;gap:var(--sp-2)}
+.skel-tag{width:76px;height:23px;border-radius:999px}
+@keyframes skelPulse{0%,100%{opacity:.55}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){
+  .skel-bar,.skel-tip,.skel-stage,.skel-tag{animation:none;opacity:.75}
+}
 </style>
 </head>
 <body>
@@ -404,7 +424,18 @@ footer p{margin:0 0 var(--sp-2)}
   <div class="langbar" id="langbar"></div>
 </header>
 
-<main id="app"></main>
+<main id="app"><div class="skeleton" aria-hidden="true">
+  <div class="skel-title-row">
+    <div class="skel-bar skel-h1"></div>
+    <div class="skel-bar skel-sub"></div>
+  </div>
+  <div class="skel-tip"></div>
+  <div class="skel-stage"></div>
+  <div class="skel-tags">
+    <div class="skel-tag"></div>
+    <div class="skel-tag"></div>
+  </div>
+</div></main>
 
 <div class="proof-modal" id="proofModal">
   <img id="proofImg" src="" alt="in-game screenshot of the item">
