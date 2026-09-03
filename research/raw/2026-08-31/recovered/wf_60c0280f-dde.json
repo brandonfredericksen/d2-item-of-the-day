@@ -1,6 +1,6 @@
 [
   {
-    "domain": "Diablo 2 Resurrected (mature ladder economy) — small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
+    "domain": "Diablo 2 Resurrected (mature ladder economy): small, easily-overlooked high-value CHARMS, JEWELS, CRAFTED, and CORRUPTED items",
     "items": [
       {
         "name": "Shimmering Small Charm of Vita",
@@ -288,7 +288,7 @@
         ]
       },
       {
-        "name": "Corrupted item — high-rarity / +skills corruption (Project Diablo 2)",
+        "name": "Corrupted item: high-rarity / +skills corruption (Project Diablo 2)",
         "alias": "PD2 corruption (Worldstone Shard gamble)",
         "category": "Corrupted (MOD, not official D2R)",
         "quality": "Any (corrupted)",

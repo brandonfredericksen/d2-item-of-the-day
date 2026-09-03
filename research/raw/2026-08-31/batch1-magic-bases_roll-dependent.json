@@ -12,7 +12,7 @@
           {
             "name": "Jeweler's Monarch of Deflecting (4-socket)",
             "alias": "JMOD, Jmod",
-            "category": "Magic base — shield",
+            "category": "Magic base: shield",
             "obscurity": 3,
             "valueTierGuess": "A",
             "rarityTier": "Very rare (perfect roll)",
@@ -37,7 +37,7 @@
           {
             "name": "4-socket Crystal Sword (or Broad Sword)",
             "alias": "Spirit sword base",
-            "category": "White/grey base — sword",
+            "category": "White/grey base: sword",
             "obscurity": 2,
             "valueTierGuess": "B",
             "rarityTier": "Uncommon (4os roll is the gate)",
@@ -61,7 +61,7 @@
           {
             "name": "Ethereal Great Poleaxe (4-socket) for Insight",
             "alias": "Eth Insight base, budget merc base",
-            "category": "White/grey base — polearm (ethereal)",
+            "category": "White/grey base: polearm (ethereal)",
             "obscurity": 3,
             "valueTierGuess": "B",
             "rarityTier": "Uncommon",
@@ -85,7 +85,7 @@
           {
             "name": "Ethereal Giant Thresher (4-socket) for Infinity",
             "alias": "Eth Infinity base, eth CV alternative",
-            "category": "White/grey base — polearm (ethereal)",
+            "category": "White/grey base: polearm (ethereal)",
             "obscurity": 3,
             "valueTierGuess": "A",
             "rarityTier": "Rare (4os eth)",
@@ -108,7 +108,7 @@
           {
             "name": "5-socket Phase Blade for Grief",
             "alias": "5os PB, Grief base",
-            "category": "White/grey base — sword",
+            "category": "White/grey base: sword",
             "obscurity": 3,
             "valueTierGuess": "A",
             "rarityTier": "Rare (exactly-5 gate)",
@@ -131,7 +131,7 @@
           {
             "name": "Ethereal Berserker Axe (5- or 6-socket)",
             "alias": "Eth zerk, BA base",
-            "category": "White/grey base — axe (ethereal)",
+            "category": "White/grey base: axe (ethereal)",
             "obscurity": 3,
             "valueTierGuess": "A",
             "rarityTier": "Rare (eth + right sockets)",
@@ -154,7 +154,7 @@
           {
             "name": "Superior Archon Plate (15% Enhanced Defense, 4-socket)",
             "alias": "15ED AP, perfect Enigma base",
-            "category": "Superior white base — body armor",
+            "category": "Superior white base: body armor",
             "obscurity": 3,
             "valueTierGuess": "A",
             "rarityTier": "Very rare (perfect base + perfect superior + 4os)",
@@ -178,7 +178,7 @@
           {
             "name": "Magic Circlet '+2 (class) Skills / 20% FCR' (2-socket)",
             "alias": "Caster circlet, +2/20 circ",
-            "category": "Magic base — circlet/tiara/diadem",
+            "category": "Magic base: circlet/tiara/diadem",
             "obscurity": 3,
             "valueTierGuess": "B",
             "rarityTier": "Rare (exact affix combo)",
@@ -201,7 +201,7 @@
           {
             "name": "Rare Circlet '+2 Skills / 20% FCR / dual-stat / 2os'",
             "alias": "God circlet, rare caster circ",
-            "category": "Rare base — circlet/diadem",
+            "category": "Rare base: circlet/diadem",
             "obscurity": 4,
             "valueTierGuess": "S",
             "rarityTier": "Extremely rare (multi-affix)",
@@ -224,7 +224,7 @@
           {
             "name": "4-socket Colossus Voulge for Pride / Infinity",
             "alias": "4os CV",
-            "category": "White/grey base — polearm",
+            "category": "White/grey base: polearm",
             "obscurity": 3,
             "valueTierGuess": "B",
             "rarityTier": "Uncommon (Larzuk-guaranteed 4os)",
@@ -247,7 +247,7 @@
           {
             "name": "6-socket Colossus Blade for Breath of the Dying",
             "alias": "6os CB, BOTD base",
-            "category": "White/grey base — two-handed sword",
+            "category": "White/grey base: two-handed sword",
             "obscurity": 3,
             "valueTierGuess": "A",
             "rarityTier": "Rare (eth + exactly 6)",
@@ -270,7 +270,7 @@
           {
             "name": "Cruel elite weapon (magic, LLD/showcase base)",
             "alias": "Cruel <weapon>",
-            "category": "Magic base — weapon prefix",
+            "category": "Magic base: weapon prefix",
             "obscurity": 4,
             "valueTierGuess": "C",
             "rarityTier": "Uncommon to rare (perfect roll)",
@@ -293,7 +293,7 @@
           {
             "name": "3-socket Great Poleaxe / Thresher for Insight (non-eth)",
             "alias": "wait, it needs 4",
-            "category": "White/grey base — polearm",
+            "category": "White/grey base: polearm",
             "obscurity": 3,
             "valueTierGuess": "C",
             "rarityTier": "Common-uncommon",
@@ -316,7 +316,7 @@
           {
             "name": "4-socket Crystal Sword / Flail for Spirit (weapon) vs Monarch (shield)",
             "alias": "Spirit base pair",
-            "category": "White/grey base — sword or shield",
+            "category": "White/grey base: sword or shield",
             "obscurity": 2,
             "valueTierGuess": "B",
             "rarityTier": "Uncommon",
