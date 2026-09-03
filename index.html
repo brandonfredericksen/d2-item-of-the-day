@@ -24,6 +24,10 @@
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
+<!-- Both weights show above the fold on every item, so fetch them before the
+     CSS parse even gets to the @font-face rules. -->
+<link rel="preload" href="fonts/exocet-heavy.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="fonts/exocet-light.woff" as="font" type="font/woff" crossorigin>
 <style>
 /* Exocet, the classic Diablo display face (Emigre, 1992). Self-hosted.
    Used only for the item name, to keep the tooltip authentically D2. */
