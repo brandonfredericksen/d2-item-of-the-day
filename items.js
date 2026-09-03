@@ -170,7 +170,7 @@ const ITEMS = [
     rarityTier: "Common",
     obscurity: 2,
     why: "A ring with plus one to all skills and some mana. Common, and cheap on a mature ladder. New characters still run one for the early skill boost.",
-    ifYouFind: "The ring itself is a footnote now, a skill point and some mana on a common drop. Everything worth knowing about a Stone of Jordan is what it did to the game, not what it does on your finger.",
+    ifYouFind: "The ring still earns its slot. Plus one to all skills and a mana boost is hard to beat for the cost, and plenty of characters wear one well into the late game. What makes a Stone of Jordan worth knowing is what it did to the game, not what it does on your finger.",
     history: "The Stone of Jordan was the currency of Diablo 2 for years. Not a figure of speech. People priced gear in SOJs the way you would price it in dollars. Then duping flooded the realm with them and the currency collapsed, dragging every other price up with it. Blizzard's fix is still in the game. A hidden counter tracks Stones of Jordan sold to town vendors, and when enough get sold, Diablo Clone spawns and comes looking. One ring created a permanent boss and the sink that eats the ring. Nothing else in the game has a story like it."
   },
   {
