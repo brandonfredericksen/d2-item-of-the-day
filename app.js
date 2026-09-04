@@ -338,7 +338,8 @@
     "uniques/goldskin": [2, 3], "deaths-combo": [2, 3],
     "blackoak-shield": [2, 3], "herald-of-zakarum": [2, 3],
     "martel-de-fer": [2, 3], "maul": [2, 3],
-    "archon-plate": [2, 3], "bugged-tals": [2, 3], "shaftstop": [2, 3],
+    "archon-plate": [2, 3], "archon-plate-red": [2, 3],
+    "bugged-tals": [2, 3], "shaftstop": [2, 3],
     "berserker-axe": [2, 3], "legendary-mallet": [2, 3],
     "monarch": [2, 3], "sacred-targe": [2, 3],
 

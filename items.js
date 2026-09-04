@@ -640,7 +640,7 @@ const ITEMS = [
     alias: "4os Archon Plate",
     quality: "magic",
     type: "",
-    sprite: "img/archon-plate.png",
+    sprite: "img/archon-plate-red.webp",
     proof: "research/reference-screenshots/jewelers-archon-plate-of-the-whale.png",
     sockets: 4,
     tooltip: [
