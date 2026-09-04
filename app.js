@@ -19,6 +19,14 @@
   var MS_PER_DAY = 86400000;
   var ANCHOR = Math.floor(Date.UTC(2026, 0, 1) / MS_PER_DAY);
 
+  /* The rotation is index based, so growing ITEMS used to move every day's
+     item. PIN records one day and the item that day must show. The offset is
+     worked out at runtime from wherever that slug currently sits, so adding
+     cards no longer reshuffles the schedule. Add new items directly after the
+     pinned one and they come up over the following days. Keep the pinned slug
+     in the list; the selftest checks that it is still there. */
+  var PIN = { day: 246, slug: "wraith-crack" };
+
   /* Label kinds an item may carry. A kind is only here because it comes up
      often enough to deserve one wording and one hover note everywhere it
      appears. Anything rarer than that is written inline on the item as a
@@ -158,7 +166,11 @@
 
   function todayIndex(len) {
     var utcDay = Math.floor(Date.now() / MS_PER_DAY);
-    return (((utcDay - ANCHOR) % len) + len) % len;
+    var pinIdx = 0;
+    for (var i = 0; i < ITEMS.length; i++) {
+      if (ITEMS[i].slug === PIN.slug) { pinIdx = i; break; }
+    }
+    return ((((utcDay - ANCHOR) - PIN.day + pinIdx) % len) + len) % len;
   }
 
   /* Small caps, the way the game draws a tooltip. D2 writes its strings in
@@ -273,6 +285,7 @@
 
     // 2x2: helms, boots, gloves
     "crown": [2, 2], "tiara": [2, 2], "viper-casque": [2, 2],
+    "shako": [2, 2], "war-gauntlets": [2, 2],
     "uniques/crown-of-ages": [2, 2], "uniques/vampire-gaze-08": [2, 2],
     "battle-boots": [2, 2], "sandstorm-trek": [2, 2],
     "light-gauntlets": [2, 2], "uniques/bloodfist": [2, 2],

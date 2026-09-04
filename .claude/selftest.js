@@ -21,9 +21,13 @@ function rarityClass(tier){
   const i=rIdx(tier);
   return i<0 ? "" : " rar-"+RARITY_SCALE[i].toLowerCase().replace(/ /g,"-");
 }
-function todayIndex(len, utcDay){
+const PIN = { day: 246, slug: "wraith-crack" };
+function todayIndex(len, utcDay, items){
   const ANCHOR = Math.floor(Date.UTC(2026,0,1)/86400000);
-  return (((utcDay-ANCHOR)%len)+len)%len;
+  let pinIdx = 0;
+  const list = items || ITEMS;
+  for (let i=0;i<list.length;i++) if (list[i].slug===PIN.slug) { pinIdx=i; break; }
+  return ((((utcDay-ANCHOR)-PIN.day+pinIdx)%len)+len)%len;
 }
 
 let fail=0;
@@ -46,11 +50,20 @@ ok("missing tier -> no class", rarityClass(undefined)==="");
 
 console.log("--- rotation wraps at boundaries ---");
 const L=ITEMS.length;
-ok("index in range for day 0", todayIndex(L,Math.floor(Date.UTC(2026,0,1)/86400000))===0);
+ok("index in range for day 0", (function(){ const i=todayIndex(L,Math.floor(Date.UTC(2026,0,1)/86400000)); return Number.isInteger(i) && i>=0 && i<L; })());
 let allInRange=true;
 for(let d=-5; d<L*3+5; d++){ const i=todayIndex(L, Math.floor(Date.UTC(2026,0,1)/86400000)+d); if(i<0||i>=L) allInRange=false; }
 ok("all indices within [0,len) across 3 cycles", allInRange);
-ok("negative day wraps positive", todayIndex(L, Math.floor(Date.UTC(2026,0,1)/86400000)-1)===L-1);
+ok("negative day wraps positive", (function(){ const i=todayIndex(L, Math.floor(Date.UTC(2026,0,1)/86400000)-1); return i>=0 && i<L; })());
+
+console.log("--- rotation pin ---");
+const pinPos = ITEMS.findIndex(i=>i.slug===PIN.slug);
+ok("pinned slug is still in the list", pinPos >= 0);
+ok("pinned day resolves to the pinned item",
+   ITEMS[todayIndex(ITEMS.length, Math.floor(Date.UTC(2026,0,1)/86400000)+PIN.day)].slug === PIN.slug);
+ok("pin holds when the list grows",
+   (function(){ const grown=ITEMS.concat([{slug:"__probe"}]);
+     return grown[todayIndex(grown.length, Math.floor(Date.UTC(2026,0,1)/86400000)+PIN.day, grown)].slug === PIN.slug; })());
 
 console.log("--- data integrity ---");
 const slugs=new Set();
