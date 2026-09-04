@@ -139,9 +139,11 @@ All top-5 CONFIRMED (before/after + patch). These fit our existing 08/legacy the
 > 3. **Bul-Kathos**: WRONG. The 1.07/1.08 ring is rlvl 58, +1 to all skills, 4% life stolen per hit,
 >    +50 max stamina. There is no life line at all. The "+20 flat Life" here was invented. Fixed on
 >    the card.
-> 4. **Highlord's Wrath**: WRONG. The 1.08 amulet is rlvl 65, 30% faster run/walk, **+1 to all skills**,
->    lightning resist +35%, adds 5-20 lightning. It keeps the skill. It has no attacker-takes-lightning
->    line. Fixed on the card.
+> 4. **Highlord's Wrath**: WRONG, and the first correction was also wrong. A 1.08 screenshot shows
+>    rlvl 65, +1 to all skills, +30% faster run/walk, adds 5-20 lightning, **37% deadly strike**,
+>    lightning resist +35%. It keeps both the skill and the deadly strike. What it lacks is the 20%
+>    attack speed and the attacker-takes-lightning line. The Moving Caravan table omits the deadly
+>    strike line, so that table is incomplete here. Card rebuilt from the screenshot.
 > 5. **Herald of Zakarum**: the 1.07/1.08 version is on an **Aerin Shield**, not a Gilded Shield.
 >    rlvl 40, req str 104, Cannot Be Frozen, fastest block, +50% ED, per-level attack rating and damage
 >    against undead. Cannot Be Frozen is right. The 50% FBR figure is not. Never carded.

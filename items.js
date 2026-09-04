@@ -629,16 +629,17 @@ const ITEMS = [
     lastPatch: "1.08",
     tooltip: [
       { t: "Two-Hand Damage: 35 to 547", c: "white" },
-      { t: "Required Level: 73", c: "white" },
-      { t: "Required Strength: 134", c: "white" },
       { t: "Required Dexterity: 167", c: "white" },
+      { t: "Required Strength: 134", c: "white" },
+      { t: "Required Level: 73", c: "white" },
+      { t: "Bow Class - Very Fast Attack Speed", c: "white" },
+      "+20% Increased Attack Speed",
       "+250% Enhanced Damage",
       "+309 to Maximum Damage (Based on Character Level)",
-      "20% Increased Attack Speed",
-      "7% Mana stolen per hit",
-      "Heal Stamina Plus 30%",
+      "8% Mana stolen per hit",
+      "Knockback",
       "+35 to Dexterity",
-      "Knockback"
+      "Heal Stamina Plus 30%"
     ],
     rarityTier: "Mythic",
     obscurity: 4,
@@ -656,7 +657,7 @@ const ITEMS = [
     sprite: "img/arkaines-valor.png",
     proof: "research/reference-screenshots/arkaines-valor.png",
     tooltip: [
-      { t: "Defense: 1664", c: "white" },
+      { t: "Defense: 1554", c: "white" },
       { t: "Required Strength: 165", c: "white" },
       { t: "Required Level: 85", c: "white" },
       "Indestructible",
@@ -665,7 +666,7 @@ const ITEMS = [
       "+200% Enhanced Defense",
       "+247 to Vitality (Based on Character Level)",
       "+198 to Life (Based on Character Level)",
-      "Fire Resist +60%",
+      "Fire Resist +50%",
       "Socketed (1)"
     ],
     rarityTier: "Mythic",
@@ -705,23 +706,24 @@ const ITEMS = [
     slug: "highlords-08",
     name: "Highlord's Wrath",
     title: "1.08 Highlord's Wrath",
-    alias: "faster run, no deadly strike",
+    alias: "faster run, no attack speed",
     quality: "unique",
     type: "Amulet",
     sprite: "img/amulet.png",
     lastPatch: "1.08",
     tooltip: [
       { t: "Required Level: 65", c: "white" },
-      "+30% Faster Run/Walk",
       "+1 to All Skills",
-      "Lightning Resist +35%",
-      "Adds 5-20 lightning damage"
+      "+30% Faster Run/Walk",
+      "Adds 5-20 lightning damage",
+      "37% Deadly Strike (Based on Character Level)",
+      "Lightning Resist +35%"
     ],
     rarityTier: "Mythic",
     obscurity: 5,
-    why: "The Highlord's Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one keeps the skill and trades the rest for thirty percent faster run and walk. It is the only Highlord's in the game with run speed on it. Weaker by every practical measure, which is exactly why the 08 version is a collector's oddity rather than a chase.",
-    history: "Patch 1.09 rebuilt Highlord's Wrath into the amulet it is now, stripping the faster run and adding the attack speed and the signature deadly strike. The pre-patch copies kept the run speed and never gained the rest. It is the only Highlord's in the game with faster run and walk, and the absence of deadly strike dates it on sight.",
-    ifYouFind: "A rare case where the old version is worse, and collectors want it anyway. The value is the fingerprint, a Highlord's from before the mods that made it famous."
+    why: "The Highlord's Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has the skill and the deadly strike. What it does not have is the attack speed. Thirty percent faster run and walk sits there instead, which no other Highlord's carries. Swap a melee stat for a movement stat and you get an amulet that is worse for the builds that want it and stranger than anything the game prints now.",
+    history: "Patch 1.09 dropped the faster run and put twenty percent attack speed in its place. It also widened the lightning damage from five to twenty out to one to thirty, and added the attacker-takes-lightning line. The pre-patch copies kept the run speed and never gained any of it.",
+    ifYouFind: "Run speed on a Highlord's is the tell, and so is the missing attack speed. Deadly strike is on both versions, so that line dates nothing."
   },
   {
     slug: "siggards-stealth",
@@ -891,7 +893,7 @@ const ITEMS = [
     slug: "bul-kathos-08",
     name: "Bul-Kathos' Wedding Band",
     title: "1.08 Bul-Kathos' Wedding Band",
-    alias: "fixed 4% leech, no life line",
+    alias: "flat 20 life, fixed 4% leech",
     quality: "unique",
     type: "Ring",
     sprite: "img/ring.png",
@@ -900,13 +902,14 @@ const ITEMS = [
       { t: "Required Level: 58", c: "white" },
       "+1 to All Skills",
       "4% Life stolen per hit",
+      "+20 to Life",
       "+50 Maximum Stamina"
     ],
     rarityTier: "Mythic",
     obscurity: 5,
-    why: "The Bul-Kathos ring is famous for one line, plus one to all skills. The leech underneath it is what changed. Today it rolls three to five percent, and the ring also carries life that scales with your level. In patch 1.08 the leech was a fixed four percent and there was no life line at all. A modern ring that rolls three percent is worse at leeching than every 08 copy ever made.",
-    history: "Almost nothing rolled before 1.09. Uniques spawned with the same stats every time, so finding one was finding the only version of it. Patch 1.09 went through the list and gave most uniques a range to roll in, which is where Bul-Kathos picked up its three to five percent leech and its per-level life. The plus one skills is identical on both, so the whole difference hides in the lines nobody reads.",
-    ifYouFind: "The leech line dates it. Four percent flat, with no life underneath, is the 08 ring. Anything showing life based on character level is the modern one."
+    why: "The Bul-Kathos ring is famous for one line, plus one to all skills. The two under it are what changed. This one gives a flat twenty life and a fixed four percent leech, the same at level one as at ninety nine. The modern ring rolls three to five percent and pays its life at half a point per level, so a low character gets almost nothing out of it. For a twink the two are not close.",
+    history: "Almost nothing rolled before 1.09. Uniques spawned with the same stats every time, so finding one was finding the only version of it. Patch 1.09 went through the list and gave most of them a range, which is where Bul-Kathos picked up its three to five percent leech and traded the flat twenty life for half a point per level. The plus one skills is identical on both, so the whole difference hides in the lines nobody reads.",
+    ifYouFind: "The life line dates it. Twenty flat, not based on character level, is the 08 ring. The leech is fixed at four on it too, which a modern one only matches at the top of its roll."
   },
   {
     slug: "eagle-loop",
@@ -1176,13 +1179,13 @@ const ITEMS = [
     tooltip: [
       { t: "Defense: 127", c: "white" },
       { t: "Durability: 34 of 40", c: "white" },
-      { t: "Required Strength: 118", c: "white" },
+      { t: "Required Strength: 115", c: "white" },
       { t: "Required Level: 44", c: "white" },
       "+30% Faster Run/Walk",
       "+30% Increased Attack Speed",
       "+30% Faster Cast Rate",
       "+30% Faster Hit Recovery",
-      "+36 Defense",
+      "+35 Defense",
       "Socketed (1)"
     ],
     rarityTier: "Very Rare",
@@ -1200,24 +1203,29 @@ const ITEMS = [
     type: "Colossus Blade",
     sprite: "img/colossus-blade.png",
     lastPatch: "1.08",
+    sockets: 1,
     tooltip: [
-      { t: "Two-Hand Damage: 145 to 287", c: "white" },
-      { t: "Required Level: 81", c: "white" },
-      { t: "Required Strength: 189", c: "white" },
+      { t: "One-Hand Damage: 62 to 409", c: "white" },
+      { t: "Two-Hand Damage: 145 to 534", c: "white" },
       { t: "Required Dexterity: 110", c: "white" },
+      { t: "Required Strength: 189", c: "white" },
+      { t: "Required Level: 81", c: "white" },
+      { t: "Sword Class - Fast Attack Speed", c: "white" },
+      "Indestructible",
       "+150% Enhanced Damage",
-      "+150% Bonus to Attack Rating",
+      "+247 to Maximum Damage (Based on Character Level)",
+      "150% Bonus to Attack Rating",
+      "+20 to Strength",
+      "+20 to Dexterity",
       "+175 to Life",
       "Increase Maximum Life 25%",
       "Increase Maximum Mana 25%",
-      "+20 to Strength",
-      "+20 to Dexterity",
-      "Indestructible"
+      "Socketed (1)"
     ],
     rarityTier: "Mythic",
     obscurity: 4,
     why: "The Grandfather is a pure damage sword today. This one, from patch 1.08, was a fortress. It carried a hundred and seventy five flat life and raised your maximum life and mana by a quarter each, on top of the damage. No Grandfather made after 2001 has the maximum-life or maximum-mana lines at all. Same gold name, a completely different weapon underneath.",
-    history: "Before the 1.09 rebalance the Grandfather stacked flat life, twenty five percent maximum life, and twenty five percent maximum mana. The patch stripped all three and replaced them with the per-level scaling the sword uses now. The old copies kept the survivability block, and because item stats never change after creation, that version cannot be made again. It is one of the most prized relics of the early game.",
+    history: "Before the 1.09 rebalance the Grandfather stacked a hundred and seventy five flat life, twenty five percent maximum life and twenty five percent maximum mana, on top of damage it still has today. The patch stripped all three and cut the attack rating bonus from a hundred and fifty to fifty. The old copies kept the survivability block, and because item stats never change after creation, that version cannot be made again. It is one of the most prized relics of the early game.",
     ifYouFind: "Look for the maximum-life and maximum-mana lines. The modern Grandfather has neither, so their presence dates the sword to before patch 1.09."
   },  {
     slug: "vampire-gaze-08",
@@ -1227,28 +1235,24 @@ const ITEMS = [
     quality: "unique",
     type: "Grim Helm",
     sprite: "img/uniques/vampire-gaze-08.webp",
-    fill: ["img/socketables/rune-ber.png"],
-    filled: true,
     tooltip: [
-      { t: "'Ber'", c: "gold" },
       { t: "Defense: 252", c: "white" },
       { t: "Durability: 40 of 40", c: "white" },
       { t: "Required Strength: 58", c: "white" },
-      { t: "Required Level: 63", c: "white" },
+      { t: "Required Level: 41", c: "white" },
       "8% Mana stolen per hit",
       "8% Life stolen per hit",
       "+100% Enhanced Defense",
       "15% Slower Stamina Drain",
-      "Damage Reduced by 33%",
-      "Magic Damage Reduced by 15",
-      "Socketed (1)"
+      "Damage Reduced by 25%",
+      "Magic Damage Reduced by 15"
     ],
     rarityTier: "Very Rare",
     lastPatch: "1.08",
     obscurity: 4,
     why: "The Vampire Gaze that drops today cuts physical damage by fifteen to twenty percent. This one, from patch 1.08, does a flat twenty five, with no cold damage cluttering the stat line. Five extra points of reduction does not sound like much until you stack it against everything else. Hardcore players chased these for years. It stopped dropping in this form long ago.",
     history: "Damage reduction was rebalanced after 1.08, and Vampire Gaze lost its fixed twenty five percent. The old copies kept it. Like every legacy item, they live only on non-ladder, and they get scarcer every year.",
-    ifYouFind: "The damage-reduced line dates it. A flat twenty five percent is the 1.08 helm, five points above anything the modern version rolls, on a slot where five points is a lot. The copy above has a Ber in it, which is where the extra eight comes from."
+    ifYouFind: "The damage-reduced line dates it. A flat twenty five percent is the 1.08 helm, five points above anything the modern version rolls, on a slot where five points is a lot."
   },
   {
     slug: "small-charm-5-20",
