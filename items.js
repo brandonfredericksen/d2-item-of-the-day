@@ -604,8 +604,7 @@ const ITEMS = [
       "+29 to Strength",
       "+29 to Dexterity",
       "All Resistances +30",
-      "Ethereal (Cannot be Repaired)",
-      "Socketed (1)"
+      "Ethereal (Cannot be Repaired), Socketed (1)"
     ],
     rarityTier: "Mythic",
     obscurity: 5,
@@ -1561,8 +1560,7 @@ const ITEMS = [
       "+250 Defense vs. Missile",
       "+60 to Life",
       "Damage Reduced by 30%",
-      "Ethereal (Cannot be Repaired)",
-      "Socketed (1)"
+      "Ethereal (Cannot be Repaired), Socketed (1)"
     ],
     rarityTier: "Very Rare",
     obscurity: 4,
