@@ -212,7 +212,38 @@
     }
   }
 
-  function tooltipLineHtml(line, lang) {
+  /* The game prints the value of a stat line in blue when the item's mods have
+     raised it above the base, and white when they have not. A plain Ogre
+     Gauntlets shows a white 62. A Shaftstop with +220% enhanced defense shows a
+     blue 2422. Work that out from the mods the item actually carries so the rule
+     holds everywhere without hand-marking every line. */
+  var VALUE_LINE = /^(Defense|Chance to Block|One-Hand Damage|Two-Hand Damage|Throw Damage|Smite Damage):(\s+)(.+)$/;
+
+  function lineTexts(item) {
+    return (item && item.tooltip ? item.tooltip : []).map(function (l) {
+      return typeof l === "object" && l ? String(l.t || l.text || "") : String(l);
+    });
+  }
+
+  function valueIsModified(item, label) {
+    var lines = lineTexts(item);
+    function has(re) { return lines.some(function (x) { return re.test(x); }); }
+    if (label === "Defense") {
+      return has(/Enhanced Defense/i) || has(/^\+\d+\s+(to\s+)?Defense$/i);
+    }
+    if (/Damage$/.test(label)) {
+      return has(/Enhanced Damage/i) || has(/Adds\s+\d+\s*-\s*\d+\s+Damage/i) ||
+             has(/to Maximum Damage/i) || has(/to Minimum Damage/i);
+    }
+    if (label === "Chance to Block") return has(/Increased Chance of Blocking/i);
+    return false;
+  }
+
+  function isEthereal(item) {
+    return lineTexts(item).some(function (x) { return /Ethereal/i.test(x); });
+  }
+
+  function tooltipLineHtml(line, lang, item) {
     var text, cls = "";
     if (line && typeof line === "object" && (("t" in line) || ("text" in line))) {
       text = t("t" in line ? line.t : line.text, lang);
@@ -220,19 +251,24 @@
     } else {
       text = t(line, lang);
     }
+    var m = cls === "t-white" && item ? VALUE_LINE.exec(text) : null;
+    if (m && valueIsModified(item, m[1])) {
+      return '<div class="t-line ' + cls + '">' + smallCaps(m[1] + ":" + m[2]) +
+        '<span class="t-val">' + smallCaps(m[3]) + "</span></div>";
+    }
     return '<div class="t-line ' + cls + '">' + smallCaps(text) + "</div>";
   }
 
   function tooltipHtml(item, lang) {
     var lines = (item.tooltip || []).map(function (l) {
-      return tooltipLineHtml(l, lang);
+      return tooltipLineHtml(l, lang, item);
     }).join("");
 
     // Stats the socketables add, shown only in the filled state.
     var fillLines = "";
     if (Array.isArray(item.fillTip) && item.fillTip.length) {
       fillLines = item.fillTip.map(function (l) {
-        return tooltipLineHtml(l, lang).replace('class="t-line', 'class="t-line t-fill');
+        return tooltipLineHtml(l, lang, item).replace('class="t-line', 'class="t-line t-fill');
       }).join("");
     }
 
@@ -370,6 +406,7 @@
     return '<div class="sprite">' +
       '<div class="sprite-stage" style="--cw:' + cells[0] + ';--ch:' + cells[1] + '">' +
         '<img class="sprite-base" src="' + esc(item.sprite) + '" alt="' + esc(t(item.name, lang)) + ' sprite" ' +
+        (isEthereal(item) ? 'data-eth="1" ' : "") +
         'onload="fitSprite(this)" ' +
         'onerror="var s=this.closest(&quot;.sprite&quot;);if(s){s.remove()}">' +
         socketsOverlay +

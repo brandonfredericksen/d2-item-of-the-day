@@ -167,14 +167,15 @@ const ITEMS = [
   {
     slug: "eth-sandstorm-trek",
     name: "Sandstorm Trek",
+    title: "Eth Sandstorm Trek",
     alias: "eth Treks",
     quality: "unique",
     type: "Scarabshell Boots",
     sprite: "img/sandstorm-trek.png",
     tooltip: [
       { t: "Defense: 178", c: "white" },
-      { t: "Required Level: 64", c: "white" },
       { t: "Required Strength: 91", c: "white" },
+      { t: "Required Level: 64", c: "white" },
       "+170% Enhanced Defense",
       "+20% Faster Run/Walk",
       "+20% Faster Hit Recovery",
@@ -182,7 +183,8 @@ const ITEMS = [
       "+15 to Vitality",
       "Poison Resist +70%",
       "50% Slower Stamina Drain",
-      "Repairs 1 durability in 20 seconds"
+      "Repairs 1 durability in 20 seconds",
+      "Ethereal (Cannot be Repaired)"
     ],
     rarityTier: "Rare",
     labels: [
@@ -615,8 +617,8 @@ const ITEMS = [
     sprite: "img/uniques/crown-of-ages.webp",
     tooltip: [
       { t: "Defense: 399", c: "white" },
-      { t: "Required Level: 82", c: "white" },
       { t: "Required Strength: 174", c: "white" },
+      { t: "Required Level: 82", c: "white" },
       "+1 to All Skills",
       "+50% Enhanced Defense",
       "Physical Damage Received Reduced by 15%",
@@ -785,8 +787,8 @@ const ITEMS = [
     sprite: "img/siggards-stealth.png",
     tooltip: [
       { t: "Defense: 63", c: "white" },
-      { t: "Required Level: 51", c: "white" },
       { t: "Required Strength: 50", c: "white" },
+      { t: "Required Level: 51", c: "white" },
       "+10% Increased Attack Speed",
       "7% Life stolen per hit",
       "Slows Target by 10%",
@@ -1147,8 +1149,8 @@ const ITEMS = [
     sprite: "img/herald-of-zakarum.png",
     tooltip: [
       { t: "Defense: 507", c: "white" },
-      { t: "Required Level: 42", c: "white" },
       { t: "Required Strength: 89", c: "white" },
+      { t: "Required Level: 42", c: "white" },
       { t: "Chance to Block: 82%", c: "white" },
       "+200% Enhanced Defense",
       "30% Increased Chance of Blocking",
@@ -1169,6 +1171,7 @@ const ITEMS = [
   {
     slug: "cruel-mythical-sword",
     name: "Cruel Mythical Sword",
+    title: "Eth Cruel Mythical Sword",
     alias: "eth Cruel sword",
     quality: "magic",
     type: "",
@@ -1202,9 +1205,9 @@ const ITEMS = [
     sprite: "img/tomb-reaver.png",
     tooltip: [
       { t: "Two-Hand Damage: 125 to 570", c: "white" },
-      { t: "Required Level: 84", c: "white" },
-      { t: "Required Strength: 165", c: "white" },
       { t: "Required Dexterity: 103", c: "white" },
+      { t: "Required Strength: 165", c: "white" },
+      { t: "Required Level: 84", c: "white" },
       "+280% Enhanced Damage",
       "+230% Damage to Undead",
       "+60% Increased Attack Speed",
@@ -1281,8 +1284,8 @@ const ITEMS = [
     sprite: "img/uniques/twitchthroe.webp",
     tooltip: [
       { t: "Defense: 60", c: "white" },
-      { t: "Required Level: 16", c: "white" },
       { t: "Required Strength: 27", c: "white" },
+      { t: "Required Level: 16", c: "white" },
       "20% Increased Attack Speed",
       "20% Faster Hit Recovery",
       "25% Increased Chance of Blocking",
@@ -1568,8 +1571,8 @@ const ITEMS = [
     sprite: "img/uniques/deaths-web.webp",
     tooltip: [
       { t: "One-Hand Damage: 22 to 28", c: "white" },
-      { t: "Required Level: 66", c: "white" },
       { t: "Required Strength: 25", c: "white" },
+      { t: "Required Level: 66", c: "white" },
       "+2 to All Skills",
       "+2 to Poison and Bone Spells (Necromancer Only)",
       "-50% to Enemy Poison Resistance",
@@ -1728,15 +1731,16 @@ const ITEMS = [
   {
     slug: "eth-titans-revenge",
     name: "Titan's Revenge",
+    title: "Eth Titan's Revenge",
     alias: "eth Titan's",
     quality: "unique",
     type: "Ceremonial Javelin",
     sprite: "img/titans-revenge.png",
     tooltip: [
       { t: "Throw Damage: 79 to 212", c: "white" },
-      { t: "Required Level: 42", c: "white" },
-      { t: "Required Strength: 25", c: "white" },
       { t: "Required Dexterity: 109", c: "white" },
+      { t: "Required Strength: 25", c: "white" },
+      { t: "Required Level: 42", c: "white" },
       "+200% Enhanced Damage",
       "Adds 25-50 Damage",
       "+2 to Amazon Skill Levels",
@@ -1745,7 +1749,8 @@ const ITEMS = [
       "+20 to Strength",
       "+20 to Dexterity",
       "Replenishes quantity (1 in 3 seconds)",
-      "+2 to Javelin and Spear Skills (Amazon Only)"
+      "+2 to Javelin and Spear Skills (Amazon Only)",
+      "Ethereal (Cannot be Repaired)"
     ],
     rarityTier: "Rare",
     labels: [
@@ -1871,9 +1876,9 @@ const ITEMS = [
     sprite: "img/uniques/spectral-shard.webp",
     tooltip: [
       { t: "One-Hand Damage: 4 to 15", c: "white" },
-      { t: "Required Level: 25", c: "white" },
-      { t: "Required Strength: 35", c: "white" },
       { t: "Required Dexterity: 51", c: "white" },
+      { t: "Required Strength: 35", c: "white" },
+      { t: "Required Level: 25", c: "white" },
       "50% Faster Cast Rate",
       "+55 to Attack Rating",
       "All Resistances +10",

@@ -179,6 +179,9 @@ header{
   background:var(--bg-stage);
   border:1px solid var(--border);border-radius:var(--radius-sm);
 }
+/* ethereal items are drawn see-through in the inventory, so the grid shows
+   through them; the card does the same over its own stage */
+.sprite-base[data-eth]{opacity:.55}
 .sprite-base{
   /* fills the footprint the stage sets, aspect kept */
   width:100%;height:100%;object-fit:contain;display:block;
@@ -255,6 +258,9 @@ header{
 .tooltip .t-line.t-white{color:#dedee4}          /* base stats, runes, required level */
 .tooltip .t-line.t-grey{color:#8a8a93}
 .tooltip .t-line.t-red{color:#e0463f}            /* unmet requirement */
+/* the game prints the value of a stat line blue when the mods raised it above
+   base, white when they did not; the label stays white either way */
+.tooltip .t-line.t-white .t-val{color:var(--q-prop)}
 /* the 'LoLo' style rune-name line the game prints for socketed runes.
    It takes the unique gold, not the orange rune/crafted color. */
 .tooltip .t-line.t-gold{color:var(--q-unique)}
@@ -442,7 +448,7 @@ footer p{margin:0 0 var(--sp-2)}
 <!-- Bump ?v= whenever items.js or app.js changes. GitHub Pages caches the
      scripts for 4 hours but this page for 10 minutes, so without a version key
      a returning visitor runs new markup against the old JS. -->
-<script src="items.js?v=6"></script>
-<script src="app.js?v=6"></script>
+<script src="items.js?v=7"></script>
+<script src="app.js?v=7"></script>
 </body>
 </html>
