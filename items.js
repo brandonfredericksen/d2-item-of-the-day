@@ -1231,14 +1231,14 @@ const ITEMS = [
     filled: true,
     tooltip: [
       { t: "'Ber'", c: "gold" },
-      { t: "Defense: 262", c: "white" },
+      { t: "Defense: 252", c: "white" },
       { t: "Durability: 40 of 40", c: "white" },
-      { t: "Required Strength: 68", c: "white" },
+      { t: "Required Strength: 58", c: "white" },
       { t: "Required Level: 63", c: "white" },
       "8% Mana stolen per hit",
       "8% Life stolen per hit",
       "+100% Enhanced Defense",
-      "16% Slower Stamina Drain",
+      "15% Slower Stamina Drain",
       "Damage Reduced by 33%",
       "Magic Damage Reduced by 15",
       "Socketed (1)"
