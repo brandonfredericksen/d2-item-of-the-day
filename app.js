@@ -161,6 +161,24 @@
     return (((utcDay - ANCHOR) % len) + len) % len;
   }
 
+  /* Small caps, the way the game draws a tooltip. D2 writes its strings in
+     mixed case ("Repairs 1 durability in 20 seconds") and the font draws the
+     lowercase letters as shorter capitals. Our Exocet files have no real
+     lowercase (those slots hold ornaments, so a lowercase "t" comes out as a
+     cross), so the tooltip is uppercased in CSS and the letters that were
+     lowercase in the source string get marked to render smaller. Escaping
+     happens per run, because the entities esc() emits contain lowercase. */
+  function smallCaps(text) {
+    var out = "";
+    var re = /([a-z]+)|([^a-z]+)/g;
+    var m;
+    while ((m = re.exec(String(text == null ? "" : text))) !== null) {
+      if (m[1]) out += '<span class="sc">' + esc(m[1]) + "</span>";
+      else out += esc(m[2]);
+    }
+    return out;
+  }
+
   /* ---------- rendering ---------- */
 
   /* The tooltip mimics the in-game item display. It must contain ONLY what
@@ -190,7 +208,7 @@
     } else {
       text = t(line, lang);
     }
-    return '<div class="t-line ' + cls + '">' + esc(text) + "</div>";
+    return '<div class="t-line ' + cls + '">' + smallCaps(text) + "</div>";
   }
 
   function tooltipHtml(item, lang) {
@@ -210,9 +228,9 @@
 
     return '' +
       '<div class="tooltip q-' + esc(item.quality || "normal") + '">' +
-        (t(item.fillName, lang) ? '<div class="t-name t-name-fill">' + esc(t(item.fillName, lang)) + "</div>" : "") +
-        '<div class="t-name">' + esc(t(item.name, lang)) + "</div>" +
-        (typeVal ? '<div class="t-type">' + esc(typeVal) + "</div>" : "") +
+        (t(item.fillName, lang) ? '<div class="t-name t-name-fill">' + smallCaps(t(item.fillName, lang)) + "</div>" : "") +
+        '<div class="t-name">' + smallCaps(t(item.name, lang)) + "</div>" +
+        (typeVal ? '<div class="t-type">' + smallCaps(typeVal) + "</div>" : "") +
         ((lines || fillLines) ? '<div class="t-lines">' + lines + fillLines + "</div>" : "") +
       "</div>";
   }

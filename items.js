@@ -163,7 +163,7 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 29", c: "white" },
       "+1 to All Skills",
-      "Adds 1-12 Lightning Damage",
+      "Adds 1-12 lightning damage",
       "+20 to Mana",
       "Increase Maximum Mana 25%"
     ],
@@ -195,9 +195,9 @@ const ITEMS = [
       "+291% Enhanced Damage",
       "+49 to Maximum Damage (Based on Character Level)",
       "+1633 to Attack Rating (Based on Character Level)",
-      "+1 Cold Damage",
+      "+1 cold damage",
       "+40% Deadly Strike",
-      "Repairs 1 Durability in 20 Seconds",
+      "Repairs 1 durability in 20 seconds",
       "+50% Damage to Undead",
       "Ethereal (Cannot be Repaired), Socketed (2)"
     ],
@@ -303,7 +303,7 @@ const ITEMS = [
       "100% Faster Run/Walk",
       "100% Increased Attack Speed",
       "Adds 63-127 Damage",
-      "20% Life Stolen per Hit",
+      "20% Life stolen per hit",
       "Fire Absorb 96%",
       "Lightning Absorb 96%",
       "Cold Absorb 96%"
@@ -341,7 +341,7 @@ const ITEMS = [
       "50% Increased Attack Speed",
       "20% Faster Hit Recovery",
       "+480% Enhanced Damage",
-      "4% Mana Stolen per Hit",
+      "4% Mana stolen per hit",
       "Hit Blinds Target +33",
       "All Resistances +76",
       "Ethereal (Cannot be Repaired), Socketed (6)"
@@ -370,7 +370,7 @@ const ITEMS = [
       "100% Increased Attack Speed",
       "100% Faster Hit Recovery",
       "Adds 63-127 Damage",
-      "15% Life Stolen per Hit",
+      "15% Life stolen per hit",
       "+90 to Dexterity",
       "+90 to Vitality",
       "All Resistances +100"
@@ -571,8 +571,8 @@ const ITEMS = [
       { t: "Required Level: 36", c: "white" },
       "+2 to Javelin and Spear Skills (Amazon Only)",
       "+20% Increased Attack Speed",
-      "3% Mana Stolen per Hit",
-      "3% Life Stolen per Hit",
+      "3% Mana stolen per hit",
+      "3% Life stolen per hit",
       "+13% Enhanced Defense"
     ],
     rarityTier: "Very Rare",
@@ -605,7 +605,7 @@ const ITEMS = [
       "+30% Enhanced Damage",
       "20% Bonus to Attack Rating",
       "+60 to Attack Rating",
-      "5% Life Stolen per Hit",
+      "5% Life stolen per hit",
       "+199% Enhanced Defense",
       "+29 to Strength",
       "+29 to Dexterity",
@@ -635,7 +635,7 @@ const ITEMS = [
       "+250% Enhanced Damage",
       "+309 to Maximum Damage (Based on Character Level)",
       "20% Increased Attack Speed",
-      "7% Mana Stolen per Hit",
+      "7% Mana stolen per hit",
       "Heal Stamina Plus 30%",
       "+35 to Dexterity",
       "Knockback"
@@ -713,7 +713,7 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 65", c: "white" },
       "+30% Faster Run/Walk",
-      "Adds 5-20 Lightning Damage",
+      "Adds 5-20 lightning damage",
       "Lightning Resist +35%",
       "Attacker Takes Lightning Damage of 15"
     ],
@@ -735,7 +735,7 @@ const ITEMS = [
       { t: "Required Level: 51", c: "white" },
       { t: "Required Strength: 50", c: "white" },
       "+10% Increased Attack Speed",
-      "7% Life Stolen per Hit",
+      "7% Life stolen per hit",
       "Slows Target by 10%",
       "+2 to Mana after each Kill",
       "+15 to Strength",
@@ -776,7 +776,7 @@ const ITEMS = [
   {
     slug: "brimstone-barb",
     name: "Brimstone Barb",
-    alias: "300 ED eth thrower",
+    alias: "460 ED eth thrower",
     quality: "rare",
     type: "Stygian Pilum",
     sprite: "img/stygian-pilum.png",
@@ -790,18 +790,18 @@ const ITEMS = [
       { t: "Required Level: 68", c: "white" },
       { t: "Javelin Class - Very Fast Attack Speed", c: "white" },
       "+40% Increased Attack Speed",
-      "+450% Enhanced Damage",
+      "+460% Enhanced Damage",
       "+20 to Minimum Damage",
       "+206 to Attack Rating",
-      "Adds 112-133 Fire Damage",
-      "Replenishes Quantity",
+      "Adds 112-133 fire damage",
+      "Replenishes quantity",
       "Ethereal (Cannot be Repaired)"
     ],
     rarityTier: "Very Rare",
     obscurity: 4,
-    why: "Throwing builds live and die on their weapon, and this rare beats the uniques. Three hundred enhanced damage is the most a rolled weapon can reach, and on a javelin that is more raw damage than the named throwers carry. It is ethereal, so the base climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.",
+    why: "Throwing builds live and die on their weapon, and this rare beats the uniques. Four hundred sixty enhanced damage on a javelin is more raw damage than the named throwers carry. It is ethereal, so the base climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.",
     history: null,
-    ifYouFind: "Throw it, never melee it. Ethereal cannot be repaired, and only the thrown stack refills. The maxed three hundred enhanced damage is the roll that makes it."
+    ifYouFind: "Throw it, never melee it. Ethereal cannot be repaired, and only the thrown stack refills. The enhanced damage roll is what makes it."
   },
   {
     slug: "viper-casque",
@@ -900,7 +900,7 @@ const ITEMS = [
       { t: "Required Level: 58", c: "white" },
       "+1 to All Skills",
       "+20 to Life",
-      "4% Life Stolen per Hit",
+      "4% Life stolen per hit",
       "+50 Maximum Stamina"
     ],
     rarityTier: "Mythic",
@@ -920,7 +920,7 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 88", c: "white" },
       "+115 to Attack Rating",
-      "3% Life Stolen per Hit",
+      "3% Life stolen per hit",
       "+23 to Strength",
       "+15 to Dexterity",
       "+59 to Life"
@@ -965,8 +965,8 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 14", c: "white" },
       "+148 to Attack Rating",
-      "7% Mana Stolen per Hit",
-      "6% Life Stolen per Hit",
+      "7% Mana stolen per hit",
+      "6% Life stolen per hit",
       "+13 to Dexterity",
       "All Resistances +16",
       "+1 to Mana after each Kill"
@@ -987,8 +987,8 @@ const ITEMS = [
     proof: "research/reference-screenshots/dread-grip-ring.png",
     tooltip: [
       { t: "Required Level: 18", c: "red" },
-      "7% Mana Stolen per Hit",
-      "6% Life Stolen per Hit",
+      "7% Mana stolen per hit",
+      "6% Life stolen per hit",
       "Cold Resist +34%",
       "Lightning Resist +29%",
       "Fire Resist +32%",
@@ -1037,7 +1037,7 @@ const ITEMS = [
       { t: "Required Level: 61", c: "white" },
       "+30% Faster Run/Walk",
       "+10% Faster Hit Recovery",
-      "1% Life Stolen per Hit",
+      "1% Life stolen per hit",
       "+20 to Life",
       "Replenish Life +10",
       "Lightning Resist +40%",
@@ -1120,7 +1120,7 @@ const ITEMS = [
       "+15 to Vitality",
       "Poison Resist +70%",
       "50% Slower Stamina Drain",
-      "Repairs 1 Durability in 20 Seconds"
+      "Repairs 1 durability in 20 seconds"
     ],
     rarityTier: "Rare",
     labels: [
@@ -1146,11 +1146,11 @@ const ITEMS = [
       "+200% Enhanced Damage",
       "Adds 25-50 Damage",
       "+2 to Amazon Skill Levels",
-      "9% Life Stolen per Hit",
+      "9% Life stolen per hit",
       "+30% Faster Run/Walk",
       "+20 to Strength",
       "+20 to Dexterity",
-      "Replenishes Quantity (1 in 3 Seconds)",
+      "Replenishes quantity (1 in 3 seconds)",
       "+2 to Javelin and Spear Skills (Amazon Only)"
     ],
     rarityTier: "Rare",
@@ -1234,8 +1234,8 @@ const ITEMS = [
       { t: "Required Level: 41", c: "white" },
       "Physical Damage Reduced by 25%",
       "Magic Damage Reduced by 15",
-      "8% Life Stolen per Hit",
-      "8% Mana Stolen per Hit",
+      "8% Life stolen per hit",
+      "8% Mana stolen per hit",
       "15% Slower Stamina Drain"
     ],
     rarityTier: "Very Rare",
@@ -1359,7 +1359,7 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 49", c: "white" },
       "100% Chance to Cast Level 43 Frost Nova when you Level-Up",
-      "Adds 24-38 Cold Damage",
+      "Adds 24-38 cold damage",
       "+5% to Cold Skill Damage",
       "-5% to Enemy Cold Resistance"
     ],
@@ -1433,8 +1433,8 @@ const ITEMS = [
       "+159% Enhanced Damage",
       "+18 to Maximum Damage",
       "+104 to Attack Rating",
-      "Adds 10-14 Cold Damage",
-      "6% Mana Stolen per Hit",
+      "Adds 10-14 cold damage",
+      "6% Mana stolen per hit",
       "Socketed (1)"
     ],
     rarityTier: "Very Rare",
@@ -1541,7 +1541,7 @@ const ITEMS = [
       "+5 to Minimum Damage",
       "5% Bonus to Attack Rating",
       "+203 to Attack Rating",
-      "Adds 48-75 Fire Damage",
+      "Adds 48-75 fire damage",
       "+5 to Light Radius"
     ],
     rarityTier: "Mythic",
@@ -1597,8 +1597,8 @@ const ITEMS = [
       "+197% Enhanced Damage",
       "+20 to Maximum Damage",
       "+203 to Attack Rating",
-      "Adds 3-14 Cold Damage",
-      "6% Life Stolen per Hit",
+      "Adds 3-14 cold damage",
+      "6% Life stolen per hit",
       "+50% Damage to Undead"
     ],
     rarityTier: "Very Rare",
@@ -1697,7 +1697,7 @@ const ITEMS = [
       { t: "Required Level: 28", c: "white" },
       "+120% Enhanced Defense",
       "+1 to All Skills",
-      "5% Mana Stolen per Hit",
+      "5% Mana stolen per hit",
       "+2 to Light Radius"
     ],
     rarityTier: "Uncommon",
@@ -1764,7 +1764,7 @@ const ITEMS = [
       { t: "Required Level: 6", c: "white" },
       "Cannot Be Frozen",
       "30% Increased Attack Speed",
-      "8% Life Stolen per Hit",
+      "8% Life stolen per hit",
       "All Resistances +15",
       "Poison Resist +50%"
     ],
@@ -1860,7 +1860,7 @@ const ITEMS = [
     sprite: "img/ring.png",
     tooltip: [
       { t: "Required Level: 15", c: "white" },
-      "4% Mana Stolen per Hit",
+      "4% Mana stolen per hit",
       "+20 to Life",
       "Replenish Life +8",
       "Regenerate Mana 20%"

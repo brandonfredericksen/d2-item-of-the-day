@@ -233,19 +233,23 @@ header{
   font-size:1.02rem;
   letter-spacing:.03em;
   line-height:1.45;
-  text-transform:uppercase;                         /* D2 tooltips read as all caps */
+  text-transform:uppercase;                         /* see smallCaps() in app.js */
   white-space:nowrap;                               /* a D2 row never wraps */
   width:max-content;                                /* size to the longest line */
   box-shadow:0 0 0 1px rgba(0,0,0,.5), 0 8px 26px rgba(0,0,0,.55);
 }
 .tooltip .t-name{
   font-family:"Exocet",Georgia,serif;
-  font-weight:700;font-size:1.06rem;letter-spacing:.03em;line-height:1.3;
-  margin-bottom:1px;
+  /* the name and type sit on the same rhythm as the stat rows in game, so
+     they take the tooltip's line-height and carry no extra margin */
+  font-weight:700;font-size:1.06rem;letter-spacing:.03em;line-height:inherit;
 }
+/* letters that were lowercase in the source string, drawn as shorter capitals,
+   the way the game's font renders them. See smallCaps() in app.js. */
+.tooltip .sc{font-size:.78em}
 .tooltip{--qc:var(--q-normal)}
 .tooltip .t-type{color:var(--qc);opacity:.95}
-.tooltip .t-lines{margin-top:var(--sp-2)}
+.tooltip .t-lines{margin-top:0}
 .tooltip .t-line{color:var(--q-prop)}           /* default: magic-property blue */
 .tooltip .t-line.t-white{color:#dedee4}          /* base stats, runes, required level */
 .tooltip .t-line.t-grey{color:#8a8a93}
