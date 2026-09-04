@@ -286,6 +286,7 @@
     // 2x2: helms, boots, gloves
     "crown": [2, 2], "tiara": [2, 2], "viper-casque": [2, 2],
     "shako": [2, 2], "war-gauntlets": [2, 2],
+    "uniques/harlequin-crest": [2, 2],
     "uniques/crown-of-ages": [2, 2], "uniques/vampire-gaze-08": [2, 2],
     "battle-boots": [2, 2], "sandstorm-trek": [2, 2],
     "light-gauntlets": [2, 2], "uniques/bloodfist": [2, 2],

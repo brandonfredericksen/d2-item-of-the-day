@@ -1090,7 +1090,7 @@ const ITEMS = [
     alias: "the 40% maximum life Shako",
     quality: "unique",
     type: "Shako",
-    sprite: "img/shako.png",
+    sprite: "img/uniques/harlequin-crest.webp",
     proof: "research/reference-screenshots/harlequin-crest-108.webp",
     lastPatch: "1.08",
     tooltip: [
