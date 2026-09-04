@@ -125,6 +125,33 @@ from 403-gated trade sites; verify against a live d2jsp thread before publishing
 Pattern: patch 1.09 (Aug 20 2001) "Altered stats of many Unique items"; 1.08 copies keep pre-nerf mods.
 All top-5 CONFIRMED (before/after + patch). These fit our existing 08/legacy theme exactly.
 
+> **CORRECTION, 2026-09-03. Do not trust the CONFIRMED labels below.** Re-checked all five against
+> The Moving Caravan, a community still playing 1.07 and 1.08. Their "thrashers info dump" thread
+> carries a 1.00 / 1.07 / 1.08 / 1.09 stat table (inside spoiler blocks, so read textContent, not
+> innerText). Weapons are not in that table yet. A second list, credited to "dinc", is on the d2jsp
+> thread "Arkaine's Valor - 1.08" and does cover weapons. Outcome per item:
+>
+> 1. **Windforce**: not re-verified in the table. "1.08 Windforce" is a real traded item with forum
+>    threads back to 2002, so the category is real. The +35 Dex figure is still unchecked.
+> 2. **Grandfather**: the dinc list gives "150% ED, but +175 life and 25% life and mana bonus", which
+>    matches. Card restored. The +150% Bonus to Attack Rating line has no source and contradicts the
+>    modern 50%. Treat that one number as unverified.
+> 3. **Bul-Kathos**: WRONG. The 1.07/1.08 ring is rlvl 58, +1 to all skills, 4% life stolen per hit,
+>    +50 max stamina. There is no life line at all. The "+20 flat Life" here was invented. Fixed on
+>    the card.
+> 4. **Highlord's Wrath**: WRONG. The 1.08 amulet is rlvl 65, 30% faster run/walk, **+1 to all skills**,
+>    lightning resist +35%, adds 5-20 lightning. It keeps the skill. It has no attacker-takes-lightning
+>    line. Fixed on the card.
+> 5. **Herald of Zakarum**: the 1.07/1.08 version is on an **Aerin Shield**, not a Gilded Shield.
+>    rlvl 40, req str 104, Cannot Be Frozen, fastest block, +50% ED, per-level attack rating and damage
+>    against undead. Cannot Be Frozen is right. The 50% FBR figure is not. Never carded.
+>
+> Also confirmed while checking: Valkyrie Wing 1.08 is 30% faster cast, 30% faster hit recovery,
+> 30% faster run/walk, +35 defense, 30% IAS. The quad-30 card is correct.
+>
+> And the mechanic the whole 08 category rests on: before 1.09 almost nothing rolled. Uniques spawned
+> with fixed stats every time. Patch 1.09 gave most of them ranges.
+
 1. **08 Windforce (Hydra Bow)**: CONFIRMED. 1.08: **+35 Dex** + Heal Stamina 30%. 1.09: cut to +5 Dex,
    +10 Str. Everything else same. Live collector SKU ("Windforce 08"). Strong legacy card.
 2. **08 The Grandfather (Colossus Blade)**: CONFIRMED. 1.08: **+175 flat Life, +25% max Life, +25% max

@@ -713,14 +713,14 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 65", c: "white" },
       "+30% Faster Run/Walk",
-      "Adds 5-20 lightning damage",
+      "+1 to All Skills",
       "Lightning Resist +35%",
-      "Attacker Takes Lightning Damage of 15"
+      "Adds 5-20 lightning damage"
     ],
     rarityTier: "Mythic",
     obscurity: 5,
-    why: "The Highlord's Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has none of that. In its first year it carried thirty percent faster run and walk and no deadly strike at all, a completely different amulet wearing the same name. It is weaker by every practical measure, which is exactly why the 08 version is a collector's oddity rather than a chase.",
-    history: "Patch 1.09 rebuilt Highlord's Wrath into the amulet it is now, stripping the faster run and adding the skill, the attack speed and the signature deadly strike. The pre-patch copies kept the run speed and never gained the rest. It is the only Highlord's in the game with faster run and walk, and the absence of deadly strike dates it on sight.",
+    why: "The Highlord's Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one keeps the skill and trades the rest for thirty percent faster run and walk. It is the only Highlord's in the game with run speed on it. Weaker by every practical measure, which is exactly why the 08 version is a collector's oddity rather than a chase.",
+    history: "Patch 1.09 rebuilt Highlord's Wrath into the amulet it is now, stripping the faster run and adding the attack speed and the signature deadly strike. The pre-patch copies kept the run speed and never gained the rest. It is the only Highlord's in the game with faster run and walk, and the absence of deadly strike dates it on sight.",
     ifYouFind: "A rare case where the old version is worse, and collectors want it anyway. The value is the fingerprint, a Highlord's from before the mods that made it famous."
   },
   {
@@ -891,7 +891,7 @@ const ITEMS = [
     slug: "bul-kathos-08",
     name: "Bul-Kathos' Wedding Band",
     title: "1.08 Bul-Kathos' Wedding Band",
-    alias: "flat 20 life, fixed 4% leech",
+    alias: "fixed 4% leech, no life line",
     quality: "unique",
     type: "Ring",
     sprite: "img/ring.png",
@@ -899,15 +899,14 @@ const ITEMS = [
     tooltip: [
       { t: "Required Level: 58", c: "white" },
       "+1 to All Skills",
-      "+20 to Life",
       "4% Life stolen per hit",
       "+50 Maximum Stamina"
     ],
     rarityTier: "Mythic",
     obscurity: 5,
-    why: "The Bul-Kathos ring is famous for one line, plus one to all skills. The other two are what changed. Today its life and its leech scale with your level, starting near nothing. In patch 1.08 the ring gave a flat twenty life and a fixed four percent leech at any level, which made it a real ring for a low-level character where the modern one gives almost nothing.",
-    history: "Patch 1.09 swapped Bul-Kathos' flat bonuses for level-scaling ones. A 1.08 copy hands a level-one twink the full twenty life and four percent leech that a modern ring will not reach until much later, if ever. The plus one skills is identical on both, so the whole difference hides in the two lines nobody reads.",
-    ifYouFind: "The twink market is where this lands. At low level the 08 version is a genuinely better ring, the only Bul-Kathos that pays its bonuses in full from the first level."
+    why: "The Bul-Kathos ring is famous for one line, plus one to all skills. The leech underneath it is what changed. Today it rolls three to five percent, and the ring also carries life that scales with your level. In patch 1.08 the leech was a fixed four percent and there was no life line at all. A modern ring that rolls three percent is worse at leeching than every 08 copy ever made.",
+    history: "Almost nothing rolled before 1.09. Uniques spawned with the same stats every time, so finding one was finding the only version of it. Patch 1.09 went through the list and gave most uniques a range to roll in, which is where Bul-Kathos picked up its three to five percent leech and its per-level life. The plus one skills is identical on both, so the whole difference hides in the lines nobody reads.",
+    ifYouFind: "The leech line dates it. Four percent flat, with no life underneath, is the 08 ring. Anything showing life based on character level is the modern one."
   },
   {
     slug: "eagle-loop",
@@ -1220,8 +1219,7 @@ const ITEMS = [
     why: "The Grandfather is a pure damage sword today. This one, from patch 1.08, was a fortress. It carried a hundred and seventy five flat life and raised your maximum life and mana by a quarter each, on top of the damage. No Grandfather made after 2001 has the maximum-life or maximum-mana lines at all. Same gold name, a completely different weapon underneath.",
     history: "Before the 1.09 rebalance the Grandfather stacked flat life, twenty five percent maximum life, and twenty five percent maximum mana. The patch stripped all three and replaced them with the per-level scaling the sword uses now. The old copies kept the survivability block, and because item stats never change after creation, that version cannot be made again. It is one of the most prized relics of the early game.",
     ifYouFind: "Look for the maximum-life and maximum-mana lines. The modern Grandfather has neither, so their presence dates the sword to before patch 1.09."
-  },
-  {
+  },  {
     slug: "vampire-gaze-08",
     name: "Vampire Gaze",
     title: "1.08 Vampire Gaze",
@@ -1229,21 +1227,28 @@ const ITEMS = [
     quality: "unique",
     type: "Grim Helm",
     sprite: "img/uniques/vampire-gaze-08.webp",
+    fill: ["img/socketables/rune-ber.png"],
+    filled: true,
     tooltip: [
-      { t: "Defense: 252", c: "white" },
-      { t: "Required Level: 41", c: "white" },
-      "Physical Damage Reduced by 25%",
-      "Magic Damage Reduced by 15",
-      "8% Life stolen per hit",
+      { t: "'Ber'", c: "gold" },
+      { t: "Defense: 262", c: "white" },
+      { t: "Durability: 40 of 40", c: "white" },
+      { t: "Required Strength: 68", c: "white" },
+      { t: "Required Level: 63", c: "white" },
       "8% Mana stolen per hit",
-      "15% Slower Stamina Drain"
+      "8% Life stolen per hit",
+      "+100% Enhanced Defense",
+      "16% Slower Stamina Drain",
+      "Damage Reduced by 33%",
+      "Magic Damage Reduced by 15",
+      "Socketed (1)"
     ],
     rarityTier: "Very Rare",
     lastPatch: "1.08",
     obscurity: 4,
     why: "The Vampire Gaze that drops today cuts physical damage by fifteen to twenty percent. This one, from patch 1.08, does a flat twenty five, with no cold damage cluttering the stat line. Five extra points of reduction does not sound like much until you stack it against everything else. Hardcore players chased these for years. It stopped dropping in this form long ago.",
     history: "Damage reduction was rebalanced after 1.08, and Vampire Gaze lost its fixed twenty five percent. The old copies kept it. Like every legacy item, they live only on non-ladder, and they get scarcer every year.",
-    ifYouFind: "The damage-reduced line dates it. A flat twenty five percent is the 1.08 helm, five points above anything the modern version rolls, on a slot where five points is a lot."
+    ifYouFind: "The damage-reduced line dates it. A flat twenty five percent is the 1.08 helm, five points above anything the modern version rolls, on a slot where five points is a lot. The copy above has a Ber in it, which is where the extra eight comes from."
   },
   {
     slug: "small-charm-5-20",
@@ -1690,7 +1695,7 @@ const ITEMS = [
     quality: "unique",
     type: "Ancient Armor",
     era: "Classic",
-    sprite: "img/ancient-armor.png",
+    sprite: "img/uniques/silks-of-the-victor.webp",
     tooltip: [
       { t: "Defense: 513", c: "white" },
       { t: "Required Strength: 100", c: "white" },
@@ -1736,7 +1741,7 @@ const ITEMS = [
     quality: "unique",
     type: "Full Plate Mail",
     era: "Classic",
-    sprite: "img/full-plate-mail.png",
+    sprite: "img/uniques/goldskin.webp",
     tooltip: [
       { t: "Defense: 402", c: "white" },
       { t: "Required Strength: 80", c: "white" },
@@ -1759,7 +1764,7 @@ const ITEMS = [
     alias: "cannot-be-frozen combo",
     quality: "set",
     type: "Sash + Leather Gloves",
-    sprite: "img/deaths-combo.png",
+    sprite: "img/deaths-combo.webp",
     tooltip: [
       { t: "Required Level: 6", c: "white" },
       "Cannot Be Frozen",

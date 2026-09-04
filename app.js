@@ -276,7 +276,7 @@
     "uniques/crown-of-ages": [2, 2], "uniques/vampire-gaze-08": [2, 2],
     "battle-boots": [2, 2], "sandstorm-trek": [2, 2],
     "light-gauntlets": [2, 2], "uniques/bloodfist": [2, 2],
-    "angelic-combo": [2, 2], "deaths-combo": [2, 2],
+    "angelic-combo": [2, 2],
     "arreats-face": [2, 2], "diadem": [2, 2], "falcon-mask": [2, 2],
     "winged-helm": [2, 2], "rare-boots": [2, 2], "ogre-gauntlets": [2, 2],
 
@@ -284,7 +284,8 @@
     "ancient-armor": [2, 3], "full-plate-mail": [2, 3], "arkaines-valor": [2, 3],
     "siggards-stealth": [2, 3], "dire-carapace": [2, 3],
     "uniques/iceblink": [2, 3], "uniques/twitchthroe": [2, 3],
-    "uniques/tyraels-might": [2, 3],
+    "uniques/tyraels-might": [2, 3], "uniques/silks-of-the-victor": [2, 3],
+    "uniques/goldskin": [2, 3], "deaths-combo": [2, 3],
     "blackoak-shield": [2, 3], "herald-of-zakarum": [2, 3],
     "martel-de-fer": [2, 3], "maul": [2, 3],
     "archon-plate": [2, 3], "bugged-tals": [2, 3], "shaftstop": [2, 3],
