@@ -180,10 +180,12 @@ const ITEMS = [
     quality: "rare",
     type: "Legendary Mallet",
     sprite: "img/legendary-mallet.png",
+    proof: "research/reference-screenshots/wraith-crack.jpg",
     grid: [2, 3],
     fill: ["img/socketables/rune-lo.png", "img/socketables/rune-lo.png"],
     filled: true,
     tooltip: [
+      { t: "'LoLo'", c: "gold" },
       { t: "One-Hand Damage: 293 to 404", c: "white" },
       { t: "Durability: 65 of 65", c: "white" },
       { t: "Required Strength: 179", c: "white" },
@@ -197,8 +199,7 @@ const ITEMS = [
       "+40% Deadly Strike",
       "Repairs 1 Durability in 20 Seconds",
       "+50% Damage to Undead",
-      "Ethereal (Cannot be Repaired)",
-      "Socketed (2)"
+      "Ethereal (Cannot be Repaired), Socketed (2)"
     ],
     rarityTier: "Mythic",
     obscurity: 4,
