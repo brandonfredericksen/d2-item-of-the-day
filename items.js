@@ -620,6 +620,7 @@ const ITEMS = [
   },
   {
     slug: "windforce-08",
+    proof: "research/reference-screenshots/windforce-108.webp",
     name: "Windforce",
     title: "1.08 Windforce",
     alias: "+35 Dexterity, pre-nerf",
@@ -704,6 +705,7 @@ const ITEMS = [
   },
   {
     slug: "highlords-08",
+    proof: "research/reference-screenshots/highlords-wrath-108.webp",
     name: "Highlord's Wrath",
     title: "1.08 Highlord's Wrath",
     alias: "faster run, no attack speed",
@@ -891,6 +893,7 @@ const ITEMS = [
   },
   {
     slug: "bul-kathos-08",
+    proof: "research/reference-screenshots/bul-kathos-wedding-band-108.webp",
     name: "Bul-Kathos' Wedding Band",
     title: "1.08 Bul-Kathos' Wedding Band",
     alias: "flat 20 life, fixed 4% leech",
@@ -1196,6 +1199,7 @@ const ITEMS = [
   },
   {
     slug: "grandfather-08",
+    proof: "research/reference-screenshots/grandfather-108.webp",
     name: "The Grandfather",
     title: "1.08 Grandfather",
     alias: "the max-life, max-mana version",
@@ -1229,6 +1233,7 @@ const ITEMS = [
     ifYouFind: "Look for the maximum-life and maximum-mana lines. The modern Grandfather has neither, so their presence dates the sword to before patch 1.09."
   },  {
     slug: "vampire-gaze-08",
+    proof: "research/reference-screenshots/vampire-gaze-108.webp",
     name: "Vampire Gaze",
     title: "1.08 Vampire Gaze",
     alias: "flat 25% damage reduced",
