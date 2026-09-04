@@ -250,7 +250,9 @@ header{
 .tooltip .t-line.t-white{color:#dedee4}          /* base stats, runes, required level */
 .tooltip .t-line.t-grey{color:#8a8a93}
 .tooltip .t-line.t-red{color:#e0463f}            /* unmet requirement */
-.tooltip .t-line.t-gold{color:var(--q-rune)}
+/* the 'LoLo' style rune-name line the game prints for socketed runes.
+   It takes the unique gold, not the orange rune/crafted color. */
+.tooltip .t-line.t-gold{color:var(--q-unique)}
 
 /* trader nickname caption, deliberately outside and unlike the tooltip */
 .aka{
