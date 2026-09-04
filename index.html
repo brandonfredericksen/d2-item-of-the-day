@@ -227,22 +227,23 @@ header{
   background:rgba(2,2,4,.92);
   border:1px solid #2c2c33;
   border-radius:2px;
-  padding:16px 20px;
+  padding:8px 20px;
   text-align:center;
   font-family:"Exocet Light",Georgia,serif;  /* body in the lighter D2 weight */
-  font-size:1.02rem;
-  letter-spacing:.03em;
-  line-height:1.45;
+  font-size:1.1rem;
+  letter-spacing:.05em;
+  /* measured off the real screenshot: rows sit at a pitch of 1.81x the cap
+     height. Our cap height is .735 of the font size, so 1.81 * .735 = 1.33. */
+  line-height:1.33;
   text-transform:uppercase;                         /* see smallCaps() in app.js */
   white-space:nowrap;                               /* a D2 row never wraps */
   width:max-content;                                /* size to the longest line */
   box-shadow:0 0 0 1px rgba(0,0,0,.5), 0 8px 26px rgba(0,0,0,.55);
 }
 .tooltip .t-name{
-  font-family:"Exocet",Georgia,serif;
-  /* the name and type sit on the same rhythm as the stat rows in game, so
-     they take the tooltip's line-height and carry no extra margin */
-  font-weight:700;font-size:1.06rem;letter-spacing:.03em;line-height:inherit;
+  /* in game the name is drawn in the same face, weight and size as every other
+     row. Only its color sets it apart, so it inherits everything here. */
+  font-family:inherit;font-weight:400;font-size:inherit;letter-spacing:.03em;line-height:inherit;
 }
 /* letters that were lowercase in the source string, drawn as shorter capitals,
    the way the game's font renders them. See smallCaps() in app.js. */
