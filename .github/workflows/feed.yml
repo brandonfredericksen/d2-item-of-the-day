@@ -1,0 +1,58 @@
+# Rebuilds feed.xml once a day and commits it.
+#
+# The site picks its item from the UTC date, so the feed goes stale the moment
+# the day rolls over. There is no backend to generate it on request, so a
+# scheduled job writes the file instead.
+#
+# GitHub delays scheduled runs under load, sometimes by a good while. The job is
+# idempotent, so a late run is harmless. GitHub also disables cron on repos with
+# no activity for 60 days and emails before it does.
+
+name: Rebuild the feed
+
+on:
+  schedule:
+    - cron: "10 0 * * *"        # 00:10 UTC, just after the item rolls over
+  workflow_dispatch:            # and on demand, from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - items.js                # a new item shifts the rotation
+      - app.js                  # so does a change to the rotation itself
+      - tools/build-feed.js
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - run: node tools/build-feed.js
+
+      - name: Commit if anything moved
+        run: |
+          # feed.xml carries a lastBuildDate that changes every run. On a day
+          # with no other change that is noise, so it does not earn a commit.
+          real=$(git diff -U0 -- feed.xml \
+                 | grep '^[+-]' | grep -v '^[+-][+-]' | grep -v 'lastBuildDate' || true)
+          if [ -z "$real" ] && git diff --quiet -- sitemap.xml; then
+            echo 'Nothing but the build timestamp. Leaving it.'
+            git checkout -- feed.xml sitemap.xml
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add feed.xml sitemap.xml
+          git commit -m 'Rebuild the feed'
+          git push
