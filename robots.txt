@@ -2,47 +2,70 @@
 User-agent: *
 Allow: /
 
-# AI crawlers are not. These are opt-out by convention only.
-# Nothing here blocks Google, Bing, or DuckDuckGo search.
+# The rule below is about training, not discovery. A crawler that indexes the
+# site and links back sends readers here, so it is allowed. A crawler that only
+# feeds a training set gives nothing back, so it is not.
+#
+# Both kinds are opt-out by convention only. Nothing here blocks Google, Bing,
+# or DuckDuckGo search.
 
-# OpenAI
-User-agent: GPTBot
-User-agent: ChatGPT-User
+# ----- allowed: these index the site and cite it -----
+
+# ChatGPT search, and fetches made because a user pasted the link.
 User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Claude search and citations.
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+# Perplexity answers link their sources.
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# DuckDuckGo's AI answers, and You.com.
+User-agent: DuckAssistBot
+User-agent: YouBot
+Allow: /
+
+# Le Chat, fetching a link a user gave it.
+User-agent: MistralAI-User
+Allow: /
+
+# ----- blocked: training corpora -----
+
+# OpenAI. GPTBot trains; OAI-SearchBot above does not.
+User-agent: GPTBot
 Disallow: /
 
-# Google Gemini training. Googlebot and Search are untouched.
-User-agent: Google-Extended
-Disallow: /
-
-# Anthropic
+# Anthropic. ClaudeBot trains; Claude-SearchBot above does not.
 User-agent: ClaudeBot
 User-agent: Claude-Web
-User-agent: Claude-User
-User-agent: Claude-SearchBot
 User-agent: anthropic-ai
+Disallow: /
+
+# Gemini training. Googlebot and Search are untouched by this.
+User-agent: Google-Extended
 Disallow: /
 
 # Apple Intelligence training. Applebot and Siri are untouched.
 User-agent: Applebot-Extended
 Disallow: /
 
-# Meta
+# Meta.
 User-agent: Meta-ExternalAgent
 User-agent: Meta-ExternalFetcher
 User-agent: FacebookBot
 Disallow: /
 
-# Perplexity
-User-agent: PerplexityBot
-User-agent: Perplexity-User
-Disallow: /
-
-# Common Crawl, the scrape most training sets are built from
+# Common Crawl, the scrape most training sets are built from.
 User-agent: CCBot
 Disallow: /
 
-# Everyone else
+# Everyone else.
 User-agent: Amazonbot
 User-agent: Bytespider
 User-agent: TikTokSpider
@@ -54,13 +77,10 @@ User-agent: Diffbot
 User-agent: ImagesiftBot
 User-agent: Omgilibot
 User-agent: Omgili
-User-agent: YouBot
 User-agent: Timpibot
 User-agent: PanguBot
 User-agent: Kangaroo Bot
 User-agent: Webzio-Extended
-User-agent: DuckAssistBot
-User-agent: MistralAI-User
 User-agent: SemrushBot-OCOB
 User-agent: Scrapy
 Disallow: /
