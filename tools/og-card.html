@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og card source</title>
+<!--
+  Source for img/og-card.png, the link preview image every share renders.
+
+  Regenerate after editing, from the repo root:
+    npx playwright screenshot --viewport-size=1200,630 tools/og-card.html img/og-card.png
+
+  Colors are copied from index.html on purpose. Nothing serves this file, so it
+  does not share a stylesheet with the site. Exocet is used only inside the
+  tooltip, the same rule the site follows: its capital O draws as a crossed
+  circle, which reads as a broken glyph at headline size.
+
+  The tooltip below was generated from the crown-of-ages entry in items.js by
+  the same smallCaps() split app.js uses, so it is character for character what
+  the site renders. If that entry's stats change, regenerate it rather than
+  editing the spans by hand.
+-->
+<style>
+@font-face{font-family:"Exocet Light";src:url("../fonts/exocet-light.woff") format("woff");font-weight:400}
+
+:root{
+  --bg:#0b0b0d;
+  --text:#ececf1;
+  --text-dim:#a2a2ad;
+  --accent:#c7b377;
+  --q-unique:#c7b377;
+  --q-prop:#6d6dff;
+  --border:#26262d;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1200px;height:630px}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  display:flex;align-items:center;justify-content:space-between;gap:48px;
+  padding:0 72px;
+  overflow:hidden;
+  position:relative;
+}
+/* the same warm pool of light the site sits in */
+body::before{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(115% 85% at 32% 45%, rgba(199,179,119,.10) 0%, rgba(11,11,13,0) 62%);
+}
+.left{position:relative;flex:0 1 auto}
+
+.brand{
+  font-size:19px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--text-dim);
+}
+.brand-mark{color:#e03a33;font-weight:800}
+
+h1{
+  font-size:70px;line-height:1.08;letter-spacing:.02em;font-weight:800;
+  text-transform:uppercase;color:var(--text);
+  margin:22px 0 0;
+}
+.rule{width:60px;height:2px;background:var(--accent);opacity:.55;margin:26px 0}
+.tagline{font-size:25px;line-height:1.42;color:var(--text-dim);max-width:24ch}
+.domain{
+  margin-top:32px;font-size:20px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--accent);
+}
+
+/* ---- right: the site's own tooltip over its sprite stage ---- */
+.right{
+  position:relative;flex:0 0 auto;
+  display:flex;flex-direction:column;align-items:center;gap:18px;
+}
+.tooltip{
+  background:rgba(2,2,4,.92);
+  border:1px solid #2c2c33;border-radius:2px;
+  padding:8px 20px;text-align:center;
+  font-family:"Exocet Light",Georgia,serif;
+  font-size:18px;letter-spacing:.05em;line-height:1.33;
+  text-transform:uppercase;white-space:nowrap;
+  box-shadow:0 14px 44px rgba(0,0,0,.75);
+}
+.sc{font-size:.78em}                 /* real lowercase, drawn as short caps */
+.t-name,.t-type{color:var(--q-unique)}
+.t-white{color:#dedee4}
+.t-line{color:var(--q-prop)}
+
+.stage{
+  /* the site draws a 2x2 helm at --cell:48px, so 96px of sprite. Match it:
+     this webp is 40x55 native and turns to mush past about 2x. */
+  width:128px;height:128px;
+  display:flex;align-items:center;justify-content:center;
+  background:#000;border:1px solid var(--border);border-radius:8px;
+}
+.stage img{
+  width:75%;height:75%;object-fit:contain;
+  image-rendering:auto;
+  filter:drop-shadow(0 2px 10px rgba(0,0,0,.6));
+}
+</style>
+</head>
+<body>
+
+<div class="left">
+  <div class="brand"><span class="brand-mark">Diablo&nbsp;2</span>&nbsp;Item of the Day</div>
+  <h1>One rare<br>item a day</h1>
+  <div class="rule"></div>
+  <p class="tagline">The pieces even a seasoned player does not know are valuable.</p>
+  <div class="domain">d2itemoftheday.com</div>
+</div>
+
+<div class="right">
+  <div class="tooltip">
+    <div class="t-name">C<span class="sc">rown</span> <span class="sc">of</span> A<span class="sc">ges</span></div>
+    <div class="t-type">C<span class="sc">orona</span></div>
+    <div class="t-white">D<span class="sc">efense</span>: 399</div>
+    <div class="t-white">R<span class="sc">equired</span> S<span class="sc">trength</span>: 174</div>
+    <div class="t-white">R<span class="sc">equired</span> L<span class="sc">evel</span>: 82</div>
+    <div class="t-line">+1 <span class="sc">to</span> A<span class="sc">ll</span> S<span class="sc">kills</span></div>
+    <div class="t-line">+50% E<span class="sc">nhanced</span> D<span class="sc">efense</span></div>
+    <div class="t-line">P<span class="sc">hysical</span> D<span class="sc">amage</span> R<span class="sc">eceived</span> R<span class="sc">educed</span> <span class="sc">by</span> 15%</div>
+    <div class="t-line">A<span class="sc">ll</span> R<span class="sc">esistances</span> +30</div>
+    <div class="t-line">+30% F<span class="sc">aster</span> H<span class="sc">it</span> R<span class="sc">ecovery</span></div>
+    <div class="t-line">S<span class="sc">ocketed</span> (2)</div>
+    <div class="t-line">I<span class="sc">ndestructible</span></div>
+  </div>
+  <div class="stage"><img src="../img/uniques/crown-of-ages.webp" alt=""></div>
+</div>
+
+</body>
+</html>

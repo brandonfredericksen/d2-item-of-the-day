@@ -14,9 +14,23 @@
 </script>
 <title>D2 Item of the Day</title>
 <meta name="description" content="One rare Diablo 2 collector's item every day. Museum pieces, hidden value, and the stories behind them.">
+<link rel="canonical" href="https://d2itemoftheday.com/">
+<!-- Permalinks (?item=slug) canonicalise to the root on purpose. The site shows
+     one item a day; a browsable index of all of them is not the point. -->
+<link rel="alternate" type="application/rss+xml" title="D2 Item of the Day" href="https://d2itemoftheday.com/feed.xml">
+<meta property="og:site_name" content="D2 Item of the Day">
 <meta property="og:title" content="D2 Item of the Day">
 <meta property="og:description" content="One rare Diablo 2 collector's item every day.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://d2itemoftheday.com/">
+<!-- Absolute URL, required: the crawlers that build link previews do not resolve
+     relative paths. They do not run JS either, so this card is static and never
+     claims to be the current item. Regenerate it from tools/og-card.html. -->
+<meta property="og:image" content="https://d2itemoftheday.com/img/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Diablo 2 Item of the Day. A Crown of Ages tooltip beside its inventory sprite.">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#120c0b">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
@@ -381,6 +395,8 @@ footer{
   color:var(--text-faint);font-size:.74rem;
 }
 footer p{margin:0 0 var(--sp-2)}
+.foot-links a{color:var(--text-faint);text-decoration:none;border-bottom:1px solid var(--border)}
+.foot-links a:hover{color:var(--accent);border-bottom-color:var(--accent)}
 .foot-timer{
   color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;
   font-size:.72rem;margin:0 0 var(--sp-3);
@@ -441,6 +457,7 @@ footer p{margin:0 0 var(--sp-2)}
 <footer>
   <p class="foot-timer" id="rollover"></p>
   <p id="footerLegal">Not affiliated with Blizzard Entertainment.</p>
+  <p class="foot-links"><a href="/feed.xml">RSS</a></p>
 </footer>
 
 </div>
