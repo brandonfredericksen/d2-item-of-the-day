@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 06 Sep 2026 16:15:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 04:33:50 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Wirt&apos;s Leg</title>
+      <link>https://d2itemoftheday.com/?item=wirts-leg</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/wirts-leg.png" alt=""></p>
+<p><strong>Wirt&apos;s Leg</strong><br><em>the cow-portal key</em></p>
+<p>Rarity: Common</p>
+<p>A broken wooden leg that does almost no damage, and one of the most important items a farmer owns. Cube it with a Tome of Town Portal and it opens the Secret Cow Level. But a rule rides along that plenty of people still learn the hard way. If the Cow King dies in a game you created, that character can never open the cow portal again on that difficulty. No reset, no fix.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Jeweler&apos;s Monarch of Deflecting</title>
       <link>https://d2itemoftheday.com/?item=jmod</link>
@@ -83,18 +95,6 @@
 <p><strong>Lancer&apos;s Matriarchal Javelin of Quickness</strong><br><em>+6 skill javazon javelin</em></p>
 <p>Rarity: Very Rare</p>
 <p>Six skill levels on a throwing weapon. Plus six to javelin and spear skills is more than any javazon gets from a single item anywhere else, and it comes with forty attack speed on a fast base. A blue javelin that outclasses the famous options for a javazon, and most people never think to read the skills line on a magic throwing weapon.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Volcanic Eldritch Orb</title>
-      <link>https://d2itemoftheday.com/?item=volcanic-eldritch-orb</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-08-31</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/eldritch-orb.png" alt=""></p>
-<p><strong>Volcanic Eldritch Orb</strong><br><em>fire sorc caster orb</em></p>
-<p>Rarity: Very Rare</p>
-<p>A fire sorceress dream stacked onto one blue orb. Three to the whole fire tree, three more to Fire Mastery, three more to Enchant, and two open sockets on top. Sorceress orbs roll hidden skill bonuses, and hitting three useful ones at once is what separates a fortune from a vendor sale. Drop two facets in and the fire damage climbs again.</p>
       ]]></description>
     </item>
   </channel>
