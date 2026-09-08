@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 07 Sep 2026 04:33:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 04:30:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Raven Spiral</title>
+      <link>https://d2itemoftheday.com/?item=raven-spiral</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>Raven Spiral</strong><br><em>LLD twink ring</em></p>
+<p>Rarity: Very Rare</p>
+<p>A level fourteen ring that stacks what a low-level dueler cannot get anywhere else. Dual leech, a hundred and forty eight attack rating, thirteen dexterity and all resistances, all under a requirement a twink can wear. No unique ring at that level comes close, and the low-level dueling market pays for exactly this spread.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Wirt&apos;s Leg</title>
       <link>https://d2itemoftheday.com/?item=wirts-leg</link>
@@ -83,18 +95,6 @@
 <p><strong>Constricting Ring</strong><br><em>the ring that never dropped</em></p>
 <p>Rarity: Mythic</p>
 <p>A ring that raises every one of your resistance caps. Not your resistance, the cap itself, from seventy five to ninety across all four elements. Nothing else in the game does it, and nothing was ever supposed to. It sits in the files complete with stats and a level ninety five requirement, switched off so it can never drop.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Lancer&apos;s Matriarchal Javelin of Quickness</title>
-      <link>https://d2itemoftheday.com/?item=lancers-matriarchal-javelin</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/matriarchal-javelin.png" alt=""></p>
-<p><strong>Lancer&apos;s Matriarchal Javelin of Quickness</strong><br><em>+6 skill javazon javelin</em></p>
-<p>Rarity: Very Rare</p>
-<p>Six skill levels on a throwing weapon. Plus six to javelin and spear skills is more than any javazon gets from a single item anywhere else, and it comes with forty attack speed on a fast base. A blue javelin that outclasses the famous options for a javazon, and most people never think to read the skills line on a magic throwing weapon.</p>
       ]]></description>
     </item>
   </channel>
