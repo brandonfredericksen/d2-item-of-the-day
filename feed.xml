@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 08 Sep 2026 04:30:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 04:36:40 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Angelic Halo + Wings</title>
+      <link>https://d2itemoftheday.com/?item=angelic-combo</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/angelic-combo.png" alt=""></p>
+<p><strong>Angelic Halo + Wings</strong><br><em>Angelics</em></p>
+<p>Rarity: Uncommon</p>
+<p>A seasoned player sees a set ring and amulet and moves on. That is the mistake. Worn together, the ring grants twelve attack rating for every character level. At level thirty that is hundreds of attack rating, more than a low-level character could ever get another way, and it makes a twink hit things it has no business hitting. The pieces are cheap. Knowing to pair them is the whole value.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Raven Spiral</title>
       <link>https://d2itemoftheday.com/?item=raven-spiral</link>
@@ -83,18 +95,6 @@
 <p><strong>Storm Needle</strong><br><em>hacked 435 ED bow</em></p>
 <p>Rarity: Mythic</p>
 <p>Four hundred thirty five percent enhanced damage on a bow that calls itself rare. The highest a single legitimate roll reaches is three hundred, and it cannot pair that with this many other lines. The numbers sit just past what the game allows, which is the signature of an item edited to look like a lucky drop instead of an obvious fake.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Constricting Ring</title>
-      <link>https://d2itemoftheday.com/?item=constricting-ring</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-02</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/constricting-ring.png" alt=""></p>
-<p><strong>Constricting Ring</strong><br><em>the ring that never dropped</em></p>
-<p>Rarity: Mythic</p>
-<p>A ring that raises every one of your resistance caps. Not your resistance, the cap itself, from seventy five to ninety across all four elements. Nothing else in the game does it, and nothing was ever supposed to. It sits in the files complete with stats and a level ninety five requirement, switched off so it can never drop.</p>
       ]]></description>
     </item>
   </channel>
