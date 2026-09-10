@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 09 Sep 2026 04:36:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 04:36:52 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Windforce</title>
+      <link>https://d2itemoftheday.com/?item=windforce-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/hydra-bow.png" alt=""></p>
+<p><strong>1.08 Windforce</strong><br><em>+35 Dexterity, pre-nerf</em></p>
+<p>Rarity: Mythic</p>
+<p>Windforce is the bow every bowazon wanted, the two-hander with the highest maximum damage in the game and a knockback that kept everything off you. This is the version that stopped dropping in 2001. Today&apos;s Windforce rolls five dexterity. This one rolls thirty five. Thirty extra dexterity is free attack rating and block that no modern copy can reach, on the best bow base there is.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Angelic Halo + Wings</title>
       <link>https://d2itemoftheday.com/?item=angelic-combo</link>
@@ -83,18 +95,6 @@
 <p><strong>Wraith Crack</strong><br><em>the six-figure rare</em></p>
 <p>Rarity: Mythic</p>
 <p>Every line here is legitimate, and that is the point. A rare that rolled near the ceiling on everything at once: two hundred ninety one enhanced damage just under the cap, forty attack speed, forty deadly strike from the two Lo runes, all on an ethereal fast mace. Nothing unique or runeword beats it for a straight melee build. The odds of the game rolling one item this well are almost none, which is why it became the most famous rare in the game.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Storm Needle</title>
-      <link>https://d2itemoftheday.com/?item=storm-needle</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-03</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/rare-bow.png" alt=""></p>
-<p><strong>Storm Needle</strong><br><em>hacked 435 ED bow</em></p>
-<p>Rarity: Mythic</p>
-<p>Four hundred thirty five percent enhanced damage on a bow that calls itself rare. The highest a single legitimate roll reaches is three hundred, and it cannot pair that with this many other lines. The numbers sit just past what the game allows, which is the signature of an item edited to look like a lucky drop instead of an obvious fake.</p>
       ]]></description>
     </item>
   </channel>
