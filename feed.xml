@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 10 Sep 2026 04:36:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 04:34:24 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Shimmering Small Charm of Vita</title>
+      <link>https://d2itemoftheday.com/?item=small-charm-5-20</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/small-charm.png" alt=""></p>
+<p><strong>Shimmering Small Charm of Vita</strong><br><em>5/20 small charm</em></p>
+<p>Rarity: Very Rare</p>
+<p>A small charm takes one inventory square. This one gives five all resistance and twenty life for that square, both maxed. It is the best defensive small charm in the game, and players hoard whole rows of them. A perfect one costs more than plenty of uniques. Most people who find a near miss never notice how far off max it is.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Windforce</title>
       <link>https://d2itemoftheday.com/?item=windforce-08</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Valkyrie Wing</strong><br><em>four 30% speed mods</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Valkyrie Wing that drops today gives run speed and amazon skills. This one, from patch 1.08, gave every speed bonus in the game at once. Thirty faster run, thirty attack speed, thirty faster cast, thirty faster hit recovery, all on one helm any class could wear. Nothing since has stacked four speed mods on a single item. It was too good, so it was rewritten.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Wraith Crack</title>
-      <link>https://d2itemoftheday.com/?item=wraith-crack</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-04</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/legendary-mallet.png" alt=""></p>
-<p><strong>Wraith Crack</strong><br><em>the six-figure rare</em></p>
-<p>Rarity: Mythic</p>
-<p>Every line here is legitimate, and that is the point. A rare that rolled near the ceiling on everything at once: two hundred ninety one enhanced damage just under the cap, forty attack speed, forty deadly strike from the two Lo runes, all on an ethereal fast mace. Nothing unique or runeword beats it for a straight melee build. The odds of the game rolling one item this well are almost none, which is why it became the most famous rare in the game.</p>
       ]]></description>
     </item>
   </channel>
