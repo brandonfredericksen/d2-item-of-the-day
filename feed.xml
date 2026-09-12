@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 11 Sep 2026 04:34:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 04:30:12 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Token of Absolution</title>
+      <link>https://d2itemoftheday.com/?item=token-of-absolution</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-12</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/token-of-absolution.png" alt=""></p>
+<p><strong>Token of Absolution</strong><br><em>the respec that took a decade</em></p>
+<p>Rarity: Uncommon</p>
+<p>For most of Diablo 2&apos;s life a misplaced skill point was permanent. There was no respec, and after the 1.10 synergy overhaul a single wrong point could quietly ruin a build. Then this arrived. Cube four Essences dropped by the act bosses and you get a full reset of skills and stats. One small item ended a decade of build anxiety.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Shimmering Small Charm of Vita</title>
       <link>https://d2itemoftheday.com/?item=small-charm-5-20</link>
@@ -83,18 +95,6 @@
 <p><strong>Jeweler&apos;s Monarch of Deflecting</strong><br><em>JMOD</em></p>
 <p>Rarity: Very Rare</p>
 <p>A blue shield that trades for a dozen high runes. It is not a runeword base, it is better than one. Four sockets, thirty faster block, twenty increased block, all on a light shield anyone can carry. You fill the sockets yourself, usually with Rainbow Facets, and get a max-block shield tuned to your build that no plain runeword can match. Lightning javazons in particular hunt these. It looks like vendor trash and gambles for a fortune.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Valkyrie Wing</title>
-      <link>https://d2itemoftheday.com/?item=valkyrie-wing-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-05</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/winged-helm.png" alt=""></p>
-<p><strong>1.08 Valkyrie Wing</strong><br><em>four 30% speed mods</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Valkyrie Wing that drops today gives run speed and amazon skills. This one, from patch 1.08, gave every speed bonus in the game at once. Thirty faster run, thirty attack speed, thirty faster cast, thirty faster hit recovery, all on one helm any class could wear. Nothing since has stacked four speed mods on a single item. It was too good, so it was rewritten.</p>
       ]]></description>
     </item>
   </channel>
