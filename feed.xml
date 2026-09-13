@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 12 Sep 2026 04:30:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 04:44:25 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Blackoak Shield</title>
+      <link>https://d2itemoftheday.com/?item=blackoak-shield</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-13</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/blackoak-shield.png" alt=""></p>
+<p><strong>Blackoak Shield</strong><br><em>the patch-notes bug</em></p>
+<p>Rarity: Uncommon</p>
+<p>Blackoak Shield is a solid block-rate shield, but its claim to fame is a line in a patch note. Its enhanced defense scales with your level, and for a while the game calculated that wrong. A copy from before patch 1.09 did not compute its own defense the way a modern one does, which makes it one of the few items whose bug is documented in Blizzard&apos;s own words.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Token of Absolution</title>
       <link>https://d2itemoftheday.com/?item=token-of-absolution</link>
@@ -83,18 +95,6 @@
 <p><strong>Wirt&apos;s Leg</strong><br><em>the cow-portal key</em></p>
 <p>Rarity: Common</p>
 <p>A broken wooden leg that does almost no damage, and one of the most important items a farmer owns. Cube it with a Tome of Town Portal and it opens the Secret Cow Level. But a rule rides along that plenty of people still learn the hard way. If the Cow King dies in a game you created, that character can never open the cow portal again on that difficulty. No reset, no fix.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Jeweler&apos;s Monarch of Deflecting</title>
-      <link>https://d2itemoftheday.com/?item=jmod</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-06</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/monarch.png" alt=""></p>
-<p><strong>Jeweler&apos;s Monarch of Deflecting</strong><br><em>JMOD</em></p>
-<p>Rarity: Very Rare</p>
-<p>A blue shield that trades for a dozen high runes. It is not a runeword base, it is better than one. Four sockets, thirty faster block, twenty increased block, all on a light shield anyone can carry. You fill the sockets yourself, usually with Rainbow Facets, and get a max-block shield tuned to your build that no plain runeword can match. Lightning javazons in particular hunt these. It looks like vendor trash and gambles for a fortune.</p>
       ]]></description>
     </item>
   </channel>
