@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 13 Sep 2026 04:44:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 04:50:40 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Crown of Ages</title>
+      <link>https://d2itemoftheday.com/?item=crown-of-ages</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/crown-of-ages.webp" alt=""></p>
+<p><strong>Crown of Ages</strong><br><em>perfect CoA</em></p>
+<p>Rarity: Very Rare</p>
+<p>Everyone knows the helm. Almost nobody prices the roll. A plain Crown of Ages is a fine helmet. This one has two sockets, fifteen percent physical damage reduction, and thirty all resistance, the top of every line it can roll. That stack is worth many times a low one. Same gold name, a completely different item, and the difference is invisible unless you read the numbers.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Blackoak Shield</title>
       <link>https://d2itemoftheday.com/?item=blackoak-shield</link>
@@ -83,18 +95,6 @@
 <p><strong>Raven Spiral</strong><br><em>LLD twink ring</em></p>
 <p>Rarity: Very Rare</p>
 <p>A level fourteen ring that stacks what a low-level dueler cannot get anywhere else. Dual leech, a hundred and forty eight attack rating, thirteen dexterity and all resistances, all under a requirement a twink can wear. No unique ring at that level comes close, and the low-level dueling market pays for exactly this spread.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Wirt&apos;s Leg</title>
-      <link>https://d2itemoftheday.com/?item=wirts-leg</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-07</guid>
-      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/wirts-leg.png" alt=""></p>
-<p><strong>Wirt&apos;s Leg</strong><br><em>the cow-portal key</em></p>
-<p>Rarity: Common</p>
-<p>A broken wooden leg that does almost no damage, and one of the most important items a farmer owns. Cube it with a Tome of Town Portal and it opens the Secret Cow Level. But a rule rides along that plenty of people still learn the hard way. If the Cow King dies in a game you created, that character can never open the cow portal again on that difficulty. No reset, no fix.</p>
       ]]></description>
     </item>
   </channel>
