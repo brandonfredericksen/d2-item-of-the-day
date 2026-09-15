@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 14 Sep 2026 04:50:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 04:49:44 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Jeweler&apos;s Archon Plate of the Whale</title>
+      <link>https://d2itemoftheday.com/?item=jewelers-archon-plate</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/archon-plate-red.webp" alt=""></p>
+<p><strong>Jeweler&apos;s Archon Plate of the Whale</strong><br><em>4os Archon Plate</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Archon Plate is the lightest elite body armor, the lowest strength of the top tier. This one is magic, with four sockets and a hundred life on it. You cannot put Enigma in it, that needs a plain three-socket armor, but you can fill four sockets with resist runes or jewels and build a caster armor tuned to stats Enigma cannot give. Most players see a blue armor and move on. This one is a project piece worth real trade.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Crown of Ages</title>
       <link>https://d2itemoftheday.com/?item=crown-of-ages</link>
@@ -83,18 +95,6 @@
 <p><strong>Angelic Halo + Wings</strong><br><em>Angelics</em></p>
 <p>Rarity: Uncommon</p>
 <p>A seasoned player sees a set ring and amulet and moves on. That is the mistake. Worn together, the ring grants twelve attack rating for every character level. At level thirty that is hundreds of attack rating, more than a low-level character could ever get another way, and it makes a twink hit things it has no business hitting. The pieces are cheap. Knowing to pair them is the whole value.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Raven Spiral</title>
-      <link>https://d2itemoftheday.com/?item=raven-spiral</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-08</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>Raven Spiral</strong><br><em>LLD twink ring</em></p>
-<p>Rarity: Very Rare</p>
-<p>A level fourteen ring that stacks what a low-level dueler cannot get anywhere else. Dual leech, a hundred and forty eight attack rating, thirteen dexterity and all resistances, all under a requirement a twink can wear. No unique ring at that level comes close, and the low-level dueling market pays for exactly this spread.</p>
       ]]></description>
     </item>
   </channel>
