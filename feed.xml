@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 17 Sep 2026 04:48:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 04:38:11 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Bonesnap</title>
+      <link>https://d2itemoftheday.com/?item=bonesnap</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/maul.png" alt=""></p>
+<p><strong>Bonesnap</strong><br><em>classic melee chase</em></p>
+<p>Rarity: Uncommon</p>
+<p>In classic Diablo 2 there were no runewords and no elite uniques, so the top of the melee ladder was a normal-tier unique like this. Bonesnap swings for up to three hundred percent enhanced damage with forty percent crushing blow, which tears a chunk off any target&apos;s current life no matter how much it has. At a level twenty four requirement, cubed up for more base damage, it was the weapon a classic barbarian actually wanted.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Dread Grip</title>
       <link>https://d2itemoftheday.com/?item=dread-grip</link>
@@ -83,18 +95,6 @@
 <p><strong>Token of Absolution</strong><br><em>the respec that took a decade</em></p>
 <p>Rarity: Uncommon</p>
 <p>For most of Diablo 2&apos;s life a misplaced skill point was permanent. There was no respec, and after the 1.10 synergy overhaul a single wrong point could quietly ruin a build. Then this arrived. Cube four Essences dropped by the act bosses and you get a full reset of skills and stats. One small item ended a decade of build anxiety.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Shimmering Small Charm of Vita</title>
-      <link>https://d2itemoftheday.com/?item=small-charm-5-20</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-11</guid>
-      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/small-charm.png" alt=""></p>
-<p><strong>Shimmering Small Charm of Vita</strong><br><em>5/20 small charm</em></p>
-<p>Rarity: Very Rare</p>
-<p>A small charm takes one inventory square. This one gives five all resistance and twenty life for that square, both maxed. It is the best defensive small charm in the game, and players hoard whole rows of them. A perfect one costs more than plenty of uniques. Most people who find a near miss never notice how far off max it is.</p>
       ]]></description>
     </item>
   </channel>
