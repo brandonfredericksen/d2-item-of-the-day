@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 18 Sep 2026 04:38:11 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 04:33:20 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Manald Heal</title>
+      <link>https://d2itemoftheday.com/?item=manald-heal</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-19</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>Manald Heal</strong><br><em>the SoJ-fishing ring</em></p>
+<p>Rarity: Uncommon</p>
+<p>A modest mana-leech ring, and one half of the game&apos;s oldest gold trick. A unique ring will not roll if that same unique already exists in the game, and a ring carried in from your stash counts as existing. Classic shipped only three: Nagelring, Manald Heal, and the Stone of Jordan. Bring a Nagelring and a Manald and the game has nothing left to hand you but an SoJ. Players hauled both junk rings around on purpose to fish for the currency of the realm.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Bonesnap</title>
       <link>https://d2itemoftheday.com/?item=bonesnap</link>
@@ -83,18 +95,6 @@
 <p><strong>Blackoak Shield</strong><br><em>the patch-notes bug</em></p>
 <p>Rarity: Uncommon</p>
 <p>Blackoak Shield is a solid block-rate shield, but its claim to fame is a line in a patch note. Its enhanced defense scales with your level, and for a while the game calculated that wrong. A copy from before patch 1.09 did not compute its own defense the way a modern one does, which makes it one of the few items whose bug is documented in Blizzard&apos;s own words.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Token of Absolution</title>
-      <link>https://d2itemoftheday.com/?item=token-of-absolution</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-12</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/token-of-absolution.png" alt=""></p>
-<p><strong>Token of Absolution</strong><br><em>the respec that took a decade</em></p>
-<p>Rarity: Uncommon</p>
-<p>For most of Diablo 2&apos;s life a misplaced skill point was permanent. There was no respec, and after the 1.10 synergy overhaul a single wrong point could quietly ruin a build. Then this arrived. Cube four Essences dropped by the act bosses and you get a full reset of skills and stats. One small item ended a decade of build anxiety.</p>
       ]]></description>
     </item>
   </channel>
