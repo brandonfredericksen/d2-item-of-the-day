@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 19 Sep 2026 04:33:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 04:49:54 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Grim Fist</title>
+      <link>https://d2itemoftheday.com/?item=grim-fist</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-20</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/light-gauntlets.png" alt=""></p>
+<p><strong>Grim Fist</strong><br><em>+2 skill javazon gloves</em></p>
+<p>Rarity: Very Rare</p>
+<p>Gloves are an afterthought slot, which is exactly why this pair hides. Two to the whole javelin and spear tree, then twenty attack speed and a maxed three and three life and mana leech on top. A javazon gets a skill level here that no unique glove can offer, the leech to stay alive, and the speed to throw faster. It reads as a junk yellow. It is a build-defining glove for the right amazon.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Manald Heal</title>
       <link>https://d2itemoftheday.com/?item=manald-heal</link>
@@ -83,18 +95,6 @@
 <p><strong>Crown of Ages</strong><br><em>perfect CoA</em></p>
 <p>Rarity: Very Rare</p>
 <p>Everyone knows the helm. Almost nobody prices the roll. A plain Crown of Ages is a fine helmet. This one has two sockets, fifteen percent physical damage reduction, and thirty all resistance, the top of every line it can roll. That stack is worth many times a low one. Same gold name, a completely different item, and the difference is invisible unless you read the numbers.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Blackoak Shield</title>
-      <link>https://d2itemoftheday.com/?item=blackoak-shield</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-13</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/blackoak-shield.png" alt=""></p>
-<p><strong>Blackoak Shield</strong><br><em>the patch-notes bug</em></p>
-<p>Rarity: Uncommon</p>
-<p>Blackoak Shield is a solid block-rate shield, but its claim to fame is a line in a patch note. Its enhanced defense scales with your level, and for a while the game calculated that wrong. A copy from before patch 1.09 did not compute its own defense the way a modern one does, which makes it one of the few items whose bug is documented in Blizzard&apos;s own words.</p>
       ]]></description>
     </item>
   </channel>
