@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 20 Sep 2026 04:49:54 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 04:50:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Siggard&apos;s Stealth</title>
+      <link>https://d2itemoftheday.com/?item=siggards-stealth</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/siggards-stealth.png" alt=""></p>
+<p><strong>Siggard&apos;s Stealth</strong><br><em>the renamed Nosferatu&apos;s Coil</em></p>
+<p>Rarity: Very Rare</p>
+<p>Look at the name. That belt does not exist anymore. The stats are an ordinary Nosferatu&apos;s Coil, attack speed and life steal, nothing a current player would chase. What makes it a collector piece is the name itself. Nothing has dropped with it in over twenty years.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Grim Fist</title>
       <link>https://d2itemoftheday.com/?item=grim-fist</link>
@@ -83,18 +95,6 @@
 <p><strong>Jeweler&apos;s Archon Plate of the Whale</strong><br><em>4os Archon Plate</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Archon Plate is the lightest elite body armor, the lowest strength of the top tier. This one is magic, with four sockets and a hundred life on it. You cannot put Enigma in it, that needs a plain three-socket armor, but you can fill four sockets with resist runes or jewels and build a caster armor tuned to stats Enigma cannot give. Most players see a blue armor and move on. This one is a project piece worth real trade.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Crown of Ages</title>
-      <link>https://d2itemoftheday.com/?item=crown-of-ages</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/crown-of-ages.webp" alt=""></p>
-<p><strong>Crown of Ages</strong><br><em>perfect CoA</em></p>
-<p>Rarity: Very Rare</p>
-<p>Everyone knows the helm. Almost nobody prices the roll. A plain Crown of Ages is a fine helmet. This one has two sockets, fifteen percent physical damage reduction, and thirty all resistance, the top of every line it can roll. That stack is worth many times a low one. Same gold name, a completely different item, and the difference is invisible unless you read the numbers.</p>
       ]]></description>
     </item>
   </channel>
