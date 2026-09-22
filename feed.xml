@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 21 Sep 2026 04:50:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 04:49:34 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Gaean Falcon Mask of the Sun</title>
+      <link>https://d2itemoftheday.com/?item=gaean-falcon-mask</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/falcon-mask.png" alt=""></p>
+<p><strong>Gaean Falcon Mask of the Sun</strong><br><em>wind druid pelt</em></p>
+<p>Rarity: Very Rare</p>
+<p>A wind druid&apos;s whole shopping list on one blue pelt. Three to the elemental tree and three more straight to Tornado, plus grizzly and hunger, and two open sockets. Druid pelts roll hidden skill bonuses like weapons do, and landing the wind combo on one is rare. It out-skills the unique pelts for a storm druid and looks like nothing.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Siggard&apos;s Stealth</title>
       <link>https://d2itemoftheday.com/?item=siggards-stealth</link>
@@ -83,18 +95,6 @@
 <p><strong>Arkaine&apos;s Valor</strong><br><em>legacy Arkaine&apos;s</em></p>
 <p>Rarity: Mythic</p>
 <p>This is not the Arkaine&apos;s Valor that drops today. This is the old one. Before the nerf it gave two and a half vitality and two life for every character level, plus two to all skills, indestructible, and fire resist, all on one body armor. At level ninety-nine that is hundreds of free vitality and life. The current version was cut down hard, so a copy like this can no longer drop.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Jeweler&apos;s Archon Plate of the Whale</title>
-      <link>https://d2itemoftheday.com/?item=jewelers-archon-plate</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-15</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/archon-plate-red.webp" alt=""></p>
-<p><strong>Jeweler&apos;s Archon Plate of the Whale</strong><br><em>4os Archon Plate</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Archon Plate is the lightest elite body armor, the lowest strength of the top tier. This one is magic, with four sockets and a hundred life on it. You cannot put Enigma in it, that needs a plain three-socket armor, but you can fill four sockets with resist runes or jewels and build a caster armor tuned to stats Enigma cannot give. Most players see a blue armor and move on. This one is a project piece worth real trade.</p>
       ]]></description>
     </item>
   </channel>
