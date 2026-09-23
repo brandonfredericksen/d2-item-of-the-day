@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 22 Sep 2026 04:49:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 04:41:06 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Cruel Matriarchal Bow of Amplify Damage</title>
+      <link>https://d2itemoftheday.com/?item=cruel-matriarchal-bow</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-23</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/matriarchal-bow.png" alt=""></p>
+<p><strong>Cruel Matriarchal Bow of Amplify Damage</strong><br><em>hacked amp bow</em></p>
+<p>Rarity: Mythic</p>
+<p>It calls itself a magic bow, but a magic item gets one prefix and one suffix, two lines at most. This has a curse on striking, a class skill, thirty attack speed and three hundred seventy six enhanced damage all at once. That is several affixes too many. It is a hacked bow wearing a legal-looking blue name, which is what made this kind so hard to catch in a trade window.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Gaean Falcon Mask of the Sun</title>
       <link>https://d2itemoftheday.com/?item=gaean-falcon-mask</link>
@@ -83,18 +95,6 @@
 <p><strong>Dread Grip</strong><br><em>tri-res leech ring</em></p>
 <p>Rarity: Very Rare</p>
 <p>A rare ring that solves resistances and leech in one slot at a low requirement. Dual leech, thirty-plus in all three big resistances, and a slice of magic find, at level eighteen. Tri-res on a ring is a hard roll by itself, and pairing it with leech and magic find is a combination the game almost never hands out.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Arkaine&apos;s Valor</title>
-      <link>https://d2itemoftheday.com/?item=arkaines-valor</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-16</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/arkaines-valor.png" alt=""></p>
-<p><strong>Arkaine&apos;s Valor</strong><br><em>legacy Arkaine&apos;s</em></p>
-<p>Rarity: Mythic</p>
-<p>This is not the Arkaine&apos;s Valor that drops today. This is the old one. Before the nerf it gave two and a half vitality and two life for every character level, plus two to all skills, indestructible, and fire resist, all on one body armor. At level ninety-nine that is hundreds of free vitality and life. The current version was cut down hard, so a copy like this can no longer drop.</p>
       ]]></description>
     </item>
   </channel>
