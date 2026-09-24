@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 23 Sep 2026 04:41:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 04:43:41 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Occy Ring</title>
+      <link>https://d2itemoftheday.com/?item=oculus-soj</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-24</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/stone-of-jordan.webp" alt=""></p>
+<p><strong>Occy Ring</strong><br><em>bugged Stone of Jordan</em></p>
+<p>Rarity: Mythic</p>
+<p>Read the stats, then read the item type. Those are The Oculus&apos;s stats, a sorceress orb, sitting on a ring. Three sorceress skills, thirty faster cast, teleport when struck, all in a slot that should never hold them. A sorceress wearing one carried an extra orb&apos;s worth of power for free.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Cruel Matriarchal Bow of Amplify Damage</title>
       <link>https://d2itemoftheday.com/?item=cruel-matriarchal-bow</link>
@@ -83,18 +95,6 @@
 <p><strong>Bonesnap</strong><br><em>classic melee chase</em></p>
 <p>Rarity: Uncommon</p>
 <p>In classic Diablo 2 there were no runewords and no elite uniques, so the top of the melee ladder was a normal-tier unique like this. Bonesnap swings for up to three hundred percent enhanced damage with forty percent crushing blow, which tears a chunk off any target&apos;s current life no matter how much it has. At a level twenty four requirement, cubed up for more base damage, it was the weapon a classic barbarian actually wanted.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Dread Grip</title>
-      <link>https://d2itemoftheday.com/?item=dread-grip</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-17</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>Dread Grip</strong><br><em>tri-res leech ring</em></p>
-<p>Rarity: Very Rare</p>
-<p>A rare ring that solves resistances and leech in one slot at a low requirement. Dual leech, thirty-plus in all three big resistances, and a slice of magic find, at level eighteen. Tri-res on a ring is a hard roll by itself, and pairing it with leech and magic find is a combination the game almost never hands out.</p>
       ]]></description>
     </item>
   </channel>
