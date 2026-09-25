@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 24 Sep 2026 04:43:41 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 04:52:44 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Pain Hood</title>
+      <link>https://d2itemoftheday.com/?item=pain-hood</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-25</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/tiara.png" alt=""></p>
+<p><strong>Pain Hood</strong><br><em>2/20 druid circlet</em></p>
+<p>Rarity: Very Rare</p>
+<p>The best caster helm for a druid is often not a unique but a rare circlet like this. Two to all druid skills and twenty faster cast are the two lines every caster hunts, and here they arrive with run speed, dexterity and all four resistances on one Tiara. No unique druid helm matches the spread. A random yellow name hiding one of the best helms a storm or fire druid can wear.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Occy Ring</title>
       <link>https://d2itemoftheday.com/?item=oculus-soj</link>
@@ -83,18 +95,6 @@
 <p><strong>Manald Heal</strong><br><em>the SoJ-fishing ring</em></p>
 <p>Rarity: Uncommon</p>
 <p>A modest mana-leech ring, and one half of the game&apos;s oldest gold trick. A unique ring will not roll if that same unique already exists in the game, and a ring carried in from your stash counts as existing. Classic shipped only three: Nagelring, Manald Heal, and the Stone of Jordan. Bring a Nagelring and a Manald and the game has nothing left to hand you but an SoJ. Players hauled both junk rings around on purpose to fish for the currency of the realm.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Bonesnap</title>
-      <link>https://d2itemoftheday.com/?item=bonesnap</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/maul.png" alt=""></p>
-<p><strong>Bonesnap</strong><br><em>classic melee chase</em></p>
-<p>Rarity: Uncommon</p>
-<p>In classic Diablo 2 there were no runewords and no elite uniques, so the top of the melee ladder was a normal-tier unique like this. Bonesnap swings for up to three hundred percent enhanced damage with forty percent crushing blow, which tears a chunk off any target&apos;s current life no matter how much it has. At a level twenty four requirement, cubed up for more base damage, it was the weapon a classic barbarian actually wanted.</p>
       ]]></description>
     </item>
   </channel>
