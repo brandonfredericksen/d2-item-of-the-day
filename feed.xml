@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 25 Sep 2026 04:52:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 04:52:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Ogre Gauntlets</title>
+      <link>https://d2itemoftheday.com/?item=ogre-gauntlets</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-26</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ogre-gauntlets.png" alt=""></p>
+<p><strong>Ogre Gauntlets</strong><br><em>hacked god gloves</em></p>
+<p>Rarity: Mythic</p>
+<p>A plain white pair of gloves, no name, no prefix, wearing stats the slot cannot hold. A hundred attack speed and a hundred hit recovery, ninety dexterity, ninety vitality, a full hundred to every resistance, and a weapon&apos;s damage roll bolted on. Hold each line against what gloves actually roll and every one is over the ceiling. It is the White Ring&apos;s edit on a different slot.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Pain Hood</title>
       <link>https://d2itemoftheday.com/?item=pain-hood</link>
@@ -83,18 +95,6 @@
 <p><strong>Grim Fist</strong><br><em>+2 skill javazon gloves</em></p>
 <p>Rarity: Very Rare</p>
 <p>Gloves are an afterthought slot, which is exactly why this pair hides. Two to the whole javelin and spear tree, then twenty attack speed and a maxed three and three life and mana leech on top. A javazon gets a skill level here that no unique glove can offer, the leech to stay alive, and the speed to throw faster. It reads as a junk yellow. It is a build-defining glove for the right amazon.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Manald Heal</title>
-      <link>https://d2itemoftheday.com/?item=manald-heal</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-19</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>Manald Heal</strong><br><em>the SoJ-fishing ring</em></p>
-<p>Rarity: Uncommon</p>
-<p>A modest mana-leech ring, and one half of the game&apos;s oldest gold trick. A unique ring will not roll if that same unique already exists in the game, and a ring carried in from your stash counts as existing. Classic shipped only three: Nagelring, Manald Heal, and the Stone of Jordan. Bring a Nagelring and a Manald and the game has nothing left to hand you but an SoJ. Players hauled both junk rings around on purpose to fish for the currency of the realm.</p>
       ]]></description>
     </item>
   </channel>
