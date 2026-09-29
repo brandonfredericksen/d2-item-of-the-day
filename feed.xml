@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 28 Sep 2026 05:17:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 05:39:24 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Silks of the Victor</title>
+      <link>https://d2itemoftheday.com/?item=silks-of-the-victor</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-29</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/silks-of-the-victor.webp" alt=""></p>
+<p><strong>Silks of the Victor</strong><br><em>classic caster armor</em></p>
+<p>Rarity: Uncommon</p>
+<p>Plus one to all skills on a body armor sounds ordinary now. In classic Diablo 2 it was a grail. There was no Enigma, no Vipermagi, no Spirit Shroud, and almost nothing gave skills. A caster who wanted a skill level on the chest slot had this and little else, which is exactly why a plain unique Ancient Armor was the best caster body in the game for a stretch.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Storm Circlet</title>
       <link>https://d2itemoftheday.com/?item=storm-circlet</link>
@@ -83,18 +95,6 @@
 <p><strong>Cruel Matriarchal Bow of Amplify Damage</strong><br><em>hacked amp bow</em></p>
 <p>Rarity: Mythic</p>
 <p>It calls itself a magic bow, but a magic item gets one prefix and one suffix, two lines at most. This has a curse on striking, a class skill, thirty attack speed and three hundred seventy six enhanced damage all at once. That is several affixes too many. It is a hacked bow wearing a legal-looking blue name, which is what made this kind so hard to catch in a trade window.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Gaean Falcon Mask of the Sun</title>
-      <link>https://d2itemoftheday.com/?item=gaean-falcon-mask</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-22</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/falcon-mask.png" alt=""></p>
-<p><strong>Gaean Falcon Mask of the Sun</strong><br><em>wind druid pelt</em></p>
-<p>Rarity: Very Rare</p>
-<p>A wind druid&apos;s whole shopping list on one blue pelt. Three to the elemental tree and three more straight to Tornado, plus grizzly and hunger, and two open sockets. Druid pelts roll hidden skill bonuses like weapons do, and landing the wind combo on one is rare. It out-skills the unique pelts for a storm druid and looks like nothing.</p>
       ]]></description>
     </item>
   </channel>
