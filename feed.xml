@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 29 Sep 2026 05:39:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 05:27:41 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Fine Small Charm of Vita</title>
+      <link>https://d2itemoftheday.com/?item=small-charm-3-20-20</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-30</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/small-charm.png" alt=""></p>
+<p><strong>Fine Small Charm of Vita</strong><br><em>3/20/20 small charm</em></p>
+<p>Rarity: Very Rare</p>
+<p>The melee version of the perfect small charm. Three maximum damage, twenty attack rating, twenty life, all maxed, in one square. Physical builds fill their inventory with these. The roll has to hit all three ceilings at once, which almost never happens, and that is what you pay for.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Silks of the Victor</title>
       <link>https://d2itemoftheday.com/?item=silks-of-the-victor</link>
@@ -83,18 +95,6 @@
 <p><strong>Occy Ring</strong><br><em>bugged Stone of Jordan</em></p>
 <p>Rarity: Mythic</p>
 <p>Read the stats, then read the item type. Those are The Oculus&apos;s stats, a sorceress orb, sitting on a ring. Three sorceress skills, thirty faster cast, teleport when struck, all in a slot that should never hold them. A sorceress wearing one carried an extra orb&apos;s worth of power for free.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Cruel Matriarchal Bow of Amplify Damage</title>
-      <link>https://d2itemoftheday.com/?item=cruel-matriarchal-bow</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-23</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/matriarchal-bow.png" alt=""></p>
-<p><strong>Cruel Matriarchal Bow of Amplify Damage</strong><br><em>hacked amp bow</em></p>
-<p>Rarity: Mythic</p>
-<p>It calls itself a magic bow, but a magic item gets one prefix and one suffix, two lines at most. This has a curse on striking, a class skill, thirty attack speed and three hundred seventy six enhanced damage all at once. That is several affixes too many. It is a hacked bow wearing a legal-looking blue name, which is what made this kind so hard to catch in a trade window.</p>
       ]]></description>
     </item>
   </channel>
