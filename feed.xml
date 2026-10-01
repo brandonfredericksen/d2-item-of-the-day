@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 30 Sep 2026 05:27:41 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 05:46:26 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Glitched Arreat&apos;s Face</title>
+      <link>https://d2itemoftheday.com/?item=glitched-arreats</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-01</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/arreats-face.png" alt=""></p>
+<p><strong>Glitched Arreat&apos;s Face</strong><br><em>the Zod-bug antique</em></p>
+<p>Rarity: Mythic</p>
+<p>A normal Arreat&apos;s Face cannot be indestructible, and cannot show six hundred defense. This one is both. It is an ethereal Arreat&apos;s that a Zod rune locked permanently indestructible, keeping the ethereal defense bonus with no durability left to lose, and the defense was doubled again by the old ethereal socketing bug. The current game cannot produce it: eternal, ethereal, and armored past its own ceiling.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Fine Small Charm of Vita</title>
       <link>https://d2itemoftheday.com/?item=small-charm-3-20-20</link>
@@ -83,18 +95,6 @@
 <p><strong>Pain Hood</strong><br><em>2/20 druid circlet</em></p>
 <p>Rarity: Very Rare</p>
 <p>The best caster helm for a druid is often not a unique but a rare circlet like this. Two to all druid skills and twenty faster cast are the two lines every caster hunts, and here they arrive with run speed, dexterity and all four resistances on one Tiara. No unique druid helm matches the spread. A random yellow name hiding one of the best helms a storm or fire druid can wear.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Occy Ring</title>
-      <link>https://d2itemoftheday.com/?item=oculus-soj</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-24</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/stone-of-jordan.webp" alt=""></p>
-<p><strong>Occy Ring</strong><br><em>bugged Stone of Jordan</em></p>
-<p>Rarity: Mythic</p>
-<p>Read the stats, then read the item type. Those are The Oculus&apos;s stats, a sorceress orb, sitting on a ring. Three sorceress skills, thirty faster cast, teleport when struck, all in a slot that should never hold them. A sorceress wearing one carried an extra orb&apos;s worth of power for free.</p>
       ]]></description>
     </item>
   </channel>
