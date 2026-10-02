@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 01 Oct 2026 05:46:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 05:30:48 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Harlequin Crest</title>
+      <link>https://d2itemoftheday.com/?item=harlequin-crest-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/harlequin-crest.webp" alt=""></p>
+<p><strong>1.08 Harlequin Crest</strong><br><em>the 40% maximum life Shako</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Shako everyone wears gives life and mana by character level, ten percent damage reduced, and two points in every attribute. This one gives forty percent maximum life on one line, and it cannot break. No helm the game makes now carries a percentage of maximum life at all. Same two skills, same magic find, a completely different reason to wear it.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Glitched Arreat&apos;s Face</title>
       <link>https://d2itemoftheday.com/?item=glitched-arreats</link>
@@ -83,18 +95,6 @@
 <p><strong>Ogre Gauntlets</strong><br><em>hacked god gloves</em></p>
 <p>Rarity: Mythic</p>
 <p>A plain white pair of gloves, no name, no prefix, wearing stats the slot cannot hold. A hundred attack speed and a hundred hit recovery, ninety dexterity, ninety vitality, a full hundred to every resistance, and a weapon&apos;s damage roll bolted on. Hold each line against what gloves actually roll and every one is over the ceiling. It is the White Ring&apos;s edit on a different slot.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Pain Hood</title>
-      <link>https://d2itemoftheday.com/?item=pain-hood</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/tiara.png" alt=""></p>
-<p><strong>Pain Hood</strong><br><em>2/20 druid circlet</em></p>
-<p>Rarity: Very Rare</p>
-<p>The best caster helm for a druid is often not a unique but a rare circlet like this. Two to all druid skills and twenty faster cast are the two lines every caster hunts, and here they arrive with run speed, dexterity and all four resistances on one Tiara. No unique druid helm matches the spread. A random yellow name hiding one of the best helms a storm or fire druid can wear.</p>
       ]]></description>
     </item>
   </channel>
