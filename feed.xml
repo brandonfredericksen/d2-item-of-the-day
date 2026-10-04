@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 03 Oct 2026 05:13:12 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 05:46:56 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Herald of Zakarum</title>
+      <link>https://d2itemoftheday.com/?item=herald-of-zakarum</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-04</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/herald-of-zakarum.png" alt=""></p>
+<p><strong>Herald of Zakarum</strong><br><em>200 ED HoZ</em></p>
+<p>Rarity: Very Rare</p>
+<p>A Herald of Zakarum is a paladin staple, so people assume they are all the same. They are not. The enhanced defense rolls from a hundred and fifty to two hundred percent, and only a two hundred is worth chasing. Punch four sockets into that one and you have one of the best shields a paladin can hold. A low roll is a leveling shield. The gap between the two is enormous, and the tooltip barely hints at it.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Bugged Shaftstop</title>
       <link>https://d2itemoftheday.com/?item=bugged-shaftstop</link>
@@ -83,18 +95,6 @@
 <p><strong>Storm Circlet</strong><br><em>two-class hacked amulet</em></p>
 <p>Rarity: Mythic</p>
 <p>An amulet can grant skills to one class. This one grants two, plus two necromancer and plus two sorceress on the same neck, with cast rate and resists piled on. No random roll produces class bonuses for two classes at once. It reads as an ordinary godly rare until you notice it is helping two characters who could never both wear it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Hellmouth</title>
-      <link>https://d2itemoftheday.com/?item=hellmouth-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-27</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/war-gauntlets.webp" alt=""></p>
-<p><strong>1.08 Hellmouth</strong><br><em>cannot be frozen on gloves</em></p>
-<p>Rarity: Very Rare</p>
-<p>Cannot be frozen normally costs a ring, and Raven Frost is the ring you spend it on. These gloves carry it outright. In 1.08 that handed a melee character the whole ring slot back, and no glove in the game has done it since. The meteor proc and the fire damage are decoration next to that one line.</p>
       ]]></description>
     </item>
   </channel>
