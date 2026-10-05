@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 04 Oct 2026 05:46:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:32:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Eth Cruel Mythical Sword</title>
+      <link>https://d2itemoftheday.com/?item=cruel-mythical-sword</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-05</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/mythical-sword.png" alt=""></p>
+<p><strong>Eth Cruel Mythical Sword</strong><br><em>eth Cruel sword</em></p>
+<p>Rarity: Very Rare</p>
+<p>A blue sword that reads like a vendor sale and hits like an elite runeword. Cruel is the most damage a magic weapon can roll, and a perfect one lands at three hundred percent; this one rolled two seventy four. Ethereal stacks another fifty on the base. On a Mythical Sword, one of the hardest-hitting one-handers in the game, that is more raw damage than most gold weapons carry, for the price of a blue drop. Nothing on the name warns you.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Herald of Zakarum</title>
       <link>https://d2itemoftheday.com/?item=herald-of-zakarum</link>
@@ -83,18 +95,6 @@
 <p><strong>Silks of the Victor</strong><br><em>classic caster armor</em></p>
 <p>Rarity: Uncommon</p>
 <p>Plus one to all skills on a body armor sounds ordinary now. In classic Diablo 2 it was a grail. There was no Enigma, no Vipermagi, no Spirit Shroud, and almost nothing gave skills. A caster who wanted a skill level on the chest slot had this and little else, which is exactly why a plain unique Ancient Armor was the best caster body in the game for a stretch.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Storm Circlet</title>
-      <link>https://d2itemoftheday.com/?item=storm-circlet</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-28</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/amulet-pentagram.png" alt=""></p>
-<p><strong>Storm Circlet</strong><br><em>two-class hacked amulet</em></p>
-<p>Rarity: Mythic</p>
-<p>An amulet can grant skills to one class. This one grants two, plus two necromancer and plus two sorceress on the same neck, with cast rate and resists piled on. No random roll produces class bonuses for two classes at once. It reads as an ordinary godly rare until you notice it is helping two characters who could never both wear it.</p>
       ]]></description>
     </item>
   </channel>
