@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 05 Oct 2026 05:32:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:15:09 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Tomb Reaver</title>
+      <link>https://d2itemoftheday.com/?item=tomb-reaver</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/tomb-reaver.png" alt=""></p>
+<p><strong>Tomb Reaver</strong><br><em>3os Tomb Reaver</em></p>
+<p>Rarity: Very Rare</p>
+<p>Two Tomb Reavers can be worlds apart. It rolls one to three sockets and an enhanced damage range that swings by eighty percent. Only a three-socket copy at the top of the range is the one people chase. Then it hands you sixty attack speed, fifty all resist, and eighty magic find on top of monster damage. The name is the same on all of them. The roll is everything.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Eth Cruel Mythical Sword</title>
       <link>https://d2itemoftheday.com/?item=cruel-mythical-sword</link>
@@ -83,18 +95,6 @@
 <p><strong>Fine Small Charm of Vita</strong><br><em>3/20/20 small charm</em></p>
 <p>Rarity: Very Rare</p>
 <p>The melee version of the perfect small charm. Three maximum damage, twenty attack rating, twenty life, all maxed, in one square. Physical builds fill their inventory with these. The roll has to hit all three ceilings at once, which almost never happens, and that is what you pay for.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Silks of the Victor</title>
-      <link>https://d2itemoftheday.com/?item=silks-of-the-victor</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/silks-of-the-victor.webp" alt=""></p>
-<p><strong>Silks of the Victor</strong><br><em>classic caster armor</em></p>
-<p>Rarity: Uncommon</p>
-<p>Plus one to all skills on a body armor sounds ordinary now. In classic Diablo 2 it was a grail. There was no Enigma, no Vipermagi, no Spirit Shroud, and almost nothing gave skills. A caster who wanted a skill level on the chest slot had this and little else, which is exactly why a plain unique Ancient Armor was the best caster body in the game for a stretch.</p>
       ]]></description>
     </item>
   </channel>
