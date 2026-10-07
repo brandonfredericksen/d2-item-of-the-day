@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 06 Oct 2026 06:15:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:53:09 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Ber Rune</title>
+      <link>https://d2itemoftheday.com/?item=ber-rune</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/socketables/rune-ber.png" alt=""></p>
+<p><strong>Ber Rune</strong><br><em>the currency after SoJ</em></p>
+<p>Rarity: Mythic</p>
+<p>When duping crashed the Stone of Jordan, the economy needed a unit that was harder to inflate, and it landed on high runes. The Ber became the standard. It is rare, it is needed for the best runewords, and it is small enough to price anything against. For years gear was quoted in Bers and Jahs the way it was once quoted in SoJs.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Tomb Reaver</title>
       <link>https://d2itemoftheday.com/?item=tomb-reaver</link>
@@ -83,18 +95,6 @@
 <p><strong>Glitched Arreat&apos;s Face</strong><br><em>the Zod-bug antique</em></p>
 <p>Rarity: Mythic</p>
 <p>A normal Arreat&apos;s Face cannot be indestructible, and cannot show six hundred defense. This one is both. It is an ethereal Arreat&apos;s that a Zod rune locked permanently indestructible, keeping the ethereal defense bonus with no durability left to lose, and the defense was doubled again by the old ethereal socketing bug. The current game cannot produce it: eternal, ethereal, and armored past its own ceiling.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Fine Small Charm of Vita</title>
-      <link>https://d2itemoftheday.com/?item=small-charm-3-20-20</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/small-charm.png" alt=""></p>
-<p><strong>Fine Small Charm of Vita</strong><br><em>3/20/20 small charm</em></p>
-<p>Rarity: Very Rare</p>
-<p>The melee version of the perfect small charm. Three maximum damage, twenty attack rating, twenty life, all maxed, in one square. Physical builds fill their inventory with these. The roll has to hit all three ceilings at once, which almost never happens, and that is what you pay for.</p>
       ]]></description>
     </item>
   </channel>
