@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 07 Oct 2026 05:53:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 05:56:59 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Grandfather</title>
+      <link>https://d2itemoftheday.com/?item=grandfather-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-08</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/colossus-blade.png" alt=""></p>
+<p><strong>1.08 Grandfather</strong><br><em>the max-life, max-mana version</em></p>
+<p>Rarity: Mythic</p>
+<p>The Grandfather is a pure damage sword today. This one, from patch 1.08, was a fortress. It carried a hundred and seventy five flat life and raised your maximum life and mana by a quarter each, on top of the damage. No Grandfather made after 2001 has the maximum-life or maximum-mana lines at all. Same gold name, a completely different weapon underneath.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Ber Rune</title>
       <link>https://d2itemoftheday.com/?item=ber-rune</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Harlequin Crest</strong><br><em>the 40% maximum life Shako</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Shako everyone wears gives life and mana by character level, ten percent damage reduced, and two points in every attribute. This one gives forty percent maximum life on one line, and it cannot break. No helm the game makes now carries a percentage of maximum life at all. Same two skills, same magic find, a completely different reason to wear it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Glitched Arreat&apos;s Face</title>
-      <link>https://d2itemoftheday.com/?item=glitched-arreats</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-01</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/arreats-face.png" alt=""></p>
-<p><strong>Glitched Arreat&apos;s Face</strong><br><em>the Zod-bug antique</em></p>
-<p>Rarity: Mythic</p>
-<p>A normal Arreat&apos;s Face cannot be indestructible, and cannot show six hundred defense. This one is both. It is an ethereal Arreat&apos;s that a Zod rune locked permanently indestructible, keeping the ethereal defense bonus with no durability left to lose, and the defense was doubled again by the old ethereal socketing bug. The current game cannot produce it: eternal, ethereal, and armored past its own ceiling.</p>
       ]]></description>
     </item>
   </channel>
