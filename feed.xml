@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 08 Oct 2026 05:56:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 06:03:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Twitchthroe</title>
+      <link>https://d2itemoftheday.com/?item=twitchthroe</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/twitchthroe.webp" alt=""></p>
+<p><strong>Twitchthroe</strong><br><em>Twitch</em></p>
+<p>Rarity: Uncommon</p>
+<p>Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Grandfather</title>
       <link>https://d2itemoftheday.com/?item=grandfather-08</link>
@@ -83,18 +95,6 @@
 <p><strong>Bugged Shaftstop</strong><br><em>the ebug 2400 defense armor</em></p>
 <p>Rarity: Very Rare</p>
 <p>Shaftstop is a beginner&apos;s armor. This one shows two thousand four hundred defense, roughly triple what the item can legitimately reach. It is the ethereal socketing bug: cube a socket into an ethereal armor and the game applies the ethereal defense bonus a second time, stacking a number the math never allows. Same gold name, an armor from a different reality.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Harlequin Crest</title>
-      <link>https://d2itemoftheday.com/?item=harlequin-crest-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-02</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/harlequin-crest.webp" alt=""></p>
-<p><strong>1.08 Harlequin Crest</strong><br><em>the 40% maximum life Shako</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Shako everyone wears gives life and mana by character level, ten percent damage reduced, and two points in every attribute. This one gives forty percent maximum life on one line, and it cannot break. No helm the game makes now carries a percentage of maximum life at all. Same two skills, same magic find, a completely different reason to wear it.</p>
       ]]></description>
     </item>
   </channel>
