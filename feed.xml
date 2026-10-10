@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 09 Oct 2026 06:03:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 05:46:08 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Artisan&apos;s Diadem of Speed</title>
+      <link>https://d2itemoftheday.com/?item=artisans-diadem</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-10</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/diadem.png" alt=""></p>
+<p><strong>Artisan&apos;s Diadem of Speed</strong><br><em>3os caster Diadem</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Diadem is the best caster-helm base in the game. A magic one with three sockets and run speed is a blank canvas: drop in three facets and you have a helm that cuts enemy resistance and boosts your damage, tuned to your element. It reads as a junk blue circlet. It is one of the better caster helms you can build.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Twitchthroe</title>
       <link>https://d2itemoftheday.com/?item=twitchthroe</link>
@@ -83,18 +95,6 @@
 <p><strong>Herald of Zakarum</strong><br><em>200 ED HoZ</em></p>
 <p>Rarity: Very Rare</p>
 <p>A Herald of Zakarum is a paladin staple, so people assume they are all the same. They are not. The enhanced defense rolls from a hundred and fifty to two hundred percent, and only a two hundred is worth chasing. Punch four sockets into that one and you have one of the best shields a paladin can hold. A low roll is a leveling shield. The gap between the two is enormous, and the tooltip barely hints at it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Bugged Shaftstop</title>
-      <link>https://d2itemoftheday.com/?item=bugged-shaftstop</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-03</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/shaftstop.png" alt=""></p>
-<p><strong>Bugged Shaftstop</strong><br><em>the ebug 2400 defense armor</em></p>
-<p>Rarity: Very Rare</p>
-<p>Shaftstop is a beginner&apos;s armor. This one shows two thousand four hundred defense, roughly triple what the item can legitimately reach. It is the ethereal socketing bug: cube a socket into an ethereal armor and the game applies the ethereal defense bonus a second time, stacking a number the math never allows. Same gold name, an armor from a different reality.</p>
       ]]></description>
     </item>
   </channel>
