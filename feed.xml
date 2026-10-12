@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 11 Oct 2026 05:40:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 05:50:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Harpoonist&apos;s Grand Charm of Vita</title>
+      <link>https://d2itemoftheday.com/?item=grand-charm-skiller</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/grand-charm.png" alt=""></p>
+<p><strong>Harpoonist&apos;s Grand Charm of Vita</strong><br><em>45-life skiller</em></p>
+<p>Rarity: Very Rare</p>
+<p>A grand charm that adds a whole skill level to one of your trees is already worth keeping. One that also rolls near-max life is an endgame item. Javazons, casters and warcry barbarians build their whole inventory out of these. The skill is the base value. The life roll on top is what turns a common skiller into an expensive one.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Rainbow Facet</title>
       <link>https://d2itemoftheday.com/?item=rainbow-facet</link>
@@ -83,18 +95,6 @@
 <p><strong>Tomb Reaver</strong><br><em>3os Tomb Reaver</em></p>
 <p>Rarity: Very Rare</p>
 <p>Two Tomb Reavers can be worlds apart. It rolls one to three sockets and an enhanced damage range that swings by eighty percent. Only a three-socket copy at the top of the range is the one people chase. Then it hands you sixty attack speed, fifty all resist, and eighty magic find on top of monster damage. The name is the same on all of them. The roll is everything.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Eth Cruel Mythical Sword</title>
-      <link>https://d2itemoftheday.com/?item=cruel-mythical-sword</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/mythical-sword.png" alt=""></p>
-<p><strong>Eth Cruel Mythical Sword</strong><br><em>eth Cruel sword</em></p>
-<p>Rarity: Very Rare</p>
-<p>A blue sword that reads like a vendor sale and hits like an elite runeword. Cruel is the most damage a magic weapon can roll, and a perfect one lands at three hundred percent; this one rolled two seventy four. Ethereal stacks another fifty on the base. On a Mythical Sword, one of the hardest-hitting one-handers in the game, that is more raw damage than most gold weapons carry, for the price of a blue drop. Nothing on the name warns you.</p>
       ]]></description>
     </item>
   </channel>
