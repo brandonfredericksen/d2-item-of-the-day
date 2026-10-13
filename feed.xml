@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 12 Oct 2026 05:50:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:44:11 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Imp Shank</title>
+      <link>https://d2itemoftheday.com/?item=imp-shank</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/rare-boots.png" alt=""></p>
+<p><strong>Imp Shank</strong><br><em>1.06 tri-res boots</em></p>
+<p>Rarity: Very Rare</p>
+<p>Boots are a run-speed slot. This pair, off patch 1.06, also carries faster hit recovery, a mod that lives on armor and helms and never rolls on feet today. Stack eighteen strength and three resistances on top and it is doing four jobs at once. The faster hit recovery is the tell. It dates the boots to early Classic, where the affix tables let a roll like this through.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Harpoonist&apos;s Grand Charm of Vita</title>
       <link>https://d2itemoftheday.com/?item=grand-charm-skiller</link>
@@ -83,18 +95,6 @@
 <p><strong>Ber Rune</strong><br><em>the currency after SoJ</em></p>
 <p>Rarity: Mythic</p>
 <p>When duping crashed the Stone of Jordan, the economy needed a unit that was harder to inflate, and it landed on high runes. The Ber became the standard. It is rare, it is needed for the best runewords, and it is small enough to price anything against. For years gear was quoted in Bers and Jahs the way it was once quoted in SoJs.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Tomb Reaver</title>
-      <link>https://d2itemoftheday.com/?item=tomb-reaver</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-06</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/tomb-reaver.png" alt=""></p>
-<p><strong>Tomb Reaver</strong><br><em>3os Tomb Reaver</em></p>
-<p>Rarity: Very Rare</p>
-<p>Two Tomb Reavers can be worlds apart. It rolls one to three sockets and an enhanced damage range that swings by eighty percent. Only a three-socket copy at the top of the range is the one people chase. Then it hands you sixty attack speed, fifty all resist, and eighty magic find on top of monster damage. The name is the same on all of them. The roll is everything.</p>
       ]]></description>
     </item>
   </channel>
