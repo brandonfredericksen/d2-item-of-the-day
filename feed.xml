@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 06:44:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 04:47:38 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Havoc Circle</title>
+      <link>https://d2itemoftheday.com/?item=havoc-circle</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>Havoc Circle</strong><br><em>10 FCR caster ring</em></p>
+<p>Rarity: Very Rare</p>
+<p>The caster&apos;s rare ring. Ten faster cast is the ceiling a ring can roll, and casters build their whole gear around cast breakpoints, so a ring that maxes it while also handing over forty life, sixteen strength and three resistances is a quiet endgame piece. The famous caster rings give a skill. This gives the breakpoint and the survivability a skill ring cannot.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Imp Shank</title>
       <link>https://d2itemoftheday.com/?item=imp-shank</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Grandfather</strong><br><em>the max-life, max-mana version</em></p>
 <p>Rarity: Mythic</p>
 <p>The Grandfather is a pure damage sword today. This one, from patch 1.08, was a fortress. It carried a hundred and seventy five flat life and raised your maximum life and mana by a quarter each, on top of the damage. No Grandfather made after 2001 has the maximum-life or maximum-mana lines at all. Same gold name, a completely different weapon underneath.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Ber Rune</title>
-      <link>https://d2itemoftheday.com/?item=ber-rune</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-07</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/socketables/rune-ber.png" alt=""></p>
-<p><strong>Ber Rune</strong><br><em>the currency after SoJ</em></p>
-<p>Rarity: Mythic</p>
-<p>When duping crashed the Stone of Jordan, the economy needed a unit that was harder to inflate, and it landed on high runes. The Ber became the standard. It is rare, it is needed for the best runewords, and it is small enough to price anything against. For years gear was quoted in Bers and Jahs the way it was once quoted in SoJs.</p>
       ]]></description>
     </item>
   </channel>
