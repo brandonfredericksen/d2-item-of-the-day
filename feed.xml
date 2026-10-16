@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 15 Oct 2026 04:31:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 04:25:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Shadow Claw</title>
+      <link>https://d2itemoftheday.com/?item=shadow-claw</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-16</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/greater-talons.png" alt=""></p>
+<p><strong>Shadow Claw</strong><br><em>godly rare trapsin claw</em></p>
+<p>Rarity: Very Rare</p>
+<p>A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, maxed lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Iceblink</title>
       <link>https://d2itemoftheday.com/?item=iceblink</link>
@@ -83,18 +95,6 @@
 <p><strong>Artisan&apos;s Diadem of Speed</strong><br><em>3os caster Diadem</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Diadem is the best caster-helm base in the game. A magic one with three sockets and run speed is a blank canvas: drop in three facets and you have a helm that cuts enemy resistance and boosts your damage, tuned to your element. It reads as a junk blue circlet. It is one of the better caster helms you can build.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Twitchthroe</title>
-      <link>https://d2itemoftheday.com/?item=twitchthroe</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-09</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/twitchthroe.webp" alt=""></p>
-<p><strong>Twitchthroe</strong><br><em>Twitch</em></p>
-<p>Rarity: Uncommon</p>
-<p>Attack speed, faster hit recovery, block and stats, all on a body armor with almost no requirement. A player leveling past it never looks back. In the low brackets it is a cornerstone, the armor that lets a twink hit breakpoints nothing else at that level can reach. Invisible to endgame, foundational to the people who live at level thirty.</p>
       ]]></description>
     </item>
   </channel>
