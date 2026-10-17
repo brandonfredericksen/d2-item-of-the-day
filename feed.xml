@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 16 Oct 2026 04:25:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:19:55 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Soul Spawn</title>
+      <link>https://d2itemoftheday.com/?item=soul-spawn</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-17</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/martel-de-fer.png" alt=""></p>
+<p><strong>Soul Spawn</strong><br><em>classic rare mace</em></p>
+<p>Rarity: Very Rare</p>
+<p>A classic rare mace, and in classic Diablo 2 a rolled rare like this was the melee endgame. Nearly two hundred enhanced damage, twenty maximum damage, two hundred attack rating, life steal and bonus undead damage, all on one Martel de Fer with no runeword or elite unique to outclass it. In hardcore classic, where survivability came from the leech line, this was the mace people built around.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Shadow Claw</title>
       <link>https://d2itemoftheday.com/?item=shadow-claw</link>
@@ -83,18 +95,6 @@
 <p><strong>Rainbow Facet</strong><br><em>5/5 Cold Facet</em></p>
 <p>Rarity: Rare</p>
 <p>A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Artisan&apos;s Diadem of Speed</title>
-      <link>https://d2itemoftheday.com/?item=artisans-diadem</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-10</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/diadem.png" alt=""></p>
-<p><strong>Artisan&apos;s Diadem of Speed</strong><br><em>3os caster Diadem</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Diadem is the best caster-helm base in the game. A magic one with three sockets and run speed is a blank canvas: drop in three facets and you have a helm that cuts enemy resistance and boosts your damage, tuned to your element. It reads as a junk blue circlet. It is one of the better caster helms you can build.</p>
       ]]></description>
     </item>
   </channel>
