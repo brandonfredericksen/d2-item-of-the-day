@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 17 Oct 2026 04:19:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 04:25:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Vampire Gaze</title>
+      <link>https://d2itemoftheday.com/?item=vampire-gaze-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/vampire-gaze-08.webp" alt=""></p>
+<p><strong>1.08 Vampire Gaze</strong><br><em>flat 25% damage reduced</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Vampire Gaze that drops today cuts physical damage by fifteen to twenty percent. This one, from patch 1.08, does a flat twenty five, with no cold damage cluttering the stat line. Five extra points of reduction does not sound like much until you stack it against everything else. Hardcore players chased these for years. It stopped dropping in this form long ago.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Soul Spawn</title>
       <link>https://d2itemoftheday.com/?item=soul-spawn</link>
@@ -83,18 +95,6 @@
 <p><strong>Harpoonist&apos;s Grand Charm of Vita</strong><br><em>45-life skiller</em></p>
 <p>Rarity: Very Rare</p>
 <p>A grand charm that adds a whole skill level to one of your trees is already worth keeping. One that also rolls near-max life is an endgame item. Javazons, casters and warcry barbarians build their whole inventory out of these. The skill is the base value. The life roll on top is what turns a common skiller into an expensive one.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Rainbow Facet</title>
-      <link>https://d2itemoftheday.com/?item=rainbow-facet</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-11</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/rainbow-facet.png" alt=""></p>
-<p><strong>Rainbow Facet</strong><br><em>5/5 Cold Facet</em></p>
-<p>Rarity: Rare</p>
-<p>A unique jewel that cuts enemy resistance and boosts your own elemental damage. There are eight versions, four elements times two triggers, and they are not equal. A perfect five-five of the right element on the level-up trigger is a caster chase. The poison ones and the death-trigger ones go for far less. Same gold name, eight very different price tags.</p>
       ]]></description>
     </item>
   </channel>
