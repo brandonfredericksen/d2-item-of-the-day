@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 18 Oct 2026 04:25:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 04:34:11 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Brimstone Barb</title>
+      <link>https://d2itemoftheday.com/?item=brimstone-barb</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/stygian-pilum.png" alt=""></p>
+<p><strong>Brimstone Barb</strong><br><em>460 ED eth thrower</em></p>
+<p>Rarity: Very Rare</p>
+<p>Throwing builds live and die on their weapon, and this rare beats the uniques. Four hundred sixty enhanced damage on a javelin is more raw damage than the named throwers carry. It is ethereal, so the base climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Vampire Gaze</title>
       <link>https://d2itemoftheday.com/?item=vampire-gaze-08</link>
@@ -83,18 +95,6 @@
 <p><strong>Imp Shank</strong><br><em>1.06 tri-res boots</em></p>
 <p>Rarity: Very Rare</p>
 <p>Boots are a run-speed slot. This pair, off patch 1.06, also carries faster hit recovery, a mod that lives on armor and helms and never rolls on feet today. Stack eighteen strength and three resistances on top and it is doing four jobs at once. The faster hit recovery is the tell. It dates the boots to early Classic, where the affix tables let a roll like this through.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Harpoonist&apos;s Grand Charm of Vita</title>
-      <link>https://d2itemoftheday.com/?item=grand-charm-skiller</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/grand-charm.png" alt=""></p>
-<p><strong>Harpoonist&apos;s Grand Charm of Vita</strong><br><em>45-life skiller</em></p>
-<p>Rarity: Very Rare</p>
-<p>A grand charm that adds a whole skill level to one of your trees is already worth keeping. One that also rolls near-max life is an endgame item. Javazons, casters and warcry barbarians build their whole inventory out of these. The skill is the base value. The life roll on top is what turns a common skiller into an expensive one.</p>
       ]]></description>
     </item>
   </channel>
