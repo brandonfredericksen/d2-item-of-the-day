@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 19 Oct 2026 04:34:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 04:43:06 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Death&apos;s Web</title>
+      <link>https://d2itemoftheday.com/?item=deaths-web</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-20</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/deaths-web.webp" alt=""></p>
+<p><strong>Death&apos;s Web</strong><br><em>Web</em></p>
+<p>Rarity: Very Rare</p>
+<p>The poison necromancer&apos;s endgame wand, and the reason the build works at the top level. Minus enemy poison resistance is the whole point, and this rolls to minus fifty. Add two skills and two to poison and bone on top. There is no substitute. If you play poison necro seriously, you own one or you are working toward it.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Brimstone Barb</title>
       <link>https://d2itemoftheday.com/?item=brimstone-barb</link>
@@ -83,18 +95,6 @@
 <p><strong>Havoc Circle</strong><br><em>10 FCR caster ring</em></p>
 <p>Rarity: Very Rare</p>
 <p>The caster&apos;s rare ring. Ten faster cast is the ceiling a ring can roll, and casters build their whole gear around cast breakpoints, so a ring that maxes it while also handing over forty life, sixteen strength and three resistances is a quiet endgame piece. The famous caster rings give a skill. This gives the breakpoint and the survivability a skill ring cannot.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Imp Shank</title>
-      <link>https://d2itemoftheday.com/?item=imp-shank</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-13</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/rare-boots.png" alt=""></p>
-<p><strong>Imp Shank</strong><br><em>1.06 tri-res boots</em></p>
-<p>Rarity: Very Rare</p>
-<p>Boots are a run-speed slot. This pair, off patch 1.06, also carries faster hit recovery, a mod that lives on armor and helms and never rolls on feet today. Stack eighteen strength and three resistances on top and it is doing four jobs at once. The faster hit recovery is the tell. It dates the boots to early Classic, where the affix tables let a roll like this through.</p>
       ]]></description>
     </item>
   </channel>
