@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 20 Oct 2026 04:43:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 04:39:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Ith</title>
+      <link>https://d2itemoftheday.com/?item=ith</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/berserker-axe.png" alt=""></p>
+<p><strong>Ith</strong><br><em>the item hack&apos;s signature</em></p>
+<p>Rarity: Mythic</p>
+<p>Count how many of these lines cannot exist. Two to all skills, four hundred eighty enhanced damage, seventy six to all resistance, ethereal and indestructible together, and six sockets carrying four Ohm runes and two rainbow facets, all on a plain axe. No legitimate item rolls half of it. Ith is the fingerprint of the old item hack, one impossible stat block stamped onto whatever base the editor felt like.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Death&apos;s Web</title>
       <link>https://d2itemoftheday.com/?item=deaths-web</link>
@@ -83,18 +95,6 @@
 <p><strong>Iceblink</strong><br><em>the freeze-lock armor</em></p>
 <p>Rarity: Uncommon</p>
 <p>A level twenty-two unique nobody stops for, and one of the only body armors in the game that freezes what you hit. A frozen enemy cannot attack, so a melee twink or an Act 2 merc wearing this walks through Normal untouched. Anything killed while frozen shatters and leaves no corpse, which quietly denies the other side every corpse it wanted. It costs a chipped gem and does something almost nothing else can.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Havoc Circle</title>
-      <link>https://d2itemoftheday.com/?item=havoc-circle</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>Havoc Circle</strong><br><em>10 FCR caster ring</em></p>
-<p>Rarity: Very Rare</p>
-<p>The caster&apos;s rare ring. Ten faster cast is the ceiling a ring can roll, and casters build their whole gear around cast breakpoints, so a ring that maxes it while also handing over forty life, sixteen strength and three resistances is a quiet endgame piece. The famous caster rings give a skill. This gives the breakpoint and the survivability a skill ring cannot.</p>
       ]]></description>
     </item>
   </channel>
