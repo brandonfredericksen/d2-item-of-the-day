@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 21 Oct 2026 04:39:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 04:37:06 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Iratha&apos;s Finery</title>
+      <link>https://d2itemoftheday.com/?item=iratha-finery</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/crown.png" alt=""></p>
+<p><strong>Iratha&apos;s Finery</strong><br><em>classic resist set</em></p>
+<p>Rarity: Uncommon</p>
+<p>Four cheap set pieces, a crown, an amulet, a belt and a pair of gloves, all usable at level fifteen. In classic Diablo 2 that combination was a staple, because resistances were scarce and this stacked twenty all resistance, run speed, dexterity and freeze protection onto low-requirement gear anyone could wear. It looks like leveling filler and was a genuine resist answer for a whole era.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Ith</title>
       <link>https://d2itemoftheday.com/?item=ith</link>
@@ -83,18 +95,6 @@
 <p><strong>Shadow Claw</strong><br><em>godly rare trapsin claw</em></p>
 <p>Rarity: Very Rare</p>
 <p>A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, maxed lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Iceblink</title>
-      <link>https://d2itemoftheday.com/?item=iceblink</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-15</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/iceblink.webp" alt=""></p>
-<p><strong>Iceblink</strong><br><em>the freeze-lock armor</em></p>
-<p>Rarity: Uncommon</p>
-<p>A level twenty-two unique nobody stops for, and one of the only body armors in the game that freezes what you hit. A frozen enemy cannot attack, so a melee twink or an Act 2 merc wearing this walks through Normal untouched. Anything killed while frozen shatters and leaves no corpse, which quietly denies the other side every corpse it wanted. It costs a chipped gem and does something almost nothing else can.</p>
       ]]></description>
     </item>
   </channel>
