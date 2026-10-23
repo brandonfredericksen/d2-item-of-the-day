@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 22 Oct 2026 04:37:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 04:43:19 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Bugged Tal Rasha&apos;s Guardianship</title>
+      <link>https://d2itemoftheday.com/?item=bugged-tals</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/bugged-tals.png" alt=""></p>
+<p><strong>Bugged Tal Rasha&apos;s Guardianship</strong><br><em>Btal</em></p>
+<p>Rarity: Very Rare</p>
+<p>The normal Tal Rasha&apos;s armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal&apos;s is the armor to beat.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Iratha&apos;s Finery</title>
       <link>https://d2itemoftheday.com/?item=iratha-finery</link>
@@ -83,18 +95,6 @@
 <p><strong>Soul Spawn</strong><br><em>classic rare mace</em></p>
 <p>Rarity: Very Rare</p>
 <p>A classic rare mace, and in classic Diablo 2 a rolled rare like this was the melee endgame. Nearly two hundred enhanced damage, twenty maximum damage, two hundred attack rating, life steal and bonus undead damage, all on one Martel de Fer with no runeword or elite unique to outclass it. In hardcore classic, where survivability came from the leech line, this was the mace people built around.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Shadow Claw</title>
-      <link>https://d2itemoftheday.com/?item=shadow-claw</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-16</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/greater-talons.png" alt=""></p>
-<p><strong>Shadow Claw</strong><br><em>godly rare trapsin claw</em></p>
-<p>Rarity: Very Rare</p>
-<p>A rare claw that out-stacks anything a trapsin can build. Two to all assassin skills, then three more each to Lightning Sentry, Mind Blast and Weapon Block, plus forty attack speed, maxed lightning resist, and two open sockets. No unique claw and no runeword gives that combination. The game has to land every one of those lines at once, which almost never happens. It reads as a yellow drop and outclasses the gold ones beside it.</p>
       ]]></description>
     </item>
   </channel>
