@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 23 Oct 2026 04:43:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 04:30:24 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Herald of Zakarum</title>
+      <link>https://d2itemoftheday.com/?item=herald-of-zakarum-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-24</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/herald-of-zakarum.png" alt=""></p>
+<p><strong>1.08 Herald of Zakarum</strong><br><em>cannot be frozen shield</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Herald everyone knows is a block and resist shield. Fifty resist all, thirty faster block, two skill lines. This one blocks half again as fast at fifty percent, carries cannot be frozen on a shield, and scales its undead damage and attack rating with your level to a hundred and ninety eight percent and nine hundred and ninety. It is built to smite undead in a version of the game nobody plays.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Bugged Tal Rasha&apos;s Guardianship</title>
       <link>https://d2itemoftheday.com/?item=bugged-tals</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Vampire Gaze</strong><br><em>flat 25% damage reduced</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Vampire Gaze that drops today cuts physical damage by fifteen to twenty percent. This one, from patch 1.08, does a flat twenty five, with no cold damage cluttering the stat line. Five extra points of reduction does not sound like much until you stack it against everything else. Hardcore players chased these for years. It stopped dropping in this form long ago.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Soul Spawn</title>
-      <link>https://d2itemoftheday.com/?item=soul-spawn</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/martel-de-fer.png" alt=""></p>
-<p><strong>Soul Spawn</strong><br><em>classic rare mace</em></p>
-<p>Rarity: Very Rare</p>
-<p>A classic rare mace, and in classic Diablo 2 a rolled rare like this was the melee endgame. Nearly two hundred enhanced damage, twenty maximum damage, two hundred attack rating, life steal and bonus undead damage, all on one Martel de Fer with no runeword or elite unique to outclass it. In hardcore classic, where survivability came from the leech line, this was the mace people built around.</p>
       ]]></description>
     </item>
   </channel>
