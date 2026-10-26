@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 25 Oct 2026 04:35:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 04:40:02 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Eth Titan&apos;s Revenge</title>
+      <link>https://d2itemoftheday.com/?item=eth-titans-revenge</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-26</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/titans-revenge.png" alt=""></p>
+<p><strong>Eth Titan&apos;s Revenge</strong><br><em>eth Titan&apos;s</em></p>
+<p>Rarity: Rare</p>
+<p>A throwing javelin most people never think about twice. The trick is what happens when it is ethereal. Ethereal boosts the damage, and for a throwing weapon that depletes that would normally be a death sentence. Titan&apos;s Revenge replenishes its own stack, so an ethereal pair throws forever at boosted damage. Two amazon skills and thirty faster run ride along. It is the javazon&apos;s quiet grail, hiding as a common gold javelin.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Stone of Jordan</title>
       <link>https://d2itemoftheday.com/?item=stone-of-jordan</link>
@@ -83,18 +95,6 @@
 <p><strong>Death&apos;s Web</strong><br><em>Web</em></p>
 <p>Rarity: Very Rare</p>
 <p>The poison necromancer&apos;s endgame wand, and the reason the build works at the top level. Minus enemy poison resistance is the whole point, and this rolls to minus fifty. Add two skills and two to poison and bone on top. There is no substitute. If you play poison necro seriously, you own one or you are working toward it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Brimstone Barb</title>
-      <link>https://d2itemoftheday.com/?item=brimstone-barb</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-19</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/stygian-pilum.png" alt=""></p>
-<p><strong>Brimstone Barb</strong><br><em>460 ED eth thrower</em></p>
-<p>Rarity: Very Rare</p>
-<p>Throwing builds live and die on their weapon, and this rare beats the uniques. Four hundred sixty enhanced damage on a javelin is more raw damage than the named throwers carry. It is ethereal, so the base climbs again, and that would normally kill a throwing weapon because you cannot repair it. This one replenishes its own stack, refilling to full on its own, so it never runs dry. A yellow javelin that outdamages everything gold in the slot, and nothing on the name warns you.</p>
       ]]></description>
     </item>
   </channel>
