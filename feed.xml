@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 26 Oct 2026 04:40:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 04:57:37 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Armageddon Fletch</title>
+      <link>https://d2itemoftheday.com/?item=armageddon-fletch</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/amulet-gold.png" alt=""></p>
+<p><strong>Armageddon Fletch</strong><br><em>2/20 caster amulet</em></p>
+<p>Rarity: Very Rare</p>
+<p>A rare amulet that quietly beats the famous unique ones. Two sorceress skills and twenty faster cast rate, then life, strength and all resistances piled on top. Mara&apos;s gets the attention. An amulet like this does more for a caster, and it comes with no gold name to tip you off. The random title is doing a lot of work to hide how good it is.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Eth Titan&apos;s Revenge</title>
       <link>https://d2itemoftheday.com/?item=eth-titans-revenge</link>
@@ -83,18 +95,6 @@
 <p><strong>Ith</strong><br><em>the item hack&apos;s signature</em></p>
 <p>Rarity: Mythic</p>
 <p>Count how many of these lines cannot exist. Two to all skills, four hundred eighty enhanced damage, seventy six to all resistance, ethereal and indestructible together, and six sockets carrying four Ohm runes and two rainbow facets, all on a plain axe. No legitimate item rolls half of it. Ith is the fingerprint of the old item hack, one impossible stat block stamped onto whatever base the editor felt like.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Death&apos;s Web</title>
-      <link>https://d2itemoftheday.com/?item=deaths-web</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/deaths-web.webp" alt=""></p>
-<p><strong>Death&apos;s Web</strong><br><em>Web</em></p>
-<p>Rarity: Very Rare</p>
-<p>The poison necromancer&apos;s endgame wand, and the reason the build works at the top level. Minus enemy poison resistance is the whole point, and this rolls to minus fifty. Add two skills and two to poison and bone on top. There is no substitute. If you play poison necro seriously, you own one or you are working toward it.</p>
       ]]></description>
     </item>
   </channel>
