@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 27 Oct 2026 04:57:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 05:33:49 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Tyrael&apos;s Might</title>
+      <link>https://d2itemoftheday.com/?item=tyraels-might</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/tyraels-might.png" alt=""></p>
+<p><strong>Tyrael&apos;s Might</strong><br><em>TM</em></p>
+<p>Rarity: Mythic</p>
+<p>The rarest item in the game. Not one of the rarest. By the drop numbers, the single hardest thing to see. It is a good armor too, with no strength requirement and a wall of resistances, but it is not Enigma and never was. People want it because almost nobody has one.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Armageddon Fletch</title>
       <link>https://d2itemoftheday.com/?item=armageddon-fletch</link>
@@ -83,18 +95,6 @@
 <p><strong>Iratha&apos;s Finery</strong><br><em>classic resist set</em></p>
 <p>Rarity: Uncommon</p>
 <p>Four cheap set pieces, a crown, an amulet, a belt and a pair of gloves, all usable at level fifteen. In classic Diablo 2 that combination was a staple, because resistances were scarce and this stacked twenty all resistance, run speed, dexterity and freeze protection onto low-requirement gear anyone could wear. It looks like leveling filler and was a genuine resist answer for a whole era.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Ith</title>
-      <link>https://d2itemoftheday.com/?item=ith</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/berserker-axe.png" alt=""></p>
-<p><strong>Ith</strong><br><em>the item hack&apos;s signature</em></p>
-<p>Rarity: Mythic</p>
-<p>Count how many of these lines cannot exist. Two to all skills, four hundred eighty enhanced damage, seventy six to all resistance, ethereal and indestructible together, and six sockets carrying four Ohm runes and two rainbow facets, all on a plain axe. No legitimate item rolls half of it. Ith is the fingerprint of the old item hack, one impossible stat block stamped onto whatever base the editor felt like.</p>
       ]]></description>
     </item>
   </channel>
