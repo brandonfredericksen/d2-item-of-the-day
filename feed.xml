@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 28 Oct 2026 05:33:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 05:41:05 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Arreat&apos;s Face</title>
+      <link>https://d2itemoftheday.com/?item=arreats-face-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-29</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/arreats-face.png" alt=""></p>
+<p><strong>1.08 Arreat&apos;s Face</strong><br><em>target defense, not resistances</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Arreat&apos;s Face people know is defensive. Thirty to all resistances, twenty strength, twenty dexterity, life steal, a hundred and fifty enhanced defense. This one is an attacking helm wearing the same name. It cuts fifteen percent off the target&apos;s defense and adds maximum damage that climbs half a point per level, reaching forty nine at the cap. A barbarian helm that helps you hit rather than survive.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Tyrael&apos;s Might</title>
       <link>https://d2itemoftheday.com/?item=tyraels-might</link>
@@ -83,18 +95,6 @@
 <p><strong>Bugged Tal Rasha&apos;s Guardianship</strong><br><em>Btal</em></p>
 <p>Rarity: Very Rare</p>
 <p>The normal Tal Rasha&apos;s armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal&apos;s is the armor to beat.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Iratha&apos;s Finery</title>
-      <link>https://d2itemoftheday.com/?item=iratha-finery</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/crown.png" alt=""></p>
-<p><strong>Iratha&apos;s Finery</strong><br><em>classic resist set</em></p>
-<p>Rarity: Uncommon</p>
-<p>Four cheap set pieces, a crown, an amulet, a belt and a pair of gloves, all usable at level fifteen. In classic Diablo 2 that combination was a staple, because resistances were scarce and this stacked twenty all resistance, run speed, dexterity and freeze protection onto low-requirement gear anyone could wear. It looks like leveling filler and was a genuine resist answer for a whole era.</p>
       ]]></description>
     </item>
   </channel>
