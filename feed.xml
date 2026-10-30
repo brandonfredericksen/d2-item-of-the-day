@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 29 Oct 2026 05:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 05:41:17 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Viper Casque</title>
+      <link>https://d2itemoftheday.com/?item=viper-casque</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/viper-casque.png" alt=""></p>
+<p><strong>Viper Casque</strong><br><em>socketed rare helm</em></p>
+<p>Rarity: Very Rare</p>
+<p>A rare helm that quietly covers four needs at once. Twenty faster hit recovery, eighty eight life, two resistances, and an open socket, all on a Bone Helm a caster or hybrid can wear. No single line screams, which is why it gets scrolled past, but the sum holds its own against the uniques in the slot, and the socket lets you tune it further.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Arreat&apos;s Face</title>
       <link>https://d2itemoftheday.com/?item=arreats-face-08</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Herald of Zakarum</strong><br><em>cannot be frozen shield</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Herald everyone knows is a block and resist shield. Fifty resist all, thirty faster block, two skill lines. This one blocks half again as fast at fifty percent, carries cannot be frozen on a shield, and scales its undead damage and attack rating with your level to a hundred and ninety eight percent and nine hundred and ninety. It is built to smite undead in a version of the game nobody plays.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Bugged Tal Rasha&apos;s Guardianship</title>
-      <link>https://d2itemoftheday.com/?item=bugged-tals</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/bugged-tals.png" alt=""></p>
-<p><strong>Bugged Tal Rasha&apos;s Guardianship</strong><br><em>Btal</em></p>
-<p>Rarity: Very Rare</p>
-<p>The normal Tal Rasha&apos;s armor is a tidy magic-find piece. This one is best in slot. Somewhere in the bugged-item era it picked up two skills, twenty five percent faster run, twenty five percent damage reduction and a socket, none of which it is meant to have. For any build that does not run Enigma, a bugged Tal&apos;s is the armor to beat.</p>
       ]]></description>
     </item>
   </channel>
