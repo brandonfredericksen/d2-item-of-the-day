@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 30 Oct 2026 05:41:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 05:33:05 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Spectral Shard</title>
+      <link>https://d2itemoftheday.com/?item=spectral-shard</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/spectral-shard.webp" alt=""></p>
+<p><strong>Spectral Shard</strong><br><em>Spec Shard</em></p>
+<p>Rarity: Uncommon</p>
+<p>The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Viper Casque</title>
       <link>https://d2itemoftheday.com/?item=viper-casque</link>
@@ -83,18 +95,6 @@
 <p><strong>Stone of Jordan</strong><br><em>SOJ</em></p>
 <p>Rarity: Common</p>
 <p>A ring with plus one to all skills and some mana. Common, and cheap on a mature ladder. New characters still run one for the early skill boost.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Herald of Zakarum</title>
-      <link>https://d2itemoftheday.com/?item=herald-of-zakarum-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-24</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/herald-of-zakarum.png" alt=""></p>
-<p><strong>1.08 Herald of Zakarum</strong><br><em>cannot be frozen shield</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Herald everyone knows is a block and resist shield. Fifty resist all, thirty faster block, two skill lines. This one blocks half again as fast at fifty percent, carries cannot be frozen on a shield, and scales its undead damage and attack rating with your level to a hundred and ninety eight percent and nine hundred and ninety. It is built to smite undead in a version of the game nobody plays.</p>
       ]]></description>
     </item>
   </channel>
