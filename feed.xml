@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 01 Nov 2026 05:56:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 05:55:51 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Grim Needle</title>
+      <link>https://d2itemoftheday.com/?item=guid-needle</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/matriarchal-bow.png" alt=""></p>
+<p><strong>Grim Needle</strong><br><em>the bow nobody has seen in years</em></p>
+<p>Rarity: Mythic</p>
+<p>The bow people still ask about. A rare Matriarchal Bow, self found and self upped from an Ashwood, socketed with two forty-fifteen jewels, the best jewels in the game. A bow skill, fifty attack speed, and an enhanced-damage number that reads like a typo, all under a yellow name. Its owner sold it to a private buyer off-site years ago and has not seen it since. Faith, the runeword everyone points to, is a newspawn&apos;s eyecandy next to it.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Doom Stalker</title>
       <link>https://d2itemoftheday.com/?item=doom-stalker</link>
@@ -83,18 +95,6 @@
 <p><strong>Armageddon Fletch</strong><br><em>2/20 caster amulet</em></p>
 <p>Rarity: Very Rare</p>
 <p>A rare amulet that quietly beats the famous unique ones. Two sorceress skills and twenty faster cast rate, then life, strength and all resistances piled on top. Mara&apos;s gets the attention. An amulet like this does more for a caster, and it comes with no gold name to tip you off. The random title is doing a lot of work to hide how good it is.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Eth Titan&apos;s Revenge</title>
-      <link>https://d2itemoftheday.com/?item=eth-titans-revenge</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/titans-revenge.png" alt=""></p>
-<p><strong>Eth Titan&apos;s Revenge</strong><br><em>eth Titan&apos;s</em></p>
-<p>Rarity: Rare</p>
-<p>A throwing javelin most people never think about twice. The trick is what happens when it is ethereal. Ethereal boosts the damage, and for a throwing weapon that depletes that would normally be a death sentence. Titan&apos;s Revenge replenishes its own stack, so an ethereal pair throws forever at boosted damage. Two amazon skills and thirty faster run ride along. It is the javazon&apos;s quiet grail, hiding as a common gold javelin.</p>
       ]]></description>
     </item>
   </channel>
