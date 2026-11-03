@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 02 Nov 2026 05:55:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:41:42 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Death&apos;s Guard + Death&apos;s Hand</title>
+      <link>https://d2itemoftheday.com/?item=deaths-combo</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/deaths-combo.webp" alt=""></p>
+<p><strong>Death&apos;s Guard + Death&apos;s Hand</strong><br><em>cannot-be-frozen combo</em></p>
+<p>Rarity: Uncommon</p>
+<p>Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Grim Needle</title>
       <link>https://d2itemoftheday.com/?item=guid-needle</link>
@@ -83,18 +95,6 @@
 <p><strong>Tyrael&apos;s Might</strong><br><em>TM</em></p>
 <p>Rarity: Mythic</p>
 <p>The rarest item in the game. Not one of the rarest. By the drop numbers, the single hardest thing to see. It is a good armor too, with no strength requirement and a wall of resistances, but it is not Enigma and never was. People want it because almost nobody has one.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Armageddon Fletch</title>
-      <link>https://d2itemoftheday.com/?item=armageddon-fletch</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-27</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/amulet-gold.png" alt=""></p>
-<p><strong>Armageddon Fletch</strong><br><em>2/20 caster amulet</em></p>
-<p>Rarity: Very Rare</p>
-<p>A rare amulet that quietly beats the famous unique ones. Two sorceress skills and twenty faster cast rate, then life, strength and all resistances piled on top. Mara&apos;s gets the attention. An amulet like this does more for a caster, and it comes with no gold name to tip you off. The random title is doing a lot of work to hide how good it is.</p>
       ]]></description>
     </item>
   </channel>
