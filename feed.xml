@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 03 Nov 2026 06:41:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:08:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Raven Frost</title>
+      <link>https://d2itemoftheday.com/?item=raven-frost-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>1.08 Raven Frost</strong><br><em>no dexterity at all</em></p>
+<p>Rarity: Uncommon</p>
+<p>Raven Frost is the dexterity ring. Fifteen to twenty dex, two hundred odd attack rating, forty mana, cold absorb, cannot be frozen. Take all of that away except the last line and this is what is left. In its place sit a frost nova that fires when you are struck and thirty five cold resist, neither of which the modern ring has. Plainly the worse ring, and the only Raven Frost that ever cast a spell.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Death&apos;s Guard + Death&apos;s Hand</title>
       <link>https://d2itemoftheday.com/?item=deaths-combo</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Arreat&apos;s Face</strong><br><em>target defense, not resistances</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Arreat&apos;s Face people know is defensive. Thirty to all resistances, twenty strength, twenty dexterity, life steal, a hundred and fifty enhanced defense. This one is an attacking helm wearing the same name. It cuts fifteen percent off the target&apos;s defense and adds maximum damage that climbs half a point per level, reaching forty nine at the cap. A barbarian helm that helps you hit rather than survive.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Tyrael&apos;s Might</title>
-      <link>https://d2itemoftheday.com/?item=tyraels-might</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-28</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/tyraels-might.png" alt=""></p>
-<p><strong>Tyrael&apos;s Might</strong><br><em>TM</em></p>
-<p>Rarity: Mythic</p>
-<p>The rarest item in the game. Not one of the rarest. By the drop numbers, the single hardest thing to see. It is a good armor too, with no strength requirement and a wall of resistances, but it is not Enigma and never was. People want it because almost nobody has one.</p>
       ]]></description>
     </item>
   </channel>
