@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 04 Nov 2026 06:08:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 06:38:04 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Wisp Projector</title>
+      <link>https://d2itemoftheday.com/?item=wisp-projector</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/wisp-projector.png" alt=""></p>
+<p><strong>Wisp Projector</strong><br><em>20/20 Wisp</em></p>
+<p>Rarity: Rare</p>
+<p>Nobody looks twice at Wisp Projector. It reads like a novelty ring with a pile of charges. Then you notice the two lines that matter: lightning absorb up to twenty percent, and magic find up to twenty percent. Lightning is the deadliest damage in the game at the high end, so that absorb is worth real money, and the magic find rides along for free. The charges are a footnote. The two rolls are the item.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Raven Frost</title>
       <link>https://d2itemoftheday.com/?item=raven-frost-08</link>
@@ -83,18 +95,6 @@
 <p><strong>Viper Casque</strong><br><em>socketed rare helm</em></p>
 <p>Rarity: Very Rare</p>
 <p>A rare helm that quietly covers four needs at once. Twenty faster hit recovery, eighty eight life, two resistances, and an open socket, all on a Bone Helm a caster or hybrid can wear. No single line screams, which is why it gets scrolled past, but the sum holds its own against the uniques in the slot, and the socket lets you tune it further.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Arreat&apos;s Face</title>
-      <link>https://d2itemoftheday.com/?item=arreats-face-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-29</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/arreats-face.png" alt=""></p>
-<p><strong>1.08 Arreat&apos;s Face</strong><br><em>target defense, not resistances</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Arreat&apos;s Face people know is defensive. Thirty to all resistances, twenty strength, twenty dexterity, life steal, a hundred and fifty enhanced defense. This one is an attacking helm wearing the same name. It cuts fifteen percent off the target&apos;s defense and adds maximum damage that climbs half a point per level, reaching forty nine at the cap. A barbarian helm that helps you hit rather than survive.</p>
       ]]></description>
     </item>
   </channel>
