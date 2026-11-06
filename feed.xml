@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 05 Nov 2026 06:38:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 06:34:02 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Goldskin</title>
+      <link>https://d2itemoftheday.com/?item=goldskin</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/goldskin.webp" alt=""></p>
+<p><strong>Goldskin</strong><br><em>classic resist armor</em></p>
+<p>Rarity: Uncommon</p>
+<p>Everyone remembers Goldskin as the joke armor that doubles your gold. Read the other line. In classic Diablo 2, before resistance gear was everywhere, a fixed thirty five to all resistances on the chest slot was a real answer to Hell&apos;s resistance penalties. The gold even mattered when it funded your gambling and repairs. A novelty today, a tank&apos;s staple then.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Wisp Projector</title>
       <link>https://d2itemoftheday.com/?item=wisp-projector</link>
@@ -83,18 +95,6 @@
 <p><strong>Spectral Shard</strong><br><em>Spec Shard</em></p>
 <p>Rarity: Uncommon</p>
 <p>The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Viper Casque</title>
-      <link>https://d2itemoftheday.com/?item=viper-casque</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-30</guid>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/viper-casque.png" alt=""></p>
-<p><strong>Viper Casque</strong><br><em>socketed rare helm</em></p>
-<p>Rarity: Very Rare</p>
-<p>A rare helm that quietly covers four needs at once. Twenty faster hit recovery, eighty eight life, two resistances, and an open socket, all on a Bone Helm a caster or hybrid can wear. No single line screams, which is why it gets scrolled past, but the sum holds its own against the uniques in the slot, and the socket lets you tune it further.</p>
       ]]></description>
     </item>
   </channel>
