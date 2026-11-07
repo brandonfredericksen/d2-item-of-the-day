@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 06 Nov 2026 06:34:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 05:52:24 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Hex Charm</title>
+      <link>https://d2itemoftheday.com/?item=hex-charm</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/small-charm.png" alt=""></p>
+<p><strong>Hex Charm</strong><br><em>hacked +90 stat charm</em></p>
+<p>Rarity: Mythic</p>
+<p>A small charm gives one small bonus. This one gives ninety strength, ninety dexterity and ninety vitality out of a single inventory square. The name is a real magic charm&apos;s, with numbers no charm can roll bolted underneath. A row of these turned any character into something the game was never built to allow.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Goldskin</title>
       <link>https://d2itemoftheday.com/?item=goldskin</link>
@@ -83,18 +95,6 @@
 <p><strong>Doom Stalker</strong><br><em>rare leech boots</em></p>
 <p>Rarity: Very Rare</p>
 <p>The slot most players fill with a unique and forget. This rare does more. Thirty faster run and walk, forty lightning and forty fire, twenty life with a little replenish, and the part people forget boots can even roll: life steal. Speed, two big resists, life and leech in one slot almost never land together. The leech here is one percent. A perfect roll pushes it higher.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Spectral Shard</title>
-      <link>https://d2itemoftheday.com/?item=spectral-shard</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-10-31</guid>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/spectral-shard.webp" alt=""></p>
-<p><strong>Spectral Shard</strong><br><em>Spec Shard</em></p>
-<p>Rarity: Uncommon</p>
-<p>The damage on it is a joke, four to fifteen, so a melee player tosses it. Casters know better. Fifty percent faster cast rate at a level twenty five requirement is a huge breakpoint for the price, and it comes with mana and resistances attached. In the low-level caster bracket it is a default pick, and outside that bracket nobody notices it exists.</p>
       ]]></description>
     </item>
   </channel>
