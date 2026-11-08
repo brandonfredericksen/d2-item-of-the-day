@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 07 Nov 2026 05:52:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 05:55:01 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Phoenix</title>
+      <link>https://d2itemoftheday.com/?item=phoenix-hybrid</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/monarch.png" alt=""></p>
+<p><strong>Phoenix</strong><br><em>hacked hybrid runeword</em></p>
+<p>Rarity: Mythic</p>
+<p>It borrows a real runeword&apos;s name and none of its stats. Phoenix is Vex Vex Lo Jah, and a real one carries a Redemption aura, minus enemy fire resistance and a wall of fire damage. This one has two to all skills, thirty six faster cast and sixty five faster hit recovery instead, a blend no runeword produces. It is a hacked item hiding behind a legitimate name, built to pass as the real thing.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Hex Charm</title>
       <link>https://d2itemoftheday.com/?item=hex-charm</link>
@@ -83,18 +95,6 @@
 <p><strong>Grim Needle</strong><br><em>the bow nobody has seen in years</em></p>
 <p>Rarity: Mythic</p>
 <p>The bow people still ask about. A rare Matriarchal Bow, self found and self upped from an Ashwood, socketed with two forty-fifteen jewels, the best jewels in the game. A bow skill, fifty attack speed, and an enhanced-damage number that reads like a typo, all under a yellow name. Its owner sold it to a private buyer off-site years ago and has not seen it since. Faith, the runeword everyone points to, is a newspawn&apos;s eyecandy next to it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Doom Stalker</title>
-      <link>https://d2itemoftheday.com/?item=doom-stalker</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-01</guid>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/battle-boots.png" alt=""></p>
-<p><strong>Doom Stalker</strong><br><em>rare leech boots</em></p>
-<p>Rarity: Very Rare</p>
-<p>The slot most players fill with a unique and forget. This rare does more. Thirty faster run and walk, forty lightning and forty fire, twenty life with a little replenish, and the part people forget boots can even roll: life steal. Speed, two big resists, life and leech in one slot almost never land together. The leech here is one percent. A perfect roll pushes it higher.</p>
       ]]></description>
     </item>
   </channel>
