@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 08 Nov 2026 05:55:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 06:16:29 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Highlord&apos;s Wrath</title>
+      <link>https://d2itemoftheday.com/?item=highlords-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/amulet.png" alt=""></p>
+<p><strong>1.08 Highlord&apos;s Wrath</strong><br><em>faster run, no attack speed</em></p>
+<p>Rarity: Mythic</p>
+<p>The Highlord&apos;s Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has the skill and the deadly strike. What it does not have is the attack speed. Thirty percent faster run and walk sits there instead, which no other Highlord&apos;s carries. Swap a melee stat for a movement stat and you get an amulet that is worse for the builds that want it and stranger than anything the game prints now.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Phoenix</title>
       <link>https://d2itemoftheday.com/?item=phoenix-hybrid</link>
@@ -83,18 +95,6 @@
 <p><strong>Death&apos;s Guard + Death&apos;s Hand</strong><br><em>cannot-be-frozen combo</em></p>
 <p>Rarity: Uncommon</p>
 <p>Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Grim Needle</title>
-      <link>https://d2itemoftheday.com/?item=guid-needle</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-02</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/matriarchal-bow.png" alt=""></p>
-<p><strong>Grim Needle</strong><br><em>the bow nobody has seen in years</em></p>
-<p>Rarity: Mythic</p>
-<p>The bow people still ask about. A rare Matriarchal Bow, self found and self upped from an Ashwood, socketed with two forty-fifteen jewels, the best jewels in the game. A bow skill, fifty attack speed, and an enhanced-damage number that reads like a typo, all under a yellow name. Its owner sold it to a private buyer off-site years ago and has not seen it since. Faith, the runeword everyone points to, is a newspawn&apos;s eyecandy next to it.</p>
       ]]></description>
     </item>
   </channel>
