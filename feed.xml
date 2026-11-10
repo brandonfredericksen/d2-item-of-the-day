@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 09 Nov 2026 06:16:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:10:33 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Plague Bolt</title>
+      <link>https://d2itemoftheday.com/?item=plague-bolt</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/rare-bow.png" alt=""></p>
+<p><strong>Plague Bolt</strong><br><em>level-30 LLD bow</em></p>
+<p>Rarity: Very Rare</p>
+<p>The required level thirty is the whole point. This is a level thirty dueling bow, and in that bracket a rare like this is a bowazon&apos;s endgame. Two amazon skills, twenty attack speed, a hundred and fifty nine enhanced damage and a socket, all under the level cap that defines the market. PvM players never see this economy. Inside it, a bow like this trades for real currency.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Highlord&apos;s Wrath</title>
       <link>https://d2itemoftheday.com/?item=highlords-08</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Raven Frost</strong><br><em>no dexterity at all</em></p>
 <p>Rarity: Uncommon</p>
 <p>Raven Frost is the dexterity ring. Fifteen to twenty dex, two hundred odd attack rating, forty mana, cold absorb, cannot be frozen. Take all of that away except the last line and this is what is left. In its place sit a frost nova that fires when you are struck and thirty five cold resist, neither of which the modern ring has. Plainly the worse ring, and the only Raven Frost that ever cast a spell.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Death&apos;s Guard + Death&apos;s Hand</title>
-      <link>https://d2itemoftheday.com/?item=deaths-combo</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-03</guid>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/deaths-combo.webp" alt=""></p>
-<p><strong>Death&apos;s Guard + Death&apos;s Hand</strong><br><em>cannot-be-frozen combo</em></p>
-<p>Rarity: Uncommon</p>
-<p>Two cheap set pieces, a sash and a pair of gloves, both usable at level six. Worn together they give cannot be frozen, thirty percent attack speed, and eight percent life steal. Cannot be frozen with no real level requirement is the prize. It frees an amulet or ring slot a twink would otherwise spend on the same effect. The classic lesson in why junk-looking set pieces matter.</p>
       ]]></description>
     </item>
   </channel>
