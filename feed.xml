@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 10 Nov 2026 07:10:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:05:36 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Cunning Greater Talons of Quickness</title>
+      <link>https://d2itemoftheday.com/?item=cunning-greater-talons</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/greater-talons.png" alt=""></p>
+<p><strong>Cunning Greater Talons of Quickness</strong><br><em>trapsin claw</em></p>
+<p>Rarity: Very Rare</p>
+<p>A trap assassin&apos;s dream claw. Plus three to the whole Traps tree and plus three to Lightning Sentry on top, on one magic claw, with forty attack speed. Dual wield two of these and you are stacking skills a runeword claw cannot touch. A blue weapon most players scroll right past, worth more than the orange ones to the right build.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Plague Bolt</title>
       <link>https://d2itemoftheday.com/?item=plague-bolt</link>
@@ -83,18 +95,6 @@
 <p><strong>Wisp Projector</strong><br><em>20/20 Wisp</em></p>
 <p>Rarity: Rare</p>
 <p>Nobody looks twice at Wisp Projector. It reads like a novelty ring with a pile of charges. Then you notice the two lines that matter: lightning absorb up to twenty percent, and magic find up to twenty percent. Lightning is the deadliest damage in the game at the high end, so that absorb is worth real money, and the magic find rides along for free. The charges are a footnote. The two rolls are the item.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Raven Frost</title>
-      <link>https://d2itemoftheday.com/?item=raven-frost-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-04</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>1.08 Raven Frost</strong><br><em>no dexterity at all</em></p>
-<p>Rarity: Uncommon</p>
-<p>Raven Frost is the dexterity ring. Fifteen to twenty dex, two hundred odd attack rating, forty mana, cold absorb, cannot be frozen. Take all of that away except the last line and this is what is left. In its place sit a frost nova that fires when you are struck and thirty five cold resist, neither of which the modern ring has. Plainly the worse ring, and the only Raven Frost that ever cast a spell.</p>
       ]]></description>
     </item>
   </channel>
