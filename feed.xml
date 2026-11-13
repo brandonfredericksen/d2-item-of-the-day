@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 12 Nov 2026 07:04:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 06:34:19 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Jewel of Fervor</title>
+      <link>https://d2itemoftheday.com/?item=jewel-40-15</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/jewel.png" alt=""></p>
+<p><strong>Jewel of Fervor</strong><br><em>40/15 jewel</em></p>
+<p>Rarity: Very Rare</p>
+<p>One jewel. Forty percent enhanced damage and fifteen percent increased attack speed, both maxed. It is the single most valuable jewel in the game, and it trades in the high rune range, Ber to Jah. A whole endgame rune for one socketable. Almost every jewel is filler. This exact roll is a small fortune, and two lines are all that separate them.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Carrion Song</title>
       <link>https://d2itemoftheday.com/?item=carrion-song</link>
@@ -83,18 +95,6 @@
 <p><strong>Hex Charm</strong><br><em>hacked +90 stat charm</em></p>
 <p>Rarity: Mythic</p>
 <p>A small charm gives one small bonus. This one gives ninety strength, ninety dexterity and ninety vitality out of a single inventory square. The name is a real magic charm&apos;s, with numbers no charm can roll bolted underneath. A row of these turned any character into something the game was never built to allow.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Goldskin</title>
-      <link>https://d2itemoftheday.com/?item=goldskin</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-06</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/goldskin.webp" alt=""></p>
-<p><strong>Goldskin</strong><br><em>classic resist armor</em></p>
-<p>Rarity: Uncommon</p>
-<p>Everyone remembers Goldskin as the joke armor that doubles your gold. Read the other line. In classic Diablo 2, before resistance gear was everywhere, a fixed thirty five to all resistances on the chest slot was a real answer to Hell&apos;s resistance penalties. The gold even mattered when it funded your gambling and repairs. A novelty today, a tank&apos;s staple then.</p>
       ]]></description>
     </item>
   </channel>
