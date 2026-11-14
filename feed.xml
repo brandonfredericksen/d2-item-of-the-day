@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 13 Nov 2026 06:34:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 06:12:20 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Fiend Casque</title>
+      <link>https://d2itemoftheday.com/?item=fiend-casque</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/diadem.png" alt=""></p>
+<p><strong>Fiend Casque</strong><br><em>godly assassin circlet</em></p>
+<p>Rarity: Very Rare</p>
+<p>The assassin&apos;s dream circlet. Two to all assassin skills, thirty faster run, thirty attack speed, twenty faster cast, and two open sockets, all on the best caster-helm base in the game. A rare circlet is the only helm that stacks a class-skill bonus with three separate kinds of speed and sockets to spare, and no unique assassin helm comes near it.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Jewel of Fervor</title>
       <link>https://d2itemoftheday.com/?item=jewel-40-15</link>
@@ -83,18 +95,6 @@
 <p><strong>Phoenix</strong><br><em>hacked hybrid runeword</em></p>
 <p>Rarity: Mythic</p>
 <p>It borrows a real runeword&apos;s name and none of its stats. Phoenix is Vex Vex Lo Jah, and a real one carries a Redemption aura, minus enemy fire resistance and a wall of fire damage. This one has two to all skills, thirty six faster cast and sixty five faster hit recovery instead, a blend no runeword produces. It is a hacked item hiding behind a legitimate name, built to pass as the real thing.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Hex Charm</title>
-      <link>https://d2itemoftheday.com/?item=hex-charm</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-07</guid>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/small-charm.png" alt=""></p>
-<p><strong>Hex Charm</strong><br><em>hacked +90 stat charm</em></p>
-<p>Rarity: Mythic</p>
-<p>A small charm gives one small bonus. This one gives ninety strength, ninety dexterity and ninety vitality out of a single inventory square. The name is a real magic charm&apos;s, with numbers no charm can roll bolted underneath. A row of these turned any character into something the game was never built to allow.</p>
       ]]></description>
     </item>
   </channel>
