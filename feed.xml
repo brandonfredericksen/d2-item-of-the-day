@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 14 Nov 2026 06:12:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 06:19:53 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Bartuc&apos;s Cut-Throat</title>
+      <link>https://d2itemoftheday.com/?item=bartucs-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-15</guid>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/greater-talons.png" alt=""></p>
+<p><strong>1.08 Bartuc&apos;s Cut-Throat</strong><br><em>fifty attack speed and blind</em></p>
+<p>Rarity: Very Rare</p>
+<p>The Bartuc&apos;s that drops now is a martial arts claw with life steal, flat damage and attributes. This one is a speed and debuff weapon. Fifty percent increased attack speed, twenty five percent deadly strike, thirty five off the target&apos;s defense, and every hit blinds. Hit Blinds Target is not printed on any claw the game makes today.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Fiend Casque</title>
       <link>https://d2itemoftheday.com/?item=fiend-casque</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Highlord&apos;s Wrath</strong><br><em>faster run, no attack speed</em></p>
 <p>Rarity: Mythic</p>
 <p>The Highlord&apos;s Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has the skill and the deadly strike. What it does not have is the attack speed. Thirty percent faster run and walk sits there instead, which no other Highlord&apos;s carries. Swap a melee stat for a movement stat and you get an amulet that is worse for the builds that want it and stranger than anything the game prints now.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Phoenix</title>
-      <link>https://d2itemoftheday.com/?item=phoenix-hybrid</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-08</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/monarch.png" alt=""></p>
-<p><strong>Phoenix</strong><br><em>hacked hybrid runeword</em></p>
-<p>Rarity: Mythic</p>
-<p>It borrows a real runeword&apos;s name and none of its stats. Phoenix is Vex Vex Lo Jah, and a real one carries a Redemption aura, minus enemy fire resistance and a wall of fire damage. This one has two to all skills, thirty six faster cast and sixty five faster hit recovery instead, a blend no runeword produces. It is a hacked item hiding behind a legitimate name, built to pass as the real thing.</p>
       ]]></description>
     </item>
   </channel>
