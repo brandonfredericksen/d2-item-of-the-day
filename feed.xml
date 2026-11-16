@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 15 Nov 2026 06:19:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 06:19:10 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Dire Carapace</title>
+      <link>https://d2itemoftheday.com/?item=dire-carapace</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/dire-carapace.png" alt=""></p>
+<p><strong>Dire Carapace</strong><br><em>classic rare armor</em></p>
+<p>Rarity: Very Rare</p>
+<p>In classic Diablo 2, before runewords and before elite armor existed, a rolled rare body like this was the top of the armor ladder. Nearly nine hundred defense, faster hit recovery, life, mana, resistance and a socket, all on one Ornate Plate. Classic rares stacked combinations Lord of Destruction later reined in, and a body armor carrying an attack-rating line is one of them.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Bartuc&apos;s Cut-Throat</title>
       <link>https://d2itemoftheday.com/?item=bartucs-08</link>
@@ -83,18 +95,6 @@
 <p><strong>Plague Bolt</strong><br><em>level-30 LLD bow</em></p>
 <p>Rarity: Very Rare</p>
 <p>The required level thirty is the whole point. This is a level thirty dueling bow, and in that bracket a rare like this is a bowazon&apos;s endgame. Two amazon skills, twenty attack speed, a hundred and fifty nine enhanced damage and a socket, all under the level cap that defines the market. PvM players never see this economy. Inside it, a bow like this trades for real currency.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Highlord&apos;s Wrath</title>
-      <link>https://d2itemoftheday.com/?item=highlords-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-09</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/amulet.png" alt=""></p>
-<p><strong>1.08 Highlord&apos;s Wrath</strong><br><em>faster run, no attack speed</em></p>
-<p>Rarity: Mythic</p>
-<p>The Highlord&apos;s Wrath everyone runs is a plus one skills, twenty attack speed, deadly strike amulet. This one has the skill and the deadly strike. What it does not have is the attack speed. Thirty percent faster run and walk sits there instead, which no other Highlord&apos;s carries. Swap a melee stat for a movement stat and you get an amulet that is worse for the builds that want it and stranger than anything the game prints now.</p>
       ]]></description>
     </item>
   </channel>
