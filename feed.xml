@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 16 Nov 2026 06:19:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 07:49:19 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Jeweler&apos;s Sacred Targe of Deflecting</title>
+      <link>https://d2itemoftheday.com/?item=sacred-targe</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/sacred-targe.png" alt=""></p>
+<p><strong>Jeweler&apos;s Sacred Targe of Deflecting</strong><br><em>paladin JMOD</em></p>
+<p>Rarity: Very Rare</p>
+<p>The paladin&apos;s answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Dire Carapace</title>
       <link>https://d2itemoftheday.com/?item=dire-carapace</link>
@@ -83,18 +95,6 @@
 <p><strong>Cunning Greater Talons of Quickness</strong><br><em>trapsin claw</em></p>
 <p>Rarity: Very Rare</p>
 <p>A trap assassin&apos;s dream claw. Plus three to the whole Traps tree and plus three to Lightning Sentry on top, on one magic claw, with forty attack speed. Dual wield two of these and you are stacking skills a runeword claw cannot touch. A blue weapon most players scroll right past, worth more than the orange ones to the right build.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Plague Bolt</title>
-      <link>https://d2itemoftheday.com/?item=plague-bolt</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-10</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/rare-bow.png" alt=""></p>
-<p><strong>Plague Bolt</strong><br><em>level-30 LLD bow</em></p>
-<p>Rarity: Very Rare</p>
-<p>The required level thirty is the whole point. This is a level thirty dueling bow, and in that bracket a rare like this is a bowazon&apos;s endgame. Two amazon skills, twenty attack speed, a hundred and fifty nine enhanced damage and a socket, all under the level cap that defines the market. PvM players never see this economy. Inside it, a bow like this trades for real currency.</p>
       ]]></description>
     </item>
   </channel>
