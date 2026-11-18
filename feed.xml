@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 17 Nov 2026 07:49:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 07:19:34 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Bloodfist</title>
+      <link>https://d2itemoftheday.com/?item=bloodfist</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/bloodfist.webp" alt=""></p>
+<p><strong>Bloodfist</strong><br><em>perfect Bloodfist</em></p>
+<p>Rarity: Rare</p>
+<p>Level nine gloves. A player rushing to endgame vendors them without a glance. In the low-level dueling bracket they are a staple, because forty life, ten attack speed and thirty faster hit recovery at that level requirement is enormous. A perfect pair with max enhanced defense trades for real currency inside that market.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Jeweler&apos;s Sacred Targe of Deflecting</title>
       <link>https://d2itemoftheday.com/?item=sacred-targe</link>
@@ -83,18 +95,6 @@
 <p><strong>Carrion Song</strong><br><em>classic rare bow</em></p>
 <p>Rarity: Very Rare</p>
 <p>A yellow bow with a random name, and in classic Diablo 2 that was the dream. Before runewords, before Windforce, a rolled rare like this was the bowazon endgame. A class skill on a bow you can hold at level 26, very fast attack speed, a stack of attack rating and max damage. The name means nothing. The game bolts two words together at random. The rolls are everything, and rolls like these almost never landed.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Cunning Greater Talons of Quickness</title>
-      <link>https://d2itemoftheday.com/?item=cunning-greater-talons</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-11</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/greater-talons.png" alt=""></p>
-<p><strong>Cunning Greater Talons of Quickness</strong><br><em>trapsin claw</em></p>
-<p>Rarity: Very Rare</p>
-<p>A trap assassin&apos;s dream claw. Plus three to the whole Traps tree and plus three to Lightning Sentry on top, on one magic claw, with forty attack speed. Dual wield two of these and you are stacking skills a runeword claw cannot touch. A blue weapon most players scroll right past, worth more than the orange ones to the right build.</p>
       ]]></description>
     </item>
   </channel>
