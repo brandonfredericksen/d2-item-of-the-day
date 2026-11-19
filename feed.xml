@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 18 Nov 2026 07:19:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 07:17:04 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Artisan&apos;s Diadem of Life Everlasting</title>
+      <link>https://d2itemoftheday.com/?item=artisans-diadem-dr</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/diadem.png" alt=""></p>
+<p><strong>Artisan&apos;s Diadem of Life Everlasting</strong><br><em>26 DR caster Diadem</em></p>
+<p>Rarity: Very Rare</p>
+<p>The other end of the Diadem chase. This one traded run speed for twenty six flat damage reduction, one of the strongest defensive stats in the game, on the best caster-helm base, with three sockets still open for facets. Flat damage reduction that high on a helm you can also stack facets into is a rare and greedy combination.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Bloodfist</title>
       <link>https://d2itemoftheday.com/?item=bloodfist</link>
@@ -83,18 +95,6 @@
 <p><strong>Jewel of Fervor</strong><br><em>40/15 jewel</em></p>
 <p>Rarity: Very Rare</p>
 <p>One jewel. Forty percent enhanced damage and fifteen percent increased attack speed, both maxed. It is the single most valuable jewel in the game, and it trades in the high rune range, Ber to Jah. A whole endgame rune for one socketable. Almost every jewel is filler. This exact roll is a small fortune, and two lines are all that separate them.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Carrion Song</title>
-      <link>https://d2itemoftheday.com/?item=carrion-song</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-12</guid>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/rare-bow.png" alt=""></p>
-<p><strong>Carrion Song</strong><br><em>classic rare bow</em></p>
-<p>Rarity: Very Rare</p>
-<p>A yellow bow with a random name, and in classic Diablo 2 that was the dream. Before runewords, before Windforce, a rolled rare like this was the bowazon endgame. A class skill on a bow you can hold at level 26, very fast attack speed, a stack of attack rating and max damage. The name means nothing. The game bolts two words together at random. The rolls are everything, and rolls like these almost never landed.</p>
       ]]></description>
     </item>
   </channel>
