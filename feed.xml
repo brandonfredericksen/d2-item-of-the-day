@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 19 Nov 2026 07:17:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:06:02 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>1.08 Bul-Kathos&apos; Wedding Band</title>
+      <link>https://d2itemoftheday.com/?item=bul-kathos-08</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>1.08 Bul-Kathos&apos; Wedding Band</strong><br><em>flat 20 life, fixed 4% leech</em></p>
+<p>Rarity: Mythic</p>
+<p>The Bul-Kathos ring is famous for one line, plus one to all skills. The two under it are what changed. This one gives a flat twenty life and a fixed four percent leech, the same at level one as at ninety nine. The modern ring rolls three to five percent and pays its life at half a point per level, so a low character gets almost nothing out of it. For a twink the two are not close.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Artisan&apos;s Diadem of Life Everlasting</title>
       <link>https://d2itemoftheday.com/?item=artisans-diadem-dr</link>
@@ -83,18 +95,6 @@
 <p><strong>Fiend Casque</strong><br><em>godly assassin circlet</em></p>
 <p>Rarity: Very Rare</p>
 <p>The assassin&apos;s dream circlet. Two to all assassin skills, thirty faster run, thirty attack speed, twenty faster cast, and two open sockets, all on the best caster-helm base in the game. A rare circlet is the only helm that stacks a class-skill bonus with three separate kinds of speed and sockets to spare, and no unique assassin helm comes near it.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Jewel of Fervor</title>
-      <link>https://d2itemoftheday.com/?item=jewel-40-15</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-13</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/jewel.png" alt=""></p>
-<p><strong>Jewel of Fervor</strong><br><em>40/15 jewel</em></p>
-<p>Rarity: Very Rare</p>
-<p>One jewel. Forty percent enhanced damage and fifteen percent increased attack speed, both maxed. It is the single most valuable jewel in the game, and it trades in the high rune range, Ber to Jah. A whole endgame rune for one socketable. Almost every jewel is filler. This exact roll is a small fortune, and two lines are all that separate them.</p>
       ]]></description>
     </item>
   </channel>
