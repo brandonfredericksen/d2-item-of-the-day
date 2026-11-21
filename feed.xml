@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 20 Nov 2026 07:06:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 06:58:46 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Eagle Loop</title>
+      <link>https://d2itemoftheday.com/?item=eagle-loop</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>Eagle Loop</strong><br><em>the best melee ring</em></p>
+<p>Rarity: Very Rare</p>
+<p>The melee answer to the caster&apos;s dream ring. It rolls the exact five lines a physical build wants, attack rating, life steal, strength, dexterity and life, all high, on one ring. The famous unique rings give a skill or an aura. For a pure melee character this stat block does more, and it wears no gold name to tip anyone off.</p>
+      ]]></description>
+    </item>
     <item>
       <title>1.08 Bul-Kathos&apos; Wedding Band</title>
       <link>https://d2itemoftheday.com/?item=bul-kathos-08</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Bartuc&apos;s Cut-Throat</strong><br><em>fifty attack speed and blind</em></p>
 <p>Rarity: Very Rare</p>
 <p>The Bartuc&apos;s that drops now is a martial arts claw with life steal, flat damage and attributes. This one is a speed and debuff weapon. Fifty percent increased attack speed, twenty five percent deadly strike, thirty five off the target&apos;s defense, and every hit blinds. Hit Blinds Target is not printed on any claw the game makes today.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Fiend Casque</title>
-      <link>https://d2itemoftheday.com/?item=fiend-casque</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-14</guid>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/diadem.png" alt=""></p>
-<p><strong>Fiend Casque</strong><br><em>godly assassin circlet</em></p>
-<p>Rarity: Very Rare</p>
-<p>The assassin&apos;s dream circlet. Two to all assassin skills, thirty faster run, thirty attack speed, twenty faster cast, and two open sockets, all on the best caster-helm base in the game. A rare circlet is the only helm that stacks a class-skill bonus with three separate kinds of speed and sockets to spare, and no unique assassin helm comes near it.</p>
       ]]></description>
     </item>
   </channel>
