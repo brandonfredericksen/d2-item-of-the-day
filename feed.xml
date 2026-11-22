@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 21 Nov 2026 06:58:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 06:39:08 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Zod Rune</title>
+      <link>https://d2itemoftheday.com/?item=kano-zod</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/zod-rune.png" alt=""></p>
+<p><strong>Zod Rune</strong><br><em>the rune Kano vendored</em></p>
+<p>Rarity: Mythic</p>
+<p>The Zod is the rarest rune in the game and the only thing that saves an ethereal item, because it makes anything indestructible. It is also the punchline to one of the best drop stories Diablo 2 has produced. In 2024 a speedrunner hit a Zod, a one in nearly three million drop, deep into a world-record run, and walked to the nearest vendor to sell it for pocket change on purpose.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Eagle Loop</title>
       <link>https://d2itemoftheday.com/?item=eagle-loop</link>
@@ -83,18 +95,6 @@
 <p><strong>Dire Carapace</strong><br><em>classic rare armor</em></p>
 <p>Rarity: Very Rare</p>
 <p>In classic Diablo 2, before runewords and before elite armor existed, a rolled rare body like this was the top of the armor ladder. Nearly nine hundred defense, faster hit recovery, life, mana, resistance and a socket, all on one Ornate Plate. Classic rares stacked combinations Lord of Destruction later reined in, and a body armor carrying an attack-rating line is one of them.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Bartuc&apos;s Cut-Throat</title>
-      <link>https://d2itemoftheday.com/?item=bartucs-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-15</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/greater-talons.png" alt=""></p>
-<p><strong>1.08 Bartuc&apos;s Cut-Throat</strong><br><em>fifty attack speed and blind</em></p>
-<p>Rarity: Very Rare</p>
-<p>The Bartuc&apos;s that drops now is a martial arts claw with life steal, flat damage and attributes. This one is a speed and debuff weapon. Fifty percent increased attack speed, twenty five percent deadly strike, thirty five off the target&apos;s defense, and every hit blinds. Hit Blinds Target is not printed on any claw the game makes today.</p>
       ]]></description>
     </item>
   </channel>
