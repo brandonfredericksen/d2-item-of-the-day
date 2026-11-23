@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 22 Nov 2026 06:39:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 07:27:48 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Eth Sandstorm Trek</title>
+      <link>https://d2itemoftheday.com/?item=eth-sandstorm-trek</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/sandstorm-trek.png" alt=""></p>
+<p><strong>Eth Sandstorm Trek</strong><br><em>eth Treks</em></p>
+<p>Rarity: Rare</p>
+<p>Treks are cheap. Everyone has a pair, which is exactly why the good ones hide in plain sight. The chase is an ethereal pair with maxed strength and vitality. Ethereal usually means an item wears out and dies, but Sandstorm Trek repairs itself, so the ethereal version keeps its boosted defense forever and never breaks. The same boots most players vendor, except this one is worth a pile of runes.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Zod Rune</title>
       <link>https://d2itemoftheday.com/?item=kano-zod</link>
@@ -83,18 +95,6 @@
 <p><strong>Jeweler&apos;s Sacred Targe of Deflecting</strong><br><em>paladin JMOD</em></p>
 <p>Rarity: Very Rare</p>
 <p>The paladin&apos;s answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Dire Carapace</title>
-      <link>https://d2itemoftheday.com/?item=dire-carapace</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-16</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/dire-carapace.png" alt=""></p>
-<p><strong>Dire Carapace</strong><br><em>classic rare armor</em></p>
-<p>Rarity: Very Rare</p>
-<p>In classic Diablo 2, before runewords and before elite armor existed, a rolled rare body like this was the top of the armor ladder. Nearly nine hundred defense, faster hit recovery, life, mana, resistance and a socket, all on one Ornate Plate. Classic rares stacked combinations Lord of Destruction later reined in, and a body armor carrying an attack-rating line is one of them.</p>
       ]]></description>
     </item>
   </channel>
