@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 23 Nov 2026 07:27:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 09:47:54 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>White Ring</title>
+      <link>https://d2itemoftheday.com/?item=white-ring</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-24</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
+<p><strong>White Ring</strong><br><em>hacked absorb ring</em></p>
+<p>Rarity: Mythic</p>
+<p>A plain white ring with no name and no requirements, carrying the best absorb in the game three times over. Ninety six percent taken off fire, lightning and cold at once, with a hundred faster run and a hundred attack speed alongside. No legitimate ring rolls any of this. On the old realms a White Ring made a dueler nearly immune to elements, which is exactly why it was contraband gold.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Eth Sandstorm Trek</title>
       <link>https://d2itemoftheday.com/?item=eth-sandstorm-trek</link>
@@ -83,18 +95,6 @@
 <p><strong>Bloodfist</strong><br><em>perfect Bloodfist</em></p>
 <p>Rarity: Rare</p>
 <p>Level nine gloves. A player rushing to endgame vendors them without a glance. In the low-level dueling bracket they are a staple, because forty life, ten attack speed and thirty faster hit recovery at that level requirement is enormous. A perfect pair with max enhanced defense trades for real currency inside that market.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Jeweler&apos;s Sacred Targe of Deflecting</title>
-      <link>https://d2itemoftheday.com/?item=sacred-targe</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-17</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/sacred-targe.png" alt=""></p>
-<p><strong>Jeweler&apos;s Sacred Targe of Deflecting</strong><br><em>paladin JMOD</em></p>
-<p>Rarity: Very Rare</p>
-<p>The paladin&apos;s answer to the JMOD. A magic Sacred Targe with four sockets, the block rolls, and the paladin-only all-resistance bonus maxed at forty five. Fill the sockets with facets and you get a max-block shield with resistance already baked in that no runeword can match on this base. Paladins who know, hunt these. It reads as a blue shield and trades like an endgame piece.</p>
       ]]></description>
     </item>
   </channel>
