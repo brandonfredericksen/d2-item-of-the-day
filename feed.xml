@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 24 Nov 2026 09:47:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 08:23:05 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Hellfire Torch</title>
+      <link>https://d2itemoftheday.com/?item=legacy-hellfire-torch</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/uniques/legacy-hellfire-torch.webp" alt=""></p>
+<p><strong>Hellfire Torch</strong><br><em>legacy Torch (25% Firestorm)</em></p>
+<p>Rarity: Mythic</p>
+<p>Everyone knows the Hellfire Torch. Almost nobody has seen this one. The current Torch casts Firestorm five percent of the time. The old one cast it twenty-five. Five times the fire, on a charm that was already an endgame staple. It stopped dropping in this form, so every 25 percent Torch is a survivor from before the nerf.</p>
+      ]]></description>
+    </item>
     <item>
       <title>White Ring</title>
       <link>https://d2itemoftheday.com/?item=white-ring</link>
@@ -83,18 +95,6 @@
 <p><strong>Artisan&apos;s Diadem of Life Everlasting</strong><br><em>26 DR caster Diadem</em></p>
 <p>Rarity: Very Rare</p>
 <p>The other end of the Diadem chase. This one traded run speed for twenty six flat damage reduction, one of the strongest defensive stats in the game, on the best caster-helm base, with three sockets still open for facets. Flat damage reduction that high on a helm you can also stack facets into is a rare and greedy combination.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Bloodfist</title>
-      <link>https://d2itemoftheday.com/?item=bloodfist</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-18</guid>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/uniques/bloodfist.webp" alt=""></p>
-<p><strong>Bloodfist</strong><br><em>perfect Bloodfist</em></p>
-<p>Rarity: Rare</p>
-<p>Level nine gloves. A player rushing to endgame vendors them without a glance. In the low-level dueling bracket they are a staple, because forty life, ten attack speed and thirty faster hit recovery at that level requirement is enormous. A perfect pair with max enhanced defense trades for real currency inside that market.</p>
       ]]></description>
     </item>
   </channel>
