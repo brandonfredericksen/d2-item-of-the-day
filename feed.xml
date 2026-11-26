@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 25 Nov 2026 08:23:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 08:08:11 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Volcanic Eldritch Orb</title>
+      <link>https://d2itemoftheday.com/?item=volcanic-eldritch-orb</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/eldritch-orb.png" alt=""></p>
+<p><strong>Volcanic Eldritch Orb</strong><br><em>fire sorc caster orb</em></p>
+<p>Rarity: Very Rare</p>
+<p>A fire sorceress dream stacked onto one blue orb. Three to the whole fire tree, three more to Fire Mastery, three more to Enchant, and two open sockets on top. Sorceress orbs roll hidden skill bonuses, and hitting three useful ones at once is what separates a fortune from a vendor sale. Drop two facets in and the fire damage climbs again.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Hellfire Torch</title>
       <link>https://d2itemoftheday.com/?item=legacy-hellfire-torch</link>
@@ -83,18 +95,6 @@
 <p><strong>1.08 Bul-Kathos&apos; Wedding Band</strong><br><em>flat 20 life, fixed 4% leech</em></p>
 <p>Rarity: Mythic</p>
 <p>The Bul-Kathos ring is famous for one line, plus one to all skills. The two under it are what changed. This one gives a flat twenty life and a fixed four percent leech, the same at level one as at ninety nine. The modern ring rolls three to five percent and pays its life at half a point per level, so a low character gets almost nothing out of it. For a twink the two are not close.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Artisan&apos;s Diadem of Life Everlasting</title>
-      <link>https://d2itemoftheday.com/?item=artisans-diadem-dr</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-19</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/diadem.png" alt=""></p>
-<p><strong>Artisan&apos;s Diadem of Life Everlasting</strong><br><em>26 DR caster Diadem</em></p>
-<p>Rarity: Very Rare</p>
-<p>The other end of the Diadem chase. This one traded run speed for twenty six flat damage reduction, one of the strongest defensive stats in the game, on the best caster-helm base, with three sockets still open for facets. Flat damage reduction that high on a helm you can also stack facets into is a rare and greedy combination.</p>
       ]]></description>
     </item>
   </channel>
