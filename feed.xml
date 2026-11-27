@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 26 Nov 2026 08:08:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:18:17 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Lancer&apos;s Matriarchal Javelin of Quickness</title>
+      <link>https://d2itemoftheday.com/?item=lancers-matriarchal-javelin</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/matriarchal-javelin.png" alt=""></p>
+<p><strong>Lancer&apos;s Matriarchal Javelin of Quickness</strong><br><em>+6 skill javazon javelin</em></p>
+<p>Rarity: Very Rare</p>
+<p>Six skill levels on a throwing weapon. Plus six to javelin and spear skills is more than any javazon gets from a single item anywhere else, and it comes with forty attack speed on a fast base. A blue javelin that outclasses the famous options for a javazon, and most people never think to read the skills line on a magic throwing weapon.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Volcanic Eldritch Orb</title>
       <link>https://d2itemoftheday.com/?item=volcanic-eldritch-orb</link>
@@ -83,18 +95,6 @@
 <p><strong>Eagle Loop</strong><br><em>the best melee ring</em></p>
 <p>Rarity: Very Rare</p>
 <p>The melee answer to the caster&apos;s dream ring. It rolls the exact five lines a physical build wants, attack rating, life steal, strength, dexterity and life, all high, on one ring. The famous unique rings give a skill or an aura. For a pure melee character this stat block does more, and it wears no gold name to tip anyone off.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>1.08 Bul-Kathos&apos; Wedding Band</title>
-      <link>https://d2itemoftheday.com/?item=bul-kathos-08</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-20</guid>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>1.08 Bul-Kathos&apos; Wedding Band</strong><br><em>flat 20 life, fixed 4% leech</em></p>
-<p>Rarity: Mythic</p>
-<p>The Bul-Kathos ring is famous for one line, plus one to all skills. The two under it are what changed. This one gives a flat twenty life and a fixed four percent leech, the same at level one as at ninety nine. The modern ring rolls three to five percent and pays its life at half a point per level, so a low character gets almost nothing out of it. For a twink the two are not close.</p>
       ]]></description>
     </item>
   </channel>
