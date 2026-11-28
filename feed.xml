@@ -6,13 +6,25 @@
     <description>One rare Diablo 2 collector's item every day.</description>
     <language>en</language>
     <atom:link href="https://d2itemoftheday.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 27 Nov 2026 08:18:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 07:39:27 +0000</lastBuildDate>
     <ttl>720</ttl>
     <image>
       <url>https://d2itemoftheday.com/img/og-card.png</url>
       <title>D2 Item of the Day</title>
       <link>https://d2itemoftheday.com/</link>
     </image>
+    <item>
+      <title>Constricting Ring</title>
+      <link>https://d2itemoftheday.com/?item=constricting-ring</link>
+      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+<p><img src="https://d2itemoftheday.com/img/constricting-ring.png" alt=""></p>
+<p><strong>Constricting Ring</strong><br><em>the ring that never dropped</em></p>
+<p>Rarity: Mythic</p>
+<p>A ring that raises every one of your resistance caps. Not your resistance, the cap itself, from seventy five to ninety across all four elements. Nothing else in the game does it, and nothing was ever supposed to. It sits in the files complete with stats and a level ninety five requirement, switched off so it can never drop.</p>
+      ]]></description>
+    </item>
     <item>
       <title>Lancer&apos;s Matriarchal Javelin of Quickness</title>
       <link>https://d2itemoftheday.com/?item=lancers-matriarchal-javelin</link>
@@ -83,18 +95,6 @@
 <p><strong>Zod Rune</strong><br><em>the rune Kano vendored</em></p>
 <p>Rarity: Mythic</p>
 <p>The Zod is the rarest rune in the game and the only thing that saves an ethereal item, because it makes anything indestructible. It is also the punchline to one of the best drop stories Diablo 2 has produced. In 2024 a speedrunner hit a Zod, a one in nearly three million drop, deep into a world-record run, and walked to the nearest vendor to sell it for pocket change on purpose.</p>
-      ]]></description>
-    </item>
-    <item>
-      <title>Eagle Loop</title>
-      <link>https://d2itemoftheday.com/?item=eagle-loop</link>
-      <guid isPermaLink="false">https://d2itemoftheday.com/2026-11-21</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
-      <description><![CDATA[
-<p><img src="https://d2itemoftheday.com/img/ring.png" alt=""></p>
-<p><strong>Eagle Loop</strong><br><em>the best melee ring</em></p>
-<p>Rarity: Very Rare</p>
-<p>The melee answer to the caster&apos;s dream ring. It rolls the exact five lines a physical build wants, attack rating, life steal, strength, dexterity and life, all high, on one ring. The famous unique rings give a skill or an aura. For a pure melee character this stat block does more, and it wears no gold name to tip anyone off.</p>
       ]]></description>
     </item>
   </channel>
